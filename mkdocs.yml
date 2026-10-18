@@ -353,6 +353,7 @@ nav:
           - especialidades/otorrinolaringologia/index.md
   - Salud pública:
       - salud-publica/index.md
+  - Patologías GES: ges/index.md
   - Acerca de:
       - Cómo se hacen los resúmenes: acerca/metodologia.md
       - Temas GES y etiquetas: acerca/etiquetas.md

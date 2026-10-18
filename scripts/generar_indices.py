@@ -265,6 +265,10 @@ def main():
             f"-   :material-{icono}:{{ .lg .middle }} **[{esp['titulo']}]({esp['carpeta']}/index.md)**\n\n    ---\n\n"
             f"    {desc}. {estado}\n"
         )
+    tarjetas.append(
+        "-   :material-shield-check:{ .lg .middle } **[Patologías GES](ges/index.md)**\n\n    ---\n\n"
+        "    Los 90 problemas de salud GES y su guía clínica o norma. En preparación\n"
+    )
     tarjetas.append("</div>")
     inicio = DOCS / "index.md"
     texto = inicio.read_text(encoding="utf-8")
@@ -296,6 +300,7 @@ def main():
             for p in paginas:
                 nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
     nav += [
+        "  - Patologías GES: ges/index.md",
         "  - Acerca de:",
         "      - Cómo se hacen los resúmenes: acerca/metodologia.md",
         "      - Temas GES y etiquetas: acerca/etiquetas.md",

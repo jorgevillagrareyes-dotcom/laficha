@@ -65,6 +65,12 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     Epidemiología, sistema de salud y gestión. En preparación · **0 de 55** temas con resumen
 
+-   :material-shield-check:{ .lg .middle } **[Patologías GES](ges/index.md)**
+
+    ---
+
+    Los 90 problemas de salud GES y su guía clínica o norma. En preparación
+
 </div>
 <!-- especialidades:fin -->
 
