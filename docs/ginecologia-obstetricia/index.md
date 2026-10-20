@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **61 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **62 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -17,6 +17,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Prolapso genital (prolapso de órganos pélvicos)](prolapso-genital.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md)
@@ -52,7 +53,7 @@ hide:
 | 3.01.1.023 | Patología benigna del endometrio (hiperplasia, pólipos…) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.024 | Patología maligna del endometrio | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.025 | Proceso inflamatorio pelviano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md) |
-| 3.01.1.026 | Prolapso genital | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.026 | Prolapso genital | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Prolapso genital (prolapso de órganos pélvicos)](prolapso-genital.md) |
 | 3.01.1.027 | Síndrome climatérico y menopausia | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
 | 3.01.1.028 | Tumores ováricos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores ováricos y masa anexial (incluido el cáncer de ovario epitelial)](tumores-ovaricos-y-masa-anexial.md) |
 | 3.01.1.029 | Patología benigna de mama | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Patología mamaria benigna](../cirugia/cabeza-cuello-tiroides-y-mama/patologia-mamaria-benigna.md) |

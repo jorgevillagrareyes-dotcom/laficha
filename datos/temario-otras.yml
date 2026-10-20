@@ -1436,6 +1436,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/prolapso-genital.md
     - codigo: 3.01.1.027
       nombre: Síndrome climatérico y menopausia
       dx: Específico
