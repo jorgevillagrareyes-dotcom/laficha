@@ -1508,11 +1508,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/metrorragia-de-la-segunda-mitad-del-embarazo.md
     - codigo: 3.01.2.011
       nombre: 'Metrorragia: placenta previa'
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/metrorragia-de-la-segunda-mitad-del-embarazo.md
     - codigo: 3.01.2.012
       nombre: Parto prematuro
       dx: Específico
@@ -1533,6 +1537,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/metrorragia-de-la-segunda-mitad-del-embarazo.md
     - codigo: 3.01.2.016
       nombre: Dolor pélvico agudo
       dx: Sospecha

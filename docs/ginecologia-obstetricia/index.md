@@ -6,12 +6,13 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **27 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **30 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 
 ## Situaciones clínicas
 
@@ -63,12 +64,12 @@ hide:
 | 3.01.2.007 | Hiperemesis gravídica | Específico | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.008 | Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.009 | Mastitis puerperal | Específico | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.010 | Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI) | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.011 | Metrorragia: placenta previa | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.010 | Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI) | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
+| 3.01.2.011 | Metrorragia: placenta previa | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.012 | Parto prematuro | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.013 | Presentaciones fetales anómalas | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.014 | Rotura prematura de membranas | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.015 | Rotura uterina | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.015 | Rotura uterina | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.016 | Dolor pélvico agudo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.017 | Sufrimiento fetal agudo | Específico | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.018 | Pelviperitonitis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
