@@ -1261,6 +1261,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
     - codigo: 3.01.1.002
       nombre: Anemia y embarazo
       dx: Específico
@@ -1290,6 +1292,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
     - codigo: 3.01.1.007
       nombre: Embarazo múltiple
       dx: Sospecha
@@ -1300,6 +1304,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
     - codigo: 3.01.1.009
       nombre: Macrosomía fetal
       dx: Sospecha
@@ -1447,6 +1453,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
     - codigo: 3.01.2.002
       nombre: Absceso glándula de Bartolino
       dx: Específico
@@ -1471,6 +1479,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
     - codigo: 3.01.2.006
       nombre: Endometritis puerperal
       dx: Sospecha

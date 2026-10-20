@@ -6,20 +6,24 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **17 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **22 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+
+## Resúmenes disponibles
+
+- :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 
 ## Situaciones clínicas
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 3.01.1.001 | Aborto espontáneo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.001 | Aborto espontáneo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.1.002 | Anemia y embarazo | Específico | Completo | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Anemias: enfoque, ferropénica, de enfermedades crónicas, megaloblástica y hemolítica](../hematologia/anemias.md) |
 | 3.01.1.003 | Colestasia gravídica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.004 | Diabetes y embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes y embarazo: diabetes gestacional y diabetes pregestacional](../endocrinologia/diabetes-y-embarazo.md) |
 | 3.01.1.005 | Embarazo con edad gestacional dudosa | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.006 | Embarazo ectópico no complicado | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.006 | Embarazo ectópico no complicado | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.1.007 | Embarazo múltiple | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.008 | Enfermedad del trofoblasto | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.008 | Enfermedad del trofoblasto | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.1.009 | Macrosomía fetal | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.010 | Restricción de crecimiento fetal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.011 | Síndrome hipertensivo del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
@@ -49,11 +53,11 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 3.01.2.001 | Aborto provocado | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.001 | Aborto provocado | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.2.002 | Absceso glándula de Bartolino | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.003 | Crisis hipertensiva del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.2.004 | Eclampsia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
-| 3.01.2.005 | Embarazo ectópico complicado | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.005 | Embarazo ectópico complicado | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.2.006 | Endometritis puerperal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.007 | Hiperemesis gravídica | Específico | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.008 | Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
