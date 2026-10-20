@@ -1497,6 +1497,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
     - codigo: 3.01.2.007
       nombre: Hiperemesis gravídica
       dx: Específico
@@ -1514,6 +1516,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
     - codigo: 3.01.2.010
       nombre: 'Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI)'
       dx: Sospecha
@@ -1583,6 +1587,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
     - codigo: 3.01.2.021
       nombre: Trabajo parto distócico
       dx: Sospecha
@@ -1605,6 +1611,8 @@ especialidades:
       - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.3.004
       nombre: Lactancia
+      resumen:
+      - ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
     - codigo: 3.01.3.005
       nombre: Manejo de la salud de la mujer climatérica
       resumen:
@@ -1637,6 +1645,8 @@ especialidades:
       - endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md
     - codigo: 3.01.3.016
       nombre: Vínculo y apego
+      resumen:
+      - ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
 - carpeta: pediatria
   titulo: Pediatría
   secciones:

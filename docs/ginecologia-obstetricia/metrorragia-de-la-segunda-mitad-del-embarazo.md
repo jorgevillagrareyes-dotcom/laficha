@@ -225,7 +225,7 @@ flowchart TD
     | **Nifedipino** (tocolisis) | **20 mg VO**, luego 10–20 mg cada 6–8 h | Contracciones en una placenta previa o en un DPPNI leve < 32 semanas (Guía Perinatal 2015) |
     | **Inmunoglobulina anti-D** | **300 µg IM** | Rh negativa no sensibilizada (ajustar con el Kleihauer si la hemorragia feto-materna es extensa) |
     | **Hemoderivados** | Glóbulos rojos; **1 plasma por cada 4 glóbulos rojos**; crioprecipitado si el fibrinógeno es bajo | DPPNI grave, CID |
-    | **Ácido tranexámico** | **1 g IV** | Hemorragia posparto (ver la página de parto y puerperio) |
+    | **Ácido tranexámico** | **1 g IV** | Hemorragia posparto ([ver puerperio](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md)) |
 
 !!! alarma "Urgencia"
     - **Sangrado con shock**, **útero leñoso** o **sufrimiento fetal**: DPPNI severo → **interrupción inmediata**.
