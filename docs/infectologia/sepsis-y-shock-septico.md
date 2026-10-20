@@ -258,7 +258,7 @@ flowchart TD
 - **Renales**: **lesión renal aguda** (la disfunción orgánica más frecuente junto con la respiratoria), necesidad de diálisis.
 - **Hematológicas**: **CID**, trombocitopenia.
 - **Neurológicas**: **delirium**, encefalopatía séptica, **debilidad adquirida en la UCI**.
-- **Cardiovasculares**: **miocardiopatía séptica**, arritmias (fibrilación auricular de novo), IAM tipo 2.
+- **Cardiovasculares**: **miocardiopatía séptica**, arritmias (fibrilación auricular de novo), IAM secundario (ex tipo 2).
 - **Metabólicas**: hiperglicemia, insuficiencia suprarrenal relativa.
 - **Iatrogénicas**: **sobrecarga de volumen**, infecciones intrahospitalarias, *Clostridioides difficile*, resistencia antimicrobiana.
 - **Síndrome post-sepsis**: deterioro funcional, cognitivo y psicológico (ansiedad, depresión, estrés postraumático), reingresos y mayor mortalidad en el año siguiente.

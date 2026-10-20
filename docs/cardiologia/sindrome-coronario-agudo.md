@@ -17,13 +17,13 @@ Cardiología · Urgencias
 ESC 2023 (síndromes coronarios agudos) · ACC/AHA/ACEP/NAEMSP/SCAI 2025
 
 **Otras fuentes**
-Cuarta definición universal de infarto (2018) · Guía GES MINSAL infarto agudo del miocardio · ESC 2026 rehabilitación cardíaca
+Quinta definición universal de infarto (ESC/ACC/AHA/WHF, agosto 2026) · Guía GES MINSAL infarto agudo del miocardio · ESC 2026 rehabilitación cardíaca
 
 **GES**
 Sí: infarto agudo del miocardio (confirmación, trombólisis y prevención secundaria)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -39,7 +39,7 @@ Septiembre 2026
 
 El **síndrome coronario agudo** es el conjunto de cuadros causados por una **reducción aguda del flujo coronario**, habitualmente por **trombosis sobre una placa aterosclerótica** complicada.
 
-**Infarto agudo al miocardio (cuarta definición universal, 2018)**: **injuria miocárdica aguda** (**alza y/o caída de la troponina** con al menos un valor sobre el **percentil 99** del límite superior de referencia) **con evidencia clínica de isquemia**, es decir, al menos uno de:
+**Infarto agudo al miocardio (quinta definición universal, 2026)**: **injuria miocárdica aguda** (**alza y/o caída de la troponina** con al menos un valor sobre el **percentil 99 del límite superior de referencia específico por sexo**) **con evidencia de isquemia aguda**, es decir, al menos uno de:
 
 - Síntomas de isquemia miocárdica.
 - Cambios isquémicos nuevos en el ECG.
@@ -53,15 +53,20 @@ El **síndrome coronario agudo** es el conjunto de cuadros causados por una **re
 | **IAM sin supradesnivel del ST (IAMSEST)** | Infradesnivel del ST, inversión de T, cambios transitorios o ECG normal | **Elevada** con curva de alza o caída |
 | **Angina inestable** | Igual que el IAMSEST | **Normal** (menos frecuente con troponina ultrasensible) |
 
-### Tipos de infarto (definición universal)
+### Categorías de infarto (quinta definición universal, 2026)
 
-| Tipo | Mecanismo |
-|---|---|
-| **1** | **Aterotrombótico**: rotura o erosión de placa con trombosis (el SCA "clásico") |
-| **2** | **Desbalance oferta/demanda** sin trombosis aguda: anemia, taquiarritmia, hipotensión o shock, hipoxemia, crisis hipertensiva, espasmo coronario |
-| **3** | Muerte súbita con síntomas isquémicos antes de obtener la troponina |
-| **4** | Asociado a angioplastía (4a), trombosis del stent (4b), reestenosis (4c) |
-| **5** | Asociado a cirugía de revascularización |
+La quinta definición **reemplaza los tipos numerados 1 a 5** por **tres categorías clínicas**:
+
+| Categoría | Mecanismo | Equivalencia con la cuarta definición (2018) |
+|---|---|---|
+| **Primario** | **Patología coronaria aguda espontánea**: aterotrombosis (rotura o erosión de placa), **disección coronaria espontánea**, **vasoespasmo**, **embolía coronaria**; también la reestenosis, la trombosis del stent o la falla del injerto **más de 30 días** después de un procedimiento | Tipo 1 (y parte de los tipos 2 y 4) |
+| **Secundario** | **Otra condición aguda** que produce un **desbalance oferta/demanda** de oxígeno (anemia, taquiarritmia, hipotensión o shock, hipoxemia, crisis hipertensiva), **sin** patología coronaria aguda. Se confirma con **enfermedad coronaria obstructiva** o con una **nueva alteración de la motilidad segmentaria** o pérdida de viabilidad | Tipo 2 |
+| **Relacionado con un procedimiento** | Complicación coronaria de una **angioplastía o cirugía cardíaca** dentro de los **30 días**; ya no depende de un umbral de biomarcadores y usa los mismos criterios para ambos procedimientos | Tipos 4 y 5 |
+
+- El **infarto como causa de muerte** (antes tipo 3) se asigna a una de las tres categorías según el contexto clínico o la autopsia.
+- **MINOCA** pasa a ser un **diagnóstico de trabajo**: "**injuria miocárdica con coronarias no obstructivas**". La mayoría termina con otro diagnóstico (miocarditis, Takotsubo, causa no cardíaca); si se confirma un infarto, se reclasifica como primario o secundario.
+- Usar el **percentil 99 específico por sexo** busca reducir el **subdiagnóstico del infarto en las mujeres**.
+- En la literatura y en el EUNACOM se seguirá viendo la nomenclatura anterior ("IAM tipo 1" y "tipo 2"): conviene conocer ambas.
 
 !!! perla "Injuria miocárdica no es lo mismo que infarto"
     La **troponina elevada sin cuadro isquémico** es **injuria miocárdica** (aguda si hay curva, crónica si está estable). Causas frecuentes: **sepsis**, **ERC**, **TEP**, **IC**, miocarditis, **Takotsubo**, taquiarritmias, ACV, quimioterapia cardiotóxica, contusión cardíaca.
@@ -87,7 +92,7 @@ El **síndrome coronario agudo** es el conjunto de cuadros causados por una **re
 ## Etiología y factores de riesgo
 
 - **Aterosclerosis coronaria** con rotura o erosión de placa (> 90 % de los casos).
-- **Otras causas**: disección coronaria espontánea (mujeres jóvenes, periparto), **vasoespasmo** (cocaína, angina de Prinzmetal), embolía coronaria (FA, endocarditis), MINOCA (IAM sin obstrucción coronaria significativa), Takotsubo (diagnóstico diferencial).
+- **Otras causas**: disección coronaria espontánea (mujeres jóvenes, periparto), **vasoespasmo** (cocaína, angina de Prinzmetal), embolía coronaria (FA, endocarditis), MINOCA (injuria miocárdica con coronarias no obstructivas; diagnóstico de trabajo), Takotsubo (diagnóstico diferencial).
 
 **Factores de riesgo cardiovascular**
 
@@ -204,7 +209,7 @@ flowchart TD
 ## Laboratorio
 
 - **Troponina ultrasensible** (T o I) seriada.
-- **Hemograma** (anemia como causa de IAM tipo 2; plaquetas antes de antitrombóticos).
+- **Hemograma** (anemia como causa de IAM secundario, ex tipo 2; plaquetas antes de antitrombóticos).
 - **Creatinina y electrolitos** (K⁺, Mg²⁺: arritmias; TFGe para ajustar fármacos y contraste).
 - **Glicemia y HbA1c**, **perfil lipídico** (en las primeras 24 horas).
 - **Pruebas de coagulación** (TP/INR, TTPA), grupo y Rh.
@@ -354,7 +359,7 @@ flowchart TD
     - **Infradesnivel del ST en V1–V3** puede ser un **infarto posterior**: pide derivaciones posteriores.
     - En el IAMCEST **no esperes la troponina** para reperfundir.
     - Antes de fibrinolisar o anticoagular, piensa en **disección aórtica** (asimetría de pulsos o PA, dolor desgarrante, mediastino ancho).
-    - La troponina alta en un paciente séptico, anémico o con taquiarritmia suele ser **IAM tipo 2 o injuria miocárdica**: trata la causa y no des doble antiagregación de rutina.
+    - La troponina alta en un paciente séptico, anémico o con taquiarritmia suele ser **IAM secundario (ex tipo 2) o injuria miocárdica**: trata la causa y no des doble antiagregación de rutina.
     - **Mujeres, diabéticos y adultos mayores**: la disnea, la fatiga o el malestar epigástrico pueden ser el único síntoma.
     - Un **soplo nuevo** y deterioro súbito entre los días 2 y 7 sugiere una **complicación mecánica**: ecocardiograma urgente.
     - Al alta, revisa siempre: **aspirina + P2Y12, estatina de alta intensidad, betabloqueador/IECA según FEVI, rehabilitación cardíaca y cese del tabaco**.
@@ -380,9 +385,10 @@ flowchart TD
 
 1. Byrne RA, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. *Eur Heart J.* 2023;44:3720–3826.
 2. Rao SV, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. *J Am Coll Cardiol / Circulation.* 2025. [Puntos clave (AHA)](https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know)
-3. Thygesen K, et al. Fourth Universal Definition of Myocardial Infarction (2018). *Eur Heart J.* 2019;40:237–269.
-4. Ministerio de Salud de Chile. *Guía Clínica GES: Infarto agudo del miocardio.*
-5. Yndigegn T, et al. Beta-Blockers after Myocardial Infarction and Preserved Ejection Fraction (REDUCE-AMI). *N Engl J Med.* 2024;390:1372–1381.
-6. Ibanez B, et al. Beta-Blockers after Myocardial Infarction without Reduced Ejection Fraction (REBOOT). *N Engl J Med.* 2025.
-7. Keeley EC, Boura JA, Grines CL. Primary angioplasty versus intravenous thrombolytic therapy for acute myocardial infarction: a quantitative review of 23 randomised trials. *Lancet.* 2003;361:13–20.
-8. 2026 ESC Guidelines on cardiac rehabilitation. *Eur Heart J.* 2026.
+3. Mills NL, Newby LK, Zaman S, et al. Fifth Universal Definition of Myocardial Infarction (2026). *Eur Heart J.* 2026. doi:[10.1093/eurheartj/ehag101](https://doi.org/10.1093/eurheartj/ehag101)
+4. Thygesen K, et al. Fourth Universal Definition of Myocardial Infarction (2018). *Eur Heart J.* 2019;40:237–269.
+5. Ministerio de Salud de Chile. *Guía Clínica GES: Infarto agudo del miocardio.*
+6. Yndigegn T, et al. Beta-Blockers after Myocardial Infarction and Preserved Ejection Fraction (REDUCE-AMI). *N Engl J Med.* 2024;390:1372–1381.
+7. Ibanez B, et al. Beta-Blockers after Myocardial Infarction without Reduced Ejection Fraction (REBOOT). *N Engl J Med.* 2025.
+8. Keeley EC, Boura JA, Grines CL. Primary angioplasty versus intravenous thrombolytic therapy for acute myocardial infarction: a quantitative review of 23 randomised trials. *Lancet.* 2003;361:13–20.
+9. 2026 ESC Guidelines on cardiac rehabilitation. *Eur Heart J.* 2026.
