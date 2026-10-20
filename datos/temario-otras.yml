@@ -1275,6 +1275,9 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md
+      - gastroenterologia/colestasia.md
     - codigo: 3.01.1.004
       nombre: Diabetes y embarazo
       dx: Específico
@@ -1318,6 +1321,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md
     - codigo: 3.01.1.011
       nombre: Síndrome hipertensivo del embarazo
       dx: Específico
@@ -1493,6 +1498,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md
     - codigo: 3.01.2.008
       nombre: Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.)
       dx: Sospecha
