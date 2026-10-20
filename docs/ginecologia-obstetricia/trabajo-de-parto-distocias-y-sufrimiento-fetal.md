@@ -12,7 +12,7 @@ tags:
 Obstetricia · Sala de partos
 
 **Guías principales**
-MINSAL 2015: Guía Perinatal (capítulos de trabajo de parto, monitorización intraparto, embarazo gemelar, cesárea y urgencias obstétricas) · ACOG/SMFM 2014: prevención segura de la primera cesárea (Obstetric Care Consensus 1) · ACOG 2009: monitorización intraparto (PB 106) · ACOG 2017: distocia de hombros (PB 178) · ACOG 2020: macrosomía (PB 216) y versión cefálica externa (PB 221) · ACOG 2021: embarazo múltiple (PB 231)
+MINSAL 2015: Guía Perinatal (capítulos de trabajo de parto, monitorización intraparto, embarazo gemelar, cesárea y urgencias obstétricas) · ACOG 2024: manejo de la primera y segunda etapa del parto (CPG 8, reemplaza el Obstetric Care Consensus 1 de 2014) · ACOG 2025: monitorización de la frecuencia cardíaca fetal intraparto (CPG 10, reemplaza los PB 106 y 116) · ACOG 2017: distocia de hombros (PB 178) · ACOG 2020: macrosomía (PB 216) y versión cefálica externa (PB 221) · ACOG 2021: embarazo múltiple (PB 231)
 
 **Otras fuentes**
 Ver [parto prematuro y RPM](parto-prematuro-y-rotura-prematura-de-membranas.md), [metrorragia de la segunda mitad del embarazo](metrorragia-de-la-segunda-mitad-del-embarazo.md), [diabetes y embarazo](../endocrinologia/diabetes-y-embarazo.md) y [control prenatal](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
@@ -31,7 +31,7 @@ Octubre 2026
 !!! abstract "Resumen en 60 segundos"
     - **Trabajo de parto**: ≥ 2 contracciones en 10 minutos con **modificaciones cervicales**. Tres etapas: **dilatación** (fase latente y activa), **expulsivo** y **alumbramiento**.
     - **Distocia** = progreso lento o nulo. Causas: las **3 P**: **potencia** (dinámica uterina insuficiente, la más frecuente en nulíparas), **pasajero** (macrosomía, mala posición o presentación) y **pelvis** (desproporción céfalo-pélvica).
-        - Antes de diagnosticarla: estar en **fase activa** (≥ 6 cm según ACOG/SMFM 2014; ≥ 4 cm según la Guía Perinatal 2015).
+        - Antes de diagnosticarla: estar en **fase activa** (≥ 6 cm según ACOG 2024; ≥ 4 cm según la Guía Perinatal 2015).
         - Manejo: descartar una **DCP**, **amniotomía** y **oxitocina** para lograr **3–5 contracciones en 10 minutos**, analgesia y **prueba de trabajo de parto**. Si fracasa → **cesárea**.
     - **Sufrimiento fetal agudo** (mejor: **estado fetal no tranquilizador**): hipoxia y acidosis fetal intraparto. Se detecta con el **registro de la frecuencia cardíaca fetal**.
         - **Categoría I**: normal. **Categoría II**: indeterminado, corregir y vigilar. **Categoría III**: anormal (variabilidad ausente con desaceleraciones tardías o variables recurrentes, bradicardia o patrón sinusoidal).
@@ -48,7 +48,7 @@ Octubre 2026
 
 - **Trabajo de parto** (Guía Perinatal 2015): **≥ 2 contracciones en 10 minutos**, de ≥ 30 segundos, durante al menos una hora, con **borramiento ≥ 50 %** y **dilatación ≥ 1 cm**.
 - **Etapas**:
-    - **Primera (dilatación)**: **fase latente** (hasta ~ 3–6 cm, cuello borrado) y **fase activa** (hasta 10 cm). La Guía Perinatal 2015 sitúa el inicio de la fase activa en los 3–4 cm; ACOG/SMFM 2014 en los **6 cm**.
+    - **Primera (dilatación)**: **fase latente** (hasta ~ 3–6 cm, cuello borrado) y **fase activa** (hasta 10 cm). La Guía Perinatal 2015 sitúa el inicio de la fase activa en los 3–4 cm; ACOG 2024 en los **6 cm** (curvas de Zhang, más lentas que las de Friedman).
     - **Segunda (expulsivo)**: de la dilatación completa al nacimiento.
     - **Tercera (alumbramiento)**: del nacimiento a la salida de la placenta.
 - **Distocia**: progreso **lento o detenido** del trabajo de parto.
@@ -124,18 +124,18 @@ flowchart TD
 
 ## Clasificación
 
-### Alteraciones del trabajo de parto (Guía Perinatal 2015; ACOG/SMFM 2014)
+### Alteraciones del trabajo de parto (Guía Perinatal 2015; ACOG 2024)
 
 | Alteración | Criterio |
 |---|---|
 | **Fase latente prolongada** | > **20 h** en nulíparas, > **14 h** en multíparas. No es indicación de cesárea |
 | **Fase activa prolongada** | Dilatación < 1,2 cm/h (nulípara) o < 1,5 cm/h (multípara) |
-| **Detención (cese) de la dilatación** | Sin progreso por **≥ 2 h** (Guía Perinatal). ACOG/SMFM: con ≥ 6 cm y membranas rotas, **≥ 4 h** con dinámica adecuada o **≥ 6 h** con oxitocina y dinámica inadecuada |
-| **Expulsivo prolongado** | Guía Perinatal: > **90 min** en nulíparas y > **60 min** en multíparas. ACOG/SMFM: detención con **≥ 3 h** de pujo en nulíparas y **≥ 2 h** en multíparas (más con epidural) |
+| **Detención (cese) de la dilatación** | Sin progreso por **≥ 2 h** (Guía Perinatal). ACOG 2024: con ≥ 6 cm y membranas rotas, **≥ 4 h** con dinámica adecuada o **≥ 6 h** con oxitocina y dinámica inadecuada |
+| **Expulsivo prolongado** | Guía Perinatal: > **90 min** en nulíparas y > **60 min** en multíparas. ACOG 2024: expulsivo prolongado con **≥ 3 h** de pujo en nulíparas y **≥ 2 h** en multíparas, pero la decisión se **individualiza** según el descenso, la posición fetal y el estado materno-fetal (prolongarlo aumenta la acidemia neonatal y los desgarros) |
 | **Falla o detención del descenso** | Sin descenso por ≥ 1 h |
 | **Parto precipitado** | > 5 cm/h (nulípara) o > 10 cm/h (multípara) |
 
-### Registro de la frecuencia cardíaca fetal intraparto (NICHD/ACOG 2009)
+### Registro de la frecuencia cardíaca fetal intraparto (NICHD; ACOG 2025)
 
 | Categoría | Características | Conducta |
 |---|---|---|
@@ -173,10 +173,12 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (Guía Perinatal 2015; ACOG/SMFM 2014; ACOG 2009, 2017, 2020 y 2021)"
+!!! guia "Puntos clave (Guía Perinatal 2015; ACOG 2017, 2020, 2021, 2024 y 2025)"
     - El diagnóstico de distocia de la fase activa exige **fase activa establecida** y **dinámica adecuada**. Usar el **partograma**.
     - **Prueba de trabajo de parto**: membranas rotas, **3–5 contracciones en 10 minutos**, analgesia epidural, **registro fetal normal** y fase activa. **Fracasa** si no progresa la dilatación en **3–4 h** (≥ 2 h con buena dinámica) o el descenso en **2 h**.
     - El **registro fetal** se interpreta en **categorías**. La **variabilidad moderada** predice con alta probabilidad la **ausencia de acidemia** (~ 98 %, Guía Perinatal 2015).
+    - **ACOG 2024**: en la **aceleración o inducción** con oxitocina se recomienda la **amniotomía** (acorta el trabajo de parto); los esquemas de oxitocina en **dosis bajas o altas** son ambos razonables.
+    - **ACOG 2025**: **no** usar de rutina el análisis del segmento ST (STAN) ni la oximetría de pulso fetal; ante una **taquisistolía** con registro de alto riesgo que persiste pese a suspender la oxitocina, dar un **tocolítico de acción rápida**; registro **categoría III** que no responde a la reanimación intrauterina → **parto expedito**.
     - **Presentación**: confirmar con **ecografía** al final del embarazo o al ingreso si hay duda.
     - **Macrosomía**: la estimación del peso (clínica o ecográfica) tiene un **error de ± 10–15 %**; sobrestima con frecuencia.
     - **Corionicidad**: ecografía de **11–14 semanas**. **Signo lambda** (twin peak) = **bicorial**; **signo T** (membrana fina) = **monocorial**. Sexos distintos o dos placentas separadas = bicorial.
@@ -227,7 +229,7 @@ flowchart TD
 4. **Tocolisis aguda** si hay **taquisistolía** o hipertonía.
 5. **Tacto vaginal**: descartar **prolapso de cordón**, evaluar el progreso y la posibilidad de un parto instrumental.
 6. **Amnioinfusión** en las desaceleraciones variables recurrentes por oligoamnios (según disponibilidad).
-7. Oxígeno materno solo si hay hipoxemia (su uso rutinario no tiene beneficio demostrado).
+7. **No** dar oxígeno materno de rutina por un registro categoría II o III si la madre no está hipoxémica (ACOG 2025).
 
 - **Sin mejoría o categoría III persistente** → **parto por la vía más rápida**: fórceps o ventosa si la presentación está baja y la dilatación es completa; si no, **cesárea de urgencia**. Avisar a **neonatología**.
 - Tomar **gases de cordón** al nacer.
@@ -351,8 +353,8 @@ flowchart TD
 ## Referencias
 
 1. Ministerio de Salud de Chile. Guía Perinatal 2015 (capítulos X: complicaciones del embarazo gemelar; XXV: evaluación y manejo del trabajo de parto y parto; XXVI: monitorización intraparto; XXXI: cesárea; XXXII: urgencias obstétricas). Santiago: MINSAL; 2015. [minsal.cl](https://www.minsal.cl/salud-de-la-mujer/)
-2. American College of Obstetricians and Gynecologists; Society for Maternal-Fetal Medicine. Obstetric Care Consensus No. 1: Safe prevention of the primary cesarean delivery. *Obstet Gynecol.* 2014;123(3):693–711. doi:[10.1097/01.AOG.0000444441.04111.1d](https://doi.org/10.1097/01.AOG.0000444441.04111.1d)
-3. American College of Obstetricians and Gynecologists. ACOG Practice Bulletin No. 106: Intrapartum fetal heart rate monitoring: nomenclature, interpretation, and general management principles. *Obstet Gynecol.* 2009;114(1):192–202. doi:[10.1097/AOG.0b013e3181aef106](https://doi.org/10.1097/AOG.0b013e3181aef106)
+2. American College of Obstetricians and Gynecologists. First and second stage labor management: ACOG Clinical Practice Guideline No. 8. *Obstet Gynecol.* 2024;143(1):144–162. doi:[10.1097/AOG.0000000000005447](https://doi.org/10.1097/AOG.0000000000005447)
+3. American College of Obstetricians and Gynecologists. Intrapartum fetal heart rate monitoring: interpretation and management: ACOG Clinical Practice Guideline No. 10. *Obstet Gynecol.* 2025;146(4):583–599. doi:[10.1097/AOG.0000000000006049](https://doi.org/10.1097/AOG.0000000000006049)
 4. American College of Obstetricians and Gynecologists. Practice Bulletin No. 178: Shoulder dystocia. *Obstet Gynecol.* 2017;129(5):e123–e133. doi:[10.1097/AOG.0000000000002043](https://doi.org/10.1097/AOG.0000000000002043)
 5. American College of Obstetricians and Gynecologists. Macrosomia: ACOG Practice Bulletin No. 216. *Obstet Gynecol.* 2020;135(1):e18–e35. doi:[10.1097/AOG.0000000000003606](https://doi.org/10.1097/AOG.0000000000003606)
 6. American College of Obstetricians and Gynecologists. External cephalic version: ACOG Practice Bulletin No. 221. *Obstet Gynecol.* 2020;135(5):e203–e212. doi:[10.1097/AOG.0000000000003837](https://doi.org/10.1097/AOG.0000000000003837)
