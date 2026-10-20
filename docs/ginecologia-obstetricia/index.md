@@ -6,10 +6,11 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **63 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **65 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Anticoncepción y métodos naturales de regulación de la fertilidad](anticoncepcion-y-metodos-naturales.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md)
@@ -97,9 +98,9 @@ hide:
 | 3.01.3.003 | Determinación de edad gestacional | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.3.004 | Lactancia | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.3.005 | Manejo de la salud de la mujer climatérica | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
-| 3.01.3.006 | Métodos naturales para la regulación de la fecundidad | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.006 | Métodos naturales para la regulación de la fecundidad | :material-check-circle:{ .ok title="Resumen disponible" } [Anticoncepción y métodos naturales de regulación de la fertilidad](anticoncepcion-y-metodos-naturales.md) |
 | 3.01.3.007 | Mortalidad perinatal y materna | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.3.008 | Anticoncepción | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.008 | Anticoncepción | :material-check-circle:{ .ok title="Resumen disponible" } [Anticoncepción y métodos naturales de regulación de la fertilidad](anticoncepcion-y-metodos-naturales.md) |
 | 3.01.3.009 | Prevención de enfermedad hemolítica perinatal | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.3.010 | Prevención de enfermedades de transmisión sexual | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.3.011 | Pubertad (adolescencia) | :material-clock-outline:{ .pend title="Pendiente" } |
