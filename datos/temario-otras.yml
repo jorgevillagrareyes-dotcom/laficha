@@ -1266,6 +1266,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: No requiere
+      resumen:
+      - hematologia/anemias.md
     - codigo: 3.01.1.003
       nombre: Colestasia gravídica
       dx: Específico
@@ -1359,6 +1361,9 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - infectologia/infecciones-de-transmision-sexual-y-sifilis.md
+      - nefrologia/infeccion-urinaria.md
     - codigo: 3.01.1.020
       nombre: Infertilidad conyugal
       dx: Sospecha
@@ -1413,11 +1418,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/patologia-mamaria-benigna.md
     - codigo: 3.01.1.030
       nombre: Cáncer de mama
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/cancer-de-mama.md
     - codigo: 3.01.1.031
       nombre: VIH en ginecobstetricia
       dx: Específico
@@ -1553,6 +1562,8 @@ especialidades:
       nombre: Lactancia
     - codigo: 3.01.3.005
       nombre: Manejo de la salud de la mujer climatérica
+      resumen:
+      - endocrinologia/climaterio-y-menopausia.md
     - codigo: 3.01.3.006
       nombre: Métodos naturales para la regulación de la fecundidad
     - codigo: 3.01.3.007
@@ -1563,6 +1574,8 @@ especialidades:
       nombre: Prevención de enfermedad hemolítica perinatal
     - codigo: 3.01.3.010
       nombre: Prevención de enfermedades de transmisión sexual
+      resumen:
+      - infectologia/infecciones-de-transmision-sexual-y-sifilis.md
     - codigo: 3.01.3.011
       nombre: Pubertad (adolescencia)
     - codigo: 3.01.3.012
@@ -1573,6 +1586,8 @@ especialidades:
       nombre: Sexualidad, género y diversidad
     - codigo: 3.01.3.015
       nombre: Síndrome de ovario poliquístico
+      resumen:
+      - endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md
     - codigo: 3.01.3.016
       nombre: Vínculo y apego
 - carpeta: pediatria
