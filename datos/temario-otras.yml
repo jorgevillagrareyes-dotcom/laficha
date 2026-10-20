@@ -1353,11 +1353,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
     - codigo: 3.01.1.015
       nombre: Endometriosis
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
     - codigo: 3.01.1.016
       nombre: Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV)
       dx: Sospecha
@@ -1579,6 +1583,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
     - codigo: 3.01.2.017
       nombre: Sufrimiento fetal agudo
       dx: Específico
@@ -1596,6 +1602,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
     - codigo: 3.01.2.020
       nombre: Mastitis abscedada
       dx: Específico

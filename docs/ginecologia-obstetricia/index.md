@@ -6,12 +6,13 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **53 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **57 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
@@ -37,8 +38,8 @@ hide:
 | 3.01.1.011 | Síndrome hipertensivo del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.1.012 | Amenorrea | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
 | 3.01.1.013 | Cáncer cervicouterino | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
-| 3.01.1.014 | Dolor pelviano y dismenorrea | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.015 | Endometriosis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.014 | Dolor pelviano y dismenorrea | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
+| 3.01.1.015 | Endometriosis | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
 | 3.01.1.016 | Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.1.017 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.1.018 | Hemorragia genital anormal | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
@@ -76,10 +77,10 @@ hide:
 | 3.01.2.013 | Presentaciones fetales anómalas | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.2.014 | Rotura prematura de membranas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md) |
 | 3.01.2.015 | Rotura uterina | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
-| 3.01.2.016 | Dolor pélvico agudo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.016 | Dolor pélvico agudo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
 | 3.01.2.017 | Sufrimiento fetal agudo | Específico | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.2.018 | Pelviperitonitis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.019 | Quiste ovárico torcido | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.019 | Quiste ovárico torcido | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
 | 3.01.2.020 | Mastitis abscedada | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.2.021 | Trabajo parto distócico | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 
