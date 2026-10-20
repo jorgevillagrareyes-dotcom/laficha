@@ -13,7 +13,7 @@ tags:
 Respiratorio · Cirugía de tórax · Medicina de urgencia
 
 **Guías principales**
-British Thoracic Society (BTS) 2023: guía de enfermedad pleural · ERS 2015: neumotórax espontáneo primario · ATLS, 10.ª edición (American College of Surgeons, 2018) · EAST: fijación costal (2017), profilaxis antibiótica del drenaje pleural en trauma (2022) y contusión cardíaca (2012)
+British Thoracic Society (BTS) 2023: guía de enfermedad pleural · ERS 2015: neumotórax espontáneo primario · ATLS, 10.ª (2018) y 11.ª edición (American College of Surgeons, 2025: xABCDE) · EAST: fijación costal (2017), profilaxis antibiótica del drenaje pleural en trauma (2022) y contusión cardíaca (2012)
 
 **Otras fuentes**
 Ensayo PSP (manejo conservador, *NEJM* 2020) · RAMPP (manejo ambulatorio, *Lancet* 2020) · Marx 2023 (aspiración vs. drenaje) · Metaanálisis de descompresión con aguja (Ahmad, *World J Emerg Surg* 2025) · Serie chilena de trauma torácico (González, *Rev Med Chil* 2018)
@@ -40,7 +40,7 @@ Septiembre 2026
         - Si es sintomático: **aspiración con aguja**, **dispositivo ambulatorio** o **drenaje**, según la preferencia del paciente.
     - **Neumotórax secundario (EPOC, fibrosis, etc.)**: **hospitalizar**, umbral bajo para el **drenaje**.
     - **Prevenir la recurrencia**: dejar de **fumar** (tabaco y marihuana). Derivar a **cirugía** (VATS) si hay recurrencia, fuga aérea persistente > 3–5 días u oficio de riesgo (pilotos, buzos).
-    - **Trauma torácico**: evaluar con el **ABCDE (ATLS)** y buscar las **lesiones letales inmediatas** (neumotórax a tensión, neumotórax abierto, **hemotórax masivo**, tórax volante, taponamiento).
+    - **Trauma torácico**: evaluar con el **xABCDE (ATLS 11)** y buscar las **lesiones letales inmediatas** (neumotórax a tensión, neumotórax abierto, **hemotórax masivo**, tórax volante, taponamiento).
         - Las **fracturas costales** en el **adulto mayor** son graves: cada costilla adicional **aumenta la mortalidad un 19 %**.
 
 ## Definición
@@ -317,7 +317,7 @@ flowchart TD
 
 ### Trauma torácico grave (manejo inicial y derivación)
 
-!!! guia "Evaluación primaria del trauma torácico (ATLS 10.ª edición)"
+!!! guia "Evaluación primaria del trauma torácico (ATLS 10.ª y 11.ª edición)"
     - **A**: vía aérea permeable con **protección cervical**.
     - **B**: exponer el tórax, inspeccionar, palpar, auscultar y hacer una **eFAST**.
         - **Neumotórax a tensión**: descompresión y drenaje.
@@ -399,7 +399,7 @@ flowchart TD
 
     1. **Descompresión inmediata**, sin radiografía: aguja o cánula **larga (≥ 7–8 cm)** en el **2.º espacio intercostal, línea medioclavicular** (preferible a izquierda según Ahmad 2025), o en el **4.º–5.º espacio intercostal por delante de la línea axilar media** (ATLS). Otra opción es la **toracostomía digital**.
     2. Luego, **drenaje pleural** en el triángulo de seguridad (con profilaxis antibiótica).
-    3. Seguir con el **ABCDE**: buscar un **hemotórax**, un **taponamiento** (también tiene yugulares ingurgitadas, pero con **murmullo conservado**) y hemorragias en otros sitios.
+    3. Seguir con el **xABCDE**: buscar un **hemotórax**, un **taponamiento** (también tiene yugulares ingurgitadas, pero con **murmullo conservado**) y hemorragias en otros sitios.
     4. Activar el **GES de politraumatizado grave** (N.° 48) y derivar.
 
 ??? repaso "3. Hombre de 68 años con EPOC GOLD 3 que consulta por disnea súbita. SatO2 86 %. La radiografía muestra un neumotórax derecho de 1,5 cm. ¿Lo mandas a casa?"
@@ -442,14 +442,15 @@ flowchart TD
 7. Hallifax RJ, Goldacre R, Landray MJ, et al. Trends in the incidence and recurrence of inpatient-treated spontaneous pneumothorax, 1968–2016. *JAMA.* 2018;320:1471–1480. doi:[10.1001/jama.2018.14299](https://doi.org/10.1001/jama.2018.14299)
 8. Ahmad SJS, Degiannis JR, Head M, et al. Meta-analysis of the optimal needle length and decompression site for tension pneumothorax and consensus recommendations on current ATLS and ETC guidelines. *World J Emerg Surg.* 2025;20:39. doi:[10.1186/s13017-025-00613-7](https://doi.org/10.1186/s13017-025-00613-7)
 9. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS): student course manual.* 10.ª ed. Chicago: ACS; 2018.
-10. Kasotakis G, Hasenboehler EA, Streib EW, et al. Operative fixation of rib fractures after blunt trauma: a practice management guideline from the Eastern Association for the Surgery of Trauma. *J Trauma Acute Care Surg.* 2017;82:618–626. doi:[10.1097/TA.0000000000001350](https://doi.org/10.1097/TA.0000000000001350)
-11. Freeman JJ, Asfaw SH, Vatsaas CJ, et al. Antibiotic prophylaxis for tube thoracostomy placement in trauma: a practice management guideline from the Eastern Association for the Surgery of Trauma. *Trauma Surg Acute Care Open.* 2022;7:e000886. doi:[10.1136/tsaco-2022-000886](https://doi.org/10.1136/tsaco-2022-000886)
-12. Clancy K, Velopulos C, Bilaniuk JW, et al. Screening for blunt cardiac injury: an Eastern Association for the Surgery of Trauma practice management guideline. *J Trauma Acute Care Surg.* 2012;73(5 Suppl 4):S301–S306. doi:[10.1097/TA.0b013e318270193a](https://doi.org/10.1097/TA.0b013e318270193a)
-13. Bulger EM, Arneson MA, Mock CN, Jurkovich GJ. Rib fractures in the elderly. *J Trauma.* 2000;48:1040–1047. doi:[10.1097/00005373-200006000-00007](https://doi.org/10.1097/00005373-200006000-00007)
-14. Bauman ZM, Kulvatunyou N, Joseph B, et al. Randomized clinical trial of 14-French (14F) pigtail catheters versus 28–32F chest tubes in the management of patients with traumatic hemothorax and hemopneumothorax. *World J Surg.* 2021;45:880–886. doi:[10.1007/s00268-020-05852-0](https://doi.org/10.1007/s00268-020-05852-0)
-15. Clements TW, Sirois M, Parry N, et al. OPTICC: a multicentre trial of occult pneumothoraces subjected to mechanical ventilation: the final report. *Am J Surg.* 2021;221:1252–1258. doi:[10.1016/j.amjsurg.2021.02.012](https://doi.org/10.1016/j.amjsurg.2021.02.012)
-16. Al Tannir AH, Biesboer EA, Tentis M, et al. Implementation of 300-mL rule for management of traumatic hemothorax. *J Am Coll Surg.* 2024;239:422–429. doi:[10.1097/XCS.0000000000001125](https://doi.org/10.1097/XCS.0000000000001125)
-17. Lin HL, Huang WY, Yang C, et al. How early should VATS be performed for retained haemothorax in blunt chest trauma? *Injury.* 2014;45:1359–1364. doi:[10.1016/j.injury.2014.05.036](https://doi.org/10.1016/j.injury.2014.05.036)
-18. González L R, Riquelme U A, Fuentes E A, et al. [Thoracic trauma. Experience of three decades] (artículo en español). *Rev Med Chil.* 2018;146:196–205. doi:[10.4067/s0034-98872018000200196](https://doi.org/10.4067/s0034-98872018000200196)
-19. Barril Merino C, Solovera R ME, Bannura Y F, Salas V P. [Pulmonary expansion edema during the management of a spontaneous pneumothorax. Report of one case] (artículo en español). *Rev Med Chil.* 2018;146:1343–1346. doi:[10.4067/S0034-98872018001101343](https://doi.org/10.4067/S0034-98872018001101343)
-20. Superintendencia de Salud. Problema de salud GES N.° 48: politraumatizado grave. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/)
+10. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS).* 11.ª ed. Chicago: ACS; 2025. [facs.org](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/)
+11. Kasotakis G, Hasenboehler EA, Streib EW, et al. Operative fixation of rib fractures after blunt trauma: a practice management guideline from the Eastern Association for the Surgery of Trauma. *J Trauma Acute Care Surg.* 2017;82:618–626. doi:[10.1097/TA.0000000000001350](https://doi.org/10.1097/TA.0000000000001350)
+12. Freeman JJ, Asfaw SH, Vatsaas CJ, et al. Antibiotic prophylaxis for tube thoracostomy placement in trauma: a practice management guideline from the Eastern Association for the Surgery of Trauma. *Trauma Surg Acute Care Open.* 2022;7:e000886. doi:[10.1136/tsaco-2022-000886](https://doi.org/10.1136/tsaco-2022-000886)
+13. Clancy K, Velopulos C, Bilaniuk JW, et al. Screening for blunt cardiac injury: an Eastern Association for the Surgery of Trauma practice management guideline. *J Trauma Acute Care Surg.* 2012;73(5 Suppl 4):S301–S306. doi:[10.1097/TA.0b013e318270193a](https://doi.org/10.1097/TA.0b013e318270193a)
+14. Bulger EM, Arneson MA, Mock CN, Jurkovich GJ. Rib fractures in the elderly. *J Trauma.* 2000;48:1040–1047. doi:[10.1097/00005373-200006000-00007](https://doi.org/10.1097/00005373-200006000-00007)
+15. Bauman ZM, Kulvatunyou N, Joseph B, et al. Randomized clinical trial of 14-French (14F) pigtail catheters versus 28–32F chest tubes in the management of patients with traumatic hemothorax and hemopneumothorax. *World J Surg.* 2021;45:880–886. doi:[10.1007/s00268-020-05852-0](https://doi.org/10.1007/s00268-020-05852-0)
+16. Clements TW, Sirois M, Parry N, et al. OPTICC: a multicentre trial of occult pneumothoraces subjected to mechanical ventilation: the final report. *Am J Surg.* 2021;221:1252–1258. doi:[10.1016/j.amjsurg.2021.02.012](https://doi.org/10.1016/j.amjsurg.2021.02.012)
+17. Al Tannir AH, Biesboer EA, Tentis M, et al. Implementation of 300-mL rule for management of traumatic hemothorax. *J Am Coll Surg.* 2024;239:422–429. doi:[10.1097/XCS.0000000000001125](https://doi.org/10.1097/XCS.0000000000001125)
+18. Lin HL, Huang WY, Yang C, et al. How early should VATS be performed for retained haemothorax in blunt chest trauma? *Injury.* 2014;45:1359–1364. doi:[10.1016/j.injury.2014.05.036](https://doi.org/10.1016/j.injury.2014.05.036)
+19. González L R, Riquelme U A, Fuentes E A, et al. [Thoracic trauma. Experience of three decades] (artículo en español). *Rev Med Chil.* 2018;146:196–205. doi:[10.4067/s0034-98872018000200196](https://doi.org/10.4067/s0034-98872018000200196)
+20. Barril Merino C, Solovera R ME, Bannura Y F, Salas V P. [Pulmonary expansion edema during the management of a spontaneous pneumothorax. Report of one case] (artículo en español). *Rev Med Chil.* 2018;146:1343–1346. doi:[10.4067/S0034-98872018001101343](https://doi.org/10.4067/S0034-98872018001101343)
+21. Superintendencia de Salud. Problema de salud GES N.° 48: politraumatizado grave. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/)

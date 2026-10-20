@@ -13,7 +13,7 @@ tags:
 Trauma · Urgencia · Cirugía general
 
 **Guías principales**
-ATLS, 10.ª edición (American College of Surgeons; actualización resumida en 2019) · Guía europea de hemorragia masiva y coagulopatía en el trauma, 6.ª edición (*Crit Care* 2023)
+ATLS, 11.ª edición (American College of Surgeons, 2025: xABCDE) · Guía europea de hemorragia masiva y coagulopatía en el trauma, 6.ª edición (*Crit Care* 2023)
 
 **Otras fuentes**
 Ensayo CRASH-2 (*Lancet* 2010): ácido tranexámico · Propuesta de triage masivo SALT (*Disaster Med Public Health Prep* 2008)
@@ -152,7 +152,7 @@ Existen otros sistemas (SALT, JumpSTART en niños); todos clasifican en pocos se
 | Letra | Qué se evalúa | Qué se hace |
 |---|---|---|
 | **x** | Hemorragia **externa exanguinante** | **Compresión directa**, **torniquete** en las extremidades |
-| **A** | Vía aérea permeable; ¿habla? | Aspirar, tracción mandibular, cánula; **intubación** si GCS ≤ 8 o vía aérea amenazada; **collar cervical** y restricción del movimiento de la columna |
+| **A** | Vía aérea permeable; ¿habla? | Aspirar, tracción mandibular, cánula; **intubación** si GCS ≤ 8 o vía aérea amenazada (**reanimar el shock antes de la secuencia rápida** si es posible: riesgo de hipotensión y paro al intubar, ATLS 11); **collar cervical** y restricción del movimiento de la columna |
 | **B** | FR, saturación, simetría, ingurgitación yugular, desviación traqueal | O2; **descompresión** del neumotórax a tensión; **drenaje pleural**; sellar el neumotórax abierto |
 | **C** | Pulso, presión, llene capilar, conciencia; sitios de sangrado | **Dos vías venosas gruesas** (o intraósea); muestras (grupo y pruebas cruzadas); **faja pélvica**; sangre; buscar el sangrado |
 | **D** | **GCS**, pupilas, focalidad, glicemia | Evitar la hipoxia y la hipotensión (lesión cerebral secundaria) |
@@ -215,7 +215,7 @@ Existen otros sistemas (SALT, JumpSTART en niños); todos clasifican en pocos se
     | Medida | Dosis o meta |
     |---|---|
     | **Ácido tranexámico** | **1 g IV en 10 min**, luego **1 g IV en 8 horas**; iniciar dentro de las **3 h** (después de las 3 h, no se recomienda) |
-    | **Cristaloides** | Bolo inicial limitado (**1 L** en el adulto en el ATLS 10.ª edición); pasar pronto a **sangre** si no responde |
+    | **Cristaloides** | **Mínimos**, solo como puente hasta disponer de **sangre** (el ATLS 10.ª edición fijaba un bolo de **1 L**; la 11.ª edición, de 2025, insiste en reducirlos aún más y en la **transfusión precoz**, idealmente con **sangre total** o componentes 1:1:1) |
     | **Transfusión masiva** | Activar el **protocolo**: glóbulos rojos, plasma y plaquetas en proporción cercana a **1:1:1** |
     | **Fibrinógeno** | Concentrado o crioprecipitado si el fibrinógeno es **< 1,5 g/L** con sangrado |
     | **Hemoglobina meta** | **7–9 g/dL** |
@@ -299,10 +299,11 @@ Existen otros sistemas (SALT, JumpSTART en niños); todos clasifican en pocos se
 
 ## Referencias
 
-1. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
-2. Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. *Crit Care.* 2023;27(1):80. doi:[10.1186/s13054-023-04327-7](https://doi.org/10.1186/s13054-023-04327-7)
-3. CRASH-2 trial collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2): a randomised, placebo-controlled trial. *Lancet.* 2010;376(9734):23–32. doi:[10.1016/S0140-6736(10)60835-5](https://doi.org/10.1016/S0140-6736(10)60835-5)
-4. Carsetti A, Antolini R, Casarotta E, et al. Shock index as predictor of massive transfusion and mortality in patients with trauma: a systematic review and meta-analysis. *Crit Care.* 2023;27(1):85. doi:[10.1186/s13054-023-04386-w](https://doi.org/10.1186/s13054-023-04386-w)
-5. Lerner EB, Schwartz RB, Coule PL, et al. Mass casualty triage: an evaluation of the data and development of a proposed national guideline. *Disaster Med Public Health Prep.* 2008;2(Suppl 1):S25–S34. doi:[10.1097/DMP.0b013e318182194e](https://doi.org/10.1097/DMP.0b013e318182194e)
-6. Ministerio de Salud de Chile. Guía de práctica clínica AUGE: traumatismo cráneo encefálico moderado o grave. Santiago: MINSAL; 2013. [diprece.minsal.cl](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Traumatismo-Cr%C3%A1neoencefalico.pdf)
-7. Superintendencia de Salud. Problema de salud GES N.° 48: politraumatizado grave. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/)
+1. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS).* 11.ª ed. Chicago: ACS; 2025. [facs.org](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/)
+2. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
+3. Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. *Crit Care.* 2023;27(1):80. doi:[10.1186/s13054-023-04327-7](https://doi.org/10.1186/s13054-023-04327-7)
+4. CRASH-2 trial collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2): a randomised, placebo-controlled trial. *Lancet.* 2010;376(9734):23–32. doi:[10.1016/S0140-6736(10)60835-5](https://doi.org/10.1016/S0140-6736(10)60835-5)
+5. Carsetti A, Antolini R, Casarotta E, et al. Shock index as predictor of massive transfusion and mortality in patients with trauma: a systematic review and meta-analysis. *Crit Care.* 2023;27(1):85. doi:[10.1186/s13054-023-04386-w](https://doi.org/10.1186/s13054-023-04386-w)
+6. Lerner EB, Schwartz RB, Coule PL, et al. Mass casualty triage: an evaluation of the data and development of a proposed national guideline. *Disaster Med Public Health Prep.* 2008;2(Suppl 1):S25–S34. doi:[10.1097/DMP.0b013e318182194e](https://doi.org/10.1097/DMP.0b013e318182194e)
+7. Ministerio de Salud de Chile. Guía de práctica clínica AUGE: traumatismo cráneo encefálico moderado o grave. Santiago: MINSAL; 2013. [diprece.minsal.cl](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Traumatismo-Cr%C3%A1neoencefalico.pdf)
+8. Superintendencia de Salud. Problema de salud GES N.° 48: politraumatizado grave. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/politraumatizado-grave/)

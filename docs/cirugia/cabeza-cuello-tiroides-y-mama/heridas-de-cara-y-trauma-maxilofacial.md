@@ -12,7 +12,7 @@ tags:
 Cirugía maxilofacial · Cirugía plástica · Trauma · Urgencia
 
 **Guías principales**
-ATLS, 10.ª edición (actualización resumida en 2019) · Revisión del manejo del trauma maxilofacial en urgencias (*World J Emerg Med* 2026) · Guía IDSA de infecciones de piel y partes blandas (2014): mordeduras
+ATLS, 11.ª edición (2025: xABCDE) · Revisión del manejo del trauma maxilofacial en urgencias (*World J Emerg Med* 2026) · Guía IDSA de infecciones de piel y partes blandas (2014): mordeduras
 
 **Otras fuentes**
 Recomendación del CAVEI sobre vacunación antirrábica posexposición (*Rev Chilena Infectol* 2025) · Ver [heridas menores y mordeduras](../piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md)
@@ -29,7 +29,7 @@ Octubre 2026
 </div>
 
 !!! abstract "Resumen en 60 segundos"
-    - **Primero el ABCDE**: el trauma facial grave puede **obstruir la vía aérea** (sangrado, fracturas de mandíbula bilaterales, Le Fort) y se asocia a **TEC** y a **lesión cervical**.
+    - **Primero el xABCDE**: el trauma facial grave puede **obstruir la vía aérea** (sangrado, fracturas de mandíbula bilaterales, Le Fort) y se asocia a **TEC** y a **lesión cervical**.
     - **Heridas de cara**: la cara tiene **excelente irrigación** → cicatriza bien y se infecta poco; se pueden **suturar hasta 24 h** o más después.
         - **Lavado** abundante, **mínimo desbridamiento**, **sutura por planos** con monofilamento fino (**5-0 o 6-0**), afrontar primero los **bordes clave** (borde bermellón del labio, ceja, borde libre del párpado y de la nariz). **No rasurar la ceja.**
         - Retirar los puntos a los **5 días**.
@@ -85,7 +85,7 @@ Octubre 2026
 
 ```mermaid
 flowchart TD
-    A["Trauma facial"] --> B["ABCDE: vía aérea, columna cervical,<br/>hemorragia, GCS (TEC)"]
+    A["Trauma facial"] --> B["xABCDE: hemorragia, vía aérea,<br/>columna cervical, GCS (TEC)"]
     B --> C{"¿Urgencia funcional?"}
     C -->|"Proptosis y pérdida visual"| D["Síndrome compartimental orbitario:<br/>cantotomía lateral urgente"]
     C -->|"Hematoma septal"| E["Drenaje + taponamiento"]
@@ -133,7 +133,7 @@ flowchart TD
 ## Diagnóstico
 
 !!! guia "Puntos clave (ATLS; Bavestrello Piccini 2026)"
-    - **Evaluación primaria (ABCDE)**: **vía aérea** (posición sentada e inclinado hacia adelante si está consciente y la columna lo permite, aspiración, intubación o **vía aérea quirúrgica** si no se puede intubar); **restricción del movimiento cervical**; control de la **hemorragia** (compresión, taponamiento nasal).
+    - **Evaluación primaria (xABCDE)**: **vía aérea** (posición sentada e inclinado hacia adelante si está consciente y la columna lo permite, aspiración, intubación o **vía aérea quirúrgica** si no se puede intubar); **restricción del movimiento cervical**; control de la **hemorragia** (compresión, taponamiento nasal).
     - **TC de macizo facial** (sin contraste, con reconstrucciones): estándar para las fracturas faciales; con frecuencia junto con la **TC de cerebro y de columna cervical**.
     - **Radiografía** solo cuando no hay TC (ortopantomografía para la mandíbula).
     - **Evaluación oftalmológica** si hay trauma periorbitario, alteración visual o diplopía.
@@ -221,7 +221,7 @@ flowchart TD
 ## Perlas para el internado
 
 !!! perla "Para recordar en la sala"
-    - **ABCDE primero**: vía aérea y columna cervical antes que la cara.
+    - **xABCDE primero**: vía aérea y columna cervical antes que la cara.
     - **La cara se puede suturar tarde** (hasta 24 h o más) por su gran irrigación.
     - **Primero el borde bermellón**: un milímetro de desalineación se nota.
     - **Nunca rasurar la ceja.**
@@ -258,6 +258,7 @@ flowchart TD
 ## Referencias
 
 1. Bavestrello Piccini G, Sfondrini D, Tomulescu SA, et al. Modern management of maxillofacial trauma in the emergency department. *World J Emerg Med.* 2026;17(1):15–27. doi:[10.5847/wjem.j.1920-8642.2026.003](https://doi.org/10.5847/wjem.j.1920-8642.2026.003)
-2. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
-3. Stevens DL, Bisno AL, Chambers HF, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2014;59(2):e10–e52. doi:[10.1093/cid/ciu296](https://doi.org/10.1093/cid/ciu296)
-4. Luchsinger V, Leal P, Ibáñez C, et al. Recomendación del CAVEI sobre vacunación antirrábica post-exposición. *Rev Chilena Infectol.* 2025;42(4):419–423. doi:[10.4067/s0716-10182025000400159](https://doi.org/10.4067/s0716-10182025000400159)
+2. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS).* 11.ª ed. Chicago: ACS; 2025. [facs.org](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/)
+3. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
+4. Stevens DL, Bisno AL, Chambers HF, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2014;59(2):e10–e52. doi:[10.1093/cid/ciu296](https://doi.org/10.1093/cid/ciu296)
+5. Luchsinger V, Leal P, Ibáñez C, et al. Recomendación del CAVEI sobre vacunación antirrábica post-exposición. *Rev Chilena Infectol.* 2025;42(4):419–423. doi:[10.4067/s0716-10182025000400159](https://doi.org/10.4067/s0716-10182025000400159)

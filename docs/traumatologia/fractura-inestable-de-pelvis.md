@@ -13,7 +13,7 @@ tags:
 Traumatología y ortopedia · Cirugía de trauma · Urgencia
 
 **Guías principales**
-WSES 2017: clasificación y guías del trauma pélvico (*World J Emerg Surg*) · ATLS (American College of Surgeons)
+WSES 2017: clasificación y guías del trauma pélvico (*World J Emerg Surg*) · ATLS, 11.ª edición (American College of Surgeons, 2025: xABCDE)
 
 **Otras fuentes**
 Ver [politraumatizado](../cirugia/trauma-y-shock/trauma-y-politraumatizado.md), [trauma urológico](../cirugia/urologia/trauma-urologico.md), [trauma abdominal](../cirugia/trauma-y-shock/trauma-abdominal.md) y [complicaciones de los traumatismos](complicaciones-de-los-traumatismos-y-del-yeso.md)
@@ -36,7 +36,7 @@ Octubre 2026
         - Los que llegan en **shock** tienen una mortalidad de **~ 30 %** (WSES 2017).
     - **Sospecha**: dolor pélvico, **asimetría o acortamiento** de una pierna en rotación externa, equimosis perineal o escrotal, sangre en el meato, hematuria, inestabilidad hemodinámica sin otra causa.
         - **No hacer maniobras repetidas** de compresión de la pelvis (aumentan el sangrado).
-    - **Manejo inicial (ABCDE)**:
+    - **Manejo inicial (xABCDE)**:
         - **Faja pélvica** (o sábana) **centrada en los trocánteres mayores**, desde el prehospitalario.
         - Dos vías venosas y **reanimación hemostática** (protocolo de transfusión masiva 1:1:1, **ácido tranexámico** en las primeras 3 h).
         - Radiografía AP de pelvis y **eFAST**.
@@ -170,7 +170,7 @@ Octubre 2026
 
 **Prehospitalario y en la urgencia**
 
-1. **ABCDE** con control de la columna; **vía aérea** si es necesario.
+1. **xABCDE** (primero la hemorragia externa exanguinante) con control de la columna; **vía aérea** si es necesario.
 2. **Faja pélvica** (comercial o **sábana**) si se sospecha una fractura inestable:
     - **Centrada sobre los trocánteres mayores**, no sobre las crestas ilíacas.
     - **Rotación interna** de las piernas y **rodillas y tobillos juntos**.
@@ -279,5 +279,5 @@ Octubre 2026
 
 1. Coccolini F, Stahel PF, Montori G, et al. Pelvic trauma: WSES classification and guidelines. *World J Emerg Surg.* 2017;12:5. doi:[10.1186/s13017-017-0117-6](https://doi.org/10.1186/s13017-017-0117-6)
 2. CRASH-2 trial collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2): a randomised, placebo-controlled trial. *Lancet.* 2010;376(9734):23–32. doi:[10.1016/S0140-6736(10)60835-5](https://doi.org/10.1016/S0140-6736(10)60835-5)
-3. American College of Surgeons. Advanced Trauma Life Support (ATLS). [facs.org](https://www.facs.org/quality-programs/trauma/education/advanced-trauma-life-support/)
+3. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS).* 11.ª ed. Chicago: ACS; 2025. [facs.org](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/)
 4. Superintendencia de Salud. Garantías Explícitas en Salud: politraumatizado grave. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/)

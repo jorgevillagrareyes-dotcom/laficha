@@ -29,7 +29,7 @@ Octubre 2026
 </div>
 
 !!! abstract "Resumen en 60 segundos"
-    - Se maneja dentro del **ABCDE del trauma**: primero la vía aérea, la ventilación y la **hemorragia**.
+    - Se maneja dentro del **xABCDE del trauma** (ATLS 11): primero la **hemorragia exanguinante**, luego la vía aérea, la ventilación y la circulación.
     - **Trauma renal**: el más frecuente del trauma urológico. **Hematuria** tras un trauma con **desaceleración** o golpe en el flanco. **TC con contraste y fase tardía** si hay hematuria macroscópica, o microscópica con **shock**, o un mecanismo de alta energía.
         - La mayoría se maneja **sin cirugía** (observación o **angioembolización**). Cirugía solo con **inestabilidad** o hemorragia que no se controla.
     - **Trauma vesical**: asociado a la **fractura de pelvis**. **Cistografía por TC** con contraste por la sonda.
@@ -169,7 +169,7 @@ flowchart TD
 
 ## Tratamiento
 
-- **ABCDE** y control de la **hemorragia** (ver [trauma](../trauma-y-shock/trauma-y-politraumatizado.md)).
+- **xABCDE** y control de la **hemorragia** (ver [trauma](../trauma-y-shock/trauma-y-politraumatizado.md)).
 - **Trauma renal**:
     - **Paciente estable**: **manejo no operatorio** (reposo, hemoglobina seriada, control de la hematuria), incluso en los grados altos.
     - **Sangrado activo** en la TC con estabilidad relativa: **angioembolización**.

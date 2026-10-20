@@ -30,7 +30,7 @@ Octubre 2026
 
 !!! abstract "Resumen en 60 segundos"
     - **Sospecha**: dolor, impotencia funcional, deformidad, crepitación, movilidad anormal, equimosis.
-    - **Primero el ABCDE**: la fractura de **fémur** puede sangrar **1–1,5 L** y la de **pelvis** más.
+    - **Primero el xABCDE**: la fractura de **fémur** puede sangrar **1–1,5 L** y la de **pelvis** más.
     - **Examen neurovascular distal** antes y después de cualquier maniobra.
     - **Radiografía**: **2 proyecciones** ortogonales que incluyan las **articulaciones proximal y distal**.
     - **Manejo inicial**: analgesia, **alinear** con tracción suave e **inmovilizar** con una **férula** (no un yeso circular en el trauma agudo). Incluir la articulación de arriba y la de abajo, y derivar.
@@ -101,7 +101,7 @@ Octubre 2026
 
 ```mermaid
 flowchart TD
-    A["Fractura de hueso largo"] --> B["ABCDE<br/>control de hemorragia"]
+    A["Fractura de hueso largo"] --> B["xABCDE<br/>control de hemorragia"]
     B --> C["Examen neurovascular distal<br/>y de la piel"]
     C --> D{"¿Herida que comunica<br/>con el foco?"}
     D -- "No" --> E["Analgesia, alinear,<br/>férula, radiografía"]
@@ -198,7 +198,7 @@ flowchart TD
 
 **Manejo inicial de toda fractura** (en la urgencia)
 
-1. **ABCDE** y control de la hemorragia (presión directa; torniquete si es una hemorragia exanguinante de una extremidad).
+1. **xABCDE** y control de la hemorragia (presión directa; torniquete si es una hemorragia exanguinante de una extremidad).
 2. **Analgesia** (ver [manejo del dolor](../cirugia/anestesia-y-perioperatorio/manejo-del-dolor.md)).
 3. **Examen neurovascular** y de la piel, y **registrarlo**.
 4. **Alinear** con una **tracción suave** en el eje si hay una deformidad grosera o compromiso vascular.

@@ -12,7 +12,7 @@ tags:
 Trauma · Cirugía general · Urgencia
 
 **Guías principales**
-ATLS, 10.ª edición (actualización resumida en 2019) · Guías WSES de trauma esplénico (2017) y hepático (2020) · Guía EAST de manejo no operatorio selectivo del trauma abdominal penetrante (2010)
+ATLS, 11.ª edición (2025: xABCDE) · Guías WSES de trauma esplénico (2017) y hepático (2020) · Guía EAST de manejo no operatorio selectivo del trauma abdominal penetrante (2010)
 
 **Otras fuentes**
 Guía europea de hemorragia masiva en el trauma, 6.ª edición (2023)
@@ -170,7 +170,7 @@ La **WSES** agrega la **fisiología**. En el paciente **estable**: **WSES I** = 
 
 ### Inicial
 
-- **ABCDE** y reanimación con **control del daño** (ver [trauma y politraumatizado](trauma-y-politraumatizado.md)): hipotensión permisiva, **tranexámico**, transfusión balanceada.
+- **xABCDE** y reanimación con **control del daño** (ver [trauma y politraumatizado](trauma-y-politraumatizado.md)): hipotensión permisiva, **tranexámico**, transfusión balanceada.
 - **Ayuno**, **sonda gástrica** (descomprime; sangre sugiere lesión gastroduodenal) y **sonda vesical** si no hay sangre en el meato.
 - **Evisceración**: **no reintroducir** las vísceras en urgencia; cubrir con **compresas húmedas estériles** y llevar a pabellón.
 - **Objeto empalado**: **no retirarlo** fuera del pabellón; fijarlo.
@@ -246,8 +246,9 @@ La **WSES** agrega la **fisiología**. En el paciente **estable**: **WSES I** = 
 
 ## Referencias
 
-1. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
-2. Coccolini F, Montori G, Catena F, et al. Splenic trauma: WSES classification and guidelines for adult and pediatric patients. *World J Emerg Surg.* 2017;12:40. doi:[10.1186/s13017-017-0151-4](https://doi.org/10.1186/s13017-017-0151-4)
-3. Coccolini F, Coimbra R, Ordonez C, et al. Liver trauma: WSES 2020 guidelines. *World J Emerg Surg.* 2020;15(1):24. doi:[10.1186/s13017-020-00302-7](https://doi.org/10.1186/s13017-020-00302-7)
-4. Como JJ, Bokhari F, Chiu WC, et al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. *J Trauma.* 2010;68(3):721–733. doi:[10.1097/TA.0b013e3181cf7d07](https://doi.org/10.1097/TA.0b013e3181cf7d07)
-5. Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. *Crit Care.* 2023;27(1):80. doi:[10.1186/s13054-023-04327-7](https://doi.org/10.1186/s13054-023-04327-7)
+1. American College of Surgeons, Committee on Trauma. *Advanced Trauma Life Support (ATLS).* 11.ª ed. Chicago: ACS; 2025. [facs.org](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/acs-brief/september-16-2025-issue/trauma-care-gets-major-upgrade-with-launch-of-atls-11/)
+2. Galvagno SM, Nahmias JT, Young DA. Advanced Trauma Life Support® Update 2019: Management and Applications for Adults and Special Populations. *Anesthesiol Clin.* 2019;37(1):13–32. doi:[10.1016/j.anclin.2018.09.009](https://doi.org/10.1016/j.anclin.2018.09.009)
+3. Coccolini F, Montori G, Catena F, et al. Splenic trauma: WSES classification and guidelines for adult and pediatric patients. *World J Emerg Surg.* 2017;12:40. doi:[10.1186/s13017-017-0151-4](https://doi.org/10.1186/s13017-017-0151-4)
+4. Coccolini F, Coimbra R, Ordonez C, et al. Liver trauma: WSES 2020 guidelines. *World J Emerg Surg.* 2020;15(1):24. doi:[10.1186/s13017-020-00302-7](https://doi.org/10.1186/s13017-020-00302-7)
+5. Como JJ, Bokhari F, Chiu WC, et al. Practice management guidelines for selective nonoperative management of penetrating abdominal trauma. *J Trauma.* 2010;68(3):721–733. doi:[10.1097/TA.0b013e3181cf7d07](https://doi.org/10.1097/TA.0b013e3181cf7d07)
+6. Rossaint R, Afshari A, Bouillon B, et al. The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition. *Crit Care.* 2023;27(1):80. doi:[10.1186/s13054-023-04327-7](https://doi.org/10.1186/s13054-023-04327-7)
