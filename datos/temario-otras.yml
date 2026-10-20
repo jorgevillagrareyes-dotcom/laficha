@@ -1448,6 +1448,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/tumores-ovaricos-y-masa-anexial.md
     - codigo: 3.01.1.029
       nombre: Patología benigna de mama
       dx: Sospecha

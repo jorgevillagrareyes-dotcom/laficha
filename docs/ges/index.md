@@ -237,7 +237,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 71. Cáncer de ovario epitelial
 
-**Guía MINSAL:** [Cáncer de ovario epitelial](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-de-ovario-epitelial/recomendaciones/)
+**Guía MINSAL:** [Cáncer de ovario epitelial](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/cancer-de-ovario-epitelial/recomendaciones/)  
+**En La Ficha:** [Tumores ováricos y masa anexial](../ginecologia-obstetricia/tumores-ovaricos-y-masa-anexial.md)
 
 ### N.° 72. Cáncer vesical en personas de 15 años y más
 

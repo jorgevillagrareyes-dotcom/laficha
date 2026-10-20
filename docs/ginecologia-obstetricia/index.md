@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **60 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **61 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -21,6 +21,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Tumores ováricos y masa anexial (incluido el cáncer de ovario epitelial)](tumores-ovaricos-y-masa-anexial.md)
 
 ## Situaciones clínicas
 
@@ -53,7 +54,7 @@ hide:
 | 3.01.1.025 | Proceso inflamatorio pelviano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md) |
 | 3.01.1.026 | Prolapso genital | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.027 | Síndrome climatérico y menopausia | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
-| 3.01.1.028 | Tumores ováricos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.028 | Tumores ováricos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores ováricos y masa anexial (incluido el cáncer de ovario epitelial)](tumores-ovaricos-y-masa-anexial.md) |
 | 3.01.1.029 | Patología benigna de mama | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Patología mamaria benigna](../cirugia/cabeza-cuello-tiroides-y-mama/patologia-mamaria-benigna.md) |
 | 3.01.1.030 | Cáncer de mama | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de mama y diagnóstico precoz](../cirugia/cabeza-cuello-tiroides-y-mama/cancer-de-mama.md) |
 | 3.01.1.031 | VIH en ginecobstetricia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infección por VIH y SIDA, candidiasis orofaríngea y esofágica, y diarrea en inmunosuprimidos](../infectologia/infeccion-por-vih.md) |
