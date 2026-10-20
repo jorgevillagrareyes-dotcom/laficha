@@ -215,7 +215,7 @@ flowchart TD
 | **Aspiración** (manual o eléctrica) o legrado | Sangrado abundante, inestabilidad, **infección**, preferencia de la paciente | Más rápida y predecible |
 | **Amenaza de aborto** | Reposo relativo; no hay un tratamiento que demuestre prevenir el aborto | Control ecográfico |
 
-- **Inmunoglobulina anti-D** a las Rh negativas no sensibilizadas en los abortos con evacuación o tratamiento médico, el ectópico y la mola.
+- **Inmunoglobulina anti-D** a las Rh negativas no sensibilizadas en los abortos con evacuación o tratamiento médico, el ectópico y la mola. No se indica en el aborto espontáneo completo de menos de 12 semanas (Guía Perinatal 2015).
 
 **Aborto séptico** (urgencia)
 
@@ -240,7 +240,7 @@ flowchart TD
     | **Misoprostol** | **800 µg** vía vaginal (se puede repetir en 24 h si no hay expulsión) | Aborto retenido o incompleto |
     | **Mifepristona** | **200 mg VO**, 24 h antes del misoprostol | Mejora el éxito en el aborto retenido |
     | **Metotrexato** (ectópico, dosis única) | **50 mg/m² IM** | β-hCG los días 4 y 7: debe **bajar ≥ 15 %** entre ellos; si no, segunda dosis o cirugía |
-    | **Inmunoglobulina anti-D** | Habitualmente **300 µg IM** (antes de las 12 semanas basta una dosis menor, 50–120 µg, según el preparado disponible) | Rh negativa no sensibilizada, dentro de 72 h |
+    | **Inmunoglobulina anti-D** | **300 µg IM** (en Chile es la dosis disponible y se usa a cualquier edad gestacional; Guía Perinatal 2015) | Rh negativa no sensibilizada con evacuación uterina, ectópico o mola. No se indica en el aborto espontáneo completo de < 12 semanas |
     | **Aborto séptico** | **Clindamicina 900 mg IV cada 8 h + gentamicina 5 mg/kg IV al día** (± ampicilina), o **ceftriaxona 2 g IV al día + metronidazol 500 mg IV cada 8 h** | Antes y después de la evacuación |
 
 !!! alarma "Urgencia"
@@ -310,3 +310,4 @@ flowchart TD
 3. Ngan HYS, Seckl MJ, Berkowitz RS, et al. Diagnosis and management of gestational trophoblastic disease: 2021 update. *Int J Gynaecol Obstet.* 2021;155(Suppl 1):86–93. doi:[10.1002/ijgo.13877](https://doi.org/10.1002/ijgo.13877)
 4. Ley 21.030. Regula la despenalización de la interrupción voluntaria del embarazo en tres causales. *Diario Oficial*, 2017. [bcn.cl](https://www.bcn.cl/leychile/)
 5. Ministerio de Salud de Chile. Reporte de la Ley de interrupción voluntaria del embarazo (IVE). [minsal.cl](https://www.minsal.cl/ive-reporte-actualizado/)
+6. Ministerio de Salud de Chile. Guía Perinatal 2015. Santiago: MINSAL; 2015. [minsal.cl](https://www.minsal.cl/salud-de-la-mujer/)

@@ -1287,6 +1287,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.1.006
       nombre: Embarazo ectópico no complicado
       dx: Sospecha
@@ -1564,10 +1566,16 @@ especialidades:
     generales:
     - codigo: 3.01.3.001
       nombre: Control prenatal
+      resumen:
+      - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.3.002
       nombre: Derechos y aspectos legales de la embarazada y su pareja
+      resumen:
+      - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.3.003
       nombre: Determinación de edad gestacional
+      resumen:
+      - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.3.004
       nombre: Lactancia
     - codigo: 3.01.3.005
@@ -1582,6 +1590,8 @@ especialidades:
       nombre: Anticoncepción
     - codigo: 3.01.3.009
       nombre: Prevención de enfermedad hemolítica perinatal
+      resumen:
+      - ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
     - codigo: 3.01.3.010
       nombre: Prevención de enfermedades de transmisión sexual
       resumen:

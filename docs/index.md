@@ -39,7 +39,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Embarazo, parto, puerperio y ginecología. En preparación · **22 de 69** temas con resumen
+    Embarazo, parto, puerperio y ginecología. En preparación · **27 de 69** temas con resumen
 
 -   :material-baby-face-outline:{ .lg .middle } **[Pediatría](pediatria/index.md)**
 

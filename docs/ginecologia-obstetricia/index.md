@@ -6,10 +6,11 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **22 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **27 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 
 ## Situaciones clínicas
@@ -20,7 +21,7 @@ hide:
 | 3.01.1.002 | Anemia y embarazo | Específico | Completo | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Anemias: enfoque, ferropénica, de enfermedades crónicas, megaloblástica y hemolítica](../hematologia/anemias.md) |
 | 3.01.1.003 | Colestasia gravídica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.004 | Diabetes y embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes y embarazo: diabetes gestacional y diabetes pregestacional](../endocrinologia/diabetes-y-embarazo.md) |
-| 3.01.1.005 | Embarazo con edad gestacional dudosa | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.005 | Embarazo con edad gestacional dudosa | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.1.006 | Embarazo ectópico no complicado | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.1.007 | Embarazo múltiple | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.008 | Enfermedad del trofoblasto | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
@@ -79,15 +80,15 @@ hide:
 
 | Código | Tema | Resumen |
 |---|---|---|
-| 3.01.3.001 | Control prenatal | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.3.002 | Derechos y aspectos legales de la embarazada y su pareja | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.3.003 | Determinación de edad gestacional | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.001 | Control prenatal | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
+| 3.01.3.002 | Derechos y aspectos legales de la embarazada y su pareja | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
+| 3.01.3.003 | Determinación de edad gestacional | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.3.004 | Lactancia | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.005 | Manejo de la salud de la mujer climatérica | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
 | 3.01.3.006 | Métodos naturales para la regulación de la fecundidad | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.007 | Mortalidad perinatal y materna | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.008 | Anticoncepción | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.3.009 | Prevención de enfermedad hemolítica perinatal | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.009 | Prevención de enfermedad hemolítica perinatal | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.3.010 | Prevención de enfermedades de transmisión sexual | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.3.011 | Pubertad (adolescencia) | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.012 | Salud pública perinatal | :material-clock-outline:{ .pend title="Pendiente" } |
