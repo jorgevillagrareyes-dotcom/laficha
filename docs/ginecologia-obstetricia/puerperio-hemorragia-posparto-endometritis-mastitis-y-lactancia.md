@@ -13,7 +13,7 @@ tags:
 Obstetricia · Puerperio
 
 **Guías principales**
-MINSAL 2015: Guía Perinatal (hemorragia posparto en el capítulo de urgencias obstétricas) · OMS 2017: ácido tranexámico en la hemorragia posparto · RCOG 2016: prevención y manejo de la hemorragia posparto (GTG 52, *BJOG* 2017) · ABM 2022: espectro de la mastitis (protocolo 36)
+MINSAL 2015: Guía Perinatal (hemorragia posparto en el capítulo de urgencias obstétricas) · OMS/FIGO/ICM 2025: guía consolidada de prevención, diagnóstico y tratamiento de la hemorragia posparto · OMS 2017: ácido tranexámico en la hemorragia posparto · RCOG 2016: prevención y manejo de la hemorragia posparto (GTG 52, *BJOG* 2017) · ABM 2022: espectro de la mastitis (protocolo 36)
 
 **Otras fuentes**
 Ensayos WOMAN (2017) y E-MOTIVE (2023) · Ver [trabajo de parto y distocias](trabajo-de-parto-distocias-y-sufrimiento-fetal.md), [metrorragia de la segunda mitad del embarazo](metrorragia-de-la-segunda-mitad-del-embarazo.md), [coagulopatías y CID](../hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md), [sepsis](../infectologia/sepsis-y-shock-septico.md), [depresión](../geriatria/depresion.md) y [VIH](../infectologia/infeccion-por-vih.md)
@@ -31,7 +31,7 @@ Octubre 2026
 
 !!! abstract "Resumen en 60 segundos"
     - **Puerperio**: las **6 semanas** (42 días) que siguen al parto. **Inmediato** (24 h), **precoz** (hasta el día 7–10) y **tardío** (hasta el día 42).
-    - **Hemorragia posparto (HPP)**: pérdida **≥ 500 mL** tras un parto vaginal o **≥ 1000 mL** tras una cesárea, o cualquier sangrado con **inestabilidad**. Es una de las **primeras causas de muerte materna** en el mundo.
+    - **Hemorragia posparto (HPP)**: pérdida **≥ 500 mL** tras un parto vaginal o **≥ 1000 mL** tras una cesárea, o cualquier sangrado con **inestabilidad**. La guía **OMS/FIGO/ICM 2025** manda **actuar ya con ≥ 300 mL** si hay **signos vitales alterados**, midiendo la pérdida con **bolsa calibrada**. Es una de las **primeras causas de muerte materna** en el mundo.
         - Causas, las **4 T**: **Tono** (atonía, ~ 70 %), **Trauma** (desgarros), **Tejido** (restos, acretismo) y **Trombina** (coagulopatía).
         - **Prevención**: **manejo activo del alumbramiento** con **oxitocina** en todos los partos.
         - **Tratamiento**: pedir ayuda, **masaje uterino**, **oxitocina**, **ácido tranexámico 1 g EV** (dentro de 3 h), volumen, revisar el canal y la cavidad; luego **metilergonovina** o **misoprostol**, **balón**, cirugía (B-Lynch, ligaduras, **histerectomía**).
@@ -49,6 +49,7 @@ Octubre 2026
     - **Primaria** (precoz): en las primeras **24 horas**.
     - **Secundaria** (tardía): desde las 24 horas hasta las **6 semanas** (0,5–2 %; restos, infección, coagulopatía, malformación arteriovenosa).
     - **Cuantitativa**: **≥ 500 mL** (vaginal) o **≥ 1000 mL** (cesárea) (Guía Perinatal 2015). **Grave**: ≥ 1000 mL o con signos de shock.
+    - **Criterio OMS/FIGO/ICM 2025** (para actuar precozmente): pérdida **≥ 500 mL**, **o ≥ 300 mL con signos vitales alterados** (taquicardia, hipotensión, índice de shock elevado), medida **objetivamente** con una bolsa calibrada.
 - **Inercia o atonía uterina**: útero que no se contrae tras el alumbramiento.
 - **Endometritis puerperal**: infección del **endometrio** (y a veces del miometrio y parametrio) tras el parto.
 - **Mastitis**: inflamación de la mama, con o sin infección. Espectro (ABM 2022): congestión ductal, mastitis inflamatoria, **mastitis bacteriana**, flemón y **absceso**.
@@ -103,7 +104,7 @@ Octubre 2026
 
 ```mermaid
 flowchart TD
-    A["Sangrado posparto ≥ 500 mL<br/>o inestabilidad"] --> B["Pedir ayuda, 2 vías gruesas,<br/>cristaloides, O2, exámenes<br/>(Hto, plaquetas, coagulación,<br/>grupo y pruebas cruzadas)"]
+    A["Sangrado posparto ≥ 500 mL,<br/>≥ 300 mL con signos vitales<br/>alterados, o inestabilidad"] --> B["Pedir ayuda, 2 vías gruesas,<br/>cristaloides, O2, exámenes<br/>(Hto, plaquetas, coagulación,<br/>grupo y pruebas cruzadas)"]
     B --> C["Masaje uterino + oxitocina<br/>+ ácido tranexámico 1 g EV"]
     C --> D{"¿Útero contraído?"}
     D -- "No (atonía)" --> E["Metilergonovina o misoprostol,<br/>compresión bimanual,<br/>vaciar la vejiga"]
@@ -128,7 +129,7 @@ flowchart TD
 | 1500–2000 mL | 25–35 % | **Hipotensión**, oliguria, agitación | > 1 |
 | > 2000 mL | > 35 % | **Shock**, compromiso de conciencia | > 1,4 |
 
-- La estimación visual **subestima** la pérdida: usar **bolsas colectoras graduadas** (E-MOTIVE 2023) o pesar compresas y guiarse por los signos clínicos.
+- La estimación visual **subestima** la pérdida: usar **bolsas colectoras calibradas** (E-MOTIVE 2023; recomendadas por la OMS/FIGO/ICM 2025) o pesar compresas y guiarse por los signos clínicos.
 - El **índice de shock ≥ 1** es una señal de alarma útil.
 
 ### Espectro de la mastitis (ABM 2022)
@@ -156,7 +157,7 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (Guía Perinatal 2015; RCOG 2016; OMS 2017; ABM 2022)"
+!!! guia "Puntos clave (Guía Perinatal 2015; RCOG 2016; OMS 2017; OMS/FIGO/ICM 2025; ABM 2022)"
     - **HPP**: diagnóstico **clínico**. Cuantificar la pérdida (bolsa graduada) y evaluar los signos vitales. Buscar la causa por las **4 T**: palpar el **útero** (tono), revisar el **canal del parto** (trauma), la **placenta** y la cavidad (tejido) y la **coagulación** (trombina).
     - **Endometritis**: diagnóstico **clínico**. Hemograma y PCR apoyan; **hemocultivos** si hay sepsis; **ecografía** si se sospechan restos o un absceso. Descartar otras fuentes (orina, mama, herida, pulmón, trombosis).
     - **Mastitis**: diagnóstico **clínico**. **Cultivo de leche** si no responde a 48 h de antibióticos, es recurrente, grave o adquirida en el hospital (SARM). **Ecografía** si se sospecha un absceso.
@@ -204,7 +205,8 @@ flowchart TD
 3. **Exámenes** y **pruebas cruzadas**.
 4. **Hemoderivados**: glóbulos rojos si la Hb es < 7–8 g/dL o hay sangrado activo con inestabilidad; en la hemorragia masiva, **proporción 1:1:1** o la de la Guía Perinatal 2015 (**4 glóbulos rojos : 2 plasmas : 1 aféresis de plaquetas**). Metas: **Hto > 21 %**, **plaquetas > 50 000/mm³**, **fibrinógeno > 100–200 mg/dL** (crioprecipitado), INR < 1,5.
 5. **Ácido tranexámico 1 g EV** en 10 minutos **dentro de las 3 horas** del parto; repetir 1 g si sigue sangrando a los 30 minutos (ensayo **WOMAN**, OMS 2017). La Guía Perinatal 2015 no lo recomendaba de rutina; la evidencia posterior lo incorporó al tratamiento inicial.
-6. **Paquete E-MOTIVE** (OMS 2023): detección precoz con **bolsa graduada** + **masaje**, **oxitocina**, **ácido tranexámico**, **fluidos**, **examen** del canal y escalada.
+6. **Paquete MOTIVE** (OMS/FIGO/ICM 2025, basado en el ensayo E-MOTIVE): apenas se diagnostica la HPP, en paralelo: **M**asaje uterino, **O**xitócicos, **T**ranexámico, **I**ntravenosos (fluidos), **V**aginal (examen del canal del parto) y **E**scalar si persiste el sangrado.
+7. **Prevención** (OMS/FIGO/ICM 2025): uterotónico en todos los partos (**oxitocina** de elección; **carbetocina termoestable** como alternativa; **misoprostol** solo si no hay opciones EV ni cadena de frío). **Hierro EV** si se necesita corregir la anemia rápido (por ejemplo, tras una HPP).
 
 **Según la causa:**
 
@@ -362,6 +364,7 @@ flowchart TD
 2. WOMAN Trial Collaborators. Effect of early tranexamic acid administration on mortality, hysterectomy, and other morbidities in women with post-partum haemorrhage (WOMAN): an international, randomised, double-blind, placebo-controlled trial. *Lancet.* 2017;389(10084):2105–2116. doi:[10.1016/S0140-6736(17)30638-4](https://doi.org/10.1016/S0140-6736(17)30638-4)
 3. Gallos I, Devall A, Martin J, et al. Randomized trial of early detection and treatment of postpartum hemorrhage. *N Engl J Med.* 2023;389(1):11–21. doi:[10.1056/NEJMoa2303966](https://doi.org/10.1056/NEJMoa2303966)
 4. Prevention and management of postpartum haemorrhage: Green-top Guideline No. 52. *BJOG.* 2017;124(5):e106–e149. doi:[10.1111/1471-0528.14178](https://doi.org/10.1111/1471-0528.14178)
-5. World Health Organization. Updated WHO recommendation on tranexamic acid for the treatment of postpartum haemorrhage. Ginebra: OMS; 2017. [who.int](https://www.who.int/publications/i/item/WHO-RHR-17.21)
-6. Mitchell KB, Johnson HM, Rodríguez JM, et al. Academy of Breastfeeding Medicine Clinical Protocol #36: The mastitis spectrum, revised 2022. *Breastfeed Med.* 2022;17(5):360–376. doi:[10.1089/bfm.2022.29207.kbm](https://doi.org/10.1089/bfm.2022.29207.kbm)
-7. Ministerio de Salud de Chile. Chile Crece Contigo: sistema de protección integral a la infancia. [crececontigo.gob.cl](https://www.crececontigo.gob.cl/)
+5. World Health Organization, FIGO, ICM. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage. Ginebra: OMS; 2025. [who.int](https://www.who.int/publications/i/item/9789240115637)
+6. World Health Organization. Updated WHO recommendation on tranexamic acid for the treatment of postpartum haemorrhage. Ginebra: OMS; 2017. [who.int](https://www.who.int/publications/i/item/WHO-RHR-17.21)
+7. Mitchell KB, Johnson HM, Rodríguez JM, et al. Academy of Breastfeeding Medicine Clinical Protocol #36: The mastitis spectrum, revised 2022. *Breastfeed Med.* 2022;17(5):360–376. doi:[10.1089/bfm.2022.29207.kbm](https://doi.org/10.1089/bfm.2022.29207.kbm)
+8. Ministerio de Salud de Chile. Chile Crece Contigo: sistema de protección integral a la infancia. [crececontigo.gob.cl](https://www.crececontigo.gob.cl/)
