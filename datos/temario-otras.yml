@@ -1396,6 +1396,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/infertilidad-conyugal.md
     - codigo: 3.01.1.021
       nombre: Mioma uterino
       dx: Específico

@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **62 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **63 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Infertilidad conyugal](infertilidad-conyugal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md)
@@ -47,7 +48,7 @@ hide:
 | 3.01.1.017 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.1.018 | Hemorragia genital anormal | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.019 | Infecciones genitourinarias | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) · [Infección del tracto urinario](../nefrologia/infeccion-urinaria.md) |
-| 3.01.1.020 | Infertilidad conyugal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.020 | Infertilidad conyugal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infertilidad conyugal](infertilidad-conyugal.md) |
 | 3.01.1.021 | Mioma uterino | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.022 | Oligoanovulación crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
 | 3.01.1.023 | Patología benigna del endometrio (hiperplasia, pólipos…) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
