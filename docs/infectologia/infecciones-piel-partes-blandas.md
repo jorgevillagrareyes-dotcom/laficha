@@ -17,7 +17,7 @@ Infectología · Cirugía · Diabetes · Urgencia
 IDSA 2014: infecciones de piel y partes blandas · WSES/GAIS/WSIS/SIS-E/AAST 2022: rutas clínicas globales · IWGDF/IDSA 2023: infección del pie diabético
 
 **Otras fuentes**
-MINSAL 2024: lineamientos de manejo de la enfermedad invasora por *Streptococcus pyogenes* · Vigilancia del ISP de *S. pyogenes* invasor
+MINSAL 2024: lineamientos de manejo de la enfermedad invasora por *Streptococcus pyogenes* · Vigilancia del ISP de *S. pyogenes* invasor · IDSA/ESCMID 2026: bacteriemia por *S. aureus* (ver [endocarditis](endocarditis-infecciosa.md))
 
 **EUNACOM**
 1.04.1.006 Celulitis bacteriana (específico, completo, completo) · 1.04.2.005 Infección invasiva de partes blandas: celulitis, fasceítis, miositis necrotizantes o septicémicas (sospecha, inicial, derivar) · 1.02.1.014 Pie diabético y otras infecciones en diabetes (específico, inicial, derivar)

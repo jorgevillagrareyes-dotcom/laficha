@@ -14,7 +14,7 @@ tags:
 Infectología · Cardiología · Cirugía cardíaca ("equipo de endocarditis")
 
 **Guías principales**
-ESC 2023: manejo de la endocarditis (*Eur Heart J*) · Criterios de Duke-ISCVID 2023 (*Clin Infect Dis*) · AHA 2015: endocarditis infecciosa del adulto
+ESC 2023: manejo de la endocarditis (*Eur Heart J*) · Criterios de Duke-ISCVID 2023 (*Clin Infect Dis*) · AHA 2026: declaración científica sobre diagnóstico, tratamiento antibiótico y manejo (*Circulation*, actualiza la de 2015) · IDSA/ESCMID 2026: bacteriemia por *S. aureus*
 
 **Otras fuentes**
 Ensayos POET (2019) y EASE (2012) · Estudio cooperativo chileno (Oyonarte, 2012) · Revisión sistemática chilena (Del Castillo, 2025)
@@ -26,7 +26,7 @@ No
 1.04.2.003 Endocarditis bacteriana (sospecha, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -265,6 +265,14 @@ flowchart TD
     - **Cirugía precoz** según las indicaciones (tabla más abajo).
     - **Profilaxis antibiótica** antes de los **procedimientos dentales** de riesgo **sólo** en los pacientes de **alto riesgo**: prótesis valvular o reparación con material, EI previa, cardiopatías congénitas cianóticas o reparadas con material protésico, dispositivos de asistencia ventricular.
 
+!!! guia "Novedades AHA 2026 e IDSA/ESCMID 2026"
+    - La **declaración científica AHA 2026** (primera actualización desde 2015) incorpora los criterios **Duke-ISCVID 2023**, la identificación de gérmenes **sin cultivo** (PCR, secuenciación), la **imagen multimodal** (ETE, TC cardíaca, PET/TC), el **paso a vía oral** en pacientes seleccionados (POET), el **equipo de endocarditis** y la **aspiración percutánea** de vegetaciones **derechas** en pacientes seleccionados con infección no controlada pese al tratamiento.
+    - El documento AHA destaca también el **tratamiento ambulatorio** al final del curso (oral, o con **lipoglicopéptidos de acción prolongada** como la dalbavancina) en pacientes estables y adherentes.
+    - **Bacteriemia por *S. aureus*** (IDSA/ESCMID 2026): reemplaza la división "complicada / no complicada" por una **estratificación de riesgo**. Son factores de mayor riesgo, entre otros, el **inicio comunitario**, los **hemocultivos positivos ≥ 48 h** después del primero, un **dispositivo intracardíaco**, una valvulopatía predisponente y el uso de drogas EV.
+        - **Ecocardiograma transtorácico** a **todo adulto** con bacteriemia por *S. aureus*; **ETE** si el transtorácico es negativo y hay un factor de riesgo de endocarditis.
+        - **Hemocultivos de control**: al menos **2 sets ≥ 48 h** después del primero positivo, hasta que sean negativos.
+        - Sin focos profundos ni metastásicos: **14 días** de antibióticos.
+
 !!! dosis "Antibióticos en la endocarditis (función renal normal; ajustar al antibiograma y a la función renal)"
     **Empírico** (tras los hemocultivos, si el paciente está grave):
 
@@ -388,10 +396,12 @@ flowchart TD
 
 1. Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. *Eur Heart J.* 2023;44:3948–4042. doi:[10.1093/eurheartj/ehad193](https://doi.org/10.1093/eurheartj/ehad193)
 2. Fowler VG, Durack DT, Selton-Suty C, et al. The 2023 Duke-International Society for Cardiovascular Infectious Diseases Criteria for Infective Endocarditis: Updating the Modified Duke Criteria. *Clin Infect Dis.* 2023;77:518–526. doi:[10.1093/cid/ciad271](https://doi.org/10.1093/cid/ciad271)
-3. Baddour LM, Wilson WR, Bayer AS, et al. Infective Endocarditis in Adults: Diagnosis, Antimicrobial Therapy, and Management of Complications: A Scientific Statement for Healthcare Professionals From the American Heart Association. *Circulation.* 2015;132:1435–1486. doi:[10.1161/CIR.0000000000000296](https://doi.org/10.1161/CIR.0000000000000296)
-4. Iversen K, Ihlemann N, Gill SU, et al. Partial Oral versus Intravenous Antibiotic Treatment of Endocarditis (POET). *N Engl J Med.* 2019;380:415–424. doi:[10.1056/NEJMoa1808312](https://doi.org/10.1056/NEJMoa1808312)
-5. Kang DH, Kim YJ, Kim SH, et al. Early surgery versus conventional treatment for infective endocarditis (EASE). *N Engl J Med.* 2012;366:2466–2473. doi:[10.1056/NEJMoa1112843](https://doi.org/10.1056/NEJMoa1112843)
-6. Cahill TJ, Prendergast BD. Infective endocarditis. *Lancet.* 2016;387:882–893. doi:[10.1016/S0140-6736(15)00067-7](https://doi.org/10.1016/S0140-6736(15)00067-7)
-7. Oyonarte M, Montagna R, Braun S, et al. Clinical characteristics, complications and mortality in 506 patients with infective endocarditis and determinants of survival rate at 10 years [artículo en español]. *Rev Med Chile.* 2012;140:1517–1528. doi:[10.4067/S0034-98872012001200001](https://doi.org/10.4067/S0034-98872012001200001)
-8. Del Castillo C, Tapia A, Begazo A, et al. Clinical and epidemiological profile of infective endocarditis in Chile – A systematic review of descriptive analysis. *Am Heart J Plus.* 2025;52:100511. doi:[10.1016/j.ahjo.2025.100511](https://doi.org/10.1016/j.ahjo.2025.100511)
-9. Hryniewiecki T, Zatorska K, Abramczuk E, et al. The usefulness of cardiac CT in the diagnosis of perivalvular complications in patients with infective endocarditis. *Eur Radiol.* 2019;29:4368. doi:[10.1007/s00330-018-5965-2](https://doi.org/10.1007/s00330-018-5965-2)
+3. DeSimone DC, Marks L, Dayer MJ, et al. Infective endocarditis: diagnosis, antibiotic therapy, and management: a scientific statement from the American Heart Association. *Circulation.* 2026;154(15):e593–e619. doi:[10.1161/CIR.0000000000001466](https://doi.org/10.1161/CIR.0000000000001466)
+4. IDSA/ESCMID. Consensus statement on *Staphylococcus aureus* bacteremia: risk stratification, diagnostic evaluation and duration of therapy (2026). [Resumen en ACP](https://www.acpjournals.org/doi/full/10.7326/acph-20260916-idsa-escmid-release-new-guidance-on-s-aureus)
+5. Baddour LM, Wilson WR, Bayer AS, et al. Infective Endocarditis in Adults: Diagnosis, Antimicrobial Therapy, and Management of Complications: A Scientific Statement for Healthcare Professionals From the American Heart Association. *Circulation.* 2015;132:1435–1486. doi:[10.1161/CIR.0000000000000296](https://doi.org/10.1161/CIR.0000000000000296)
+6. Iversen K, Ihlemann N, Gill SU, et al. Partial Oral versus Intravenous Antibiotic Treatment of Endocarditis (POET). *N Engl J Med.* 2019;380:415–424. doi:[10.1056/NEJMoa1808312](https://doi.org/10.1056/NEJMoa1808312)
+7. Kang DH, Kim YJ, Kim SH, et al. Early surgery versus conventional treatment for infective endocarditis (EASE). *N Engl J Med.* 2012;366:2466–2473. doi:[10.1056/NEJMoa1112843](https://doi.org/10.1056/NEJMoa1112843)
+8. Cahill TJ, Prendergast BD. Infective endocarditis. *Lancet.* 2016;387:882–893. doi:[10.1016/S0140-6736(15)00067-7](https://doi.org/10.1016/S0140-6736(15)00067-7)
+9. Oyonarte M, Montagna R, Braun S, et al. Clinical characteristics, complications and mortality in 506 patients with infective endocarditis and determinants of survival rate at 10 years [artículo en español]. *Rev Med Chile.* 2012;140:1517–1528. doi:[10.4067/S0034-98872012001200001](https://doi.org/10.4067/S0034-98872012001200001)
+10. Del Castillo C, Tapia A, Begazo A, et al. Clinical and epidemiological profile of infective endocarditis in Chile – A systematic review of descriptive analysis. *Am Heart J Plus.* 2025;52:100511. doi:[10.1016/j.ahjo.2025.100511](https://doi.org/10.1016/j.ahjo.2025.100511)
+11. Hryniewiecki T, Zatorska K, Abramczuk E, et al. The usefulness of cardiac CT in the diagnosis of perivalvular complications in patients with infective endocarditis. *Eur Radiol.* 2019;29:4368. doi:[10.1007/s00330-018-5965-2](https://doi.org/10.1007/s00330-018-5965-2)

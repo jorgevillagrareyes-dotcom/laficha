@@ -15,7 +15,7 @@ Infectología · Traumatología · Medicina interna
 Guía IDSA 2015 de osteomielitis vertebral nativa (*Clin Infect Dis*) · Guía IWGDF/IDSA 2023 de infecciones del pie en la diabetes (*Clin Infect Dis*)
 
 **Otras fuentes**
-Ensayo OVIVA de antibióticos orales frente a intravenosos (*N Engl J Med* 2019) · Ensayo de 6 frente a 12 semanas en osteomielitis vertebral (*Lancet* 2015) · Revisión de imágenes de la espondilodiscitis (*Microorganisms* 2024) · Seminario del *Lancet* 2004 · Series chilenas de espondilodiscitis (*Rev Med Chil* 2003, *Rev Chilena Infectol* 2016)
+Ensayo OVIVA de antibióticos orales frente a intravenosos (*N Engl J Med* 2019) · Ensayo de 6 frente a 12 semanas en osteomielitis vertebral (*Lancet* 2015) · Revisión de imágenes de la espondilodiscitis (*Microorganisms* 2024) · Seminario del *Lancet* 2004 · Series chilenas de espondilodiscitis (*Rev Med Chil* 2003, *Rev Chilena Infectol* 2016) · IDSA/ESCMID 2026: bacteriemia por *S. aureus* (ecocardiograma y duración; ver [endocarditis](endocarditis-infecciosa.md))
 
 **GES**
 No como tal. El GES de diabetes mellitus tipo 2 incluye la curación avanzada de las úlceras del pie diabético.
