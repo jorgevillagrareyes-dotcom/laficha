@@ -1671,6 +1671,8 @@ especialidades:
       - infectologia/infecciones-de-transmision-sexual-y-sifilis.md
     - codigo: 3.01.3.011
       nombre: Pubertad (adolescencia)
+      resumen:
+      - ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
     - codigo: 3.01.3.012
       nombre: Salud pública perinatal
     - codigo: 3.01.3.013
@@ -1679,6 +1681,8 @@ especialidades:
       - ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
     - codigo: 3.01.3.014
       nombre: Sexualidad, género y diversidad
+      resumen:
+      - ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
     - codigo: 3.01.3.015
       nombre: Síndrome de ovario poliquístico
       resumen:
