@@ -1522,6 +1522,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/parto-prematuro-y-rotura-prematura-de-membranas.md
     - codigo: 3.01.2.013
       nombre: Presentaciones fetales anómalas
       dx: Sospecha
@@ -1532,6 +1534,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/parto-prematuro-y-rotura-prematura-de-membranas.md
     - codigo: 3.01.2.015
       nombre: Rotura uterina
       dx: Sospecha

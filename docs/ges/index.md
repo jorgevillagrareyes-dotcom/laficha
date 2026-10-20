@@ -403,7 +403,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 24. Prevención de parto prematuro
 
-**Guía MINSAL:** [Prevención del parto prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/prevencion-del-parto-prematuro/recomendaciones/)
+**Guía MINSAL:** [Prevención del parto prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/prevencion-del-parto-prematuro/recomendaciones/)  
+**En La Ficha:** [Parto prematuro y rotura prematura de membranas](../ginecologia-obstetricia/parto-prematuro-y-rotura-prematura-de-membranas.md)
 
 ### N.° 40. Síndrome de dificultad respiratoria en el recién nacido
 
