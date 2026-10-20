@@ -12,7 +12,7 @@ tags:
 Ginecología · Salud sexual y reproductiva
 
 **Guías principales**
-MINSAL 2018: Normas Nacionales sobre Regulación de la Fertilidad · OMS 2015: criterios médicos de elegibilidad para el uso de anticonceptivos (5.ª edición) · CDC 2024: criterios médicos de elegibilidad (US MEC) y recomendaciones de práctica (US SPR)
+MINSAL 2018: Normas Nacionales sobre Regulación de la Fertilidad · OMS 2025: criterios médicos de elegibilidad para el uso de anticonceptivos (6.ª edición) · CDC 2024: criterios médicos de elegibilidad (US MEC) y recomendaciones de práctica (US SPR)
 
 **Otras fuentes**
 Ley 20.418 (2010) y Decreto Supremo N.° 62 de 2015 (anticoncepción de emergencia sin receta) · Ver [puerperio y lactancia](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md), [sangrado uterino anormal](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md), [trombofilias](../hematologia/trombofilias.md), [cefalea y migraña](../neurologia/cefalea.md) e [ITS](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md)
@@ -161,8 +161,9 @@ La consulta anticonceptiva es una **consejería**, no solo una receta:
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (Normas MINSAL 2018; OMS 2015; CDC 2024)"
-    - Usar los **criterios médicos de elegibilidad** (OMS o CDC 2024) para cada condición de salud.
+!!! guia "Puntos clave (Normas MINSAL 2018; OMS 2025; CDC 2024)"
+    - Usar los **criterios médicos de elegibilidad** (OMS 2025 o CDC 2024) para cada condición de salud.
+    - **Novedades de la 6.ª edición OMS (2025)**: más de 2000 recomendaciones para 25 métodos. Se actualizaron las de **lactancia** para los métodos de **progestágeno solo** (incluido el inyectable) y el **DIU** (evidencia tranquilizadora) y las **interacciones con antirretrovirales**; repetir la **anticoncepción de emergencia** en un mismo ciclo es seguro. Se publicó junto con la 4.ª edición de las recomendaciones de práctica (SPR).
     - **Inicio rápido** (*quick start*): se puede iniciar un método **cualquier día del ciclo** si es razonablemente seguro que no hay embarazo; usar **condón por 7 días** (combinados, inyectables, implante, DIU-LNG) o **2 días** (píldora de progestágeno solo). El DIU de cobre protege de inmediato.
     - Los **LARC** son de **primera línea** también en **adolescentes** y **nulíparas**.
     - **Doble protección**: método eficaz + **condón** para las ITS.
@@ -322,7 +323,7 @@ Situaciones frecuentes en las usuarias:
 ## Referencias
 
 1. Ministerio de Salud de Chile. Normas Nacionales sobre Regulación de la Fertilidad. Santiago: MINSAL; 2018. [minsal.cl](https://www.minsal.cl/wp-content/uploads/2015/09/2018.01.30_NORMAS-REGULACION-DE-LA-FERTILIDAD.pdf)
-2. World Health Organization. Medical eligibility criteria for contraceptive use. 5.ª ed. Ginebra: OMS; 2015. [who.int](https://www.who.int/publications/i/item/9789241549158)
+2. World Health Organization. Medical eligibility criteria for contraceptive use. 6.ª ed. Ginebra: OMS; 2025. [who.int](https://www.who.int/publications/i/item/9789240115583)
 3. Nguyen AT, Curtis KM, Tepper NK, et al. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. *MMWR Recomm Rep.* 2024;73(4):1–126. doi:[10.15585/mmwr.rr7304a1](https://doi.org/10.15585/mmwr.rr7304a1)
 4. Curtis KM, Nguyen AT, Tepper NK, et al. U.S. Selected Practice Recommendations for Contraceptive Use, 2024. *MMWR Recomm Rep.* 2024;73(3):1–77. doi:[10.15585/mmwr.rr7303a1](https://doi.org/10.15585/mmwr.rr7303a1)
 5. Ley N.° 20.418. Fija normas sobre información, orientación y prestaciones en materia de regulación de la fertilidad. *Diario Oficial*; 2010. [bcn.cl](https://www.bcn.cl/leychile/)
