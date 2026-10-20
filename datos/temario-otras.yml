@@ -1304,6 +1304,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
     - codigo: 3.01.1.008
       nombre: Enfermedad del trofoblasto
       dx: Sospecha
@@ -1316,6 +1318,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
     - codigo: 3.01.1.010
       nombre: Restricción de crecimiento fetal
       dx: Sospecha
@@ -1536,6 +1540,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
     - codigo: 3.01.2.014
       nombre: Rotura prematura de membranas
       dx: Específico
@@ -1560,6 +1566,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
     - codigo: 3.01.2.018
       nombre: Pelviperitonitis
       dx: Sospecha
@@ -1580,6 +1588,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
     generales:
     - codigo: 3.01.3.001
       nombre: Control prenatal

@@ -412,7 +412,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 54. Analgesia del parto
 
-**Guía MINSAL:** [Analgesia del parto](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/analgesia-del-parto/recomendaciones-grade/)
+**Guía MINSAL:** [Analgesia del parto](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/analgesia-del-parto/recomendaciones-grade/)  
+**En La Ficha:** [Trabajo de parto y distocias](../ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md)
 
 ### N.° 57. Retinopatía del prematuro
 

@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **35 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **40 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md)
 
 ## Situaciones clínicas
 
@@ -26,9 +27,9 @@ hide:
 | 3.01.1.004 | Diabetes y embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes y embarazo: diabetes gestacional y diabetes pregestacional](../endocrinologia/diabetes-y-embarazo.md) |
 | 3.01.1.005 | Embarazo con edad gestacional dudosa | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.1.006 | Embarazo ectópico no complicado | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
-| 3.01.1.007 | Embarazo múltiple | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.007 | Embarazo múltiple | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.1.008 | Enfermedad del trofoblasto | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
-| 3.01.1.009 | Macrosomía fetal | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.009 | Macrosomía fetal | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.1.010 | Restricción de crecimiento fetal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md) |
 | 3.01.1.011 | Síndrome hipertensivo del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.1.012 | Amenorrea | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
@@ -69,15 +70,15 @@ hide:
 | 3.01.2.010 | Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI) | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.011 | Metrorragia: placenta previa | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.012 | Parto prematuro | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md) |
-| 3.01.2.013 | Presentaciones fetales anómalas | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.013 | Presentaciones fetales anómalas | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.2.014 | Rotura prematura de membranas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md) |
 | 3.01.2.015 | Rotura uterina | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.016 | Dolor pélvico agudo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.017 | Sufrimiento fetal agudo | Específico | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.017 | Sufrimiento fetal agudo | Específico | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 | 3.01.2.018 | Pelviperitonitis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.019 | Quiste ovárico torcido | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.2.020 | Mastitis abscedada | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.2.021 | Trabajo parto distócico | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.021 | Trabajo parto distócico | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
 
 ## Conocimientos generales
 
