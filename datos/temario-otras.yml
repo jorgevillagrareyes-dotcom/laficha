@@ -1657,6 +1657,8 @@ especialidades:
       - ginecologia-obstetricia/anticoncepcion-y-metodos-naturales.md
     - codigo: 3.01.3.007
       nombre: Mortalidad perinatal y materna
+      resumen:
+      - ginecologia-obstetricia/mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md
     - codigo: 3.01.3.008
       nombre: Anticoncepción
       resumen:
@@ -1675,6 +1677,8 @@ especialidades:
       - ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
     - codigo: 3.01.3.012
       nombre: Salud pública perinatal
+      resumen:
+      - ginecologia-obstetricia/mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md
     - codigo: 3.01.3.013
       nombre: 'Screening ginecológico: Papanicolau, mamografía'
       resumen:

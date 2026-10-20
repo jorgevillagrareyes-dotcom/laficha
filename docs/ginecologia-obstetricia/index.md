@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **67 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **69 de 69** temas tienen resumen. Todos los temas del perfil EUNACOM v3 (2026) están cubiertos.
 
 ## Resúmenes disponibles
 
@@ -17,6 +17,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infertilidad conyugal](infertilidad-conyugal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Mortalidad materna y perinatal; salud pública perinatal](mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Prolapso genital (prolapso de órganos pélvicos)](prolapso-genital.md)
@@ -100,12 +101,12 @@ hide:
 | 3.01.3.004 | Lactancia | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.3.005 | Manejo de la salud de la mujer climatérica | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
 | 3.01.3.006 | Métodos naturales para la regulación de la fecundidad | :material-check-circle:{ .ok title="Resumen disponible" } [Anticoncepción y métodos naturales de regulación de la fertilidad](anticoncepcion-y-metodos-naturales.md) |
-| 3.01.3.007 | Mortalidad perinatal y materna | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.007 | Mortalidad perinatal y materna | :material-check-circle:{ .ok title="Resumen disponible" } [Mortalidad materna y perinatal; salud pública perinatal](mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md) |
 | 3.01.3.008 | Anticoncepción | :material-check-circle:{ .ok title="Resumen disponible" } [Anticoncepción y métodos naturales de regulación de la fertilidad](anticoncepcion-y-metodos-naturales.md) |
 | 3.01.3.009 | Prevención de enfermedad hemolítica perinatal | :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md) |
 | 3.01.3.010 | Prevención de enfermedades de transmisión sexual | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.3.011 | Pubertad (adolescencia) | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](pubertad-adolescencia-sexualidad-y-diversidad.md) |
-| 3.01.3.012 | Salud pública perinatal | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.012 | Salud pública perinatal | :material-check-circle:{ .ok title="Resumen disponible" } [Mortalidad materna y perinatal; salud pública perinatal](mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md) |
 | 3.01.3.013 | Screening ginecológico: Papanicolau, mamografía | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.3.014 | Sexualidad, género y diversidad | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 3.01.3.015 | Síndrome de ovario poliquístico | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
