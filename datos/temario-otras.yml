@@ -1346,6 +1346,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
     - codigo: 3.01.1.014
       nombre: Dolor pelviano y dismenorrea
       dx: Sospecha
@@ -1361,6 +1363,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
     - codigo: 3.01.1.017
       nombre: Enfermedades de transmisión sexual
       dx: Específico
@@ -1637,6 +1641,8 @@ especialidades:
       nombre: Salud pública perinatal
     - codigo: 3.01.3.013
       nombre: 'Screening ginecológico: Papanicolau, mamografía'
+      resumen:
+      - ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
     - codigo: 3.01.3.014
       nombre: Sexualidad, género y diversidad
     - codigo: 3.01.3.015

@@ -183,7 +183,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 3. Cáncer cervicouterino en personas de 15 años y más
 
-**Guía MINSAL:** [Cáncer cervicouterino](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-cervico-uterino/recomendaciones-grade/)
+**Guía MINSAL:** [Cáncer cervicouterino](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-cervico-uterino/recomendaciones-grade/)  
+**En La Ficha:** [Cáncer cervicouterino y tamizaje](../ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md)
 
 ### N.° 4. Alivio del dolor y cuidados paliativos por cáncer
 

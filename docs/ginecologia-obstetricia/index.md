@@ -6,11 +6,12 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **45 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **48 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
@@ -34,10 +35,10 @@ hide:
 | 3.01.1.010 | Restricción de crecimiento fetal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md) |
 | 3.01.1.011 | Síndrome hipertensivo del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.1.012 | Amenorrea | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
-| 3.01.1.013 | Cáncer cervicouterino | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.013 | Cáncer cervicouterino | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.1.014 | Dolor pelviano y dismenorrea | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.015 | Endometriosis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.016 | Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.016 | Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.1.017 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.1.018 | Hemorragia genital anormal | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.019 | Infecciones genitourinarias | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) · [Infección del tracto urinario](../nefrologia/infeccion-urinaria.md) |
@@ -97,7 +98,7 @@ hide:
 | 3.01.3.010 | Prevención de enfermedades de transmisión sexual | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 3.01.3.011 | Pubertad (adolescencia) | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.012 | Salud pública perinatal | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.3.013 | Screening ginecológico: Papanicolau, mamografía | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.3.013 | Screening ginecológico: Papanicolau, mamografía | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.3.014 | Sexualidad, género y diversidad | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.3.015 | Síndrome de ovario poliquístico | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
 | 3.01.3.016 | Vínculo y apego | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
