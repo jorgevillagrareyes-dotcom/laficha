@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **57 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **60 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md)
@@ -49,7 +50,7 @@ hide:
 | 3.01.1.022 | Oligoanovulación crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
 | 3.01.1.023 | Patología benigna del endometrio (hiperplasia, pólipos…) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.024 | Patología maligna del endometrio | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
-| 3.01.1.025 | Proceso inflamatorio pelviano | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.025 | Proceso inflamatorio pelviano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md) |
 | 3.01.1.026 | Prolapso genital | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.027 | Síndrome climatérico y menopausia | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
 | 3.01.1.028 | Tumores ováricos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -63,7 +64,7 @@ hide:
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
 | 3.01.2.001 | Aborto provocado | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
-| 3.01.2.002 | Absceso glándula de Bartolino | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.002 | Absceso glándula de Bartolino | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md) |
 | 3.01.2.003 | Crisis hipertensiva del embarazo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.2.004 | Eclampsia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Preeclampsia y síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) |
 | 3.01.2.005 | Embarazo ectópico complicado | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
@@ -79,7 +80,7 @@ hide:
 | 3.01.2.015 | Rotura uterina | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.016 | Dolor pélvico agudo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
 | 3.01.2.017 | Sufrimiento fetal agudo | Específico | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |
-| 3.01.2.018 | Pelviperitonitis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.018 | Pelviperitonitis | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino](proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md) |
 | 3.01.2.019 | Quiste ovárico torcido | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dolor pélvico, dismenorrea, endometriosis y torsión anexial](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md) |
 | 3.01.2.020 | Mastitis abscedada | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.2.021 | Trabajo parto distócico | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md) |

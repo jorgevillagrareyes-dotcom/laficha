@@ -1429,6 +1429,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md
     - codigo: 3.01.1.026
       nombre: Prolapso genital
       dx: Sospecha
@@ -1487,6 +1489,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - ginecologia-obstetricia/proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md
     - codigo: 3.01.2.003
       nombre: Crisis hipertensiva del embarazo
       dx: Específico
@@ -1597,6 +1601,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - ginecologia-obstetricia/proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md
     - codigo: 3.01.2.019
       nombre: Quiste ovárico torcido
       dx: Sospecha
