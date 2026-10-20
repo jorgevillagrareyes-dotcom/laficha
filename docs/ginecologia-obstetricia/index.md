@@ -6,7 +6,7 @@ hide:
 # Ginecología y obstetricia
 
 !!! info "Avance"
-    **48 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **53 de 69** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -17,6 +17,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Parto prematuro y rotura prematura de membranas](parto-prematuro-y-rotura-prematura-de-membranas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple](trabajo-de-parto-distocias-y-sufrimiento-fetal.md)
 
 ## Situaciones clínicas
@@ -40,13 +41,13 @@ hide:
 | 3.01.1.015 | Endometriosis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.016 | Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)](cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md) |
 | 3.01.1.017 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
-| 3.01.1.018 | Hemorragia genital anormal | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.018 | Hemorragia genital anormal | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.019 | Infecciones genitourinarias | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) · [Infección del tracto urinario](../nefrologia/infeccion-urinaria.md) |
 | 3.01.1.020 | Infertilidad conyugal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.021 | Mioma uterino | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.021 | Mioma uterino | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.022 | Oligoanovulación crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hirsutismo, amenorrea y síndrome de ovario poliquístico](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md) |
-| 3.01.1.023 | Patología benigna del endometrio (hiperplasia, pólipos…) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 3.01.1.024 | Patología maligna del endometrio | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.1.023 | Patología benigna del endometrio (hiperplasia, pólipos…) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
+| 3.01.1.024 | Patología maligna del endometrio | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.1.025 | Proceso inflamatorio pelviano | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.026 | Prolapso genital | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 3.01.1.027 | Síndrome climatérico y menopausia | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome climatérico y menopausia](../endocrinologia/climaterio-y-menopausia.md) |
@@ -67,7 +68,7 @@ hide:
 | 3.01.2.005 | Embarazo ectópico complicado | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) |
 | 3.01.2.006 | Endometritis puerperal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.2.007 | Hiperemesis gravídica | Específico | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica](restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md) |
-| 3.01.2.008 | Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
+| 3.01.2.008 | Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) |
 | 3.01.2.009 | Mastitis puerperal | Específico | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego](puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md) |
 | 3.01.2.010 | Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI) | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |
 | 3.01.2.011 | Metrorragia: placenta previa | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina](metrorragia-de-la-segunda-mitad-del-embarazo.md) |

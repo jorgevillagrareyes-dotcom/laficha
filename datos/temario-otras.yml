@@ -1377,6 +1377,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
     - codigo: 3.01.1.019
       nombre: Infecciones genitourinarias
       dx: Específico
@@ -1395,6 +1397,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
     - codigo: 3.01.1.022
       nombre: Oligoanovulación crónica
       dx: Sospecha
@@ -1407,11 +1411,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
     - codigo: 3.01.1.024
       nombre: Patología maligna del endometrio
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
     - codigo: 3.01.1.025
       nombre: Proceso inflamatorio pelviano
       dx: Sospecha
@@ -1515,6 +1523,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
     - codigo: 3.01.2.009
       nombre: Mastitis puerperal
       dx: Específico
