@@ -3026,6 +3026,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
     - codigo: 6.01.1.012
       nombre: Granuloma piogénico
       dx: Sospecha
@@ -3251,6 +3253,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: No requiere
+      resumen:
+      - especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
     - codigo: 6.01.2.012
       nombre: Sífilis congénita
       dx: Sospecha
@@ -3289,6 +3293,8 @@ especialidades:
     generales:
     - codigo: 6.01.3.001
       nombre: Fotoprotección
+      resumen:
+      - especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
     - codigo: 6.01.3.002
       nombre: Higiene de la vivienda y profilaxis del loxoscelismo
     - codigo: 6.01.3.003
