@@ -11,7 +11,7 @@ tags:
 Cirugía digestiva alta · Oncología · Gastroenterología
 
 **Guías principales**
-Guía ESMO de cáncer de esófago (*Ann Oncol* 2022) · Guía ESGE de manejo endoscópico de los trastornos motores, parte 2: divertículo de Zenker (*Endoscopy* 2020)
+Guía ESMO 2026 de cáncer gástrico y de esófago (*Ann Oncol*, octubre 2026; reemplaza las guías separadas de 2022) · Guía ESMO de cáncer de esófago (*Ann Oncol* 2022) · Guía ESGE de manejo endoscópico de los trastornos motores, parte 2: divertículo de Zenker (*Endoscopy* 2020)
 
 **Otras fuentes**
 Ensayos CROSS (*N Engl J Med* 2012), CheckMate 577 (2021) y ESOPEC (2025)
@@ -137,7 +137,7 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (ESMO 2022, ESGE 2020)"
+!!! guia "Puntos clave (ESMO 2022 y 2026, ESGE 2020)"
     - **Disfagia de reciente comienzo** en un adulto, sobre todo con baja de peso o anemia: **endoscopía digestiva alta con biopsias** sin demora.
     - **Etapificación**: **TC de tórax y abdomen** con contraste; **PET-TC** en los candidatos a tratamiento curativo; **endosonografía** para el T y el N; **broncoscopía** en los tumores del tercio superior y medio (invasión de la vía aérea).
     - Evaluación de la **condición física** y **nutricional** antes del tratamiento: la esofagectomía es una cirugía mayor.
@@ -151,7 +151,7 @@ flowchart TD
 | **Albúmina**, prealbúmina | **Desnutrición** (frecuente) |
 | **Función renal y hepática** | Antes de la quimioterapia y la cirugía |
 | **Calcio** | Hipercalcemia (escamoso avanzado) |
-| **HER2 y PD-L1** en la biopsia | Terapias dirigidas e inmunoterapia en la enfermedad avanzada |
+| **HER2, PD-L1 y MSI** en la biopsia (la ESMO 2026 incluye también **CLDN18.2**) | Terapias dirigidas e inmunoterapia en la enfermedad avanzada |
 
 ## Imágenes
 
@@ -253,9 +253,10 @@ flowchart TD
 
 ## Referencias
 
-1. Obermannová R, Alsina M, Cervantes A, et al. Oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2022;33(10):992–1004. doi:[10.1016/j.annonc.2022.07.003](https://doi.org/10.1016/j.annonc.2022.07.003)
-2. van Hagen P, Hulshof MCCM, van Lanschot JJB, et al. Preoperative Chemoradiotherapy for Esophageal or Junctional Cancer. *N Engl J Med.* 2012;366(22):2074–2084. doi:[10.1056/NEJMoa1112088](https://doi.org/10.1056/NEJMoa1112088)
-3. Kelly RJ, Ajani JA, Kuzdzal J, et al. Adjuvant Nivolumab in Resected Esophageal or Gastroesophageal Junction Cancer. *N Engl J Med.* 2021;384(13):1191–1203. doi:[10.1056/NEJMoa2032125](https://doi.org/10.1056/NEJMoa2032125)
-4. Hoeppner J, Brunner T, Schmoor C, et al. Perioperative Chemotherapy or Preoperative Chemoradiotherapy in Esophageal Cancer. *N Engl J Med.* 2025;392(4):323–335. doi:[10.1056/NEJMoa2409408](https://doi.org/10.1056/NEJMoa2409408)
-5. Weusten BLAM, Barret M, Bredenoord AJ, et al. Endoscopic management of gastrointestinal motility disorders – part 2: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. *Endoscopy.* 2020;52(7):600–614. doi:[10.1055/a-1171-3174](https://doi.org/10.1055/a-1171-3174)
-6. Fundación Arturo López Pérez. Cáncer de esófago (con datos de GLOBOCAN 2020). [falp.org](https://www.falp.org/diagnostico-y-tratamiento/cancer-de-esofago/)
+1. Al-Batran SE, Bencivenga M, Crosby T, et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2026 (en prensa). doi:[10.1016/j.annonc.2026.09.015](https://doi.org/10.1016/j.annonc.2026.09.015)
+2. Obermannová R, Alsina M, Cervantes A, et al. Oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2022;33(10):992–1004. doi:[10.1016/j.annonc.2022.07.003](https://doi.org/10.1016/j.annonc.2022.07.003)
+3. van Hagen P, Hulshof MCCM, van Lanschot JJB, et al. Preoperative Chemoradiotherapy for Esophageal or Junctional Cancer. *N Engl J Med.* 2012;366(22):2074–2084. doi:[10.1056/NEJMoa1112088](https://doi.org/10.1056/NEJMoa1112088)
+4. Kelly RJ, Ajani JA, Kuzdzal J, et al. Adjuvant Nivolumab in Resected Esophageal or Gastroesophageal Junction Cancer. *N Engl J Med.* 2021;384(13):1191–1203. doi:[10.1056/NEJMoa2032125](https://doi.org/10.1056/NEJMoa2032125)
+5. Hoeppner J, Brunner T, Schmoor C, et al. Perioperative Chemotherapy or Preoperative Chemoradiotherapy in Esophageal Cancer. *N Engl J Med.* 2025;392(4):323–335. doi:[10.1056/NEJMoa2409408](https://doi.org/10.1056/NEJMoa2409408)
+6. Weusten BLAM, Barret M, Bredenoord AJ, et al. Endoscopic management of gastrointestinal motility disorders – part 2: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. *Endoscopy.* 2020;52(7):600–614. doi:[10.1055/a-1171-3174](https://doi.org/10.1055/a-1171-3174)
+7. Fundación Arturo López Pérez. Cáncer de esófago (con datos de GLOBOCAN 2020). [falp.org](https://www.falp.org/diagnostico-y-tratamiento/cancer-de-esofago/)

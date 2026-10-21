@@ -13,7 +13,7 @@ tags:
 Gastroenterología · Medicina interna · Oncología digestiva
 
 **Guías principales**
-ACG/CAG 2017: dispepsia · ACG 2024: tratamiento de *H. pylori* · Consenso Maastricht VI/Florencia 2022 · Guía clínica GES de cáncer gástrico (MINSAL)
+ACG/CAG 2017: dispepsia · ACG 2024: tratamiento de *H. pylori* · Consenso Maastricht VI/Florencia 2022 · Guía clínica GES de cáncer gástrico (MINSAL) · ESMO 2026: cáncer gástrico y de esófago
 
 **Otras fuentes**
 Ensayo chileno de terapia cuádruple con bismuto vs triple (Medel-Jara 2025) · Seroprevalencia de *H. pylori* en Chile (Ferreccio 2007) · Revisión Cochrane de erradicación y cáncer gástrico (Ford 2020) · Ensayo en familiares de primer grado (Choi 2020) · Mortalidad por cáncer gástrico en Chile 2018–2022 (Pierotic 2026)
@@ -25,7 +25,7 @@ Ensayo chileno de terapia cuádruple con bismuto vs triple (Medel-Jara 2025) · 
 1.06.1.014 Dispepsia (específico, completo, completo) · 1.06.1.030 Úlcera péptica (específico, completo, completo) · 1.06.1.004 Cáncer gástrico (sospecha, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -374,3 +374,4 @@ flowchart TD
 8. Ford AC, Yuan Y, Forman D, Hunt R, Moayyedi P. *Helicobacter pylori* eradication for the prevention of gastric neoplasia. *Cochrane Database Syst Rev.* 2020;7:CD005583. doi:[10.1002/14651858.CD005583.pub3](https://doi.org/10.1002/14651858.CD005583.pub3)
 9. Choi IJ, Kim CG, Lee JY, et al. Family history of gastric cancer and *Helicobacter pylori* treatment. *N Engl J Med.* 2020;382:427–436. doi:[10.1056/NEJMoa1909666](https://doi.org/10.1056/NEJMoa1909666)
 10. Pierotic Piddo A, Betancourt Masri L, Bello Astorga W, Ávalos Meneses N, Gallegos Toro J. Epidemiología de la mortalidad por cáncer gástrico en Chile en el periodo 2018–2022. *Revista Andes.* 2026;2(1):47–53. doi:[10.5281/zenodo.19056012](https://doi.org/10.5281/zenodo.19056012)
+11. Al-Batran SE, Bencivenga M, Crosby T, et al. Gastric and oesophageal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2026 (en prensa). doi:[10.1016/j.annonc.2026.09.015](https://doi.org/10.1016/j.annonc.2026.09.015)
