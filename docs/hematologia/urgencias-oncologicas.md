@@ -13,7 +13,7 @@ tags:
 Hemato-oncología · Medicina de urgencia · Medicina interna
 
 **Guías principales**
-ASCO/IDSA 2018: manejo ambulatorio de la neutropenia febril · IDSA 2010: antimicrobianos en el paciente neutropénico con cáncer · ESMO 2016: neutropenia febril · Endocrine Society 2023: hipercalcemia maligna · NICE NG234 (2023): metástasis vertebrales y compresión medular
+ASCO/IDSA 2018: manejo ambulatorio de la neutropenia febril · IDSA 2010: antimicrobianos en el paciente neutropénico con cáncer · ESMO 2016: neutropenia febril · ASCO 2026: factores estimulantes de colonias · Endocrine Society 2023: hipercalcemia maligna · NICE NG234 (2023): metástasis vertebrales y compresión medular
 
 **Otras fuentes**
 Clasificación de Cairo-Bishop (2004) para la lisis tumoral · Índice MASCC · Clasificación de Yu (2008) para el síndrome de vena cava superior · Ensayo de Patchell (2005)
@@ -25,7 +25,7 @@ No como problema propio. Los cánceres que las producen suelen tener GES (leucem
 1.08.2.004 Hipercalcemia · 1.03.2.004 Hipercalcemia aguda · 1.08.2.005 Lisis tumoral aguda · 1.08.2.006 Neutropenia febril (específico, inicial, derivar) · 1.08.2.007 Síndrome de compresión medular · 1.08.2.008 Síndrome de vena cava superior (específico, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -292,7 +292,7 @@ flowchart TD
         - Suspenderla a las 48–72 h si no se confirma un grampositivo.
     - **Agregar un aminoglucósido** (amikacina) en el **shock séptico** o con sospecha de resistencia.
     - **Bajo riesgo, oral**: **ciprofloxacino 750 mg cada 12 h** + **amoxicilina-ácido clavulánico 875/125 mg cada 12 h** (clindamicina si hay alergia a la penicilina).
-    - **Factores estimulantes de colonias** (filgrastim): **no de rutina** en la neutropenia febril establecida. Se consideran en el alto riesgo con sepsis. Su uso principal es la **profilaxis**, que indica el oncólogo.
+    - **Factores estimulantes de colonias** (filgrastim): **no de rutina** en la neutropenia febril establecida. La **ASCO 2026** desaconseja usarlos como **complemento de los antibióticos** y en la neutropenia **sin fiebre**. Su uso principal es la **profilaxis primaria** si el riesgo de neutropenia febril del esquema es **> 20 %**, que indica el oncólogo (si no hay acceso a ellos, considerar profilaxis antibiótica).
     - **Catéter central**: retirarlo en la infección por *S. aureus*, *Pseudomonas*, hongos o micobacterias, en la infección del túnel o en la bacteriemia persistente.
 
 ### Síndrome de lisis tumoral
@@ -443,14 +443,15 @@ flowchart TD
 1. Freifeld AG, Bow EJ, Sepkowitz KA, et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2011;52:e56–e93. doi:[10.1093/cid/cir073](https://doi.org/10.1093/cid/cir073)
 2. Taplitz RA, Kennedy EB, Bow EJ, et al. Outpatient Management of Fever and Neutropenia in Adults Treated for Malignancy: American Society of Clinical Oncology and Infectious Diseases Society of America Clinical Practice Guideline Update. *J Clin Oncol.* 2018;36:1443–1453. doi:[10.1200/JCO.2017.77.6211](https://doi.org/10.1200/JCO.2017.77.6211)
 3. Klastersky J, de Naurois J, Rolston K, et al. Management of febrile neutropaenia: ESMO Clinical Practice Guidelines. *Ann Oncol.* 2016;27(Suppl 5):v111–v118. doi:[10.1093/annonc/mdw325](https://doi.org/10.1093/annonc/mdw325)
-4. Klastersky J, Paesmans M. The Multinational Association for Supportive Care in Cancer (MASCC) risk index score: 10 years of use for identifying low-risk febrile neutropenic cancer patients. *Support Care Cancer.* 2013;21:1487–1495. doi:[10.1007/s00520-013-1758-y](https://doi.org/10.1007/s00520-013-1758-y)
-5. Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. *Br J Haematol.* 2004;127:3–11. doi:[10.1111/j.1365-2141.2004.05094.x](https://doi.org/10.1111/j.1365-2141.2004.05094.x)
-6. Howard SC, Jones DP, Pui CH. The tumor lysis syndrome. *N Engl J Med.* 2011;364:1844–1854. doi:[10.1056/NEJMra0904569](https://doi.org/10.1056/NEJMra0904569)
-7. El-Hajj Fuleihan G, Clines GA, Hu MI, et al. Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab.* 2023;108:507–528. doi:[10.1210/clinem/dgac621](https://doi.org/10.1210/clinem/dgac621)
-8. National Institute for Health and Care Excellence. Spinal metastases and metastatic spinal cord compression (NG234). London: NICE; 2023. [nice.org.uk](https://www.nice.org.uk/guidance/ng234)
-9. Lawton AJ, Lee KA, Cheville AL, et al. Assessment and Management of Patients With Metastatic Spinal Cord Compression: A Multidisciplinary Review. *J Clin Oncol.* 2019;37:61–71. doi:[10.1200/JCO.2018.78.1211](https://doi.org/10.1200/JCO.2018.78.1211)
-10. Patchell RA, Tibbs PA, Regine WF, et al. Direct decompressive surgical resection in the treatment of spinal cord compression caused by metastatic cancer: a randomised trial. *Lancet.* 2005;366:643–648. doi:[10.1016/S0140-6736(05)66954-1](https://doi.org/10.1016/S0140-6736(05)66954-1)
-11. Wilson LD, Detterbeck FC, Yahalom J. Clinical practice. Superior vena cava syndrome with malignant causes. *N Engl J Med.* 2007;356:1862–1869. doi:[10.1056/NEJMcp067190](https://doi.org/10.1056/NEJMcp067190)
-12. Yu JB, Wilson LD, Detterbeck FC. Superior vena cava syndrome—a proposed classification system and algorithm for management. *J Thorac Oncol.* 2008;3:811–814. doi:[10.1097/JTO.0b013e3181804791](https://doi.org/10.1097/JTO.0b013e3181804791)
-13. Lupușoru G, Ailincăi I, Frățilă G, et al. Tumor Lysis Syndrome: An Endless Challenge in Onco-Nephrology. *Biomedicines.* 2022;10:1012. doi:[10.3390/biomedicines10051012](https://doi.org/10.3390/biomedicines10051012)
-14. Esperança-Martins M, Roque D, Barroso T, et al. Multidisciplinary Approach to Spinal Metastases and Metastatic Spinal Cord Compression—A New Integrative Flowchart for Patient Management. *Cancers (Basel).* 2023;15:1796. doi:[10.3390/cancers15061796](https://doi.org/10.3390/cancers15061796)
+4. Gyawali B, Bohlke K, Dickter JK, et al. WBC growth factors: ASCO guideline update. *J Clin Oncol.* 2026;44(9):812–824. doi:[10.1200/JCO-25-02938](https://doi.org/10.1200/JCO-25-02938)
+5. Klastersky J, Paesmans M. The Multinational Association for Supportive Care in Cancer (MASCC) risk index score: 10 years of use for identifying low-risk febrile neutropenic cancer patients. *Support Care Cancer.* 2013;21:1487–1495. doi:[10.1007/s00520-013-1758-y](https://doi.org/10.1007/s00520-013-1758-y)
+6. Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. *Br J Haematol.* 2004;127:3–11. doi:[10.1111/j.1365-2141.2004.05094.x](https://doi.org/10.1111/j.1365-2141.2004.05094.x)
+7. Howard SC, Jones DP, Pui CH. The tumor lysis syndrome. *N Engl J Med.* 2011;364:1844–1854. doi:[10.1056/NEJMra0904569](https://doi.org/10.1056/NEJMra0904569)
+8. El-Hajj Fuleihan G, Clines GA, Hu MI, et al. Treatment of Hypercalcemia of Malignancy in Adults: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab.* 2023;108:507–528. doi:[10.1210/clinem/dgac621](https://doi.org/10.1210/clinem/dgac621)
+9. National Institute for Health and Care Excellence. Spinal metastases and metastatic spinal cord compression (NG234). London: NICE; 2023. [nice.org.uk](https://www.nice.org.uk/guidance/ng234)
+10. Lawton AJ, Lee KA, Cheville AL, et al. Assessment and Management of Patients With Metastatic Spinal Cord Compression: A Multidisciplinary Review. *J Clin Oncol.* 2019;37:61–71. doi:[10.1200/JCO.2018.78.1211](https://doi.org/10.1200/JCO.2018.78.1211)
+11. Patchell RA, Tibbs PA, Regine WF, et al. Direct decompressive surgical resection in the treatment of spinal cord compression caused by metastatic cancer: a randomised trial. *Lancet.* 2005;366:643–648. doi:[10.1016/S0140-6736(05)66954-1](https://doi.org/10.1016/S0140-6736(05)66954-1)
+12. Wilson LD, Detterbeck FC, Yahalom J. Clinical practice. Superior vena cava syndrome with malignant causes. *N Engl J Med.* 2007;356:1862–1869. doi:[10.1056/NEJMcp067190](https://doi.org/10.1056/NEJMcp067190)
+13. Yu JB, Wilson LD, Detterbeck FC. Superior vena cava syndrome—a proposed classification system and algorithm for management. *J Thorac Oncol.* 2008;3:811–814. doi:[10.1097/JTO.0b013e3181804791](https://doi.org/10.1097/JTO.0b013e3181804791)
+14. Lupușoru G, Ailincăi I, Frățilă G, et al. Tumor Lysis Syndrome: An Endless Challenge in Onco-Nephrology. *Biomedicines.* 2022;10:1012. doi:[10.3390/biomedicines10051012](https://doi.org/10.3390/biomedicines10051012)
+15. Esperança-Martins M, Roque D, Barroso T, et al. Multidisciplinary Approach to Spinal Metastases and Metastatic Spinal Cord Compression—A New Integrative Flowchart for Patient Management. *Cancers (Basel).* 2023;15:1796. doi:[10.3390/cancers15061796](https://doi.org/10.3390/cancers15061796)
