@@ -3495,16 +3495,22 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
     - codigo: 6.02.1.026
       nombre: Tumores de la vía óptica
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
     - codigo: 6.02.1.027
       nombre: Tumores de órbita
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
     - codigo: 6.02.1.028
       nombre: Tumores de párpado
       dx: Sospecha
@@ -3517,6 +3523,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
     - codigo: 6.02.1.030
       nombre: Uveítis anterior o posterior
       dx: Sospecha
@@ -3594,6 +3602,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
     - codigo: 6.02.2.010
       nombre: Úlcera corneal
       dx: Específico
