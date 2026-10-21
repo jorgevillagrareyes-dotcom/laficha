@@ -2842,11 +2842,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
     - codigo: 5.01.1.034
       nombre: Trastornos del ánimo en niños
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
     - codigo: 5.01.1.035
       nombre: Consumo perjudicial de drogas en niños y adolescentes
       dx: Específico

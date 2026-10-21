@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **42 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **44 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -18,6 +18,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](ansiedad-y-animo-en-ninos-y-adolescentes.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md)
@@ -60,8 +61,8 @@ hide:
 | 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
 | 5.01.1.031 | Trastorno conducta disocial | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
 | 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
-| 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](ansiedad-y-animo-en-ninos-y-adolescentes.md) |
+| 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](ansiedad-y-animo-en-ninos-y-adolescentes.md) |
 | 5.01.1.035 | Consumo perjudicial de drogas en niños y adolescentes | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.1.036 | Trastorno de ansiedad generalizada | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 
