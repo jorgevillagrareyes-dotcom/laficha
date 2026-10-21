@@ -6,10 +6,11 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **51 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **55 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md)
@@ -23,9 +24,9 @@ hide:
 | 6.03.1.001 | Alergia nasosinusal | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.1.002 | Amigdalitis aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.003 | Amigdalitis crónica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
-| 6.03.1.004 | Cáncer de boca, labios y orofaringe | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.005 | Cáncer laríngeo e hipofaríngeo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.006 | Cáncer nasosinusal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.004 | Cáncer de boca, labios y orofaringe | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md) |
+| 6.03.1.005 | Cáncer laríngeo e hipofaríngeo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md) |
+| 6.03.1.006 | Cáncer nasosinusal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md) |
 | 6.03.1.007 | Diagnóstico diferencial de hipoacusias de transmisión | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.008 | Diagnóstico diferencial de hipoacusias sensorioneurales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.009 | Disfonías agudas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
@@ -84,7 +85,7 @@ hide:
 | 6.03.3.001 | Detección de hipoacusia y sordera en niños | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.3.002 | Pesquisa de trastornos del lenguaje | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.3.003 | Prevención de alergias nasosinusales | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
-| 6.03.3.004 | Prevención de cáncer laríngeo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.3.004 | Prevención de cáncer laríngeo | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md) |
 | 6.03.3.005 | Prevención de cuerpo extraño en niños | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.3.006 | Prevención de otitis externa | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.3.007 | Prevención de trauma acústico y daño por exposición a ruidos | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |

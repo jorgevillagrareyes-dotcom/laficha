@@ -3677,16 +3677,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
     - codigo: 6.03.1.005
       nombre: Cáncer laríngeo e hipofaríngeo
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
     - codigo: 6.03.1.006
       nombre: Cáncer nasosinusal
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
     - codigo: 6.03.1.007
       nombre: Diagnóstico diferencial de hipoacusias de transmisión
       dx: Sospecha
@@ -4013,6 +4019,8 @@ especialidades:
       - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.3.004
       nombre: Prevención de cáncer laríngeo
+      resumen:
+      - especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
     - codigo: 6.03.3.005
       nombre: Prevención de cuerpo extraño en niños
       resumen:
