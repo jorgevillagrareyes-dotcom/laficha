@@ -16,7 +16,7 @@ Psiquiatría
 CANMAT/ISBD 2018: manejo del trastorno bipolar (y actualización de presentaciones mixtas 2021) · MINSAL: guía clínica GES de trastorno bipolar en personas de 15 años y más (recomendaciones GRADE) · NICE CG185 (2014, actualizada en 2023): trastorno bipolar · Criterios DSM-5-TR (2022)
 
 **Otras fuentes**
-Revisión de los trastornos bipolares (McIntyre, *Lancet* 2020) · Metaanálisis del litio en la prevención del suicidio (Cipriani, *BMJ* 2013) · Resumen y actualización 2023 de la evidencia CANMAT/ISBD (Keramatian, *Focus* 2023) · Ver [depresión](../geriatria/depresion.md), [agitación psicomotora](../geriatria/agitacion-psicomotora-y-agresividad.md), [trastornos del movimiento por fármacos](../neurologia/trastornos-del-movimiento-por-farmacos.md) y [trastornos de ansiedad](trastornos-de-ansiedad-y-toc.md)
+Revisión de los trastornos bipolares (McIntyre, *Lancet* 2020) · Metaanálisis del litio en la prevención del suicidio (Cipriani, *BMJ* 2013) · Resumen y actualización 2023 de la evidencia CANMAT/ISBD (Keramatian, *Focus* 2023) · Ver [depresión](../geriatria/depresion.md), [agitación psicomotora](../geriatria/agitacion-psicomotora-y-agresividad.md), [trastornos del movimiento por fármacos](../neurologia/trastornos-del-movimiento-por-farmacos.md), [trastornos de ansiedad](trastornos-de-ansiedad-y-toc.md) y [esquizofrenia](esquizofrenia-y-trastornos-psicoticos.md)
 
 **GES**
 Sí: **trastorno bipolar en personas de 15 años y más** (N.° 75). Garantiza la confirmación diagnóstica por especialista, el tratamiento y el seguimiento.

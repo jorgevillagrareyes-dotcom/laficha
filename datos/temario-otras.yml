@@ -2678,6 +2678,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/esquizofrenia-y-trastornos-psicoticos.md
     - codigo: 5.01.1.011
       nombre: Consumo perjudicial de alcohol y drogas
       dx: Específico

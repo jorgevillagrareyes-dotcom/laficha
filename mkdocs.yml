@@ -360,6 +360,7 @@ nav:
       - pediatria/index.md
   - Psiquiatría:
       - psiquiatria/index.md
+      - "Esquizofrenia y otros trastornos psicóticos": psiquiatria/esquizofrenia-y-trastornos-psicoticos.md
       - "Trastorno bipolar": psiquiatria/trastorno-bipolar.md
       - "Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)": psiquiatria/trastornos-de-ansiedad-y-toc.md
       - "Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)": psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
