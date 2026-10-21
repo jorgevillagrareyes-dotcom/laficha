@@ -12,7 +12,7 @@ tags:
 Ginecología · Oncología ginecológica · Prevención
 
 **Guías principales**
-MINSAL: guía GES de cáncer cervicouterino (recomendaciones GRADE vigentes, octubre 2026) · OMS 2021: tamizaje y tratamiento de las lesiones precancerosas del cuello uterino · ASCCP 2019: manejo basado en el riesgo de las pruebas de tamizaje alteradas · FIGO 2018: etapificación del cáncer del cuello uterino · USPSTF 2024: tamizaje del cáncer de mama
+MINSAL: guía GES de cáncer cervicouterino (recomendaciones GRADE vigentes, octubre 2026) · OMS 2021: tamizaje y tratamiento de las lesiones precancerosas del cuello uterino · ASCCP 2019: manejo basado en el riesgo de las pruebas de tamizaje alteradas · ASCCP 2025: autotoma vaginal para el test de VPH · FIGO 2018: etapificación del cáncer del cuello uterino · USPSTF 2024: tamizaje del cáncer de mama
 
 **Otras fuentes**
 GLOBOCAN (Chile) · Ver [cáncer de mama](../cirugia/cabeza-cuello-tiroides-y-mama/cancer-de-mama.md), [epidemiología del cáncer](../cirugia/anestesia-y-perioperatorio/epidemiologia-del-cancer.md), [ITS y sífilis](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) y [VIH](../infectologia/infeccion-por-vih.md)
@@ -156,9 +156,10 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (guía GES vigente; OMS 2021; ASCCP 2019; FIGO 2018)"
+!!! guia "Puntos clave (guía GES vigente; OMS 2021; ASCCP 2019 y 2025; FIGO 2018)"
     - **Tamizaje** solo en **asintomáticas**. Ante **síntomas** o una **lesión visible**, ir directo a la **colposcopía y biopsia**.
     - **Test de VPH primario** (≥ 30 años): más **sensible** que el PAP para las lesiones de alto grado y con un valor predictivo negativo tan alto que permite **intervalos de 5 años**. La guía GES sugiere la **genotipificación extendida** y el **VPH solo** por sobre el **co-test** (VPH + PAP).
+    - **Autotoma vaginal** para el test de VPH (ASCCP 2025): **aceptable** en el tamizaje primario de mujeres **asintomáticas de riesgo promedio** (la toma por el clínico sigue siendo la preferida); amplía el acceso. Si es negativa, repetir en **3 años**. Si es positiva para **VPH 16 o 18**: **colposcopía**; para otros tipos de alto riesgo: **citología** (o tinción dual) tomada por el clínico. No sirve para el seguimiento tras un resultado alterado o un tratamiento.
     - **PAP**: muestra de la **zona de transformación** con espátula de Ayre (exocérvix) y **cepillo** (endocérvix). No tomarlo durante la menstruación ni tras duchas vaginales o relaciones en las 48 h previas.
     - **Colposcopía**: magnifica el cuello tras aplicar **ácido acético** (lesiones **acetoblancas**, mosaico, punteado, vasos atípicos) y **lugol** (zonas **yodo negativas**). Guía la **biopsia** de las zonas más alteradas. **Insatisfactoria** si no se ve la unión escamocolumnar completa.
     - **Confirmación**: siempre **histológica** (biopsia o cono).
@@ -308,7 +309,8 @@ flowchart TD
 
 1. Ministerio de Salud de Chile. Guía de práctica clínica GES: cáncer cervicouterino. Recomendaciones GRADE (consultado en octubre de 2026). [diprece.minsal.cl](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/cancer-cervico-uterino/recomendaciones-grade/)
 2. World Health Organization. WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention. 2.ª ed. Ginebra: OMS; 2021. [who.int](https://www.who.int/publications/i/item/9789240030824)
-3. Perkins RB, Guido RS, Castle PE, et al. 2019 ASCCP risk-based management consensus guidelines for abnormal cervical cancer screening tests and cancer precursors. *J Low Genit Tract Dis.* 2020;24(2):102–131. doi:[10.1097/LGT.0000000000000525](https://doi.org/10.1097/LGT.0000000000000525)
-4. Bhatla N, Berek JS, Cuello Fredes M, et al. Revised FIGO staging for carcinoma of the cervix uteri. *Int J Gynaecol Obstet.* 2019;145(1):129–135. doi:[10.1002/ijgo.12749](https://doi.org/10.1002/ijgo.12749)
-5. US Preventive Services Task Force. Screening for breast cancer: US Preventive Services Task Force recommendation statement. *JAMA.* 2024;331(22):1918–1930. doi:[10.1001/jama.2024.5534](https://doi.org/10.1001/jama.2024.5534)
-6. International Agency for Research on Cancer. Global Cancer Observatory: Chile fact sheet. [gco.iarc.who.int](https://gco.iarc.who.int/today)
+3. Wentzensen N, Massad LS, Clarke MA, et al. Self-collected vaginal specimens for HPV testing: recommendations from the Enduring Consensus Cervical Cancer Screening and Management Guidelines Committee. *J Low Genit Tract Dis.* 2025;29(2):144–152. doi:[10.1097/LGT.0000000000000885](https://doi.org/10.1097/LGT.0000000000000885)
+4. Perkins RB, Guido RS, Castle PE, et al. 2019 ASCCP risk-based management consensus guidelines for abnormal cervical cancer screening tests and cancer precursors. *J Low Genit Tract Dis.* 2020;24(2):102–131. doi:[10.1097/LGT.0000000000000525](https://doi.org/10.1097/LGT.0000000000000525)
+5. Bhatla N, Berek JS, Cuello Fredes M, et al. Revised FIGO staging for carcinoma of the cervix uteri. *Int J Gynaecol Obstet.* 2019;145(1):129–135. doi:[10.1002/ijgo.12749](https://doi.org/10.1002/ijgo.12749)
+6. US Preventive Services Task Force. Screening for breast cancer: US Preventive Services Task Force recommendation statement. *JAMA.* 2024;331(22):1918–1930. doi:[10.1001/jama.2024.5534](https://doi.org/10.1001/jama.2024.5534)
+7. International Agency for Research on Cancer. Global Cancer Observatory: Chile fact sheet. [gco.iarc.who.int](https://gco.iarc.who.int/today)
