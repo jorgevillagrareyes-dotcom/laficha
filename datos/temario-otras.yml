@@ -3410,6 +3410,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/trauma-ocular.md
     - codigo: 6.02.1.015
       nombre: Leucoma corneal
       dx: Específico
@@ -3525,11 +3527,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/trauma-ocular.md
     - codigo: 6.02.2.002
       nombre: Contusión ocular
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/trauma-ocular.md
     - codigo: 6.02.2.003
       nombre: Desprendimiento de retina
       dx: Sospecha
@@ -3563,6 +3569,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/trauma-ocular.md
     - codigo: 6.02.2.008
       nombre: Heridas de párpados
       dx: Específico
@@ -3570,6 +3578,7 @@ especialidades:
       seg: Derivar
       resumen:
       - cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
+      - especialidades/oftalmologia/trauma-ocular.md
     - codigo: 6.02.2.009
       nombre: Parálisis III par + midriasis
       dx: Específico

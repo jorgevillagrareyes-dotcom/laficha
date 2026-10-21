@@ -6,7 +6,7 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **33 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **37 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md)
 
 ## Situaciones clínicas
 
@@ -33,7 +34,7 @@ hide:
 | 6.02.1.011 | Estrabismo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
-| 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
 | 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esclerosis múltiple](../../neurologia/esclerosis-multiple.md) |
 | 6.02.1.017 | Neuropatía óptica isquémica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md) |
@@ -56,14 +57,14 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 6.02.2.001 | Causticaciones oculares | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.2.002 | Contusión ocular | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.2.001 | Causticaciones oculares | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
+| 6.02.2.002 | Contusión ocular | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
 | 6.02.2.003 | Desprendimiento de retina | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md) |
 | 6.02.2.004 | Disminución de la visión (lenta vs súbita) | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md) |
 | 6.02.2.005 | Glaucoma agudo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.2.006 | Hemorragia vítrea | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md) |
-| 6.02.2.007 | Herida penetrante o perforante ocular | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.2.008 | Heridas de párpados | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
+| 6.02.2.007 | Herida penetrante o perforante ocular | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
+| 6.02.2.008 | Heridas de párpados | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) · [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
 | 6.02.2.009 | Parálisis III par + midriasis | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.010 | Úlcera corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 
