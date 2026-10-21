@@ -3055,11 +3055,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 6.01.1.019
       nombre: Pediculosis
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 6.01.1.020
       nombre: Pénfigo
       dx: Sospecha
@@ -3084,6 +3088,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 6.01.1.024
       nombre: Psoriasis
       dx: Específico
@@ -3108,6 +3114,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 6.01.1.028
       nombre: Tumores benignos de piel (quistes, lipomas, queratosis seborreica)
       dx: Específico
@@ -3135,6 +3143,7 @@ especialidades:
       seg: Completo
       resumen:
       - infectologia/varicela-y-herpes-zoster.md
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 6.01.1.032
       nombre: Vitiligo
       dx: Sospecha

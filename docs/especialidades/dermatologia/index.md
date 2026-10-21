@@ -6,12 +6,13 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **18 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **22 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md)
 
 ## Situaciones clínicas
@@ -35,21 +36,21 @@ hide:
 | 6.01.1.015 | Líquen plano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.1.016 | Lupus eritematoso cutáneo crónico (lupus discoide) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.017 | Melanoma maligno | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.018 | Micosis superficiales | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.019 | Pediculosis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.018 | Micosis superficiales | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
+| 6.01.1.019 | Pediculosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.020 | Pénfigo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.021 | Piodermias superficiales y profundas (no linfáticas) | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de piel y partes blandas](../../infectologia/infecciones-piel-partes-blandas.md) |
 | 6.01.1.022 | Pitiriasis Rosada de Gilbert | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
-| 6.01.1.023 | Prúrigo infantil agudo, picadura de insectos | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.023 | Prúrigo infantil agudo, picadura de insectos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.024 | Psoriasis | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.1.025 | Reacciones cutáneas por drogas (rush, toxidermia fija) | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.026 | Rosácea | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
-| 6.01.1.027 | Sarna | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.027 | Sarna | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.028 | Tumores benignos de piel (quistes, lipomas, queratosis seborreica) | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.029 | Tumores premalignos (queratosis actínicas, Bowen) | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.030 | Urticaria aguda | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.033 | Vasculitis cutáneas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.031 | Verrugas, herpes simplex, herpes zoster, moluscos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) |
+| 6.01.1.031 | Verrugas, herpes simplex, herpes zoster, moluscos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) · [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.032 | Vitiligo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 
 ## Situaciones clínicas de urgencia
