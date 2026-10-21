@@ -6,7 +6,7 @@ hide:
 # Especialidades
 
 !!! info "Avance"
-    **81 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (13 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
+    **86 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (14 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
 
 ## Subespecialidades
 
@@ -22,7 +22,7 @@ hide:
 
     ---
 
-    13 de 47 temas con resumen
+    18 de 47 temas con resumen
 
 -   **[Otorrinolaringología](otorrinolaringologia/index.md)**
 

@@ -6,11 +6,12 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **13 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **18 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md)
 
 ## Situaciones clínicas
 
@@ -30,13 +31,13 @@ hide:
 | 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esclerosis múltiple](../../neurologia/esclerosis-multiple.md) |
 | 6.02.1.017 | Neuropatía óptica isquémica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.018 | Obstrucción completa de la vía lacrimal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.019 | Orzuelo no complicado | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.020 | Pterigion | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
-| 6.02.1.021 | Queratitis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.021 | Queratitis | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.022 | Retinopatía del prematuro | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.023 | Retinopatía diabética | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Complicaciones crónicas de la diabetes: nefropatía, retinopatía, neuropatía, enfermedad arterial periférica y pie diabético](../../endocrinologia/complicaciones-cronicas-de-la-diabetes.md) |
 | 6.02.1.024 | Síndrome de ojo seco | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
@@ -45,7 +46,7 @@ hide:
 | 6.02.1.027 | Tumores de órbita | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.028 | Tumores de párpado | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.029 | Tumores endoculares (retinoblastoma y otros) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.030 | Uveítis anterior o posterior | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.030 | Uveítis anterior o posterior | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.031 | Vicios de refracción en personas de 65 años o más | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 
 ## Situaciones clínicas de urgencia
@@ -56,12 +57,12 @@ hide:
 | 6.02.2.002 | Contusión ocular | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.003 | Desprendimiento de retina | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.004 | Disminución de la visión (lenta vs súbita) | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.2.005 | Glaucoma agudo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.2.005 | Glaucoma agudo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.2.006 | Hemorragia vítrea | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.007 | Herida penetrante o perforante ocular | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.008 | Heridas de párpados | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.02.2.009 | Parálisis III par + midriasis | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.2.010 | Úlcera corneal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.2.010 | Úlcera corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 
 ## Conocimientos generales
 

@@ -2199,6 +2199,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     - codigo: 2.01.1.098
       nombre: Vicios de refracción
       dx: Específico
@@ -3399,6 +3401,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     - codigo: 6.02.1.016
       nombre: Neuritis óptica
       dx: Sospecha
@@ -3433,6 +3437,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     - codigo: 6.02.1.022
       nombre: Retinopatía del prematuro
       dx: Sospecha
@@ -3482,6 +3488,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     - codigo: 6.02.1.031
       nombre: Vicios de refracción en personas de 65 años o más
       dx: Específico
@@ -3513,6 +3521,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     - codigo: 6.02.2.006
       nombre: Hemorragia vítrea
       dx: Sospecha
@@ -3540,6 +3550,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
     generales:
     - codigo: 6.02.3.001
       nombre: Accidentes del trabajo
