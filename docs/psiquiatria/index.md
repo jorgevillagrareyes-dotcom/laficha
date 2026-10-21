@@ -6,12 +6,13 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **20 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **21 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
@@ -63,7 +64,7 @@ hide:
 |---|---|---|---|---|---|
 | 5.01.2.001 | Conducta suicida | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.2.002 | Agitación psicomotora | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Agitación psicomotora y agresividad (con énfasis en el adulto mayor)](../geriatria/agitacion-psicomotora-y-agresividad.md) |
-| 5.01.2.003 | Intoxicación por sustancias psicoactivas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.2.003 | Intoxicación por sustancias psicoactivas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md) |
 
 ## Conocimientos generales
 

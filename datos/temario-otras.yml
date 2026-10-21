@@ -2845,6 +2845,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/intoxicacion-por-sustancias-psicoactivas.md
     generales:
     - codigo: 5.01.3.001
       nombre: Clasificaciones en psiquiatría
