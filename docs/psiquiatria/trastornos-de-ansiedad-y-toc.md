@@ -105,7 +105,7 @@ flowchart TD
 | **TAG** | **Preocupación excesiva** sobre múltiples temas, difícil de controlar, con ≥ 3 de 6 síntomas | **≥ 6 meses** |
 | **Fobia social** (ansiedad social) | Miedo a ser **evaluado negativamente** en situaciones sociales o de desempeño | ≥ 6 meses |
 | **Fobia específica** | Miedo a un **objeto o situación** concreta (animales, sangre-inyecciones-heridas, alturas, aviones) | ≥ 6 meses |
-| Ansiedad de separación, mutismo selectivo | Más propios de la infancia (ver ansiedad y ánimo en niños y adolescentes) | ≥ 4 semanas en niños |
+| Ansiedad de separación, mutismo selectivo | Más propios de la infancia (ver [ansiedad y ánimo en niños y adolescentes](ansiedad-y-animo-en-ninos-y-adolescentes.md)) | ≥ 4 semanas en niños |
 | Ansiedad **inducida por sustancias** o **debida a otra afección médica** | Causa identificable | Variable |
 | **TOC** (capítulo propio) | **Obsesiones** y/o **compulsiones** que consumen **> 1 hora al día** o causan malestar | — |
 

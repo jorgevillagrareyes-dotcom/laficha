@@ -274,20 +274,23 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 15. Esquizofrenia
 
-**Guía MINSAL:** Esquizofrenia: tratamiento desde el primer episodio (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)
+**Guía MINSAL:** Esquizofrenia: tratamiento desde el primer episodio (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)  
+**En La Ficha:** [Esquizofrenia y trastornos psicóticos](../psiquiatria/esquizofrenia-y-trastornos-psicoticos.md)
 
 ### N.° 34. Depresión en personas de 15 años y más
 
 **Guía MINSAL:** [Depresión en personas de 15 años y más](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GUIA-CLINICA-DEPRESION-15-Y-MAS.pdf) · Actualización en psicoterapia (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)  
-**En La Ficha:** [Depresión](../geriatria/depresion.md)
+**En La Ficha:** [Depresión](../geriatria/depresion.md) · [Ansiedad y ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md)
 
 ### N.° 53. Consumo perjudicial o dependencia de riesgo bajo a moderado de alcohol y drogas en personas menores de 20 años
 
-**Guía MINSAL:** [Consumo perjudicial y dependencia de alcohol y drogas en menores de 20 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/consumo-perjudicial-y-dependencia-de-alcohol-y-otras-drogas-en-personas-menores-de-20-anos/recomendaciones/)
+**Guía MINSAL:** [Consumo perjudicial y dependencia de alcohol y drogas en menores de 20 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/consumo-perjudicial-y-dependencia-de-alcohol-y-otras-drogas-en-personas-menores-de-20-anos/recomendaciones/)  
+**En La Ficha:** [Consumo de alcohol, tabaco y drogas](../psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md)
 
 ### N.° 75. Trastorno bipolar en personas de 15 años y más
 
-**Guía MINSAL:** [Trastorno bipolar en personas de 15 años y más](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/tratamiento-de-personas-de-15-anos-y-mas-con-transtorno-bipolar/recomendaciones/)
+**Guía MINSAL:** [Trastorno bipolar en personas de 15 años y más](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/tratamiento-de-personas-de-15-anos-y-mas-con-transtorno-bipolar/recomendaciones/)  
+**En La Ficha:** [Trastorno bipolar](../psiquiatria/trastorno-bipolar.md)
 
 ### N.° 85. Enfermedad de Alzheimer y otras demencias
 
@@ -296,15 +299,18 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 86. Atención integral de salud en agresión sexual aguda
 
-**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)
+**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)  
+**En La Ficha:** [Maltrato y violencia intrafamiliar](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md)
 
 ### N.° 89. Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida
 
-**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)
+**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)  
+**En La Ficha:** [Ansiedad y ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md) · [Conducta suicida](../psiquiatria/conducta-suicida.md)
 
 ### N.° 90. Cesación del consumo de tabaco en personas de 25 años y más
 
-**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)
+**Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)  
+**En La Ficha:** [Consumo de alcohol, tabaco y drogas](../psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md)
 
 ## Enfermedades de la visión
 

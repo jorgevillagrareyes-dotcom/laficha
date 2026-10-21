@@ -15,7 +15,7 @@ Pediatría · Psiquiatría infantojuvenil · Urología y nefrología infantil ·
 ICCS 2020: manejo y tratamiento de la enuresis nocturna · ICCS 2016: terminología de la función del tracto urinario inferior en niños · ESPGHAN/NASPGHAN 2026: tratamiento de la constipación funcional de 0 a 18 años · Criterios de Roma IV (2016) y DSM-5-TR (2022)
 
 **Otras fuentes**
-Revisiones Cochrane de alarmas (Glazener 2005) y de desmopresina (Hahn 2025) · Ver [constipación](../gastroenterologia/constipacion-intestino-irritable-y-diarrea-cronica.md), [infección urinaria](../nefrologia/infeccion-urinaria.md) y [TDAH](tdah-y-trastornos-de-conducta.md)
+Revisiones Cochrane de alarmas (Glazener 2005) y de desmopresina (Hahn 2025) · Ver [constipación](../gastroenterologia/constipacion-intestino-irritable-y-diarrea-cronica.md), [infección urinaria](../nefrologia/infeccion-urinaria.md), [maltrato infantil](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) y [TDAH](tdah-y-trastornos-de-conducta.md)
 
 **GES**
 No.

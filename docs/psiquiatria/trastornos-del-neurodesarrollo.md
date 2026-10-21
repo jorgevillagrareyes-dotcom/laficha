@@ -14,7 +14,7 @@ Psiquiatría infantojuvenil · Neurología infantil · Pediatría · Atención p
 AAP 2020: identificación, evaluación y manejo de niños con trastorno del espectro autista · AAP 2014: evaluación integral del niño con discapacidad intelectual o retraso global del desarrollo · ACMG 2010: microarreglo cromosómico como examen de primera línea · Criterios DSM-5-TR (2022)
 
 **Otras fuentes**
-Revisión del espectro autista (Lord, *Lancet* 2018) · Prevalencia de autismo en los EE. UU. (CDC, *MMWR* 2025) · Revisión de la dislexia del desarrollo (Peterson y Pennington, *Lancet* 2012) · Revisión de la discapacidad intelectual (Purugganan, *Pediatr Rev* 2018) · Ley 21.545 de autismo (2023)
+Revisión del espectro autista (Lord, *Lancet* 2018) · Prevalencia de autismo en los EE. UU. (CDC, *MMWR* 2025) · Revisión de la dislexia del desarrollo (Peterson y Pennington, *Lancet* 2012) · Revisión de la discapacidad intelectual (Purugganan, *Pediatr Rev* 2018) · Ley 21.545 de autismo (2023) · Ver [TDAH y trastornos de conducta](tdah-y-trastornos-de-conducta.md), [ansiedad y ánimo en niños](ansiedad-y-animo-en-ninos-y-adolescentes.md) y [maltrato infantil](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md)
 
 **GES**
 No.
