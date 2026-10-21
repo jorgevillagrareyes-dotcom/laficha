@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **30 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **34 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -18,6 +18,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
 
 ## Situaciones clínicas
@@ -43,9 +44,9 @@ hide:
 | 5.01.1.017 | Disfunción sexual | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md) |
 | 5.01.1.018 | Trastornos de la conducta alimentaria | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la conducta alimentaria](../endocrinologia/trastornos-de-la-conducta-alimentaria.md) |
 | 5.01.1.019 | Sexualidad humana y sus alteraciones | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md) |
-| 5.01.1.020 | Trastornos somatomorfos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.021 | Trastornos disociativos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.022 | Trastornos facticios | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.020 | Trastornos somatomorfos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
+| 5.01.1.021 | Trastornos disociativos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
+| 5.01.1.022 | Trastornos facticios | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
 | 5.01.1.023 | Trastorno del espectro autista | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.024 | Trastorno específico del aprendizaje escolar | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.025 | Retardo mental | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -55,7 +56,7 @@ hide:
 | 5.01.1.029 | Intento de suicidio en niños y adolescentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
 | 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.031 | Trastorno conducta disocial | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
 | 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.035 | Consumo perjudicial de drogas en niños y adolescentes | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |

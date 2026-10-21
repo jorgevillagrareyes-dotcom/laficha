@@ -2751,16 +2751,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
     - codigo: 5.01.1.021
       nombre: Trastornos disociativos
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
     - codigo: 5.01.1.022
       nombre: Trastornos facticios
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
     - codigo: 5.01.1.023
       nombre: Trastorno del espectro autista
       dx: Sospecha
@@ -2813,6 +2819,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
     - codigo: 5.01.1.033
       nombre: Trastornos ansiosos en niños
       dx: Sospecha
