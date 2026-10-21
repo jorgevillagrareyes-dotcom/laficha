@@ -6,10 +6,11 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **42 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **50 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Causalidad, sesgos y pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md)
@@ -62,20 +63,20 @@ hide:
 | 7.01.3.038 | Definición, estructura y funciones de los subsistemas en Chile | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
 | 7.01.3.039 | Concepto y descripción de la red asistencial chilena | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
 | 7.01.3.040 | Beneficios de la seguridad social y rol del médico en su acceso | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
-| 7.01.3.041 | Conceptos de administración y gestión | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.042 | Planificación y programación en salud | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.043 | Formulación de programas | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.044 | Organización: principios y características estructurales y funcionales de las organizaciones | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.045 | Dirección: funciones de la dirección, liderazgo, comunicaciones, coordinación | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.046 | Evaluación y control: conceptos, tipos de evaluación | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.047 | Auditoría y acreditación | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.041 | Conceptos de administración y gestión | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.042 | Planificación y programación en salud | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.043 | Formulación de programas | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.044 | Organización: principios y características estructurales y funcionales de las organizaciones | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.045 | Dirección: funciones de la dirección, liderazgo, comunicaciones, coordinación | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.046 | Evaluación y control: conceptos, tipos de evaluación | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
+| 7.01.3.047 | Auditoría y acreditación | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
 | 7.01.3.049 | Financiamiento del sector salud | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
 | 7.01.3.050 | Rol del médico en la generación y uso de la información | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.051 | Certificado de defunción, licencia médica, notificación de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.052 | Ejercicio profesional: marcos ético, legal y gremial | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.053 | Derecho GES a atención integral de salud en agresión sexual aguda | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 7.01.3.054 | Otorgamiento, uso y sanciones por mal uso de licencias médicas | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.055 | Conceptos básicos de administración de establecimientos de salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.055 | Conceptos básicos de administración de establecimientos de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
 | 7.01.3.056 | Conocimiento de los derechos y deberes del paciente | :material-clock-outline:{ .pend title="Pendiente" } |
 
 ## Cómo leer los niveles EUNACOM

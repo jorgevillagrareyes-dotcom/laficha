@@ -4211,18 +4211,32 @@ especialidades:
       - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.041
       nombre: Conceptos de administración y gestión
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.042
       nombre: Planificación y programación en salud
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.043
       nombre: Formulación de programas
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.044
       nombre: 'Organización: principios y características estructurales y funcionales de las organizaciones'
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.045
       nombre: 'Dirección: funciones de la dirección, liderazgo, comunicaciones, coordinación'
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.046
       nombre: 'Evaluación y control: conceptos, tipos de evaluación'
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.047
       nombre: Auditoría y acreditación
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.049
       nombre: Financiamiento del sector salud
       resumen:
@@ -4241,5 +4255,7 @@ especialidades:
       nombre: Otorgamiento, uso y sanciones por mal uso de licencias médicas
     - codigo: 7.01.3.055
       nombre: Conceptos básicos de administración de establecimientos de salud
+      resumen:
+      - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.056
       nombre: Conocimiento de los derechos y deberes del paciente
