@@ -3013,6 +3013,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.1.011
       nombre: Fotodermatosis
       dx: Sospecha
@@ -3102,6 +3104,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.1.026
       nombre: Rosácea
       dx: Específico
@@ -3209,6 +3213,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.2.010
       nombre: Pénfigo y penfigoide
       dx: Sospecha
@@ -3231,16 +3237,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.2.014
       nombre: Síndrome de piel escaldada por estafilococos
       dx: Sospecha
       tto: Inicial
       seg: No requiere
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.2.015
       nombre: Síndrome de Stevens-Johnson
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
     - codigo: 6.01.2.016
       nombre: Urticaria y angioedema
       dx: Específico

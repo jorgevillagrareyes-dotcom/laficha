@@ -6,7 +6,7 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **25 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **31 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Urticaria y angioedema](urticaria-y-angioedema.md)
 
 ## Situaciones clínicas
@@ -29,7 +30,7 @@ hide:
 | 6.01.1.007 | Dermitis de contacto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 6.01.1.008 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 6.01.1.009 | Eritema nodoso / Eritema indurado de Bazin | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.010 | Eritema polimorfo menor | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.010 | Eritema polimorfo menor | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.1.011 | Fotodermatosis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.012 | Granuloma piogénico | Sospecha | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.013 | Hemangiomas cutáneos infantiles | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -44,7 +45,7 @@ hide:
 | 6.01.1.022 | Pitiriasis Rosada de Gilbert | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.1.023 | Prúrigo infantil agudo, picadura de insectos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.024 | Psoriasis | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
-| 6.01.1.025 | Reacciones cutáneas por drogas (rush, toxidermia fija) | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.025 | Reacciones cutáneas por drogas (rush, toxidermia fija) | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.1.026 | Rosácea | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.027 | Sarna | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.028 | Tumores benignos de piel (quistes, lipomas, queratosis seborreica) | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -66,13 +67,13 @@ hide:
 | 6.01.2.006 | Hemangiomas y malformaciones vasculares del recién nacido | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.2.007 | Herpes zoster | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) |
 | 6.01.2.008 | Loxocelismo | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.2.009 | Necrolisis tóxica epidérmica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.2.009 | Necrolisis tóxica epidérmica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.2.010 | Pénfigo y penfigoide | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.2.011 | Quemadura solar | Específico | Completo | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.2.012 | Sífilis congénita | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
-| 6.01.2.013 | Síndrome de hipersensibilidad a drogas | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.2.014 | Síndrome de piel escaldada por estafilococos | Sospecha | Inicial | No requiere | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.2.015 | Síndrome de Stevens-Johnson | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.2.013 | Síndrome de hipersensibilidad a drogas | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
+| 6.01.2.014 | Síndrome de piel escaldada por estafilococos | Sospecha | Inicial | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
+| 6.01.2.015 | Síndrome de Stevens-Johnson | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.2.016 | Urticaria y angioedema | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Urticaria y angioedema](urticaria-y-angioedema.md) |
 
 ## Conocimientos generales
