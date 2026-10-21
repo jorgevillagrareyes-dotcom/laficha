@@ -4079,18 +4079,24 @@ especialidades:
       - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.008
       nombre: Diagnóstico de situación de salud
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.009
       nombre: 'Indicadores de nivel de salud: cálculo e interpretación'
       resumen:
       - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.010
       nombre: Etapas del diagnóstico de situación de salud
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.011
       nombre: Fuentes de información para el diagnóstico
       resumen:
       - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.012
       nombre: Ejecución de un diagnóstico
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.013
       nombre: Concepto y campo de la epidemiología
     - codigo: 7.01.3.014
@@ -4101,6 +4107,8 @@ especialidades:
       nombre: Vigilancia epidemiológica y estudio de brotes
     - codigo: 7.01.3.017
       nombre: Usos de la epidemiología en el diagnóstico de situación de salud
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.018
       nombre: Epidemiología analítica
     - codigo: 7.01.3.019
@@ -4125,8 +4133,12 @@ especialidades:
       nombre: Pruebas de screening (tamizaje) y diagnósticas
     - codigo: 7.01.3.029
       nombre: Descripción sistemática de problemas
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.030
       nombre: Criterios de priorización de problemas
+      resumen:
+      - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.031
       nombre: Estrategias de control de enfermedades infecciosas
     - codigo: 7.01.3.032

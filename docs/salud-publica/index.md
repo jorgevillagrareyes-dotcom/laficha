@@ -6,11 +6,12 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **10 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **16 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md)
 
 ## Conocimientos generales
@@ -24,16 +25,16 @@ hide:
 | 7.01.3.005 | Promoción de salud y prevención de enfermedades | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
 | 7.01.3.006 | Determinantes del nivel de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
 | 7.01.3.007 | Demografía y salud pública | :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md) |
-| 7.01.3.008 | Diagnóstico de situación de salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.008 | Diagnóstico de situación de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.009 | Indicadores de nivel de salud: cálculo e interpretación | :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md) |
-| 7.01.3.010 | Etapas del diagnóstico de situación de salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.010 | Etapas del diagnóstico de situación de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.011 | Fuentes de información para el diagnóstico | :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md) |
-| 7.01.3.012 | Ejecución de un diagnóstico | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.012 | Ejecución de un diagnóstico | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.013 | Concepto y campo de la epidemiología | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.014 | Epidemiología descriptiva | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.015 | Usos de la epidemiología en el control de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.016 | Vigilancia epidemiológica y estudio de brotes | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.017 | Usos de la epidemiología en el diagnóstico de situación de salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.017 | Usos de la epidemiología en el diagnóstico de situación de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.018 | Epidemiología analítica | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.019 | Medidas de asociación e impacto | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.020 | Diseños de investigación epidemiológica | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -45,8 +46,8 @@ hide:
 | 7.01.3.026 | Causalidad y sesgos | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.027 | Investigación epidemiológica | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.028 | Pruebas de screening (tamizaje) y diagnósticas | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.029 | Descripción sistemática de problemas | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.030 | Criterios de priorización de problemas | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.029 | Descripción sistemática de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
+| 7.01.3.030 | Criterios de priorización de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.031 | Estrategias de control de enfermedades infecciosas | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.032 | Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares) | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.033 | Bases conceptuales de la seguridad social | :material-clock-outline:{ .pend title="Pendiente" } |
