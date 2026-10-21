@@ -2636,16 +2636,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
     - codigo: 5.01.1.005
       nombre: Trastorno agudo por estrés
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
     - codigo: 5.01.1.006
       nombre: Trastorno por estrés postraumático
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
     - codigo: 5.01.1.007
       nombre: Primer episodio depresivo
       dx: Específico

@@ -15,7 +15,7 @@ Psiquiatría · Medicina familiar · Atención primaria
 WFSBP 2023: tratamiento de los trastornos de ansiedad, TOC y TEPT (versión 3, partes I y II) · CANMAT 2014: trastornos de ansiedad, TEPT y TOC · NICE CG113 (2011, actualizada en 2020): TAG y trastorno de pánico en adultos · USPSTF 2023: tamizaje de ansiedad en adultos · Criterios DSM-5-TR (2022)
 
 **Otras fuentes**
-Revisión de los trastornos de ansiedad (Craske y Stein, *Lancet* 2016) · Revisión del TOC (Stein, *Nat Rev Dis Primers* 2019) · Estudio Chileno de Prevalencia Psiquiátrica (Vicente, *Am J Psychiatry* 2006) · GBD 2019 de trastornos mentales (*Lancet Psychiatry* 2022) · Escala GAD-7 (Spitzer 2006) · Ver [depresión](../geriatria/depresion.md) e [hipertiroidismo](../endocrinologia/hipotiroidismo-e-hipertiroidismo.md)
+Revisión de los trastornos de ansiedad (Craske y Stein, *Lancet* 2016) · Revisión del TOC (Stein, *Nat Rev Dis Primers* 2019) · Estudio Chileno de Prevalencia Psiquiátrica (Vicente, *Am J Psychiatry* 2006) · GBD 2019 de trastornos mentales (*Lancet Psychiatry* 2022) · Escala GAD-7 (Spitzer 2006) · Ver [trastornos relacionados con traumas y estrés](trastornos-relacionados-con-traumas-y-estres.md), [depresión](../geriatria/depresion.md) e [hipertiroidismo](../endocrinologia/hipotiroidismo-e-hipertiroidismo.md)
 
 **GES**
 No. Se atienden en la APS (Programa de Salud Mental) y en la especialidad si son graves o no responden.

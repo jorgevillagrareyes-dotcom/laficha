@@ -6,11 +6,12 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **11 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **14 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
 
 ## Situaciones clínicas
 
@@ -19,9 +20,9 @@ hide:
 | 5.01.1.001 | Trastorno de pánico con o sin agorafobia | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 | 5.01.1.002 | Trastorno obsesivo compulsivo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 | 5.01.1.003 | Trastornos fóbicos (fobia social y fobia específica) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
-| 5.01.1.004 | Trastorno de adaptación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.005 | Trastorno agudo por estrés | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.006 | Trastorno por estrés postraumático | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.004 | Trastorno de adaptación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md) |
+| 5.01.1.005 | Trastorno agudo por estrés | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md) |
+| 5.01.1.006 | Trastorno por estrés postraumático | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md) |
 | 5.01.1.007 | Primer episodio depresivo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Depresión (con énfasis en el adulto mayor)](../geriatria/depresion.md) |
 | 5.01.1.008 | Trastorno depresivo (recurrente) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Depresión (con énfasis en el adulto mayor)](../geriatria/depresion.md) |
 | 5.01.1.009 | Trastorno bipolar | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
