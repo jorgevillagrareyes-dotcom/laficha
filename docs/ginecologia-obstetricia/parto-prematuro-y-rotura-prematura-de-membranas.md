@@ -13,7 +13,7 @@ tags:
 Obstetricia · Alto riesgo obstétrico
 
 **Guías principales**
-MINSAL 2015: Guía Perinatal (capítulos de parto prematuro y de rotura prematura de membranas) · MINSAL 2018: guía GES de prevención del parto prematuro · ACOG 2016: manejo del parto prematuro (PB 171) · ACOG 2020: rotura prematura de membranas (PB 217) · ACOG 2021: predicción y prevención del parto prematuro espontáneo (PB 234)
+MINSAL 2015: Guía Perinatal (capítulos de parto prematuro y de rotura prematura de membranas) · MINSAL 2018: guía GES de prevención del parto prematuro · ACOG 2016: manejo del parto prematuro (PB 171) · ACOG 2020: rotura prematura de membranas (PB 217) · ACOG 2021: predicción y prevención del parto prematuro espontáneo (PB 234) · ACOG 2026: cerclaje obstétrico (CPG 12)
 
 **Otras fuentes**
 Ver [control prenatal](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md), [metrorragia de la segunda mitad del embarazo](metrorragia-de-la-segunda-mitad-del-embarazo.md), [infección urinaria](../nefrologia/infeccion-urinaria.md) y [síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md)
@@ -212,6 +212,7 @@ flowchart TD
 | Todas | Tratar la **bacteriuria asintomática**, dejar el tabaco, tratar la enfermedad periodontal |
 
 - El **reposo en cama** y la **tocolisis profiláctica** no previenen el parto prematuro.
+- Indicaciones del cerclaje: por **historia** (insuficiencia cervical), por **ecografía** (cérvix corto con antecedente de parto prematuro) y por **examen físico** (dilatación cervical indolora en el segundo trimestre). La guía **ACOG 2026 (CPG 12)** las revisa junto con la técnica quirúrgica y las alternativas.
 - En los **embarazos gemelares** ni la progesterona ni el cerclaje de rutina reducen el parto prematuro (Guía Perinatal 2015).
 - El caproato de 17-hidroxiprogesterona (17-OHPC) intramuscular **se retiró del mercado en EE. UU. en 2023** por falta de eficacia confirmada; la opción es la **progesterona vaginal**.
 
@@ -340,6 +341,7 @@ flowchart TD
 3. American College of Obstetricians and Gynecologists. Practice Bulletin No. 171: Management of preterm labor. *Obstet Gynecol.* 2016;128(4):e155–e164. doi:[10.1097/AOG.0000000000001711](https://doi.org/10.1097/AOG.0000000000001711)
 4. American College of Obstetricians and Gynecologists. Prelabor rupture of membranes: ACOG Practice Bulletin No. 217. *Obstet Gynecol.* 2020;135(3):e80–e97. doi:[10.1097/AOG.0000000000003700](https://doi.org/10.1097/AOG.0000000000003700)
 5. American College of Obstetricians and Gynecologists. Prediction and prevention of spontaneous preterm birth: ACOG Practice Bulletin No. 234. *Obstet Gynecol.* 2021;138(2):e65–e90. doi:[10.1097/AOG.0000000000004479](https://doi.org/10.1097/AOG.0000000000004479)
-6. American College of Obstetricians and Gynecologists. Committee Opinion No. 713: Antenatal corticosteroid therapy for fetal maturation. *Obstet Gynecol.* 2017;130(2):e102–e109. doi:[10.1097/AOG.0000000000002237](https://doi.org/10.1097/AOG.0000000000002237)
-7. McGoldrick E, Stewart F, Parker R, et al. Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth. *Cochrane Database Syst Rev.* 2020;12(12):CD004454. doi:[10.1002/14651858.CD004454.pub4](https://doi.org/10.1002/14651858.CD004454.pub4)
-8. Shepherd ES, Goldsmith S, Doyle LW, et al. Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus. *Cochrane Database Syst Rev.* 2026;9(9):CD004661. doi:[10.1002/14651858.CD004661.pub5](https://doi.org/10.1002/14651858.CD004661.pub5)
+6. American College of Obstetricians and Gynecologists. Obstetric cerclage: ACOG Clinical Practice Guideline No. 12. *Obstet Gynecol.* 2026;148(3):e194–e212. doi:[10.1097/AOG.0000000000006379](https://doi.org/10.1097/AOG.0000000000006379)
+7. American College of Obstetricians and Gynecologists. Committee Opinion No. 713: Antenatal corticosteroid therapy for fetal maturation. *Obstet Gynecol.* 2017;130(2):e102–e109. doi:[10.1097/AOG.0000000000002237](https://doi.org/10.1097/AOG.0000000000002237)
+8. McGoldrick E, Stewart F, Parker R, et al. Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth. *Cochrane Database Syst Rev.* 2020;12(12):CD004454. doi:[10.1002/14651858.CD004454.pub4](https://doi.org/10.1002/14651858.CD004454.pub4)
+9. Shepherd ES, Goldsmith S, Doyle LW, et al. Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus. *Cochrane Database Syst Rev.* 2026;9(9):CD004661. doi:[10.1002/14651858.CD004661.pub5](https://doi.org/10.1002/14651858.CD004661.pub5)

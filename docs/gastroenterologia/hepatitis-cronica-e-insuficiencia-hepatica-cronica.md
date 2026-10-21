@@ -353,7 +353,7 @@ flowchart TD
         - **Profilaxis** en quienes recibirán **inmunosupresión** o **quimioterapia** (incluidos los HBsAg negativos con anti-HBc positivo y fármacos de alto riesgo como el **rituximab**).
     - **Fármacos de elección** (alta barrera de resistencia): **tenofovir disoproxil 300 mg/día**, **tenofovir alafenamida 25 mg/día** o **entecavir 0,5 mg/día**, en general **de por vida**. En la **ERC** u **osteoporosis**, preferir el tenofovir alafenamida o el entecavir.
     - **Embarazo** con **ADN > 200 000 UI/mL**: **tenofovir** desde las **semanas 24–28** para prevenir la transmisión vertical, más **vacuna e inmunoglobulina** al recién nacido.
-    - **AASLD/IDSA 2025**: también **amplía** las indicaciones. Baja el límite normal de la **ALT a 35 U/L en hombres y 25 U/L en mujeres** y propone considerar el tratamiento, con decisión compartida, en la **fase inmunotolerante** (HBeAg +, ADN-VHB > 10⁷ UI/mL, ALT normal) si hay **> 40 años** o fibrosis ≥ F2, y en el HBeAg (−) con **ADN-VHB ≥ 2000 UI/mL y ALT < 2 veces** el límite.
+    - **AASLD/IDSA 2025**: también **amplía** las indicaciones. Baja el límite normal de la **ALT a 35 U/L en hombres y 25 U/L en mujeres** y propone considerar el tratamiento, con decisión compartida, en la **fase inmunotolerante** (HBeAg +, ADN-VHB > 10⁷ UI/mL, ALT normal) si hay **≥ 40 años** o fibrosis ≥ F2, y en el HBeAg (−) con **ADN-VHB ≥ 2000 UI/mL y ALT < 2 veces** el límite.
     - **Sin indicación de tratamiento**: control con ALT y ADN-VHB cada 6–12 meses y estadificación de la fibrosis. **Vigilancia de hepatocarcinoma** según el riesgo.
     - **Contactos**: estudiar y **vacunar** a las parejas sexuales y a los convivientes.
 
