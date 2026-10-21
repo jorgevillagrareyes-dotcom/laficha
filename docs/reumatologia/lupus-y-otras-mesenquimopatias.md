@@ -12,7 +12,7 @@ tags:
 Reumatología · Nefrología · Dermatología
 
 **Guías principales**
-EULAR/ACR 2019: criterios de LES · EULAR 2023: tratamiento del LES · ACR/EULAR 2023: criterios del síndrome antifosfolípidos · EULAR 2019: tratamiento del síndrome antifosfolípidos · ACR/EULAR 2016: criterios de Sjögren · ACR/EULAR 2013: criterios de esclerosis sistémica · EULAR/ACR 2017: criterios de miopatías inflamatorias · Chapel Hill 2012: nomenclatura de las vasculitis · EULAR 2022: vasculitis asociadas a ANCA · EULAR 2025: polimialgia reumática y vasculitis de grandes vasos
+EULAR/ACR 2019: criterios de LES · ACR 2025 y EULAR 2023: tratamiento del LES · ACR/EULAR 2023: criterios del síndrome antifosfolípidos · EULAR 2019: tratamiento del síndrome antifosfolípidos · ACR/EULAR 2016: criterios de Sjögren · ACR/EULAR 2013: criterios de esclerosis sistémica · EULAR/ACR 2017: criterios de miopatías inflamatorias · Chapel Hill 2012: nomenclatura de las vasculitis · EULAR 2022: vasculitis asociadas a ANCA · EULAR 2025: polimialgia reumática y vasculitis de grandes vasos
 
 **Otras fuentes**
 Epidemiología global del LES (Tian 2023) · Registro nacional de lupus en Chile 2013–2024 (Vergara 2025) · Ensayo TRAPS (rivaroxabán en el síndrome antifosfolípidos, 2018)
@@ -291,12 +291,12 @@ flowchart TD
 
 ## Tratamiento
 
-!!! guia "Tratamiento del LES (EULAR 2023)"
+!!! guia "Tratamiento del LES (ACR 2025; EULAR 2023)"
     - **Hidroxicloroquina para todos**, salvo contraindicación. Dosis objetivo **5 mg/kg de peso real al día** (habitualmente **200–400 mg/día**), con **control oftalmológico** (basal y anual desde los 5 años de uso).
         - Reduce los brotes, el daño, la trombosis y la mortalidad.
         - **Se mantiene en el embarazo**.
-    - **Corticoides** como **puente** en los brotes. En la mantención, **≤ 5 mg/día** de prednisona, y retirarlos si es posible.
-    - **Inmunosupresores precoces** (**metotrexato**, **azatioprina**, **micofenolato**) y/o **biológicos** (**belimumab**, **anifrolumab**) para controlar la enfermedad y ahorrar corticoides.
+    - **Corticoides** como **puente** en los brotes. En la mantención, **≤ 5 mg/día** de prednisona, y retirarlos si es posible. La **ACR 2025** (primera guía de LES no renal del ACR desde 1999) es más exigente: bajar la prednisona a **< 5 mg/día dentro de 6 meses** y apuntar a suspenderla.
+    - **Inmunosupresores precoces** (**metotrexato**, **azatioprina**, **micofenolato**) y/o **biológicos** (**belimumab**, **anifrolumab**) para controlar la enfermedad y ahorrar corticoides. Objetivo: **remisión** o **baja actividad**; si no se logra, **escalar pronto** (ACR 2025).
     - **Ciclofosfamida** en la enfermedad grave con riesgo de un órgano. **Rituximab** en la refractaria.
     - **Nefritis lúpica activa**: corticoides + **micofenolato** o **ciclofosfamida EV en dosis bajas**. Considerar agregar **belimumab** o un **inhibidor de la calcineurina** (voclosporina, tacrolimus). Ver [síndromes glomerulares](../nefrologia/sindromes-glomerulares.md).
     - **Prevención**:
@@ -440,15 +440,16 @@ flowchart TD
 
 1. Aringer M, Costenbader K, Daikh D, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. *Ann Rheum Dis.* 2019;78(9):1151–1159. doi:[10.1136/annrheumdis-2018-214819](https://doi.org/10.1136/annrheumdis-2018-214819)
 2. Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. *Ann Rheum Dis.* 2024;83(1):15–29. doi:[10.1136/ard-2023-224762](https://doi.org/10.1136/ard-2023-224762)
-3. Barbhaiya M, Zuily S, Naden R, et al. 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258–1270. doi:[10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609)
-4. Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis.* 2019;78(10):1296–1304. doi:[10.1136/annrheumdis-2019-215213](https://doi.org/10.1136/annrheumdis-2019-215213)
-5. Pengo V, Denas G, Zoppellaro G, et al. Rivaroxaban vs warfarin in high-risk patients with antiphospholipid syndrome. *Blood.* 2018;132(13):1365–1371. doi:[10.1182/blood-2018-04-848333](https://doi.org/10.1182/blood-2018-04-848333)
-6. Shiboski CH, Shiboski SC, Seror R, et al. 2016 American College of Rheumatology/European League Against Rheumatism classification criteria for primary Sjögren's syndrome. *Ann Rheum Dis.* 2017;76(1):9–16. doi:[10.1136/annrheumdis-2016-210571](https://doi.org/10.1136/annrheumdis-2016-210571)
-7. van den Hoogen F, Khanna D, Fransen J, et al. 2013 classification criteria for systemic sclerosis: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. *Ann Rheum Dis.* 2013;72(11):1747–1755. doi:[10.1136/annrheumdis-2013-204424](https://doi.org/10.1136/annrheumdis-2013-204424)
-8. Lundberg IE, Tjärnlund A, Bottai M, et al. 2017 European League Against Rheumatism/American College of Rheumatology classification criteria for adult and juvenile idiopathic inflammatory myopathies and their major subgroups. *Ann Rheum Dis.* 2017;76(12):1955–1964. doi:[10.1136/annrheumdis-2017-211468](https://doi.org/10.1136/annrheumdis-2017-211468)
-9. Jennette JC, Falk RJ, Bacon PA, et al. 2012 revised International Chapel Hill Consensus Conference nomenclature of vasculitides. *Arthritis Rheum.* 2013;65(1):1–11. doi:[10.1002/art.37715](https://doi.org/10.1002/art.37715)
-10. Hellmich B, Sanchez-Alamo B, Schirmer JH, et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. *Ann Rheum Dis.* 2024;83(1):30–47. doi:[10.1136/ard-2022-223764](https://doi.org/10.1136/ard-2022-223764)
-11. Mukhtyar CB, Nikiphorou E, Bartoletti A, et al. 2025 EULAR recommendations for the management of polymyalgia rheumatica and primary large vessel vasculitis. *Ann Rheum Dis.* 2026. doi:[10.1016/j.ard.2026.06.009](https://doi.org/10.1016/j.ard.2026.06.009)
-12. Tian J, Zhang D, Yao X, et al. Global epidemiology of systemic lupus erythematosus: a comprehensive systematic analysis and modelling study. *Ann Rheum Dis.* 2023;82(3):351–356. doi:[10.1136/ard-2022-223035](https://doi.org/10.1136/ard-2022-223035)
-13. Vergara K, Ramirez P, Handrujovicz I, et al. National epidemiological analysis of lupus in Chile: a registry-based study from 2013 to 2024. *Lupus.* 2025;34(14):1509–1517. doi:[10.1177/09612033251390607](https://doi.org/10.1177/09612033251390607)
-14. Superintendencia de Salud. Problema de salud 78: lupus eritematoso sistémico (ficha GES). [superdesalud.gob.cl](https://www.superdesalud.gob.cl/app/uploads/2024/03/articles-18922_archivo_fuente.pdf)
+3. Sammaritano LR, Askanase A, Bermas BL, et al. 2025 American College of Rheumatology (ACR) guideline for the treatment of systemic lupus erythematosus. *Arthritis Rheumatol.* 2026;78(7):1361–1386. doi:[10.1002/art.43452](https://doi.org/10.1002/art.43452)
+4. Barbhaiya M, Zuily S, Naden R, et al. 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258–1270. doi:[10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609)
+5. Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis.* 2019;78(10):1296–1304. doi:[10.1136/annrheumdis-2019-215213](https://doi.org/10.1136/annrheumdis-2019-215213)
+6. Pengo V, Denas G, Zoppellaro G, et al. Rivaroxaban vs warfarin in high-risk patients with antiphospholipid syndrome. *Blood.* 2018;132(13):1365–1371. doi:[10.1182/blood-2018-04-848333](https://doi.org/10.1182/blood-2018-04-848333)
+7. Shiboski CH, Shiboski SC, Seror R, et al. 2016 American College of Rheumatology/European League Against Rheumatism classification criteria for primary Sjögren's syndrome. *Ann Rheum Dis.* 2017;76(1):9–16. doi:[10.1136/annrheumdis-2016-210571](https://doi.org/10.1136/annrheumdis-2016-210571)
+8. van den Hoogen F, Khanna D, Fransen J, et al. 2013 classification criteria for systemic sclerosis: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. *Ann Rheum Dis.* 2013;72(11):1747–1755. doi:[10.1136/annrheumdis-2013-204424](https://doi.org/10.1136/annrheumdis-2013-204424)
+9. Lundberg IE, Tjärnlund A, Bottai M, et al. 2017 European League Against Rheumatism/American College of Rheumatology classification criteria for adult and juvenile idiopathic inflammatory myopathies and their major subgroups. *Ann Rheum Dis.* 2017;76(12):1955–1964. doi:[10.1136/annrheumdis-2017-211468](https://doi.org/10.1136/annrheumdis-2017-211468)
+10. Jennette JC, Falk RJ, Bacon PA, et al. 2012 revised International Chapel Hill Consensus Conference nomenclature of vasculitides. *Arthritis Rheum.* 2013;65(1):1–11. doi:[10.1002/art.37715](https://doi.org/10.1002/art.37715)
+11. Hellmich B, Sanchez-Alamo B, Schirmer JH, et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. *Ann Rheum Dis.* 2024;83(1):30–47. doi:[10.1136/ard-2022-223764](https://doi.org/10.1136/ard-2022-223764)
+12. Mukhtyar CB, Nikiphorou E, Bartoletti A, et al. 2025 EULAR recommendations for the management of polymyalgia rheumatica and primary large vessel vasculitis. *Ann Rheum Dis.* 2026. doi:[10.1016/j.ard.2026.06.009](https://doi.org/10.1016/j.ard.2026.06.009)
+13. Tian J, Zhang D, Yao X, et al. Global epidemiology of systemic lupus erythematosus: a comprehensive systematic analysis and modelling study. *Ann Rheum Dis.* 2023;82(3):351–356. doi:[10.1136/ard-2022-223035](https://doi.org/10.1136/ard-2022-223035)
+14. Vergara K, Ramirez P, Handrujovicz I, et al. National epidemiological analysis of lupus in Chile: a registry-based study from 2013 to 2024. *Lupus.* 2025;34(14):1509–1517. doi:[10.1177/09612033251390607](https://doi.org/10.1177/09612033251390607)
+15. Superintendencia de Salud. Problema de salud 78: lupus eritematoso sistémico (ficha GES). [superdesalud.gob.cl](https://www.superdesalud.gob.cl/app/uploads/2024/03/articles-18922_archivo_fuente.pdf)
