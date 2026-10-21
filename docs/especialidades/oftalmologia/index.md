@@ -6,7 +6,7 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **37 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **42 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,12 +16,13 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md)
 
 ## Situaciones clínicas
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 6.02.1.001 | Ametropía | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.001 | Ametropía | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 | 6.02.1.002 | Blefaritis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.003 | Catarata | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.004 | Chalazion | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
@@ -31,7 +32,7 @@ hide:
 | 6.02.1.008 | Conjuntivitis viral no complicada | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.009 | Dacriocistitis aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.010 | Degeneración macular relacionada a la edad | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro](retina-nervio-optico-y-baja-de-vision.md) |
-| 6.02.1.011 | Estrabismo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.011 | Estrabismo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 | 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados](trauma-ocular.md) |
@@ -51,7 +52,7 @@ hide:
 | 6.02.1.028 | Tumores de párpado | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.029 | Tumores endoculares (retinoblastoma y otros) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.030 | Uveítis anterior o posterior | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
-| 6.02.1.031 | Vicios de refracción en personas de 65 años o más | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.031 | Vicios de refracción en personas de 65 años o más | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 
 ## Situaciones clínicas de urgencia
 
@@ -74,8 +75,8 @@ hide:
 |---|---|---|
 | 6.02.3.001 | Accidentes del trabajo | :material-check-circle:{ .ok title="Resumen disponible" } [Accidentes del trabajo y enfermedades profesionales (Ley 16.744)](../../traumatologia/accidentes-del-trabajo-y-enfermedades-profesionales.md) |
 | 6.02.3.002 | Diabetes | :material-check-circle:{ .ok title="Resumen disponible" } [Complicaciones crónicas de la diabetes: nefropatía, retinopatía, neuropatía, enfermedad arterial periférica y pie diabético](../../endocrinologia/complicaciones-cronicas-de-la-diabetes.md) |
-| 6.02.3.003 | Examen visual en adulto | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.3.004 | Examen visual preventivo en niños | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.3.003 | Examen visual en adulto | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md) |
+| 6.02.3.004 | Examen visual preventivo en niños | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 | 6.02.3.005 | Hipertensión arterial | :material-check-circle:{ .ok title="Resumen disponible" } [Hipertensión arterial](../../cardiologia/hipertension-arterial.md) |
 | 6.02.3.006 | Orbitopatía tiroidea | :material-check-circle:{ .ok title="Resumen disponible" } [Hipotiroidismo, hipertiroidismo y tiroiditis](../../endocrinologia/hipotiroidismo-e-hipertiroidismo.md) |
 

@@ -2194,6 +2194,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 2.01.1.097
       nombre: Ojo rojo
       dx: Sospecha
@@ -2206,6 +2208,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 2.01.1.099
       nombre: Epistaxis
       dx: Específico
@@ -3323,6 +3327,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 6.02.1.002
       nombre: Blefaritis
       dx: Específico
@@ -3391,6 +3397,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 6.02.1.012
       nombre: Glaucoma congénito
       dx: Sospecha
@@ -3521,6 +3529,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     urgencias:
     - codigo: 6.02.2.001
       nombre: Causticaciones oculares
@@ -3602,8 +3612,12 @@ especialidades:
       - endocrinologia/complicaciones-cronicas-de-la-diabetes.md
     - codigo: 6.02.3.003
       nombre: Examen visual en adulto
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 6.02.3.004
       nombre: Examen visual preventivo en niños
+      resumen:
+      - especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
     - codigo: 6.02.3.005
       nombre: Hipertensión arterial
       resumen:
