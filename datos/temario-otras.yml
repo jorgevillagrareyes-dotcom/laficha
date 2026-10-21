@@ -3131,6 +3131,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/urticaria-y-angioedema.md
     - codigo: 6.01.1.033
       nombre: Vasculitis cutáneas
       dx: Sospecha
@@ -3155,6 +3157,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/urticaria-y-angioedema.md
     - codigo: 6.01.2.002
       nombre: Ántrax
       dx: Sospecha
@@ -3242,6 +3246,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/urticaria-y-angioedema.md
     generales:
     - codigo: 6.01.3.001
       nombre: Fotoprotección
