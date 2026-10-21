@@ -4151,12 +4151,16 @@ especialidades:
       - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.026
       nombre: Causalidad y sesgos
+      resumen:
+      - salud-publica/causalidad-sesgos-y-pruebas-diagnosticas.md
     - codigo: 7.01.3.027
       nombre: Investigación epidemiológica
       resumen:
       - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.028
       nombre: Pruebas de screening (tamizaje) y diagnósticas
+      resumen:
+      - salud-publica/causalidad-sesgos-y-pruebas-diagnosticas.md
     - codigo: 7.01.3.029
       nombre: Descripción sistemática de problemas
       resumen:

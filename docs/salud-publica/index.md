@@ -6,10 +6,11 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **31 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **33 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Causalidad, sesgos y pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md)
@@ -45,9 +46,9 @@ hide:
 | 7.01.3.023 | Estudios de cohortes | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
 | 7.01.3.024 | Estudios experimentales y cuasiexperimentales | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
 | 7.01.3.025 | Concepto de estudios ecológicos | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
-| 7.01.3.026 | Causalidad y sesgos | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.026 | Causalidad y sesgos | :material-check-circle:{ .ok title="Resumen disponible" } [Causalidad, sesgos y pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md) |
 | 7.01.3.027 | Investigación epidemiológica | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
-| 7.01.3.028 | Pruebas de screening (tamizaje) y diagnósticas | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.028 | Pruebas de screening (tamizaje) y diagnósticas | :material-check-circle:{ .ok title="Resumen disponible" } [Causalidad, sesgos y pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md) |
 | 7.01.3.029 | Descripción sistemática de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.030 | Criterios de priorización de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.031 | Estrategias de control de enfermedades infecciosas | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md) |

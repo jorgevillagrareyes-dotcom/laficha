@@ -413,6 +413,7 @@ nav:
           - "Trastornos de la deglución, del habla y del lenguaje": especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
   - Salud pública:
       - salud-publica/index.md
+      - "Causalidad, sesgos y pruebas de tamizaje y diagnósticas": salud-publica/causalidad-sesgos-y-pruebas-diagnosticas.md
       - "Demografía, indicadores de nivel de salud y fuentes de información": salud-publica/demografia-e-indicadores-de-salud.md
       - "Diagnóstico de situación de salud, descripción de problemas y priorización": salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
       - "Epidemiología analítica: diseños de investigación y medidas de asociación e impacto": salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
