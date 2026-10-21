@@ -6,7 +6,7 @@ hide:
 # Especialidades
 
 !!! info "Avance"
-    **154 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (26 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
+    **157 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (27 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
 
 ## Subespecialidades
 
@@ -28,6 +28,6 @@ hide:
 
     ---
 
-    55 de 58 temas con resumen
+    58 de 58 temas con resumen
 
 </div>

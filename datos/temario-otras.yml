@@ -2136,6 +2136,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
     - codigo: 2.01.1.087
       nombre: Tumores SNC
       dx: Sospecha
@@ -3874,11 +3876,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
     - codigo: 6.03.1.033
       nombre: Trastornos de habla y lenguaje
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
     urgencias:
     - codigo: 6.03.2.001
       nombre: Absceso mastoídeo de otitis media aguda y crónica
@@ -4013,6 +4019,8 @@ especialidades:
       - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.3.002
       nombre: Pesquisa de trastornos del lenguaje
+      resumen:
+      - especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
     - codigo: 6.03.3.003
       nombre: Prevención de alergias nasosinusales
       resumen:

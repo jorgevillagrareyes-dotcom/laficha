@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **18 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **19 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -98,7 +98,7 @@ hide:
 | 2.01.1.083 | Síndrome hipertónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.085 | Trastornos aprendizaje | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.086 | Trastornos del lenguaje | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.086 | Trastornos del lenguaje | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](../especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md) |
 | 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.088 | Criptorquidia | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.089 | Fimosis | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

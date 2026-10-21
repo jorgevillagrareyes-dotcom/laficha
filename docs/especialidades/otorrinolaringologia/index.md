@@ -6,7 +6,7 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **55 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **58 de 58** temas tienen resumen. Todos los temas del perfil EUNACOM v3 (2026) están cubiertos.
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](trastornos-de-deglucion-habla-y-lenguaje.md)
 
 ## Situaciones clínicas
 
@@ -52,8 +53,8 @@ hide:
 | 6.03.1.029 | Síndrome vertiginoso | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vértigo: síndromes vertiginosos periféricos y centrales](../../neurologia/vertigo.md) |
 | 6.03.1.030 | Sinusopatías crónicas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.1.031 | Tinitus | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
-| 6.03.1.032 | Trastorno de deglución | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.033 | Trastornos de habla y lenguaje | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.032 | Trastorno de deglución | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](trastornos-de-deglucion-habla-y-lenguaje.md) |
+| 6.03.1.033 | Trastornos de habla y lenguaje | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](trastornos-de-deglucion-habla-y-lenguaje.md) |
 
 ## Situaciones clínicas de urgencia
 
@@ -83,7 +84,7 @@ hide:
 | Código | Tema | Resumen |
 |---|---|---|
 | 6.03.3.001 | Detección de hipoacusia y sordera en niños | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
-| 6.03.3.002 | Pesquisa de trastornos del lenguaje | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.3.002 | Pesquisa de trastornos del lenguaje | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](trastornos-de-deglucion-habla-y-lenguaje.md) |
 | 6.03.3.003 | Prevención de alergias nasosinusales | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.3.004 | Prevención de cáncer laríngeo | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales](cancer-de-cabeza-y-cuello.md) |
 | 6.03.3.005 | Prevención de cuerpo extraño en niños | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
