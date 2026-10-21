@@ -3038,6 +3038,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
     - codigo: 6.01.1.016
       nombre: Lupus eritematoso cutáneo crónico (lupus discoide)
       dx: Sospecha
@@ -3075,6 +3077,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
     - codigo: 6.01.1.023
       nombre: Prúrigo infantil agudo, picadura de insectos
       dx: Específico
@@ -3085,6 +3089,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
     - codigo: 6.01.1.025
       nombre: Reacciones cutáneas por drogas (rush, toxidermia fija)
       dx: Específico
@@ -3159,6 +3165,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
     - codigo: 6.01.2.005
       nombre: Fasceitis necrotizante
       dx: Sospecha
