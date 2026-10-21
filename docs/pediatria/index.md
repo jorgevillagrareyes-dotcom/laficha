@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **7 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **8 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -123,7 +123,7 @@ hide:
 | 2.01.1.108 | Dermatitis del pañal y de contacto | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.109 | Ectoparasitosis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.110 | Infecciones micóticas de piel y fanéreos | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.111 | Malformaciones vasculares cutáneas | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.111 | Malformaciones vasculares cutáneas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](../especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md) |
 | 2.01.1.112 | Alteraciones de la termorregulación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.113 | Apneas | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.114 | Asfixia neonatal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

@@ -2267,6 +2267,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md
     - codigo: 2.01.1.112
       nombre: Alteraciones de la termorregulación
       dx: Específico
@@ -3040,6 +3042,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md
     - codigo: 6.01.1.014
       nombre: Linfomas cutáneos
       dx: Sospecha
@@ -3222,6 +3226,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md
     - codigo: 6.01.2.007
       nombre: Herpes zoster
       dx: Específico

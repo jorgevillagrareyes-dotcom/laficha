@@ -6,7 +6,7 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **50 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **52 de 52** temas tienen resumen. Todos los temas del perfil EUNACOM v3 (2026) están cubiertos.
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fotodermatosis, quemadura solar y fotoprotección](fotodermatosis-quemadura-solar-y-fotoproteccion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](hemangiomas-y-malformaciones-vasculares.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Loxoscelismo e higiene de la vivienda](loxoscelismo-e-higiene-de-la-vivienda.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md)
@@ -38,7 +39,7 @@ hide:
 | 6.01.1.010 | Eritema polimorfo menor | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.1.011 | Fotodermatosis | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Fotodermatosis, quemadura solar y fotoprotección](fotodermatosis-quemadura-solar-y-fotoproteccion.md) |
 | 6.01.1.012 | Granuloma piogénico | Sospecha | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
-| 6.01.1.013 | Hemangiomas cutáneos infantiles | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.013 | Hemangiomas cutáneos infantiles | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](hemangiomas-y-malformaciones-vasculares.md) |
 | 6.01.1.014 | Linfomas cutáneos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.015 | Líquen plano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.1.016 | Lupus eritematoso cutáneo crónico (lupus discoide) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md) |
@@ -69,7 +70,7 @@ hide:
 | 6.01.2.003 | Erisipela / Celulitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de piel y partes blandas](../../infectologia/infecciones-piel-partes-blandas.md) |
 | 6.01.2.004 | Eritrodermia | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.2.005 | Fasceitis necrotizante | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de piel y partes blandas](../../infectologia/infecciones-piel-partes-blandas.md) |
-| 6.01.2.006 | Hemangiomas y malformaciones vasculares del recién nacido | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.2.006 | Hemangiomas y malformaciones vasculares del recién nacido | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](hemangiomas-y-malformaciones-vasculares.md) |
 | 6.01.2.007 | Herpes zoster | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) |
 | 6.01.2.008 | Loxocelismo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Loxoscelismo e higiene de la vivienda](loxoscelismo-e-higiene-de-la-vivienda.md) |
 | 6.01.2.009 | Necrolisis tóxica epidérmica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
