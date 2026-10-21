@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **37 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **40 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md)
@@ -53,10 +54,10 @@ hide:
 | 5.01.1.025 | Retardo mental | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
 | 5.01.1.026 | Enuresis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.027 | Encopresis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.028 | Trastorno por déficit atencional | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.028 | Trastorno por déficit atencional | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
 | 5.01.1.029 | Intento de suicidio en niños y adolescentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
-| 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.031 | Trastorno conducta disocial | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
+| 5.01.1.031 | Trastorno conducta disocial | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
 | 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
 | 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |

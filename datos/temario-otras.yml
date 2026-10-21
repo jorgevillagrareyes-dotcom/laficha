@@ -2803,6 +2803,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - psiquiatria/tdah-y-trastornos-de-conducta.md
     - codigo: 5.01.1.029
       nombre: Intento de suicidio en niños y adolescentes
       dx: Sospecha
@@ -2815,11 +2817,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/tdah-y-trastornos-de-conducta.md
     - codigo: 5.01.1.031
       nombre: Trastorno conducta disocial
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/tdah-y-trastornos-de-conducta.md
     - codigo: 5.01.1.032
       nombre: Trastorno somatización en niños
       dx: Sospecha
