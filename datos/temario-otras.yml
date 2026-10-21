@@ -2392,6 +2392,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/conducta-suicida.md
     - codigo: 2.01.1.138
       nombre: Maltrato infantil
       dx: Específico
@@ -2788,6 +2790,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/conducta-suicida.md
     - codigo: 5.01.1.030
       nombre: Trastorno conducta oposicionista desafiante
       dx: Sospecha
@@ -2833,6 +2837,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/conducta-suicida.md
     - codigo: 5.01.2.002
       nombre: Agitación psicomotora
       dx: Sospecha
@@ -2852,6 +2858,8 @@ especialidades:
       nombre: Clasificaciones en psiquiatría
     - codigo: 5.01.3.002
       nombre: Conducta suicida
+      resumen:
+      - psiquiatria/conducta-suicida.md
     - codigo: 5.01.3.003
       nombre: Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital
     - codigo: 5.01.3.004

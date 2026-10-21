@@ -6,10 +6,11 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **21 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **24 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
@@ -49,7 +50,7 @@ hide:
 | 5.01.1.026 | Enuresis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.027 | Encopresis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.028 | Trastorno por déficit atencional | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.029 | Intento de suicidio en niños y adolescentes | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.029 | Intento de suicidio en niños y adolescentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
 | 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.031 | Trastorno conducta disocial | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -62,7 +63,7 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 5.01.2.001 | Conducta suicida | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.2.001 | Conducta suicida | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
 | 5.01.2.002 | Agitación psicomotora | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Agitación psicomotora y agresividad (con énfasis en el adulto mayor)](../geriatria/agitacion-psicomotora-y-agresividad.md) |
 | 5.01.2.003 | Intoxicación por sustancias psicoactivas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md) |
 
@@ -71,7 +72,7 @@ hide:
 | Código | Tema | Resumen |
 |---|---|---|
 | 5.01.3.001 | Clasificaciones en psiquiatría | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.002 | Conducta suicida | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.002 | Conducta suicida | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
 | 5.01.3.003 | Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.004 | Higiene de la alimentación | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.005 | Higiene del sueño | :material-clock-outline:{ .pend title="Pendiente" } |
