@@ -6,7 +6,7 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **1 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **7 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -27,7 +27,7 @@ hide:
 | 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esclerosis múltiple](../../neurologia/esclerosis-multiple.md) |
 | 6.02.1.017 | Neuropatía óptica isquémica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.018 | Obstrucción completa de la vía lacrimal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.019 | Orzuelo no complicado | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -55,7 +55,7 @@ hide:
 | 6.02.2.005 | Glaucoma agudo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.006 | Hemorragia vítrea | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.007 | Herida penetrante o perforante ocular | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.2.008 | Heridas de párpados | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.2.008 | Heridas de párpados | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.02.2.009 | Parálisis III par + midriasis | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.2.010 | Úlcera corneal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 
@@ -63,12 +63,12 @@ hide:
 
 | Código | Tema | Resumen |
 |---|---|---|
-| 6.02.3.001 | Accidentes del trabajo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.3.002 | Diabetes | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.3.001 | Accidentes del trabajo | :material-check-circle:{ .ok title="Resumen disponible" } [Accidentes del trabajo y enfermedades profesionales (Ley 16.744)](../../traumatologia/accidentes-del-trabajo-y-enfermedades-profesionales.md) |
+| 6.02.3.002 | Diabetes | :material-check-circle:{ .ok title="Resumen disponible" } [Complicaciones crónicas de la diabetes: nefropatía, retinopatía, neuropatía, enfermedad arterial periférica y pie diabético](../../endocrinologia/complicaciones-cronicas-de-la-diabetes.md) |
 | 6.02.3.003 | Examen visual en adulto | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.3.004 | Examen visual preventivo en niños | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.3.005 | Hipertensión arterial | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.3.006 | Orbitopatía tiroidea | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.3.005 | Hipertensión arterial | :material-check-circle:{ .ok title="Resumen disponible" } [Hipertensión arterial](../../cardiologia/hipertension-arterial.md) |
+| 6.02.3.006 | Orbitopatía tiroidea | :material-check-circle:{ .ok title="Resumen disponible" } [Hipotiroidismo, hipertiroidismo y tiroiditis](../../endocrinologia/hipotiroidismo-e-hipertiroidismo.md) |
 
 ## Cómo leer los niveles EUNACOM
 

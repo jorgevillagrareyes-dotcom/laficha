@@ -57,7 +57,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Dermatología, oftalmología y otorrinolaringología. En preparación · **22 de 157** temas con resumen
+    Dermatología, oftalmología y otorrinolaringología. En preparación · **31 de 157** temas con resumen
 
 -   :material-account-group:{ .lg .middle } **[Salud pública](salud-publica/index.md)**
 

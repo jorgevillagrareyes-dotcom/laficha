@@ -6,7 +6,7 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **13 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **16 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -26,7 +26,7 @@ hide:
 | 6.03.1.012 | Epistaxis leve | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.013 | Estridor laríngeo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.014 | Hipoacusia neonatal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.015 | Masa cervical | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome mononucleósico, adenopatías y adenitis](../../infectologia/sindrome-mononucleosico-y-adenitis.md) |
+| 6.03.1.015 | Masa cervical | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome mononucleósico, adenopatías y adenitis](../../infectologia/sindrome-mononucleosico-y-adenitis.md) · [Patología de las glándulas salivales y masa cervical](../../cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md) |
 | 6.03.1.016 | Obstrucción nasal crónica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.017 | Odinofagias agudas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.018 | Odinofagias crónicas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -34,7 +34,7 @@ hide:
 | 6.03.1.020 | Otitis media aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.021 | Otitis media con efusión | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.022 | Otitis media crónica y complicaciones | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.023 | Patología de glándulas salivales | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.023 | Patología de glándulas salivales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Patología de las glándulas salivales y masa cervical](../../cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md) |
 | 6.03.1.024 | Poliposis nasal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.025 | Rinorrea crónica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.026 | Rinorreas agudas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
@@ -61,8 +61,8 @@ hide:
 | 6.03.2.009 | Cuerpo extraño en vía aérea | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por monóxido de carbono, ahogamiento y cuerpo extraño en la vía aérea](../../respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md) |
 | 6.03.2.010 | Cuerpo extraño nasal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.011 | Epistaxis masiva | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.2.012 | Fractura nasal reciente | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.2.013 | Hematoma nasoseptal | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.012 | Fractura nasal reciente | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
+| 6.03.2.013 | Hematoma nasoseptal | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.03.2.014 | Otohematoma | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.015 | Otorragia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.016 | Perforación timpánica traumática | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

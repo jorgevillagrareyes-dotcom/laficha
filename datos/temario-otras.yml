@@ -3303,6 +3303,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - neurologia/esclerosis-multiple.md
     - codigo: 6.02.1.017
       nombre: Neuropatía óptica isquémica
       dx: Sospecha
@@ -3421,6 +3423,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
     - codigo: 6.02.2.009
       nombre: Parálisis III par + midriasis
       dx: Específico
@@ -3434,16 +3438,24 @@ especialidades:
     generales:
     - codigo: 6.02.3.001
       nombre: Accidentes del trabajo
+      resumen:
+      - traumatologia/accidentes-del-trabajo-y-enfermedades-profesionales.md
     - codigo: 6.02.3.002
       nombre: Diabetes
+      resumen:
+      - endocrinologia/complicaciones-cronicas-de-la-diabetes.md
     - codigo: 6.02.3.003
       nombre: Examen visual en adulto
     - codigo: 6.02.3.004
       nombre: Examen visual preventivo en niños
     - codigo: 6.02.3.005
       nombre: Hipertensión arterial
+      resumen:
+      - cardiologia/hipertension-arterial.md
     - codigo: 6.02.3.006
       nombre: Orbitopatía tiroidea
+      resumen:
+      - endocrinologia/hipotiroidismo-e-hipertiroidismo.md
   - carpeta: especialidades/otorrinolaringologia
     titulo: Otorrinolaringología
     situaciones:
@@ -3526,6 +3538,7 @@ especialidades:
       seg: Derivar
       resumen:
       - infectologia/sindrome-mononucleosico-y-adenitis.md
+      - cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md
     - codigo: 6.03.1.016
       nombre: Obstrucción nasal crónica
       dx: Específico
@@ -3572,6 +3585,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md
     - codigo: 6.03.1.024
       nombre: Poliposis nasal
       dx: Sospecha
@@ -3697,11 +3712,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
     - codigo: 6.03.2.013
       nombre: Hematoma nasoseptal
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
     - codigo: 6.03.2.014
       nombre: Otohematoma
       dx: Específico
