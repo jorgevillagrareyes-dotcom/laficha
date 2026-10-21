@@ -4119,24 +4119,42 @@ especialidades:
       - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.018
       nombre: Epidemiología analítica
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.019
       nombre: Medidas de asociación e impacto
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.020
       nombre: Diseños de investigación epidemiológica
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.021
       nombre: Estudios de prevalencia
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.022
       nombre: Estudios de casos y controles
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.023
       nombre: Estudios de cohortes
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.024
       nombre: Estudios experimentales y cuasiexperimentales
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.025
       nombre: Concepto de estudios ecológicos
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.026
       nombre: Causalidad y sesgos
     - codigo: 7.01.3.027
       nombre: Investigación epidemiológica
+      resumen:
+      - salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
     - codigo: 7.01.3.028
       nombre: Pruebas de screening (tamizaje) y diagnósticas
     - codigo: 7.01.3.029

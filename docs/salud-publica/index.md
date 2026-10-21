@@ -6,12 +6,13 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **22 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **31 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md)
 
@@ -36,16 +37,16 @@ hide:
 | 7.01.3.015 | Usos de la epidemiología en el control de enfermedades | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md) |
 | 7.01.3.016 | Vigilancia epidemiológica y estudio de brotes | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md) |
 | 7.01.3.017 | Usos de la epidemiología en el diagnóstico de situación de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
-| 7.01.3.018 | Epidemiología analítica | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.019 | Medidas de asociación e impacto | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.020 | Diseños de investigación epidemiológica | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.021 | Estudios de prevalencia | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.022 | Estudios de casos y controles | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.023 | Estudios de cohortes | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.024 | Estudios experimentales y cuasiexperimentales | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.025 | Concepto de estudios ecológicos | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.018 | Epidemiología analítica | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.019 | Medidas de asociación e impacto | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.020 | Diseños de investigación epidemiológica | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.021 | Estudios de prevalencia | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.022 | Estudios de casos y controles | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.023 | Estudios de cohortes | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.024 | Estudios experimentales y cuasiexperimentales | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
+| 7.01.3.025 | Concepto de estudios ecológicos | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
 | 7.01.3.026 | Causalidad y sesgos | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.027 | Investigación epidemiológica | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.027 | Investigación epidemiológica | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md) |
 | 7.01.3.028 | Pruebas de screening (tamizaje) y diagnósticas | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.029 | Descripción sistemática de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.030 | Criterios de priorización de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
