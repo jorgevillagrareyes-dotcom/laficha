@@ -24,7 +24,7 @@ No como problema propio. La anemia de la ERC se trata en el GES de la enfermedad
 1.08.1.001 Anemia de las enfermedades crónicas (sospecha, inicial, completo) · 1.08.1.002 Anemia ferropénica (específico, completo, completo) · 1.08.1.003 Anemia hemolítica (sospecha, inicial, derivar) · 1.08.1.004 Anemia megaloblástica (sospecha, inicial, completo)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 

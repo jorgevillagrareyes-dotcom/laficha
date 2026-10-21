@@ -12,7 +12,7 @@ tags:
 Ginecología · Urgencia ginecológica
 
 **Guías principales**
-ESHRE 2022: endometriosis · ACOG 2018: dismenorrea y endometriosis en la adolescente (CO 760) · ACOG 2019: torsión anexial en adolescentes (CO 783) · ACOG 2020: dolor pélvico crónico (PB 218)
+ESHRE 2022: endometriosis · ACOG 2026: diagnóstico de la endometriosis (CPG 11) · ACOG 2018: dismenorrea y endometriosis en la adolescente (CO 760) · ACOG 2019: torsión anexial en adolescentes (CO 783) · ACOG 2020: dolor pélvico crónico (PB 218)
 
 **Otras fuentes**
 Ver [hemorragia del primer trimestre y embarazo ectópico](hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md), [abdomen agudo](../gastroenterologia/abdomen-agudo.md), [sangrado uterino anormal y miomas](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md) e [infección urinaria](../nefrologia/infeccion-urinaria.md)
@@ -155,10 +155,11 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (ESHRE 2022; ACOG 2018, 2019 y 2020)"
+!!! guia "Puntos clave (ESHRE 2022; ACOG 2026, 2018, 2019 y 2020)"
     - **Dolor pélvico agudo**: **β-hCG**, signos vitales, examen abdominal y **pélvico** (dolor a la movilización cervical, masas), **ecografía transvaginal** (o abdominal en niñas y vírgenes).
     - **Torsión anexial**: diagnóstico **clínico** con apoyo ecográfico (ovario **aumentado de tamaño** y **edematoso**, folículos desplazados a la periferia, **signo del remolino** del pedículo, masa). Un **Doppler con flujo normal no la descarta**. Si la sospecha es alta: **laparoscopía diagnóstica**.
     - **Endometriosis** (ESHRE 2022): sospecharla por los **síntomas**; la **ecografía transvaginal** y la **RM** permiten diagnosticar los **endometriomas** y la **enfermedad profunda**. Una imagen normal **no descarta** la endometriosis superficial. Se puede iniciar el **tratamiento empírico** sin laparoscopía. La **laparoscopía** con biopsia queda para los casos con imágenes negativas y falla del tratamiento empírico, o cuando se planea cirugía.
+    - **ACOG 2026 (CPG 11)**, para acortar el retraso diagnóstico (en promedio **4–11 años**): recomienda con fuerza el **diagnóstico clínico** (síntomas y/o examen) y el **tratamiento empírico** sin laparoscopía previa. **Ecografía transvaginal** como primera imagen (transabdominal si no es aceptable); **RM** solo para caracterizar la enfermedad profunda antes de operar. **No** usar biomarcadores en sangre, orina ni endometrio. Una biopsia negativa no descarta la enfermedad.
     - **Dismenorrea primaria**: diagnóstico **clínico**; en una adolescente con historia típica y sin factores de riesgo no se necesita examen pélvico ni ecografía. Estudiar si no responde a 3–6 meses de tratamiento.
 
 ## Laboratorio
@@ -308,6 +309,7 @@ flowchart TD
 ## Referencias
 
 1. Becker CM, Bokor A, Heikinheimo O, et al. ESHRE guideline: endometriosis. *Hum Reprod Open.* 2022;2022(2):hoac009. doi:[10.1093/hropen/hoac009](https://doi.org/10.1093/hropen/hoac009)
-2. American College of Obstetricians and Gynecologists. ACOG Committee Opinion No. 760: Dysmenorrhea and endometriosis in the adolescent. *Obstet Gynecol.* 2018;132(6):e249–e258. doi:[10.1097/AOG.0000000000002978](https://doi.org/10.1097/AOG.0000000000002978)
-3. American College of Obstetricians and Gynecologists. Adnexal torsion in adolescents: ACOG Committee Opinion No. 783. *Obstet Gynecol.* 2019;134(2):e56–e63. doi:[10.1097/AOG.0000000000003373](https://doi.org/10.1097/AOG.0000000000003373)
-4. American College of Obstetricians and Gynecologists. Chronic pelvic pain: ACOG Practice Bulletin No. 218. *Obstet Gynecol.* 2020;135(3):e98–e109. doi:[10.1097/AOG.0000000000003716](https://doi.org/10.1097/AOG.0000000000003716)
+2. American College of Obstetricians and Gynecologists. Diagnosis of endometriosis: ACOG Clinical Practice Guideline No. 11. *Obstet Gynecol.* 2026;147(3):432–448. doi:[10.1097/AOG.0000000000006181](https://doi.org/10.1097/AOG.0000000000006181)
+3. American College of Obstetricians and Gynecologists. ACOG Committee Opinion No. 760: Dysmenorrhea and endometriosis in the adolescent. *Obstet Gynecol.* 2018;132(6):e249–e258. doi:[10.1097/AOG.0000000000002978](https://doi.org/10.1097/AOG.0000000000002978)
+4. American College of Obstetricians and Gynecologists. Adnexal torsion in adolescents: ACOG Committee Opinion No. 783. *Obstet Gynecol.* 2019;134(2):e56–e63. doi:[10.1097/AOG.0000000000003373](https://doi.org/10.1097/AOG.0000000000003373)
+5. American College of Obstetricians and Gynecologists. Chronic pelvic pain: ACOG Practice Bulletin No. 218. *Obstet Gynecol.* 2020;135(3):e98–e109. doi:[10.1097/AOG.0000000000003716](https://doi.org/10.1097/AOG.0000000000003716)
