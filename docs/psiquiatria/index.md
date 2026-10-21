@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **24 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **26 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
 
 ## Situaciones clínicas
@@ -37,7 +38,7 @@ hide:
 | 5.01.1.013 | Dependencia de otras drogas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.1.014 | Delirium | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Delirium (síndrome confusional agudo)](../geriatria/delirium.md) |
 | 5.01.1.015 | Trastornos neurocognitivos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Demencia, deterioro cognitivo leve y causas reversibles de deterioro cognitivo](../neurologia/demencia-y-deterioro-cognitivo.md) |
-| 5.01.1.016 | Trastornos de la personalidad | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.016 | Trastornos de la personalidad | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md) |
 | 5.01.1.017 | Disfunción sexual | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.018 | Trastornos de la conducta alimentaria | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la conducta alimentaria](../endocrinologia/trastornos-de-la-conducta-alimentaria.md) |
 | 5.01.1.019 | Sexualidad humana y sus alteraciones | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -80,7 +81,7 @@ hide:
 | 5.01.3.007 | Maltrato en el adulto mayor | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.008 | Maltrato infantil | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.009 | Nociones de psiquiatría forense | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.010 | Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.010 | Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md) |
 | 5.01.3.011 | Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria. | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.3.012 | Respuesta sexual humana | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.013 | Violencia intrafamiliar | :material-clock-outline:{ .pend title="Pendiente" } |

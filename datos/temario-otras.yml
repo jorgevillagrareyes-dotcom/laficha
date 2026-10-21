@@ -2723,6 +2723,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-de-la-personalidad.md
     - codigo: 5.01.1.017
       nombre: Disfunción sexual
       dx: Sospecha
@@ -2876,6 +2878,8 @@ especialidades:
       nombre: Nociones de psiquiatría forense
     - codigo: 5.01.3.010
       nombre: 'Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad'
+      resumen:
+      - psiquiatria/trastornos-de-la-personalidad.md
     - codigo: 5.01.3.011
       nombre: 'Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria.'
       resumen:
