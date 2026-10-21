@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **8 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **9 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -107,7 +107,7 @@ hide:
 | 2.01.1.092 | Displasia de caderas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz](../traumatologia/displasia-del-desarrollo-de-cadera.md) |
 | 2.01.1.093 | Infecciones osteoarticulares | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.094 | Patología de columna | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño](../traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md) |
-| 2.01.1.095 | Conjuntivitis aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.095 | Conjuntivitis aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](../especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md) |
 | 2.01.1.096 | Estrabismo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.097 | Ojo rojo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.098 | Vicios de refracción | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

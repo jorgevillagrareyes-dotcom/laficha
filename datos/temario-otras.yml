@@ -2187,6 +2187,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 2.01.1.096
       nombre: Estrabismo
       dx: Específico
@@ -3339,21 +3341,29 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.006
       nombre: Conjuntivitis bacteriana crónica
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.007
       nombre: Conjuntivitis no infecciosa
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.008
       nombre: Conjuntivitis viral no complicada
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.009
       nombre: Dacriocistitis aguda
       dx: Específico
@@ -3416,6 +3426,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.021
       nombre: Queratitis
       dx: Sospecha
@@ -3438,6 +3450,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
     - codigo: 6.02.1.025
       nombre: Tumores de conjuntiva
       dx: Específico
