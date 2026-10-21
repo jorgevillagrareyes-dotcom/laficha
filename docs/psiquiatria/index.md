@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **34 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **37 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -19,6 +19,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
 
 ## Situaciones clínicas
@@ -47,9 +48,9 @@ hide:
 | 5.01.1.020 | Trastornos somatomorfos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
 | 5.01.1.021 | Trastornos disociativos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
 | 5.01.1.022 | Trastornos facticios | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)](trastornos-somatomorfos-disociativos-y-facticios.md) |
-| 5.01.1.023 | Trastorno del espectro autista | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.024 | Trastorno específico del aprendizaje escolar | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.025 | Retardo mental | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.023 | Trastorno del espectro autista | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
+| 5.01.1.024 | Trastorno específico del aprendizaje escolar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
+| 5.01.1.025 | Retardo mental | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
 | 5.01.1.026 | Enuresis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.027 | Encopresis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.028 | Trastorno por déficit atencional | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |

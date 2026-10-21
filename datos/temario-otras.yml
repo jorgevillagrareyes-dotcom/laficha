@@ -2772,16 +2772,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-del-neurodesarrollo.md
     - codigo: 5.01.1.024
       nombre: Trastorno específico del aprendizaje escolar
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-del-neurodesarrollo.md
     - codigo: 5.01.1.025
       nombre: Retardo mental
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-del-neurodesarrollo.md
     - codigo: 5.01.1.026
       nombre: Enuresis
       dx: Específico
