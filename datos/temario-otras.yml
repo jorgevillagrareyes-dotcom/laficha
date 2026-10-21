@@ -3328,6 +3328,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.003
       nombre: Catarata
       dx: Específico
@@ -3338,6 +3340,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.005
       nombre: Conjuntivitis bacteriana aguda
       dx: Específico
@@ -3371,6 +3375,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.010
       nombre: Degeneración macular relacionada a la edad
       dx: Sospecha
@@ -3420,11 +3426,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.019
       nombre: Orzuelo no complicado
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.020
       nombre: Pterigion
       dx: Específico
@@ -3478,6 +3488,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/parpados-y-via-lagrimal.md
     - codigo: 6.02.1.029
       nombre: Tumores endoculares (retinoblastoma y otros)
       dx: Sospecha

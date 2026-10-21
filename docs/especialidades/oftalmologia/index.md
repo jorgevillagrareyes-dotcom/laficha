@@ -6,26 +6,27 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **18 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **24 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md)
 
 ## Situaciones clínicas
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
 | 6.02.1.001 | Ametropía | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.002 | Blefaritis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.002 | Blefaritis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.003 | Catarata | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.004 | Chalazion | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.004 | Chalazion | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.005 | Conjuntivitis bacteriana aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.006 | Conjuntivitis bacteriana crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.007 | Conjuntivitis no infecciosa | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.008 | Conjuntivitis viral no complicada | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
-| 6.02.1.009 | Dacriocistitis aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.009 | Dacriocistitis aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.010 | Degeneración macular relacionada a la edad | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.011 | Estrabismo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -34,8 +35,8 @@ hide:
 | 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esclerosis múltiple](../../neurologia/esclerosis-multiple.md) |
 | 6.02.1.017 | Neuropatía óptica isquémica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.018 | Obstrucción completa de la vía lacrimal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.019 | Orzuelo no complicado | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.018 | Obstrucción completa de la vía lacrimal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
+| 6.02.1.019 | Orzuelo no complicado | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.020 | Pterigion | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.021 | Queratitis | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.022 | Retinopatía del prematuro | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -44,7 +45,7 @@ hide:
 | 6.02.1.025 | Tumores de conjuntiva | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.026 | Tumores de la vía óptica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.027 | Tumores de órbita | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.028 | Tumores de párpado | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.028 | Tumores de párpado | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.029 | Tumores endoculares (retinoblastoma y otros) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.030 | Uveítis anterior o posterior | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.031 | Vicios de refracción en personas de 65 años o más | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
