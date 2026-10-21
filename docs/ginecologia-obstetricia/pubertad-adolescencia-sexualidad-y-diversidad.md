@@ -11,7 +11,7 @@ tags:
 Ginecología infantojuvenil · Salud sexual y reproductiva
 
 **Guías principales**
-Estadios de Tanner (Marshall y Tanner 1969 y 1970) · ACOG 2015: el ciclo menstrual como signo vital en niñas y adolescentes (CO 651) · WPATH 2022: estándares de atención para personas trans y de género diverso (versión 8)
+Estadios de Tanner (Marshall y Tanner 1969 y 1970) · Endocrine Society 2026: pubertad precoz central · ACOG 2015: el ciclo menstrual como signo vital en niñas y adolescentes (CO 651) · WPATH 2022: estándares de atención para personas trans y de género diverso (versión 8)
 
 **Otras fuentes**
 Ley 21.120 (identidad de género), Ley 20.609 (no discriminación), Ley 20.418 (regulación de la fertilidad) · Ver [amenorrea, hirsutismo y SOP](../endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md), [anticoncepción](anticoncepcion-y-metodos-naturales.md), [ITS](../infectologia/infecciones-de-transmision-sexual-y-sifilis.md), [dismenorrea](dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md), [sangrado uterino anormal](sangrado-uterino-anormal-miomas-y-patologia-endometrial.md), [trastornos de la conducta alimentaria](../endocrinologia/trastornos-de-la-conducta-alimentaria.md) y [depresión](../geriatria/depresion.md)
@@ -167,9 +167,10 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (Marshall y Tanner; ACOG 2015; WPATH 2022)"
+!!! guia "Puntos clave (Marshall y Tanner; Endocrine Society 2026; ACOG 2015; WPATH 2022)"
     - La pubertad se evalúa con los **estadios de Tanner** y la **curva de crecimiento** (velocidad de crecimiento).
-    - **Pubertad precoz**: **edad ósea** (radiografía de mano izquierda; adelantada), **LH basal** (y prueba de estimulación con análogo de GnRH), estradiol o testosterona, **ecografía pélvica** (útero y ovarios puberales) y **RM cerebral** en las formas centrales (siempre en los varones y en las niñas < 6 años o con signos neurológicos).
+    - **Pubertad precoz**: **edad ósea** (radiografía de mano izquierda; adelantada), **LH basal** como primer examen (la prueba de estimulación con análogo de GnRH ya no es de rutina), estradiol o testosterona, **ecografía pélvica** (útero y ovarios puberales) y **RM cerebral** en las formas centrales de las **niñas ≤ 6 años**, los **niños ≤ 7 años** o con **signos neurológicos** (Endocrine Society 2026).
+    - **Endocrine Society 2026**: en las niñas con **telarquia entre los 7 y 8 años**, **observar** con examen físico cada **4–6 meses** antes de pedir exámenes. Si la telarquia aparece **antes de los 7 años**, observar también 4–6 meses para separar la pubertad lentamente progresiva (que suele llegar a una talla adulta normal sin tratamiento) de la rápidamente progresiva.
     - **Pubertad retrasada**: edad ósea (retrasada en el retraso constitucional), **LH, FSH**, estradiol o testosterona, **cariotipo** si las gonadotrofinas están altas (Turner, Klinefelter), TSH, prolactina, estudio de enfermedades crónicas y nutrición.
     - **Ciclo menstrual como signo vital**: preguntar siempre la edad de la menarquia y el patrón de los ciclos.
     - **Diversidad de género**: el diagnóstico **no es necesario** para la atención respetuosa; la evaluación para tratamientos de afirmación la hacen **equipos especializados** (WPATH 2022).
@@ -287,6 +288,7 @@ flowchart TD
 
 1. Marshall WA, Tanner JM. Variations in pattern of pubertal changes in girls. *Arch Dis Child.* 1969;44(235):291–303. doi:[10.1136/adc.44.235.291](https://doi.org/10.1136/adc.44.235.291)
 2. Marshall WA, Tanner JM. Variations in the pattern of pubertal changes in boys. *Arch Dis Child.* 1970;45(239):13–23. doi:[10.1136/adc.45.239.13](https://doi.org/10.1136/adc.45.239.13)
-3. American College of Obstetricians and Gynecologists. ACOG Committee Opinion No. 651: Menstruation in girls and adolescents: using the menstrual cycle as a vital sign. *Obstet Gynecol.* 2015;126(6):e143–e146. doi:[10.1097/AOG.0000000000001215](https://doi.org/10.1097/AOG.0000000000001215)
-4. Coleman E, Radix AE, Bouman WP, et al. Standards of care for the health of transgender and gender diverse people, version 8. *Int J Transgend Health.* 2022;23(Suppl 1):S1–S259. doi:[10.1080/26895269.2022.2100644](https://doi.org/10.1080/26895269.2022.2100644)
-5. Ley N.° 21.120. Reconoce y da protección al derecho a la identidad de género. *Diario Oficial*; 2018. [bcn.cl](https://www.bcn.cl/leychile/)
+3. Latronico AC, Roberts SA, Alonzo M, et al. Central precocious puberty: an Endocrine Society clinical practice guideline. *J Clin Endocrinol Metab.* 2026;111(8):2101–2144. doi:[10.1210/clinem/dgag168](https://doi.org/10.1210/clinem/dgag168)
+4. American College of Obstetricians and Gynecologists. ACOG Committee Opinion No. 651: Menstruation in girls and adolescents: using the menstrual cycle as a vital sign. *Obstet Gynecol.* 2015;126(6):e143–e146. doi:[10.1097/AOG.0000000000001215](https://doi.org/10.1097/AOG.0000000000001215)
+5. Coleman E, Radix AE, Bouman WP, et al. Standards of care for the health of transgender and gender diverse people, version 8. *Int J Transgend Health.* 2022;23(Suppl 1):S1–S259. doi:[10.1080/26895269.2022.2100644](https://doi.org/10.1080/26895269.2022.2100644)
+6. Ley N.° 21.120. Reconoce y da protección al derecho a la identidad de género. *Diario Oficial*; 2018. [bcn.cl](https://www.bcn.cl/leychile/)
