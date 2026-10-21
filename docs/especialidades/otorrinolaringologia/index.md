@@ -6,11 +6,12 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **24 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **32 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md)
 
 ## Situaciones clínicas
 
@@ -36,8 +37,8 @@ hide:
 | 6.03.1.018 | Odinofagias crónicas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.019 | Otitis externa | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.020 | Otitis media aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
-| 6.03.1.021 | Otitis media con efusión | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.022 | Otitis media crónica y complicaciones | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.021 | Otitis media con efusión | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
+| 6.03.1.022 | Otitis media crónica y complicaciones | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.1.023 | Patología de glándulas salivales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Patología de las glándulas salivales y masa cervical](../../cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md) |
 | 6.03.1.024 | Poliposis nasal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.025 | Rinorrea crónica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -54,22 +55,22 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 6.03.2.001 | Absceso mastoídeo de otitis media aguda y crónica | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.001 | Absceso mastoídeo de otitis media aguda y crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.2.002 | Absceso periamigdalino | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.2.003 | Absceso profundo de cuello | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones por flora oral: flegmón del piso de la boca (angina de Ludwig), absceso pulmonar y absceso cerebral](../../infectologia/flegmon-cervical-absceso-pulmonar-y-cerebral.md) |
 | 6.03.2.004 | Absceso retrofaríngeo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.005 | Atresia coanal congénita | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.006 | Barotrauma ótico y trauma acústico agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
-| 6.03.2.007 | Cuerpo extraño en el oído | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.007 | Cuerpo extraño en el oído | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.2.008 | Cuerpo extraño en el esófago | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Disfagia y afagia aguda (impactación alimentaria y cuerpos extraños esofágicos)](../../gastroenterologia/disfagia-y-afagia-aguda.md) |
 | 6.03.2.009 | Cuerpo extraño en vía aérea | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por monóxido de carbono, ahogamiento y cuerpo extraño en la vía aérea](../../respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md) |
 | 6.03.2.010 | Cuerpo extraño nasal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.011 | Epistaxis masiva | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.2.012 | Fractura nasal reciente | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.03.2.013 | Hematoma nasoseptal | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
-| 6.03.2.014 | Otohematoma | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.2.015 | Otorragia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.2.016 | Perforación timpánica traumática | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.014 | Otohematoma | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
+| 6.03.2.015 | Otorragia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
+| 6.03.2.016 | Perforación timpánica traumática | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.2.017 | Síndrome vertiginoso agudo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vértigo: síndromes vertiginosos periféricos y centrales](../../neurologia/vertigo.md) |
 | 6.03.2.018 | Sordera súbita | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 
@@ -82,7 +83,7 @@ hide:
 | 6.03.3.003 | Prevención de alergias nasosinusales | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.3.004 | Prevención de cáncer laríngeo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.3.005 | Prevención de cuerpo extraño en niños | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.3.006 | Prevención de otitis externa | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.3.006 | Prevención de otitis externa | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.3.007 | Prevención de trauma acústico y daño por exposición a ruidos | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 
 ## Cómo leer los niveles EUNACOM

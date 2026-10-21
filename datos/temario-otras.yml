@@ -2232,6 +2232,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 2.01.1.103
       nombre: Rinitis alérgica
       dx: Específico
@@ -3763,11 +3765,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.1.022
       nombre: Otitis media crónica y complicaciones
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.1.023
       nombre: Patología de glándulas salivales
       dx: Sospecha
@@ -3839,6 +3845,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.2.002
       nombre: Absceso periamigdalino
       dx: Específico
@@ -3875,6 +3883,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.2.008
       nombre: Cuerpo extraño en el esófago
       dx: Específico
@@ -3918,16 +3928,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.2.015
       nombre: Otorragia
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.2.016
       nombre: Perforación timpánica traumática
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.2.017
       nombre: Síndrome vertiginoso agudo
       dx: Sospecha
@@ -3957,6 +3973,8 @@ especialidades:
       nombre: Prevención de cuerpo extraño en niños
     - codigo: 6.03.3.006
       nombre: Prevención de otitis externa
+      resumen:
+      - especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
     - codigo: 6.03.3.007
       nombre: Prevención de trauma acústico y daño por exposición a ruidos
       resumen:

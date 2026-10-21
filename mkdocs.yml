@@ -405,6 +405,7 @@ nav:
       - "Otorrinolaringología":
           - especialidades/otorrinolaringologia/index.md
           - "Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus": especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
+          - "Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído": especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
   - Salud pública:
       - salud-publica/index.md
   - Patologías GES: ges/index.md
