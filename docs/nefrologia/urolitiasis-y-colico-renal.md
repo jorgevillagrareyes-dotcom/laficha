@@ -13,7 +13,7 @@ tags:
 Nefrología · Urología · Medicina de urgencia
 
 **Guías principales**
-Guías de la EAU sobre urolitiasis (evaluación metabólica y prevención, *Eur Urol* 2024) · AUA 2026: manejo quirúrgico de los cálculos renales y ureterales (*J Urol*, febrero)
+Guías EAU 2026 de urolitiasis (actualización completa) · Guías de la EAU sobre urolitiasis (evaluación metabólica y prevención, *Eur Urol* 2024) · AUA 2026: manejo quirúrgico de los cálculos renales y ureterales (*J Urol*, febrero)
 
 **Otras fuentes**
 Ensayo de analgesia de Pathan (*Lancet* 2016) · SUSPEND (*Lancet* 2015) · STONE, ecografía vs. TC (*NEJM* 2014) · Revisión Cochrane de alfabloqueadores (2018) · Revisión Cochrane de fluidos (2012) · Serie chilena de profilaxis secundaria (Ossandón, *Rev Med Chil* 2016)
@@ -25,7 +25,7 @@ No
 1.09.2.001 Cólico nefrítico, urolitiasis y complicaciones: obstrucción, sepsis, insuficiencia renal (sospecha, inicial, completo) · 1.09.1.024 Urolitiasis (sospecha, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -193,7 +193,8 @@ Ver el diagnóstico (TC sin contraste de baja dosis de elección; ecografía com
 - **AINE de primera línea** si no hay contraindicación: más eficaces que la morfina, con menos efectos adversos.
     - En el ensayo de **Pathan (2016)**, con 1645 pacientes, el **diclofenaco IM** logró una reducción ≥ 50 % del dolor a los 30 min en el **68 %**, el **paracetamol EV** en el **66 %** y la **morfina EV** en el **61 %**.
 - **Paracetamol EV** como alternativa o complemento, sobre todo si los AINE están contraindicados.
-- **Opioides** (morfina, tramadol) para el **rescate** si el dolor persiste.
+- **Opioides** (morfina, tramadol) para el **rescate** si el dolor persiste. La **EAU 2026** los deja como **segunda opción** junto con la **ketamina** (analgesia más prolongada que los opioides) y desaconseja la **petidina** (más vómitos).
+- **Dolor refractario** a la analgesia: **descompresión** (doble J o nefrostomía) o **ureteroscopia** con extracción del cálculo (EAU 2026).
 - **Antieméticos** (metoclopramida u ondansetrón).
 - **No hidratar en forma forzada**: la revisión Cochrane no mostró beneficio en el dolor ni en la expulsión (Worster, 2012). Hidratar sólo si hay deshidratación o vómitos.
 - **Contraindicaciones de los AINE**: **LRA** o ERC avanzada, hemorragia digestiva, **embarazo** (sobre todo el tercer trimestre), alergia, insuficiencia cardíaca descompensada.
@@ -201,7 +202,7 @@ Ver el diagnóstico (TC sin contraste de baja dosis de elección; ecografía com
 ### Terapia expulsiva y manejo ambulatorio
 
 - **Alfabloqueador (tamsulosina)**:
-    - Indicado en cálculos **ureterales distales > 5 mm** (EAU); la AUA lo ofrece para cálculos distales ≤ 10 mm.
+    - Indicado en cálculos **ureterales distales de 5–10 mm** (EAU 2026, recomendación fuerte); la AUA lo ofrece para cálculos distales ≤ 10 mm.
     - En la **revisión Cochrane** (Campschroer, 2018), los alfabloqueadores aumentaron la expulsión (RR **1,45**) sobre todo en los cálculos **> 5 mm**; en los **≤ 5 mm** no hubo diferencia significativa.
     - El ensayo **SUSPEND** (Pickard, 2015), con cálculos mayoritariamente pequeños, no mostró beneficio: ~ **80 %** no necesitó intervención a las 4 semanas, con tamsulosina, nifedipino o placebo.
     - Uso **fuera de ficha técnica**: explicarlo al paciente; efectos adversos: hipotensión ortostática, eyaculación retrógrada.
@@ -325,15 +326,16 @@ Ver el diagnóstico (TC sin contraste de baja dosis de elección; ecografía com
 
 ## Referencias
 
-1. Skolarikos A, Somani B, Neisius A, et al. Metabolic evaluation and recurrence prevention for urinary stone patients: an EAU guidelines update. *Eur Urol.* 2024;86:343–363. doi:[10.1016/j.eururo.2024.05.029](https://doi.org/10.1016/j.eururo.2024.05.029)
-2. Pearle MS, Matlaga BR, Antonelli JA, et al. Surgical management of kidney and ureteral stones: AUA guideline (2026). Part I: evaluation and treatment of patients with kidney and/or ureteral stones. *J Urol.* 2026;215:113–123. doi:[10.1097/JU.0000000000004842](https://doi.org/10.1097/JU.0000000000004842)
-3. Akram M, Jahrreiss V, Skolarikos A, et al. Urological guidelines for kidney stones: overview and comprehensive update. *J Clin Med.* 2024;13:1114. doi:[10.3390/jcm13041114](https://doi.org/10.3390/jcm13041114)
-4. Pathan SA, Mitra B, Straney LD, et al. Delivering safe and effective analgesia for management of renal colic in the emergency department: a double-blind, multigroup, randomised controlled trial. *Lancet.* 2016;387:1999–2007. doi:[10.1016/S0140-6736(16)00652-8](https://doi.org/10.1016/S0140-6736(16)00652-8)
-5. Pickard R, Starr K, MacLennan G, et al. Medical expulsive therapy in adults with ureteric colic: a multicentre, randomised, placebo-controlled trial. *Lancet.* 2015;386:341–349. doi:[10.1016/S0140-6736(15)60933-3](https://doi.org/10.1016/S0140-6736(15)60933-3)
-6. Campschroer T, Zhu X, Vernooij RWM, Lock TMTW. α-blockers as medical expulsive therapy for ureteric stones: a Cochrane systematic review. *BJU Int.* 2018;122:932–945. doi:[10.1111/bju.14454](https://doi.org/10.1111/bju.14454)
-7. Smith-Bindman R, Aubin C, Bailitz J, et al. Ultrasonography versus computed tomography for suspected nephrolithiasis. *N Engl J Med.* 2014;371:1100–1110. doi:[10.1056/NEJMoa1404446](https://doi.org/10.1056/NEJMoa1404446)
-8. Worster AS, Bhanich Supapol W. Fluids and diuretics for acute ureteric colic. *Cochrane Database Syst Rev.* 2012;(2):CD004926. doi:[10.1002/14651858.CD004926.pub3](https://doi.org/10.1002/14651858.CD004926.pub3)
-9. Preminger GM, Tiselius HG, Assimos DG, et al. 2007 guideline for the management of ureteral calculi. *Eur Urol.* 2007;52:1610–1631. doi:[10.1016/j.eururo.2007.09.039](https://doi.org/10.1016/j.eururo.2007.09.039)
-10. Scales CD Jr, Smith AC, Hanley JM, Saigal CS. Prevalence of kidney stones in the United States. *Eur Urol.* 2012;62:160–165. doi:[10.1016/j.eururo.2012.03.052](https://doi.org/10.1016/j.eururo.2012.03.052)
-11. Khan SR, Pearle MS, Robertson WG, et al. Kidney stones. *Nat Rev Dis Primers.* 2016;2:16008. doi:[10.1038/nrdp.2016.8](https://doi.org/10.1038/nrdp.2016.8)
-12. Ossandón E, Sepúlveda F, Acevedo C. [Impact of secondary prophylaxis in the management of patients with high recurrence risk of urolithiasis] (artículo en español). *Rev Med Chil.* 2016;144:710–715. doi:[10.4067/S0034-98872016000600004](https://doi.org/10.4067/S0034-98872016000600004)
+1. European Association of Urology. EAU Guidelines on Urolithiasis. Edición presentada en el congreso anual de la EAU, Londres 2026. Arnhem: EAU Guidelines Office; 2026. [uroweb.org](https://uroweb.org/guidelines/urolithiasis)
+2. Skolarikos A, Somani B, Neisius A, et al. Metabolic evaluation and recurrence prevention for urinary stone patients: an EAU guidelines update. *Eur Urol.* 2024;86:343–363. doi:[10.1016/j.eururo.2024.05.029](https://doi.org/10.1016/j.eururo.2024.05.029)
+3. Pearle MS, Matlaga BR, Antonelli JA, et al. Surgical management of kidney and ureteral stones: AUA guideline (2026). Part I: evaluation and treatment of patients with kidney and/or ureteral stones. *J Urol.* 2026;215:113–123. doi:[10.1097/JU.0000000000004842](https://doi.org/10.1097/JU.0000000000004842)
+4. Akram M, Jahrreiss V, Skolarikos A, et al. Urological guidelines for kidney stones: overview and comprehensive update. *J Clin Med.* 2024;13:1114. doi:[10.3390/jcm13041114](https://doi.org/10.3390/jcm13041114)
+5. Pathan SA, Mitra B, Straney LD, et al. Delivering safe and effective analgesia for management of renal colic in the emergency department: a double-blind, multigroup, randomised controlled trial. *Lancet.* 2016;387:1999–2007. doi:[10.1016/S0140-6736(16)00652-8](https://doi.org/10.1016/S0140-6736(16)00652-8)
+6. Pickard R, Starr K, MacLennan G, et al. Medical expulsive therapy in adults with ureteric colic: a multicentre, randomised, placebo-controlled trial. *Lancet.* 2015;386:341–349. doi:[10.1016/S0140-6736(15)60933-3](https://doi.org/10.1016/S0140-6736(15)60933-3)
+7. Campschroer T, Zhu X, Vernooij RWM, Lock TMTW. α-blockers as medical expulsive therapy for ureteric stones: a Cochrane systematic review. *BJU Int.* 2018;122:932–945. doi:[10.1111/bju.14454](https://doi.org/10.1111/bju.14454)
+8. Smith-Bindman R, Aubin C, Bailitz J, et al. Ultrasonography versus computed tomography for suspected nephrolithiasis. *N Engl J Med.* 2014;371:1100–1110. doi:[10.1056/NEJMoa1404446](https://doi.org/10.1056/NEJMoa1404446)
+9. Worster AS, Bhanich Supapol W. Fluids and diuretics for acute ureteric colic. *Cochrane Database Syst Rev.* 2012;(2):CD004926. doi:[10.1002/14651858.CD004926.pub3](https://doi.org/10.1002/14651858.CD004926.pub3)
+10. Preminger GM, Tiselius HG, Assimos DG, et al. 2007 guideline for the management of ureteral calculi. *Eur Urol.* 2007;52:1610–1631. doi:[10.1016/j.eururo.2007.09.039](https://doi.org/10.1016/j.eururo.2007.09.039)
+11. Scales CD Jr, Smith AC, Hanley JM, Saigal CS. Prevalence of kidney stones in the United States. *Eur Urol.* 2012;62:160–165. doi:[10.1016/j.eururo.2012.03.052](https://doi.org/10.1016/j.eururo.2012.03.052)
+12. Khan SR, Pearle MS, Robertson WG, et al. Kidney stones. *Nat Rev Dis Primers.* 2016;2:16008. doi:[10.1038/nrdp.2016.8](https://doi.org/10.1038/nrdp.2016.8)
+13. Ossandón E, Sepúlveda F, Acevedo C. [Impact of secondary prophylaxis in the management of patients with high recurrence risk of urolithiasis] (artículo en español). *Rev Med Chil.* 2016;144:710–715. doi:[10.4067/S0034-98872016000600004](https://doi.org/10.4067/S0034-98872016000600004)
