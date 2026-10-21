@@ -6,11 +6,12 @@ hide:
 # Oftalmología
 
 !!! info "Avance"
-    **24 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **27 de 47** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md)
 
@@ -20,7 +21,7 @@ hide:
 |---|---|---|---|---|---|
 | 6.02.1.001 | Ametropía | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.002 | Blefaritis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
-| 6.02.1.003 | Catarata | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.003 | Catarata | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.004 | Chalazion | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.005 | Conjuntivitis bacteriana aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
 | 6.02.1.006 | Conjuntivitis bacteriana crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](conjuntivitis-ojo-seco-y-pterigion.md) |
@@ -29,8 +30,8 @@ hide:
 | 6.02.1.009 | Dacriocistitis aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado](parpados-y-via-lagrimal.md) |
 | 6.02.1.010 | Degeneración macular relacionada a la edad | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.011 | Estrabismo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.02.1.012 | Glaucoma congénito | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
+| 6.02.1.013 | Glaucoma crónico | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Glaucoma crónico, glaucoma congénito y catarata](glaucoma-y-catarata.md) |
 | 6.02.1.014 | Hifema | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.02.1.015 | Leucoma corneal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 6.02.1.016 | Neuritis óptica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esclerosis múltiple](../../neurologia/esclerosis-multiple.md) |

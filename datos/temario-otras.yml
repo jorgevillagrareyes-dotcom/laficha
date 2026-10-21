@@ -3335,6 +3335,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/glaucoma-y-catarata.md
     - codigo: 6.02.1.004
       nombre: Chalazion
       dx: Específico
@@ -3392,11 +3394,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/glaucoma-y-catarata.md
     - codigo: 6.02.1.013
       nombre: Glaucoma crónico
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/glaucoma-y-catarata.md
     - codigo: 6.02.1.014
       nombre: Hifema
       dx: Específico

@@ -395,6 +395,7 @@ nav:
       - "Oftalmología":
           - especialidades/oftalmologia/index.md
           - "Conjuntivitis, ojo seco y pterigión": especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
+          - "Glaucoma crónico, glaucoma congénito y catarata": especialidades/oftalmologia/glaucoma-y-catarata.md
           - "Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo": especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
           - "Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado": especialidades/oftalmologia/parpados-y-via-lagrimal.md
       - "Otorrinolaringología":
