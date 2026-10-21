@@ -3670,6 +3670,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.1.004
       nombre: Cáncer de boca, labios y orofaringe
       dx: Sospecha
@@ -3704,11 +3706,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.1.010
       nombre: Disfonías crónicas
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.1.011
       nombre: Epistaxis a repetición
       dx: Específico
@@ -3728,6 +3734,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.1.014
       nombre: Hipoacusia neonatal
       dx: Sospecha
@@ -3762,6 +3770,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.1.019
       nombre: Otitis externa
       dx: Específico
@@ -3890,6 +3900,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
     - codigo: 6.03.2.005
       nombre: Atresia coanal congénita
       dx: Específico

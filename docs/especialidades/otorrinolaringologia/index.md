@@ -6,11 +6,12 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **45 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **51 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md)
@@ -21,22 +22,22 @@ hide:
 |---|---|---|---|---|---|
 | 6.03.1.001 | Alergia nasosinusal | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.1.002 | Amigdalitis aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
-| 6.03.1.003 | Amigdalitis crónica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.003 | Amigdalitis crónica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
 | 6.03.1.004 | Cáncer de boca, labios y orofaringe | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.005 | Cáncer laríngeo e hipofaríngeo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.006 | Cáncer nasosinusal | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.007 | Diagnóstico diferencial de hipoacusias de transmisión | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.008 | Diagnóstico diferencial de hipoacusias sensorioneurales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
-| 6.03.1.009 | Disfonías agudas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.010 | Disfonías crónicas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.009 | Disfonías agudas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
+| 6.03.1.010 | Disfonías crónicas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
 | 6.03.1.011 | Epistaxis a repetición | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md) |
 | 6.03.1.012 | Epistaxis leve | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md) |
-| 6.03.1.013 | Estridor laríngeo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.013 | Estridor laríngeo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
 | 6.03.1.014 | Hipoacusia neonatal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.015 | Masa cervical | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome mononucleósico, adenopatías y adenitis](../../infectologia/sindrome-mononucleosico-y-adenitis.md) · [Patología de las glándulas salivales y masa cervical](../../cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md) |
 | 6.03.1.016 | Obstrucción nasal crónica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.1.017 | Odinofagias agudas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
-| 6.03.1.018 | Odinofagias crónicas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.018 | Odinofagias crónicas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
 | 6.03.1.019 | Otitis externa | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.020 | Otitis media aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.1.021 | Otitis media con efusión | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
@@ -60,7 +61,7 @@ hide:
 | 6.03.2.001 | Absceso mastoídeo de otitis media aguda y crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 6.03.2.002 | Absceso periamigdalino | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de las vías aéreas superiores](../../respiratorio/infecciones-de-vias-aereas-superiores.md) |
 | 6.03.2.003 | Absceso profundo de cuello | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones por flora oral: flegmón del piso de la boca (angina de Ludwig), absceso pulmonar y absceso cerebral](../../infectologia/flegmon-cervical-absceso-pulmonar-y-cerebral.md) |
-| 6.03.2.004 | Absceso retrofaríngeo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.004 | Absceso retrofaríngeo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo](faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md) |
 | 6.03.2.005 | Atresia coanal congénita | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 6.03.2.006 | Barotrauma ótico y trauma acústico agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.2.007 | Cuerpo extraño en el oído | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |
