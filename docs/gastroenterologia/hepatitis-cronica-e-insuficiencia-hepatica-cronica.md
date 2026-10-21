@@ -12,7 +12,7 @@ tags:
 Gastroenterología · Hepatología · Infectología · Atención primaria
 
 **Guías principales**
-EASL 2025: hepatitis B · MINSAL 2021: orientación técnica de hepatitis B · AASLD-IDSA 2023: hepatitis C · MINSAL 2019: protocolo simplificado de hepatitis C · EASL-EASD-EASO 2024: MASLD · EASL-EASD-EASO 2026: resmetirom y semaglutida en la MASH · ACG 2024: enfermedad hepática por alcohol · EASL 2025: hepatitis autoinmune · EASL 2022: hemocromatosis · EASL-ERN 2025: enfermedad de Wilson
+EASL 2025 y AASLD/IDSA 2025: hepatitis B · MINSAL 2021: orientación técnica de hepatitis B · AASLD-IDSA 2023: hepatitis C · MINSAL 2019: protocolo simplificado de hepatitis C · EASL-EASD-EASO 2024: MASLD · EASL-EASD-EASO 2026: resmetirom y semaglutida en la MASH · ACG 2024: enfermedad hepática por alcohol · EASL 2025: hepatitis autoinmune · EASL 2022: hemocromatosis · EASL-ERN 2025: enfermedad de Wilson
 
 **Otras fuentes**
 Nomenclatura de la enfermedad hepática esteatósica (Rinella 2023) · Epidemiología mundial de la MASLD (Younossi 2023) · MAESTRO-NASH (2024) y ESSENCE (2025) · ENS 2009–2010 · Prevalencia de hígado graso en Chile (Riquelme 2009)
@@ -343,7 +343,7 @@ flowchart TD
 
 ### Hepatitis B (GES)
 
-!!! guia "Tratamiento de la hepatitis B crónica (EASL 2025; MINSAL 2021)"
+!!! guia "Tratamiento de la hepatitis B crónica (EASL 2025; AASLD/IDSA 2025; MINSAL 2021)"
     - **Objetivo**: **suprimir el virus** (ADN-VHB indetectable) para detener la progresión y reducir el **hepatocarcinoma**. La curación completa (eliminar el ADN circular cerrado del núcleo) no es posible hoy; el mejor resultado es la **pérdida del HBsAg** ("cura funcional").
     - **Indicaciones**:
         - **Hepatitis crónica** HBeAg (+) o (−): **ADN-VHB > 2000 UI/mL** con **ALT elevada** y/o fibrosis al menos **moderada**.
@@ -353,6 +353,7 @@ flowchart TD
         - **Profilaxis** en quienes recibirán **inmunosupresión** o **quimioterapia** (incluidos los HBsAg negativos con anti-HBc positivo y fármacos de alto riesgo como el **rituximab**).
     - **Fármacos de elección** (alta barrera de resistencia): **tenofovir disoproxil 300 mg/día**, **tenofovir alafenamida 25 mg/día** o **entecavir 0,5 mg/día**, en general **de por vida**. En la **ERC** u **osteoporosis**, preferir el tenofovir alafenamida o el entecavir.
     - **Embarazo** con **ADN > 200 000 UI/mL**: **tenofovir** desde las **semanas 24–28** para prevenir la transmisión vertical, más **vacuna e inmunoglobulina** al recién nacido.
+    - **AASLD/IDSA 2025**: también **amplía** las indicaciones. Baja el límite normal de la **ALT a 35 U/L en hombres y 25 U/L en mujeres** y propone considerar el tratamiento, con decisión compartida, en la **fase inmunotolerante** (HBeAg +, ADN-VHB > 10⁷ UI/mL, ALT normal) si hay **> 40 años** o fibrosis ≥ F2, y en el HBeAg (−) con **ADN-VHB ≥ 2000 UI/mL y ALT < 2 veces** el límite.
     - **Sin indicación de tratamiento**: control con ALT y ADN-VHB cada 6–12 meses y estadificación de la fibrosis. **Vigilancia de hepatocarcinoma** según el riesgo.
     - **Contactos**: estudiar y **vacunar** a las parejas sexuales y a los convivientes.
 
@@ -518,17 +519,18 @@ flowchart TD
 ## Referencias
 
 1. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of hepatitis B virus infection. *J Hepatol.* 2025;83(2):502–583. doi:[10.1016/j.jhep.2025.03.018](https://doi.org/10.1016/j.jhep.2025.03.018)
-2. Ministerio de Salud de Chile. Orientación técnica: manejo y tratamiento de la infección por virus de la hepatitis B (VHB). Santiago: MINSAL; 2021. [diprece.minsal.cl](https://diprece.minsal.cl/wp-content/uploads/2021/10/OT-HEPATITIS-B-MINSAL-2021.pdf)
-3. Bhattacharya D, Aronsohn A, Price J, et al. Hepatitis C guidance 2023 update: American Association for the Study of Liver Diseases–Infectious Diseases Society of America recommendations for testing, managing, and treating hepatitis C virus infection. *Clin Infect Dis.* 2023. doi:[10.1093/cid/ciad319](https://doi.org/10.1093/cid/ciad319)
-4. Ministerio de Salud de Chile. Protocolo de manejo simplificado para pacientes con hepatitis C crónica. Santiago: MINSAL; 2019. [diprece.minsal.cl](https://diprece.minsal.cl/wp-content/uploads/2019/12/PROTOCOLO-MANEJO-SIMPLIFICADO-PACIENTES-HEPATITIS-C.-MINSAL.-2019.pdf)
-5. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO clinical practice guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD). *J Hepatol.* 2024;81(3):492–542. doi:[10.1016/j.jhep.2024.04.031](https://doi.org/10.1016/j.jhep.2024.04.031). Publicada también en *Diabetologia.* 2024;67(11):2375–2392. doi:[10.1007/s00125-024-06196-3](https://doi.org/10.1007/s00125-024-06196-3)
-6. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO guidance on the use of resmetirom and semaglutide as MASH-targeted therapy. *J Hepatol.* 2026. doi:[10.1016/j.jhep.2026.08.028](https://doi.org/10.1016/j.jhep.2026.08.028)
-7. Rinella ME, Lazarus JV, Ratziu V, et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature. *J Hepatol.* 2023;79(6):1542–1556. doi:[10.1016/j.jhep.2023.06.003](https://doi.org/10.1016/j.jhep.2023.06.003)
-8. Younossi ZM, Golabi P, Paik JM, et al. The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. *Hepatology.* 2023;77(4):1335–1347. doi:[10.1097/HEP.0000000000000004](https://doi.org/10.1097/HEP.0000000000000004)
-9. Harrison SA, Bedossa P, Guy CD, et al. A phase 3, randomized, controlled trial of resmetirom in NASH with liver fibrosis. *N Engl J Med.* 2024;390(6):497–509. doi:[10.1056/NEJMoa2309000](https://doi.org/10.1056/NEJMoa2309000)
-10. Sanyal AJ, Newsome PN, Kliers I, et al. Phase 3 trial of semaglutide in metabolic dysfunction-associated steatohepatitis. *N Engl J Med.* 2025;392(21):2089–2099. doi:[10.1056/NEJMoa2413258](https://doi.org/10.1056/NEJMoa2413258)
-11. Jophlin LL, Singal AK, Bataller R, et al. ACG clinical guideline: alcohol-associated liver disease. *Am J Gastroenterol.* 2024;119(1):30–54. doi:[10.14309/ajg.0000000000002572](https://doi.org/10.14309/ajg.0000000000002572)
-12. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of autoimmune hepatitis. *J Hepatol.* 2025;83(2):453–501. doi:[10.1016/j.jhep.2025.03.017](https://doi.org/10.1016/j.jhep.2025.03.017)
-13. European Association for the Study of the Liver. EASL clinical practice guidelines on haemochromatosis. *J Hepatol.* 2022;77(2):479–502. doi:[10.1016/j.jhep.2022.03.033](https://doi.org/10.1016/j.jhep.2022.03.033)
-14. European Association for the Study of the Liver; European Reference Network on Hepatological Diseases. EASL-ERN clinical practice guidelines on Wilson's disease. *J Hepatol.* 2025;82(4):690–728. doi:[10.1016/j.jhep.2024.11.007](https://doi.org/10.1016/j.jhep.2024.11.007)
-15. Riquelme A, Arrese M, Soza A, et al. Non-alcoholic fatty liver disease and its association with obesity, insulin resistance and increased serum levels of C-reactive protein in Hispanics. *Liver Int.* 2009;29(1):82–88. doi:[10.1111/j.1478-3231.2008.01823.x](https://doi.org/10.1111/j.1478-3231.2008.01823.x)
+2. Ghany MG, Pan CQ, Lok AS, et al. AASLD IDSA practice guideline on treatment of chronic hepatitis B. *Hepatology.* 2026;83(4):974–997. doi:[10.1097/HEP.0000000000001549](https://doi.org/10.1097/HEP.0000000000001549)
+3. Ministerio de Salud de Chile. Orientación técnica: manejo y tratamiento de la infección por virus de la hepatitis B (VHB). Santiago: MINSAL; 2021. [diprece.minsal.cl](https://diprece.minsal.cl/wp-content/uploads/2021/10/OT-HEPATITIS-B-MINSAL-2021.pdf)
+4. Bhattacharya D, Aronsohn A, Price J, et al. Hepatitis C guidance 2023 update: American Association for the Study of Liver Diseases–Infectious Diseases Society of America recommendations for testing, managing, and treating hepatitis C virus infection. *Clin Infect Dis.* 2023. doi:[10.1093/cid/ciad319](https://doi.org/10.1093/cid/ciad319)
+5. Ministerio de Salud de Chile. Protocolo de manejo simplificado para pacientes con hepatitis C crónica. Santiago: MINSAL; 2019. [diprece.minsal.cl](https://diprece.minsal.cl/wp-content/uploads/2019/12/PROTOCOLO-MANEJO-SIMPLIFICADO-PACIENTES-HEPATITIS-C.-MINSAL.-2019.pdf)
+6. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO clinical practice guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD). *J Hepatol.* 2024;81(3):492–542. doi:[10.1016/j.jhep.2024.04.031](https://doi.org/10.1016/j.jhep.2024.04.031). Publicada también en *Diabetologia.* 2024;67(11):2375–2392. doi:[10.1007/s00125-024-06196-3](https://doi.org/10.1007/s00125-024-06196-3)
+7. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO guidance on the use of resmetirom and semaglutide as MASH-targeted therapy. *J Hepatol.* 2026. doi:[10.1016/j.jhep.2026.08.028](https://doi.org/10.1016/j.jhep.2026.08.028)
+8. Rinella ME, Lazarus JV, Ratziu V, et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature. *J Hepatol.* 2023;79(6):1542–1556. doi:[10.1016/j.jhep.2023.06.003](https://doi.org/10.1016/j.jhep.2023.06.003)
+9. Younossi ZM, Golabi P, Paik JM, et al. The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. *Hepatology.* 2023;77(4):1335–1347. doi:[10.1097/HEP.0000000000000004](https://doi.org/10.1097/HEP.0000000000000004)
+10. Harrison SA, Bedossa P, Guy CD, et al. A phase 3, randomized, controlled trial of resmetirom in NASH with liver fibrosis. *N Engl J Med.* 2024;390(6):497–509. doi:[10.1056/NEJMoa2309000](https://doi.org/10.1056/NEJMoa2309000)
+11. Sanyal AJ, Newsome PN, Kliers I, et al. Phase 3 trial of semaglutide in metabolic dysfunction-associated steatohepatitis. *N Engl J Med.* 2025;392(21):2089–2099. doi:[10.1056/NEJMoa2413258](https://doi.org/10.1056/NEJMoa2413258)
+12. Jophlin LL, Singal AK, Bataller R, et al. ACG clinical guideline: alcohol-associated liver disease. *Am J Gastroenterol.* 2024;119(1):30–54. doi:[10.14309/ajg.0000000000002572](https://doi.org/10.14309/ajg.0000000000002572)
+13. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of autoimmune hepatitis. *J Hepatol.* 2025;83(2):453–501. doi:[10.1016/j.jhep.2025.03.017](https://doi.org/10.1016/j.jhep.2025.03.017)
+14. European Association for the Study of the Liver. EASL clinical practice guidelines on haemochromatosis. *J Hepatol.* 2022;77(2):479–502. doi:[10.1016/j.jhep.2022.03.033](https://doi.org/10.1016/j.jhep.2022.03.033)
+15. European Association for the Study of the Liver; European Reference Network on Hepatological Diseases. EASL-ERN clinical practice guidelines on Wilson's disease. *J Hepatol.* 2025;82(4):690–728. doi:[10.1016/j.jhep.2024.11.007](https://doi.org/10.1016/j.jhep.2024.11.007)
+16. Riquelme A, Arrese M, Soza A, et al. Non-alcoholic fatty liver disease and its association with obesity, insulin resistance and increased serum levels of C-reactive protein in Hispanics. *Liver Int.* 2009;29(1):82–88. doi:[10.1111/j.1478-3231.2008.01823.x](https://doi.org/10.1111/j.1478-3231.2008.01823.x)
