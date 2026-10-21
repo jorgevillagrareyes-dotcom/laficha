@@ -6,7 +6,7 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **33 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **42 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md)
 
 ## Conocimientos generales
 
@@ -53,14 +54,14 @@ hide:
 | 7.01.3.030 | Criterios de priorización de problemas | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md) |
 | 7.01.3.031 | Estrategias de control de enfermedades infecciosas | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md) |
 | 7.01.3.032 | Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares) | :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md) |
-| 7.01.3.033 | Bases conceptuales de la seguridad social | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.034 | Desarrollo histórico de seguridad social y atención de salud | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.035 | Funciones de los sistemas de atención de salud | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.036 | Organización actual del sistema de salud chileno | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.037 | Política sanitaria y objetivos sanitarios en Chile | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.038 | Definición, estructura y funciones de los subsistemas en Chile | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.039 | Concepto y descripción de la red asistencial chilena | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.040 | Beneficios de la seguridad social y rol del médico en su acceso | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.033 | Bases conceptuales de la seguridad social | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.034 | Desarrollo histórico de seguridad social y atención de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.035 | Funciones de los sistemas de atención de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.036 | Organización actual del sistema de salud chileno | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.037 | Política sanitaria y objetivos sanitarios en Chile | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.038 | Definición, estructura y funciones de los subsistemas en Chile | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.039 | Concepto y descripción de la red asistencial chilena | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
+| 7.01.3.040 | Beneficios de la seguridad social y rol del médico en su acceso | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
 | 7.01.3.041 | Conceptos de administración y gestión | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.042 | Planificación y programación en salud | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.043 | Formulación de programas | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -68,7 +69,7 @@ hide:
 | 7.01.3.045 | Dirección: funciones de la dirección, liderazgo, comunicaciones, coordinación | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.046 | Evaluación y control: conceptos, tipos de evaluación | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.047 | Auditoría y acreditación | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.049 | Financiamiento del sector salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.049 | Financiamiento del sector salud | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
 | 7.01.3.050 | Rol del médico en la generación y uso de la información | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.051 | Certificado de defunción, licencia médica, notificación de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.052 | Ejercicio profesional: marcos ético, legal y gremial | :material-clock-outline:{ .pend title="Pendiente" } |

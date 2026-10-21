@@ -4179,20 +4179,36 @@ especialidades:
       - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.033
       nombre: Bases conceptuales de la seguridad social
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.034
       nombre: Desarrollo histórico de seguridad social y atención de salud
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.035
       nombre: Funciones de los sistemas de atención de salud
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.036
       nombre: Organización actual del sistema de salud chileno
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.037
       nombre: Política sanitaria y objetivos sanitarios en Chile
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.038
       nombre: Definición, estructura y funciones de los subsistemas en Chile
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.039
       nombre: Concepto y descripción de la red asistencial chilena
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.040
       nombre: Beneficios de la seguridad social y rol del médico en su acceso
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.041
       nombre: Conceptos de administración y gestión
     - codigo: 7.01.3.042
@@ -4209,6 +4225,8 @@ especialidades:
       nombre: Auditoría y acreditación
     - codigo: 7.01.3.049
       nombre: Financiamiento del sector salud
+      resumen:
+      - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.050
       nombre: Rol del médico en la generación y uso de la información
     - codigo: 7.01.3.051
