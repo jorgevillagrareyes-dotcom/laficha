@@ -2399,6 +2399,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 2.01.1.139
       nombre: Trastornos de alimentación
       dx: Sospecha
@@ -2588,6 +2590,8 @@ especialidades:
       nombre: Prevención de conductas de riesgo
     - codigo: 2.01.3.010
       nombre: Prevención de maltrato y abuso infantil
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 2.01.3.011
       nombre: Promoción de salud y estilos de vida saludables
     - codigo: 2.01.3.012
@@ -2906,10 +2910,16 @@ especialidades:
       - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.3.007
       nombre: Maltrato en el adulto mayor
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 5.01.3.008
       nombre: Maltrato infantil
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 5.01.3.009
       nombre: Nociones de psiquiatría forense
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 5.01.3.010
       nombre: 'Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad'
       resumen:
@@ -2924,6 +2934,8 @@ especialidades:
       - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.3.013
       nombre: Violencia intrafamiliar
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
 - carpeta: especialidades
   titulo: Especialidades
   secciones:
@@ -3835,6 +3847,8 @@ especialidades:
       nombre: 'Ejercicio profesional: marcos ético, legal y gremial'
     - codigo: 7.01.3.053
       nombre: Derecho GES a atención integral de salud en agresión sexual aguda
+      resumen:
+      - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 7.01.3.054
       nombre: Otorgamiento, uso y sanciones por mal uso de licencias médicas
     - codigo: 7.01.3.055

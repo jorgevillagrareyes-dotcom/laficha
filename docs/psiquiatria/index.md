@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **44 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **48 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](enuresis-y-encopresis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md)
@@ -84,13 +85,13 @@ hide:
 | 5.01.3.004 | Higiene de la alimentación | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.005 | Higiene del sueño | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.006 | Disforia de género | :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md) |
-| 5.01.3.007 | Maltrato en el adulto mayor | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.008 | Maltrato infantil | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.009 | Nociones de psiquiatría forense | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.007 | Maltrato en el adulto mayor | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
+| 5.01.3.008 | Maltrato infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
+| 5.01.3.009 | Nociones de psiquiatría forense | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 5.01.3.010 | Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)](trastornos-de-la-personalidad.md) |
 | 5.01.3.011 | Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria. | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.3.012 | Respuesta sexual humana | :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md) |
-| 5.01.3.013 | Violencia intrafamiliar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.013 | Violencia intrafamiliar | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 
 ## Cómo leer los niveles EUNACOM
 

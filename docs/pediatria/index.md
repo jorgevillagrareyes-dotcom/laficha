@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **5 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **7 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -149,7 +149,7 @@ hide:
 | 2.01.1.134 | Trisomía 21 | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.136 | Depresión | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.137 | Ideación suicida | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](../psiquiatria/conducta-suicida.md) |
-| 2.01.1.138 | Maltrato infantil | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.138 | Maltrato infantil | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 2.01.1.139 | Trastornos de alimentación | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.140 | Trastornos de ansiedad generalizada | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.141 | Trastornos del desarrollo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -202,7 +202,7 @@ hide:
 | 2.01.3.007 | Lactancia materna | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.008 | Prevención de accidentes | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.009 | Prevención de conductas de riesgo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.010 | Prevención de maltrato y abuso infantil | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.010 | Prevención de maltrato y abuso infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 2.01.3.011 | Promoción de salud y estilos de vida saludables | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.012 | Psiquiatría de enlace | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.013 | Relación médico-paciente-familia | :material-clock-outline:{ .pend title="Pendiente" } |

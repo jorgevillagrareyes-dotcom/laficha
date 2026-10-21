@@ -45,13 +45,13 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Recién nacido, niño y adolescente. En preparación · **5 de 190** temas con resumen
+    Recién nacido, niño y adolescente. En preparación · **7 de 190** temas con resumen
 
 -   :material-brain:{ .lg .middle } **[Psiquiatría](psiquiatria/index.md)**
 
     ---
 
-    Trastornos del ánimo, ansiedad, psicosis y adicciones. En preparación · **44 de 52** temas con resumen
+    Trastornos del ánimo, ansiedad, psicosis y adicciones. En preparación · **48 de 52** temas con resumen
 
 -   :material-eye-outline:{ .lg .middle } **[Especialidades](especialidades/index.md)**
 
@@ -63,7 +63,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Epidemiología, sistema de salud y gestión. En preparación · **0 de 55** temas con resumen
+    Epidemiología, sistema de salud y gestión. En preparación · **1 de 55** temas con resumen
 
 -   :material-shield-check:{ .lg .middle } **[Patologías GES](ges/index.md)**
 

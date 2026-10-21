@@ -6,7 +6,7 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **0 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **1 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Conocimientos generales
 
@@ -63,7 +63,7 @@ hide:
 | 7.01.3.050 | Rol del médico en la generación y uso de la información | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.051 | Certificado de defunción, licencia médica, notificación de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.052 | Ejercicio profesional: marcos ético, legal y gremial | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.053 | Derecho GES a atención integral de salud en agresión sexual aguda | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.053 | Derecho GES a atención integral de salud en agresión sexual aguda | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 7.01.3.054 | Otorgamiento, uso y sanciones por mal uso de licencias médicas | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.055 | Conceptos básicos de administración de establecimientos de salud | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.056 | Conocimiento de los derechos y deberes del paciente | :material-clock-outline:{ .pend title="Pendiente" } |
