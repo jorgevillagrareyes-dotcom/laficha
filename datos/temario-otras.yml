@@ -4099,12 +4099,20 @@ especialidades:
       - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.013
       nombre: Concepto y campo de la epidemiología
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.014
       nombre: Epidemiología descriptiva
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.015
       nombre: Usos de la epidemiología en el control de enfermedades
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.016
       nombre: Vigilancia epidemiológica y estudio de brotes
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.017
       nombre: Usos de la epidemiología en el diagnóstico de situación de salud
       resumen:
@@ -4141,8 +4149,12 @@ especialidades:
       - salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
     - codigo: 7.01.3.031
       nombre: Estrategias de control de enfermedades infecciosas
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.032
       nombre: Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares)
+      resumen:
+      - salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
     - codigo: 7.01.3.033
       nombre: Bases conceptuales de la seguridad social
     - codigo: 7.01.3.034

@@ -63,7 +63,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Epidemiología, sistema de salud y gestión. En preparación · **16 de 55** temas con resumen
+    Epidemiología, sistema de salud y gestión. En preparación · **22 de 55** temas con resumen
 
 -   :material-shield-check:{ .lg .middle } **[Patologías GES](ges/index.md)**
 
