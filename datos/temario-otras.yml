@@ -2685,6 +2685,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.1.012
       nombre: Dependencia de alcohol
       dx: Específico
@@ -2692,11 +2694,14 @@ especialidades:
       seg: Completo
       resumen:
       - neurologia/abstinencia-alcoholica-y-wernicke.md
+      - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.1.013
       nombre: Dependencia de otras drogas
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.1.014
       nombre: Delirium
       dx: Específico
@@ -2813,6 +2818,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.1.036
       nombre: Trastorno de ansiedad generalizada
       dx: Específico
@@ -2861,6 +2868,8 @@ especialidades:
       nombre: 'Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad'
     - codigo: 5.01.3.011
       nombre: 'Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria.'
+      resumen:
+      - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.3.012
       nombre: Respuesta sexual humana
     - codigo: 5.01.3.013

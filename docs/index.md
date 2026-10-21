@@ -51,7 +51,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Trastornos del ánimo, ansiedad, psicosis y adicciones. En preparación · **16 de 52** temas con resumen
+    Trastornos del ánimo, ansiedad, psicosis y adicciones. En preparación · **20 de 52** temas con resumen
 
 -   :material-eye-outline:{ .lg .middle } **[Especialidades](especialidades/index.md)**
 

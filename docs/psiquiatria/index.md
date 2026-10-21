@@ -6,10 +6,11 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **16 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **20 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
@@ -29,9 +30,9 @@ hide:
 | 5.01.1.008 | Trastorno depresivo (recurrente) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Depresión (con énfasis en el adulto mayor)](../geriatria/depresion.md) |
 | 5.01.1.009 | Trastorno bipolar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md) |
 | 5.01.1.010 | Esquizofrenia y otros trastornos psicòticos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md) |
-| 5.01.1.011 | Consumo perjudicial de alcohol y drogas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.012 | Dependencia de alcohol | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome de abstinencia alcohólica, encefalopatía de Wernicke y complicaciones neurológicas de las sustancias](../neurologia/abstinencia-alcoholica-y-wernicke.md) |
-| 5.01.1.013 | Dependencia de otras drogas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.011 | Consumo perjudicial de alcohol y drogas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
+| 5.01.1.012 | Dependencia de alcohol | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome de abstinencia alcohólica, encefalopatía de Wernicke y complicaciones neurológicas de las sustancias](../neurologia/abstinencia-alcoholica-y-wernicke.md) · [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
+| 5.01.1.013 | Dependencia de otras drogas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.1.014 | Delirium | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Delirium (síndrome confusional agudo)](../geriatria/delirium.md) |
 | 5.01.1.015 | Trastornos neurocognitivos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Demencia, deterioro cognitivo leve y causas reversibles de deterioro cognitivo](../neurologia/demencia-y-deterioro-cognitivo.md) |
 | 5.01.1.016 | Trastornos de la personalidad | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -53,7 +54,7 @@ hide:
 | 5.01.1.032 | Trastorno somatización en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.035 | Consumo perjudicial de drogas en niños y adolescentes | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.035 | Consumo perjudicial de drogas en niños y adolescentes | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.1.036 | Trastorno de ansiedad generalizada | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 
 ## Situaciones clínicas de urgencia
@@ -78,7 +79,7 @@ hide:
 | 5.01.3.008 | Maltrato infantil | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.009 | Nociones de psiquiatría forense | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.010 | Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.011 | Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria. | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.011 | Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria. | :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md) |
 | 5.01.3.012 | Respuesta sexual humana | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.3.013 | Violencia intrafamiliar | :material-clock-outline:{ .pend title="Pendiente" } |
 
