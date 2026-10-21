@@ -6,12 +6,13 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **40 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **42 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](enuresis-y-encopresis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md)
@@ -52,8 +53,8 @@ hide:
 | 5.01.1.023 | Trastorno del espectro autista | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
 | 5.01.1.024 | Trastorno específico del aprendizaje escolar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
 | 5.01.1.025 | Retardo mental | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](trastornos-del-neurodesarrollo.md) |
-| 5.01.1.026 | Enuresis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.027 | Encopresis | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.026 | Enuresis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](enuresis-y-encopresis.md) |
+| 5.01.1.027 | Encopresis | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](enuresis-y-encopresis.md) |
 | 5.01.1.028 | Trastorno por déficit atencional | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |
 | 5.01.1.029 | Intento de suicidio en niños y adolescentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
 | 5.01.1.030 | Trastorno conducta oposicionista desafiante | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](tdah-y-trastornos-de-conducta.md) |

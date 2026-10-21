@@ -2793,11 +2793,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/enuresis-y-encopresis.md
     - codigo: 5.01.1.027
       nombre: Encopresis
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/enuresis-y-encopresis.md
     - codigo: 5.01.1.028
       nombre: Trastorno por déficit atencional
       dx: Sospecha
