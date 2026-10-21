@@ -45,7 +45,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Recién nacido, niño y adolescente. En preparación · **14 de 190** temas con resumen
+    Recién nacido, niño y adolescente. En preparación · **16 de 190** temas con resumen
 
 -   :material-brain:{ .lg .middle } **[Psiquiatría](psiquiatria/index.md)**
 
@@ -57,7 +57,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Dermatología, oftalmología y otorrinolaringología. En preparación · **131 de 157** temas con resumen
+    Dermatología, oftalmología y otorrinolaringología. En preparación · **141 de 157** temas con resumen
 
 -   :material-account-group:{ .lg .middle } **[Salud pública](salud-publica/index.md)**
 

@@ -2220,6 +2220,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 2.01.1.101
       nombre: Hipoacusia
       dx: Sospecha
@@ -2239,6 +2241,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 2.01.1.104
       nombre: Acné
       dx: Específico
@@ -3648,6 +3652,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.002
       nombre: Amigdalitis aguda
       dx: Específico
@@ -3734,6 +3740,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.017
       nombre: Odinofagias agudas
       dx: Específico
@@ -3786,11 +3794,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.025
       nombre: Rinorrea crónica
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.026
       nombre: Rinorreas agudas
       dx: Específico
@@ -3810,6 +3822,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.029
       nombre: Síndrome vertiginoso
       dx: Sospecha
@@ -3822,6 +3836,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.1.031
       nombre: Tinitus
       dx: Sospecha
@@ -3871,6 +3887,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.2.006
       nombre: Barotrauma ótico y trauma acústico agudo
       dx: Específico
@@ -3904,6 +3922,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.2.011
       nombre: Epistaxis masiva
       dx: Específico
@@ -3967,10 +3987,14 @@ especialidades:
       nombre: Pesquisa de trastornos del lenguaje
     - codigo: 6.03.3.003
       nombre: Prevención de alergias nasosinusales
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.3.004
       nombre: Prevención de cáncer laríngeo
     - codigo: 6.03.3.005
       nombre: Prevención de cuerpo extraño en niños
+      resumen:
+      - especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
     - codigo: 6.03.3.006
       nombre: Prevención de otitis externa
       resumen:
