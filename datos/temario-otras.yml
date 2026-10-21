@@ -2968,6 +2968,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.004
       nombre: Dermatitis atópica
       dx: Específico
@@ -3025,6 +3027,8 @@ especialidades:
       dx: Sospecha
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.013
       nombre: Hemangiomas cutáneos infantiles
       dx: Específico
@@ -3035,6 +3039,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.015
       nombre: Líquen plano
       dx: Sospecha
@@ -3052,6 +3058,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.018
       nombre: Micosis superficiales
       dx: Específico
@@ -3125,11 +3133,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.029
       nombre: Tumores premalignos (queratosis actínicas, Bowen)
       dx: Sospecha
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
     - codigo: 6.01.1.030
       nombre: Urticaria aguda
       dx: Específico

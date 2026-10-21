@@ -6,7 +6,7 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **31 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **37 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Urticaria y angioedema](urticaria-y-angioedema.md)
 
 ## Situaciones clínicas
@@ -23,7 +24,7 @@ hide:
 |---|---|---|---|---|---|
 | 6.01.1.001 | Acné | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.002 | Alopecías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.003 | Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.003 | Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.004 | Dermatitis atópica | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 6.01.1.005 | Dermatitis del pañal | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 6.01.1.006 | Dermatitis seborreica infantil y del adulto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
@@ -32,12 +33,12 @@ hide:
 | 6.01.1.009 | Eritema nodoso / Eritema indurado de Bazin | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.010 | Eritema polimorfo menor | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.1.011 | Fotodermatosis | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.012 | Granuloma piogénico | Sospecha | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.012 | Granuloma piogénico | Sospecha | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.013 | Hemangiomas cutáneos infantiles | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.014 | Linfomas cutáneos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.014 | Linfomas cutáneos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.015 | Líquen plano | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md) |
 | 6.01.1.016 | Lupus eritematoso cutáneo crónico (lupus discoide) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.017 | Melanoma maligno | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.017 | Melanoma maligno | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.018 | Micosis superficiales | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.019 | Pediculosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 6.01.1.020 | Pénfigo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -48,8 +49,8 @@ hide:
 | 6.01.1.025 | Reacciones cutáneas por drogas (rush, toxidermia fija) | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.1.026 | Rosácea | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.027 | Sarna | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
-| 6.01.1.028 | Tumores benignos de piel (quistes, lipomas, queratosis seborreica) | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.029 | Tumores premalignos (queratosis actínicas, Bowen) | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.028 | Tumores benignos de piel (quistes, lipomas, queratosis seborreica) | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
+| 6.01.1.029 | Tumores premalignos (queratosis actínicas, Bowen) | Sospecha | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.030 | Urticaria aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Urticaria y angioedema](urticaria-y-angioedema.md) |
 | 6.01.1.033 | Vasculitis cutáneas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.031 | Verrugas, herpes simplex, herpes zoster, moluscos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) · [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
