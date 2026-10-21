@@ -335,7 +335,7 @@ flowchart TD
 
 - **Tratar la enfermedad de base**: infección, cáncer, enfermedad autoinmune, IC.
 - **Fierro EV** si coexiste una ferropenia (ferritina < 100 y saturación < 20 %). El fierro oral se absorbe mal por la hepcidina alta.
-- **Agentes estimulantes de la eritropoyesis** (eritropoyetina, darbepoetina) en la **ERC** y en la anemia por quimioterapia. Meta de **Hb 10–11,5 g/dL**; no buscar una Hb normal (más ACV y trombosis).
+- **Agentes estimulantes de la eritropoyesis** (eritropoyetina, darbepoetina) en la **ERC** y en la anemia por quimioterapia. En la ERC, mantener la **Hb < 11,5 g/dL** (KDIGO 2026); no buscar una Hb normal (más ACV y trombosis).
 - **Transfusión** según los umbrales (ver abajo).
 
 ### Anemia megaloblástica

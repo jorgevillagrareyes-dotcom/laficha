@@ -11,7 +11,7 @@ tags:
 Ginecología (climaterio) · Endocrinología · Medicina interna · Atención primaria
 
 **Guías principales**
-MINSAL 2014: orientaciones técnicas para la atención integral de la mujer en edad de climaterio en APS · The Menopause Society (ex-NAMS) 2022: terapia hormonal · The Menopause Society 2023: terapias no hormonales de los síntomas vasomotores
+MINSAL 2014: orientaciones técnicas para la atención integral de la mujer en edad de climaterio en APS · ACOG 2026 (CPG 13): síntomas vasomotores, del sueño y del ánimo · The Menopause Society (ex-NAMS) 2022: terapia hormonal · The Menopause Society 2023: terapias no hormonales de los síntomas vasomotores
 
 **Otras fuentes**
 STRAW+10 (etapas del envejecimiento reproductivo, 2012) · WHI (2002 y seguimiento a 18 años, 2017) · SWAN (duración de los bochornos, 2015) · Fezolinetant (SKYLIGHT 1, 2023) y elinzanetant (OASIS 1 y 2, 2024) · Panel de expertos de la FDA y retiro de la advertencia de recuadro negro (2025) · Edad de la menopausia en Latinoamérica (REDLINC, 2006)
@@ -218,12 +218,18 @@ flowchart TD
 
 ### Terapia hormonal
 
+!!! guia "ACOG 2026 (CPG 13, reemplaza el Practice Bulletin 141 de 2014)"
+    - Recomendación **fuerte** de **terapia hormonal sistémica** para los **síntomas vasomotores** si no hay contraindicaciones: estrógeno + progestágeno con útero, estrógeno solo sin útero. Iniciarla **antes de los 60 años** o **dentro de 10 años** de la menopausia, con decisión compartida.
+    - **Estrógenos conjugados + bazedoxifeno**: alternativa al esquema con progestágeno.
+    - Sin terapia hormonal: **ISRS o IRSN** (bochornos y ánimo) y **antagonistas del receptor de neuroquinina** (fezolinetant, elinzanetant; también para el sueño alterado por bochornos). **Gabapentina** si los anteriores fallan.
+    - **No** usar progestágeno solo, DHEA ni **testosterona** para los síntomas vasomotores, del sueño o del ánimo.
+
 - **Indicaciones**:
     - **Síntomas vasomotores** molestos (la indicación principal).
     - **Síndrome genitourinario** (si es aislado, preferir el estrógeno **vaginal**).
     - **Prevención de la pérdida ósea** en mujeres con riesgo de fractura y síntomas.
     - **Menopausia prematura o temprana**: TH hasta al menos la edad promedio de la menopausia (~ 50 años), aunque no haya síntomas.
-- **Momento de inicio** (The Menopause Society 2022):
+- **Momento de inicio** (The Menopause Society 2022; ACOG 2026):
     - **< 60 años** o **< 10 años** desde la menopausia, sin contraindicaciones: el balance beneficio-riesgo es **favorable**.
     - Inicio **> 60 años** o **> 10 años** después: más riesgo absoluto de enfermedad coronaria, ACV, tromboembolismo y demencia.
 - **Esquemas**:
@@ -355,13 +361,14 @@ flowchart TD
 ## Referencias
 
 1. Ministerio de Salud de Chile. Orientaciones técnicas para la atención integral de la mujer en edad de climaterio en el nivel primario de la red de salud (APS). Santiago: MINSAL; 2014. [minsal.cl](https://www.minsal.cl/wp-content/uploads/2015/09/OTCLIMATERIOinteriorValenteindd04022014.pdf)
-2. The 2022 hormone therapy position statement of The North American Menopause Society. *Menopause.* 2022;29(7):767–794. doi:[10.1097/GME.0000000000002028](https://doi.org/10.1097/GME.0000000000002028)
-3. The 2023 nonhormone therapy position statement of The North American Menopause Society. *Menopause.* 2023;30(6):573–590. doi:[10.1097/GME.0000000000002200](https://doi.org/10.1097/GME.0000000000002200)
-4. Harlow SD, Gass M, Hall JE, et al. Executive summary of the Stages of Reproductive Aging Workshop + 10: addressing the unfinished agenda of staging reproductive aging. *J Clin Endocrinol Metab.* 2012;97(4):1159–1168. doi:[10.1210/jc.2011-3362](https://doi.org/10.1210/jc.2011-3362)
-5. Rossouw JE, Anderson GL, Prentice RL, et al. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results from the Women's Health Initiative randomized controlled trial. *JAMA.* 2002;288(3):321–333. doi:[10.1001/jama.288.3.321](https://doi.org/10.1001/jama.288.3.321)
-6. Manson JE, Aragaki AK, Rossouw JE, et al. Menopausal hormone therapy and long-term all-cause and cause-specific mortality: the Women's Health Initiative randomized trials. *JAMA.* 2017;318(10):927–938. doi:[10.1001/jama.2017.11217](https://doi.org/10.1001/jama.2017.11217)
-7. Avis NE, Crawford SL, Greendale G, et al. Duration of menopausal vasomotor symptoms over the menopause transition. *JAMA Intern Med.* 2015;175(4):531–539. doi:[10.1001/jamainternmed.2014.8063](https://doi.org/10.1001/jamainternmed.2014.8063)
-8. Lederman S, Ottery FD, Cano A, et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. *Lancet.* 2023;401(10382):1091–1102. doi:[10.1016/S0140-6736(23)00085-5](https://doi.org/10.1016/S0140-6736(23)00085-5)
-9. Pinkerton JV, Simon JA, Joffe H, et al. Elinzanetant for the treatment of vasomotor symptoms associated with menopause: OASIS 1 and 2 randomized clinical trials. *JAMA.* 2024;332(16):1343–1354. doi:[10.1001/jama.2024.14618](https://doi.org/10.1001/jama.2024.14618)
-10. Pinkerton JV, Simon JA, Hodis HN, et al. Report of the FDA's expert panel on hormone therapy. *Menopause.* 2026;33(10):1118–1126. doi:[10.1097/GME.0000000000002768](https://doi.org/10.1097/GME.0000000000002768)
-11. Castelo-Branco C, Blümel JE, Chedraui P, et al. Age at menopause in Latin America. *Menopause.* 2006;13(4):706–712. doi:[10.1097/01.gme.0000227338.73738.2d](https://doi.org/10.1097/01.gme.0000227338.73738.2d)
+2. American College of Obstetricians and Gynecologists. Management of menopause-related vasomotor, sleep, and mood symptoms. ACOG Clinical Practice Guideline No. 13. *Obstet Gynecol.* 2026;148(5):e345–e369. doi:[10.1097/AOG.0000000000006428](https://doi.org/10.1097/AOG.0000000000006428)
+3. The 2022 hormone therapy position statement of The North American Menopause Society. *Menopause.* 2022;29(7):767–794. doi:[10.1097/GME.0000000000002028](https://doi.org/10.1097/GME.0000000000002028)
+4. The 2023 nonhormone therapy position statement of The North American Menopause Society. *Menopause.* 2023;30(6):573–590. doi:[10.1097/GME.0000000000002200](https://doi.org/10.1097/GME.0000000000002200)
+5. Harlow SD, Gass M, Hall JE, et al. Executive summary of the Stages of Reproductive Aging Workshop + 10: addressing the unfinished agenda of staging reproductive aging. *J Clin Endocrinol Metab.* 2012;97(4):1159–1168. doi:[10.1210/jc.2011-3362](https://doi.org/10.1210/jc.2011-3362)
+6. Rossouw JE, Anderson GL, Prentice RL, et al. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results from the Women's Health Initiative randomized controlled trial. *JAMA.* 2002;288(3):321–333. doi:[10.1001/jama.288.3.321](https://doi.org/10.1001/jama.288.3.321)
+7. Manson JE, Aragaki AK, Rossouw JE, et al. Menopausal hormone therapy and long-term all-cause and cause-specific mortality: the Women's Health Initiative randomized trials. *JAMA.* 2017;318(10):927–938. doi:[10.1001/jama.2017.11217](https://doi.org/10.1001/jama.2017.11217)
+8. Avis NE, Crawford SL, Greendale G, et al. Duration of menopausal vasomotor symptoms over the menopause transition. *JAMA Intern Med.* 2015;175(4):531–539. doi:[10.1001/jamainternmed.2014.8063](https://doi.org/10.1001/jamainternmed.2014.8063)
+9. Lederman S, Ottery FD, Cano A, et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. *Lancet.* 2023;401(10382):1091–1102. doi:[10.1016/S0140-6736(23)00085-5](https://doi.org/10.1016/S0140-6736(23)00085-5)
+10. Pinkerton JV, Simon JA, Joffe H, et al. Elinzanetant for the treatment of vasomotor symptoms associated with menopause: OASIS 1 and 2 randomized clinical trials. *JAMA.* 2024;332(16):1343–1354. doi:[10.1001/jama.2024.14618](https://doi.org/10.1001/jama.2024.14618)
+11. Pinkerton JV, Simon JA, Hodis HN, et al. Report of the FDA's expert panel on hormone therapy. *Menopause.* 2026;33(10):1118–1126. doi:[10.1097/GME.0000000000002768](https://doi.org/10.1097/GME.0000000000002768)
+12. Castelo-Branco C, Blümel JE, Chedraui P, et al. Age at menopause in Latin America. *Menopause.* 2006;13(4):706–712. doi:[10.1097/01.gme.0000227338.73738.2d](https://doi.org/10.1097/01.gme.0000227338.73738.2d)
