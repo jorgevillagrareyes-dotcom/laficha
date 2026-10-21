@@ -6,11 +6,12 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **43 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **45 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Alopecias y vitíligo](alopecias-y-vitiligo.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
@@ -24,7 +25,7 @@ hide:
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
 | 6.01.1.001 | Acné | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
-| 6.01.1.002 | Alopecías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.002 | Alopecías | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Alopecias y vitíligo](alopecias-y-vitiligo.md) |
 | 6.01.1.003 | Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos](tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md) |
 | 6.01.1.004 | Dermatitis atópica | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 6.01.1.005 | Dermatitis del pañal | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
@@ -55,7 +56,7 @@ hide:
 | 6.01.1.030 | Urticaria aguda | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Urticaria y angioedema](urticaria-y-angioedema.md) |
 | 6.01.1.033 | Vasculitis cutáneas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md) |
 | 6.01.1.031 | Verrugas, herpes simplex, herpes zoster, moluscos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) · [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
-| 6.01.1.032 | Vitiligo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.032 | Vitiligo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Alopecias y vitíligo](alopecias-y-vitiligo.md) |
 
 ## Situaciones clínicas de urgencia
 

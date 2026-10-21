@@ -2963,6 +2963,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/alopecias-y-vitiligo.md
     - codigo: 6.01.1.003
       nombre: Cáncer de piel no melanoma (carcinoma basocelular y espinocelular)
       dx: Sospecha
@@ -3175,6 +3177,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/alopecias-y-vitiligo.md
     urgencias:
     - codigo: 6.01.2.001
       nombre: Angioedema de Quinque
