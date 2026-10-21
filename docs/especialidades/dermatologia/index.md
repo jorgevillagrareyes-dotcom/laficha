@@ -6,7 +6,7 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **48 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **50 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fotodermatosis, quemadura solar y fotoprotección](fotodermatosis-quemadura-solar-y-fotoproteccion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Loxoscelismo e higiene de la vivienda](loxoscelismo-e-higiene-de-la-vivienda.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Psoriasis, liquen plano, pitiriasis rosada y eritrodermia](psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md)
@@ -70,7 +71,7 @@ hide:
 | 6.01.2.005 | Fasceitis necrotizante | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de piel y partes blandas](../../infectologia/infecciones-piel-partes-blandas.md) |
 | 6.01.2.006 | Hemangiomas y malformaciones vasculares del recién nacido | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.2.007 | Herpes zoster | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Varicela, herpes zóster y otros exantemas del adulto](../../infectologia/varicela-y-herpes-zoster.md) |
-| 6.01.2.008 | Loxocelismo | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.2.008 | Loxocelismo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Loxoscelismo e higiene de la vivienda](loxoscelismo-e-higiene-de-la-vivienda.md) |
 | 6.01.2.009 | Necrolisis tóxica epidérmica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada](reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md) |
 | 6.01.2.010 | Pénfigo y penfigoide | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md) |
 | 6.01.2.011 | Quemadura solar | Específico | Completo | No requiere | :material-check-circle:{ .ok title="Resumen disponible" } [Fotodermatosis, quemadura solar y fotoprotección](fotodermatosis-quemadura-solar-y-fotoproteccion.md) |
@@ -85,7 +86,7 @@ hide:
 | Código | Tema | Resumen |
 |---|---|---|
 | 6.01.3.001 | Fotoprotección | :material-check-circle:{ .ok title="Resumen disponible" } [Fotodermatosis, quemadura solar y fotoprotección](fotodermatosis-quemadura-solar-y-fotoproteccion.md) |
-| 6.01.3.002 | Higiene de la vivienda y profilaxis del loxoscelismo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.3.002 | Higiene de la vivienda y profilaxis del loxoscelismo | :material-check-circle:{ .ok title="Resumen disponible" } [Loxoscelismo e higiene de la vivienda](loxoscelismo-e-higiene-de-la-vivienda.md) |
 | 6.01.3.003 | Manifestaciones cutáneas de enfermedades sistémicas | :material-check-circle:{ .ok title="Resumen disponible" } [Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas](ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md) |
 
 ## Cómo leer los niveles EUNACOM

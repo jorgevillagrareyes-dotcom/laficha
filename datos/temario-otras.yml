@@ -3234,6 +3234,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/loxoscelismo-e-higiene-de-la-vivienda.md
     - codigo: 6.01.2.009
       nombre: Necrolisis tóxica epidérmica
       dx: Sospecha
@@ -3297,6 +3299,8 @@ especialidades:
       - especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
     - codigo: 6.01.3.002
       nombre: Higiene de la vivienda y profilaxis del loxoscelismo
+      resumen:
+      - especialidades/dermatologia/loxoscelismo-e-higiene-de-la-vivienda.md
     - codigo: 6.01.3.003
       nombre: Manifestaciones cutáneas de enfermedades sistémicas
       resumen:
