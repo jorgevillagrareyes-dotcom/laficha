@@ -6,7 +6,7 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **48 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **52 de 52** temas tienen resumen. Todos los temas del perfil EUNACOM v3 (2026) están cubiertos.
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)](consumo-de-alcohol-tabaco-y-drogas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](enuresis-y-encopresis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Esquizofrenia y otros trastornos psicóticos](esquizofrenia-y-trastornos-psicoticos.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación](fundamentos-clasificaciones-desarrollo-e-higiene.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por sustancias psicoactivas](intoxicacion-por-sustancias-psicoactivas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md)
@@ -79,11 +80,11 @@ hide:
 
 | Código | Tema | Resumen |
 |---|---|---|
-| 5.01.3.001 | Clasificaciones en psiquiatría | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.001 | Clasificaciones en psiquiatría | :material-check-circle:{ .ok title="Resumen disponible" } [Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación](fundamentos-clasificaciones-desarrollo-e-higiene.md) |
 | 5.01.3.002 | Conducta suicida | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](conducta-suicida.md) |
-| 5.01.3.003 | Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.004 | Higiene de la alimentación | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.3.005 | Higiene del sueño | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.3.003 | Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital | :material-check-circle:{ .ok title="Resumen disponible" } [Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación](fundamentos-clasificaciones-desarrollo-e-higiene.md) |
+| 5.01.3.004 | Higiene de la alimentación | :material-check-circle:{ .ok title="Resumen disponible" } [Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación](fundamentos-clasificaciones-desarrollo-e-higiene.md) |
+| 5.01.3.005 | Higiene del sueño | :material-check-circle:{ .ok title="Resumen disponible" } [Apnea obstructiva del sueño y trastornos del sueño](../respiratorio/apnea-del-sueno-y-trastornos-del-sueno.md) · [Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación](fundamentos-clasificaciones-desarrollo-e-higiene.md) |
 | 5.01.3.006 | Disforia de género | :material-check-circle:{ .ok title="Resumen disponible" } [Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género](sexualidad-disfunciones-sexuales-y-disforia-de-genero.md) |
 | 5.01.3.007 | Maltrato en el adulto mayor | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 5.01.3.008 | Maltrato infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |

@@ -2894,16 +2894,25 @@ especialidades:
     generales:
     - codigo: 5.01.3.001
       nombre: Clasificaciones en psiquiatría
+      resumen:
+      - psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
     - codigo: 5.01.3.002
       nombre: Conducta suicida
       resumen:
       - psiquiatria/conducta-suicida.md
     - codigo: 5.01.3.003
       nombre: Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital
+      resumen:
+      - psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
     - codigo: 5.01.3.004
       nombre: Higiene de la alimentación
+      resumen:
+      - psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
     - codigo: 5.01.3.005
       nombre: Higiene del sueño
+      resumen:
+      - respiratorio/apnea-del-sueno-y-trastornos-del-sueno.md
+      - psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
     - codigo: 5.01.3.006
       nombre: Disforia de género
       resumen:
