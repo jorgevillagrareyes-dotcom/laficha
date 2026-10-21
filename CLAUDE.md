@@ -36,7 +36,7 @@ Sitio MkDocs Material llamado **La Ficha**, de Jorge Villagra, estudiante de med
 
 Artifact privado del usuario: https://claude.ai/artifact/WbZMx9NctfhHmxxrzhsZRA
 
-Para actualizarlo: `mkdocs build --strict`, copiar `site/` a una carpeta temporal quitando los `*.map` y `sitemap.xml.gz`, y publicar `index.html` con el resto de los archivos en `files` y la carpeta como `root` (si cambió `stylesheets/extra.css`, incluirlo también; el servicio exige leerlo antes desde el artifact), pasando la URL anterior como `url` (desde otra conversación hay que leer el artifact primero).
+Para actualizarlo: `mkdocs build --strict`, copiar `site/` a una carpeta temporal quitando los `*.map` y `sitemap.xml.gz`, y publicar `index.html` con el resto de los archivos en `files` y la carpeta como `root` (si cambió `stylesheets/extra.css`, incluirlo también; el servicio exige leerlo antes desde el artifact), pasando la URL anterior como `url` (desde otra conversación hay que leer el artifact primero). El sitio supera el límite de 511 archivos por versión: incrustar las figuras de `assets/figuras/` como data URI en los HTML (y borrar esa carpeta), dejar de lunr solo `es`, `multi` y `stemmer.support` (sin `tinyseg.js` ni `wordcut.js`) y publicar en tandas de menos de 64 MB.
 
 ## Prioridad de los próximos temas
 
