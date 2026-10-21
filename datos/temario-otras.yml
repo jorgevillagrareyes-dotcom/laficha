@@ -2730,6 +2730,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.1.018
       nombre: Trastornos de la conducta alimentaria
       dx: Sospecha
@@ -2742,6 +2744,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.1.020
       nombre: Trastornos somatomorfos
       dx: Sospecha
@@ -2870,6 +2874,8 @@ especialidades:
       nombre: Higiene del sueño
     - codigo: 5.01.3.006
       nombre: Disforia de género
+      resumen:
+      - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.3.007
       nombre: Maltrato en el adulto mayor
     - codigo: 5.01.3.008
@@ -2886,6 +2892,8 @@ especialidades:
       - psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
     - codigo: 5.01.3.012
       nombre: Respuesta sexual humana
+      resumen:
+      - psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
     - codigo: 5.01.3.013
       nombre: Violencia intrafamiliar
 - carpeta: especialidades
