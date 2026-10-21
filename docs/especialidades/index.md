@@ -6,7 +6,7 @@ hide:
 # Especialidades
 
 !!! info "Avance"
-    **60 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (7 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
+    **66 de 157** temas de especialidades del perfil EUNACOM v3 (2026) tienen resumen (8 páginas propias de la especialidad; el resto, en páginas de medicina interna que también cubren el tema).
 
 ## Subespecialidades
 
@@ -16,7 +16,7 @@ hide:
 
     ---
 
-    37 de 52 temas con resumen
+    43 de 52 temas con resumen
 
 -   **[Oftalmología](oftalmologia/index.md)**
 

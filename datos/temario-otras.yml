@@ -3010,6 +3010,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
     - codigo: 6.01.1.010
       nombre: Eritema polimorfo menor
       dx: Específico
@@ -3053,6 +3055,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
     - codigo: 6.01.1.017
       nombre: Melanoma maligno
       dx: Sospecha
@@ -3079,6 +3083,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
     - codigo: 6.01.1.021
       nombre: Piodermias superficiales y profundas (no linfáticas)
       dx: Específico
@@ -3154,6 +3160,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
     - codigo: 6.01.1.031
       nombre: Verrugas, herpes simplex, herpes zoster, moluscos
       dx: Específico
@@ -3232,6 +3240,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
     - codigo: 6.01.2.011
       nombre: Quemadura solar
       dx: Específico
@@ -3279,6 +3289,8 @@ especialidades:
       nombre: Higiene de la vivienda y profilaxis del loxoscelismo
     - codigo: 6.01.3.003
       nombre: Manifestaciones cutáneas de enfermedades sistémicas
+      resumen:
+      - especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
   - carpeta: especialidades/oftalmologia
     titulo: Oftalmología
     situaciones:
