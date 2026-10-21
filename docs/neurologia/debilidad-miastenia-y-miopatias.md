@@ -12,7 +12,7 @@ tags:
 Neurología · Medicina interna · Medicina intensiva
 
 **Guías principales**
-Consenso internacional para el manejo de la miastenia gravis, actualización 2020 (MGFA) · Guía alemana de síndromes miasténicos 2023 (Wiendl) · Clasificación clínica MGFA (2000) · Consenso de la Sociedad Europea de Aterosclerosis 2015: síntomas musculares asociados a estatinas
+Consenso internacional para el manejo de la miastenia gravis, actualización 2020 (MGFA) · Guía alemana de síndromes miasténicos 2023 (Wiendl) · ABN 2025: miastenia gravis autoinmune (actualización británica) · Clasificación clínica MGFA (2000) · Consenso de la Sociedad Europea de Aterosclerosis 2015: síntomas musculares asociados a estatinas
 
 **Otras fuentes**
 Ensayo MGTX de timectomía (NEJM 2016) · Metaanálisis del Cholesterol Treatment Trialists' Collaboration sobre síntomas musculares con estatinas (Lancet 2022) · Epidemiología de la miastenia en Chile (Cea 2018) y en Latinoamérica (Salutto 2026) · Prevalencia mundial de la miastenia (Salari 2021)
@@ -277,7 +277,7 @@ flowchart TD
 
 ## Tratamiento
 
-!!! guia "Miastenia gravis (Narayanaswami 2021; Wiendl 2023)"
+!!! guia "Miastenia gravis (Narayanaswami 2021; Wiendl 2023; ABN 2025)"
     - **Sintomático**: **piridostigmina** en todas las formas, en la dosis más baja que controle los síntomas. Menos del 20 % de las formas generalizadas se mantienen estables solo con ella.
     - **Inmunoterapia** si los síntomas persisten:
         - **Corticoides orales** (prednisona) como base, en la **menor dosis** y por el **menor tiempo** posibles. Iniciar con dosis **bajas y subir gradualmente**: las dosis altas de inicio pueden **empeorar** transitoriamente la debilidad.
@@ -288,6 +288,7 @@ flowchart TD
         - Sin timoma: en la miastenia **generalizada anti-AChR positiva** de **18 a 65 años**, lo antes posible (idealmente en los primeros **2 años**, máximo 5). **No** en la anti-MuSK.
     - **Enfermedad activa o refractaria**: **rituximab** (sobre todo anti-MuSK), **inhibidores del complemento** (eculizumab, ravulizumab, con vacuna antimeningocócica previa) o **moduladores del receptor FcRn** (efgartigimod) en la anti-AChR positiva.
     - **Crisis o empeoramiento grave**: **UCI**, **inmunoglobulina EV** o **plasmaféresis** (eficacia similar).
+    - **Novedades ABN 2025**: los corticoides se dan en **dosis diaria** (ya no en días alternos); más énfasis en la **timectomía precoz**; **rituximab precoz** (dentro del primer año de la forma generalizada) respaldado por ensayos; los inhibidores del complemento y del FcRn, sobre todo en la enfermedad que no responde al tratamiento convencional.
 
 <figure markdown>
 ![Tabla de la terapia modificadora de la enfermedad en la miastenia gravis, según la forma y los anticuerpos. Miastenia ocular: glucocorticoides y/o azatioprina, o como alternativa micofenolato, ciclosporina o metotrexato. Miastenia generalizada con anticuerpos anti-receptor de acetilcolina, actividad leve o moderada: primera elección glucocorticoides y/o azatioprina y timectomía; segunda elección micofenolato, ciclosporina, metotrexato o tacrolimus. Con anticuerpos anti-MuSK, actividad leve o moderada: primera elección glucocorticoides y/o azatioprina; segunda elección micofenolato, ciclosporina, metotrexato o tacrolimus. Actividad alta o refractaria, con o sin glucocorticoides: en la anti-receptor de acetilcolina, primera elección inhibidores del complemento (eculizumab, ravulizumab), moduladores del receptor FcRn (efgartigimod), anticuerpos anti-CD20 (rituximab) y timectomía; segunda elección inmunoglobulina EV, plasmaféresis o inmunoadsorción y, de forma excepcional, trasplante autólogo de progenitores hematopoyéticos, bortezomib o ciclofosfamida. En la anti-MuSK, primera elección rituximab; segunda elección inmunoglobulina EV, efgartigimod, plasmaféresis o las terapias excepcionales. En la crisis: inmunoglobulina EV, plasmaféresis o inmunoadsorción y pulsos de corticoides](../assets/figuras/debilidad/tratamiento-miastenia-wiendl-2023.jpg){ loading=lazy }
@@ -424,12 +425,13 @@ flowchart TD
 ## Referencias
 
 1. Narayanaswami P, Sanders DB, Wolfe G, et al. International consensus guidance for management of myasthenia gravis: 2020 update. *Neurology.* 2021;96(3):114–122. doi:[10.1212/WNL.0000000000011124](https://doi.org/10.1212/WNL.0000000000011124)
-2. Wiendl H, Abicht A, Chan A, et al. Guideline for the management of myasthenic syndromes. *Ther Adv Neurol Disord.* 2023;16:17562864231213240. doi:[10.1177/17562864231213240](https://doi.org/10.1177/17562864231213240)
-3. Jaretzki A 3rd, Barohn RJ, Ernstoff RM, et al. Myasthenia gravis: recommendations for clinical research standards. Task Force of the Medical Scientific Advisory Board of the Myasthenia Gravis Foundation of America. *Neurology.* 2000;55(1):16–23. doi:[10.1212/wnl.55.1.16](https://doi.org/10.1212/wnl.55.1.16)
-4. Wolfe GI, Kaminski HJ, Aban IB, et al. Randomized trial of thymectomy in myasthenia gravis. *N Engl J Med.* 2016;375(6):511–522. doi:[10.1056/NEJMoa1602489](https://doi.org/10.1056/NEJMoa1602489)
-5. Salari N, Fatahi B, Bartina Y, et al. Global prevalence of myasthenia gravis and the effectiveness of common drugs in its treatment: a systematic review and meta-analysis. *J Transl Med.* 2021;19(1):516. doi:[10.1186/s12967-021-03185-7](https://doi.org/10.1186/s12967-021-03185-7)
-6. Cea G, Martinez D, Salinas R, et al. Clinical and epidemiological features of myasthenia gravis in Chilean population. *Acta Neurol Scand.* 2018;138(4):338–343. doi:[10.1111/ane.12967](https://doi.org/10.1111/ane.12967)
-7. Salutto VL, Navarro CE, Urra Pincheira A, et al. Myasthenia gravis in Latin America and the Caribbean: epidemiology, resources, and accessibility to diagnosis and treatment. *Front Public Health.* 2026;14:1791605. doi:[10.3389/fpubh.2026.1791605](https://doi.org/10.3389/fpubh.2026.1791605)
-8. Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials. *Lancet.* 2022;400(10355):832–845. doi:[10.1016/S0140-6736(22)01545-8](https://doi.org/10.1016/S0140-6736(22)01545-8)
-9. Stroes ES, Thompson PD, Corsini A, et al. Statin-associated muscle symptoms: impact on statin therapy—European Atherosclerosis Society Consensus Panel Statement on Assessment, Aetiology and Management. *Eur Heart J.* 2015;36(17):1012–1022. doi:[10.1093/eurheartj/ehv043](https://doi.org/10.1093/eurheartj/ehv043)
-10. Ministerio de Salud de Chile. Decreto 7: aprueba el reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia. 2019. [texto en faolex.fao.org](https://faolex.fao.org/docs/pdf/chi206424.pdf)
+2. Jacob S, Farrugia ME, Hewamadduma C, et al. Association of British Neurologists (ABN) autoimmune myasthenia gravis management guidelines (2025 update). *Pract Neurol.* 2025;25(5):422–437. doi:[10.1136/pn-2025-004655](https://doi.org/10.1136/pn-2025-004655)
+3. Wiendl H, Abicht A, Chan A, et al. Guideline for the management of myasthenic syndromes. *Ther Adv Neurol Disord.* 2023;16:17562864231213240. doi:[10.1177/17562864231213240](https://doi.org/10.1177/17562864231213240)
+4. Jaretzki A 3rd, Barohn RJ, Ernstoff RM, et al. Myasthenia gravis: recommendations for clinical research standards. Task Force of the Medical Scientific Advisory Board of the Myasthenia Gravis Foundation of America. *Neurology.* 2000;55(1):16–23. doi:[10.1212/wnl.55.1.16](https://doi.org/10.1212/wnl.55.1.16)
+5. Wolfe GI, Kaminski HJ, Aban IB, et al. Randomized trial of thymectomy in myasthenia gravis. *N Engl J Med.* 2016;375(6):511–522. doi:[10.1056/NEJMoa1602489](https://doi.org/10.1056/NEJMoa1602489)
+6. Salari N, Fatahi B, Bartina Y, et al. Global prevalence of myasthenia gravis and the effectiveness of common drugs in its treatment: a systematic review and meta-analysis. *J Transl Med.* 2021;19(1):516. doi:[10.1186/s12967-021-03185-7](https://doi.org/10.1186/s12967-021-03185-7)
+7. Cea G, Martinez D, Salinas R, et al. Clinical and epidemiological features of myasthenia gravis in Chilean population. *Acta Neurol Scand.* 2018;138(4):338–343. doi:[10.1111/ane.12967](https://doi.org/10.1111/ane.12967)
+8. Salutto VL, Navarro CE, Urra Pincheira A, et al. Myasthenia gravis in Latin America and the Caribbean: epidemiology, resources, and accessibility to diagnosis and treatment. *Front Public Health.* 2026;14:1791605. doi:[10.3389/fpubh.2026.1791605](https://doi.org/10.3389/fpubh.2026.1791605)
+9. Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials. *Lancet.* 2022;400(10355):832–845. doi:[10.1016/S0140-6736(22)01545-8](https://doi.org/10.1016/S0140-6736(22)01545-8)
+10. Stroes ES, Thompson PD, Corsini A, et al. Statin-associated muscle symptoms: impact on statin therapy—European Atherosclerosis Society Consensus Panel Statement on Assessment, Aetiology and Management. *Eur Heart J.* 2015;36(17):1012–1022. doi:[10.1093/eurheartj/ehv043](https://doi.org/10.1093/eurheartj/ehv043)
+11. Ministerio de Salud de Chile. Decreto 7: aprueba el reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia. 2019. [texto en faolex.fao.org](https://faolex.fao.org/docs/pdf/chi206424.pdf)
