@@ -2671,6 +2671,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastorno-bipolar.md
     - codigo: 5.01.1.010
       nombre: Esquizofrenia y otros trastornos psicòticos
       dx: Sospecha

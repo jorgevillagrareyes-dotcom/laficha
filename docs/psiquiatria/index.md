@@ -6,10 +6,11 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **14 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **15 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md)
 
@@ -25,7 +26,7 @@ hide:
 | 5.01.1.006 | Trastorno por estrés postraumático | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)](trastornos-relacionados-con-traumas-y-estres.md) |
 | 5.01.1.007 | Primer episodio depresivo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Depresión (con énfasis en el adulto mayor)](../geriatria/depresion.md) |
 | 5.01.1.008 | Trastorno depresivo (recurrente) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Depresión (con énfasis en el adulto mayor)](../geriatria/depresion.md) |
-| 5.01.1.009 | Trastorno bipolar | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.009 | Trastorno bipolar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno bipolar](trastorno-bipolar.md) |
 | 5.01.1.010 | Esquizofrenia y otros trastornos psicòticos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.011 | Consumo perjudicial de alcohol y drogas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.012 | Dependencia de alcohol | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome de abstinencia alcohólica, encefalopatía de Wernicke y complicaciones neurológicas de las sustancias](../neurologia/abstinencia-alcoholica-y-wernicke.md) |
