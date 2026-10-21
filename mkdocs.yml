@@ -380,6 +380,7 @@ nav:
       - especialidades/index.md
       - "Dermatología":
           - especialidades/dermatologia/index.md
+          - "Acné y rosácea": especialidades/dermatologia/acne-y-rosacea.md
       - "Oftalmología":
           - especialidades/oftalmologia/index.md
       - "Otorrinolaringología":

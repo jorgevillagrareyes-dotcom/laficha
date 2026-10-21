@@ -2956,6 +2956,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/acne-y-rosacea.md
     - codigo: 6.01.1.002
       nombre: Alopecías
       dx: Sospecha
@@ -3085,6 +3087,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/acne-y-rosacea.md
     - codigo: 6.01.1.027
       nombre: Sarna
       dx: Específico

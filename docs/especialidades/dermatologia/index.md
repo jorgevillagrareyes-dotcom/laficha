@@ -6,13 +6,17 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **8 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **10 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+
+## Resúmenes disponibles
+
+- :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md)
 
 ## Situaciones clínicas
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 6.01.1.001 | Acné | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.001 | Acné | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.002 | Alopecías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.003 | Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.004 | Dermatitis atópica | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -37,7 +41,7 @@ hide:
 | 6.01.1.023 | Prúrigo infantil agudo, picadura de insectos | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.024 | Psoriasis | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.025 | Reacciones cutáneas por drogas (rush, toxidermia fija) | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.026 | Rosácea | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.026 | Rosácea | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.027 | Sarna | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.028 | Tumores benignos de piel (quistes, lipomas, queratosis seborreica) | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.029 | Tumores premalignos (queratosis actínicas, Bowen) | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
