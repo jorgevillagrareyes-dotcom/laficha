@@ -6,10 +6,11 @@ hide:
 # Otorrinolaringología
 
 !!! info "Avance"
-    **42 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **45 de 58** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md)
@@ -28,8 +29,8 @@ hide:
 | 6.03.1.008 | Diagnóstico diferencial de hipoacusias sensorioneurales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.009 | Disfonías agudas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.010 | Disfonías crónicas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.011 | Epistaxis a repetición | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.03.1.012 | Epistaxis leve | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.1.011 | Epistaxis a repetición | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md) |
+| 6.03.1.012 | Epistaxis leve | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md) |
 | 6.03.1.013 | Estridor laríngeo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.03.1.014 | Hipoacusia neonatal | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](hipoacusias-sordera-subita-y-tinnitus.md) |
 | 6.03.1.015 | Masa cervical | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome mononucleósico, adenopatías y adenitis](../../infectologia/sindrome-mononucleosico-y-adenitis.md) · [Patología de las glándulas salivales y masa cervical](../../cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md) |
@@ -66,7 +67,7 @@ hide:
 | 6.03.2.008 | Cuerpo extraño en el esófago | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Disfagia y afagia aguda (impactación alimentaria y cuerpos extraños esofágicos)](../../gastroenterologia/disfagia-y-afagia-aguda.md) |
 | 6.03.2.009 | Cuerpo extraño en vía aérea | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicación por monóxido de carbono, ahogamiento y cuerpo extraño en la vía aérea](../../respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md) |
 | 6.03.2.010 | Cuerpo extraño nasal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
-| 6.03.2.011 | Epistaxis masiva | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.03.2.011 | Epistaxis masiva | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](epistaxis.md) |
 | 6.03.2.012 | Fractura nasal reciente | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.03.2.013 | Hematoma nasoseptal | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Heridas de cara y trauma maxilofacial](../../cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md) |
 | 6.03.2.014 | Otohematoma | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](oido-otitis-media-cronica-y-urgencias-oticas.md) |

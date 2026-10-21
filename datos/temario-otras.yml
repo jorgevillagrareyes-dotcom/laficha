@@ -2215,6 +2215,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/epistaxis.md
     - codigo: 2.01.1.100
       nombre: Hipertrofia adenoidea/amigdalina
       dx: Específico
@@ -2490,6 +2492,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/epistaxis.md
     - codigo: 2.01.2.027
       nombre: Estatus convulsivo en el niño
       dx: Específico
@@ -3710,11 +3714,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/epistaxis.md
     - codigo: 6.03.1.012
       nombre: Epistaxis leve
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/otorrinolaringologia/epistaxis.md
     - codigo: 6.03.1.013
       nombre: Estridor laríngeo
       dx: Específico
@@ -3929,6 +3937,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/epistaxis.md
     - codigo: 6.03.2.012
       nombre: Fractura nasal reciente
       dx: Específico

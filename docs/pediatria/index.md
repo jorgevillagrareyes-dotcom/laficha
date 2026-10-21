@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **16 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **18 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -111,7 +111,7 @@ hide:
 | 2.01.1.096 | Estrabismo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 | 2.01.1.097 | Ojo rojo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo](../especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md) |
 | 2.01.1.098 | Vicios de refracción | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md) |
-| 2.01.1.099 | Epistaxis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.099 | Epistaxis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](../especialidades/otorrinolaringologia/epistaxis.md) |
 | 2.01.1.100 | Hipertrofia adenoidea/amigdalina | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](../especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 2.01.1.101 | Hipoacusia | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md) |
 | 2.01.1.102 | Otitis media recurrente | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](../especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md) |
@@ -168,7 +168,7 @@ hide:
 | 2.01.2.005 | Crisis bronquial obstructiva | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.006 | Deshidratación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.007 | Emergencia hipertensiva | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.008 | Epistaxis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.008 | Epistaxis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](../especialidades/otorrinolaringologia/epistaxis.md) |
 | 2.01.2.027 | Estatus convulsivo en el niño | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.009 | Fracturas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fracturas y disyunciones epifisarias del niño](../traumatologia/fracturas-y-disyunciones-del-nino.md) |
 | 2.01.2.010 | Hemorragia digestiva | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
