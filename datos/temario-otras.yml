@@ -4075,14 +4075,20 @@ especialidades:
       - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.007
       nombre: Demografía y salud pública
+      resumen:
+      - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.008
       nombre: Diagnóstico de situación de salud
     - codigo: 7.01.3.009
       nombre: 'Indicadores de nivel de salud: cálculo e interpretación'
+      resumen:
+      - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.010
       nombre: Etapas del diagnóstico de situación de salud
     - codigo: 7.01.3.011
       nombre: Fuentes de información para el diagnóstico
+      resumen:
+      - salud-publica/demografia-e-indicadores-de-salud.md
     - codigo: 7.01.3.012
       nombre: Ejecución de un diagnóstico
     - codigo: 7.01.3.013
