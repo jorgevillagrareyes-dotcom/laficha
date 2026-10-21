@@ -6,7 +6,7 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **50 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **55 de 55** temas tienen resumen. Todos los temas del perfil EUNACOM v3 (2026) están cubiertos.
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Causalidad, sesgos y pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Demografía, indicadores de nivel de salud y fuentes de información](demografia-e-indicadores-de-salud.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico de situación de salud, descripción de problemas y priorización](diagnostico-de-situacion-de-salud-y-priorizacion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología analítica: diseños de investigación y medidas de asociación e impacto](disenos-de-investigacion-y-medidas-de-asociacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md)
@@ -71,13 +72,13 @@ hide:
 | 7.01.3.046 | Evaluación y control: conceptos, tipos de evaluación | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
 | 7.01.3.047 | Auditoría y acreditación | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
 | 7.01.3.049 | Financiamiento del sector salud | :material-check-circle:{ .ok title="Resumen disponible" } [Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento](sistema-de-salud-chileno-y-seguridad-social.md) |
-| 7.01.3.050 | Rol del médico en la generación y uso de la información | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.051 | Certificado de defunción, licencia médica, notificación de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.052 | Ejercicio profesional: marcos ético, legal y gremial | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.053 | Derecho GES a atención integral de salud en agresión sexual aguda | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
-| 7.01.3.054 | Otorgamiento, uso y sanciones por mal uso de licencias médicas | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.050 | Rol del médico en la generación y uso de la información | :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
+| 7.01.3.051 | Certificado de defunción, licencia médica, notificación de enfermedades | :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
+| 7.01.3.052 | Ejercicio profesional: marcos ético, legal y gremial | :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
+| 7.01.3.053 | Derecho GES a atención integral de salud en agresión sexual aguda | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) · [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
+| 7.01.3.054 | Otorgamiento, uso y sanciones por mal uso de licencias médicas | :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
 | 7.01.3.055 | Conceptos básicos de administración de establecimientos de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación](planificacion-gestion-y-calidad-en-salud.md) |
-| 7.01.3.056 | Conocimiento de los derechos y deberes del paciente | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.056 | Conocimiento de los derechos y deberes del paciente | :material-check-circle:{ .ok title="Resumen disponible" } [Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente](documentos-medico-legales-y-ejercicio-profesional.md) |
 
 ## Cómo leer los niveles EUNACOM
 

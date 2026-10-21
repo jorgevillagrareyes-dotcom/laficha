@@ -4243,19 +4243,30 @@ especialidades:
       - salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
     - codigo: 7.01.3.050
       nombre: Rol del médico en la generación y uso de la información
+      resumen:
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
     - codigo: 7.01.3.051
       nombre: Certificado de defunción, licencia médica, notificación de enfermedades
+      resumen:
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
     - codigo: 7.01.3.052
       nombre: 'Ejercicio profesional: marcos ético, legal y gremial'
+      resumen:
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
     - codigo: 7.01.3.053
       nombre: Derecho GES a atención integral de salud en agresión sexual aguda
       resumen:
       - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
     - codigo: 7.01.3.054
       nombre: Otorgamiento, uso y sanciones por mal uso de licencias médicas
+      resumen:
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
     - codigo: 7.01.3.055
       nombre: Conceptos básicos de administración de establecimientos de salud
       resumen:
       - salud-publica/planificacion-gestion-y-calidad-en-salud.md
     - codigo: 7.01.3.056
       nombre: Conocimiento de los derechos y deberes del paciente
+      resumen:
+      - salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
