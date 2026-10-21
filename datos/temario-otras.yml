@@ -2225,6 +2225,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 2.01.1.102
       nombre: Otitis media recurrente
       dx: Sospecha
@@ -3676,11 +3678,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.1.008
       nombre: Diagnóstico diferencial de hipoacusias sensorioneurales
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.1.009
       nombre: Disfonías agudas
       dx: Específico
@@ -3711,6 +3717,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.1.015
       nombre: Masa cervical
       dx: Sospecha
@@ -3813,6 +3821,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.1.032
       nombre: Trastorno de deglución
       dx: Sospecha
@@ -3858,6 +3868,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.2.007
       nombre: Cuerpo extraño en el oído
       dx: Específico
@@ -3928,9 +3940,13 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     generales:
     - codigo: 6.03.3.001
       nombre: Detección de hipoacusia y sordera en niños
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
     - codigo: 6.03.3.002
       nombre: Pesquisa de trastornos del lenguaje
     - codigo: 6.03.3.003
@@ -3943,6 +3959,8 @@ especialidades:
       nombre: Prevención de otitis externa
     - codigo: 6.03.3.007
       nombre: Prevención de trauma acústico y daño por exposición a ruidos
+      resumen:
+      - especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
 - carpeta: salud-publica
   titulo: Salud pública
   secciones:

@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **12 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **13 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -113,7 +113,7 @@ hide:
 | 2.01.1.098 | Vicios de refracción | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md) |
 | 2.01.1.099 | Epistaxis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.100 | Hipertrofia adenoidea/amigdalina | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.101 | Hipoacusia | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.101 | Hipoacusia | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md) |
 | 2.01.1.102 | Otitis media recurrente | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.103 | Rinitis alérgica | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.104 | Acné | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
