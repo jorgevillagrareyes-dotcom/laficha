@@ -4051,16 +4051,28 @@ especialidades:
     generales:
     - codigo: 7.01.3.001
       nombre: Conceptos y definiciones de Salud Pública
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.002
       nombre: Funciones esenciales de la Salud Pública
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.003
       nombre: Historia natural de la enfermedad
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.004
       nombre: Niveles de prevención
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.005
       nombre: Promoción de salud y prevención de enfermedades
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.006
       nombre: Determinantes del nivel de salud
+      resumen:
+      - salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
     - codigo: 7.01.3.007
       nombre: Demografía y salud pública
     - codigo: 7.01.3.008

@@ -6,18 +6,22 @@ hide:
 # Salud pública
 
 !!! info "Avance"
-    **1 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **7 de 55** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+
+## Resúmenes disponibles
+
+- :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md)
 
 ## Conocimientos generales
 
 | Código | Tema | Resumen |
 |---|---|---|
-| 7.01.3.001 | Conceptos y definiciones de Salud Pública | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.002 | Funciones esenciales de la Salud Pública | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.003 | Historia natural de la enfermedad | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.004 | Niveles de prevención | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.005 | Promoción de salud y prevención de enfermedades | :material-clock-outline:{ .pend title="Pendiente" } |
-| 7.01.3.006 | Determinantes del nivel de salud | :material-clock-outline:{ .pend title="Pendiente" } |
+| 7.01.3.001 | Conceptos y definiciones de Salud Pública | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
+| 7.01.3.002 | Funciones esenciales de la Salud Pública | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
+| 7.01.3.003 | Historia natural de la enfermedad | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
+| 7.01.3.004 | Niveles de prevención | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
+| 7.01.3.005 | Promoción de salud y prevención de enfermedades | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
+| 7.01.3.006 | Determinantes del nivel de salud | :material-check-circle:{ .ok title="Resumen disponible" } [Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud](conceptos-prevencion-y-determinantes-de-la-salud.md) |
 | 7.01.3.007 | Demografía y salud pública | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.008 | Diagnóstico de situación de salud | :material-clock-outline:{ .pend title="Pendiente" } |
 | 7.01.3.009 | Indicadores de nivel de salud: cálculo e interpretación | :material-clock-outline:{ .pend title="Pendiente" } |
