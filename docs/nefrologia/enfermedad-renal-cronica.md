@@ -16,13 +16,13 @@ Nefrología
 KDIGO 2024: evaluación y manejo de la ERC (Kidney Int, abril 2024)
 
 **Otras fuentes**
-ESC/ERA 2026: enfermedad cardiovascular y ERC · KDIGO 2022 diabetes y ERC · KDIGO 2021 presión arterial · KDIGO 2017 CKD-MBD · GBD 2023 · Guías GES MINSAL
+ESC/ERA 2026: enfermedad cardiovascular y ERC · KDIGO 2026 anemia en ERC · AHA/ACC/ADA/ASN 2026: síndrome cardiovascular-renal-metabólico · KDIGO 2022 diabetes y ERC · KDIGO 2021 presión arterial · KDIGO 2017 CKD-MBD · GBD 2023 · Guías GES MINSAL
 
 **GES**
 Sí: prevención secundaria de la ERC terminal, y ERC etapas 4 y 5 (diálisis y trasplante)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -317,12 +317,17 @@ flowchart LR
 
 === "Anemia"
 
-    - Aparece desde G3 y es casi universal en G5. Es **normocítica normocrómica**, por déficit de **eritropoyetina** y **déficit de hierro** (absoluto o funcional).
+    - Aparece desde G3 y es casi universal en G5. Es **normocítica normocrómica**, por déficit de **eritropoyetina** y **déficit de hierro**. La KDIGO 2026 cambia los nombres: **déficit de hierro sistémico** (antes absoluto) y **eritropoyesis restringida por hierro** (antes funcional).
     - **Primero descartar otras causas**: déficit de hierro por pérdidas (**hemorragia digestiva**), B12, folato, hemólisis, hipotiroidismo.
-    - **Hierro**: si **ferritina ≤ 500 ng/mL y saturación de transferrina ≤ 30 %** (KDIGO 2012): **oral** en ERC no dializada; **endovenoso** en hemodiálisis o si el oral falla o no se tolera.
-    - **Agentes estimulantes de la eritropoyesis** (eritropoyetina, darbepoetina): si la **Hb es < 10 g/dL** tras corregir el hierro. **Meta de Hb ~ 10–11,5 g/dL**. **No superar 13 g/dL** (más ACV, trombosis e HTA).
-    - Los **inhibidores de la HIF-prolil hidroxilasa** (roxadustat, daprodustat) son alternativas orales en algunos países.
-    - Evitar transfusiones cuando sea posible (sensibilización ante un futuro trasplante).
+    - **Hierro (KDIGO 2026)**:
+        - **ERC no dializada y diálisis peritoneal**: si **ferritina < 100 ng/mL** (con saturación de transferrina < 40 %) o **ferritina 100–299 ng/mL con saturación < 25 %**. Habitualmente **oral** primero; endovenoso si falla o no se tolera.
+        - **Hemodiálisis**: si **ferritina ≤ 500 ng/mL y saturación ≤ 30 %**, de preferencia **endovenoso**.
+    - **Agentes estimulantes de la eritropoyesis** (eritropoyetina, darbepoetina), tras corregir el hierro:
+        - **En diálisis**: iniciar con **Hb ~ 9–10 g/dL**.
+        - **ERC no dializada**: umbral **individual**, según los síntomas y los riesgos.
+        - **Mantener la Hb < 11,5 g/dL** (recomendación más fuerte de la guía). Normalizarla aumenta el ACV, la trombosis y la HTA.
+    - Los **inhibidores de la HIF-prolil hidroxilasa** (roxadustat, daprodustat) son orales y de **segunda línea** (la KDIGO 2026 prefiere los agentes estimulantes de la eritropoyesis). Se usan solos, nunca junto con ellos.
+    - **Transfusión restrictiva** y guiada por los síntomas, no por una cifra. Evitarla cuando sea posible (sensibilización ante un futuro trasplante).
 
 === "Alteraciones minerales y óseas (CKD-MBD)"
 
@@ -421,7 +426,7 @@ flowchart LR
     **Gluconato de calcio EV** (estabiliza la membrana), **insulina cristalina 10 U EV + glucosa**, **salbutamol nebulizado** y **hemodiálisis de urgencia** (el tratamiento definitivo). Monitorización continua del ECG.
 
 ??? repaso "5. ¿Cuáles son las metas de hemoglobina con agentes estimulantes de la eritropoyesis y por qué no se debe normalizar la Hb?"
-    Iniciar cuando la Hb es **< 10 g/dL** tras corregir el hierro, con meta **~ 10–11,5 g/dL** y **sin superar 13 g/dL**. Normalizar la Hb aumentó el riesgo de **ACV**, trombosis del acceso vascular, HTA y eventos cardiovasculares (estudios CHOIR y TREAT).
+    Primero corregir el hierro. En diálisis, iniciar con **Hb ~ 9–10 g/dL**; en la ERC no dializada, el umbral es individual según los síntomas. Mantener la **Hb < 11,5 g/dL** (KDIGO 2026). Normalizar la Hb aumentó el riesgo de **ACV**, trombosis del acceso vascular, HTA y eventos cardiovasculares (estudios CHOIR y TREAT).
 
 ## Referencias
 
@@ -430,14 +435,15 @@ flowchart LR
 3. KDIGO Diabetes Work Group. KDIGO 2022 Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease. *Kidney Int.* 2022;102(5S):S1–S127.
 4. KDIGO Blood Pressure Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in Chronic Kidney Disease. *Kidney Int.* 2021;99(3S):S1–S87.
 5. KDIGO CKD-MBD Update Work Group. KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral and Bone Disorder. *Kidney Int Suppl.* 2017;7:1–59.
-6. KDIGO Anemia Work Group. KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease. *Kidney Int Suppl.* 2012;2:279–335.
-7. GBD 2023 Chronic Kidney Disease Collaborators. Global, regional, and national burden of chronic kidney disease in adults, 1990–2023, and its attributable risk factors: a systematic analysis for the Global Burden of Disease Study 2023. *Lancet.* 2025. [thelancet.com](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01853-7/fulltext)
-8. Walbaum M, et al. Chronic kidney disease in adults aged 18 years and older in Chile: findings from the cross-sectional Chilean National Health Surveys 2009–2010 and 2016–2017. *BMJ Open.* 2020. [PMC7473630](https://pmc.ncbi.nlm.nih.gov/articles/PMC7473630/)
-9. Sociedad Chilena de Nefrología. *XLIV Cuenta de Hemodiálisis Crónica en Chile* (al 31 de agosto de 2024).
-10. Ministerio de Salud de Chile. *Guía de Práctica Clínica GES: Prevención secundaria de la enfermedad renal crónica.* 2017.
-11. Tangri N, et al. A predictive model for progression of chronic kidney disease to kidney failure (KFRE). *JAMA.* 2011;305:1553–1559.
-12. Perkovic V, et al. Effects of Semaglutide on Chronic Kidney Disease Outcomes in Patients with Type 2 Diabetes (FLOW). *N Engl J Med.* 2024;391:109–121.
-13. The EMPA-KIDNEY Collaborative Group. Empagliflozin in Patients with Chronic Kidney Disease. *N Engl J Med.* 2023;388:117–127.
-14. Heerspink HJL, et al. Dapagliflozin in Patients with Chronic Kidney Disease (DAPA-CKD). *N Engl J Med.* 2020;383:1436–1446.
-15. Bhandari S, et al. Renin–Angiotensin System Inhibition in Advanced Chronic Kidney Disease (STOP-ACEi). *N Engl J Med.* 2022;387:2021–2032.
-16. Yan MT, Chao CT, Lin SH. Chronic Kidney Disease: Strategies to Retard Progression. *Int J Mol Sci.* 2021;22:10084. doi:[10.3390/ijms221810084](https://doi.org/10.3390/ijms221810084)
+6. KDIGO Anemia Work Group. KDIGO 2026 Clinical Practice Guideline for the Management of Anemia in Chronic Kidney Disease (CKD). *Kidney Int.* 2026;109(1):S1–S99. doi:[10.1016/j.kint.2025.06.006](https://doi.org/10.1016/j.kint.2025.06.006)
+7. Ndumele CE, Rodriguez F, Dixon DL, et al. 2026 AHA/ACC/ADA/ASN guideline for the prevention, detection, evaluation, and management of cardiovascular-kidney-metabolic syndrome. *Circulation.* 2026;154(4). doi:[10.1161/CIR.0000000000001453](https://doi.org/10.1161/CIR.0000000000001453)
+8. GBD 2023 Chronic Kidney Disease Collaborators. Global, regional, and national burden of chronic kidney disease in adults, 1990–2023, and its attributable risk factors: a systematic analysis for the Global Burden of Disease Study 2023. *Lancet.* 2025. [thelancet.com](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01853-7/fulltext)
+9. Walbaum M, et al. Chronic kidney disease in adults aged 18 years and older in Chile: findings from the cross-sectional Chilean National Health Surveys 2009–2010 and 2016–2017. *BMJ Open.* 2020. [PMC7473630](https://pmc.ncbi.nlm.nih.gov/articles/PMC7473630/)
+10. Sociedad Chilena de Nefrología. *XLIV Cuenta de Hemodiálisis Crónica en Chile* (al 31 de agosto de 2024).
+11. Ministerio de Salud de Chile. *Guía de Práctica Clínica GES: Prevención secundaria de la enfermedad renal crónica.* 2017.
+12. Tangri N, et al. A predictive model for progression of chronic kidney disease to kidney failure (KFRE). *JAMA.* 2011;305:1553–1559.
+13. Perkovic V, et al. Effects of Semaglutide on Chronic Kidney Disease Outcomes in Patients with Type 2 Diabetes (FLOW). *N Engl J Med.* 2024;391:109–121.
+14. The EMPA-KIDNEY Collaborative Group. Empagliflozin in Patients with Chronic Kidney Disease. *N Engl J Med.* 2023;388:117–127.
+15. Heerspink HJL, et al. Dapagliflozin in Patients with Chronic Kidney Disease (DAPA-CKD). *N Engl J Med.* 2020;383:1436–1446.
+16. Bhandari S, et al. Renin–Angiotensin System Inhibition in Advanced Chronic Kidney Disease (STOP-ACEi). *N Engl J Med.* 2022;387:2021–2032.
+17. Yan MT, Chao CT, Lin SH. Chronic Kidney Disease: Strategies to Retard Progression. *Int J Mol Sci.* 2021;22:10084. doi:[10.3390/ijms221810084](https://doi.org/10.3390/ijms221810084)

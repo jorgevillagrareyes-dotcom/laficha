@@ -15,7 +15,7 @@ Endocrinología · Nutrición · Cardiología · Cirugía bariátrica
 ADA Standards of Care in Overweight and Obesity 2026 (diagnóstico y tratamiento farmacológico) · Comisión *Lancet Diabetes & Endocrinology* 2025: obesidad clínica · OMS 2025: terapias GLP-1 en la obesidad · ASMBS/IFSO 2022: indicaciones de cirugía metabólica y bariátrica · Declaración armonizada del síndrome metabólico (IDF/AHA/NHLBI 2009) · Guía de práctica clínica de obesidad del adulto adaptada para Chile (2022)
 
 **Otras fuentes**
-Encuesta Nacional de Salud 2016–2017 · Ensayos STEP 1, SURMOUNT-1, SURMOUNT-4, SURMOUNT-5 y SELECT · AHA 2023: síndrome cardiovascular-renal-metabólico
+Encuesta Nacional de Salud 2016–2017 · Ensayos STEP 1, SURMOUNT-1, SURMOUNT-4, SURMOUNT-5 y SELECT · AHA 2023 y AHA/ACC/ADA/ASN 2026: síndrome cardiovascular-renal-metabólico
 
 **GES**
 La obesidad **no tiene GES propio**. Sí lo tienen sus complicaciones: **diabetes tipo 2** y **HTA**. FONASA cubre la **manga gástrica** y el **bypass gástrico** mediante **PAD**. En APS existe el **Programa Vida Sana**.
@@ -24,7 +24,7 @@ La obesidad **no tiene GES propio**. Sí lo tienen sus complicaciones: **diabete
 1.02.1.012 Obesidad (específico, completo, completo) · 1.02.1.013 Obesidad mórbida (sospecha, inicial, derivar) · 1.02.1.016 y 1.01.1.023 Síndrome metabólico (específico, completo, completo)
 
 **Revisado**
-Septiembre 2026
+Octubre 2026
 
 </div>
 
@@ -254,6 +254,7 @@ flowchart TD
 - La **IDF** (2005) exigía la obesidad central como criterio obligatorio. La declaración armonizada de 2009 la dejó como **uno más** de los cinco.
 - Su valor es **identificar** a quien tiene riesgo alto de **DM2** (≈ 5 veces) y de **enfermedad cardiovascular** (≈ 2 veces). **No reemplaza** el cálculo del riesgo cardiovascular global.
 - La AHA (2023) propone el concepto de **síndrome cardiovascular-renal-metabólico** (etapas 0–4). Integra la adiposidad, la disfunción metabólica, la ERC y la enfermedad cardiovascular.
+- La primera **guía AHA/ACC/ADA/ASN** de este síndrome (**2026**) reemplaza a la guía de obesidad AHA/ACC/TOS de 2013. Pide evaluar de rutina los factores de riesgo cardiovascular-renal-metabólicos (incluidas la **VFGe** y la **albuminuria**) y estimar el riesgo a 10 años con las ecuaciones **PREVENT** entre los 30 y 79 años sin enfermedad cardiovascular.
 
 ## Laboratorio
 
@@ -548,8 +549,9 @@ flowchart TD
 18. Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. *N Engl J Med.* 2002;346(6):393–403. doi:[10.1056/NEJMoa012512](https://doi.org/10.1056/NEJMoa012512)
 19. Sharma AM, Kushner RF. A proposed clinical staging system for obesity. *Int J Obes (Lond).* 2009;33(3):289–295. doi:[10.1038/ijo.2009.2](https://doi.org/10.1038/ijo.2009.2)
 20. Ndumele CE, Rangaswami J, Chow SL, et al. Cardiovascular-kidney-metabolic health: a presidential advisory from the American Heart Association. *Circulation.* 2023;148(20):1606–1635. doi:[10.1161/CIR.0000000000001184](https://doi.org/10.1161/CIR.0000000000001184)
-21. Lauby-Secretan B, Scoccianti C, Loomis D, et al. Body fatness and cancer—viewpoint of the IARC Working Group. *N Engl J Med.* 2016;375(8):794–798. doi:[10.1056/NEJMsr1606602](https://doi.org/10.1056/NEJMsr1606602)
-22. Braghetto I, Carreño B, Hermosilla R, Zanabria R. Gastroesophageal reflux disease and the phantom of Barrett's esophagus after most-often-used bariatric procedures: are future investigations necessary? *Arq Bras Cir Dig.* 2025;38:e1910. doi:[10.1590/0102-67202025000041e1910](https://doi.org/10.1590/0102-67202025000041e1910)
-23. European Medicines Agency. PRAC concludes eye condition NAION is a very rare side effect of semaglutide medicines Ozempic, Rybelsus and Wegovy. Junio de 2025. [ema.europa.eu](https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy)
-24. BioBioChile. Bono PAD para cirugía bariátrica: las 2 opciones que tiene Fonasa para costearlo y qué incluyen. 15 de mayo de 2026. [biobiochile.cl](https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/05/15/bono-pad-para-cirugia-bariatrica-las-2-opciones-que-tiene-fonasa-para-costearlo-y-que-incluyen.shtml) · Ficha de FONASA: [fonasa.gob.cl](https://www.fonasa.gob.cl/coberturas-de-salud/cirugia-bariatrica-por-manga-gastrica-incluye-seguimiento/)
-25. La Tercera. El Ozempic ya no está solo: el mercado de fármacos que está transformando la forma de bajar de peso en Chile. 22 de julio de 2026. [latercera.com](https://www.latercera.com/lt-board/noticia/el-ozempic-ya-no-esta-solo-el-mercado-de-farmacos-que-esta-transformando-la-forma-de-bajar-de-peso-en-chile/)
+21. Ndumele CE, Rodriguez F, Dixon DL, et al. 2026 AHA/ACC/ADA/ASN guideline for the prevention, detection, evaluation, and management of cardiovascular-kidney-metabolic syndrome. *Circulation.* 2026;154(4). doi:[10.1161/CIR.0000000000001453](https://doi.org/10.1161/CIR.0000000000001453)
+22. Lauby-Secretan B, Scoccianti C, Loomis D, et al. Body fatness and cancer—viewpoint of the IARC Working Group. *N Engl J Med.* 2016;375(8):794–798. doi:[10.1056/NEJMsr1606602](https://doi.org/10.1056/NEJMsr1606602)
+23. Braghetto I, Carreño B, Hermosilla R, Zanabria R. Gastroesophageal reflux disease and the phantom of Barrett's esophagus after most-often-used bariatric procedures: are future investigations necessary? *Arq Bras Cir Dig.* 2025;38:e1910. doi:[10.1590/0102-67202025000041e1910](https://doi.org/10.1590/0102-67202025000041e1910)
+24. European Medicines Agency. PRAC concludes eye condition NAION is a very rare side effect of semaglutide medicines Ozempic, Rybelsus and Wegovy. Junio de 2025. [ema.europa.eu](https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy)
+25. BioBioChile. Bono PAD para cirugía bariátrica: las 2 opciones que tiene Fonasa para costearlo y qué incluyen. 15 de mayo de 2026. [biobiochile.cl](https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/05/15/bono-pad-para-cirugia-bariatrica-las-2-opciones-que-tiene-fonasa-para-costearlo-y-que-incluyen.shtml) · Ficha de FONASA: [fonasa.gob.cl](https://www.fonasa.gob.cl/coberturas-de-salud/cirugia-bariatrica-por-manga-gastrica-incluye-seguimiento/)
+26. La Tercera. El Ozempic ya no está solo: el mercado de fármacos que está transformando la forma de bajar de peso en Chile. 22 de julio de 2026. [latercera.com](https://www.latercera.com/lt-board/noticia/el-ozempic-ya-no-esta-solo-el-mercado-de-farmacos-que-esta-transformando-la-forma-de-bajar-de-peso-en-chile/)
