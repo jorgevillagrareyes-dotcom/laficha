@@ -65,7 +65,7 @@ Septiembre 2026
 !!! chile "Datos nacionales"
     - No hay registros nacionales de incidencia de LRA; en hospitales chilenos se reportan frecuencias similares a las internacionales en pacientes hospitalizados y críticos.
     - La **ERC** (principal factor de riesgo de LRA) afecta a ~ 3 % de los adultos (ENS 2016–2017) y a ~ 12 % de los pacientes del Programa de Salud Cardiovascular.
-    - Causas locales a considerar: **hantavirus** (síndrome cardiopulmonar con LRA), **leptospirosis** en zonas rurales del sur, **loxoscelismo cutáneo-visceral** (picadura de araña del rincón: hemólisis y LRA).
+    - Causas locales a considerar: **hantavirus** (síndrome cardiopulmonar con LRA), **leptospirosis** en zonas rurales del sur, **[loxoscelismo cutáneo-visceral](../especialidades/dermatologia/loxoscelismo-e-higiene-de-la-vivienda.md)** (mordedura de la araña del rincón: hemólisis y LRA).
 
 ## Etiología y factores de riesgo
 

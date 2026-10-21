@@ -105,7 +105,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 78. Lupus eritematoso sistémico
 
 **Guía MINSAL:** [Lupus eritematoso sistémico](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Lupus.pdf)  
-**En La Ficha:** [Lupus](../reumatologia/lupus-y-otras-mesenquimopatias.md)
+**En La Ficha:** [Lupus](../reumatologia/lupus-y-otras-mesenquimopatias.md) · [Lupus cutáneo](../especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
 
 ### N.° 80. Tratamiento de erradicación del Helicobacter pylori
 
@@ -198,8 +198,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 14. Cáncer en personas menores de 15 años
 
-**Guía MINSAL:** [Linfoma y tumores sólidos en menores de 15 años](https://diprece.minsal.cl/guias-de-practica-clinicas/linfoma-y-tumores-solidos-pediatricos/) · [Leucemia en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/leucemias-en-menores-de-15-anos/) · [Linfoma en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/linfoma-en-menores-de-15-anos/)
-
+**Guía MINSAL:** [Linfoma y tumores sólidos en menores de 15 años](https://diprece.minsal.cl/guias-de-practica-clinicas/linfoma-y-tumores-solidos-pediatricos/) · [Leucemia en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/leucemias-en-menores-de-15-anos/) · [Linfoma en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/linfoma-en-menores-de-15-anos/)  
+**En La Ficha:** [Tumores oculares (retinoblastoma)](../especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md)
 ### N.° 16. Cáncer de testículo en personas de 15 años y más
 
 **Guía MINSAL:** [Cáncer de testículo en personas de 15 años y más](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cancer-de-testiculos-en-personas-de-15-anos-y-mas/recomendaciones/)  
@@ -316,25 +316,25 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 11. Tratamiento quirúrgico de cataratas
 
-**Guía MINSAL:** [Tratamiento quirúrgico de cataratas congénitas y adquiridas](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tratamiento-quirurgico-de-cataratas-congenitas-y-adquiridas/recomendaciones/)
-
+**Guía MINSAL:** [Tratamiento quirúrgico de cataratas congénitas y adquiridas](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tratamiento-quirurgico-de-cataratas-congenitas-y-adquiridas/recomendaciones/)  
+**En La Ficha:** [Glaucoma y catarata](../especialidades/oftalmologia/glaucoma-y-catarata.md)
 ### N.° 30. Estrabismo en personas menores de 9 años
 
-**Guía MINSAL:** [Estrabismo en menores de 9 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/estrabismo-en-menores-de-9-anos/recomendaciones/)
-
+**Guía MINSAL:** [Estrabismo en menores de 9 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/estrabismo-en-menores-de-9-anos/recomendaciones/)  
+**En La Ficha:** [Vicios de refracción, estrabismo y examen visual](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md)
 ### N.° 31. Retinopatía diabética
 
 **Guía MINSAL:** [Retinopatía diabética](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/retinopatia-diabetica/recomendaciones/)  
-**En La Ficha:** [Complicaciones crónicas de la diabetes](../endocrinologia/complicaciones-cronicas-de-la-diabetes.md)
+**En La Ficha:** [Complicaciones crónicas de la diabetes](../endocrinologia/complicaciones-cronicas-de-la-diabetes.md) · [Retina, nervio óptico y baja de visión](../especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md)
 
 ### N.° 32. Desprendimiento de retina regmatógeno no traumático
 
-**Guía MINSAL:** [Desprendimiento de retina regmatógeno no traumático](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/desprendimiento-de-retina-no-regmatogeno/recomendaciones/)
-
+**Guía MINSAL:** [Desprendimiento de retina regmatógeno no traumático](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/desprendimiento-de-retina-no-regmatogeno/recomendaciones/)  
+**En La Ficha:** [Retina, nervio óptico y baja de visión](../especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md)
 ### N.° 50. Trauma ocular grave
 
-**Guía MINSAL:** [Trauma ocular grave](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/trauma-ocular-grave/recomendaciones/)
-
+**Guía MINSAL:** [Trauma ocular grave](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/trauma-ocular-grave/recomendaciones/)  
+**En La Ficha:** [Trauma ocular](../especialidades/oftalmologia/trauma-ocular.md)
 ## Intervenciones quirúrgicas
 
 ### N.° 9. Disrafias espinales
@@ -396,8 +396,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 29. Vicios de refracción en personas de 65 años y más
 
-**Guía MINSAL:** [Vicios de refracción en personas de 65 años y más](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/vicios-de-refraccion-en-personas-de-65-anos-y-mas/recomendaciones/)
-
+**Guía MINSAL:** [Vicios de refracción en personas de 65 años y más](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/vicios-de-refraccion-en-personas-de-65-anos-y-mas/recomendaciones/)  
+**En La Ficha:** [Vicios de refracción, estrabismo y examen visual](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md)
 ### N.° 36. Ayudas técnicas para personas de 65 años y más
 
 **Guía MINSAL:** [Ayudas técnicas para personas de 65 años y más](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/ortesis-o-ayudas-tecnicas-para-personas-mayores-de-65-anos-y-mas/recomendaciones/)  
@@ -405,8 +405,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 56. Hipoacusia bilateral en personas de 65 años y más que requieren uso de audífono
 
-**Guía MINSAL:** [Hipoacusia bilateral en personas de 65 años y más](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Hipoacusia-bilateral-mayores-65-a%C3%B1os.pdf)
-
+**Guía MINSAL:** [Hipoacusia bilateral en personas de 65 años y más](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/Hipoacusia-bilateral-mayores-65-a%C3%B1os.pdf)  
+**En La Ficha:** [Hipoacusias, sordera súbita y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md)
 ## Embarazo, parto, prematurez y recién nacido
 
 ### N.° 24. Prevención de parto prematuro
@@ -425,16 +425,16 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 57. Retinopatía del prematuro
 
-**Guía MINSAL:** [Retinopatía del prematuro](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/retinopatia-del-prematuro/recomendaciones/)
-
+**Guía MINSAL:** [Retinopatía del prematuro](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/retinopatia-del-prematuro/recomendaciones/)  
+**En La Ficha:** [Retina, nervio óptico y baja de visión](../especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md)
 ### N.° 58. Displasia broncopulmonar del prematuro
 
 **Guía MINSAL:** [Displasia broncopulmonar del prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-broncopulmonar-del-prematuro/recomendaciones/)
 
 ### N.° 59. Hipoacusia neurosensorial bilateral del prematuro
 
-**Guía MINSAL:** [Hipoacusia neurosensorial bilateral del prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/)
-
+**Guía MINSAL:** [Hipoacusia neurosensorial bilateral del prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/)  
+**En La Ficha:** [Hipoacusias, sordera súbita y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md)
 ### N.° 65. Displasia luxante de caderas
 
 **Guía MINSAL:** [Displasia luxante de caderas](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-luxante-de-caderas/recomendaciones/)  
@@ -442,8 +442,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 77. Hipoacusia moderada, severa y profunda en personas menores de 4 años
 
-**Guía MINSAL:** [Hipoacusia en menores de 4 años](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/)
-
+**Guía MINSAL:** [Hipoacusia en menores de 4 años](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/hipoacusia-en-menores-de-4-anos/recomendaciones/)  
+**En La Ficha:** [Hipoacusias, sordera súbita y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md)
 ## Salud oral
 
 ### N.° 23. Salud oral integral para niños y niñas de 6 años
