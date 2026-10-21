@@ -3384,6 +3384,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.1.011
       nombre: Estrabismo
       dx: Sospecha
@@ -3427,6 +3429,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.1.018
       nombre: Obstrucción completa de la vía lacrimal
       dx: Específico
@@ -3460,6 +3464,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.1.023
       nombre: Retinopatía diabética
       dx: Sospecha
@@ -3529,11 +3535,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.2.004
       nombre: Disminución de la visión (lenta vs súbita)
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.2.005
       nombre: Glaucoma agudo
       dx: Sospecha
@@ -3546,6 +3556,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
     - codigo: 6.02.2.007
       nombre: Herida penetrante o perforante ocular
       dx: Sospecha
