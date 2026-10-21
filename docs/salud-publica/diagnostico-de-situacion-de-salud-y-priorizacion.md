@@ -14,7 +14,7 @@ Salud pública · Epidemiología aplicada · Planificación en salud · Atenció
 OPS: Análisis de situación de salud (ASIS) e *Indicadores de salud: aspectos conceptuales y operativos* (2018) · Método de Hanlon y su adaptación por la OPS (Choi, *Rev Panam Salud Publica* 2019) · Método OPS-CENDES de programación sanitaria (1965)
 
 **Otras fuentes**
-MINSAL: orientaciones para la planificación y programación en red y Modelo de Atención Integral de Salud Familiar y Comunitaria · Ley 19.378, Estatuto de Atención Primaria (plan de salud comunal) · Ver conceptos y prevención en salud pública, demografía e indicadores, y planificación y gestión en salud
+MINSAL: orientaciones para la planificación y programación en red y Modelo de Atención Integral de Salud Familiar y Comunitaria · Ley 19.378, Estatuto de Atención Primaria (plan de salud comunal) · Ver [conceptos y prevención en salud pública](conceptos-prevencion-y-determinantes-de-la-salud.md), [demografía e indicadores](demografia-e-indicadores-de-salud.md) y [planificación y gestión en salud](planificacion-gestion-y-calidad-en-salud.md)
 
 **EUNACOM**
 7.01.3.008 Diagnóstico de situación de salud · 7.01.3.010 Etapas del diagnóstico de situación de salud · 7.01.3.012 Ejecución de un diagnóstico · 7.01.3.017 Usos de la epidemiología en el diagnóstico de situación de salud · 7.01.3.029 Descripción sistemática de problemas · 7.01.3.030 Criterios de priorización de problemas (conocimientos generales)
@@ -97,7 +97,7 @@ flowchart TD
 - **Identificar factores de riesgo** y **determinantes** y estimar su **impacto** (riesgo atribuible poblacional): cuánto bajaría el problema si se eliminara el factor.
 - **Estimar la carga de enfermedad** (AVPP, AVISA) para comparar problemas que matan con otros que discapacitan.
 - **Evaluar** la **cobertura** y el **impacto** de los programas (antes y después).
-- **Vigilar**: detectar **cambios** y **brotes** (ver la página de vigilancia epidemiológica).
+- **Vigilar**: detectar **cambios** y **brotes** (ver [vigilancia epidemiológica](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md)).
 
 ## Descripción sistemática de problemas
 

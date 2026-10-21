@@ -14,7 +14,7 @@ Salud pública · Medicina preventiva · Atención primaria
 OPS 2020: Las funciones esenciales de la salud pública en las Américas, una renovación para el siglo XXI · Leavell y Clark: historia natural de la enfermedad y niveles de prevención · OMS 1986: Carta de Ottawa · Comisión sobre Determinantes Sociales de la Salud de la OMS (2008)
 
 **Otras fuentes**
-Winslow (*Science* 1920): definición clásica de salud pública · Informe Lalonde (Canadá, 1974) · Prevención cuaternaria (Martins, *Eur J Gen Pract* 2018) · Ver demografía e indicadores y epidemiología descriptiva y vigilancia
+Winslow (*Science* 1920): definición clásica de salud pública · Informe Lalonde (Canadá, 1974) · Prevención cuaternaria (Martins, *Eur J Gen Pract* 2018) · Ver [demografía e indicadores](demografia-e-indicadores-de-salud.md) y [epidemiología descriptiva y vigilancia](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md)
 
 **EUNACOM**
 7.01.3.001 Conceptos y definiciones de salud pública · 7.01.3.002 Funciones esenciales de la salud pública · 7.01.3.003 Historia natural de la enfermedad · 7.01.3.004 Niveles de prevención · 7.01.3.005 Promoción de salud y prevención de enfermedades · 7.01.3.006 Determinantes del nivel de salud (conocimientos generales)
@@ -124,7 +124,7 @@ flowchart LR
 - **Prevención primaria** tiene dos componentes (Leavell y Clark):
     - **Promoción de la salud**: medidas **inespecíficas** que mejoran la salud general (alimentación, vivienda, educación).
     - **Protección específica**: medidas contra **una** enfermedad (vacuna contra el sarampión, yodación de la sal contra el bocio).
-- **Prevención secundaria**: su herramienta es el **tamizaje** (ver pruebas de tamizaje y diagnósticas). No evita que la enfermedad aparezca.
+- **Prevención secundaria**: su herramienta es el **tamizaje** (ver [pruebas de tamizaje y diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md)). No evita que la enfermedad aparezca.
 - **Prevención cuaternaria** (Jamoulle, 1986): identificar al paciente en riesgo de **medicalización excesiva** y protegerlo de intervenciones innecesarias. Es un principio **ético** ("primero no dañar").
 - **Prevención primordial** (Strasser, 1978): evitar que aparezcan los **factores de riesgo** en la población (por ejemplo, políticas que eviten que los niños adquieran hábitos de sedentarismo o de alimentación no saludable).
 - **Estrategias de prevención** (Rose):
@@ -205,7 +205,7 @@ flowchart LR
 
 !!! chile "Determinantes sociales en Chile"
     - Chile tiene marcadas **desigualdades** en salud según **nivel educacional**, **ingreso**, **comuna** y **pertenencia a pueblos originarios**: la esperanza de vida y la mortalidad infantil varían de manera importante entre comunas.
-    - El enfoque de **determinantes sociales** y de **equidad** forma parte de la **Estrategia Nacional de Salud** para los Objetivos Sanitarios al 2030 (ver sistema de salud chileno).
+    - El enfoque de **determinantes sociales** y de **equidad** forma parte de la **Estrategia Nacional de Salud** para los Objetivos Sanitarios al 2030 (ver [sistema de salud chileno](sistema-de-salud-chileno-y-seguridad-social.md)).
 
 ## Perlas para el EUNACOM
 

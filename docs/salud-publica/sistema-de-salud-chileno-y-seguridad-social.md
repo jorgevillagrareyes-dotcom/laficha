@@ -15,7 +15,7 @@ Salud pública · Políticas y sistemas de salud · Seguridad social · Gestión
 MINSAL: Estrategia Nacional de Salud para los Objetivos Sanitarios al 2030 (Res. Ex. N.° 831 de 2024) · DFL N.° 1 de 2005 del MINSAL (texto refundido del DL 2.763 y de las leyes 18.469 y 18.933) · Ley 19.966 (Régimen de Garantías Explícitas en Salud, 2004) · Superintendencia de Salud: análisis de la cartera de beneficiarios 2025
 
 **Otras fuentes**
-OCDE: Panorama de la Salud 2025, nota de Chile · OIT: Convenio N.° 102 sobre la seguridad social (norma mínima), 1952 · Ley 20.850 (Ricarte Soto, 2015) · Ley 21.674 (isapres, 2024) · Ver [Patologías GES](../ges/index.md), [conceptos y funciones esenciales de la salud pública](conceptos-prevencion-y-determinantes-de-la-salud.md) y [diagnóstico de situación de salud](diagnostico-de-situacion-de-salud-y-priorizacion.md)
+OCDE: Panorama de la Salud 2025, nota de Chile · OIT: Convenio N.° 102 sobre la seguridad social (norma mínima), 1952 · Ley 20.850 (Ricarte Soto, 2015) · Ley 21.674 (isapres, 2024) · Ver [Patologías GES](../ges/index.md), [conceptos y funciones esenciales de la salud pública](conceptos-prevencion-y-determinantes-de-la-salud.md) y [diagnóstico de situación de salud](diagnostico-de-situacion-de-salud-y-priorizacion.md), [planificación, gestión y calidad](planificacion-gestion-y-calidad-en-salud.md) y [documentos médico-legales](documentos-medico-legales-y-ejercicio-profesional.md)
 
 **EUNACOM**
 7.01.3.033 Bases conceptuales de la seguridad social · 7.01.3.034 Desarrollo histórico de la seguridad social y la atención de salud · 7.01.3.035 Funciones de los sistemas de atención de salud · 7.01.3.036 Organización actual del sistema de salud chileno · 7.01.3.037 Política sanitaria y objetivos sanitarios en Chile · 7.01.3.038 Definición, estructura y funciones de los subsistemas · 7.01.3.039 Concepto y descripción de la red asistencial · 7.01.3.040 Beneficios de la seguridad social y rol del médico en su acceso · 7.01.3.049 Financiamiento del sector salud (conocimientos generales)
@@ -226,7 +226,7 @@ flowchart TD
 
 | Beneficio | Contingencia | Rol del médico |
 |---|---|---|
-| **Licencia médica** y **subsidio por incapacidad laboral** | Enfermedad común, maternidad, enfermedad grave del hijo menor de 1 año | **Emitir** la licencia con fundamento clínico (ver la página de documentos médico-legales). La revisan la **COMPIN** (FONASA) o la **isapre** |
+| **Licencia médica** y **subsidio por incapacidad laboral** | Enfermedad común, maternidad, enfermedad grave del hijo menor de 1 año | **Emitir** la licencia con fundamento clínico (ver [documentos médico-legales](documentos-medico-legales-y-ejercicio-profesional.md)). La revisan la **COMPIN** (FONASA) o la **isapre** |
 | **Prenatal y postnatal** (incluido el **postnatal parental**) | Maternidad | Emitir la licencia **maternal** |
 | **Ley SANNA** (Ley 21.063) | Hijo de 1 a 18 años con **enfermedad grave** (cáncer, trasplante, fase terminal, accidente grave) | Certificar la condición del hijo |
 | **Ley 16.744** | **Accidente del trabajo**, de **trayecto** o **enfermedad profesional** | **Sospechar** el origen laboral y **derivar** a la mutualidad (con la DIAT o DIEP); no emitir licencia común |

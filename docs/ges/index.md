@@ -300,7 +300,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 86. Atención integral de salud en agresión sexual aguda
 
 **Guía MINSAL:** no figura en el listado de guías clínicas GES del MINSAL (octubre 2026)  
-**En La Ficha:** [Maltrato y violencia intrafamiliar](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md)
+**En La Ficha:** [Maltrato y violencia intrafamiliar](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) · [Documentos médico-legales](../salud-publica/documentos-medico-legales-y-ejercicio-profesional.md)
 
 ### N.° 89. Tratamiento hospitalario para personas menores de 15 años con depresión grave refractaria o psicótica con riesgo suicida
 

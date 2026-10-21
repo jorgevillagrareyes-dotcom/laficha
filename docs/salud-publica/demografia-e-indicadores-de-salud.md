@@ -14,7 +14,7 @@ Salud pública · Demografía · Bioestadística · Epidemiología
 INE: Censo de Población y Vivienda 2024 (primeros resultados, 2025) · INE: Estadísticas Vitales, cifras provisionales 2025 (2026) · INE: Estimaciones y Proyecciones de Población base 2024 · DEIS-MINSAL: estadísticas de defunciones y egresos
 
 **Otras fuentes**
-OPS: *Indicadores de salud: aspectos conceptuales y operativos* (2018) · Murray: años de vida ajustados por discapacidad (carga de enfermedad) · Ver conceptos y prevención en salud pública y diagnóstico de situación de salud
+OPS: *Indicadores de salud: aspectos conceptuales y operativos* (2018) · Murray: años de vida ajustados por discapacidad (carga de enfermedad) · Ver [conceptos y prevención en salud pública](conceptos-prevencion-y-determinantes-de-la-salud.md) y [diagnóstico de situación de salud](diagnostico-de-situacion-de-salud-y-priorizacion.md)
 
 **EUNACOM**
 7.01.3.007 Demografía y salud pública · 7.01.3.009 Indicadores de nivel de salud: cálculo e interpretación · 7.01.3.011 Fuentes de información para el diagnóstico (conocimientos generales)
@@ -140,7 +140,7 @@ flowchart LR
 
 ### Indicadores de morbilidad y de carga de enfermedad
 
-- **Incidencia**, **prevalencia** y sus relaciones: ver la página de epidemiología descriptiva.
+- **Incidencia**, **prevalencia** y sus relaciones: ver [epidemiología descriptiva](epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md).
 - **Años de vida potencialmente perdidos (AVPP)**: suma, para cada muerte, de la diferencia entre una **edad límite** (por ejemplo, 80 años o la esperanza de vida) y la **edad de la muerte**. Da más peso a las muertes de **jóvenes**: las **lesiones** (accidentes, homicidios, suicidios) suben en el ranking.
 - **Años de vida ajustados por discapacidad (AVISA**, AVAD o **DALY)**: **AVISA = AVP (años perdidos por muerte prematura) + AVD (años vividos con discapacidad)**. Un AVISA es **un año de vida sana perdido**. Permite comparar enfermedades que **matan** con otras que **discapacitan** (por ejemplo, la **depresión** y los trastornos musculoesqueléticos suben mucho en el ranking).
 - **Esperanza de vida libre de discapacidad** o **ajustada por salud**: años que se esperaría vivir en **buena salud**.
@@ -175,7 +175,7 @@ Una comuna de **200 000** habitantes (al 30 de junio) registra en el año **1400
 - **Fuentes primarias**: los datos se recogen **directamente** para el estudio (encuesta propia).
 - **Fuentes secundarias**: datos ya registrados con otro fin (estadísticas vitales, egresos). Son baratas y disponibles, pero pueden tener **subregistro** y errores de **codificación**.
 - **Calidad de la información**: **cobertura** (¿se registran todos los eventos?), **oportunidad**, **exactitud** (por ejemplo, la causa de muerte mal certificada) y **comparabilidad**. Un buen indicador de calidad de las estadísticas de mortalidad es el porcentaje de defunciones con **causa mal definida** (códigos R de la CIE-10) y el porcentaje con **certificación médica**.
-- **Rol del médico**: la calidad de las estadísticas depende de que el médico **certifique bien la causa de muerte** y **notifique** las enfermedades (ver la página de documentos médico-legales).
+- **Rol del médico**: la calidad de las estadísticas depende de que el médico **certifique bien la causa de muerte** y **notifique** las enfermedades (ver [documentos médico-legales](documentos-medico-legales-y-ejercicio-profesional.md)).
 
 ## Perlas para el EUNACOM
 

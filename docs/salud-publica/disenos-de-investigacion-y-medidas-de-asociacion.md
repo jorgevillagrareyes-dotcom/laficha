@@ -37,7 +37,7 @@ Octubre 2026
 ## Epidemiología analítica
 
 - **Objetivo**: evaluar si una **exposición** (variable independiente) se **asocia** a un **efecto** (variable dependiente) y si esa asociación es **causal**.
-- **Pasos**: formular una **hipótesis** (desde la epidemiología descriptiva), elegir un **diseño**, medir la **asociación** (RR, OR), evaluar el **azar** (valor p, intervalo de confianza), los **sesgos** y la **confusión**, y juzgar la **causalidad** (ver la página de causalidad, sesgos y pruebas diagnósticas).
+- **Pasos**: formular una **hipótesis** (desde la epidemiología descriptiva), elegir un **diseño**, medir la **asociación** (RR, OR), evaluar el **azar** (valor p, intervalo de confianza), los **sesgos** y la **confusión**, y juzgar la **causalidad** (ver [causalidad, sesgos y pruebas diagnósticas](causalidad-sesgos-y-pruebas-diagnosticas.md)).
 - **Hipótesis nula (H₀)**: no hay asociación. **Hipótesis alternativa (H₁)**: sí la hay.
 - **Error tipo I (α)**: rechazar H₀ siendo verdadera (**falso positivo**); se fija en **5 %**. **Error tipo II (β)**: no rechazar H₀ siendo falsa (**falso negativo**). **Poder** = 1 − β (habitualmente **80–90 %**); aumenta con el **tamaño de muestra**.
 - **Valor p**: probabilidad de observar un resultado igual o más extremo **si H₀ fuera cierta**. p < 0,05: **estadísticamente significativo**. No mide la **magnitud** ni la **importancia clínica**.
