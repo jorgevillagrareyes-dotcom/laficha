@@ -6,11 +6,12 @@ hide:
 # Dermatología
 
 !!! info "Avance"
-    **10 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **14 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md)
 
 ## Situaciones clínicas
 
@@ -19,10 +20,10 @@ hide:
 | 6.01.1.001 | Acné | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](acne-y-rosacea.md) |
 | 6.01.1.002 | Alopecías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.003 | Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.004 | Dermatitis atópica | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.005 | Dermatitis del pañal | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.006 | Dermatitis seborreica infantil y del adulto | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 6.01.1.007 | Dermitis de contacto | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 6.01.1.004 | Dermatitis atópica | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
+| 6.01.1.005 | Dermatitis del pañal | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
+| 6.01.1.006 | Dermatitis seborreica infantil y del adulto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
+| 6.01.1.007 | Dermitis de contacto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 6.01.1.008 | Enfermedades de transmisión sexual | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones de transmisión sexual y sífilis](../../infectologia/infecciones-de-transmision-sexual-y-sifilis.md) |
 | 6.01.1.009 | Eritema nodoso / Eritema indurado de Bazin | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 6.01.1.010 | Eritema polimorfo menor | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |

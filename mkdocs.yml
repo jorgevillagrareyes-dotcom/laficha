@@ -381,6 +381,7 @@ nav:
       - "Dermatología":
           - especialidades/dermatologia/index.md
           - "Acné y rosácea": especialidades/dermatologia/acne-y-rosacea.md
+          - "Dermatitis atópica, de contacto, seborreica y del pañal": especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
       - "Oftalmología":
           - especialidades/oftalmologia/index.md
       - "Otorrinolaringología":

@@ -2973,21 +2973,29 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 6.01.1.005
       nombre: Dermatitis del pañal
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 6.01.1.006
       nombre: Dermatitis seborreica infantil y del adulto
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 6.01.1.007
       nombre: Dermitis de contacto
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 6.01.1.008
       nombre: Enfermedades de transmisión sexual
       dx: Específico
