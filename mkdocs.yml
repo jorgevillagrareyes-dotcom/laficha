@@ -360,6 +360,7 @@ nav:
       - pediatria/index.md
   - Psiquiatría:
       - psiquiatria/index.md
+      - "Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)": psiquiatria/trastornos-de-ansiedad-y-toc.md
   - Especialidades:
       - especialidades/index.md
       - "Dermatología":

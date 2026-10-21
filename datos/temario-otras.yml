@@ -2615,16 +2615,22 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - psiquiatria/trastornos-de-ansiedad-y-toc.md
     - codigo: 5.01.1.002
       nombre: Trastorno obsesivo compulsivo
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-de-ansiedad-y-toc.md
     - codigo: 5.01.1.003
       nombre: Trastornos fóbicos (fobia social y fobia específica)
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-de-ansiedad-y-toc.md
     - codigo: 5.01.1.004
       nombre: Trastorno de adaptación
       dx: Específico
@@ -2802,6 +2808,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/trastornos-de-ansiedad-y-toc.md
     urgencias:
     - codigo: 5.01.2.001
       nombre: Conducta suicida

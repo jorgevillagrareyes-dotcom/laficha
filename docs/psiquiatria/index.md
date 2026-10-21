@@ -6,15 +6,19 @@ hide:
 # Psiquiatría
 
 !!! info "Avance"
-    **7 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **11 de 52** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+
+## Resúmenes disponibles
+
+- :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md)
 
 ## Situaciones clínicas
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 5.01.1.001 | Trastorno de pánico con o sin agorafobia | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.002 | Trastorno obsesivo compulsivo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.003 | Trastornos fóbicos (fobia social y fobia específica) | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.001 | Trastorno de pánico con o sin agorafobia | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
+| 5.01.1.002 | Trastorno obsesivo compulsivo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
+| 5.01.1.003 | Trastornos fóbicos (fobia social y fobia específica) | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 | 5.01.1.004 | Trastorno de adaptación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.005 | Trastorno agudo por estrés | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.006 | Trastorno por estrés postraumático | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -47,7 +51,7 @@ hide:
 | 5.01.1.033 | Trastornos ansiosos en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.034 | Trastornos del ánimo en niños | Sospecha | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 5.01.1.035 | Consumo perjudicial de drogas en niños y adolescentes | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 5.01.1.036 | Trastorno de ansiedad generalizada | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 5.01.1.036 | Trastorno de ansiedad generalizada | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)](trastornos-de-ansiedad-y-toc.md) |
 
 ## Situaciones clínicas de urgencia
 
