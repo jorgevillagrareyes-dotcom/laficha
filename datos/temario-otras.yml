@@ -1750,6 +1750,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.009
       nombre: Exantemas virales
       dx: Específico
@@ -1828,11 +1830,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.023
       nombre: Faringoamigdalitis
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.024
       nombre: Infecciones respiratorias agudas bajas y sus complicaciones
       dx: Específico
@@ -1843,16 +1849,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.026
       nombre: Otitis media
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.027
       nombre: Resfrío común
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.028
       nombre: Síndrome bronquial obstructivo
       dx: Específico
@@ -1865,6 +1877,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.030
       nombre: Adenopatías
       dx: Específico
@@ -2363,6 +2377,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.1.118
       nombre: Hijo madre diabética
       dx: Específico
@@ -2520,6 +2536,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.2.003
       nombre: Aspiración cuerpo extraño
       dx: Específico
@@ -2613,6 +2631,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
     - codigo: 2.01.2.019
       nombre: Obstrucción intestinal
       dx: Específico
