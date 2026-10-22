@@ -2251,6 +2251,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
     - codigo: 2.01.1.082
       nombre: Síndrome déficit atencional
       dx: Específico
@@ -2660,6 +2662,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
     - codigo: 2.01.2.005
       nombre: Crisis bronquial obstructiva
       dx: Específico
@@ -2693,6 +2697,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
     - codigo: 2.01.2.009
       nombre: Fracturas
       dx: Específico
@@ -2791,6 +2797,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
     - codigo: 2.01.2.025
       nombre: Testículo agudo
       dx: Específico

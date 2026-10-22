@@ -42,7 +42,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 22. Epilepsia en personas desde 1 año y menores de 15 años
 
 **Guía MINSAL:** [Epilepsia en niños](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/GUIA-CLINICA_EPILEPSIA-NI%C3%91OS_web.pdf)  
-**En La Ficha:** [Crisis epiléptica](../neurologia/crisis-epileptica-y-estado-epileptico.md)
+**En La Ficha:** [Síndrome convulsivo y estatus en el niño](../pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) · [Crisis epiléptica](../neurologia/crisis-epileptica-y-estado-epileptico.md)
 
 ### N.° 33. Hemofilia
 

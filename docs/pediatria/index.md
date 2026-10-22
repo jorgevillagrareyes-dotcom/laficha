@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **124 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **128 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -27,6 +27,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md)
 
 ## Situaciones clínicas
@@ -114,7 +115,7 @@ hide:
 | 2.01.1.078 | Encefalopatía hipóxico-isquémica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.079 | Macro y microcefalia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.080 | Retraso del desarrollo SM | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.081 | Síndrome convulsivo | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.081 | Síndrome convulsivo | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.1.082 | Síndrome déficit atencional | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
 | 2.01.1.083 | Síndrome hipertónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -185,12 +186,12 @@ hide:
 | 2.01.2.001 | Abdomen agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.2.002 | Absceso amigdalino | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.2.003 | Aspiración cuerpo extraño | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
-| 2.01.2.004 | Compromiso de conciencia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.004 | Compromiso de conciencia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.005 | Crisis bronquial obstructiva | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.2.006 | Deshidratación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
 | 2.01.2.007 | Emergencia hipertensiva | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md) |
 | 2.01.2.008 | Epistaxis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Epistaxis: leve, a repetición y masiva](../especialidades/otorrinolaringologia/epistaxis.md) |
-| 2.01.2.027 | Estatus convulsivo en el niño | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.027 | Estatus convulsivo en el niño | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.009 | Fracturas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fracturas y disyunciones epifisarias del niño](../traumatologia/fracturas-y-disyunciones-del-nino.md) |
 | 2.01.2.010 | Hemorragia digestiva | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md) |
 | 2.01.2.011 | Hipertensión endocraneana | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -206,7 +207,7 @@ hide:
 | 2.01.2.021 | Politraumatismos | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.022 | Quemaduras | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md) |
 | 2.01.2.023 | Shock | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.024 | Síndrome convulsivo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.024 | Síndrome convulsivo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.025 | Testículo agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
 | 2.01.2.026 | Traumatismo encéfalo-craneano | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 
