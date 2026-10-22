@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **118 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **120 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -16,6 +16,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
@@ -100,8 +101,8 @@ hide:
 | 2.01.1.067 | Síndrome hemolítico urémico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md) |
 | 2.01.1.068 | Síndrome nefrítico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.069 | Síndrome nefrótico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
-| 2.01.1.070 | Trastornos del equilibrio ácido-base | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.071 | Trastornos hidro-electrolíticos | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.070 | Trastornos del equilibrio ácido-base | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md) |
+| 2.01.1.071 | Trastornos hidro-electrolíticos | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md) |
 | 2.01.1.072 | Alteraciones del desarrollo puberal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 2.01.1.073 | Diabetes | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.074 | Hiperplasia suprarrenal congénita | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

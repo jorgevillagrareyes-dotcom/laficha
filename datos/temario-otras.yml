@@ -2182,11 +2182,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md
     - codigo: 2.01.1.071
       nombre: Trastornos hidro-electrolíticos
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md
     - codigo: 2.01.1.072
       nombre: Alteraciones del desarrollo puberal
       dx: Específico
