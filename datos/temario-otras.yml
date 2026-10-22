@@ -1922,16 +1922,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
     - codigo: 2.01.1.033
       nombre: Linfomas
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
     - codigo: 2.01.1.034
       nombre: Neutropenia febril
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
     - codigo: 2.01.1.035
       nombre: Síndrome purpúrico
       dx: Específico
@@ -1951,6 +1957,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
     - codigo: 2.01.1.038
       nombre: Constipación
       dx: Específico
@@ -2237,6 +2245,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
     - codigo: 2.01.1.088
       nombre: Criptorquidia
       dx: Específico

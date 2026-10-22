@@ -149,7 +149,7 @@ flowchart TD
     - **Petequias** o púrpura con fiebre (**meningococcemia**).
     - Fontanela abombada, compromiso de conciencia, convulsión, rigidez de nuca.
     - **Hipotermia** (< 36 °C) en el recién nacido (puede ser sepsis).
-    - **Inmunodeficiencia**, asplenia, catéter venoso central, quimioterapia (ver [neutropenia febril](index.md)).
+    - **Inmunodeficiencia**, asplenia, catéter venoso central, quimioterapia (ver [neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)).
     - Fiebre **≥ 5 días** con signos de Kawasaki.
 
 ## Diagnóstico

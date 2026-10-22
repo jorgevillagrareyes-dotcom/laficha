@@ -6,12 +6,13 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **96 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **101 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
@@ -58,12 +59,12 @@ hide:
 | 2.01.1.029 | Sinusitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.030 | Adenopatías | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.031 | Anemia ferropriva | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
-| 2.01.1.032 | Leucemias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.033 | Linfomas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.034 | Neutropenia febril | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.032 | Leucemias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
+| 2.01.1.033 | Linfomas | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
+| 2.01.1.034 | Neutropenia febril | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
 | 2.01.1.035 | Síndrome purpúrico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
 | 2.01.1.036 | Trastornos coagulación | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
-| 2.01.1.037 | Tumores sólidos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.037 | Tumores sólidos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
 | 2.01.1.038 | Constipación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.039 | Diarrea aguda y en vías de prolongación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
 | 2.01.1.040 | Diarrea crónica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
@@ -113,7 +114,7 @@ hide:
 | 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.085 | Trastornos aprendizaje | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
 | 2.01.1.086 | Trastornos del lenguaje | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](../especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md) |
-| 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
 | 2.01.1.088 | Criptorquidia | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
 | 2.01.1.089 | Fimosis | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Patología del pene: fimosis, parafimosis, balanitis, priapismo y disfunción eréctil](../cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md) |
 | 2.01.1.090 | Hernia inguinal | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |

@@ -16,7 +16,7 @@ Hematología pediátrica · Pediatría general · Atención primaria
 MINSAL 2021: Norma Técnica N.° 218 para la supervisión de salud integral de niños y niñas de 0 a 9 años en la APS (suplementación de hierro y tamizaje de anemia) · AAP 2010: deficiencia de hierro en lactantes y niños de 0 a 3 años (Baker, *Pediatrics*) · ASH 2019: trombocitopenia inmune (Neunert, *Blood Adv*) · Consenso internacional 2019 de PTI (Provan, *Blood Adv*) · WFH 2020: guía de manejo de la hemofilia, 3.ª edición (Srivastava, *Haemophilia*)
 
 **Otras fuentes**
-Ver [anemias del adulto](../hematologia/anemias.md), [trombocitopenias](../hematologia/trombocitopenias.md), [coagulopatías y CID](../hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md), [meningococcemia](meningitis-meningoencefalitis-y-meningococcemia.md) y [leucemias en el niño](index.md)
+Ver [anemias del adulto](../hematologia/anemias.md), [trombocitopenias](../hematologia/trombocitopenias.md), [coagulopatías y CID](../hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md), [meningococcemia](meningitis-meningoencefalitis-y-meningococcemia.md) y [leucemias en el niño](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
 
 **GES**
 Sí: **N.° 33** hemofilia.
