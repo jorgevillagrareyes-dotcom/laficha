@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **79 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **85 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md)
 
@@ -60,17 +61,17 @@ hide:
 | 2.01.1.035 | Síndrome purpúrico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.036 | Trastornos coagulación | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.037 | Tumores sólidos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.038 | Constipación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.038 | Constipación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.039 | Diarrea aguda y en vías de prolongación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
-| 2.01.1.040 | Diarrea crónica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.041 | Dolor abdominal recurrente | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.042 | Fibrosis quística | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.040 | Diarrea crónica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
+| 2.01.1.041 | Dolor abdominal recurrente | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
+| 2.01.1.042 | Fibrosis quística | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.043 | Hemorragia digestiva | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.044 | Hepatomegalia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.045 | Insuficiencia hepática aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.046 | Reflujo gastroesofágico y vómitos del lactante | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.046 | Reflujo gastroesofágico y vómitos del lactante | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.047 | Síndrome disentérico | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
-| 2.01.1.048 | Síndrome malabsorción | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.048 | Síndrome malabsorción | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.049 | Arritmias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.050 | Cardiopatías congénitas frecuentes | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.051 | Endocarditis infecciosa | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

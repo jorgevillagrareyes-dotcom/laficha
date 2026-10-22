@@ -1948,6 +1948,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.039
       nombre: Diarrea aguda y en vías de prolongación
       dx: Específico
@@ -1960,16 +1962,22 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.041
       nombre: Dolor abdominal recurrente
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.042
       nombre: Fibrosis quística
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.043
       nombre: Hemorragia digestiva
       dx: Específico
@@ -1990,6 +1998,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.047
       nombre: Síndrome disentérico
       dx: Específico
@@ -2002,6 +2012,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
     - codigo: 2.01.1.049
       nombre: Arritmias
       dx: Sospecha
