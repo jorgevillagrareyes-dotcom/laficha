@@ -1770,6 +1770,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
     - codigo: 2.01.1.011
       nombre: Infecciones de piel y partes blandas
       dx: Específico
@@ -1983,16 +1985,22 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
     - codigo: 2.01.1.044
       nombre: Hepatomegalia
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
     - codigo: 2.01.1.045
       nombre: Insuficiencia hepática aguda
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
     - codigo: 2.01.1.046
       nombre: Reflujo gastroesofágico y vómitos del lactante
       dx: Específico
@@ -2633,6 +2641,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
     - codigo: 2.01.2.011
       nombre: Hipertensión endocraneana
       dx: Específico
