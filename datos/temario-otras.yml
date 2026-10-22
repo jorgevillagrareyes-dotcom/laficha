@@ -1736,6 +1736,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.1.007
       nombre: Enteroparasitosis
       dx: Específico
@@ -1805,16 +1807,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.1.020
       nombre: Bronquiolitis
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.1.021
       nombre: Enfermedad pulmonar crónica
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.1.022
       nombre: Estridor
       dx: Específico
@@ -1850,6 +1858,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.1.029
       nombre: Sinusitis
       dx: Específico
@@ -2525,6 +2535,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
     - codigo: 2.01.2.006
       nombre: Deshidratación
       dx: Específico
