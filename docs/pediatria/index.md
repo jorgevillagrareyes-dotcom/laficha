@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **108 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **113 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -19,6 +19,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
@@ -88,16 +89,16 @@ hide:
 | 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.059 | Enuresis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](../psiquiatria/enuresis-y-encopresis.md) |
-| 2.01.1.060 | Hematuria | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.060 | Hematuria | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.061 | Hipertensión arterial | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.062 | Infección urinaria | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.062 | Infección urinaria | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.063 | Insuficiencia renal aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.064 | Insuficiencia renal crónica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.065 | Malformaciones urogenitales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hidronefrosis, uropatía obstructiva alta, malformaciones nefrourológicas y reflujo vesicoureteral](../cirugia/urologia/hidronefrosis-uropatia-obstructiva-y-malformaciones.md) |
-| 2.01.1.066 | Síndrome edematoso | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.066 | Síndrome edematoso | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.067 | Síndrome hemolítico urémico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.068 | Síndrome nefrítico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.069 | Síndrome nefrótico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.068 | Síndrome nefrítico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
+| 2.01.1.069 | Síndrome nefrótico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.070 | Trastornos del equilibrio ácido-base | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.071 | Trastornos hidro-electrolíticos | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.072 | Alteraciones del desarrollo puberal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |

@@ -2112,6 +2112,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
     - codigo: 2.01.1.061
       nombre: Hipertensión arterial
       dx: Específico
@@ -2122,6 +2124,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
     - codigo: 2.01.1.063
       nombre: Insuficiencia renal aguda
       dx: Específico
@@ -2144,6 +2148,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
     - codigo: 2.01.1.067
       nombre: Síndrome hemolítico urémico
       dx: Específico
@@ -2154,11 +2160,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
     - codigo: 2.01.1.069
       nombre: Síndrome nefrótico
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
     - codigo: 2.01.1.070
       nombre: Trastornos del equilibrio ácido-base
       dx: Específico

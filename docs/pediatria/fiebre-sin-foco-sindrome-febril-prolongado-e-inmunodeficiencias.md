@@ -173,7 +173,7 @@ flowchart TD
 
 *Figura 2. Enfrentamiento del lactante febril sin foco según la edad y el aspecto. Esquema propio basado en AAP 2021 y en el enfoque "Step-by-Step".*
 
-- **Examen de orina**: el examen **más importante** en el lactante febril. Muestra con **sonda vesical** o **punción suprapúbica** en el que no controla esfínteres (la bolsa recolectora solo sirve si sale **negativa**). Ver [infección urinaria en el niño](index.md).
+- **Examen de orina**: el examen **más importante** en el lactante febril. Muestra con **sonda vesical** o **punción suprapúbica** en el que no controla esfínteres (la bolsa recolectora solo sirve si sale **negativa**). Ver [infección urinaria en el niño](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md).
 - **Punción lumbar**: obligatoria en el **< 21–28 días** febril y en todo niño con **mal aspecto** o signos meníngeos; en 29–60 días con **marcadores inflamatorios elevados**, según la AAP.
 - **Síndrome febril prolongado**: hospitalizar o estudiar en forma escalonada:
     - **Primera línea**: hemograma con frotis, VHS, PCR, **hemocultivos** (varios), **examen de orina y urocultivo**, perfil hepático, LDH, radiografía de tórax, **serología** de *Bartonella*, VEB y CMV, **PPD o IGRA**.
