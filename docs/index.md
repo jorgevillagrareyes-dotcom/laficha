@@ -45,7 +45,7 @@ Usa el buscador (arriba) para saltar directo a un tema, un fármaco o un criteri
 
     ---
 
-    Recién nacido, niño y adolescente. En preparación · **41 de 190** temas con resumen
+    Recién nacido, niño y adolescente. En preparación · **45 de 190** temas con resumen
 
 -   :material-brain:{ .lg .middle } **[Psiquiatría](psiquiatria/index.md)**
 

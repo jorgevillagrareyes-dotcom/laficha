@@ -1773,6 +1773,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
     - codigo: 2.01.1.014
       nombre: Infecciones recurrentes
       dx: Sospecha
@@ -1903,6 +1905,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
     - codigo: 2.01.1.040
       nombre: Diarrea crónica
       dx: Específico
@@ -1943,6 +1947,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
     - codigo: 2.01.1.048
       nombre: Síndrome malabsorción
       dx: Específico
@@ -2524,6 +2530,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
     - codigo: 2.01.2.007
       nombre: Emergencia hipertensiva
       dx: Específico
