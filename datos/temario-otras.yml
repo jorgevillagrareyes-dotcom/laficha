@@ -2210,16 +2210,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md
     - codigo: 2.01.1.075
       nombre: Hipotiroidismo
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md
     - codigo: 2.01.1.076
       nombre: Talla baja
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md
     - codigo: 2.01.1.077
       nombre: Cefalea
       dx: Específico
