@@ -1741,6 +1741,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - infectologia/parasitosis-intestinales.md
     - codigo: 2.01.1.008
       nombre: Escarlatina
       dx: Específico
@@ -2001,6 +2003,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - psiquiatria/enuresis-y-encopresis.md
     - codigo: 2.01.1.060
       nombre: Hematuria
       dx: Específico
@@ -2031,6 +2035,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/urologia/hidronefrosis-uropatia-obstructiva-y-malformaciones.md
     - codigo: 2.01.1.066
       nombre: Síndrome edematoso
       dx: Específico
@@ -2066,6 +2072,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
     - codigo: 2.01.1.073
       nombre: Diabetes
       dx: Específico
@@ -2116,6 +2124,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/tdah-y-trastornos-de-conducta.md
     - codigo: 2.01.1.083
       nombre: Síndrome hipertónico
       dx: Específico
@@ -2131,6 +2141,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-del-neurodesarrollo.md
     - codigo: 2.01.1.086
       nombre: Trastornos del lenguaje
       dx: Sospecha
@@ -2148,11 +2160,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - cirugia/urologia/escroto-agudo-y-patologia-testicular.md
     - codigo: 2.01.1.089
       nombre: Fimosis
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md
     - codigo: 2.01.1.090
       nombre: Hernia inguinal
       dx: Específico
@@ -2252,11 +2268,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/acne-y-rosacea.md
     - codigo: 2.01.1.105
       nombre: Alteraciones pigmentarias
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - especialidades/dermatologia/alopecias-y-vitiligo.md
     - codigo: 2.01.1.106
       nombre: Candidiasis urogenital
       dx: Específico
@@ -2267,21 +2287,29 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 2.01.1.108
       nombre: Dermatitis del pañal y de contacto
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
     - codigo: 2.01.1.109
       nombre: Ectoparasitosis
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 2.01.1.110
       nombre: Infecciones micóticas de piel y fanéreos
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
     - codigo: 2.01.1.111
       nombre: Malformaciones vasculares cutáneas
       dx: Específico
@@ -2379,6 +2407,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
     - codigo: 2.01.1.130
       nombre: Leucorrea y vulvovaginitis
       dx: Específico
@@ -2409,6 +2439,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
     - codigo: 2.01.1.137
       nombre: Ideación suicida
       dx: Sospecha
@@ -2428,21 +2460,29 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - endocrinologia/trastornos-de-la-conducta-alimentaria.md
     - codigo: 2.01.1.140
       nombre: Trastornos de ansiedad generalizada
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
     - codigo: 2.01.1.141
       nombre: Trastornos del desarrollo
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/trastornos-del-neurodesarrollo.md
     - codigo: 2.01.1.142
       nombre: Trastornos neuropsiquiátricos
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - psiquiatria/tdah-y-trastornos-de-conducta.md
     - codigo: 2.01.1.143
       nombre: Artritis idiopática juvenil
       dx: Sospecha
@@ -2573,6 +2613,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md
     - codigo: 2.01.2.023
       nombre: Shock
       dx: Específico
@@ -2588,6 +2630,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - cirugia/urologia/escroto-agudo-y-patologia-testicular.md
     - codigo: 2.01.2.026
       nombre: Traumatismo encéfalo-craneano
       dx: Específico

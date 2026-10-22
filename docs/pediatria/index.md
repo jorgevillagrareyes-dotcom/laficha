@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **19 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **41 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Situaciones clínicas
 
@@ -19,7 +19,7 @@ hide:
 | 2.01.1.005 | Celulitis periorbitaria | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.006 | Coqueluche | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.046 | Displasia broncopulmonar | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.007 | Enteroparasitosis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.007 | Enteroparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Parasitosis intestinales](../infectologia/parasitosis-intestinales.md) |
 | 2.01.1.008 | Escarlatina | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.009 | Exantemas virales | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.010 | Hepatitis viral | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -71,20 +71,20 @@ hide:
 | 2.01.1.056 | Inmunodeficiencias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.059 | Enuresis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.059 | Enuresis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](../psiquiatria/enuresis-y-encopresis.md) |
 | 2.01.1.060 | Hematuria | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.061 | Hipertensión arterial | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.062 | Infección urinaria | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.063 | Insuficiencia renal aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.064 | Insuficiencia renal crónica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.065 | Malformaciones urogenitales | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.065 | Malformaciones urogenitales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hidronefrosis, uropatía obstructiva alta, malformaciones nefrourológicas y reflujo vesicoureteral](../cirugia/urologia/hidronefrosis-uropatia-obstructiva-y-malformaciones.md) |
 | 2.01.1.066 | Síndrome edematoso | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.067 | Síndrome hemolítico urémico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.068 | Síndrome nefrítico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.069 | Síndrome nefrótico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.070 | Trastornos del equilibrio ácido-base | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.071 | Trastornos hidro-electrolíticos | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.072 | Alteraciones del desarrollo puberal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.072 | Alteraciones del desarrollo puberal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 2.01.1.073 | Diabetes | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.074 | Hiperplasia suprarrenal congénita | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.075 | Hipotiroidismo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -94,14 +94,14 @@ hide:
 | 2.01.1.079 | Macro y microcefalia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.080 | Retraso del desarrollo SM | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.081 | Síndrome convulsivo | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.082 | Síndrome déficit atencional | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.082 | Síndrome déficit atencional | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
 | 2.01.1.083 | Síndrome hipertónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.085 | Trastornos aprendizaje | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.085 | Trastornos aprendizaje | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
 | 2.01.1.086 | Trastornos del lenguaje | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](../especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md) |
 | 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.088 | Criptorquidia | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.089 | Fimosis | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.088 | Criptorquidia | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
+| 2.01.1.089 | Fimosis | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Patología del pene: fimosis, parafimosis, balanitis, priapismo y disfunción eréctil](../cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md) |
 | 2.01.1.090 | Hernia inguinal | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.091 | Alteraciones de los pies | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño](../traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md) |
 | 2.01.1.092 | Displasia de caderas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz](../traumatologia/displasia-del-desarrollo-de-cadera.md) |
@@ -116,13 +116,13 @@ hide:
 | 2.01.1.101 | Hipoacusia | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus](../especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md) |
 | 2.01.1.102 | Otitis media recurrente | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído](../especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md) |
 | 2.01.1.103 | Rinitis alérgica | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](../especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
-| 2.01.1.104 | Acné | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.105 | Alteraciones pigmentarias | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.104 | Acné | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](../especialidades/dermatologia/acne-y-rosacea.md) |
+| 2.01.1.105 | Alteraciones pigmentarias | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Alopecias y vitíligo](../especialidades/dermatologia/alopecias-y-vitiligo.md) |
 | 2.01.1.106 | Candidiasis urogenital | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.107 | Dermatitis atópica | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.108 | Dermatitis del pañal y de contacto | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.109 | Ectoparasitosis | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.110 | Infecciones micóticas de piel y fanéreos | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.107 | Dermatitis atópica | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](../especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
+| 2.01.1.108 | Dermatitis del pañal y de contacto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](../especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
+| 2.01.1.109 | Ectoparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](../especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
+| 2.01.1.110 | Infecciones micóticas de piel y fanéreos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](../especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 2.01.1.111 | Malformaciones vasculares cutáneas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](../especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md) |
 | 2.01.1.112 | Alteraciones de la termorregulación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.113 | Apneas | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -141,19 +141,19 @@ hide:
 | 2.01.1.126 | Síndrome distress respiratorio | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.127 | TORCH | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.128 | RN PEG-GEG | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.129 | Alteraciones menstruales | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.129 | Alteraciones menstruales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 2.01.1.130 | Leucorrea y vulvovaginitis | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.131 | Sinequias vulvares | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.132 | Dismorfias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.133 | Malformaciones congénitas más frecuentes | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.134 | Trisomía 21 | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.136 | Depresión | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.136 | Depresión | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md) |
 | 2.01.1.137 | Ideación suicida | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](../psiquiatria/conducta-suicida.md) |
 | 2.01.1.138 | Maltrato infantil | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
-| 2.01.1.139 | Trastornos de alimentación | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.140 | Trastornos de ansiedad generalizada | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.141 | Trastornos del desarrollo | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.142 | Trastornos neuropsiquiátricos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.139 | Trastornos de alimentación | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la conducta alimentaria](../endocrinologia/trastornos-de-la-conducta-alimentaria.md) |
+| 2.01.1.140 | Trastornos de ansiedad generalizada | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md) |
+| 2.01.1.141 | Trastornos del desarrollo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
+| 2.01.1.142 | Trastornos neuropsiquiátricos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
 | 2.01.1.143 | Artritis idiopática juvenil | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.144 | SARS Cov 2 COVID 19 | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 
@@ -183,10 +183,10 @@ hide:
 | 2.01.2.019 | Obstrucción intestinal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.020 | Paro cardiorrespiratorio | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.021 | Politraumatismos | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.022 | Quemaduras | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.022 | Quemaduras | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md) |
 | 2.01.2.023 | Shock | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.024 | Síndrome convulsivo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.025 | Testículo agudo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.025 | Testículo agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
 | 2.01.2.026 | Traumatismo encéfalo-craneano | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 
 ## Conocimientos generales
