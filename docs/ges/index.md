@@ -17,7 +17,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 1. Enfermedad renal crónica etapa 4 y 5
 
 **Guía MINSAL:** [Hemodiálisis](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/hemodialisis/recomendaciones-grade/) · [Peritoneodiálisis](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/peritoneodialisis/recomendaciones/) · [Trasplante renal](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/trasplante-renal/recomendaciones/) · Insuficiencia renal crónica terminal (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)  
-**En La Ficha:** [Enfermedad renal crónica](../nefrologia/enfermedad-renal-cronica.md) · [Trasplante renal](../cirugia/urologia/trasplante-renal.md)
+**En La Ficha:** [Enfermedad renal crónica](../nefrologia/enfermedad-renal-cronica.md) · [ERC en el niño](../pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md) · [Trasplante renal](../cirugia/urologia/trasplante-renal.md)
 
 ### N.° 6. Diabetes mellitus tipo 1
 

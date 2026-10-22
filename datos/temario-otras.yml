@@ -2119,6 +2119,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
     - codigo: 2.01.1.062
       nombre: Infección urinaria
       dx: Específico
@@ -2131,11 +2133,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
     - codigo: 2.01.1.064
       nombre: Insuficiencia renal crónica
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
     - codigo: 2.01.1.065
       nombre: Malformaciones urogenitales
       dx: Sospecha
@@ -2155,6 +2161,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
     - codigo: 2.01.1.068
       nombre: Síndrome nefrítico
       dx: Específico
@@ -2659,6 +2667,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
     - codigo: 2.01.2.008
       nombre: Epistaxis
       dx: Específico
