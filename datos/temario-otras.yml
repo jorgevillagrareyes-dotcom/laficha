@@ -2250,6 +2250,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Completo
+      resumen:
+      - pediatria/abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md
     - codigo: 2.01.1.091
       nombre: Alteraciones de los pies
       dx: Específico
@@ -2579,6 +2581,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md
     - codigo: 2.01.2.002
       nombre: Absceso amigdalino
       dx: Específico
@@ -2696,6 +2700,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md
     - codigo: 2.01.2.020
       nombre: Paro cardiorrespiratorio
       dx: Específico

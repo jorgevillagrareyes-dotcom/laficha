@@ -6,10 +6,11 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **90 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **93 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
+- :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
@@ -114,7 +115,7 @@ hide:
 | 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.088 | Criptorquidia | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
 | 2.01.1.089 | Fimosis | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Patología del pene: fimosis, parafimosis, balanitis, priapismo y disfunción eréctil](../cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md) |
-| 2.01.1.090 | Hernia inguinal | Específico | Inicial | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.090 | Hernia inguinal | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.1.091 | Alteraciones de los pies | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño](../traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md) |
 | 2.01.1.092 | Displasia de caderas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz](../traumatologia/displasia-del-desarrollo-de-cadera.md) |
 | 2.01.1.093 | Infecciones osteoarticulares | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -173,7 +174,7 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 2.01.2.001 | Abdomen agudo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.001 | Abdomen agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.2.002 | Absceso amigdalino | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.2.003 | Aspiración cuerpo extraño | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.2.004 | Compromiso de conciencia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -192,7 +193,7 @@ hide:
 | 2.01.2.016 | Meningococcemia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md) |
 | 2.01.2.017 | Muerte súbita-ALTE, BRUE | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.018 | Obstrucción de vía aérea superior | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.2.019 | Obstrucción intestinal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.019 | Obstrucción intestinal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.2.020 | Paro cardiorrespiratorio | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.021 | Politraumatismos | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.022 | Quemaduras | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md) |
