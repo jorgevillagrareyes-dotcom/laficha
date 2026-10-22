@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **66 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **70 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md)
 
 ## Situaciones clínicas
 
@@ -33,11 +34,11 @@ hide:
 | 2.01.1.011 | Infecciones de piel y partes blandas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.012 | Infecciones por HIV | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.013 | Infecciones por Salmonella | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
-| 2.01.1.014 | Infecciones recurrentes | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.014 | Infecciones recurrentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.015 | Meningoencefalitis/ Meningitis bacteriana aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.016 | Mononucleosis infecciosa | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.017 | Síndrome febril agudo sin foco | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.018 | Síndrome febril prolongado | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.017 | Síndrome febril agudo sin foco | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
+| 2.01.1.018 | Síndrome febril prolongado | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.019 | Asma bronquial | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.020 | Bronquiolitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.021 | Enfermedad pulmonar crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
@@ -75,7 +76,7 @@ hide:
 | 2.01.1.053 | Síncope | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.054 | Soplos | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.055 | Alergias | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.056 | Inmunodeficiencias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.056 | Inmunodeficiencias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.059 | Enuresis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](../psiquiatria/enuresis-y-encopresis.md) |

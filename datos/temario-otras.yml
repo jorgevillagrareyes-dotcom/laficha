@@ -1786,6 +1786,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
     - codigo: 2.01.1.015
       nombre: Meningoencefalitis/ Meningitis bacteriana aguda
       dx: Específico
@@ -1801,11 +1803,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
     - codigo: 2.01.1.018
       nombre: Síndrome febril prolongado
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
     - codigo: 2.01.1.019
       nombre: Asma bronquial
       dx: Específico
@@ -2022,6 +2028,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
     - codigo: 2.01.1.057
       nombre: Mesenquimopatías
       dx: Sospecha
