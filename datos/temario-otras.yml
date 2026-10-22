@@ -2041,31 +2041,43 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.050
       nombre: Cardiopatías congénitas frecuentes
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.051
       nombre: Endocarditis infecciosa
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.052
       nombre: Insuficiencia cardíaca
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.053
       nombre: Síncope
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.054
       nombre: Soplos
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.1.055
       nombre: Alergias
       dx: Específico
@@ -2673,6 +2685,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
     - codigo: 2.01.2.013
       nombre: Insuficiencia respiratoria aguda
       dx: Específico

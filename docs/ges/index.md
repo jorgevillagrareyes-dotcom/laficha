@@ -122,7 +122,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 2. Cardiopatías congénitas operables
 
 **Guía MINSAL:** [Cardiopatías congénitas operables en menores de 15 años](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cardiopatias-congenitas-en-menores-de-15-anos/recomendaciones/)  
-**En La Ficha:** [Cardiopatías congénitas del adulto](../cardiologia/cardiopatias-congenitas-del-adulto.md)
+**En La Ficha:** [Cardiología pediátrica](../pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) · [Cardiopatías congénitas del adulto](../cardiologia/cardiopatias-congenitas-del-adulto.md)
 
 ### N.° 5. Infarto agudo del miocardio
 
@@ -199,7 +199,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 14. Cáncer en personas menores de 15 años
 
 **Guía MINSAL:** [Linfoma y tumores sólidos en menores de 15 años](https://diprece.minsal.cl/guias-de-practica-clinicas/linfoma-y-tumores-solidos-pediatricos/) · [Leucemia en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/leucemias-en-menores-de-15-anos/) · [Linfoma en menores de 15 años](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/linfoma-en-menores-de-15-anos/)  
-**En La Ficha:** [Tumores oculares (retinoblastoma)](../especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md)
+**En La Ficha:** [Cáncer infantil](../pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) · [Tumores oculares (retinoblastoma)](../especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md)
 ### N.° 16. Cáncer de testículo en personas de 15 años y más
 
 **Guía MINSAL:** [Cáncer de testículo en personas de 15 años y más](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/cancer-de-testiculos-en-personas-de-15-anos-y-mas/recomendaciones/)  
