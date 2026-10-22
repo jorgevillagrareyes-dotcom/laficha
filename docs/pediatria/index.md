@@ -6,12 +6,13 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **61 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **66 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 
 ## Situaciones clínicas
@@ -23,7 +24,7 @@ hide:
 | 2.01.1.003 | Obesidad | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.004 | Adenitis cervical | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.005 | Celulitis periorbitaria | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.006 | Coqueluche | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.006 | Coqueluche | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.1.046 | Displasia broncopulmonar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.007 | Enteroparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Parasitosis intestinales](../infectologia/parasitosis-intestinales.md) |
 | 2.01.1.008 | Escarlatina | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
@@ -42,7 +43,7 @@ hide:
 | 2.01.1.021 | Enfermedad pulmonar crónica | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.022 | Estridor | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.023 | Faringoamigdalitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.1.024 | Infecciones respiratorias agudas bajas y sus complicaciones | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.024 | Infecciones respiratorias agudas bajas y sus complicaciones | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.1.025 | Laringitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.026 | Otitis media | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.027 | Resfrío común | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
@@ -161,7 +162,7 @@ hide:
 | 2.01.1.141 | Trastornos del desarrollo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
 | 2.01.1.142 | Trastornos neuropsiquiátricos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
 | 2.01.1.143 | Artritis idiopática juvenil | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.144 | SARS Cov 2 COVID 19 | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.144 | SARS Cov 2 COVID 19 | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 
 ## Situaciones clínicas de urgencia
 
@@ -169,7 +170,7 @@ hide:
 |---|---|---|---|---|---|
 | 2.01.2.001 | Abdomen agudo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.002 | Absceso amigdalino | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.2.003 | Aspiración cuerpo extraño | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.003 | Aspiración cuerpo extraño | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.2.004 | Compromiso de conciencia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.005 | Crisis bronquial obstructiva | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.2.006 | Deshidratación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
@@ -180,7 +181,7 @@ hide:
 | 2.01.2.010 | Hemorragia digestiva | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.011 | Hipertensión endocraneana | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.012 | Insuficiencia cardíaca. Edema pulmonar | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.013 | Insuficiencia respiratoria aguda | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.013 | Insuficiencia respiratoria aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.2.014 | Intoxicaciones | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.015 | Meningitis bacteriana | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.016 | Meningococcemia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

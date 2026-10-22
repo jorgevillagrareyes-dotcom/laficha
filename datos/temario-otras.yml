@@ -1731,6 +1731,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
     - codigo: 2.01.1.046
       nombre: Displasia broncopulmonar
       dx: Sospecha
@@ -1844,6 +1846,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
     - codigo: 2.01.1.025
       nombre: Laringitis
       dx: Específico
@@ -2525,6 +2529,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
     urgencias:
     - codigo: 2.01.2.001
       nombre: Abdomen agudo
@@ -2543,6 +2549,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
     - codigo: 2.01.2.004
       nombre: Compromiso de conciencia
       dx: Específico
@@ -2606,6 +2614,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
     - codigo: 2.01.2.014
       nombre: Intoxicaciones
       dx: Específico
