@@ -6,11 +6,12 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **73 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **79 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
@@ -24,20 +25,20 @@ hide:
 | 2.01.1.001 | Desnutrición | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.002 | Dislipidemias | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.003 | Obesidad | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.004 | Adenitis cervical | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.005 | Celulitis periorbitaria | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.004 | Adenitis cervical | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
+| 2.01.1.005 | Celulitis periorbitaria | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.006 | Coqueluche | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.1.046 | Displasia broncopulmonar | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.007 | Enteroparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Parasitosis intestinales](../infectologia/parasitosis-intestinales.md) |
 | 2.01.1.008 | Escarlatina | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.1.009 | Exantemas virales | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.009 | Exantemas virales | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.010 | Hepatitis viral | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.011 | Infecciones de piel y partes blandas | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.011 | Infecciones de piel y partes blandas | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.012 | Infecciones por HIV | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.013 | Infecciones por Salmonella | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
 | 2.01.1.014 | Infecciones recurrentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.015 | Meningoencefalitis/ Meningitis bacteriana aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md) |
-| 2.01.1.016 | Mononucleosis infecciosa | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.016 | Mononucleosis infecciosa | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.017 | Síndrome febril agudo sin foco | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.018 | Síndrome febril prolongado | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.019 | Asma bronquial | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
@@ -51,7 +52,7 @@ hide:
 | 2.01.1.027 | Resfrío común | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.028 | Síndrome bronquial obstructivo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.029 | Sinusitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.1.030 | Adenopatías | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.030 | Adenopatías | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.031 | Anemia ferropriva | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.032 | Leucemias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.033 | Linfomas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
