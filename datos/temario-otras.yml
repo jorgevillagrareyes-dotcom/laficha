@@ -2243,11 +2243,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.1.080
       nombre: Retraso del desarrollo SM
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.1.081
       nombre: Síndrome convulsivo
       dx: Específico
@@ -2267,11 +2271,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.1.084
       nombre: Síndrome hipotónico
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.1.085
       nombre: Trastornos aprendizaje
       dx: Específico
@@ -2822,6 +2830,8 @@ especialidades:
       nombre: Alimentación normal
     - codigo: 2.01.3.002
       nombre: Desarrollo psico-motor
+      resumen:
+      - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.3.003
       nombre: Diagnóstico nutricional
     - codigo: 2.01.3.004

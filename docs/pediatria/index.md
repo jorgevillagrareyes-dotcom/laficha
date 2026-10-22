@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **131 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **136 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -15,6 +15,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md)
@@ -114,12 +115,12 @@ hide:
 | 2.01.1.076 | Talla baja | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md) |
 | 2.01.1.077 | Cefalea | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
 | 2.01.1.078 | Encefalopatía hipóxico-isquémica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.079 | Macro y microcefalia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.080 | Retraso del desarrollo SM | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.079 | Macro y microcefalia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
+| 2.01.1.080 | Retraso del desarrollo SM | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
 | 2.01.1.081 | Síndrome convulsivo | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.1.082 | Síndrome déficit atencional | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
-| 2.01.1.083 | Síndrome hipertónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.083 | Síndrome hipertónico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
+| 2.01.1.084 | Síndrome hipotónico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
 | 2.01.1.085 | Trastornos aprendizaje | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
 | 2.01.1.086 | Trastornos del lenguaje | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de la deglución, del habla y del lenguaje](../especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md) |
 | 2.01.1.087 | Tumores SNC | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md) |
@@ -217,7 +218,7 @@ hide:
 | Código | Tema | Resumen |
 |---|---|---|
 | 2.01.3.001 | Alimentación normal | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.002 | Desarrollo psico-motor | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.002 | Desarrollo psico-motor | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
 | 2.01.3.003 | Diagnóstico nutricional | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.004 | Entrevista y comunicación efectiva | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.005 | Familia y ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
