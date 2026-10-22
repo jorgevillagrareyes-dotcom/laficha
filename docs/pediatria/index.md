@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **120 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **121 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -14,6 +14,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
@@ -104,7 +105,7 @@ hide:
 | 2.01.1.070 | Trastornos del equilibrio ácido-base | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md) |
 | 2.01.1.071 | Trastornos hidro-electrolíticos | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md) |
 | 2.01.1.072 | Alteraciones del desarrollo puberal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
-| 2.01.1.073 | Diabetes | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.073 | Diabetes | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md) |
 | 2.01.1.074 | Hiperplasia suprarrenal congénita | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.075 | Hipotiroidismo | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.076 | Talla baja | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |

@@ -2203,6 +2203,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md
     - codigo: 2.01.1.074
       nombre: Hiperplasia suprarrenal congénita
       dx: Sospecha

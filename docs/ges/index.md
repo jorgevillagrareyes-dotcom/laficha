@@ -22,7 +22,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 6. Diabetes mellitus tipo 1
 
 **Guía MINSAL:** [Diabetes mellitus tipo 1](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/diabetes-mellitus-tipo-1/)  
-**En La Ficha:** [Diabetes tipo 1](../endocrinologia/diabetes-tipo-1-y-otros-tipos.md)
+**En La Ficha:** [Diabetes tipo 1](../endocrinologia/diabetes-tipo-1-y-otros-tipos.md) · [Diabetes tipo 1 y cetoacidosis en el niño](../pediatria/diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
 
 ### N.° 7. Diabetes mellitus tipo 2
 
