@@ -1793,6 +1793,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/meningitis-meningoencefalitis-y-meningococcemia.md
     - codigo: 2.01.1.016
       nombre: Mononucleosis infecciosa
       dx: Específico
@@ -2634,11 +2636,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/meningitis-meningoencefalitis-y-meningococcemia.md
     - codigo: 2.01.2.016
       nombre: Meningococcemia
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/meningitis-meningoencefalitis-y-meningococcemia.md
     - codigo: 2.01.2.017
       nombre: Muerte súbita-ALTE, BRUE
       dx: Específico

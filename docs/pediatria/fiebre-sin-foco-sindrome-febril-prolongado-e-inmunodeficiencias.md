@@ -16,7 +16,7 @@ Pediatría general · Infectología pediátrica · Inmunología pediátrica · U
 AAP 2021: lactantes febriles de 8 a 60 días con buen aspecto (Pantell, *Pediatrics*) · Enfoque "Step-by-Step" para el lactante febril menor de 90 días (Gomez, *Pediatrics* 2016) · IUIS 2024: clasificación de los errores innatos de la inmunidad (Poli, *J Hum Immun* 2025)
 
 **Otras fuentes**
-Diagnóstico de ITU en lactantes menores de 3 meses con fiebre sin foco (Méndez-Espinola, *Bol Med Hosp Infant Mex* 2023) · Señales de alerta de inmunodeficiencia primaria · Ver [síndrome febril prolongado del adulto](../infectologia/sindrome-febril-prolongado.md), [meningitis en el niño](index.md), [síndrome mononucleósico](../infectologia/sindrome-mononucleosico-y-adenitis.md) e [infección por VIH](../infectologia/infeccion-por-vih.md)
+Diagnóstico de ITU en lactantes menores de 3 meses con fiebre sin foco (Méndez-Espinola, *Bol Med Hosp Infant Mex* 2023) · Señales de alerta de inmunodeficiencia primaria · Ver [síndrome febril prolongado del adulto](../infectologia/sindrome-febril-prolongado.md), [meningitis en el niño](meningitis-meningoencefalitis-y-meningococcemia.md), [síndrome mononucleósico](../infectologia/sindrome-mononucleosico-y-adenitis.md) e [infección por VIH](../infectologia/infeccion-por-vih.md)
 
 **GES**
 No como problema propio.
