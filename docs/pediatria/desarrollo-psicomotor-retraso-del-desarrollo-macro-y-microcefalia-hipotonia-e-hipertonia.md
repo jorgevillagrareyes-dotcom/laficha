@@ -247,7 +247,7 @@ flowchart TD
 
 !!! dosis "Dosis y medidas de referencia"
     - No hay tratamiento farmacológico del retraso del desarrollo en sí; las medidas clave son la **estimulación** y la **intervención temprana**.
-    - **Toxina botulínica tipo A** (espasticidad focal; especialista): según la marca y el músculo (por ejemplo, onabotulinumtoxinA hasta ~ 10–16 U/kg por sesión, con un máximo total de ~ 400 U), cada 3–6 meses, asociada a kinesiología y ortesis.
+    - **Toxina botulínica tipo A** (espasticidad focal; especialista): dosis en unidades por kilo según la **marca** (no son intercambiables), el peso y los músculos inyectados, cada 3–6 meses, asociada a kinesiología y ortesis.
     - **Baclofeno oral** (espasticidad generalizada; especialista): iniciar con **2,5–5 mg/día** (2–7 años: hasta 30–40 mg/día; ≥ 8 años: hasta 60 mg/día) en 3 dosis; **no suspender bruscamente** (convulsiones, alucinaciones, hipertermia).
     - **Levotiroxina** en el hipotiroidismo congénito: **10–15 µg/kg/día** (ver [hipotiroidismo congénito](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md)).
     - **Sulfato ferroso**: **3 mg/kg/día** de hierro elemental en la anemia ferropriva (ver [anemia ferropriva](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)).
