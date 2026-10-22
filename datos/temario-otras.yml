@@ -2231,6 +2231,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md
     - codigo: 2.01.1.078
       nombre: Encefalopatía hipóxico-isquémica
       dx: Específico
@@ -2718,6 +2720,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md
     - codigo: 2.01.2.012
       nombre: Insuficiencia cardíaca. Edema pulmonar
       dx: Específico
@@ -2811,6 +2815,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md
     generales:
     - codigo: 2.01.3.001
       nombre: Alimentación normal

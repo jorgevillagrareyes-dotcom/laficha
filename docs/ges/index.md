@@ -375,7 +375,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 49. Traumatismo cráneo encefálico moderado o grave
 
 **Guía MINSAL:** [Atención de urgencia del traumatismo craneoencefálico](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Traumatismo-Cr%C3%A1neoencefalico.pdf)  
-**En La Ficha:** [TEC e hipertensión endocraneana](../neurologia/tec-e-hipertension-endocraneana.md)
+**En La Ficha:** [TEC e hipertensión endocraneana](../neurologia/tec-e-hipertension-endocraneana.md) · [TEC en el niño](../pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md)
 
 ### N.° 55. Gran quemado
 

@@ -6,13 +6,14 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **128 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **131 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
@@ -111,7 +112,7 @@ hide:
 | 2.01.1.074 | Hiperplasia suprarrenal congénita | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md) |
 | 2.01.1.075 | Hipotiroidismo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md) |
 | 2.01.1.076 | Talla baja | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md) |
-| 2.01.1.077 | Cefalea | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.077 | Cefalea | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
 | 2.01.1.078 | Encefalopatía hipóxico-isquémica | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.079 | Macro y microcefalia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.080 | Retraso del desarrollo SM | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -194,7 +195,7 @@ hide:
 | 2.01.2.027 | Estatus convulsivo en el niño | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.009 | Fracturas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Fracturas y disyunciones epifisarias del niño](../traumatologia/fracturas-y-disyunciones-del-nino.md) |
 | 2.01.2.010 | Hemorragia digestiva | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md) |
-| 2.01.2.011 | Hipertensión endocraneana | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.011 | Hipertensión endocraneana | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
 | 2.01.2.012 | Insuficiencia cardíaca. Edema pulmonar | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
 | 2.01.2.013 | Insuficiencia respiratoria aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 | 2.01.2.014 | Intoxicaciones | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
@@ -209,7 +210,7 @@ hide:
 | 2.01.2.023 | Shock | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.024 | Síndrome convulsivo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.025 | Testículo agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
-| 2.01.2.026 | Traumatismo encéfalo-craneano | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.026 | Traumatismo encéfalo-craneano | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
 
 ## Conocimientos generales
 
