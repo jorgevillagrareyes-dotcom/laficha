@@ -1915,6 +1915,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md
     - codigo: 2.01.1.032
       nombre: Leucemias
       dx: Sospecha
@@ -1935,11 +1937,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md
     - codigo: 2.01.1.036
       nombre: Trastornos coagulación
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md
     - codigo: 2.01.1.037
       nombre: Tumores sólidos
       dx: Sospecha

@@ -6,11 +6,12 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **93 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **96 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
@@ -56,12 +57,12 @@ hide:
 | 2.01.1.028 | Síndrome bronquial obstructivo | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md) |
 | 2.01.1.029 | Sinusitis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.1.030 | Adenopatías | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
-| 2.01.1.031 | Anemia ferropriva | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.031 | Anemia ferropriva | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
 | 2.01.1.032 | Leucemias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.033 | Linfomas | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.034 | Neutropenia febril | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.035 | Síndrome purpúrico | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.036 | Trastornos coagulación | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.035 | Síndrome purpúrico | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
+| 2.01.1.036 | Trastornos coagulación | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md) |
 | 2.01.1.037 | Tumores sólidos | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.038 | Constipación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md) |
 | 2.01.1.039 | Diarrea aguda y en vías de prolongación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md) |
