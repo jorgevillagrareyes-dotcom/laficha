@@ -2759,6 +2759,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
     - codigo: 2.01.2.015
       nombre: Meningitis bacteriana
       dx: Específico
@@ -2778,6 +2780,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
     - codigo: 2.01.2.018
       nombre: Obstrucción de vía aérea superior
       dx: Específico
@@ -2860,6 +2864,8 @@ especialidades:
       nombre: Lactancia materna
     - codigo: 2.01.3.008
       nombre: Prevención de accidentes
+      resumen:
+      - pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
     - codigo: 2.01.3.009
       nombre: Prevención de conductas de riesgo
     - codigo: 2.01.3.010

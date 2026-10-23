@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **144 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **147 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -24,6 +24,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md)
@@ -202,10 +203,10 @@ hide:
 | 2.01.2.011 | Hipertensión endocraneana | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
 | 2.01.2.012 | Insuficiencia cardíaca. Edema pulmonar | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
 | 2.01.2.013 | Insuficiencia respiratoria aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
-| 2.01.2.014 | Intoxicaciones | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.014 | Intoxicaciones | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
 | 2.01.2.015 | Meningitis bacteriana | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md) |
 | 2.01.2.016 | Meningococcemia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md) |
-| 2.01.2.017 | Muerte súbita-ALTE, BRUE | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.017 | Muerte súbita-ALTE, BRUE | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
 | 2.01.2.018 | Obstrucción de vía aérea superior | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.2.019 | Obstrucción intestinal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.2.020 | Paro cardiorrespiratorio | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md) |
@@ -227,7 +228,7 @@ hide:
 | 2.01.3.005 | Familia y ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.007 | Lactancia materna | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.008 | Prevención de accidentes | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.008 | Prevención de accidentes | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
 | 2.01.3.009 | Prevención de conductas de riesgo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.010 | Prevención de maltrato y abuso infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
 | 2.01.3.011 | Promoción de salud y estilos de vida saludables | :material-clock-outline:{ .pend title="Pendiente" } |
