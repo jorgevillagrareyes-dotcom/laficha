@@ -2918,12 +2918,16 @@ especialidades:
       - pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
     - codigo: 2.01.3.009
       nombre: Prevención de conductas de riesgo
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.010
       nombre: Prevención de maltrato y abuso infantil
       resumen:
       - psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
     - codigo: 2.01.3.011
       nombre: Promoción de salud y estilos de vida saludables
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.012
       nombre: Psiquiatría de enlace
     - codigo: 2.01.3.013
@@ -2932,14 +2936,24 @@ especialidades:
       nombre: Salud infantil en Chile y el mundo
     - codigo: 2.01.3.015
       nombre: Salud oral
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.016
       nombre: Supervisión de salud-adolescente
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.017
       nombre: Supervisión de salud-escolar
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.018
       nombre: Supervisión de salud-lactante
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
     - codigo: 2.01.3.019
       nombre: Supervisión de salud-pre-escolar
+      resumen:
+      - pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
 - carpeta: psiquiatria
   titulo: Psiquiatría
   secciones:

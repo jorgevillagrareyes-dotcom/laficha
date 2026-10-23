@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **172 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **179 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -38,6 +38,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md)
@@ -235,17 +236,17 @@ hide:
 | 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-check-circle:{ .ok title="Resumen disponible" } [Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI](inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md) |
 | 2.01.3.007 | Lactancia materna | :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md) |
 | 2.01.3.008 | Prevención de accidentes | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
-| 2.01.3.009 | Prevención de conductas de riesgo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.009 | Prevención de conductas de riesgo | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
 | 2.01.3.010 | Prevención de maltrato y abuso infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
-| 2.01.3.011 | Promoción de salud y estilos de vida saludables | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.011 | Promoción de salud y estilos de vida saludables | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
 | 2.01.3.012 | Psiquiatría de enlace | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.013 | Relación médico-paciente-familia | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.014 | Salud infantil en Chile y el mundo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.015 | Salud oral | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.016 | Supervisión de salud-adolescente | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.017 | Supervisión de salud-escolar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.018 | Supervisión de salud-lactante | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.019 | Supervisión de salud-pre-escolar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.015 | Salud oral | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
+| 2.01.3.016 | Supervisión de salud-adolescente | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
+| 2.01.3.017 | Supervisión de salud-escolar | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
+| 2.01.3.018 | Supervisión de salud-lactante | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
+| 2.01.3.019 | Supervisión de salud-pre-escolar | :material-check-circle:{ .ok title="Resumen disponible" } [Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud](supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md) |
 
 ## Cómo leer los niveles EUNACOM
 
