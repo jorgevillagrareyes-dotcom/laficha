@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **182 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **185 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -24,6 +24,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital](vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI](inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md)
@@ -154,7 +155,7 @@ hide:
 | 2.01.1.103 | Rinitis alérgica | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal](../especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md) |
 | 2.01.1.104 | Acné | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Acné y rosácea](../especialidades/dermatologia/acne-y-rosacea.md) |
 | 2.01.1.105 | Alteraciones pigmentarias | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Alopecias y vitíligo](../especialidades/dermatologia/alopecias-y-vitiligo.md) |
-| 2.01.1.106 | Candidiasis urogenital | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.106 | Candidiasis urogenital | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital](vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md) |
 | 2.01.1.107 | Dermatitis atópica | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](../especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 2.01.1.108 | Dermatitis del pañal y de contacto | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Dermatitis atópica, de contacto, seborreica y del pañal](../especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md) |
 | 2.01.1.109 | Ectoparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](../especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
@@ -178,8 +179,8 @@ hide:
 | 2.01.1.127 | TORCH | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología II: ictericia neonatal, sepsis neonatal, infecciones congénitas (TORCH), enterocolitis necrotizante y VIH pediátrico](ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md) |
 | 2.01.1.128 | RN PEG-GEG | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
 | 2.01.1.129 | Alteraciones menstruales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
-| 2.01.1.130 | Leucorrea y vulvovaginitis | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.131 | Sinequias vulvares | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.130 | Leucorrea y vulvovaginitis | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital](vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md) |
+| 2.01.1.131 | Sinequias vulvares | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital](vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md) |
 | 2.01.1.132 | Dismorfias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |
 | 2.01.1.133 | Malformaciones congénitas más frecuentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |
 | 2.01.1.134 | Trisomía 21 | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |

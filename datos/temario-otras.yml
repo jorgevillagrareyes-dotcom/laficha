@@ -2448,6 +2448,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md
     - codigo: 2.01.1.107
       nombre: Dermatitis atópica
       dx: Específico
@@ -2614,11 +2616,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md
     - codigo: 2.01.1.131
       nombre: Sinequias vulvares
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md
     - codigo: 2.01.1.132
       nombre: Dismorfias
       dx: Sospecha
