@@ -340,7 +340,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 9. Disrafias espinales
 
-**Guía MINSAL:** [Disrafias espinales](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/disrafias-espinales/recomendaciones/)
+**Guía MINSAL:** [Disrafias espinales](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/disrafias-espinales/recomendaciones/)  
+**En La Ficha:** [Malformaciones congénitas](../pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md)
 
 ### N.° 10. Tratamiento quirúrgico de escoliosis en personas menores de 25 años
 
@@ -349,7 +350,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 13. Fisura labiopalatina
 
-**Guía MINSAL:** [Fisura labiopalatina](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/guia-FisuraLabioPalatina-2015-CM.pdf)
+**Guía MINSAL:** [Fisura labiopalatina](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/03/guia-FisuraLabioPalatina-2015-CM.pdf)  
+**En La Ficha:** [Malformaciones congénitas](../pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md)
 
 ### N.° 35. Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas
 
