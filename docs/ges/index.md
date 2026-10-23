@@ -32,7 +32,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 18. Síndrome de la inmunodeficiencia adquirida VIH/SIDA
 
 **Guía MINSAL:** [VIH/SIDA](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/sindrome-de-la-inmunodeficiencia-adquirida-vih-sida/recomendaciones/) · [VIH/SIDA pediátrico](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/sindrome-de-la-inmunodeficiencia-adquirida-vih-sida-pediatrico/recomendaciones-grade/)  
-**En La Ficha:** [Infección por VIH](../infectologia/infeccion-por-vih.md)
+**En La Ficha:** [Infección por VIH](../infectologia/infeccion-por-vih.md) · [VIH pediátrico y transmisión vertical](../pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md)
 
 ### N.° 21. Hipertensión arterial primaria o esencial en personas de 15 años y más
 

@@ -1784,6 +1784,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
     - codigo: 2.01.1.013
       nombre: Infecciones por Salmonella
       dx: Específico
@@ -2508,6 +2510,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
     - codigo: 2.01.1.117
       nombre: Estridor congénito
       dx: Específico
@@ -2541,6 +2545,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
     - codigo: 2.01.1.122
       nombre: Poliglobulia
       dx: Específico
@@ -2560,6 +2566,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
     - codigo: 2.01.1.125
       nombre: Síndrome aspirativo meconial
       dx: Específico
@@ -2579,6 +2587,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
     - codigo: 2.01.1.128
       nombre: RN PEG-GEG
       dx: Específico
