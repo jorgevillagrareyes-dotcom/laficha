@@ -2083,6 +2083,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md
     - codigo: 2.01.1.056
       nombre: Inmunodeficiencias
       dx: Sospecha

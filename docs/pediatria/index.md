@@ -6,11 +6,12 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **136 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **137 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
 - :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Alergias en el niño: alergia alimentaria, alergia a la proteína de leche de vaca, anafilaxia y rinitis alérgica](alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño](anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md)
@@ -91,7 +92,7 @@ hide:
 | 2.01.1.052 | Insuficiencia cardíaca | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
 | 2.01.1.053 | Síncope | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
 | 2.01.1.054 | Soplos | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
-| 2.01.1.055 | Alergias | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.055 | Alergias | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Alergias en el niño: alergia alimentaria, alergia a la proteína de leche de vaca, anafilaxia y rinitis alérgica](alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md) |
 | 2.01.1.056 | Inmunodeficiencias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
 | 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
