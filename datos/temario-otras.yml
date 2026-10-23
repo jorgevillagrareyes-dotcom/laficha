@@ -2884,6 +2884,8 @@ especialidades:
     generales:
     - codigo: 2.01.3.001
       nombre: Alimentación normal
+      resumen:
+      - pediatria/lactancia-materna-y-alimentacion-normal-del-nino.md
     - codigo: 2.01.3.002
       nombre: Desarrollo psico-motor
       resumen:
@@ -2898,6 +2900,8 @@ especialidades:
       nombre: Inmunizaciones en Chile (PNI y extra PNI)
     - codigo: 2.01.3.007
       nombre: Lactancia materna
+      resumen:
+      - pediatria/lactancia-materna-y-alimentacion-normal-del-nino.md
     - codigo: 2.01.3.008
       nombre: Prevención de accidentes
       resumen:

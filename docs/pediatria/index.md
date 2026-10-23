@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **165 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **167 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -25,6 +25,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md)
@@ -224,13 +225,13 @@ hide:
 
 | Código | Tema | Resumen |
 |---|---|---|
-| 2.01.3.001 | Alimentación normal | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.001 | Alimentación normal | :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md) |
 | 2.01.3.002 | Desarrollo psico-motor | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
 | 2.01.3.003 | Diagnóstico nutricional | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.004 | Entrevista y comunicación efectiva | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.005 | Familia y ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.007 | Lactancia materna | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.007 | Lactancia materna | :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md) |
 | 2.01.3.008 | Prevención de accidentes | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
 | 2.01.3.009 | Prevención de conductas de riesgo | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.010 | Prevención de maltrato y abuso infantil | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |
