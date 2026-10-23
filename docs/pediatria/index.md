@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **179 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **182 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -20,6 +20,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
@@ -179,9 +180,9 @@ hide:
 | 2.01.1.129 | Alteraciones menstruales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 2.01.1.130 | Leucorrea y vulvovaginitis | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.131 | Sinequias vulvares | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.132 | Dismorfias | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.133 | Malformaciones congénitas más frecuentes | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.134 | Trisomía 21 | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.132 | Dismorfias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |
+| 2.01.1.133 | Malformaciones congénitas más frecuentes | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |
+| 2.01.1.134 | Trisomía 21 | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)](dismorfias-malformaciones-congenitas-y-trisomia-21.md) |
 | 2.01.1.136 | Depresión | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md) |
 | 2.01.1.137 | Ideación suicida | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conducta suicida (adultos, niños y adolescentes)](../psiquiatria/conducta-suicida.md) |
 | 2.01.1.138 | Maltrato infantil | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense](../psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md) |

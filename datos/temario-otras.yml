@@ -2624,16 +2624,22 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md
     - codigo: 2.01.1.133
       nombre: Malformaciones congénitas más frecuentes
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md
     - codigo: 2.01.1.134
       nombre: Trisomía 21
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md
     - codigo: 2.01.1.136
       nombre: Depresión
       dx: Sospecha
