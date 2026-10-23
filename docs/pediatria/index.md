@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **147 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **154 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -28,6 +28,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
@@ -152,23 +153,23 @@ hide:
 | 2.01.1.109 | Ectoparasitosis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](../especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 2.01.1.110 | Infecciones micóticas de piel y fanéreos | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras](../especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md) |
 | 2.01.1.111 | Malformaciones vasculares cutáneas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemangiomas y malformaciones vasculares](../especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md) |
-| 2.01.1.112 | Alteraciones de la termorregulación | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.112 | Alteraciones de la termorregulación | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
 | 2.01.1.113 | Apneas | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.114 | Asfixia neonatal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.115 | Convulsiones neonatales | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.116 | Enterocolitis necrotizante (ECN) | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.117 | Estridor congénito | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
-| 2.01.1.118 | Hijo madre diabética | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.119 | Hipocalcemia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.120 | Hipoglicemia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.118 | Hijo madre diabética | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
+| 2.01.1.119 | Hipocalcemia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
+| 2.01.1.120 | Hipoglicemia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
 | 2.01.1.121 | Ictericia neonatal y del primer trimestre | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.122 | Poliglobulia | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.123 | Prematurez | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.122 | Poliglobulia | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
+| 2.01.1.123 | Prematurez | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
 | 2.01.1.124 | Sepsis neonatal | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.125 | Síndrome aspirativo meconial | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.126 | Síndrome distress respiratorio | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.127 | TORCH | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.128 | RN PEG-GEG | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.128 | RN PEG-GEG | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia](recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) |
 | 2.01.1.129 | Alteraciones menstruales | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Pubertad y adolescencia; sexualidad, género y diversidad](../ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md) |
 | 2.01.1.130 | Leucorrea y vulvovaginitis | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.1.131 | Sinequias vulvares | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |

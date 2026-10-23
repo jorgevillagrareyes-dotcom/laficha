@@ -2478,6 +2478,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.113
       nombre: Apneas
       dx: Específico
@@ -2510,16 +2512,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.119
       nombre: Hipocalcemia
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.120
       nombre: Hipoglicemia
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.121
       nombre: Ictericia neonatal y del primer trimestre
       dx: Específico
@@ -2530,11 +2538,15 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.123
       nombre: Prematurez
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.124
       nombre: Sepsis neonatal
       dx: Específico
@@ -2560,6 +2572,8 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
     - codigo: 2.01.1.129
       nombre: Alteraciones menstruales
       dx: Sospecha
