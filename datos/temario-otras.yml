@@ -2097,11 +2097,15 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
     - codigo: 2.01.1.058
       nombre: 'Vasculitis: PSH, Kawasaki, otros'
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
     - codigo: 2.01.1.059
       nombre: Enuresis
       dx: Específico
@@ -2343,6 +2347,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
     - codigo: 2.01.1.094
       nombre: Patología de columna
       dx: Específico
@@ -2640,6 +2646,8 @@ especialidades:
       dx: Sospecha
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
     - codigo: 2.01.2.144
       nombre: SARS Cov 2 COVID 19
       dx: Específico

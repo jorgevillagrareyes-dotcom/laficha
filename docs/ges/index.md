@@ -75,7 +75,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 63. Artritis idiopática juvenil
 
-**Guía MINSAL:** [Artritis idiopática juvenil](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/artritis-idiopatica-juvenil/recomendaciones-grade/)
+**Guía MINSAL:** [Artritis idiopática juvenil](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/artritis-idiopatica-juvenil/recomendaciones-grade/)  
+**En La Ficha:** [Reumatología pediátrica](../pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md)
 
 ### N.° 64. Prevención secundaria de la enfermedad renal crónica terminal
 
@@ -105,7 +106,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 78. Lupus eritematoso sistémico
 
 **Guía MINSAL:** [Lupus eritematoso sistémico](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/09/Lupus.pdf)  
-**En La Ficha:** [Lupus](../reumatologia/lupus-y-otras-mesenquimopatias.md) · [Lupus cutáneo](../especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
+**En La Ficha:** [Lupus](../reumatologia/lupus-y-otras-mesenquimopatias.md) · [Lupus pediátrico](../pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md) · [Lupus cutáneo](../especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md)
 
 ### N.° 80. Tratamiento de erradicación del Helicobacter pylori
 

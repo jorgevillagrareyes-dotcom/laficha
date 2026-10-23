@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **137 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **141 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -29,6 +29,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md)
@@ -94,8 +95,8 @@ hide:
 | 2.01.1.054 | Soplos | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis](cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md) |
 | 2.01.1.055 | Alergias | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Alergias en el niño: alergia alimentaria, alergia a la proteína de leche de vaca, anafilaxia y rinitis alérgica](alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md) |
 | 2.01.1.056 | Inmunodeficiencias | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño](fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md) |
-| 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.057 | Mesenquimopatías | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md) |
+| 2.01.1.058 | Vasculitis: PSH, Kawasaki, otros | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md) |
 | 2.01.1.059 | Enuresis | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Enuresis y encopresis](../psiquiatria/enuresis-y-encopresis.md) |
 | 2.01.1.060 | Hematuria | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md) |
 | 2.01.1.061 | Hipertensión arterial | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md) |
@@ -130,7 +131,7 @@ hide:
 | 2.01.1.090 | Hernia inguinal | Específico | Inicial | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
 | 2.01.1.091 | Alteraciones de los pies | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño](../traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md) |
 | 2.01.1.092 | Displasia de caderas | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz](../traumatologia/displasia-del-desarrollo-de-cadera.md) |
-| 2.01.1.093 | Infecciones osteoarticulares | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.093 | Infecciones osteoarticulares | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md) |
 | 2.01.1.094 | Patología de columna | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño](../traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md) |
 | 2.01.1.095 | Conjuntivitis aguda | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Conjuntivitis, ojo seco y pterigión](../especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md) |
 | 2.01.1.096 | Estrabismo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto](../especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md) |
@@ -179,7 +180,7 @@ hide:
 | 2.01.1.140 | Trastornos de ansiedad generalizada | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos de ansiedad y del ánimo en niños y adolescentes](../psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md) |
 | 2.01.1.141 | Trastornos del desarrollo | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje](../psiquiatria/trastornos-del-neurodesarrollo.md) |
 | 2.01.1.142 | Trastornos neuropsiquiátricos | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)](../psiquiatria/tdah-y-trastornos-de-conducta.md) |
-| 2.01.1.143 | Artritis idiopática juvenil | Sospecha | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.143 | Artritis idiopática juvenil | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md) |
 | 2.01.2.144 | SARS Cov 2 COVID 19 | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
 
 ## Situaciones clínicas de urgencia
