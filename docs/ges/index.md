@@ -451,11 +451,13 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 23. Salud oral integral para niños y niñas de 6 años
 
-**Guía MINSAL:** [Salud oral integral para niños y niñas de 6 años](https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2014/12/Salud-Oral-Integral-ni%C3%B1os-y-ni%C3%B1as-6-a%C3%B1os.pdf)
+**Guía MINSAL:** Salud oral integral para niños y niñas de 6 años (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)  
+**En La Ficha:** [Supervisión de salud y salud oral](../pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md)
 
 ### N.° 46. Urgencia odontológica ambulatoria
 
-**Guía MINSAL:** [Urgencia odontológica ambulatoria](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/urgencia-odontologica-ambulatoria/recomendaciones/) · [Traumatismos dentoalveolares](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/manejo-de-la-urgencia-de-traumatismos-dentoalveolares/recomendaciones/)
+**Guía MINSAL:** [Urgencia odontológica ambulatoria](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/guias-de-practica-clinica/urgencia-odontologica-ambulatoria/recomendaciones/) · [Traumatismos dentoalveolares](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/manejo-de-la-urgencia-de-traumatismos-dentoalveolares/recomendaciones/)  
+**En La Ficha:** [Supervisión de salud y salud oral](../pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md)
 
 ### N.° 47. Salud oral integral de personas de 60 años
 
