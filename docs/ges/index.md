@@ -417,7 +417,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 
 ### N.° 40. Síndrome de dificultad respiratoria en el recién nacido
 
-**Guía MINSAL:** [Síndrome de dificultad respiratoria en el recién nacido](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/sindrome-de-dificultad-respiratoria-en-el-recien-nacido/recomendaciones/)
+**Guía MINSAL:** [Síndrome de dificultad respiratoria en el recién nacido](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/sindrome-de-dificultad-respiratoria-en-el-recien-nacido/recomendaciones/)  
+**En La Ficha:** [Dificultad respiratoria del recién nacido](../pediatria/dificultad-respiratoria-del-recien-nacido-apneas-asfixia-y-convulsiones-neonatales.md)
 
 ### N.° 54. Analgesia del parto
 
@@ -430,7 +431,8 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 **En La Ficha:** [Retina, nervio óptico y baja de visión](../especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md)
 ### N.° 58. Displasia broncopulmonar del prematuro
 
-**Guía MINSAL:** [Displasia broncopulmonar del prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-broncopulmonar-del-prematuro/recomendaciones/)
+**Guía MINSAL:** [Displasia broncopulmonar del prematuro](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/displasia-broncopulmonar-del-prematuro/recomendaciones/)  
+**En La Ficha:** [Prematurez](../pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md) · [Displasia broncopulmonar](../pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 
 ### N.° 59. Hipoacusia neurosensorial bilateral del prematuro
 

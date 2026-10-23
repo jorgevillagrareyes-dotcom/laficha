@@ -175,7 +175,7 @@ flowchart TD
 !!! guia "Atención inmediata y cuidados esenciales del RN"
     - **Antes del parto**: sala a **25–28 °C**, cuna radiante, toallas tibias, equipo de reanimación revisado, al menos una persona entrenada en **reanimación neonatal**.
     - **RN vigoroso** (de término, respira o llora, buen tono): **secado** inmediato, **contacto piel a piel** con la madre, cubrir con un gorro y una manta, **clampeo tardío del cordón** (**≥ 60 segundos**), evaluación del color, la respiración y la FC; **lactancia en la primera hora**.
-    - **RN no vigoroso**: secado y estimulación, vía aérea, **ventilación con presión positiva** en el primer minuto si no respira o la FC es < 100/min (ver Neonatología III: dificultad respiratoria y asfixia).
+    - **RN no vigoroso**: secado y estimulación, vía aérea, **ventilación con presión positiva** en el primer minuto si no respira o la FC es < 100/min (ver [Neonatología III](dificultad-respiratoria-del-recien-nacido-apneas-asfixia-y-convulsiones-neonatales.md)).
     - **Apgar** al **1 y 5 minutos** (y cada 5 minutos si es < 7): no sirve para decidir la reanimación.
     - **Profilaxis**: **vitamina K 1 mg IM** (0,5 mg si pesa < 1500 g) para prevenir la **enfermedad hemorrágica del RN**; **profilaxis ocular** (oftalmia neonatal); **vacuna BCG** y **hepatitis B** (PNI); **inmunización contra el VRS** en la temporada (nirsevimab).
     - **Tamizaje**: **TSH y fenilcetonuria** (y el panel ampliado) entre las **24 y 72 horas**; **saturometría pre y posductal** (cardiopatías críticas); evaluación **auditiva** según el protocolo local; **rojo pupilar**; examen de **caderas**.
