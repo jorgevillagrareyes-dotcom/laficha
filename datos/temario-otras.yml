@@ -1706,16 +1706,22 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
     - codigo: 2.01.1.002
       nombre: Dislipidemias
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
     - codigo: 2.01.1.003
       nombre: Obesidad
       dx: Específico
       tto: Completo
       seg: Completo
+      resumen:
+      - pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
     - codigo: 2.01.1.004
       nombre: Adenitis cervical
       dx: Específico
@@ -2892,6 +2898,8 @@ especialidades:
       - pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
     - codigo: 2.01.3.003
       nombre: Diagnóstico nutricional
+      resumen:
+      - pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
     - codigo: 2.01.3.004
       nombre: Entrevista y comunicación efectiva
     - codigo: 2.01.3.005

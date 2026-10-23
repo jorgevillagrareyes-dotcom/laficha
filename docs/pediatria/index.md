@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **167 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **171 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -18,6 +18,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril](cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño](diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño](diarrea-aguda-disenteria-y-deshidratacion.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita](talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md)
@@ -44,9 +45,9 @@ hide:
 
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
-| 2.01.1.001 | Desnutrición | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.002 | Dislipidemias | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.1.003 | Obesidad | Específico | Completo | Completo | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.1.001 | Desnutrición | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md) |
+| 2.01.1.002 | Dislipidemias | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md) |
+| 2.01.1.003 | Obesidad | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md) |
 | 2.01.1.004 | Adenitis cervical | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.005 | Celulitis periorbitaria | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño](exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md) |
 | 2.01.1.006 | Coqueluche | Específico | Completo | Completo | :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md) |
@@ -227,7 +228,7 @@ hide:
 |---|---|---|
 | 2.01.3.001 | Alimentación normal | :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md) |
 | 2.01.3.002 | Desarrollo psico-motor | :material-check-circle:{ .ok title="Resumen disponible" } [Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico](desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md) |
-| 2.01.3.003 | Diagnóstico nutricional | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.003 | Diagnóstico nutricional | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md) |
 | 2.01.3.004 | Entrevista y comunicación efectiva | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.005 | Familia y ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-clock-outline:{ .pend title="Pendiente" } |
