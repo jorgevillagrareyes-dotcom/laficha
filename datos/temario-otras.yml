@@ -2906,6 +2906,8 @@ especialidades:
       nombre: Familia y ciclo vital
     - codigo: 2.01.3.006
       nombre: Inmunizaciones en Chile (PNI y extra PNI)
+      resumen:
+      - pediatria/inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md
     - codigo: 2.01.3.007
       nombre: Lactancia materna
       resumen:

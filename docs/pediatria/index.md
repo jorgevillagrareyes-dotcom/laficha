@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **171 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **172 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -25,6 +25,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño](fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI](inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño](meningitis-meningoencefalitis-y-meningococcemia.md)
@@ -231,7 +232,7 @@ hide:
 | 2.01.3.003 | Diagnóstico nutricional | :material-check-circle:{ .ok title="Resumen disponible" } [Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño](diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md) |
 | 2.01.3.004 | Entrevista y comunicación efectiva | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.3.005 | Familia y ciclo vital | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.3.006 | Inmunizaciones en Chile (PNI y extra PNI) | :material-check-circle:{ .ok title="Resumen disponible" } [Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI](inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md) |
 | 2.01.3.007 | Lactancia materna | :material-check-circle:{ .ok title="Resumen disponible" } [Lactancia materna y alimentación normal del niño](lactancia-materna-y-alimentacion-normal-del-nino.md) |
 | 2.01.3.008 | Prevención de accidentes | :material-check-circle:{ .ok title="Resumen disponible" } [Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md) |
 | 2.01.3.009 | Prevención de conductas de riesgo | :material-clock-outline:{ .pend title="Pendiente" } |
