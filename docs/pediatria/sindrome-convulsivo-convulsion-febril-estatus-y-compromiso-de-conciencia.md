@@ -209,7 +209,7 @@ flowchart TD
 | **Mioclonías del sueño** | Al dormirse, benignas; EEG normal |
 | **Trastornos paroxísticos no epilépticos** | Tics, estereotipias, terrores nocturnos (no recuerda, no despierta), vértigo paroxístico benigno, reflujo (síndrome de **Sandifer**), autoestimulación ("gratificación") |
 | **Crisis psicógenas no epilépticas** (trastorno conversivo) | Adolescentes; movimientos **asincrónicos**, **ojos cerrados** con resistencia a la apertura, movimientos pélvicos, duración prolongada, sin cianosis ni posictal; EEG normal durante el evento |
-| **BRUE** (lactante) | Evento breve resuelto inexplicado (cianosis, cambio de tono, apnea), sin estado posictal |
+| **[BRUE](intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md)** (lactante) | Evento breve resuelto inexplicado (cianosis, cambio de tono, apnea), sin estado posictal |
 | **Intoxicaciones**, **hipoglicemia** | Anamnesis, glicemia, tóxicos |
 
 ## Tratamiento
