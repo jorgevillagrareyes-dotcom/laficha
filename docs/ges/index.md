@@ -371,7 +371,7 @@ Fuentes del listado: Superintendencia de Salud, [Circular IF N.° 517, de 2025](
 ### N.° 48. Politraumatizado grave
 
 **Guía MINSAL:** Politraumatizado (enlace roto en el [listado del MINSAL](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-auge/), octubre 2026)  
-**En La Ficha:** [Politraumatizado](../cirugia/trauma-y-shock/trauma-y-politraumatizado.md) · [Fractura inestable de pelvis](../traumatologia/fractura-inestable-de-pelvis.md)
+**En La Ficha:** [Politraumatizado](../cirugia/trauma-y-shock/trauma-y-politraumatizado.md) · [Politraumatismo en el niño](../pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md) · [Fractura inestable de pelvis](../traumatologia/fractura-inestable-de-pelvis.md)
 
 ### N.° 49. Traumatismo cráneo encefálico moderado o grave
 

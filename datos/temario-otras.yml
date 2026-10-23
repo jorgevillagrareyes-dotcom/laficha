@@ -2797,11 +2797,15 @@ especialidades:
       dx: Específico
       tto: Completo
       seg: Derivar
+      resumen:
+      - pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md
     - codigo: 2.01.2.021
       nombre: Politraumatismos
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md
     - codigo: 2.01.2.022
       nombre: Quemaduras
       dx: Específico
@@ -2814,6 +2818,8 @@ especialidades:
       dx: Específico
       tto: Inicial
       seg: Derivar
+      resumen:
+      - pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md
     - codigo: 2.01.2.024
       nombre: Síndrome convulsivo
       dx: Específico

@@ -6,7 +6,7 @@ hide:
 # Pediatría
 
 !!! info "Avance"
-    **141 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
+    **144 de 190** temas tienen resumen. Los temas pendientes, marcados con :material-clock-outline:, son los que se van a escribir, según el perfil EUNACOM v3 (2026).
 
 ## Resúmenes disponibles
 
@@ -28,6 +28,7 @@ hide:
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso](infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial](sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño](neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md)
+- :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística](reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares](artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md)
 - :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
@@ -207,10 +208,10 @@ hide:
 | 2.01.2.017 | Muerte súbita-ALTE, BRUE | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
 | 2.01.2.018 | Obstrucción de vía aérea superior | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior](infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md) |
 | 2.01.2.019 | Obstrucción intestinal | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal](abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md) |
-| 2.01.2.020 | Paro cardiorrespiratorio | Específico | Completo | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
-| 2.01.2.021 | Politraumatismos | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.020 | Paro cardiorrespiratorio | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md) |
+| 2.01.2.021 | Politraumatismos | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md) |
 | 2.01.2.022 | Quemaduras | Específico | Completo | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md) |
-| 2.01.2.023 | Shock | Específico | Inicial | Derivar | :material-clock-outline:{ .pend title="Pendiente" } |
+| 2.01.2.023 | Shock | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Paro cardiorrespiratorio, shock y politraumatismo en el niño](paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md) |
 | 2.01.2.024 | Síndrome convulsivo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño](sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md) |
 | 2.01.2.025 | Testículo agudo | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Escroto agudo y patología testicular](../cirugia/urologia/escroto-agudo-y-patologia-testicular.md) |
 | 2.01.2.026 | Traumatismo encéfalo-craneano | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño](cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md) |
