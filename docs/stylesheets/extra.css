@@ -259,3 +259,47 @@
   line-height: 1.5;
 }
 .md-typeset details.repaso { margin: 0.6em 0; }
+
+/* Portada ----------------------------------------------------------------- */
+.md-typeset .portada { text-align: center; padding: 2.4rem 0 1.6rem; border-bottom: 1px solid var(--mi-linea); margin-bottom: 1.2rem; }
+.md-typeset .portada h1 { font-size: 3.2em; margin: 0.1em 0 0.2em; letter-spacing: -0.02em; }
+.md-typeset .portada-sobre { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.66rem; color: var(--mi-tenue); margin: 0; }
+.md-typeset .portada-autor { font-family: var(--mi-display); font-style: italic; color: var(--mi-tenue); margin: 0 0 1.2em; }
+.md-typeset .portada-lead { max-width: 34rem; margin: 0 auto 1.6em; }
+.md-typeset .portada-buscar {
+  display: inline-flex; align-items: center; gap: 0.6em;
+  width: min(30rem, 100%); box-sizing: border-box;
+  padding: 0.7em 1em; cursor: text; text-align: left;
+  border: 1px solid var(--md-default-fg-color); border-radius: 0.15rem;
+  color: var(--mi-tenue); font-size: 0.8rem;
+}
+.md-typeset .portada-buscar:hover { background: var(--mi-fondo-suave); }
+.md-typeset .portada-buscar kbd { margin-left: auto; }
+.md-typeset .portada-buscar .twemoji svg { width: 1.1em; fill: currentColor; }
+.md-typeset .portada-cifras { display: block; margin-top: 1.2em; font-size: 0.74rem; color: var(--mi-tenue); }
+.md-typeset .accesos { text-align: center; font-size: 0.76rem; margin-bottom: 1rem; }
+
+/* Índice de especialidades, como el de un libro */
+.md-typeset .indice ol { list-style: none; counter-reset: cap; margin: 0; padding: 0; }
+.md-typeset .indice ol > li {
+  counter-increment: cap; margin: 0; padding: 0.75em 0 0.75em 2.4em;
+  border-bottom: 1px solid var(--mi-linea); position: relative;
+  display: flex; flex-wrap: wrap; align-items: baseline;
+}
+.md-typeset .indice ol > li::before {
+  content: counter(cap, upper-roman); position: absolute; left: 0; top: 0.95em;
+  font-family: var(--mi-display); color: var(--mi-tenue); font-size: 0.8rem; width: 2em;
+}
+.md-typeset .indice ol > li > p { display: contents; }
+.md-typeset .indice-titulo { font-family: var(--mi-display); font-size: 1.05rem; font-weight: 700; }
+.md-typeset .indice-titulo a { color: var(--md-default-fg-color); text-decoration: none; }
+.md-typeset .indice-titulo a:hover { color: var(--md-accent-fg-color); }
+.md-typeset .indice-relleno { flex: 1 1 2rem; border-bottom: 1px dotted var(--mi-pend); margin: 0 0.6em; transform: translateY(-0.3em); min-width: 1.5rem; }
+.md-typeset .indice-cifras { font-size: 0.7rem; color: var(--mi-tenue); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.md-typeset .indice-desc { flex-basis: 100%; font-size: 0.74rem; color: var(--mi-tenue); }
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .portada h1 { font-size: 2.4em; }
+  .md-typeset .indice-relleno { display: none; }
+  .md-typeset .indice-cifras { flex-basis: 100%; }
+}
+@media screen and (max-width: 44.9375em) { .md-typeset .portada-buscar kbd { display: none; } }

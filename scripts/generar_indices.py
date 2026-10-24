@@ -251,29 +251,39 @@ def main():
     texto = re.sub(r"<!-- avance:inicio -->.*?<!-- avance:fin -->", bloque, texto, flags=re.S)
     portada.write_text(texto, encoding="utf-8")
 
-    # Tarjetas de especialidades en la portada
-    tarjetas = [
-        '<div class="grid cards" markdown>\n',
-        "-   :material-stethoscope:{ .lg .middle } **[Medicina interna](medicina-interna/index.md)**\n\n    ---\n\n"
-        f"    **{n_paginas} resúmenes** · {total_hechas} de {total} temas EUNACOM · "
-        "10 subespecialidades y urgencias\n",
-    ]
-    for esp, hechas, n, n_pag, _ in resumen_otras:
-        icono, desc = ICONOS.get(esp["carpeta"], ("book-open-variant", ""))
-        estado = f"En preparación · **{hechas} de {n}** temas con resumen"
-        tarjetas.append(
-            f"-   :material-{icono}:{{ .lg .middle }} **[{esp['titulo']}]({esp['carpeta']}/index.md)**\n\n    ---\n\n"
-            f"    {desc}. {estado}\n"
+    # Índice de especialidades en la portada (estilo índice de libro)
+    def item(nombre, ruta, desc, cifras):
+        return (
+            f'1.  <span class="indice-titulo">[{nombre}]({ruta})</span>'
+            f'<span class="indice-relleno"></span><span class="indice-cifras">{cifras}</span>\n'
+            f'    <span class="indice-desc">{desc}</span>\n'
         )
-    tarjetas.append(
-        "-   :material-shield-check:{ .lg .middle } **[Patologías GES](ges/index.md)**\n\n    ---\n\n"
-        "    Los 90 problemas de salud GES y su guía clínica o norma. En preparación\n"
-    )
+
+    tarjetas = [
+        '<div class="indice" markdown>\n',
+        item("Medicina interna", "medicina-interna/index.md",
+             "Diez subespecialidades y urgencias",
+             f"{n_paginas} resúmenes · {total_hechas}/{total} temas"),
+    ]
+    total_pag, total_temas, total_cub = n_paginas, total, total_hechas
+    for esp, hechas, n, n_pag, _ in resumen_otras:
+        _, desc = ICONOS.get(esp["carpeta"], ("book-open-variant", ""))
+        total_pag, total_temas, total_cub = total_pag + n_pag, total_temas + n, total_cub + hechas
+        tarjetas.append(item(esp["titulo"], f"{esp['carpeta']}/index.md", desc,
+                             f"{n_pag} resúmenes · {hechas}/{n} temas"))
+    tarjetas.append(item("Patologías GES", "ges/index.md",
+                         "Los 90 problemas de salud GES con su guía clínica y los resúmenes que los tratan",
+                         "90 problemas"))
     tarjetas.append("</div>")
     inicio = DOCS / "index.md"
     texto = inicio.read_text(encoding="utf-8")
     bloque = "<!-- especialidades:inicio -->\n" + "\n".join(tarjetas) + "\n<!-- especialidades:fin -->"
     texto = re.sub(r"<!-- especialidades:inicio -->.*?<!-- especialidades:fin -->", bloque, texto, flags=re.S)
+    cifras = (
+        f'<!-- cifras:inicio --><span class="portada-cifras">**{total_pag}** resúmenes · '
+        f"**{total_cub}** de {total_temas} temas del perfil EUNACOM v3 cubiertos</span><!-- cifras:fin -->"
+    )
+    texto = re.sub(r"<!-- cifras:inicio -->.*?<!-- cifras:fin -->", cifras, texto, flags=re.S)
     inicio.write_text(texto, encoding="utf-8")
 
     # Navegación de mkdocs.yml (una pestaña por especialidad)
