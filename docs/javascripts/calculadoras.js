@@ -22,6 +22,8 @@
         var e = caja.querySelector("[name='" + n + "']");
         return e ? e.value : "";
       },
+      sel: function (n) { var e = caja.querySelector("select[name='" + n + "']"); return e ? parseFloat(e.value) || 0 : 0; },
+      marcados: function (filtro) { return caja.querySelectorAll("input[type=checkbox]" + (filtro || "") + ":checked").length; },
       suma: function () {
         var t = 0;
         caja.querySelectorAll("input[type=checkbox]:checked").forEach(function (e) { t += parseFloat(e.value) || 1; });
@@ -42,8 +44,52 @@
       return res(p + " puntos", p >= 3 ? "Riesgo de sangrado alto: corregir factores modificables y controlar más seguido" : "Riesgo de sangrado bajo o intermedio");
     },
     wells: function (d) {
-      var p = d.suma();
-      return res(fmt(p, 1) + " puntos", p > 4 ? "TEP probable: angioTC de tórax" : "TEP improbable: dímero D (si es negativo, se descarta)");
+      var p = d.suma(), edad = d.num("edad");
+      var corte = !isNaN(edad) && edad > 50 ? edad * 10 : 500;
+      var dd = " · Corte del dímero D" + (!isNaN(edad) && edad > 50 ? " ajustado por edad" : "") + ": " + fmt(corte) + " µg/L FEU";
+      return res(fmt(p, 1) + " puntos", p > 4 ? "TEP probable: angioTC de tórax" : "TEP improbable: dímero D (bajo el corte, se descarta)" + dd);
+    },
+    perc: function (d) {
+      var n = d.marcados();
+      return n === 0 ? res("PERC negativo", "Con probabilidad clínica baja, se descarta el TEP sin dímero D ni imagen")
+        : res(n + (n === 1 ? " criterio presente" : " criterios presentes"), "PERC positivo: no descarta; seguir con dímero D");
+    },
+    years: function (d) {
+      var n = d.marcados(), dd = d.num("dd");
+      var corte = n === 0 ? 1000 : 500;
+      var t = n + (n === 1 ? " ítem" : " ítems") + " · corte del dímero D: " + fmt(corte) + " ng/mL";
+      if (isNaN(dd)) return res(t, "Ingresa el dímero D");
+      return res(dd < corte ? "TEP descartado" : "AngioTC de tórax", t);
+    },
+    spesi: function (d) {
+      var p = d.marcados();
+      return res(p + (p === 1 ? " punto" : " puntos"), p === 0 ? "Riesgo bajo: mortalidad a 30 días ~ 1 %; candidato a manejo ambulatorio o alta precoz" : "No es de bajo riesgo: hospitalizar y evaluar VD y troponina");
+    },
+    news2: function (d) {
+      var sat = d.val("escala") === "2" ? d.sel("sat2") : d.sel("sat1");
+      var partes = [d.sel("fr"), sat, d.sel("o2"), d.sel("pas"), d.sel("fc"), d.sel("conc"), d.sel("t")];
+      var p = partes.reduce(function (a, b) { return a + b; }, 0);
+      var rojo = partes.some(function (x) { return x === 3; });
+      var t = p >= 7 ? "Riesgo alto: respuesta de emergencia (equipo con competencias de intensivo)"
+        : p >= 5 ? "Riesgo medio: evaluación urgente; buscar sepsis"
+        : rojo ? "Un parámetro con 3 puntos: evaluación urgente por el médico de sala"
+        : "Riesgo bajo: monitoreo según protocolo";
+      return res(p + " puntos", t);
+    },
+    psi: function (d) {
+      var edad = d.num("edad");
+      if (isNaN(edad)) return falta;
+      var mujer = d.val("sexo") === "m";
+      var com = d.marcados("[data-com]"), ex = d.marcados("[data-ex]");
+      if (edad <= 50 && com === 0 && ex === 0 && !d.si("ela")) return res("Clase I", "Mortalidad a 30 días ~ 0,1 %: manejo ambulatorio");
+      var p = (mujer ? edad - 10 : edad) + d.suma();
+      var c = p <= 70 ? ["II", "~ 0,6 %", "manejo ambulatorio"] : p <= 90 ? ["III", "0,9–2,8 %", "ambulatorio u observación breve"] : p <= 130 ? ["IV", "8–9 %", "hospitalizar"] : ["V", "27–31 %", "hospitalizar y evaluar UCI"];
+      return res("Clase " + c[0] + " (" + p + " puntos)", "Mortalidad a 30 días " + c[1] + ": " + c[2]);
+    },
+    nacgrave: function (d) {
+      var M = d.marcados("[data-mayor]"), m = d.marcados(":not([data-mayor])");
+      var grave = M >= 1 || m >= 3;
+      return res(grave ? "Neumonía grave" : "No cumple criterios de gravedad", M + " mayor(es) · " + m + " menor(es)" + (grave ? " · UCI o intermedio" : ""));
     },
     curb65: function (d) {
       var p = d.suma();
@@ -89,6 +135,11 @@
       }
       return res(txt, "Agrega la albúmina para calcular el MELD 3.0" + (meldna >= 15 ? " · ≥ 15: derivar a evaluación de trasplante" : ""));
     },
+    air: function (d) {
+      var p = d.suma() + d.sel("reb") + d.sel("neu") + d.sel("leu") + d.sel("pcr");
+      var t = p <= 4 ? "Riesgo bajo: apendicitis poco probable; alta con control o reevaluar" : p <= 8 ? "Riesgo intermedio: imagen (ecografía; TC si no es concluyente)" : "Riesgo alto: evaluación por cirugía";
+      return res(p + " / 12", t);
+    },
     alvarado: function (d) {
       var p = d.suma();
       var t = p <= 4 ? "Apendicitis poco probable" : p <= 6 ? "Apendicitis posible: imagen" : p <= 8 ? "Apendicitis probable" : "Apendicitis muy probable";
@@ -99,9 +150,15 @@
       if (isNaN(cr) || isNaN(edad) || cr <= 0) return falta;
       var k = mujer ? 0.7 : 0.9, a = mujer ? -0.241 : -0.302;
       var tfg = 142 * Math.pow(Math.min(cr / k, 1), a) * Math.pow(Math.max(cr / k, 1), -1.2) * Math.pow(0.9938, edad) * (mujer ? 1.012 : 1);
+      var cys = d.num("cys"), txt = "CKD-EPI 2021 con creatinina";
+      if (!isNaN(cys) && cys > 0) {
+        tfg = 135 * Math.pow(Math.min(cr / k, 1), mujer ? -0.219 : -0.144) * Math.pow(Math.max(cr / k, 1), -0.544) *
+          Math.pow(Math.min(cys / 0.8, 1), -0.323) * Math.pow(Math.max(cys / 0.8, 1), -0.778) * Math.pow(0.9961, edad) * (mujer ? 0.963 : 1);
+        txt = "CKD-EPI 2021 con creatinina y cistatina C";
+      }
       var g = tfg >= 90 ? "G1" : tfg >= 60 ? "G2" : tfg >= 45 ? "G3a" : tfg >= 30 ? "G3b" : tfg >= 15 ? "G4" : "G5";
       var cg = !isNaN(peso) ? " · Cockcroft-Gault: " + fmt((140 - edad) * peso / (72 * cr) * (mujer ? 0.85 : 1)) + " mL/min" : "";
-      return res(fmt(tfg) + " mL/min/1,73 m²", "Categoría KDIGO " + g + cg);
+      return res(fmt(tfg) + " mL/min/1,73 m²", txt + " · categoría KDIGO " + g + cg);
     },
     electrolitos: function (d) {
       var na = d.num("na"), cl = d.num("cl"), hco3 = d.num("hco3"), alb = d.num("alb"), glu = d.num("glu"), bun = d.num("bun"), ca = d.num("ca");
