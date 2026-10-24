@@ -1,0 +1,267 @@
+# Fármacos del índice (nombre genérico tal como aparece en los resúmenes). Uno por línea.
+# Las variantes se separan con "|": la primera es el nombre que se muestra.
+Abiraterona
+Acamprosato
+Acenocumarol
+Acetazolamida
+Acetilcisteína|N-acetilcisteína|acetilcisteína
+Aciclovir
+Ácido acetilsalicílico|aspirina|AAS
+Ácido fólico
+Ácido tranexámico
+Ácido ursodesoxicólico
+Ácido valproico|valproato
+Ácido zoledrónico
+Adalimumab
+Adenosina
+Adrenalina|epinefrina
+Albendazol
+Albúmina
+Alendronato
+Alopurinol
+Alprostadil|prostaglandina E1
+Alteplasa|alteplase
+Amikacina
+Amiodarona
+Amitriptilina
+Amlodipino
+Amoxicilina-ácido clavulánico|amoxicilina/ácido clavulánico|amoxicilina-clavulánico
+Amoxicilina
+Ampicilina-sulbactam|ampicilina/sulbactam
+Ampicilina
+Anfotericina B|anfotericina
+Apixabán
+Aripiprazol
+Atropina
+Azatioprina
+Azitromicina
+Baclofeno
+Beclometasona
+Betametasona
+Bicarbonato de sodio|bicarbonato
+Biperideno
+Bisoprolol
+Bromocriptina
+Budesonida
+Bupropión
+Cabergolina
+Calcitonina
+Captopril
+Carbamazepina
+Carbetocina
+Carbón activado
+Carvedilol
+Caspofungina
+Cefadroxilo
+Cefalexina
+Cefazolina
+Cefepime
+Cefotaxima
+Ceftazidima
+Ceftriaxona
+Cetirizina
+Ciclofosfamida
+Ciclosporina
+Cilostazol
+Ciprofloxacino
+Citalopram
+Claritromicina
+Clindamicina
+Clobetasol
+Clonazepam
+Clopidogrel
+Clorfenamina
+Cloroquina
+Cloruro de potasio|KCl|potasio EV
+Cloxacilina
+Clozapina
+Codeína
+Colchicina
+Colestiramina
+Complejo protrombínico|concentrado de complejo protrombínico|CCP
+Cotrimoxazol|trimetoprim-sulfametoxazol
+Crioprecipitado
+Dabigatrán
+Dantroleno
+Dapsona
+Denosumab
+Desmopresina
+Dexametasona
+Diazepam
+Diclofenaco
+Digoxina
+Diltiazem
+Dimenhidrinato
+Dobutamina
+Domperidona
+Donepezilo
+Dopamina
+Doxazosina
+Doxiciclina
+Duloxetina
+Edoxabán
+Empagliflozina|dapagliflozina|iSGLT2
+Enalapril
+Enoxaparina
+Entecavir
+Eritromicina
+Eritropoyetina
+Escitalopram
+Esmolol
+Espironolactona
+Estreptoquinasa|estreptokinasa
+Etambutol
+Etomidato
+Ezetimibe
+Famciclovir
+Febuxostat
+Fenitoína
+Fenobarbital
+Fentanilo
+Fierro|hierro|sulfato ferroso|carboximaltosa
+Finasterida
+Finerenona
+Flecainida
+Fluconazol
+Fludrocortisona
+Flumazenil
+Fluoxetina
+Fluticasona
+Fondaparinux
+Fosfomicina
+Furosemida
+Gabapentina
+Gentamicina
+Glucagón
+Gluconato de calcio|calcio EV|calcio
+Glucosa|suero glucosado
+Haloperidol
+Heparina no fraccionada|heparina
+Hidralazina
+Hidroclorotiazida
+Hidrocortisona
+Hidroxicloroquina
+Hidroxiurea
+Hidroxocobalamina
+Ibuprofeno
+Imipenem
+Indometacina
+Infliximab
+Inmunoglobulina
+Insulina
+Ipratropio|bromuro de ipratropio
+Isoniazida
+Ivabradina
+Ivermectina
+Ketamina
+Ketorolaco
+Labetalol
+Lactulosa
+Lamotrigina
+Levetiracetam
+Levodopa
+Levofloxacino
+Levonorgestrel
+Levotiroxina
+Lidocaína
+Linezolid
+Litio
+Loperamida
+Loratadina
+Lorazepam
+Losartán
+Magnesio|sulfato de magnesio
+Manitol
+Mebendazol
+Meropenem
+Mesalazina
+Metformina
+Metamizol
+Metilfenidato
+Metilprednisolona
+Metimazol|tiamazol
+Metoclopramida
+Metoprolol
+Metotrexato
+Metronidazol
+Midazolam
+Mifepristona
+Milrinona
+Mirtazapina
+Misoprostol
+Montelukast
+Morfina
+Naloxona
+Naltrexona
+Naproxeno
+Neostigmina
+Nicardipino
+Nifedipino
+Nimodipino
+Nirsevimab
+Nistatina
+Nitrofurantoína
+Nitroglicerina
+Nitroprusiato
+Noradrenalina|norepinefrina
+Octreotide|octreótido
+Olanzapina
+Omeprazol|esomeprazol|pantoprazol|IBP
+Ondansetrón
+Oseltamivir
+Oxitocina
+Oxígeno
+Paracetamol
+Penicilina benzatina|penicilina G benzatina
+Penicilina G sódica|penicilina G cristalina
+Piperacilina-tazobactam|piperacilina/tazobactam
+Pirazinamida
+Piridostigmina
+Plaquetas
+Plasma fresco congelado|plasma
+Polietilenglicol
+Prasugrel
+Prednisolona
+Prednisona
+Pregabalina
+Prometazina
+Propiltiouracilo
+Propranolol
+Protamina
+Quetiapina
+Ranitidina|famotidina
+Rifampicina
+Rifaximina
+Risperidona
+Rituximab
+Rivaroxabán
+Rocuronio
+Ropinirol
+Salbutamol
+Semaglutida
+Sertralina
+Sildenafil
+Somatostatina
+Succinilcolina
+Sumatriptán
+Tamsulosina
+Terbutalina
+Terlipresina
+Testosterona
+Tiamina
+Ticagrelor
+Tirzepatida
+Tobramicina
+Topiramato
+Tramadol
+Trazodona
+Valaciclovir
+Valganciclovir
+Vancomicina
+Vasopresina
+Verapamilo
+Vitamina B12|cianocobalamina
+Vitamina D|colecalciferol
+Vitamina K|fitomenadiona
+Warfarina
+Zolpidem

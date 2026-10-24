@@ -436,3 +436,11 @@
 .md-typeset .calc-falta { color: var(--mi-tenue); font-style: italic; }
 .md-typeset .calc-fuente { font-size: 0.68rem; color: var(--mi-tenue); margin-top: 0.3em; }
 .md-typeset .calc-indice { font-size: 0.76rem; }
+
+/* Índice de fármacos */
+.md-typeset .farm-filtro { width: min(28rem, 100%); font: inherit; font-size: 0.8rem; padding: 0.55em 0.8em; border: 1px solid var(--md-default-fg-color); border-radius: 0.15rem; background: transparent; color: var(--md-default-fg-color); margin: 0.4em 0 0.2em; }
+.md-typeset details.farmaco { border-left: 1px solid var(--mi-linea); margin: 0.2em 0; }
+.md-typeset details.farmaco > summary { font-family: var(--mi-display); font-size: 0.86rem; padding-left: 0.6rem; }
+.md-typeset details.farmaco > summary::before { display: none; }
+.md-typeset details.farmaco li { font-size: 0.74rem; line-height: 1.5; margin-bottom: 0.5em; }
+.md-typeset .farm-ancla { display: block; height: 0; }

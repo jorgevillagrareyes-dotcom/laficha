@@ -321,6 +321,98 @@ def main():
         partes.append("</div>\n")
     (DOCS / "indice-alfabetico.md").write_text("\n".join(partes), encoding="utf-8")
 
+    # Índice de fármacos: líneas de los recuadros de dosis y de las tablas de dosis de cada resumen
+    farmacos = []
+    for linea in (RAIZ / "datos" / "farmacos.txt").read_text(encoding="utf-8").splitlines():
+        if linea.strip() and not linea.startswith("#"):
+            nombres = [n.strip() for n in linea.split("|")]
+            letras = r"[\wáéíóúüñÁÉÍÓÚÜÑ]"
+            patron = re.compile(r"(?<!" + letras + ")(?:" + "|".join(re.escape(n) for n in nombres) + r")(?!" + letras + ")", re.I)
+            farmacos.append((nombres[0], patron))
+    usos = OrderedDict((n, []) for n, _ in farmacos)
+
+    def limpiar(texto):
+        texto = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", texto)
+        texto = re.sub(r"\{[^}]*\}", "", texto)
+        return re.sub(r"\s+", " ", texto).strip(" -")
+
+    def items_de(md):
+        """Devuelve los textos de dosis de una página: ítems de los recuadros dosis y filas de tablas de dosis."""
+        lineas = md.splitlines()
+        salida = []
+        i = 0
+        while i < len(lineas):
+            l = lineas[i]
+            if re.match(r"\s*(!!!|\?\?\?\+?) dosis", l):
+                base = len(l) - len(l.lstrip())
+                i += 1
+                actual = None
+                while i < len(lineas) and (not lineas[i].strip() or len(lineas[i]) - len(lineas[i].lstrip()) > base):
+                    t = lineas[i].strip()
+                    sangria = len(lineas[i]) - len(lineas[i].lstrip())
+                    if t.startswith("|"):
+                        if not re.match(r"\|[\s:|-]+\|?$", t):
+                            salida.append(" · ".join(c.strip() for c in t.strip("|").split("|") if c.strip()))
+                        actual = None
+                    elif re.match(r"([-*]|\d+\.)\s", t) and (actual is None or sangria <= actual[1]):
+                        actual = [re.sub(r"^([-*]|\d+\.)\s+", "", t), sangria]
+                        salida.append(actual)
+                    elif t and actual is not None:
+                        actual[0] += " · " + re.sub(r"^([-*]|\d+\.)\s+", "", t)
+                    elif t:
+                        salida.append(t)
+                    i += 1
+                continue
+            # Tablas con una columna "Dosis" fuera de los recuadros
+            if l.strip().startswith("|") and re.search(r"\bDosis\b", l):
+                i += 1
+                while i < len(lineas) and lineas[i].strip().startswith("|"):
+                    t = lineas[i].strip()
+                    if not re.match(r"\|[\s:|-]+\|?$", t):
+                        salida.append(" · ".join(c.strip() for c in t.strip("|").split("|") if c.strip()))
+                    i += 1
+                continue
+            i += 1
+        return [x[0] if isinstance(x, list) else x for x in salida]
+
+    for titulo, ruta, _nombre in entradas:
+        vistos = set()
+        for texto in items_de((DOCS / ruta).read_text(encoding="utf-8")):
+            texto = limpiar(texto)
+            if len(texto) < 12 or texto in vistos:
+                continue
+            vistos.add(texto)
+            for nombre, patron in farmacos:
+                if patron.search(texto):
+                    usos[nombre].append((texto, titulo, ruta))
+    con_datos = [(n, u) for n, u in usos.items() if u]
+    con_datos.sort(key=lambda x: clave(x[0]))
+    letras_f = OrderedDict()
+    for n, _ in con_datos:
+        letras_f.setdefault(clave(n)[:1].upper(), n)
+    partes = [
+        "---\nhide:\n  - toc\n---\n",
+        "# Índice de fármacos\n",
+        f"Dónde aparece la dosis de **{len(con_datos)} fármacos** en los resúmenes de La Ficha. "
+        "Cada línea viene del recuadro de dosis o de la tabla de dosis de un resumen, con el enlace a la página para ver el contexto "
+        "(indicación, ajuste renal y precauciones).\n",
+        '!!! warning "Antes de indicar"\n    Las dosis se muestran fuera de su contexto clínico. Revisa siempre el resumen completo, '
+        "la función renal y hepática, el peso, las interacciones y el protocolo de tu centro.\n",
+        '<input type="search" class="farm-filtro" placeholder="Filtrar por nombre, por ejemplo: amoxicilina" aria-label="Filtrar fármacos">\n',
+        '<p class="az-letras">' + " ".join(f'<a href="#f-{l.lower()}">{l}</a>' for l in letras_f) + "</p>\n",
+    ]
+    letra_actual = None
+    for nombre, lista in con_datos:
+        letra = clave(nombre)[:1].upper()
+        if letra != letra_actual:
+            partes.append(f'<span id="f-{letra.lower()}" class="farm-ancla"></span>\n')
+            letra_actual = letra
+        partes.append(f'??? farmaco "{nombre} ({len(lista)})"')
+        for texto, titulo, ruta in lista[:40]:
+            partes.append(f"    - {texto} — *[{titulo}]({ruta})*")
+        partes.append("")
+    (DOCS / "farmacos.md").write_text("\n".join(partes), encoding="utf-8")
+
     # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)
     (DOCS / "mis-temas.md").write_text(
         "---\nhide:\n  - toc\n---\n\n"
@@ -363,6 +455,7 @@ def main():
         "  - Estudio:",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
+        "      - Fármacos: farmacos.md",
         "      - Índice A–Z: indice-alfabetico.md",
         "      - Mis temas: mis-temas.md",
         "  - Acerca de:",

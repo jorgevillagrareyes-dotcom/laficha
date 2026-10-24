@@ -244,7 +244,7 @@ Agua corporal total = peso × fracción. Déficit de agua = ACT × (Na/140 − 1
 <output class="calc-res"></output>
 </div>
 
-Calculadora aritmética: la dosis por kilo y la máxima deben venir del resumen del fármaco o de la guía. Ver el índice de fármacos.
+Calculadora aritmética: la dosis por kilo y la máxima deben venir del resumen del fármaco o de la guía. Ver el [índice de fármacos](farmacos.md).
 { .calc-fuente }
 
 ### Índice de masa corporal

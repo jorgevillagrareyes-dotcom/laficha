@@ -341,6 +341,24 @@
     });
   }
 
+  // Índice de fármacos: filtro por nombre (sin distinguir tildes)
+  function filtroFarmacos() {
+    var campo = document.querySelector(".farm-filtro");
+    if (!campo || campo.getAttribute("data-lf") === "1") return;
+    campo.setAttribute("data-lf", "1");
+    var plano = function (t) { return t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
+    var items = Array.prototype.slice.call(document.querySelectorAll("details.farmaco"));
+    campo.addEventListener("input", function () {
+      var q = plano(campo.value.trim());
+      items.forEach(function (d) {
+        var ok = !q || plano(d.querySelector("summary").textContent).indexOf(q) !== -1;
+        d.style.display = ok ? "" : "none";
+      });
+      var visibles = items.filter(function (x) { return x.style.display !== "none"; });
+      if (q && visibles.length <= 3) visibles.forEach(function (d) { d.open = true; });
+    });
+  }
+
   function accesibilidad() {
     var busqueda = document.querySelector(".md-search[role='dialog']");
     if (busqueda && !busqueda.hasAttribute("aria-label")) busqueda.setAttribute("aria-label", "Búsqueda");
@@ -356,6 +374,7 @@
     marcarEnlaces();
     misTemas();
     preguntasDelDia();
+    filtroFarmacos();
     registrarSW();
     botonSinConexion();
   }
