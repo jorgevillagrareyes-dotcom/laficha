@@ -238,7 +238,7 @@
     }).catch(function () { caja.innerHTML = ""; });
   }
 
-  // Preguntas del día: 5 preguntas de especialidades distintas, fijas por fecha
+  // Preguntas del día: 5 casos clínicos de especialidades distintas, fijos por fecha
   function azar(semilla) {
     // Generador pseudoaleatorio reproducible (mulberry32)
     return function () {
@@ -272,13 +272,13 @@
     fetch(BASE + "preguntas.json").then(function (r) { return r.json(); }).then(function (preguntas) {
       var fecha = hoy();
       var semilla = parseInt(fecha.replace(/-/g, ""), 10);
-      function mostrar(indices, etiqueta, extra) {
+      function mostrar(indices, etiqueta) {
         var reg = leer("respuestas", {});
         var html = "<p class='lf-fecha'>" + etiqueta + "</p><ol class='lf-pdia'>";
         indices.forEach(function (i, n) {
-          var q = preguntas[i], clave = (extra ? "x" : fecha) + ":" + i, r = reg[clave];
+          var q = preguntas[i], clave = fecha + ":" + i, r = reg[clave];
           html += "<li class='lf-pq' data-i='" + i + "' data-clave='" + clave + "'>" +
-            "<p class='lf-pq-esp'>" + q.e + " · <a href='" + BASE + q.u + "'>" + q.t + "</a></p>" +
+            "<p class='lf-pq-esp'>Caso " + (n + 1) + " · " + q.e + " · <a href='" + BASE + q.u + "'>" + q.t + "</a></p>" +
             "<p class='lf-pq-texto'>" + q.p + "</p>" +
             "<button type='button' class='lf-btn lf-ver'>Ver respuesta</button>" +
             "<div class='lf-pq-resp' hidden>" + q.r.replace(/(href|src)="(?!https?:|#|\/)/g, '$1="' + BASE) +
@@ -286,7 +286,7 @@
             "<button type='button' class='lf-btn" + (r === 1 ? " lf-activo" : "") + "' data-ok='1'>Sí</button> " +
             "<button type='button' class='lf-btn" + (r === 0 ? " lf-activo" : "") + "' data-ok='0'>No</button></p></div></li>";
         });
-        html += "</ol><p><button type='button' class='lf-btn lf-otra'>Practicar 5 preguntas más</button></p>";
+        html += "</ol><p class='lf-vacio'>Mañana aparecen 5 casos nuevos.</p>";
         caja.innerHTML = html;
       }
       caja.addEventListener("click", function (ev) {
@@ -308,9 +308,6 @@
           guardar("respuestas", reg); guardar("estadisticas", stats);
           li.querySelectorAll("[data-ok]").forEach(function (x) { x.classList.toggle("lf-activo", x === b); });
           pintarHistorial();
-        } else if (b.classList.contains("lf-otra")) {
-          mostrar(elegir(preguntas, azar(Date.now() & 0x7fffffff)), "Práctica extra (preguntas al azar)", true);
-          caja.scrollIntoView({ behavior: "smooth" });
         }
       });
       function pintarHistorial() {
@@ -328,7 +325,7 @@
           (tot ? Math.round(100 * ok / tot) : 0) + " %</strong></td></tr></tbody></table>";
       }
       var fechaLarga = new Date().toLocaleDateString("es-CL", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
-      mostrar(elegir(preguntas, azar(semilla)), "Preguntas del " + fechaLarga, false);
+      mostrar(elegir(preguntas, azar(semilla)), "Casos del " + fechaLarga);
       // Marca las preguntas de hoy ya respondidas para no duplicar el historial
       var reg = leer("respuestas", {});
       caja.querySelectorAll(".lf-pq").forEach(function (li) {
