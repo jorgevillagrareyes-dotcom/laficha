@@ -1,0 +1,154 @@
+orden: 8
+titulo: Digestivos
+farmacos:
+  - n: Omeprazol
+    g: Inhibidor de la bomba de protones (IBP)
+    q: Bloquea de forma irreversible la bomba de protones de la célula parietal; reduce la secreción ácida por 24 h.
+    u:
+      - ERGE, esofagitis y úlcera péptica.
+      - Erradicación de H. pylori (junto con antibióticos).
+      - Hemorragia digestiva alta.
+      - Prevención de úlcera en usuarios de AINE o de doble antiagregación con riesgo.
+    d:
+      - 20–40 mg VO al día, 30 min antes del desayuno (ERGE por 8 semanas).
+      - H. pylori 20–40 mg VO cada 12 h por 14 días.
+      - HDA 80 mg EV en bolo y luego 40 mg cada 12 h (o 8 mg/h).
+    c: Hipersensibilidad.
+    e: Cefalea, diarrea, infección por C. difficile, hipomagnesemia, déficit de B12 y hierro, nefritis intersticial y mayor riesgo de fracturas con uso prolongado.
+    i: Reduce la activación del clopidogrel (preferir pantoprazol) y la absorción de hierro, levotiroxina y ketoconazol. Aumenta los niveles de metotrexato.
+    em: Compatible con el embarazo y la lactancia.
+    p: Revisar periódicamente si sigue siendo necesario; muchos pacientes lo usan años sin indicación (deprescribir de forma gradual).
+  - n: Ranitidina
+    g: Antagonista de los receptores H2
+    q: Bloquea los receptores H2 de la célula parietal; menos potente que los IBP.
+    u:
+      - Dispepsia y ERGE leve (hoy reemplazada por IBP o famotidina).
+    d:
+      - 150 mg VO cada 12 h; 50 mg EV cada 8 h.
+    a: Reducir a la mitad con depuración < 50 mL/min.
+    e: Cefalea, confusión en adultos mayores y ERC, trombocitopenia rara.
+    em: Compatible.
+    p: En 2020 la FDA pidió retirarla del mercado por contaminación con NDMA (posible carcinógeno); donde no esté disponible, usar famotidina o un IBP.
+  - n: Ondansetrón
+    g: Antiemético · antagonista del receptor 5-HT3
+    q: Bloquea los receptores de serotonina del área postrema y del intestino.
+    u:
+      - Náuseas y vómitos por quimioterapia y posoperatorios.
+      - Vómitos en la gastroenteritis aguda de niños (facilita la rehidratación oral).
+      - Hiperémesis gravídica (segunda línea).
+    d:
+      - 4–8 mg VO o EV cada 8 h.
+      - Niños 0,15 mg/kg VO o EV en dosis única.
+    c: QT largo congénito. Uso con apomorfina.
+    e: Cefalea, constipación, prolongación del QT y síndrome serotoninérgico (con otros serotoninérgicos).
+    em: Se usa en el embarazo cuando fallan las primeras opciones.
+  - n: Metoclopramida
+    g: Antiemético y procinético · antagonista dopaminérgico D2
+    q: Bloquea los receptores D2 (central y periférico) y acelera el vaciamiento gástrico.
+    u:
+      - Náuseas y vómitos, gastroparesia.
+      - Migraña en urgencia (con analgésico).
+    d:
+      - 10 mg VO, IM o EV cada 8 h, máximo 30 mg al día y 5 días.
+    a: Reducir a la mitad con depuración < 40 mL/min.
+    c: Enfermedad de Parkinson, obstrucción, perforación o hemorragia digestiva, feocromocitoma, epilepsia y menores de 1 año.
+    e: Distonía aguda (más en jóvenes y mujeres), acatisia, discinesia tardía con uso prolongado, síndrome neuroléptico maligno e hiperprolactinemia.
+    i: Más efectos extrapiramidales con antipsicóticos.
+    em: Compatible con el embarazo.
+    p: La distonía aguda se trata con biperideno (o difenhidramina) EV o IM.
+  - n: Domperidona
+    g: Antiemético y procinético · antagonista D2 periférico
+    q: Antagonista dopaminérgico que casi no cruza la barrera hematoencefálica (menos efectos extrapiramidales).
+    u:
+      - Náuseas y vómitos (por ejemplo, por levodopa en la enfermedad de Parkinson).
+    d:
+      - 10 mg VO hasta 3 veces al día, máximo 30 mg al día y 1 semana.
+    c: QT prolongado, cardiopatía significativa, insuficiencia hepática moderada a grave, uso de inhibidores potentes del CYP3A4.
+    e: Prolongación del QT, arritmias ventriculares y muerte súbita (más en mayores de 60 años y con dosis > 30 mg/día), galactorrea.
+    em: Evitar en el embarazo.
+  - n: Dimenhidrinato
+    g: Antihistamínico H1 con acción antiemética y antivertiginosa
+    q: Antihistamínico de primera generación con efecto anticolinérgico y sedante.
+    u:
+      - Vértigo periférico agudo (por pocos días).
+      - Náuseas y vómitos, cinetosis e hiperémesis gravídica.
+    d:
+      - 50–100 mg VO, IM o EV cada 4–6 h (máximo 400 mg al día).
+    c: Glaucoma de ángulo cerrado, retención urinaria.
+    e: Sedación, sequedad de boca, retención urinaria y delirium en adultos mayores.
+    em: Se usa en el embarazo.
+    p: En el vértigo, usarlo solo los primeros días; prolongarlo retrasa la compensación vestibular.
+  - n: Lactulosa
+    g: Laxante osmótico · disacárido no absorbible
+    q: Las bacterias del colon la fermentan; acidifica el contenido intestinal, atrapa el amonio y produce un efecto osmótico.
+    u:
+      - Tratamiento y prevención de la encefalopatía hepática.
+      - Constipación.
+    d:
+      - Encefalopatía 20–30 mL VO o por sonda cada 1–2 h hasta lograr deposiciones; luego ajustar a 2–3 deposiciones blandas al día.
+      - Constipación 15–30 mL VO al día.
+    c: Galactosemia, obstrucción intestinal.
+    e: Distensión, flatulencia, cólicos; diarrea con deshidratación e hipernatremia si se da en exceso.
+    em: Compatible.
+  - n: Polietilenglicol
+    g: Laxante osmótico
+    q: Polímero no absorbible que retiene agua en el colon.
+    u:
+      - Constipación funcional y por opioides, en adultos y niños.
+      - Desimpactación de fecaloma.
+      - Preparación para la colonoscopía (formulación con electrolitos).
+    d:
+      - Constipación 17 g VO al día disueltos en agua (niños 0,4–0,8 g/kg/día).
+      - Desimpactación 34–100 g al día por 3 días.
+      - Colonoscopía 4 L (o 2 L + 2 L dividido).
+    c: Obstrucción o perforación intestinal, megacolon tóxico.
+    e: Distensión, náuseas y diarrea.
+    em: Compatible.
+  - n: Loperamida
+    g: Antidiarreico · agonista opioide periférico
+    q: Agonista de los receptores opioides del intestino que reduce la motilidad; no cruza la barrera hematoencefálica en dosis normales.
+    u:
+      - Diarrea aguda no disentérica del adulto.
+      - Diarrea crónica funcional.
+    d:
+      - 4 mg VO y luego 2 mg después de cada deposición líquida (máximo 16 mg al día).
+    c: Diarrea con sangre o fiebre (disentería), sospecha de C. difficile, colitis ulcerosa grave (megacolon) y niños pequeños.
+    e: Constipación, distensión e íleo; arritmias con sobredosis.
+    em: Usar solo si se necesita.
+  - n: Mesalazina
+    g: Antiinflamatorio intestinal · aminosalicilato (5-ASA)
+    q: Antiinflamatorio de acción local en la mucosa del colon.
+    u:
+      - Colitis ulcerosa leve a moderada (inducción y mantención).
+      - Proctitis ulcerosa (supositorios o enemas).
+    d:
+      - Inducción 2,4–4,8 g VO al día; agregar mesalazina rectal 1 g al día si hay compromiso distal.
+      - Mantención 2–2,4 g VO al día.
+    c: Alergia a salicilatos, insuficiencia renal grave.
+    e: Cefalea, náuseas, nefritis intersticial, pancreatitis y empeoramiento paradójico de la diarrea.
+    em: Compatible con el embarazo y la lactancia.
+    p: Medir la creatinina antes de iniciarla y luego cada 6–12 meses.
+  - n: Ácido ursodesoxicólico
+    g: Ácido biliar hidrofílico
+    q: Reemplaza a los ácidos biliares tóxicos, aumenta el flujo biliar y protege a los colangiocitos.
+    u:
+      - Colangitis biliar primaria (primera línea).
+      - Colestasia intrahepática del embarazo.
+      - Prevención de litiasis tras la cirugía bariátrica y disolución de cálculos de colesterol pequeños (casos seleccionados).
+    d:
+      - Colangitis biliar primaria 13–15 mg/kg/día VO.
+      - Colestasia del embarazo 10–15 mg/kg/día VO.
+    c: Colecistitis aguda, obstrucción biliar completa.
+    e: Diarrea y aumento de peso leve.
+    em: Se usa en la colestasia del embarazo.
+  - n: Carbón activado
+    g: Adsorbente gastrointestinal
+    q: Polvo de gran superficie que adsorbe muchos tóxicos en el intestino e impide su absorción.
+    u:
+      - Intoxicaciones orales con riesgo vital, idealmente dentro de 1–2 h de la ingesta.
+      - Dosis múltiples en intoxicaciones por carbamazepina, fenobarbital, dapsona, quinina o teofilina.
+    d:
+      - 1 g/kg VO o por sonda (máximo 50 g).
+    c: Vía aérea no protegida, obstrucción o perforación intestinal. No sirve para alcoholes, metales (hierro, litio), cáusticos ni hidrocarburos.
+    e: Vómitos, aspiración pulmonar y constipación.
+    em: Compatible.

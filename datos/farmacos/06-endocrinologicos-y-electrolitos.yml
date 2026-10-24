@@ -1,0 +1,433 @@
+orden: 6
+titulo: Diabetes, endocrinología, hueso y electrolitos
+farmacos:
+  - n: Insulina
+    g: Hormona hipoglicemiante
+    q: Hormona que permite la entrada de glucosa a las células y frena la lipólisis y la cetogénesis. Hay insulinas basales (NPH, glargina, degludec) y prandiales o de rescate (cristalina, lispro, aspártica).
+    u:
+      - Diabetes tipo 1 (siempre) y tipo 2 con mal control, hiperglicemia sintomática o catabólica.
+      - Cetoacidosis y estado hiperosmolar (infusión EV).
+      - Hiperglicemia en el paciente hospitalizado (esquema basal-bolo).
+      - Diabetes gestacional que no se controla con dieta.
+      - Hiperkalemia (con glucosa).
+    d:
+      - DM2, inicio basal 10 U al día o 0,1–0,2 U/kg; subir 2 U cada 3 días hasta glicemia de ayuno 80–130 mg/dL.
+      - DM1 0,4–1 U/kg/día, mitad basal y mitad prandial.
+      - CAD 0,1 U/kg/h EV de insulina cristalina (0,05 U/kg/h en el estado hiperosmolar).
+      - Hiperkalemia 10 U de insulina cristalina EV con 25 g de glucosa.
+    a: Reducir la dosis en la ERC avanzada (menor eliminación de insulina).
+    c: Hipoglicemia. En la CAD, no iniciar con K < 3,5 mEq/L.
+    e: Hipoglicemia, aumento de peso, lipodistrofia en los sitios de punción e hipokalemia.
+    i: Los betabloqueadores enmascaran los síntomas de hipoglicemia. Los corticoides aumentan la necesidad de insulina.
+    em: Tratamiento de elección de la diabetes en el embarazo.
+    p: Rotar los sitios de punción; la lipohipertrofia hace que la absorción sea errática.
+  - n: Metformina
+    g: Antidiabético oral · biguanida
+    q: Reduce la producción hepática de glucosa y mejora la sensibilidad a la insulina. No causa hipoglicemia ni aumento de peso.
+    u:
+      - Diabetes tipo 2 (primera línea habitual).
+      - Prediabetes de alto riesgo y síndrome de ovario poliquístico con resistencia a la insulina.
+    d:
+      - Iniciar 500 mg VO con la comida y subir cada 1–2 semanas hasta 1.000 mg cada 12 h (máximo 2.550 mg al día).
+    a: TFG 30–45 mL/min, máximo 1.000 mg al día; < 30 mL/min, suspender.
+    c: TFG < 30 mL/min, acidosis, insuficiencia hepática grave, alcoholismo, hipoxia o shock.
+    e: Náuseas, diarrea y dolor abdominal (menos con la liberación prolongada), déficit de vitamina B12 y acidosis láctica (rara).
+    i: Suspenderla ante una LRA, sepsis, deshidratación, cirugía mayor o contraste yodado si la TFG es < 30 mL/min.
+    em: Se puede usar en el embarazo (cruza la placenta); la insulina sigue siendo de elección.
+    p: Medir la vitamina B12 cada 1–2 años en usuarios crónicos, sobre todo si hay neuropatía o anemia.
+  - n: Empagliflozina
+    g: Antidiabético · inhibidor del cotransportador SGLT2 (iSGLT2)
+    q: Bloquea la reabsorción de glucosa en el túbulo proximal (glucosuria). Protege el corazón y el riñón independiente de la glicemia.
+    u:
+      - Diabetes tipo 2 con enfermedad cardiovascular, IC o ERC.
+      - IC con FE reducida o preservada (con o sin diabetes).
+      - ERC con o sin diabetes.
+    d:
+      - 10 mg VO al día (hasta 25 mg en la diabetes para control glicémico).
+    a: Iniciar con TFG ≥ 20 mL/min; mantener aunque baje después (el efecto glicémico disminuye, la protección renal se mantiene).
+    c: Diabetes tipo 1. Antecedente de cetoacidosis. Ayuno prolongado o enfermedad aguda grave.
+    e: Infecciones genitales micóticas, infección urinaria, depleción de volumen, alza inicial de la creatinina y cetoacidosis euglicémica.
+    i: Más deshidratación con diuréticos de asa; puede requerir reducir el diurético.
+    em: Evitar en el embarazo y la lactancia.
+    p: Suspender 3 días antes de una cirugía y en cualquier enfermedad aguda con ingesta pobre (riesgo de cetoacidosis euglicémica).
+  - n: Semaglutida
+    g: Agonista del receptor de GLP-1 (arGLP-1)
+    q: Incretina que aumenta la secreción de insulina dependiente de glucosa, frena el glucagón, enlentece el vaciamiento gástrico y reduce el apetito. Reduce eventos cardiovasculares.
+    u:
+      - Diabetes tipo 2 (sobre todo con enfermedad cardiovascular u obesidad).
+      - Obesidad (dosis de 2,4 mg semanal).
+      - IC con FE preservada y obesidad.
+    d:
+      - SC 0,25 mg una vez por semana por 4 semanas; luego 0,5 mg, y subir hasta 1–2 mg en la diabetes o 2,4 mg en la obesidad.
+      - VO 3 mg al día por 1 mes, luego 7 mg y hasta 14 mg al día, en ayunas con poca agua.
+    c: Antecedente personal o familiar de carcinoma medular de tiroides o MEN 2. Antecedente de pancreatitis (relativa). Embarazo.
+    e: Náuseas, vómitos, diarrea o constipación, litiasis biliar, pancreatitis y empeoramiento transitorio de la retinopatía diabética si la HbA1c baja muy rápido.
+    i: Más hipoglicemia con insulina o sulfonilureas (reducir su dosis). Retrasa la absorción de fármacos orales.
+    em: Suspender 2 meses antes de buscar un embarazo.
+  - n: Tirzepatida
+    g: Agonista dual de los receptores de GIP y GLP-1
+    q: Incretina de acción dual que logra mayor baja de peso y de HbA1c que los arGLP-1.
+    u:
+      - Diabetes tipo 2.
+      - Obesidad y apnea obstructiva del sueño con obesidad.
+    d:
+      - 2,5 mg SC una vez por semana por 4 semanas; subir 2,5 mg cada 4 semanas hasta 5–15 mg semanal.
+    c: Antecedente personal o familiar de carcinoma medular de tiroides o MEN 2. Embarazo.
+    e: Náuseas, vómitos, diarrea, constipación, litiasis biliar y pancreatitis.
+    i: Reduce la eficacia de los anticonceptivos orales al iniciarla y al subir la dosis (usar otro método o agregar uno de barrera por 4 semanas).
+    em: Suspender antes de buscar un embarazo.
+  - n: Glucagón
+    g: Hormona hiperglicemiante
+    q: Moviliza el glucógeno hepático; además tiene efecto inotrópico que no depende de los receptores beta.
+    u:
+      - Hipoglicemia grave sin vía venosa.
+      - Intoxicación por betabloqueadores o bloqueadores del calcio.
+      - Anafilaxia refractaria en usuarios de betabloqueadores.
+    d:
+      - Hipoglicemia 1 mg IM o SC (0,5 mg en niños < 25 kg) o 3 mg intranasal.
+      - Intoxicación por betabloqueadores 3–10 mg EV en bolo y luego 1–5 mg/h.
+    c: Feocromocitoma e insulinoma.
+    e: Náuseas y vómitos (poner al paciente de lado) e hiperglicemia.
+    i: Menos eficaz sin reservas de glucógeno (alcohol, ayuno, insuficiencia hepática) y en la hipoglicemia por sulfonilureas.
+    em: Se usa si es necesario.
+  - n: Glucosa
+    g: Carbohidrato · solución endovenosa
+    q: Suero glucosado al 5, 10, 30 o 50 %. Las soluciones concentradas son irritantes para las venas.
+    u:
+      - Hipoglicemia.
+      - Con insulina, en la hiperkalemia y en la CAD cuando la glicemia baja de 250 mg/dL.
+      - Aporte calórico y de agua libre.
+    d:
+      - Hipoglicemia 10–25 g EV (suero glucosado al 10 % 100–250 mL, o al 50 % 50 mL por vena gruesa); luego suero glucosado al 5–10 % en infusión.
+      - Niños 2–5 mL/kg de suero glucosado al 10 %.
+    c: No usar soluciones glucosadas en el ACV ni en el TEC (empeoran el edema cerebral); no diluir el KCl en suero glucosado.
+    e: Flebitis, hiperglicemia, hiponatremia (soluciones hipotónicas) y encefalopatía de Wernicke si se da sin tiamina a un desnutrido o alcohólico.
+    em: Compatible.
+    p: Tiamina 100 mg EV antes de la glucosa en alcohólicos y desnutridos.
+  - n: Levotiroxina
+    g: Hormona tiroidea (T4 sintética)
+    q: Tiroxina sintética que reemplaza la producción tiroidea; tiene vida media de 7 días.
+    u:
+      - Hipotiroidismo primario y central.
+      - Coma mixedematoso (EV).
+      - Después de la tiroidectomía por cáncer (dosis según el riesgo).
+    d:
+      - 1,6 µg/kg/día VO, en ayunas, 30–60 min antes del desayuno.
+      - En adultos mayores o con cardiopatía, iniciar con 12,5–25 µg al día y subir 12,5–25 µg cada 6–8 semanas.
+      - Coma mixedematoso 200–400 µg EV de carga, con hidrocortisona.
+    a: Controlar la TSH a las 6–8 semanas de cada cambio.
+    c: Tirotoxicosis no tratada. Insuficiencia suprarrenal no tratada (dar primero corticoide).
+    e: Con sobredosis, síntomas de hipertiroidismo, FA y osteoporosis.
+    i: El calcio, el hierro, los IBP y la colestiramina reducen su absorción (separar 4 h). Aumenta el efecto de la warfarina.
+    em: En el embarazo, aumentar la dosis 25–30 % (2 dosis extra a la semana) apenas se confirma.
+  - n: Metimazol
+    g: Antitiroideo · tionamida
+    q: Inhibe la peroxidasa tiroidea y la síntesis de hormonas tiroideas.
+    u:
+      - Enfermedad de Graves y bocio nodular tóxico.
+      - Preparación para el radioyodo o la cirugía.
+    d:
+      - 10–30 mg VO al día según la gravedad; luego mantención con 5–10 mg al día por 12–18 meses en la enfermedad de Graves.
+    c: Antecedente de agranulocitosis por tionamidas. Primer trimestre del embarazo (preferir propiltiouracilo).
+    e: Exantema, prurito, artralgias, agranulocitosis (0,2–0,5 %, en los primeros meses), hepatitis colestásica y embriopatía.
+    i: Puede cambiar el efecto de la warfarina al normalizarse la función tiroidea.
+    em: Evitar en el primer trimestre; de elección en el 2.° y 3.er trimestre. Compatible con la lactancia.
+    p: Advertir que, ante fiebre u odinofagia, suspenda el fármaco y se haga un hemograma urgente (agranulocitosis).
+  - n: Propiltiouracilo
+    g: Antitiroideo · tionamida
+    q: Inhibe la síntesis de hormonas tiroideas y además la conversión periférica de T4 a T3.
+    u:
+      - Hipertiroidismo en el primer trimestre del embarazo.
+      - Tormenta tiroidea.
+    d:
+      - 100–150 mg VO cada 8 h.
+      - Tormenta tiroidea 500–1.000 mg de carga y luego 250 mg cada 4 h.
+    c: Antecedente de agranulocitosis o hepatotoxicidad por tionamidas.
+    e: Hepatotoxicidad grave (insuficiencia hepática), agranulocitosis y vasculitis ANCA.
+    em: De elección en el primer trimestre del embarazo; después, cambiar a metimazol.
+  - n: Hidrocortisona
+    g: Corticoide (glucocorticoide con efecto mineralocorticoide)
+    q: Cortisol sintético. En dosis de reemplazo cubre la función glucocorticoide; en dosis altas (≥ 50 mg/día) también la mineralocorticoide.
+    u:
+      - Crisis suprarrenal (insuficiencia suprarrenal aguda).
+      - Reemplazo crónico en la insuficiencia suprarrenal.
+      - Shock séptico con noradrenalina en dosis altas.
+      - Crisis asmática grave sin vía oral y anafilaxia (coadyuvante).
+    d:
+      - Crisis suprarrenal 100 mg EV en bolo y luego 200 mg al día (50 mg cada 6 h o en infusión).
+      - Shock séptico 200 mg al día EV.
+      - Reemplazo crónico 15–25 mg VO al día en 2–3 tomas (la mayor en la mañana).
+    a: En enfermedades intercurrentes, duplicar o triplicar la dosis de reemplazo (dosis de estrés).
+    c: En la crisis suprarrenal no hay contraindicaciones.
+    e: Los de los corticoides (hiperglicemia, HTA, retención de sodio, hipokalemia, infecciones).
+    em: Se usa en el embarazo.
+    p: En la crisis suprarrenal no esperar los exámenes; tomar cortisol y ACTH y dar la hidrocortisona de inmediato.
+  - n: Prednisona
+    g: Corticoide oral (glucocorticoide)
+    q: Profármaco que el hígado convierte en prednisolona. Glucocorticoide de potencia intermedia (4 veces la hidrocortisona).
+    u:
+      - Crisis asmática y exacerbación de EPOC.
+      - Enfermedades autoinmunes e inflamatorias (LES, vasculitis, polimialgia reumática, arteritis de células gigantes).
+      - Parálisis facial periférica de Bell (en las primeras 72 h).
+      - Síndrome nefrótico, anemia hemolítica autoinmune y PTI.
+    d:
+      - Crisis asmática 40–50 mg VO al día por 5–7 días; EPOC 40 mg al día por 5 días.
+      - Parálisis de Bell 60 mg al día por 5 días y luego descenso en 5 días.
+      - Arteritis de células gigantes 40–60 mg al día (1 mg/kg).
+    a: Si se usa más de 3 semanas, retirar en forma gradual (supresión del eje).
+    c: Infección sistémica no tratada (relativa). Hiperglicemia o HTA descompensadas (relativa).
+    e: Hiperglicemia, HTA, insomnio, euforia o psicosis, aumento de peso, osteoporosis, miopatía, cataratas, glaucoma, infecciones, supresión suprarrenal y Cushing iatrogénico.
+    i: Más úlcera y hemorragia digestiva con AINE. Los inductores (rifampicina, fenitoína) reducen su efecto.
+    em: Se puede usar en el embarazo (la placenta inactiva gran parte).
+    p: Con ≥ 20 mg/día por ≥ 4 semanas, considerar profilaxis de Pneumocystis; con ≥ 7,5 mg/día por ≥ 3 meses, proteger el hueso (calcio, vitamina D y bifosfonato).
+  - n: Prednisolona
+    g: Corticoide oral (glucocorticoide)
+    q: Forma activa de la prednisona; disponible en solución oral (útil en niños) y no requiere activación hepática.
+    u:
+      - Crisis asmática y laringitis en niños.
+      - Las mismas indicaciones de la prednisona; preferible en la insuficiencia hepática y en la hepatitis alcohólica grave.
+    dt: Dosis habitual
+    d:
+      - Niños 1–2 mg/kg/día VO (máximo 40 mg) por 3–5 días en la crisis asmática.
+      - Adultos 40–60 mg al día según la indicación (equivalente a la prednisona).
+      - Hepatitis alcohólica grave 40 mg al día por 28 días (si Maddrey ≥ 32 y sin contraindicaciones).
+    e: Los de los corticoides.
+    em: Se puede usar en el embarazo.
+  - n: Metilprednisolona
+    g: Corticoide endovenoso de alta potencia
+    q: Glucocorticoide 5 veces más potente que la hidrocortisona, con poco efecto mineralocorticoide.
+    u:
+      - Pulsos en enfermedades autoinmunes graves (nefritis lúpica, vasculitis, glomerulonefritis rápidamente progresiva, brote de esclerosis múltiple, rechazo de trasplante).
+      - Crisis asmática grave y exacerbación de EPOC sin vía oral.
+    d:
+      - Pulsos 500–1.000 mg EV al día por 3 días.
+      - Crisis asmática 40–125 mg EV al día.
+    e: Hiperglicemia, HTA, psicosis, arritmias con pulsos rápidos e infecciones.
+    em: Se usa si es necesario.
+  - n: Dexametasona
+    g: Corticoide de acción prolongada (glucocorticoide puro)
+    q: Glucocorticoide 25–30 veces más potente que la hidrocortisona, sin efecto mineralocorticoide y con buena penetración en el SNC.
+    u:
+      - Meningitis bacteriana (antes o junto con la primera dosis de antibiótico).
+      - Edema cerebral por tumores y compresión medular neoplásica.
+      - COVID-19 con requerimiento de oxígeno.
+      - Maduración pulmonar fetal y laringitis obstructiva en niños.
+      - Náuseas por quimioterapia y prueba de supresión con 1 mg (Cushing).
+    d:
+      - Meningitis 0,15 mg/kg (10 mg en el adulto) EV cada 6 h por 4 días.
+      - Edema cerebral 10 mg EV y luego 4 mg cada 6 h.
+      - COVID-19 6 mg al día por 10 días.
+      - Maduración pulmonar 6 mg IM cada 12 h por 4 dosis.
+    e: Hiperglicemia, insomnio, psicosis, infecciones y supresión suprarrenal.
+    em: Se usa en el embarazo para la maduración pulmonar fetal.
+  - n: Betametasona
+    g: Corticoide de acción prolongada
+    q: Glucocorticoide potente que cruza la placenta; también se usa en forma tópica.
+    u:
+      - Maduración pulmonar fetal ante riesgo de parto prematuro (24–34 semanas).
+      - Dermatosis inflamatorias (tópica, potencia alta).
+    d:
+      - Maduración pulmonar 12 mg IM cada 24 h por 2 dosis.
+    e: Hiperglicemia materna transitoria (controlar en diabéticas); atrofia cutánea con uso tópico prolongado.
+    em: Indicada en el embarazo para la maduración pulmonar.
+  - n: Fludrocortisona
+    g: Mineralocorticoide
+    q: Análogo de la aldosterona que retiene sodio y elimina potasio.
+    u:
+      - Insuficiencia suprarrenal primaria (enfermedad de Addison), junto a hidrocortisona.
+      - Hipotensión ortostática neurogénica.
+    d:
+      - 0,05–0,2 mg VO al día (habitualmente 0,1 mg).
+    c: IC e hipertensión.
+    e: Hipokalemia, hipertensión, edema e IC.
+    em: Se puede usar si es necesario.
+    p: Ajustar la dosis según la PA, el potasio y la actividad de renina plasmática.
+  - n: Cabergolina
+    g: Agonista dopaminérgico
+    q: Agonista de los receptores D2 de acción prolongada; inhibe la secreción de prolactina.
+    u:
+      - Hiperprolactinemia y prolactinoma.
+      - Inhibición de la lactancia cuando está contraindicada (VIH, HTLV-1) o tras una muerte fetal o neonatal.
+      - Acromegalia (coadyuvante).
+    d:
+      - Hiperprolactinemia 0,25–0,5 mg VO 2 veces por semana; ajustar hasta 1–2 mg por semana.
+      - Inhibición de la lactancia 1 mg VO en dosis única el primer día posparto.
+    c: Valvulopatía cardíaca, fibrosis pulmonar o retroperitoneal, preeclampsia y HTA no controlada en el puerperio.
+    e: Náuseas, mareo, hipotensión ortostática, cefalea y trastornos del control de impulsos; valvulopatía con dosis altas.
+    em: Suspender al confirmarse el embarazo en el microprolactinoma.
+  - n: Bromocriptina
+    g: Agonista dopaminérgico
+    q: Agonista D2 de vida media corta; más antiguo que la cabergolina y peor tolerado.
+    u:
+      - Hiperprolactinemia y prolactinoma (alternativa a cabergolina).
+      - Síndrome neuroléptico maligno (coadyuvante).
+    d:
+      - Hiperprolactinemia 1,25–2,5 mg VO al día, subir hasta 2,5 mg cada 8–12 h.
+      - Síndrome neuroléptico maligno 2,5 mg VO o por sonda cada 8 h.
+    c: HTA no controlada, cardiopatía coronaria grave, preeclampsia.
+    e: Náuseas, vómitos, hipotensión ortostática, congestión nasal y psicosis.
+    em: Tiene más experiencia que la cabergolina en el embarazo.
+  - n: Testosterona
+    g: Andrógeno
+    q: Hormona sexual masculina en forma inyectable o en gel.
+    u:
+      - Hipogonadismo masculino confirmado (síntomas más testosterona baja en 2 mediciones matinales).
+    d:
+      - Enantato o cipionato 100–200 mg IM cada 2–3 semanas.
+      - Undecanoato 1.000 mg IM cada 10–12 semanas.
+      - Gel 50–100 mg al día en la piel.
+    c: Cáncer de próstata o de mama, hematocrito > 50 %, deseo de fertilidad, apnea del sueño grave no tratada, IC descompensada.
+    e: Eritrocitosis, acné, ginecomastia, retención de líquido, infertilidad (suprime la espermatogénesis).
+    i: Aumenta el efecto de la warfarina.
+    em: Contraindicada en el embarazo.
+    p: Controlar el hematocrito y el APE a los 3–6 meses y luego cada año.
+  - n: Alendronato
+    g: Antirresortivo óseo · bifosfonato
+    q: Inhibe a los osteoclastos; reduce las fracturas vertebrales y de cadera.
+    u:
+      - Osteoporosis posmenopáusica, masculina y por corticoides.
+    d:
+      - 70 mg VO una vez por semana, en ayunas, con un vaso de agua, y permanecer erguido 30 min sin comer.
+    a: Evitar con TFG < 35 mL/min.
+    c: Hipocalcemia, TFG < 35 mL/min, enfermedad esofágica (acalasia, estenosis), imposibilidad de mantenerse erguido 30 min.
+    e: Esofagitis y úlcera esofágica, dolor musculoesquelético, osteonecrosis maxilar y fractura atípica del fémur (raras, con uso prolongado).
+    i: El calcio, el hierro y los antiácidos impiden su absorción (tomarlos después).
+    em: No se usa en el embarazo.
+    p: Corregir la vitamina D y el calcio antes de iniciarlo; evaluar una pausa terapéutica a los 5 años si el riesgo baja.
+  - n: Ácido zoledrónico
+    g: Antirresortivo óseo · bifosfonato endovenoso
+    q: Bifosfonato potente que se administra una vez al año en la osteoporosis.
+    u:
+      - Osteoporosis (en especial si no tolera la vía oral o tras una fractura de cadera).
+      - Hipercalcemia maligna.
+      - Metástasis óseas y mieloma múltiple.
+    d:
+      - Osteoporosis 5 mg EV en ≥ 15 min una vez al año.
+      - Hipercalcemia maligna 4 mg EV en 15 min.
+    a: Contraindicado con TFG < 35 mL/min en la osteoporosis; ajustar en el cáncer.
+    c: Hipocalcemia, TFG < 35 mL/min (osteoporosis), embarazo.
+    e: Reacción de fase aguda (fiebre, mialgias por 1–3 días tras la primera dosis), hipocalcemia, nefrotoxicidad y osteonecrosis maxilar.
+    em: Contraindicado en el embarazo.
+  - n: Denosumab
+    g: Antirresortivo óseo · anticuerpo monoclonal anti-RANKL
+    q: Anticuerpo que bloquea el RANKL e inhibe a los osteoclastos; su efecto se pierde rápido al suspenderlo.
+    u:
+      - Osteoporosis de alto riesgo, también en la ERC.
+      - Metástasis óseas (dosis mayor).
+    d:
+      - Osteoporosis 60 mg SC cada 6 meses.
+    c: Hipocalcemia no corregida. Embarazo.
+    e: Hipocalcemia (sobre todo en la ERC), infecciones cutáneas, osteonecrosis maxilar y fractura atípica del fémur.
+    em: Contraindicado en el embarazo.
+    p: "No suspenderlo sin pasar a un bifosfonato: al dejarlo hay un rebote con fracturas vertebrales múltiples."
+  - n: Calcitonina
+    g: Hormona hipocalcemiante
+    q: Inhibe la resorción ósea y aumenta la calciuria; actúa en horas, pero su efecto dura solo 48 h (taquifilaxia).
+    u:
+      - Hipercalcemia grave, como puente mientras actúan los bifosfonatos.
+    d:
+      - 4 UI/kg SC o IM cada 12 h por 24–48 h.
+    e: Náuseas, rubor y reacciones alérgicas.
+    em: Usar solo si se necesita.
+  - n: Vitamina D
+    g: Vitamina liposoluble (colecalciferol)
+    q: Prohormona que se activa en el hígado y el riñón; aumenta la absorción intestinal de calcio y fósforo.
+    u:
+      - Déficit de vitamina D.
+      - Osteoporosis (junto a calcio y antirresortivos).
+      - Suplementación en lactantes y adultos mayores.
+    d:
+      - Déficit 50.000 UI VO semanal por 8 semanas (o 4.000–6.000 UI al día); luego 800–2.000 UI al día.
+      - Lactantes 400 UI al día.
+    c: Hipercalcemia.
+    e: Hipercalcemia e hipercalciuria con dosis excesivas.
+    em: Compatible en las dosis habituales.
+    p: En la ERC avanzada y el hipoparatiroidismo se usa calcitriol (la forma activa), no colecalciferol solo.
+  - n: Gluconato de calcio
+    g: Sal de calcio endovenosa
+    q: Calcio que estabiliza la membrana del miocardio y repone el calcio sérico. La solución al 10 % tiene 93 mg de calcio elemental en 10 mL.
+    u:
+      - Hiperkalemia con cambios en el ECG.
+      - Hipocalcemia sintomática (tetania, convulsiones).
+      - Intoxicación por magnesio y por bloqueadores del calcio.
+    d:
+      - Hiperkalemia 30 mL al 10 % EV en 10 min; repetir si persisten los cambios del ECG.
+      - Hipocalcemia sintomática 10–20 mL al 10 % EV en 10 min; luego infusión.
+      - Intoxicación por magnesio 10 mL al 10 % EV en 3 min.
+    c: Hipercalcemia. Precaución en la intoxicación digitálica.
+    e: Bradicardia y arritmias con la infusión rápida; necrosis por extravasación.
+    i: Precipita con bicarbonato y fosfato en la misma vía; no mezclar con ceftriaxona en neonatos.
+    em: Compatible.
+  - n: Magnesio
+    g: Electrolito · sulfato de magnesio
+    q: Sulfato de magnesio endovenoso; estabiliza las membranas neuronales y musculares y relaja el músculo liso.
+    u:
+      - Preeclampsia grave y eclampsia (prevención y tratamiento de las convulsiones).
+      - Torsades de pointes.
+      - Crisis asmática grave sin respuesta inicial.
+      - Hipomagnesemia.
+      - Neuroprotección fetal antes de las 32 semanas.
+    d:
+      - Preeclampsia 4–6 g EV en 20–30 min y luego 1–2 g/h hasta 24 h posparto.
+      - Torsades 1–2 g EV en 10–15 min.
+      - Asma grave 2 g EV en 20 min.
+      - Hipomagnesemia sintomática 1–2 g EV en 15 min y luego infusión.
+    a: Reducir la mantención en la ERC y medir la magnesemia.
+    c: Miastenia gravis, bloqueo AV avanzado, insuficiencia renal grave (relativa).
+    e: Rubor, calor, hipotensión; en la toxicidad, pérdida del reflejo patelar, depresión respiratoria y paro.
+    i: Potencia a los bloqueadores neuromusculares y los bloqueadores del calcio.
+    em: Indicado en la preeclampsia grave; antídoto gluconato de calcio.
+    p: Antes de cada hora de infusión, controlar reflejo patelar, frecuencia respiratoria (> 12/min) y diuresis.
+  - n: Cloruro de potasio
+    g: Electrolito · suplemento de potasio
+    q: Sal de potasio de elección, porque la mayoría de las hipokalemias tiene alcalosis y déficit de cloro.
+    u:
+      - Hipokalemia.
+      - Mantención del potasio en la CAD y en la fluidoterapia.
+    d:
+      - VO 40–100 mEq al día repartidos en 2–4 tomas.
+      - EV periférica ≤ 10 mEq/h y ≤ 40 mEq/L, diluido en suero fisiológico.
+      - EV central con monitor hasta 20 mEq/h.
+    a: Precaución en la ERC y con fármacos que retienen potasio.
+    c: Hiperkalemia. Nunca en bolo ni sin diluir.
+    e: Hiperkalemia, flebitis, irritación gástrica (VO) y paro cardíaco si se da en bolo.
+    i: Más hiperkalemia con IECA, ARA-II, espironolactona y trimetoprim.
+    em: Compatible.
+    p: Medir y corregir también el magnesio; sin magnesio, la hipokalemia no se corrige.
+  - n: Bicarbonato de sodio
+    g: Alcalinizante
+    q: Base que aporta bicarbonato y sodio.
+    u:
+      - Intoxicación por antidepresivos tricíclicos con QRS ancho y otros bloqueadores de canales de sodio.
+      - Acidosis metabólica grave con pérdida de bicarbonato (diarrea, acidosis tubular) y acidosis de la ERC.
+      - Hiperkalemia con acidosis metabólica (coadyuvante).
+    d:
+      - Tricíclicos 1–2 mEq/kg EV en bolo, repetir hasta estrechar el QRS (meta pH 7,45–7,55).
+      - Acidosis de la ERC 0,5–1 mEq/kg/día VO.
+    c: Alcalosis metabólica, hipocalcemia no corregida. En la CAD solo si el pH es < 7,0.
+    e: Hipernatremia, sobrecarga de volumen, hipokalemia, baja del calcio iónico y alcalosis.
+    i: Precipita con calcio en la misma vía.
+    em: Usar si se necesita.
+  - n: Ezetimibe
+    g: Hipolipemiante · inhibidor de la absorción intestinal de colesterol
+    q: Bloquea la proteína NPC1L1 del intestino; baja el LDL alrededor de 20 % adicional a la estatina.
+    u:
+      - Asociado a una estatina cuando no se logra la meta de LDL.
+      - Intolerancia a estatinas.
+    d:
+      - 10 mg VO al día.
+    e: Bien tolerado; diarrea y mialgias poco frecuentes.
+    em: Evitar en el embarazo.
+  - n: Colestiramina
+    g: Resina secuestradora de ácidos biliares
+    q: Resina no absorbible que atrapa los ácidos biliares en el intestino.
+    u:
+      - Prurito por colestasia.
+      - Diarrea por ácidos biliares (por ejemplo, tras una resección ileal).
+      - Hipercolesterolemia (poco usada).
+    d:
+      - 4 g VO 1–2 veces al día; subir hasta 16 g al día.
+    c: Obstrucción biliar completa, hipertrigliceridemia > 400 mg/dL.
+    e: Constipación, distensión, alza de los triglicéridos y déficit de vitaminas liposolubles.
+    i: Reduce la absorción de muchos fármacos (levotiroxina, warfarina, digoxina, anticonceptivos); darlos 1 h antes o 4–6 h después.
+    em: Compatible (no se absorbe); vigilar las vitaminas liposolubles.

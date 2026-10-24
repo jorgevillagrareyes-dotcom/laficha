@@ -1,0 +1,151 @@
+orden: 7
+titulo: Respiratorios y antialérgicos
+farmacos:
+  - n: Salbutamol
+    g: Broncodilatador · agonista beta-2 de acción corta (SABA)
+    q: Relaja el músculo liso bronquial en minutos; efecto de 4–6 h. También mete el potasio a las células.
+    u:
+      - Crisis asmática y exacerbación de EPOC.
+      - Broncoespasmo en la anafilaxia (coadyuvante).
+      - Hiperkalemia (coadyuvante de la insulina, nunca solo).
+    d:
+      - Crisis 4–10 puffs de 100 µg con aerocámara (1 puff a la vez) cada 20 min por 1 h, o 2,5–5 mg nebulizado.
+      - Hiperkalemia 10–20 mg nebulizado.
+    c: Hipersensibilidad. Precaución en cardiopatía isquémica y taquiarritmias.
+    e: Taquicardia, temblor, hipokalemia, hiperglicemia y alza del lactato.
+    i: Los betabloqueadores no selectivos antagonizan su efecto.
+    em: Compatible con el embarazo y la lactancia.
+    p: En el asma ya no se recomienda el salbutamol solo como rescate sin corticoide inhalado (GINA).
+  - n: Terbutalina
+    g: Broncodilatador · agonista beta-2
+    q: Agonista beta-2 que puede darse por vía subcutánea.
+    u:
+      - Crisis asmática grave cuando no es posible la vía inhalatoria.
+    d:
+      - 0,25 mg SC; se puede repetir a los 20–30 min.
+    c: Taquiarritmias y cardiopatía isquémica.
+    e: Taquicardia, temblor, hipokalemia e hiperglicemia.
+    em: No usarla como tocolítico de mantención (arritmias y edema pulmonar materno).
+  - n: Ipratropio
+    g: Broncodilatador · antimuscarínico de acción corta
+    q: Bloquea los receptores muscarínicos bronquiales; suma su efecto al del salbutamol.
+    u:
+      - Crisis asmática moderada o grave (junto con salbutamol, solo en las primeras horas).
+      - Exacerbación de EPOC.
+    d:
+      - 4–8 puffs de 20 µg con aerocámara, o 0,5 mg nebulizado, junto con cada dosis de salbutamol hasta 3 veces.
+    c: Hipersensibilidad a la atropina o derivados.
+    e: Sequedad de boca, retención urinaria, glaucoma agudo si la nebulización llega al ojo.
+    em: Compatible.
+  - n: Beclometasona
+    g: Corticoide inhalado
+    q: Corticoide de acción local en la vía aérea; reduce la inflamación y las crisis en el asma.
+    u:
+      - Asma persistente (sola o con formoterol como mantención y rescate).
+      - Rinitis alérgica (vía nasal).
+    d:
+      - Dosis baja 100–200 µg al día (formulación de partícula extrafina); beclometasona-formoterol 100/6 µg como mantención y rescate.
+    e: Candidiasis oral y disfonía; con dosis altas y prolongadas, efectos sistémicos leves.
+    em: Compatible con el embarazo.
+    p: Enjuagarse la boca y escupir después de cada uso para evitar la candidiasis.
+  - n: Budesonida
+    g: Corticoide inhalado, nasal, nebulizado y oral
+    q: Corticoide con alto metabolismo hepático de primer paso; en combinación con formoterol es la base de la vía 1 de GINA.
+    u:
+      - Asma (budesonida-formoterol según necesidad o como mantención y rescate).
+      - EPOC con exacerbaciones y eosinófilos elevados (combinada).
+      - Laringitis obstructiva (nebulizada) y rinitis (nasal).
+      - Enfermedad de Crohn ileal leve (oral).
+    d:
+      - Budesonida-formoterol 160/4,5 µg 1 inhalación según necesidad, o 1–2 inhalaciones cada 12 h más rescate (máximo 12 al día).
+      - Crohn 9 mg VO al día.
+    e: Candidiasis oral y disfonía.
+    em: Es el corticoide inhalado con más experiencia en el embarazo.
+  - n: Fluticasona
+    g: Corticoide inhalado y nasal
+    q: Corticoide de alta potencia tópica; se combina con salmeterol o vilanterol.
+    u:
+      - Asma persistente y EPOC con exacerbaciones (combinada con LABA).
+      - Rinitis alérgica (vía nasal).
+    d:
+      - Propionato 100–250 µg cada 12 h; furoato 100 µg al día (con vilanterol).
+      - Nasal 2 aplicaciones por fosa al día.
+    e: Candidiasis oral, disfonía y mayor riesgo de neumonía en la EPOC.
+    i: El ritonavir y el ketoconazol aumentan sus niveles (riesgo de Cushing).
+    em: Compatible.
+    p: Las combinaciones con salmeterol o vilanterol no sirven como rescate (su inicio es lento).
+  - n: Montelukast
+    g: Antagonista del receptor de leucotrienos
+    q: Bloquea los leucotrienos que producen broncoconstricción e inflamación.
+    u:
+      - Asma (alternativa o complemento del corticoide inhalado) y broncoespasmo por ejercicio.
+      - Rinitis alérgica con asma.
+    d:
+      - 10 mg VO en la noche (niños 4–5 mg).
+    e: Síntomas neuropsiquiátricos (pesadillas, agitación, depresión, ideación suicida).
+    em: Compatible.
+    p: Advertir a los pacientes y padres sobre los cambios de conducta o del sueño.
+  - n: Cetirizina
+    g: Antihistamínico H1 de segunda generación
+    q: Antihistamínico poco sedante de una toma al día.
+    u:
+      - Urticaria aguda y crónica (se puede subir hasta 4 veces la dosis).
+      - Rinitis y conjuntivitis alérgicas.
+      - Síntomas cutáneos de la anafilaxia (coadyuvante).
+    d:
+      - 10 mg VO al día; urticaria crónica hasta 20–40 mg al día.
+    a: Reducir a la mitad con depuración < 30 mL/min.
+    e: Somnolencia leve, cefalea y sequedad de boca.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Loratadina
+    g: Antihistamínico H1 de segunda generación
+    q: Antihistamínico de una toma al día, con muy poca sedación.
+    u:
+      - Rinitis alérgica y urticaria.
+    d:
+      - 10 mg VO al día.
+    e: Cefalea y sequedad de boca.
+    em: Compatible.
+  - n: Clorfenamina
+    g: Antihistamínico H1 de primera generación
+    q: Antihistamínico sedante con efecto anticolinérgico; existe en forma inyectable.
+    u:
+      - Síntomas cutáneos de reacciones alérgicas y de la anafilaxia (coadyuvante, después de la adrenalina).
+      - Prurito.
+    d:
+      - 4 mg VO cada 6–8 h.
+      - 10 mg EV lento o IM.
+    c: Glaucoma de ángulo cerrado y retención urinaria.
+    e: Sedación, sequedad de boca, retención urinaria, constipación y delirium en adultos mayores.
+    i: Potencia el alcohol, las benzodiacepinas y los opioides.
+    em: Preferir los de segunda generación.
+    p: Evitar en adultos mayores (criterios de Beers) por la sedación y el efecto anticolinérgico.
+  - n: Oxígeno
+    g: Gas medicinal
+    q: Tratamiento de la hipoxemia. Se dosifica con una meta de saturación, no con un flujo fijo.
+    u:
+      - Hipoxemia de cualquier causa.
+      - Intoxicación por monóxido de carbono (al 100 %).
+      - Neumotórax pequeño (acelera la reabsorción) y cefalea en racimos.
+    dt: Dosis y metas
+    d:
+      - Meta SpO₂ 92–96 % en la mayoría; 88–92 % en la EPOC u otros con riesgo de hipercapnia.
+      - Cánula nasal 1–6 L/min; mascarilla de Venturi para FiO₂ precisa; mascarilla con reservorio 10–15 L/min.
+      - Monóxido de carbono 100 % con mascarilla de alto flujo (o hiperbárico).
+    c: En el SCA solo si la SpO₂ es < 90 %. Precaución con bleomicina y paraquat.
+    e: Hipercapnia en la EPOC si se da de más, toxicidad con hiperoxia prolongada, sequedad de mucosas y riesgo de incendio.
+    em: Compatible.
+    p: Más oxígeno no es mejor; la hiperoxia aumenta la mortalidad en varios escenarios.
+  - n: Acetilcisteína
+    g: Antídoto del paracetamol · mucolítico
+    q: Repone el glutatión hepático y neutraliza el metabolito tóxico del paracetamol (NAPQI).
+    u:
+      - Intoxicación por paracetamol (según el nomograma o ante la duda).
+      - Insuficiencia hepática aguda (también no relacionada con paracetamol).
+      - Mucolítico.
+    d:
+      - Paracetamol, EV 150 mg/kg en 1 h, luego 50 mg/kg en 4 h y 100 mg/kg en 16 h (21 h en total).
+      - Mucolítico 600 mg VO al día.
+    e: Reacciones anafilactoides (exantema, broncoespasmo), sobre todo con la primera dosis; náuseas y vómitos.
+    em: Compatible; se usa en la intoxicación en el embarazo.
+    p: Si la reacción anafilactoide es leve, pausar, dar un antihistamínico y continuar más lento; no suspender el antídoto.
