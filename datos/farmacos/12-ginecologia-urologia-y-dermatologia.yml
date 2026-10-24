@@ -1,0 +1,127 @@
+orden: 12
+titulo: Ginecología, obstetricia, urología y dermatología
+farmacos:
+  - n: Oxitocina
+    g: Uterotónico · hormona hipofisaria
+    q: Estimula las contracciones del útero grávido; efecto inmediato y corto.
+    u:
+      - Prevención de la hemorragia posparto (manejo activo del alumbramiento).
+      - Tratamiento de la atonía uterina.
+      - Inducción y conducción del trabajo de parto.
+    d:
+      - Prevención 10 UI IM tras la salida del hombro anterior.
+      - Atonía 20–40 UI en 1.000 mL de suero a 150–250 mL/h.
+      - Inducción 1–2 mUI/min EV, aumentando cada 30–40 min según la dinámica uterina.
+    c: Desproporción cefalopélvica, sufrimiento fetal, presentación anómala, placenta previa (para la inducción).
+    e: Taquisistolia con compromiso fetal, rotura uterina, hipotensión con bolos rápidos e intoxicación hídrica (hiponatremia) con dosis altas.
+    em: Uso obstétrico.
+  - n: Carbetocina
+    g: Uterotónico · análogo de oxitocina de acción prolongada
+    q: Análogo de oxitocina que actúa por más tiempo con una sola dosis.
+    u:
+      - Prevención de la hemorragia posparto en la cesárea.
+    d:
+      - 100 µg EV lenta en dosis única, después de la extracción del recién nacido.
+    c: Antes del nacimiento (no sirve para inducir), enfermedad cardiovascular grave, epilepsia.
+    e: Cefalea, hipotensión, rubor, náuseas.
+    em: Uso obstétrico.
+  - n: Misoprostol
+    g: Análogo de la prostaglandina E1
+    q: Prostaglandina estable a temperatura ambiente que contrae el útero y madura el cuello.
+    u:
+      - Hemorragia posparto (tratamiento y prevención si no hay oxitocina).
+      - Aborto retenido, aborto incompleto e interrupción del embarazo (con mifepristona).
+      - Maduración cervical e inducción del parto.
+    d:
+      - Hemorragia posparto 800 µg sublingual; prevención 600 µg VO.
+      - Interrupción del embarazo 800 µg vaginal o bucal 24–48 h después de 200 mg de mifepristona.
+      - Inducción 25 µg vaginal cada 4–6 h.
+    c: Cicatriz uterina en la inducción del 2.° o 3.er trimestre (rotura uterina). Embarazo deseado (cuando se usa como gastroprotector).
+    e: Fiebre, calofríos, diarrea, cólicos y taquisistolia.
+    em: Contraindicado como gastroprotector en mujeres embarazadas.
+  - n: Mifepristona
+    g: Antagonista de los receptores de progesterona
+    q: Bloquea la progesterona; desprende la decidua y sensibiliza al útero a las prostaglandinas.
+    u:
+      - Interrupción del embarazo según la legislación vigente (junto con misoprostol).
+      - Muerte fetal y aborto retenido (preparación para el misoprostol).
+    d:
+      - 200 mg VO en dosis única, seguido de misoprostol 24–48 h después.
+    c: Embarazo ectópico no descartado, insuficiencia suprarrenal, uso crónico de corticoides, trastornos de la coagulación o anticoagulación, porfiria, DIU in situ.
+    e: Sangrado, cólicos, náuseas y vómitos.
+    em: Uso obstétrico.
+  - n: Levonorgestrel
+    g: Progestágeno
+    q: Progestágeno que, en dosis alta, retrasa o inhibe la ovulación (no interrumpe un embarazo ya implantado). También se usa en dispositivos intrauterinos.
+    u:
+      - Anticoncepción de emergencia.
+      - Anticoncepción y sangrado menstrual abundante (DIU con levonorgestrel).
+    d:
+      - Emergencia 1,5 mg VO en dosis única, lo antes posible y dentro de las 72 h (hasta 120 h, con menor eficacia).
+      - DIU de 52 mg, que dura 5–8 años según el modelo.
+    i: Los inductores enzimáticos (rifampicina, carbamazepina) reducen su eficacia; en ellas, usar 3 mg o un DIU de cobre.
+    e: Náuseas, sangrado irregular y cambios en la fecha de la menstruación.
+    em: No daña un embarazo en curso si falla.
+    p: Es menos eficaz con un IMC > 30; el DIU de cobre es la anticoncepción de emergencia más eficaz.
+  - n: Finasterida
+    g: Inhibidor de la 5-alfa reductasa
+    q: Bloquea la conversión de testosterona a dihidrotestosterona; reduce el volumen prostático.
+    u:
+      - Hiperplasia prostática benigna con próstata grande (> 30–40 mL), sola o con un alfa-bloqueador.
+      - Alopecia androgénica masculina (1 mg).
+    d:
+      - Hiperplasia prostática 5 mg VO al día (efecto en 6 meses).
+    c: Mujeres embarazadas o que pueden embarazarse (no manipular comprimidos rotos).
+    e: Disfunción eréctil, baja de la libido, ginecomastia.
+    i: Reduce el APE a la mitad (duplicar el valor para interpretarlo).
+    em: Contraindicada (feminización del feto masculino).
+  - n: Tamsulosina
+    g: Bloqueador alfa-1A uroselectivo
+    q: Relaja el músculo liso de la próstata, el cuello vesical y el uréter distal.
+    u:
+      - Síntomas urinarios por hiperplasia prostática benigna.
+      - Terapia expulsiva de cálculos del uréter distal de 5–10 mm.
+    d:
+      - 0,4 mg VO al día.
+    e: Hipotensión ortostática, mareo, eyaculación retrógrada y síndrome del iris flácido en la cirugía de cataratas.
+    i: Más hipotensión con inhibidores de la PDE-5 y otros antihipertensivos.
+    em: No aplica.
+    p: Preguntar si tiene una cirugía de cataratas programada y avisar al oftalmólogo.
+  - n: Sildenafil
+    g: Inhibidor de la fosfodiesterasa 5 (PDE-5)
+    q: Potencia el óxido nítrico; produce vasodilatación en el cuerpo cavernoso y en las arterias pulmonares.
+    u:
+      - Disfunción eréctil.
+      - Hipertensión arterial pulmonar.
+    d:
+      - Disfunción eréctil 50 mg VO 1 h antes de la relación (25–100 mg).
+      - Hipertensión pulmonar 20 mg VO cada 8 h.
+    c: Uso de nitratos o riociguat, IAM o ACV reciente, hipotensión, antecedente de neuropatía óptica isquémica.
+    e: Cefalea, rubor, congestión nasal, dispepsia, visión azulada y priapismo.
+    i: Hipotensión grave con nitratos. Reducir la dosis con inhibidores del CYP3A4. Más hipotensión con alfa-bloqueadores.
+    em: Se usa en la hipertensión pulmonar del embarazo según el especialista.
+  - n: Alprostadil
+    g: Prostaglandina E1
+    q: Vasodilatador que mantiene abierto el ductus arterioso y produce erección por vía intracavernosa.
+    u:
+      - Cardiopatías congénitas dependientes del ductus en el recién nacido (mientras se resuelve).
+      - Disfunción eréctil (intracavernosa).
+    dt: Dosis
+    d:
+      - Recién nacido 0,05–0,1 µg/kg/min EV; luego la menor dosis eficaz (0,01–0,05 µg/kg/min).
+      - Disfunción eréctil 2,5–20 µg intracavernosos, ajustando la dosis.
+    e: En el recién nacido, apnea (sobre todo en los de bajo peso y en la primera hora), fiebre, hipotensión y rubor. Intracavernoso, dolor y priapismo.
+    em: No aplica.
+    p: Al iniciarlo en un recién nacido, tener todo listo para intubar por el riesgo de apnea.
+  - n: Clobetasol
+    g: Corticoide tópico de potencia muy alta
+    q: Corticoide tópico de la clase de mayor potencia.
+    u:
+      - Psoriasis en placas, liquen plano y dermatitis crónicas liquenificadas.
+      - Liquen escleroso vulvar (de elección).
+      - Penfigoide ampolloso.
+    d:
+      - Crema o ungüento al 0,05 % 1–2 veces al día por 2–4 semanas (máximo 50 g por semana).
+    c: Rosácea, acné, dermatitis perioral, infecciones cutáneas no tratadas. Evitar en la cara, los pliegues y los niños.
+    e: Atrofia cutánea, estrías, telangiectasias, dermatitis perioral y supresión suprarrenal si se usa en grandes áreas.
+    em: Usar en áreas pequeñas y por poco tiempo.

@@ -1,0 +1,152 @@
+orden: 11
+titulo: Inmunosupresores, biológicos y oncológicos
+farmacos:
+  - n: Azatioprina
+    g: Inmunosupresor · antimetabolito de las purinas
+    q: Profármaco de la mercaptopurina que inhibe la proliferación de linfocitos; tarda 2–3 meses en actuar.
+    u:
+      - Enfermedad inflamatoria intestinal (mantención y ahorro de corticoides).
+      - LES, vasculitis, hepatitis autoinmune y miastenia gravis.
+      - Trasplante (uso decreciente).
+    d:
+      - 1–2,5 mg/kg/día VO.
+    a: Medir la actividad de TPMT (y NUDT15 si está disponible) antes de iniciarla; con actividad baja, reducir la dosis o no usarla.
+    c: Déficit grave de TPMT, embarazo no planificado con alternativas (relativa), infección activa grave.
+    e: Mielosupresión, hepatotoxicidad, pancreatitis, náuseas, infecciones y mayor riesgo de cáncer de piel y linfoma.
+    i: El alopurinol y el febuxostat aumentan mucho su toxicidad (reducir la dosis de azatioprina a la cuarta parte o evitar).
+    em: Se mantiene en el embarazo en la EII y el LES si está indicada.
+    p: Controlar el hemograma y las pruebas hepáticas cada 1–2 semanas al inicio y luego cada 3 meses; usar fotoprotección.
+  - n: Ciclofosfamida
+    g: Inmunosupresor y quimioterápico · agente alquilante
+    q: Alquilante que destruye linfocitos y células tumorales en proliferación.
+    u:
+      - Nefritis lúpica grave y vasculitis ANCA grave (inducción).
+      - Linfomas, cáncer de mama y otras neoplasias.
+    d:
+      - Nefritis lúpica (Euro-Lupus) 500 mg EV cada 2 semanas por 6 dosis.
+      - Vasculitis ANCA 15 mg/kg EV en pulsos o 2 mg/kg/día VO (ajustar a la edad y la función renal).
+    a: Reducir la dosis en la ERC y en adultos mayores.
+    c: Embarazo, mielosupresión grave, infección activa.
+    e: Mielosupresión, cistitis hemorrágica, infertilidad, náuseas, alopecia, infecciones y cáncer de vejiga a largo plazo.
+    i: Hidratar bien y usar mesna en dosis altas para proteger la vejiga.
+    em: Contraindicada en el embarazo (teratogénica).
+  - n: Ciclosporina
+    g: Inmunosupresor · inhibidor de la calcineurina
+    q: Inhibe la activación de los linfocitos T. Margen terapéutico estrecho; se ajusta por niveles.
+    u:
+      - Trasplante de órganos.
+      - Colitis ulcerosa grave refractaria a corticoides (rescate).
+      - Psoriasis grave, anemia aplásica y síndrome nefrótico corticorresistente.
+    d:
+      - Colitis ulcerosa grave 2 mg/kg/día EV en infusión continua.
+      - Psoriasis 2,5–5 mg/kg/día VO en 2 tomas.
+    a: Ajustar según los niveles y la función renal.
+    c: HTA no controlada, ERC, cáncer activo (relativa).
+    e: Nefrotoxicidad, HTA, hiperkalemia, hipomagnesemia, temblor, hirsutismo, hiperplasia gingival y encefalopatía posterior reversible.
+    i: Numerosas por el CYP3A4. La claritromicina, los azoles, el diltiazem y el verapamilo aumentan sus niveles; la rifampicina, la carbamazepina y la fenitoína los reducen. Más miopatía con estatinas y toxicidad con colchicina.
+    em: Se usa en el embarazo de trasplantadas.
+  - n: Metotrexato
+    g: Inmunosupresor y quimioterápico · antagonista del folato
+    q: Antifolato que en dosis bajas semanales actúa como antiinflamatorio e inmunomodulador; es la base del tratamiento de la artritis reumatoide.
+    u:
+      - Artritis reumatoide (primera línea) y artritis psoriásica.
+      - Psoriasis moderada a grave.
+      - Embarazo ectópico no roto con criterios de manejo médico.
+      - Leucemias y otros cánceres (dosis altas).
+    d:
+      - Artritis reumatoide 7,5–15 mg una vez por semana VO o SC; subir hasta 20–25 mg por semana. Agregar ácido fólico 5 mg una vez por semana.
+      - Embarazo ectópico 50 mg/m² IM en dosis única (repetir según la β-hCG).
+    a: Reducir la dosis con TFG 30–60 mL/min; contraindicado si es < 30.
+    c: Embarazo y lactancia, TFG < 30 mL/min, hepatopatía, alcoholismo, citopenias, infección activa, neumopatía intersticial importante.
+    e: Mucositis, náuseas, citopenias, hepatotoxicidad y fibrosis, neumonitis, infecciones y teratogenicidad.
+    i: El cotrimoxazol puede causar pancitopenia grave. Los AINE en dosis altas, los IBP y las penicilinas aumentan sus niveles.
+    em: Contraindicado; suspender al menos 1–3 meses antes de buscar un embarazo.
+    p: Es una vez por SEMANA. Tomarlo a diario por error produce toxicidad grave o mortal; el antídoto es el ácido folínico (leucovorina).
+  - n: Hidroxicloroquina
+    g: Antipalúdico con efecto inmunomodulador
+    q: Antimalárico que interfiere con la activación inmune; reduce los brotes y la mortalidad en el LES.
+    u:
+      - LES (indicada en casi todos los pacientes).
+      - Artritis reumatoide (en combinación) y síndrome de Sjögren.
+      - Síndrome antifosfolípidos (coadyuvante).
+    d:
+      - 200–400 mg VO al día, sin superar 5 mg/kg/día de peso real.
+    a: Reducir la dosis en la ERC.
+    c: Retinopatía previa.
+    e: Molestias digestivas, retinopatía (dosis acumulada), prolongación del QT, hipoglicemia y, rara vez, miocardiopatía.
+    i: Precaución con otros fármacos que prolongan el QT.
+    em: Mantenerla en el embarazo (reduce los brotes y el bloqueo cardíaco congénito en las madres anti-Ro).
+    p: Control oftalmológico al inicio y anual desde los 5 años de uso (antes si hay factores de riesgo).
+  - n: Adalimumab
+    g: Biológico · anticuerpo monoclonal anti-TNF alfa
+    q: Anticuerpo humano que bloquea el TNF alfa; se administra en forma subcutánea.
+    u:
+      - Artritis reumatoide, espondiloartritis y artritis psoriásica.
+      - Enfermedad de Crohn y colitis ulcerosa.
+      - Psoriasis, hidradenitis supurativa y uveítis.
+    d:
+      - Reumatología y psoriasis 40 mg SC cada 2 semanas.
+      - EII 160 mg en la semana 0, 80 mg en la semana 2 y luego 40 mg cada 2 semanas.
+    c: Infección activa, tuberculosis latente no tratada, IC clase III–IV, enfermedad desmielinizante, cáncer reciente.
+    e: Infecciones (reactivación de tuberculosis y VHB), reacción en el sitio de punción, lupus inducido, psoriasis paradójica.
+    i: No usar vacunas vivas durante el tratamiento.
+    em: Se puede usar en el embarazo según el especialista (no dar vacunas vivas al lactante los primeros meses).
+    p: Antes de iniciar cualquier anti-TNF, descartar tuberculosis latente (PPD o IGRA y radiografía), VHB, VHC y VIH, y actualizar las vacunas.
+  - n: Infliximab
+    g: Biológico · anticuerpo monoclonal quimérico anti-TNF alfa
+    q: Anticuerpo anti-TNF de administración endovenosa.
+    u:
+      - Enfermedad de Crohn (incluida la fistulizante) y colitis ulcerosa, también grave refractaria a corticoides.
+      - Artritis reumatoide (con metotrexato), espondiloartritis y psoriasis.
+    d:
+      - EII 5 mg/kg EV en las semanas 0, 2 y 6, y luego cada 8 semanas.
+      - Artritis reumatoide 3 mg/kg EV con el mismo esquema, junto a metotrexato.
+    c: Las del adalimumab.
+    e: Reacciones a la infusión, infecciones (tuberculosis, VHB), formación de anticuerpos y lupus inducido.
+    i: No usar vacunas vivas.
+    em: Según el especialista.
+  - n: Rituximab
+    g: Biológico · anticuerpo monoclonal anti-CD20
+    q: Elimina los linfocitos B por varios meses.
+    u:
+      - Linfomas B (con quimioterapia) y leucemia linfática crónica.
+      - Vasculitis ANCA, artritis reumatoide refractaria y nefropatía membranosa.
+      - PTI y anemia hemolítica autoinmune refractarias.
+    d:
+      - Linfoma 375 mg/m² EV por ciclo.
+      - Vasculitis ANCA 375 mg/m² semanal por 4 semanas o 1 g EV separados por 2 semanas.
+      - Artritis reumatoide 1 g EV separados por 2 semanas.
+    c: Infección activa grave, hepatitis B activa.
+    e: Reacciones a la infusión (premedicar), infecciones, reactivación grave de la hepatitis B, hipogammaglobulinemia, neutropenia tardía y leucoencefalopatía multifocal progresiva.
+    i: Respuesta pobre a las vacunas durante meses.
+    em: Evitar en el embarazo.
+    p: Antes de usarlo, pedir HBsAg y anti-HBc; si alguno es positivo, dar profilaxis antiviral (entecavir o tenofovir).
+  - n: Inmunoglobulina
+    g: Hemoderivado · inmunoglobulina humana endovenosa
+    q: IgG de miles de donantes; aporta anticuerpos y modula la respuesta inmune.
+    u:
+      - Síndrome de Guillain-Barré y crisis miasténica.
+      - Enfermedad de Kawasaki (con aspirina).
+      - PTI con sangrado o recuento muy bajo.
+      - Inmunodeficiencias primarias (reemplazo).
+    d:
+      - Guillain-Barré 0,4 g/kg/día EV por 5 días (2 g/kg en total).
+      - Kawasaki 2 g/kg EV en dosis única.
+      - PTI 1 g/kg/día por 1–2 días.
+      - Reemplazo 400–600 mg/kg cada 3–4 semanas.
+    c: Déficit de IgA con anticuerpos anti-IgA.
+    e: Cefalea, meningitis aséptica, trombosis, LRA (preparados con sacarosa), hemólisis y anafilaxia.
+    i: Reduce la respuesta a vacunas vivas por varios meses.
+    em: Se usa en el embarazo si está indicada.
+  - n: Abiraterona
+    g: Hormonoterapia · inhibidor de la síntesis de andrógenos (CYP17)
+    q: Bloquea la producción de andrógenos en testículo, suprarrenal y tumor; se da con prednisona y con la castración.
+    u:
+      - Cáncer de próstata metastásico, resistente a la castración o hormonosensible de alto riesgo.
+    d:
+      - 1.000 mg VO al día en ayunas, con prednisona 5 mg (cada 12 h en la enfermedad resistente a la castración) y supresión androgénica.
+    c: Insuficiencia hepática grave.
+    e: Hipokalemia, HTA y edema (exceso de mineralocorticoides), hepatotoxicidad y fatiga.
+    i: Inhibe el CYP2D6. Los inductores potentes del CYP3A4 reducen sus niveles.
+    em: No aplica.
+    p: Controlar las pruebas hepáticas cada 2 semanas los primeros 3 meses, y el potasio y la PA en forma periódica.

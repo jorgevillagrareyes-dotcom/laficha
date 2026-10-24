@@ -453,3 +453,8 @@
 .md-typeset details.calculadora[open] > summary { font-weight: 700; }
 .md-typeset details.calculadora > :not(summary) { margin-left: 0; margin-right: 0; }
 .md-typeset details.calculadora[open] { padding-bottom: 0.8em; }
+.md-typeset .farm-grupo { font-size: 0.72rem; color: var(--mi-tenue); font-style: italic; margin-top: 0; }
+.md-typeset .farm-grupos { font-size: 0.74rem; line-height: 1.9; }
+.md-typeset details.farmaco[open] > summary { font-weight: 700; }
+.md-typeset details.farmaco > :not(summary) { font-size: 0.78rem; }
+.md-typeset details.farmaco p strong:first-child { color: var(--md-default-fg-color); }
