@@ -8,3 +8,25 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="La Ficha">
 {% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.herramienta %}
+    {% set herramientas = [
+      ("preguntas", "preguntas-del-dia.html", "Preguntas del día", "Casos clínicos diarios", "comment-question-outline", "Preguntas"),
+      ("calculadoras", "calculadoras.html", "Calculadoras", "Puntajes y fórmulas", "calculator-variant-outline", "Calcular"),
+      ("farmacos", "farmacos.html", "Fármacos", "Fichas y dosis", "pill", "Fármacos"),
+      ("indice", "indice-alfabetico.html", "Índice A–Z", "Todos los temas", "sort-alphabetical-ascending", "Índice"),
+      ("mis-temas", "mis-temas.html", "Mis temas", "Guardados y sin conexión", "bookmark-outline", "Mis temas"),
+    ] %}
+    <nav class="lf-herr" aria-label="Herramientas">
+      {% for clave, ruta, nombre, desc, icono, corto in herramientas %}
+        <a class="lf-herr-item{% if page.meta.herramienta == clave %} lf-herr-activa{% endif %}" href="{{ ruta | url }}"{% if page.meta.herramienta == clave %} aria-current="page"{% endif %}>
+          <span class="lf-herr-ico">{% include ".icons/material/" ~ icono ~ ".svg" %}</span>
+          <span class="lf-herr-txt"><strong>{{ nombre }}</strong><small>{{ desc }}</small></span>
+          <span class="lf-herr-corto">{{ corto }}</span>
+        </a>
+      {% endfor %}
+    </nav>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

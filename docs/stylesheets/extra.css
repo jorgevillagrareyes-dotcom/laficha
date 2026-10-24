@@ -458,3 +458,30 @@
 .md-typeset details.farmaco[open] > summary { font-weight: 700; }
 .md-typeset details.farmaco > :not(summary) { font-size: 0.78rem; }
 .md-typeset details.farmaco p strong:first-child { color: var(--md-default-fg-color); }
+
+/* Barra de herramientas (Preguntas, Calculadoras, Fármacos, Índice, Mis temas) */
+.md-typeset .lf-herr, .lf-herr { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.5rem; margin: 0 0 1.6rem; }
+.lf-herr-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.65rem 0.75rem; border: 1px solid var(--mi-linea); border-radius: 0.3rem; color: var(--md-default-fg-color) !important; text-decoration: none !important; background: var(--md-default-bg-color); transition: border-color .15s, background-color .15s; }
+.lf-herr-item:hover { border-color: var(--md-default-fg-color--light); background: var(--mi-fondo-suave); }
+.lf-herr-activa { border-color: var(--md-default-fg-color); background: var(--mi-fondo-suave); }
+.lf-herr-ico { flex: none; display: inline-flex; width: 1.3rem; height: 1.3rem; color: var(--mi-tenue); }
+.lf-herr-activa .lf-herr-ico { color: var(--md-default-fg-color); }
+.lf-herr-ico svg { width: 100%; height: 100%; fill: currentColor; }
+.lf-herr-txt { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.lf-herr-txt strong { font-size: 0.74rem; font-weight: 600; }
+.lf-herr-txt small { font-size: 0.62rem; color: var(--mi-tenue); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lf-herr-corto { display: none; }
+@media screen and (max-width: 59.9375em) {
+  .md-typeset .lf-herr, .lf-herr { gap: 0.3rem; margin-bottom: 1.2rem; }
+  .lf-herr-item { flex-direction: column; justify-content: center; gap: 0.25rem; padding: 0.5rem 0.2rem; text-align: center; }
+  .lf-herr-txt { display: none; }
+  .lf-herr-corto { display: block; font-size: 0.58rem; line-height: 1.2; font-weight: 600; white-space: nowrap; }
+  .lf-herr-ico { width: 1.2rem; height: 1.2rem; }
+}
+
+/* Índice de secciones como botones */
+.md-typeset .lf-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.4rem 0 1.4rem; }
+.md-typeset .lf-chips a { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.3rem 0.7rem; border: 1px solid var(--mi-linea); border-radius: 999px; font-size: 0.72rem; color: var(--md-default-fg-color); text-decoration: none; background: var(--md-default-bg-color); }
+.md-typeset .lf-chips a:hover { border-color: var(--md-default-fg-color); }
+.md-typeset .lf-chips a span { font-size: 0.64rem; color: var(--mi-tenue); font-variant-numeric: tabular-nums; }
+@media print { .lf-herr, .md-typeset .lf-chips { display: none; } }

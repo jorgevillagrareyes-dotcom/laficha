@@ -1,5 +1,7 @@
 ---
+herramienta: mis-temas
 hide:
+  - navigation
   - toc
 ---
 

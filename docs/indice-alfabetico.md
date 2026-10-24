@@ -1,5 +1,7 @@
 ---
+herramienta: indice
 hide:
+  - navigation
   - toc
 ---
 

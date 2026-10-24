@@ -316,7 +316,7 @@ def main():
         letra = letra if letra.isalpha() else "#"
         grupos.setdefault(letra, []).append((t, ruta, nombre))
     partes = [
-        "---\nhide:\n  - toc\n---\n",
+        "---\nherramienta: indice\nhide:\n  - navigation\n  - toc\n---\n",
         "# Índice alfabético\n",
         f"Los **{len(entradas)} resúmenes** de La Ficha ordenados de la A a la Z, con su especialidad.\n",
         '<p class="az-letras">' + " ".join(f'<a href="#{l.lower()}">{l}</a>' for l in grupos) + "</p>\n",
@@ -401,7 +401,7 @@ def main():
     grupos.sort()
     total_f = sum(len(g[3]) for g in grupos)
     partes = [
-        "---\nhide:\n  - toc\n---\n",
+        "---\nherramienta: farmacos\nhide:\n  - navigation\n  - toc\n---\n",
         "# Fármacos\n",
         f"Fichas de **{total_f} fármacos** usados en los resúmenes de La Ficha: qué es, para qué se usa, dosis habitual en adultos, "
         "ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. Toca el nombre para abrir la ficha.\n",
@@ -409,7 +409,7 @@ def main():
         "Revisa la indicación en el resumen correspondiente, el peso, la función renal, las interacciones, la ficha técnica (ISP) "
         "y el protocolo de tu centro.\n",
         '<input type="search" class="farm-filtro" placeholder="Buscar fármaco, grupo o uso; por ejemplo: amoxicilina, betabloqueador" aria-label="Buscar fármacos">\n',
-        '<p class="farm-grupos">' + " · ".join(f'<a href="#{slug(t)}">{t}</a>' for _o, t, _i, _f in grupos) + "</p>\n",
+        '<nav class="lf-chips" aria-label="Grupos">' + "".join(f'<a href="#{slug(t)}">{t}<span>{len(f)}</span></a>' for _o, t, _i, f in grupos) + "</nav>\n",
     ]
     def bloque(etiqueta, valor):
         if not valor:
@@ -443,7 +443,7 @@ def main():
 
     # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)
     (DOCS / "mis-temas.md").write_text(
-        "---\nhide:\n  - toc\n---\n\n"
+        "---\nherramienta: mis-temas\nhide:\n  - navigation\n  - toc\n---\n\n"
         "# Mis temas\n\n"
         "Tus temas **guardados** y **estudiados**. Se guardan solo en este navegador y dispositivo; "
         "no se envían a ningún servidor. Márcalos con los botones que aparecen bajo el título de cada resumen.\n\n"

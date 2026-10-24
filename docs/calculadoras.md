@@ -1,5 +1,7 @@
 ---
+herramienta: calculadoras
 hide:
+  - navigation
   - toc
 ---
 
@@ -28,8 +30,7 @@ Puntajes y fórmulas de uso diario, con la misma definición que usan los resúm
     | Apendicitis | **AIR** (o Alvarado) | WSES 2020 | AIR > 4: **Se 91 %**, Sp 63 %; AIR > 8: Sp 98 %. AUC 0,86 frente a 0,79 del Alvarado |
     | Función renal | **CKD-EPI 2021** (con cistatina C si se dispone) | KDIGO 2024 | La ecuación con creatinina y cistatina C es la más exacta |
 
-[Cardiología y TEP](#cardiologia-y-tep) · [Infecciones y deterioro clínico](#infecciones-y-deterioro-clinico) · [Neurología](#neurologia) · [Gastroenterología y cirugía](#gastroenterologia-y-cirugia) · [Riñón y electrolitos](#rinon-y-electrolitos) · [Fluidos, dosis y otros](#fluidos-dosis-y-otros)
-{ .calc-indice }
+<nav class="lf-chips" aria-label="Secciones"><a href="#cardiologia-y-tep">Cardiología y TEP<span>6</span></a><a href="#infecciones-y-deterioro-clinico">Infecciones y deterioro clínico<span>4</span></a><a href="#neurologia">Neurología<span>1</span></a><a href="#gastroenterologia-y-cirugia">Gastroenterología y cirugía<span>5</span></a><a href="#rinon-y-electrolitos">Riñón y electrolitos<span>3</span></a><a href="#fluidos-dosis-y-otros">Fluidos, dosis y otros<span>5</span></a></nav>
 
 ## Cardiología y TEP
 

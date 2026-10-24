@@ -1,5 +1,7 @@
 ---
+herramienta: farmacos
 hide:
+  - navigation
   - toc
 ---
 
@@ -12,7 +14,7 @@ Fichas de **268 fármacos** usados en los resúmenes de La Ficha: qué es, para 
 
 <input type="search" class="farm-filtro" placeholder="Buscar fármaco, grupo o uso; por ejemplo: amoxicilina, betabloqueador" aria-label="Buscar fármacos">
 
-<p class="farm-grupos"><a href="#antibioticos">Antibióticos</a> · <a href="#antivirales-antifungicos-y-antiparasitarios">Antivirales, antifúngicos y antiparasitarios</a> · <a href="#cardiovasculares-y-diureticos">Cardiovasculares y diuréticos</a> · <a href="#vasoactivos-y-farmacos-del-paro">Vasoactivos y fármacos del paro</a> · <a href="#antitromboticos-hemostasia-y-sangre">Antitrombóticos, hemostasia y sangre</a> · <a href="#diabetes-endocrinologia-hueso-y-electrolitos">Diabetes, endocrinología, hueso y electrolitos</a> · <a href="#respiratorios-y-antialergicos">Respiratorios y antialérgicos</a> · <a href="#digestivos">Digestivos</a> · <a href="#analgesia-anestesia-y-gota">Analgesia, anestesia y gota</a> · <a href="#neurologia-y-psiquiatria">Neurología y psiquiatría</a> · <a href="#inmunosupresores-biologicos-y-oncologicos">Inmunosupresores, biológicos y oncológicos</a> · <a href="#ginecologia-obstetricia-urologia-y-dermatologia">Ginecología, obstetricia, urología y dermatología</a></p>
+<nav class="lf-chips" aria-label="Grupos"><a href="#antibioticos">Antibióticos<span>39</span></a><a href="#antivirales-antifungicos-y-antiparasitarios">Antivirales, antifúngicos y antiparasitarios<span>15</span></a><a href="#cardiovasculares-y-diureticos">Cardiovasculares y diuréticos<span>34</span></a><a href="#vasoactivos-y-farmacos-del-paro">Vasoactivos y fármacos del paro<span>9</span></a><a href="#antitromboticos-hemostasia-y-sangre">Antitrombóticos, hemostasia y sangre<span>31</span></a><a href="#diabetes-endocrinologia-hueso-y-electrolitos">Diabetes, endocrinología, hueso y electrolitos<span>31</span></a><a href="#respiratorios-y-antialergicos">Respiratorios y antialérgicos<span>12</span></a><a href="#digestivos">Digestivos<span>12</span></a><a href="#analgesia-anestesia-y-gota">Analgesia, anestesia y gota<span>22</span></a><a href="#neurologia-y-psiquiatria">Neurología y psiquiatría<span>43</span></a><a href="#inmunosupresores-biologicos-y-oncologicos">Inmunosupresores, biológicos y oncológicos<span>10</span></a><a href="#ginecologia-obstetricia-urologia-y-dermatologia">Ginecología, obstetricia, urología y dermatología<span>10</span></a></nav>
 
 ## Antibióticos { #antibioticos }
 

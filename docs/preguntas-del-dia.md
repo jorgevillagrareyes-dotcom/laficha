@@ -1,5 +1,7 @@
 ---
+herramienta: preguntas
 hide:
+  - navigation
   - toc
 ---
 
