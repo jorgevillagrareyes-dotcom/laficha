@@ -471,6 +471,13 @@ nav:
       - Urgencias: urgencias/index.md
   - Farmacoterapia:
       - Fármacos: farmacos.md
+      - Indicaciones al hospitalizado:
+          - indicaciones/index.md
+          - Régimen: indicaciones/regimen.md
+          - Reposo y posición: indicaciones/reposo.md
+          - Oxigenoterapia: indicaciones/oxigeno.md
+          - Fluidoterapia: indicaciones/fluidoterapia.md
+          - Insulina en el hospitalizado: indicaciones/insulina.md
   - Herramientas:
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
