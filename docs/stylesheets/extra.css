@@ -1,75 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap");
 
-/* Paleta: azul petróleo clínico (encabezado) + ámbar quirúrgico (acentos). */
+/* Estilo sobrio y académico: blanco, negro y grises, con un solo acento discreto. */
 :root > * {
-  --md-primary-fg-color: #12474f;
-  --md-primary-fg-color--light: #1c6470;
-  --md-primary-fg-color--dark: #0b3238;
-  --md-primary-bg-color: #ffffff;
-  --md-accent-fg-color: #b4530a;
-  --md-accent-fg-color--transparent: rgba(180, 83, 10, 0.1);
-  --mi-ok: #1f7a4d;
-  --mi-pend: #8a8f98;
-  --mi-ficha-bg: #eef5f5;
-  --mi-ficha-borde: #cfe2e3;
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #f4f4f2;
+  --md-primary-bg-color: #1b1b1b;
+  --md-primary-bg-color--light: #5f5f5f;
+  --md-accent-fg-color: #1d5a66;
+  --md-accent-fg-color--transparent: rgba(29, 90, 102, 0.08);
+  --md-default-fg-color: #1b1b1b;
+  --md-typeset-a-color: #1d5a66;
+  --mi-linea: #dcdcd8;
+  --mi-tenue: #6b6b6b;
+  --mi-fondo-suave: #fafaf8;
+  --mi-ok: #2f6b4a;
+  --mi-pend: #9a9a9a;
   --mi-display: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #0f3d44;
-  --md-primary-fg-color--light: #1c6470;
-  --md-primary-fg-color--dark: #0a2a2f;
-  --md-accent-fg-color: #f59e4c;
-  --md-accent-fg-color--transparent: rgba(245, 158, 76, 0.12);
-  --md-default-bg-color: #14191c;
-  --md-typeset-a-color: #6cc3cc;
-  --mi-ok: #4ccf8e;
-  --mi-pend: #7c838c;
-  --mi-ficha-bg: #1a2327;
-  --mi-ficha-borde: #2b3a3f;
+  --md-primary-fg-color: #17191b;
+  --md-primary-fg-color--light: #17191b;
+  --md-primary-fg-color--dark: #101213;
+  --md-primary-bg-color: #e8e6e1;
+  --md-primary-bg-color--light: #a8a6a1;
+  --md-accent-fg-color: #8fc2cb;
+  --md-accent-fg-color--transparent: rgba(143, 194, 203, 0.1);
+  --md-default-bg-color: #17191b;
+  --md-default-fg-color: #e8e6e1;
+  --md-typeset-a-color: #8fc2cb;
+  --mi-linea: #33373a;
+  --mi-tenue: #a3a19c;
+  --mi-fondo-suave: #1c1f21;
+  --mi-ok: #7fc59b;
+  --mi-pend: #6f6f6f;
 }
 
-[data-md-color-scheme="default"] {
-  --md-typeset-a-color: #14707c;
+/* Encabezado y pestañas: blancos, con una línea fina */
+.md-header, .md-tabs {
+  box-shadow: none;
 }
+.md-header { border-bottom: 1px solid var(--mi-linea); }
+.md-header[data-md-state="shadow"], .md-header--shadow { box-shadow: none; }
+.md-tabs { border-bottom: 1px solid var(--mi-linea); }
+.md-header__topic:first-child { font-family: var(--mi-display); font-weight: 700; font-size: 1.05rem; letter-spacing: 0; }
+.md-tabs__link { opacity: 0.75; font-size: 0.72rem; }
+.md-tabs__item--active .md-tabs__link, .md-tabs__link:hover { opacity: 1; color: var(--md-default-fg-color); }
+.md-tabs__item--active .md-tabs__link { box-shadow: inset 0 -2px 0 var(--md-default-fg-color); }
+.md-search__input { background-color: var(--mi-fondo-suave); border: 1px solid var(--mi-linea); }
+.md-search__input::placeholder { color: var(--mi-tenue); }
+.md-search__input:hover { background-color: var(--mi-fondo-suave); }
+.md-source { opacity: 0.8; }
 
-/* Tipografía */
+/* Tipografía: títulos serif grandes, texto amplio */
+.md-typeset { font-size: 0.84rem; line-height: 1.7; }
 .md-typeset h1,
-.md-typeset h2 {
+.md-typeset h2,
+.md-typeset h3 {
   font-family: var(--mi-display);
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  color: var(--md-default-fg-color);
+  letter-spacing: -0.005em;
   text-wrap: balance;
 }
-.md-typeset h1 { color: var(--md-default-fg-color); margin-bottom: 0.4em; }
+.md-typeset h1 { font-size: 2.1em; font-weight: 700; line-height: 1.15; margin-bottom: 0.5em; }
 .md-typeset h2 {
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-  padding-top: 0.9em;
-  margin-top: 1.8em;
+  font-size: 1.45em;
+  font-weight: 700;
+  border-top: 1px solid var(--mi-linea);
+  padding-top: 1em;
+  margin-top: 2em;
 }
-.md-typeset h3 { font-weight: 700; }
-.md-typeset table:not([class]) { font-size: 0.72rem; }
-.md-typeset table:not([class]) th { background: var(--mi-ficha-bg); }
+.md-typeset h3 { font-size: 1.15em; font-weight: 600; }
+.md-typeset strong { font-weight: 650; }
+.md-typeset a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); }
+.md-typeset a:hover { text-decoration-color: currentColor; }
+.md-nav__link, .md-typeset .headerlink, .md-typeset .md-tag, .md-typeset .grid.cards a { text-decoration: none; }
+
+/* Tablas: líneas finas horizontales, sin fondos */
+.md-typeset table:not([class]) {
+  font-size: 0.74rem;
+  border: none;
+  border-top: 1.5px solid var(--md-default-fg-color);
+  border-bottom: 1.5px solid var(--md-default-fg-color);
+  border-radius: 0;
+  box-shadow: none;
+}
+.md-typeset table:not([class]) th {
+  background: transparent;
+  font-weight: 650;
+  border-bottom: 1px solid var(--md-default-fg-color);
+}
+.md-typeset table:not([class]) td { border-top: 1px solid var(--mi-linea); }
+.md-typeset table:not([class]) tr:hover { background: var(--mi-fondo-suave); box-shadow: none; }
+
+/* Etiquetas */
+.md-typeset .md-tag {
+  background: transparent;
+  border: 1px solid var(--mi-linea);
+  color: var(--mi-tenue);
+  font-weight: 500;
+  font-size: 0.62rem;
+  border-radius: 1em;
+}
 
 /* Ficha técnica al inicio de cada patología */
 .md-typeset .ficha {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-  gap: 0.6rem 1.2rem;
-  background: var(--mi-ficha-bg);
-  border: 1px solid var(--mi-ficha-borde);
-  border-radius: 0.3rem;
-  padding: 0.8rem 1rem;
-  margin: 0 0 1.2rem;
-  font-size: 0.7rem;
+  gap: 0.7rem 1.4rem;
+  background: transparent;
+  border: none;
+  border-top: 1.5px solid var(--md-default-fg-color);
+  border-bottom: 1px solid var(--mi-linea);
+  border-radius: 0;
+  padding: 0.9rem 0;
+  margin: 0 0 1.4rem;
+  font-size: 0.72rem;
+  line-height: 1.55;
 }
 .md-typeset .ficha p { margin: 0; }
 .md-typeset .ficha p > strong:first-child {
   display: block;
-  font-size: 0.6rem;
+  font-size: 0.58rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--md-default-fg-color--light);
+  letter-spacing: 0.08em;
+  color: var(--mi-tenue);
+  margin-bottom: 0.15em;
 }
 
 /* Estado de los temas en los índices */
@@ -78,10 +136,22 @@
 .md-typeset .temas ul { list-style: none; margin-left: 0; columns: 2 18rem; column-gap: 2rem; }
 .md-typeset .temas ul li { margin-left: 0; break-inside: avoid; }
 
+/* Tarjetas (grid cards): sobrias, sin sombra */
+.md-typeset .grid.cards > ul > li, .md-typeset .grid > .card {
+  border: 1px solid var(--mi-linea);
+  border-radius: 0.2rem;
+  box-shadow: none;
+}
+.md-typeset .grid.cards > ul > li:hover, .md-typeset .grid > .card:hover {
+  border-color: var(--md-default-fg-color);
+  box-shadow: none;
+}
+.md-typeset .grid.cards > ul > li > hr { border-color: var(--mi-linea); }
+
 /* Figuras */
-.md-typeset figure { margin: 1.4em auto; }
-.md-typeset figure img { border-radius: 0.2rem; background: #fff; }
-.md-typeset figcaption { max-width: 42rem; font-size: 0.66rem; text-align: left; }
+.md-typeset figure { margin: 1.6em auto; }
+.md-typeset figure img { border-radius: 0; background: #fff; }
+.md-typeset figcaption { max-width: 42rem; font-size: 0.68rem; text-align: left; color: var(--mi-tenue); font-style: italic; }
 
 /* Diagramas mermaid: permitir scroll horizontal en pantallas pequeñas */
 .md-typeset .mermaid { overflow-x: auto; }
@@ -96,46 +166,78 @@
   --md-admonition-icon--dosis: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m4.22 11.29 7.07-7.07a6.01 6.01 0 0 1 8.49 0c2.34 2.34 2.34 6.14 0 8.49l-7.07 7.07c-2.35 2.34-6.15 2.34-8.49 0a6.01 6.01 0 0 1 0-8.49m1.42 1.42a3.98 3.98 0 0 0-1.04 3.86l5.99-5.98 4.24 4.24 3.53-3.54a3.98 3.98 0 0 0 0-5.65 3.98 3.98 0 0 0-5.65 0z"/></svg>');
 }
 
-.md-typeset .admonition.perla, .md-typeset details.perla { border-color: #7c5cc4; }
+.md-typeset .admonition.perla, .md-typeset details.perla { border-color: #6a5d86; }
 .md-typeset .perla > .admonition-title, .md-typeset .perla > summary { background-color: rgba(124, 92, 196, 0.1); }
 .md-typeset .perla > .admonition-title::before, .md-typeset .perla > summary::before {
-  background-color: #7c5cc4; -webkit-mask-image: var(--md-admonition-icon--perla); mask-image: var(--md-admonition-icon--perla);
+  background-color: #6a5d86; -webkit-mask-image: var(--md-admonition-icon--perla); mask-image: var(--md-admonition-icon--perla);
 }
 
-.md-typeset .admonition.guia, .md-typeset details.guia { border-color: #14707c; }
+.md-typeset .admonition.guia, .md-typeset details.guia { border-color: #1d5a66; }
 .md-typeset .guia > .admonition-title, .md-typeset .guia > summary { background-color: rgba(20, 112, 124, 0.1); }
 .md-typeset .guia > .admonition-title::before, .md-typeset .guia > summary::before {
-  background-color: #14707c; -webkit-mask-image: var(--md-admonition-icon--guia); mask-image: var(--md-admonition-icon--guia);
+  background-color: #1d5a66; -webkit-mask-image: var(--md-admonition-icon--guia); mask-image: var(--md-admonition-icon--guia);
 }
 
-.md-typeset .admonition.alarma, .md-typeset details.alarma { border-color: #c62828; }
+.md-typeset .admonition.alarma, .md-typeset details.alarma { border-color: #a23b32; }
 .md-typeset .alarma > .admonition-title, .md-typeset .alarma > summary { background-color: rgba(198, 40, 40, 0.1); }
 .md-typeset .alarma > .admonition-title::before, .md-typeset .alarma > summary::before {
-  background-color: #c62828; -webkit-mask-image: var(--md-admonition-icon--alarma); mask-image: var(--md-admonition-icon--alarma);
+  background-color: #a23b32; -webkit-mask-image: var(--md-admonition-icon--alarma); mask-image: var(--md-admonition-icon--alarma);
 }
 
-.md-typeset .admonition.chile, .md-typeset details.chile { border-color: #1d4ed8; }
+.md-typeset .admonition.chile, .md-typeset details.chile { border-color: #3c5a86; }
 .md-typeset .chile > .admonition-title, .md-typeset .chile > summary { background-color: rgba(29, 78, 216, 0.1); }
 .md-typeset .chile > .admonition-title::before, .md-typeset .chile > summary::before {
-  background-color: #1d4ed8; -webkit-mask-image: var(--md-admonition-icon--chile); mask-image: var(--md-admonition-icon--chile);
+  background-color: #3c5a86; -webkit-mask-image: var(--md-admonition-icon--chile); mask-image: var(--md-admonition-icon--chile);
 }
 
-.md-typeset .admonition.repaso, .md-typeset details.repaso { border-color: #b4530a; }
+.md-typeset .admonition.repaso, .md-typeset details.repaso { border-color: #8a5a2b; }
 .md-typeset .repaso > .admonition-title, .md-typeset .repaso > summary { background-color: rgba(180, 83, 10, 0.1); }
 .md-typeset .repaso > .admonition-title::before, .md-typeset .repaso > summary::before {
-  background-color: #b4530a; -webkit-mask-image: var(--md-admonition-icon--repaso); mask-image: var(--md-admonition-icon--repaso);
+  background-color: #8a5a2b; -webkit-mask-image: var(--md-admonition-icon--repaso); mask-image: var(--md-admonition-icon--repaso);
 }
 
-.md-typeset .admonition.dosis, .md-typeset details.dosis { border-color: #2e7d32; }
+.md-typeset .admonition.dosis, .md-typeset details.dosis { border-color: #3f6b4a; }
 .md-typeset .dosis > .admonition-title, .md-typeset .dosis > summary { background-color: rgba(46, 125, 50, 0.1); }
 .md-typeset .dosis > .admonition-title::before, .md-typeset .dosis > summary::before {
-  background-color: #2e7d32; -webkit-mask-image: var(--md-admonition-icon--dosis); mask-image: var(--md-admonition-icon--dosis);
+  background-color: #3f6b4a; -webkit-mask-image: var(--md-admonition-icon--dosis); mask-image: var(--md-admonition-icon--dosis);
 }
 
 [data-md-color-scheme="slate"] .md-typeset .chile > .admonition-title::before,
-[data-md-color-scheme="slate"] .md-typeset .chile > summary::before { background-color: #6b93ff; }
+[data-md-color-scheme="slate"] .md-typeset .chile > summary::before { background-color: #93abd6; }
 [data-md-color-scheme="slate"] .md-typeset .admonition.chile,
-[data-md-color-scheme="slate"] .md-typeset details.chile { border-color: #6b93ff; }
+[data-md-color-scheme="slate"] .md-typeset details.chile { border-color: #93abd6; }
+
+/* Recuadros sobrios: sin fondo, borde fino a la izquierda */
+.md-typeset .admonition, .md-typeset details {
+  background: transparent;
+  border: none;
+  border-left: 2px solid var(--mi-linea);
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 0.8rem;
+  padding: 0 0 0 1rem;
+}
+.md-typeset .admonition > .admonition-title, .md-typeset details > summary {
+  background: transparent !important;
+  border: none;
+  font-family: var(--mi-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-left: 1.7rem;
+  margin: 0;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.md-typeset .admonition > .admonition-title::before, .md-typeset details > summary::before { left: 0; top: 0.35rem; }
+.md-typeset details > summary::after { top: 0.35rem; }
+.md-typeset .admonition > :last-child, .md-typeset details > :last-child { margin-bottom: 0.4rem; }
+.md-typeset .admonition.abstract { border-left-color: var(--md-default-fg-color); }
+.md-typeset .abstract > .admonition-title::before { background-color: var(--md-default-fg-color); }
+.md-typeset .admonition.alarma, .md-typeset details.alarma { border-left-color: #a23b32; }
+.md-typeset .alarma > .admonition-title { color: #a23b32; }
+[data-md-color-scheme="slate"] .md-typeset .alarma > .admonition-title { color: #e08a80; }
+[data-md-color-scheme="slate"] .md-typeset .admonition.alarma { border-left-color: #e08a80; }
+[data-md-color-scheme="slate"] .md-typeset .alarma > .admonition-title::before { background-color: #e08a80; }
 
 /* Mapa de calor KDIGO (riesgo por TFG y albuminuria) */
 .md-typeset .kdigo { overflow-x: auto; margin: 1em 0; }
@@ -148,3 +250,12 @@
 .md-typeset .kdigo .amarillo { background: #f3e071; }
 .md-typeset .kdigo .naranjo { background: #f4a259; }
 .md-typeset .kdigo .rojo { background: #e05a4f; color: #fff; }
+
+/* Preguntas de repaso: más livianas que los títulos de recuadro */
+.md-typeset details.repaso > summary {
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.md-typeset details.repaso { margin: 0.6em 0; }
