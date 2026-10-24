@@ -445,9 +445,11 @@
 .md-typeset details.farmaco li { font-size: 0.74rem; line-height: 1.5; margin-bottom: 0.5em; }
 .md-typeset .farm-ancla { display: block; height: 0; }
 
-/* Fichas de urgencias vitales */
-.md-typeset .uv-fuente { font-size: 0.72rem; color: var(--mi-tenue); margin-top: -0.4em; }
-.md-typeset:has(.uv-fuente) h2 { margin-top: 1.4em; padding-top: 0.9em; }
-.md-typeset .uv-lista ul { list-style: none; margin-left: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0 1.5rem; }
-.md-typeset .uv-lista li { margin: 0; padding: 0.45em 0; border-bottom: 1px dotted var(--mi-linea); }
-.md-typeset .uv-lista li a { font-family: var(--mi-display); font-size: 0.9rem; }
+/* Calculadoras plegables: lista de títulos */
+.md-typeset details.calculadora { border: none; border-bottom: 1px solid var(--mi-linea); border-radius: 0; box-shadow: none; margin: 0; background: transparent; }
+.md-typeset details.calculadora > summary { background: transparent; font-family: var(--mi-display); font-size: 0.9rem; padding: 0.7em 2rem 0.7em 0; }
+.md-typeset details.calculadora > summary::before { display: none; }
+.md-typeset details.calculadora > summary:hover { color: var(--md-accent-fg-color); }
+.md-typeset details.calculadora[open] > summary { font-weight: 700; }
+.md-typeset details.calculadora > :not(summary) { margin-left: 0; margin-right: 0; }
+.md-typeset details.calculadora[open] { padding-bottom: 0.8em; }

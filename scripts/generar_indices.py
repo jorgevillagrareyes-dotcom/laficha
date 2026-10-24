@@ -453,14 +453,6 @@ def main():
     nav += [
         "  - Patologías GES: ges/index.md",
         "  - Herramientas:",
-        "      - Urgencias vitales:",
-        "          - urgencias-vitales/index.md",
-    ]
-    # Las fichas van en el orden del índice de urgencias vitales (escrito a mano)
-    indice_uv = (DOCS / "urgencias-vitales" / "index.md").read_text(encoding="utf-8")
-    for archivo in re.findall(r"\]\(([a-z0-9-]+\.md)\)", indice_uv):
-        nav.append(f'          - "{titulo_pagina(f"urgencias-vitales/{archivo}")}": urgencias-vitales/{archivo}')
-    nav += [
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
         "      - Fármacos: farmacos.md",

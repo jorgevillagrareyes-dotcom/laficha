@@ -234,7 +234,30 @@
     return peso <= 10 ? 100 * peso : peso <= 20 ? 1000 + 50 * (peso - 10) : 1500 + 20 * (peso - 20);
   }
 
+  // Lista de calculadoras plegables: una abierta a la vez y enlace directo por #nombre
+  function slug(s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+  function plegables() {
+    var lista = document.querySelectorAll("details.calculadora");
+    lista.forEach(function (d) {
+      if (d.getAttribute("data-lf") === "1") return;
+      d.setAttribute("data-lf", "1");
+      var s = d.querySelector("summary");
+      d.id = slug(s.textContent);
+      d.addEventListener("toggle", function () {
+        if (!d.open) return;
+        lista.forEach(function (o) { if (o !== d) o.open = false; });
+        try { history.replaceState(null, "", "#" + d.id); } catch (e) { /* sin historial */ }
+      });
+    });
+    var h = decodeURIComponent(location.hash.slice(1));
+    var objetivo = h && document.getElementById(h);
+    if (objetivo && objetivo.matches("details.calculadora")) { objetivo.open = true; objetivo.scrollIntoView(); }
+  }
+
   function iniciar() {
+    plegables();
     document.querySelectorAll(".calc[data-calc]").forEach(function (caja) {
       if (caja.getAttribute("data-lf") === "1") return;
       caja.setAttribute("data-lf", "1");
