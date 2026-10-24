@@ -1,0 +1,420 @@
+orden: 5
+titulo: Antitrombóticos, hemostasia y sangre
+farmacos:
+  - n: Ácido acetilsalicílico
+    g: Antiagregante plaquetario · AINE
+    q: Inhibe de forma irreversible la ciclooxigenasa 1 de las plaquetas (efecto de 7–10 días). En dosis altas es analgésico y antiinflamatorio.
+    u:
+      - SCA y prevención secundaria cardiovascular y cerebrovascular.
+      - ACV isquémico agudo sin trombólisis y CIT.
+      - Prevención de la preeclampsia en embarazadas de alto riesgo.
+    d:
+      - SCA 150–300 mg VO masticado de carga; luego 75–100 mg al día de por vida.
+      - ACV 160–325 mg en las primeras 24–48 h; luego 75–100 mg al día.
+      - Preeclampsia 100–150 mg en la noche desde antes de las 16 semanas hasta las 36.
+    c: Alergia o asma exacerbada por AINE, sangrado activo, úlcera péptica activa. Niños y adolescentes con virosis (síndrome de Reye).
+    e: Hemorragia digestiva, dispepsia, broncoespasmo en la enfermedad respiratoria exacerbada por AINE; en sobredosis, tinnitus y acidosis.
+    i: Más sangrado con anticoagulantes, otros antiagregantes, ISRS y corticoides. El ibuprofeno tomado antes puede bloquear su efecto antiagregante.
+    em: En dosis bajas es seguro en el embarazo; evitar las dosis analgésicas en el 3.er trimestre.
+    p: En prevención primaria ya no se indica de rutina; el sangrado supera al beneficio en la mayoría.
+  - n: Clopidogrel
+    g: Antiagregante plaquetario · inhibidor P2Y12
+    q: Profármaco que bloquea de forma irreversible el receptor P2Y12 de las plaquetas. Su activación depende del CYP2C19.
+    u:
+      - SCA con fibrinólisis, con anticoagulación oral o si no se pueden usar ticagrelor ni prasugrel.
+      - ACV menor o CIT de alto riesgo (doble antiagregación por 21 días).
+      - Angioplastía electiva y enfermedad arterial periférica.
+    d:
+      - Carga 300–600 mg VO (300 mg con fibrinólisis; 75 mg sin carga en ≥ 75 años fibrinolisados); luego 75 mg al día.
+    c: Sangrado activo. Insuficiencia hepática grave.
+    e: Sangrado, dispepsia y, rara vez, púrpura trombocitopénica trombótica.
+    i: El omeprazol y el esomeprazol reducen su activación (preferir pantoprazol). Más sangrado con anticoagulantes y AINE.
+    em: Usar solo si se necesita.
+    p: Suspenderlo 5 días antes de una cirugía mayor electiva (consultar al cardiólogo si hay un stent reciente).
+  - n: Prasugrel
+    g: Antiagregante plaquetario · inhibidor P2Y12
+    q: Inhibidor P2Y12 irreversible, más potente y predecible que el clopidogrel.
+    u:
+      - SCA que va a angioplastía, una vez conocida la anatomía coronaria.
+    d:
+      - Carga 60 mg VO; luego 10 mg al día (5 mg si tiene ≥ 75 años o pesa < 60 kg).
+    c: ACV o CIT previos. Sangrado activo. Insuficiencia hepática grave.
+    e: Sangrado (mayor que con clopidogrel).
+    i: Más sangrado con anticoagulantes y AINE.
+    em: Usar solo si se necesita.
+    p: Suspender 7 días antes de una cirugía mayor electiva.
+  - n: Ticagrelor
+    g: Antiagregante plaquetario · inhibidor P2Y12 reversible
+    q: Inhibidor P2Y12 directo y reversible, de inicio rápido. Redujo la mortalidad frente a clopidogrel en el SCA (estudio PLATO).
+    u:
+      - SCA con o sin supradesnivel del ST (de elección junto a prasugrel).
+      - ACV menor (alternativa, con aspirina por 30 días).
+    d:
+      - Carga 180 mg VO; luego 90 mg cada 12 h por 12 meses (60 mg cada 12 h en tratamientos prolongados).
+    c: Hemorragia intracraneana previa, sangrado activo, insuficiencia hepática grave, uso de inhibidores o inductores potentes del CYP3A4.
+    e: Disnea (frecuente, generalmente benigna), sangrado, bradiarritmias y alza del ácido úrico.
+    i: Mantener la aspirina en ≤ 100 mg al día. Evitar con claritromicina, ketoconazol y rifampicina.
+    em: Usar solo si se necesita.
+    p: Suspender 3–5 días antes de una cirugía mayor electiva.
+  - n: Acenocumarol
+    g: Anticoagulante oral · antagonista de la vitamina K
+    q: Cumarínico que inhibe la síntesis hepática de los factores II, VII, IX y X. Es el antagonista de vitamina K más usado en Chile.
+    u:
+      - Prótesis valvulares mecánicas y FA con estenosis mitral moderada a grave (donde los ACOD no sirven).
+      - FA y enfermedad tromboembólica venosa, cuando no se usan ACOD.
+      - Síndrome antifosfolípidos con trombosis.
+    d:
+      - Inicio habitual 2–4 mg VO al día, ajustando según el INR.
+      - Meta INR 2–3 (2,5–3,5 en algunas prótesis mecánicas mitrales).
+      - En la trombosis, superponer con heparina al menos 5 días y hasta tener 2 INR en rango.
+    a: Mayor sensibilidad en adultos mayores, desnutridos e insuficiencia hepática.
+    c: Sangrado activo, embarazo (teratogénico), hipertensión grave no controlada, mala adherencia a los controles.
+    e: Sangrado, necrosis cutánea (déficit de proteína C) al inicio.
+    i: Numerosas. Aumentan el INR la amiodarona, el metronidazol, el cotrimoxazol, el fluconazol y los macrólidos; lo disminuyen la rifampicina, la carbamazepina y los alimentos ricos en vitamina K.
+    em: Contraindicado en el embarazo (embriopatía); compatible con la lactancia.
+    p: Ante cualquier antibiótico nuevo, controlar el INR a los 3–5 días.
+  - n: Warfarina
+    g: Anticoagulante oral · antagonista de la vitamina K
+    q: Cumarínico de vida media más larga que el acenocumarol; mismo mecanismo y mismas indicaciones.
+    u:
+      - Prótesis valvulares mecánicas, FA con estenosis mitral, síndrome antifosfolípidos.
+      - Enfermedad tromboembólica venosa y FA, cuando no se usan ACOD.
+    d:
+      - Inicio 2,5–5 mg VO al día, ajustando según el INR (meta 2–3).
+    c: Sangrado activo, embarazo, mala adherencia a los controles.
+    e: Sangrado y necrosis cutánea al inicio.
+    i: Las mismas del acenocumarol (amiodarona, metronidazol, cotrimoxazol, azoles, rifampicina, vitamina K de la dieta).
+    em: Contraindicada en el embarazo; compatible con la lactancia.
+  - n: Apixabán
+    g: Anticoagulante oral directo · inhibidor del factor Xa
+    q: Inhibidor directo del factor Xa; no requiere controles de INR y tiene menos sangrado mayor que la warfarina.
+    u:
+      - FA no valvular (prevención del ACV).
+      - TVP y TEP (tratamiento y prevención secundaria).
+    d:
+      - FA 5 mg VO cada 12 h (2,5 mg cada 12 h si cumple 2 de estos 3 criterios edad ≥ 80 años, peso ≤ 60 kg o creatinina ≥ 1,5 mg/dL).
+      - TEV 10 mg cada 12 h por 7 días; luego 5 mg cada 12 h (2,5 mg cada 12 h en la prevención extendida).
+    a: Evitar con depuración < 15 mL/min.
+    c: Prótesis valvular mecánica, estenosis mitral moderada a grave, sangrado activo, embarazo, síndrome antifosfolípidos triple positivo.
+    e: Sangrado.
+    i: Evitar con inductores potentes (rifampicina, carbamazepina, fenitoína) e inhibidores potentes del CYP3A4 y la glicoproteína P.
+    em: Contraindicado en el embarazo y la lactancia.
+  - n: Rivaroxabán
+    g: Anticoagulante oral directo · inhibidor del factor Xa
+    q: Inhibidor directo del factor Xa de una toma diaria.
+    u:
+      - FA no valvular.
+      - TVP y TEP.
+      - En dosis baja (2,5 mg cada 12 h) con aspirina, enfermedad coronaria o arterial periférica estable.
+    d:
+      - FA 20 mg VO al día con comida (15 mg si la depuración es 15–49 mL/min).
+      - TEV 15 mg cada 12 h por 21 días; luego 20 mg al día.
+    a: Evitar con depuración < 15 mL/min.
+    c: Prótesis mecánica, estenosis mitral moderada a grave, sangrado activo, embarazo, síndrome antifosfolípidos triple positivo.
+    e: Sangrado.
+    i: Evitar con inductores e inhibidores potentes del CYP3A4 y la glicoproteína P.
+    em: Contraindicado en el embarazo y la lactancia.
+    p: Tomarlo con comida; en ayunas se absorbe mal.
+  - n: Dabigatrán
+    g: Anticoagulante oral directo · inhibidor directo de la trombina
+    q: Inhibidor directo de la trombina con eliminación principalmente renal. Tiene antídoto específico (idarucizumab).
+    u:
+      - FA no valvular.
+      - TVP y TEP, después de 5 días de anticoagulación parenteral.
+    d:
+      - 150 mg VO cada 12 h (110 mg cada 12 h si tiene ≥ 80 años, usa verapamilo o tiene alto riesgo de sangrado).
+    a: Contraindicado con depuración < 30 mL/min.
+    c: Depuración < 30 mL/min, prótesis mecánica, sangrado activo, embarazo.
+    e: Sangrado y dispepsia.
+    i: Evitar con inhibidores potentes de la glicoproteína P (ketoconazol, dronedarona) y con rifampicina.
+    em: Contraindicado en el embarazo y la lactancia.
+  - n: Edoxabán
+    g: Anticoagulante oral directo · inhibidor del factor Xa
+    q: Inhibidor directo del factor Xa de una toma diaria.
+    u:
+      - FA no valvular.
+      - TVP y TEP, después de 5 días de anticoagulación parenteral.
+    d:
+      - 60 mg VO al día (30 mg si la depuración es 15–50 mL/min, pesa ≤ 60 kg o usa inhibidores de la glicoproteína P).
+    a: En la FA con depuración > 95 mL/min es menos eficaz.
+    c: Prótesis mecánica, estenosis mitral moderada a grave, sangrado activo, embarazo.
+    e: Sangrado.
+    em: Contraindicado en el embarazo y la lactancia.
+  - n: Enoxaparina
+    g: Anticoagulante parenteral · heparina de bajo peso molecular
+    q: Heparina fraccionada que inhibe sobre todo el factor Xa; dosis por peso sin controles de rutina.
+    u:
+      - Profilaxis de la enfermedad tromboembólica en pacientes hospitalizados y quirúrgicos.
+      - Tratamiento de la TVP y el TEP; anticoagulación en el cáncer y el embarazo.
+      - SCA y coadyuvante de la fibrinólisis.
+    d:
+      - Profilaxis 40 mg SC al día.
+      - Tratamiento 1 mg/kg SC cada 12 h (o 1,5 mg/kg al día).
+      - Con fibrinólisis en el IAM 30 mg EV y luego 1 mg/kg SC cada 12 h (≥ 75 años sin bolo, 0,75 mg/kg cada 12 h).
+    a: Con depuración < 30 mL/min, profilaxis 20–30 mg al día y tratamiento 1 mg/kg al día. Considerar niveles anti-Xa en obesidad extrema, embarazo y ERC.
+    c: Sangrado activo, trombocitopenia inducida por heparina previa.
+    e: Sangrado, hematomas en el sitio de punción, trombocitopenia inducida por heparina (menos que con la no fraccionada), hiperkalemia.
+    i: Más sangrado con antiagregantes y AINE. Suspender 24 h antes de una anestesia neuroaxial (dosis terapéutica).
+    em: Es el anticoagulante de elección en el embarazo; compatible con la lactancia.
+    p: La protamina solo la revierte en parte.
+  - n: Heparina no fraccionada
+    g: Anticoagulante parenteral
+    q: Potencia la antitrombina contra la trombina y el factor Xa. Vida media corta, totalmente reversible con protamina y útil en la ERC.
+    u:
+      - TEP de alto riesgo (antes y después de la trombólisis) y anticoagulación en la ERC avanzada.
+      - Angioplastía coronaria y SCA.
+      - Profilaxis de la enfermedad tromboembólica en la ERC.
+    d:
+      - TEV 80 UI/kg EV en bolo y luego 18 UI/kg/h, ajustando a TTPA 1,5–2,5 veces el control.
+      - SCA 60–70 UI/kg en bolo (máximo 4.000–5.000 UI) y 12 UI/kg/h.
+      - Profilaxis 5.000 UI SC cada 8–12 h.
+    c: Sangrado activo, trombocitopenia inducida por heparina.
+    e: Sangrado, trombocitopenia inducida por heparina (días 5–10), osteoporosis con uso prolongado, hiperkalemia.
+    em: Compatible con el embarazo y la lactancia.
+    p: Si las plaquetas bajan > 50 % entre los días 5 y 10, calcular el puntaje 4T y sospechar una trombocitopenia inducida por heparina.
+  - n: Fondaparinux
+    g: Anticoagulante parenteral · inhibidor indirecto del factor Xa
+    q: Pentasacárido sintético que inhibe el factor Xa a través de la antitrombina; no causa trombocitopenia inducida por heparina.
+    u:
+      - SCA sin supradesnivel si no se hará coronariografía precoz.
+      - Profilaxis y tratamiento de la enfermedad tromboembólica (alternativa).
+      - Trombocitopenia inducida por heparina estable (uso fuera de ficha).
+    d:
+      - SCA y profilaxis 2,5 mg SC al día.
+      - TEV 5 mg (< 50 kg), 7,5 mg (50–100 kg) o 10 mg (> 100 kg) SC al día.
+    a: Contraindicado con depuración < 30 mL/min.
+    c: Depuración < 30 mL/min, sangrado activo, endocarditis bacteriana.
+    e: Sangrado. No tiene antídoto.
+    i: En la angioplastía se necesita heparina adicional (riesgo de trombosis del catéter).
+    em: Alternativa en embarazadas con alergia o trombocitopenia por heparina.
+  - n: Alteplasa
+    g: Trombolítico · activador tisular del plasminógeno recombinante
+    q: Convierte el plasminógeno unido a la fibrina en plasmina y disuelve el trombo.
+    u:
+      - ACV isquémico agudo (< 4,5 h).
+      - TEP con hipotensión persistente o shock.
+      - IAM con supradesnivel del ST si no hay angioplastía a tiempo.
+    d:
+      - ACV 0,9 mg/kg (máximo 90 mg), 10 % en bolo en 1 min y el resto en 60 min.
+      - TEP 100 mg EV en 2 h (en el paro 0,6 mg/kg en 15 min).
+      - IAM 15 mg en bolo + 0,75 mg/kg en 30 min (máximo 50 mg) + 0,5 mg/kg en 60 min (máximo 35 mg).
+    c: Hemorragia intracraneana previa, ACV isquémico reciente, cirugía o trauma mayor reciente, sangrado activo, disección aórtica, PA no controlable (en el ACV > 185/110).
+    e: Hemorragia (incluida la intracraneana) y angioedema orolingual (más con IECA).
+    i: Evitar antiagregantes y anticoagulantes las primeras 24 h tras el ACV trombolizado.
+    em: El embarazo es una contraindicación relativa; evaluar caso a caso.
+  - n: Tenecteplase
+    g: Trombolítico · activador del plasminógeno modificado
+    q: Variante de la alteplasa más específica para la fibrina y de vida media más larga; se da en un solo bolo.
+    u:
+      - IAM con supradesnivel del ST si la angioplastía no es posible a tiempo.
+      - ACV isquémico agudo (alternativa a la alteplasa, sobre todo si se traslada a trombectomía).
+    d:
+      - IAM bolo único según el peso 30 mg (< 60 kg), 35 mg (60–69), 40 mg (70–79), 45 mg (80–89) o 50 mg (≥ 90 kg); la mitad en ≥ 75 años.
+      - ACV 0,25 mg/kg EV en bolo (máximo 25 mg).
+    c: Las mismas de la alteplasa.
+    e: Hemorragia.
+    em: Evaluar caso a caso.
+  - n: Estreptoquinasa
+    g: Trombolítico de primera generación
+    q: Proteína bacteriana que activa el plasminógeno; no es específica de la fibrina y es antigénica.
+    u:
+      - IAM con supradesnivel del ST cuando no hay otros trombolíticos.
+    d:
+      - 1,5 millones de UI EV en 30–60 min.
+    c: Las de los trombolíticos. Uso previo de estreptoquinasa (anticuerpos).
+    e: Hipotensión, reacciones alérgicas, fiebre y hemorragia.
+    em: Evaluar caso a caso.
+    p: "No repetirla en el mismo paciente: genera anticuerpos neutralizantes."
+  - n: Ácido tranexámico
+    g: Antifibrinolítico
+    q: Bloquea la unión del plasminógeno a la fibrina e impide la fibrinólisis.
+    u:
+      - Trauma con hemorragia (dentro de las 3 h).
+      - Hemorragia posparto (dentro de las 3 h).
+      - Menorragia, epistaxis (tópico) y cirugía con alto sangrado.
+    d:
+      - Trauma 1 g EV en 10 min y luego 1 g en 8 h.
+      - Hemorragia posparto 1 g EV en 10 min; repetir 1 g a los 30 min si persiste.
+      - Menorragia 1 g VO cada 8 h durante la menstruación (hasta 5 días).
+    a: Reducir la dosis en la ERC.
+    c: Trombosis activa. Uso después de 3 h en el trauma (sin beneficio y posible daño).
+    e: Náuseas, trombosis y convulsiones con dosis altas.
+    em: Se usa en la hemorragia posparto.
+    p: No se indica en la hemorragia digestiva (estudio HALT-IT, sin beneficio y con más trombosis).
+  - n: Vitamina K
+    g: Vitamina liposoluble · antídoto de los antagonistas de la vitamina K
+    q: Fitomenadiona; cofactor de la síntesis de los factores II, VII, IX y X. Revierte el efecto de acenocumarol y warfarina en 6–24 h.
+    u:
+      - INR elevado o sangrado en usuarios de acenocumarol o warfarina.
+      - Profilaxis de la enfermedad hemorrágica del recién nacido.
+      - Coagulopatía por déficit de vitamina K (malabsorción, colestasia).
+    d:
+      - INR > 10 sin sangrado 2,5–5 mg VO.
+      - Sangrado grave 10 mg EV lento (en 20–30 min), junto con complejo protrombínico.
+      - Recién nacido 1 mg IM al nacer.
+    e: Reacciones anafilactoides con la vía EV rápida.
+    em: Compatible.
+  - n: Protamina
+    g: Antídoto de la heparina
+    q: Proteína básica que se une a la heparina y la neutraliza.
+    u:
+      - Sangrado o sobredosis con heparina no fraccionada.
+      - Reversión parcial de la enoxaparina.
+    d:
+      - 1 mg por cada 100 UI de heparina recibida en las últimas 2–3 h (máximo 50 mg), EV lento en 10 min.
+      - Enoxaparina 1 mg por cada mg recibido en las últimas 8 h.
+    c: Alergia a protamina.
+    e: Hipotensión, bradicardia, anafilaxia (más en alérgicos al pescado o usuarios de insulina NPH) e hipertensión pulmonar.
+    em: Usar si se necesita.
+  - n: Complejo protrombínico
+    g: Hemoderivado · concentrado de factores de coagulación
+    q: Concentrado de factores II, VII, IX y X (4 factores). Revierte la anticoagulación en minutos con poco volumen.
+    u:
+      - Sangrado grave o cirugía urgente en usuarios de acenocumarol o warfarina (con vitamina K).
+      - Sangrado grave con inhibidores del factor Xa si no hay antídoto específico.
+    d:
+      - Antagonistas de la vitamina K 25–50 UI/kg según el INR, junto a vitamina K 10 mg EV.
+      - Inhibidores del factor Xa 50 UI/kg.
+    c: Trombocitopenia inducida por heparina (algunos preparados contienen heparina). CID activa.
+    e: Trombosis.
+    em: Usar si se necesita.
+  - n: Plasma fresco congelado
+    g: Hemoderivado
+    q: Plasma con todos los factores de la coagulación.
+    u:
+      - Sangrado con coagulopatía y transfusión masiva (proporción cercana a 1:1:1 con glóbulos rojos y plaquetas).
+      - Recambio plasmático en la púrpura trombocitopénica trombótica.
+      - Reversión de antagonistas de la vitamina K solo si no hay complejo protrombínico.
+    d:
+      - 10–15 mL/kg EV.
+    c: No usarlo para corregir un INR alto sin sangrado ni para expandir volumen.
+    e: Sobrecarga circulatoria (TACO), lesión pulmonar aguda (TRALI), reacciones alérgicas.
+    em: Compatible.
+  - n: Crioprecipitado
+    g: Hemoderivado
+    q: Fracción del plasma rica en fibrinógeno, factor VIII, factor de von Willebrand y factor XIII.
+    u:
+      - Fibrinógeno < 1,5 g/L con sangrado (CID, hemorragia posparto, trauma).
+      - Sangrado tras una trombólisis.
+    d:
+      - 1 unidad por cada 10 kg de peso (unas 10 unidades en el adulto).
+    e: Reacciones alérgicas, sobrecarga y TRALI.
+    em: Compatible.
+  - n: Plaquetas
+    g: Hemoderivado
+    q: Concentrado de plaquetas por aféresis o de donantes múltiples.
+    u:
+      - Profilaxis con plaquetas < 10.000/µL en hipoproliferación (quimioterapia, aplasia).
+      - Sangrado activo con plaquetas < 50.000/µL.
+      - Procedimientos invasivos (< 50.000/µL; < 100.000/µL en neurocirugía o sangrado del SNC).
+    d:
+      - 1 unidad de aféresis o 1 unidad por cada 10 kg; sube unas 30.000–50.000/µL.
+    c: Púrpura trombocitopénica trombótica y trombocitopenia inducida por heparina (salvo sangrado grave). En el PTI solo si hay sangrado grave.
+    e: Fiebre, reacciones alérgicas, sepsis por contaminación, TRALI.
+    em: Compatible.
+  - n: Albúmina
+    g: Hemoderivado · coloide
+    q: Proteína plasmática que aumenta la presión oncótica.
+    u:
+      - Paracentesis evacuadora de más de 5 L.
+      - Peritonitis bacteriana espontánea (prevención de la falla renal).
+      - Síndrome hepatorrenal (con terlipresina).
+    d:
+      - Paracentesis 6–8 g por cada litro extraído.
+      - Peritonitis bacteriana espontánea 1,5 g/kg el día 1 y 1 g/kg el día 3.
+      - Síndrome hepatorrenal 1 g/kg (máximo 100 g) el día 1 y luego 20–40 g al día.
+    c: IC descompensada y anemia grave.
+    e: Sobrecarga de volumen y edema pulmonar.
+    em: Compatible.
+    p: No se usa en la reanimación inicial de la sepsis (Surviving Sepsis 2026).
+  - n: Desmopresina
+    g: Análogo de la hormona antidiurética (agonista V2)
+    q: Análogo de vasopresina con efecto antidiurético y liberador de factor VIII y von Willebrand, sin efecto vasopresor.
+    u:
+      - Diabetes insípida central.
+      - Hemofilia A leve y enfermedad de von Willebrand tipo 1; sangrado urémico.
+      - Enuresis nocturna.
+      - Rescate de la corrección demasiado rápida de una hiponatremia.
+    d:
+      - Diabetes insípida 0,1–0,2 mg VO cada 8–12 h, 10–20 µg intranasal cada 12 h o 1–2 µg SC o EV cada 12 h.
+      - Sangrado 0,3 µg/kg EV en 30 min.
+      - Enuresis 0,2–0,4 mg VO en la noche.
+    c: Hiponatremia, polidipsia primaria, IC.
+    e: Hiponatremia (restringir el agua), cefalea y taquifilaxia con dosis repetidas en el sangrado.
+    em: Compatible.
+  - n: Eritropoyetina
+    g: Agente estimulante de la eritropoyesis
+    q: Eritropoyetina recombinante que estimula la producción de glóbulos rojos.
+    u:
+      - Anemia de la ERC con Hb < 10 g/dL, una vez corregido el déficit de hierro.
+      - Algunos síndromes mielodisplásicos de bajo riesgo.
+    d:
+      - 50–100 UI/kg SC o EV 3 veces por semana; ajustar a Hb 10–11,5 g/dL.
+    c: Hipertensión no controlada, aplasia pura de serie roja por anticuerpos.
+    e: Hipertensión, trombosis y ACV si la Hb se lleva a > 13 g/dL.
+    em: Usar si se necesita.
+    p: Antes de iniciarla, asegurar ferritina > 100 ng/mL y saturación de transferrina > 20 %.
+  - n: Fierro
+    g: Mineral · suplemento de hierro
+    q: Hierro para reponer los depósitos. Por vía oral (sales ferrosas) o EV (sacarosa, carboximaltosa).
+    u:
+      - Anemia ferropénica y déficit de hierro sin anemia.
+      - Prevención en el embarazo y en lactantes.
+      - Déficit de hierro en la IC y la ERC (EV).
+    d:
+      - VO 60–65 mg de hierro elemental una vez al día o en días alternos (se absorbe mejor), por 3 meses después de normalizar la Hb.
+      - EV hierro sacarosa 200 mg por dosis o carboximaltosa 750–1.000 mg en 1–2 dosis.
+    c: Hemocromatosis, anemia no ferropénica.
+    e: VO náuseas, constipación y deposiciones negras. EV reacciones de hipersensibilidad e hipofosfatemia (carboximaltosa).
+    i: El calcio, los antiácidos, los IBP, el té y el café reducen su absorción; la vitamina C la aumenta. Reduce la absorción de levotiroxina y quinolonas.
+    em: Recomendado en el embarazo con déficit de hierro.
+    p: La Hb debería subir ~ 1–2 g/dL en 3–4 semanas; si no, revisar la adherencia, la pérdida y la malabsorción (celiaquía, H. pylori).
+  - n: Ácido fólico
+    g: Vitamina del complejo B (B9)
+    q: Cofactor de la síntesis de ADN; su déficit produce anemia megaloblástica y defectos del tubo neural.
+    u:
+      - Prevención de defectos del tubo neural desde antes de la concepción.
+      - Anemia megaloblástica por déficit de folato y anemias hemolíticas crónicas.
+      - Reducir la toxicidad del metotrexato.
+    d:
+      - Prevención 0,4 mg al día desde 1–3 meses antes de la concepción hasta las 12 semanas (4–5 mg con antecedente de defecto del tubo neural o uso de antiepilépticos).
+      - Déficit 1–5 mg VO al día por 4 meses.
+      - Con metotrexato 5 mg VO una vez por semana, otro día que el metotrexato.
+    e: Prácticamente sin efectos adversos.
+    em: Recomendado en el embarazo.
+    p: No tratar una anemia megaloblástica solo con folato sin descartar el déficit de B12 (puede empeorar el daño neurológico).
+  - n: Vitamina B12
+    g: Vitamina del complejo B (cianocobalamina)
+    q: Cofactor de la síntesis de ADN y de la mielina. Su déficit causa anemia megaloblástica y daño neurológico.
+    u:
+      - Anemia perniciosa y déficit por gastrectomía, cirugía bariátrica, metformina o dieta vegana.
+    d:
+      - 1.000 µg IM al día o en días alternos por 1–2 semanas, luego semanal por 1 mes y después mensual (de por vida en la anemia perniciosa).
+      - Alternativa 1.000–2.000 µg VO al día (eficaz incluso en la anemia perniciosa).
+    e: Hipokalemia al inicio del tratamiento de una anemia grave (por la eritropoyesis intensa).
+    em: Compatible.
+  - n: Hidroxocobalamina
+    g: Antídoto · forma de vitamina B12
+    q: Precursor de la vitamina B12 que se une al cianuro y forma cianocobalamina, que se elimina por la orina.
+    u:
+      - Intoxicación por cianuro (incendios en espacios cerrados, nitroprusiato).
+      - Déficit de vitamina B12.
+    d:
+      - Cianuro 5 g EV en 15 min; repetir 5 g según la respuesta.
+      - Déficit de B12 1 mg IM con la misma pauta de la cianocobalamina.
+    e: Coloración roja de la piel y la orina, hipertensión transitoria e interferencia con exámenes colorimétricos.
+    em: Usar si se necesita.
+    p: Sospechar cianuro en el rescatado de un incendio con acidosis láctica grave (> 8 mmol/L) y compromiso de conciencia.
+  - n: Hidroxiurea
+    g: Citorreductor · inhibidor de la ribonucleótido reductasa
+    q: Antimetabolito oral que reduce la producción medular de glóbulos rojos, blancos y plaquetas.
+    u:
+      - Policitemia vera y trombocitemia esencial de alto riesgo.
+      - Citorreducción en la leucemia mieloide crónica y en la leucocitosis extrema.
+      - Anemia de células falciformes.
+    d:
+      - 15–20 mg/kg/día VO (habitualmente 500–1.500 mg al día), ajustando según el hemograma.
+    a: Reducir la dosis en la ERC.
+    c: Mielosupresión grave. Embarazo.
+    e: Mielosupresión, macrocitosis, úlceras en las piernas, lesiones cutáneas y teratogenicidad.
+    em: Contraindicada en el embarazo; usar anticoncepción eficaz.

@@ -1,0 +1,464 @@
+orden: 3
+titulo: Cardiovasculares y diuréticos
+farmacos:
+  - n: Adenosina
+    g: Antiarrítmico · nucleósido de acción ultracorta
+    q: Bloquea en forma transitoria el nodo AV (vida media de segundos). Corta las taquicardias por reentrada que lo usan y desenmascara un flutter o una taquicardia auricular.
+    u:
+      - Taquicardia supraventricular paroxística estable que no cede con maniobras vagales.
+      - Diagnóstico de taquicardias regulares de QRS ancho monomorfas (si se sospecha aberrancia).
+    d:
+      - 6 mg EV en bolo rápido por una vena proximal, seguido de 20 mL de suero; si no responde, 12 mg (se puede repetir).
+    c: Asma o broncoespasmo activo. Bloqueo AV de 2.° o 3.er grado o enfermedad del nodo sinusal sin marcapaso. FA preexcitada.
+    e: Sensación de muerte inminente, rubor, dolor torácico, disnea, asistolia breve y broncoespasmo.
+    i: El dipiridamol potencia su efecto (reducir la dosis); la teofilina y la cafeína lo antagonizan.
+    em: Compatible con el embarazo.
+    p: Avisar al paciente de la sensación desagradable y tener el monitor registrando para documentar el ritmo.
+  - n: Amiodarona
+    g: Antiarrítmico clase III
+    q: Antiarrítmico de amplio espectro (bloquea canales de potasio, sodio y calcio, y receptores beta). Útil en cardiopatía estructural, pero con mucha toxicidad crónica.
+    u:
+      - Paro por FV o TV sin pulso refractaria.
+      - TV estable y taquicardias de QRS ancho.
+      - Control del ritmo o de la frecuencia en la FA con IC o cardiopatía estructural.
+    d:
+      - Paro 300 mg EV en bolo; segunda dosis 150 mg.
+      - TV estable 150 mg EV en 10 min; luego 1 mg/min por 6 h y 0,5 mg/min por 18 h.
+      - Carga oral (FA) 200 mg cada 8 h por 1 semana, cada 12 h por 1 semana y luego 100–200 mg al día.
+    c: Bradicardia sinusal o bloqueo AV avanzado sin marcapaso. Disfunción tiroidea no controlada. Alergia al yodo.
+    e: Hipotiroidismo o hipertiroidismo, toxicidad pulmonar (neumonitis, fibrosis), hepatotoxicidad, depósitos corneales, fotosensibilidad y coloración gris azulada de la piel, bradicardia, QT largo y neuropatía. Por vía periférica, flebitis.
+    i: Aumenta el INR con warfarina (reducir su dosis 30–50 %) y los niveles de digoxina (reducirla a la mitad). Limitar la simvastatina a 20 mg. Más bradicardia con betabloqueadores y bloqueadores del calcio.
+    em: Evitar en el embarazo (hipotiroidismo fetal) salvo arritmias graves.
+    p: Al iniciarla de forma crónica, pedir TSH, pruebas hepáticas y radiografía de tórax, y repetir TSH y pruebas hepáticas cada 6 meses.
+  - n: Amlodipino
+    g: Antihipertensivo · bloqueador de canales de calcio dihidropiridínico
+    q: Vasodilatador arterial de vida media larga, sin efecto sobre la frecuencia cardíaca.
+    u:
+      - Hipertensión arterial (primera línea, sola o en combinación).
+      - Angina crónica estable.
+    d:
+      - 5–10 mg VO al día.
+    a: Iniciar con 2,5 mg en adultos mayores y en la insuficiencia hepática.
+    c: Shock cardiogénico y estenosis aórtica grave.
+    e: Edema maleolar (dosis dependiente, no responde a diuréticos), cefalea, rubor e hiperplasia gingival.
+    i: Aumenta los niveles de simvastatina (máximo 20 mg).
+    em: Se usa en el embarazo cuando se necesita (más experiencia con nifedipino).
+    p: El edema por amlodipino mejora al asociar un IECA o un ARA-II.
+  - n: Atropina
+    g: Anticolinérgico (antimuscarínico)
+    q: Bloquea los receptores muscarínicos y anula el efecto vagal sobre el nodo sinusal y el AV.
+    u:
+      - Bradicardia sintomática.
+      - Intoxicación por organofosforados y carbamatos.
+      - Premedicación para reducir secreciones y la bradicardia en la intubación pediátrica.
+    d:
+      - Bradicardia 1 mg EV cada 3–5 min, hasta 3 mg.
+      - Organofosforados 1–2 mg EV, duplicando la dosis cada 5 min hasta secar las secreciones bronquiales.
+    c: Glaucoma de ángulo cerrado, uropatía obstructiva y taquiarritmias (relativas; no aplican en la urgencia vital).
+    e: Taquicardia, sequedad de boca, retención urinaria, midriasis, rubor, fiebre y delirio.
+    i: Suele ser ineficaz en el bloqueo AV infranodal y en el corazón trasplantado.
+    em: Compatible en la urgencia.
+  - n: Bisoprolol
+    g: Betabloqueador cardioselectivo (beta-1)
+    q: Betabloqueador selectivo de los receptores beta-1, de una toma diaria. Reduce la mortalidad en la IC con FE reducida.
+    u:
+      - IC con FE reducida (uno de los cuatro pilares).
+      - Control de la frecuencia en la FA, angina crónica e hipertensión con indicación de betabloqueador.
+    d:
+      - IC 1,25 mg VO al día y duplicar cada 2 semanas hasta 10 mg al día.
+      - HTA o angina 5–10 mg VO al día.
+    c: Bradicardia sintomática, bloqueo AV de 2.° o 3.er grado, IC descompensada con hipoperfusión, shock.
+    e: Bradicardia, fatiga, hipotensión, frialdad distal y enmascaramiento de la hipoglicemia.
+    i: Más bradicardia con verapamilo, diltiazem, digoxina y amiodarona.
+    em: Se puede usar; vigilar el crecimiento fetal y la bradicardia neonatal.
+    p: El asma no es una contraindicación absoluta para un betabloqueador cardioselectivo; sí lo es el broncoespasmo activo.
+  - n: Captopril
+    g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
+    q: IECA de acción corta (2–3 tomas al día).
+    u:
+      - Hipertensión y urgencia hipertensiva (dosis oral).
+      - IC con FE reducida y nefropatía proteinúrica (se prefieren IECA de una o dos tomas).
+    d:
+      - 25–50 mg VO cada 8–12 h.
+    a: Reducir la dosis en la ERC.
+    c: Embarazo. Antecedente de angioedema. Estenosis bilateral de las arterias renales. Uso de sacubitril-valsartán en las últimas 36 h.
+    e: Tos seca, hiperkalemia, alza de la creatinina, hipotensión, angioedema y disgeusia.
+    i: Más hiperkalemia con espironolactona, suplementos de potasio, trimetoprim y AINE. Los AINE reducen su efecto y aumentan el riesgo renal.
+    em: Contraindicado en el embarazo (fetotóxico).
+  - n: Carvedilol
+    g: Betabloqueador no selectivo con bloqueo alfa-1
+    q: Betabloqueador con efecto vasodilatador. Reduce la mortalidad en la IC con FE reducida y la presión portal.
+    u:
+      - IC con FE reducida.
+      - Profilaxis de la hemorragia variceal y prevención de la descompensación en la cirrosis con hipertensión portal clínicamente significativa.
+      - Hipertensión.
+    d:
+      - IC 3,125 mg VO cada 12 h, duplicando cada 2 semanas hasta 25 mg cada 12 h (50 mg cada 12 h si pesa > 85 kg).
+      - Cirrosis 6,25 mg al día hasta 12,5 mg al día.
+    c: Asma con broncoespasmo, bradicardia, bloqueo AV avanzado, IC descompensada, insuficiencia hepática grave.
+    e: Hipotensión postural, mareo, bradicardia, fatiga.
+    i: Más bradicardia con verapamilo, diltiazem, digoxina y amiodarona.
+    em: Se puede usar con vigilancia del crecimiento fetal.
+  - n: Cilostazol
+    g: Antiagregante y vasodilatador · inhibidor de la fosfodiesterasa 3
+    q: Inhibe la fosfodiesterasa 3 de plaquetas y vasos; mejora la distancia de marcha.
+    u:
+      - Claudicación intermitente en la enfermedad arterial periférica.
+    d:
+      - 100 mg VO cada 12 h, 30 min antes o 2 h después de comer.
+    c: Insuficiencia cardíaca de cualquier grado. Sangrado activo.
+    e: Cefalea, diarrea, palpitaciones y taquicardia.
+    i: Reducir a 50 mg cada 12 h con inhibidores del CYP3A4 o 2C19 (claritromicina, omeprazol en dosis altas).
+    em: Evitar en el embarazo.
+  - n: Digoxina
+    g: Glucósido cardíaco · inotrópico y frenador del nodo AV
+    q: Inhibe la Na/K-ATPasa; aumenta la contractilidad y enlentece la conducción AV. Tiene un margen terapéutico estrecho.
+    u:
+      - Control de la frecuencia en la FA, sobre todo con IC.
+      - IC con FE reducida que sigue sintomática pese al tratamiento óptimo.
+    d:
+      - 0,125–0,25 mg VO al día (0,0625–0,125 mg en adultos mayores o con ERC).
+      - Nivel plasmático objetivo 0,5–0,9 ng/mL.
+    a: Reducir la dosis en la ERC y en adultos mayores.
+    c: Bloqueo AV avanzado sin marcapaso, FA preexcitada (WPW), miocardiopatía hipertrófica obstructiva.
+    e: Intoxicación con náuseas, vómitos, visión amarilla, confusión y arritmias (extrasístoles, taquicardia auricular con bloqueo, TV bidireccional); hiperkalemia en la intoxicación aguda.
+    i: Aumentan sus niveles la amiodarona, el verapamilo, la claritromicina y la ciclosporina. La hipokalemia y la hipomagnesemia aumentan la toxicidad.
+    em: Compatible con el embarazo y la lactancia.
+    p: Intoxicación grave = fragmentos Fab antidigoxina. No dar calcio para la hiperkalemia sin consultar.
+  - n: Diltiazem
+    g: Bloqueador de canales de calcio no dihidropiridínico
+    q: Frena el nodo AV y reduce la frecuencia cardíaca; tiene efecto inotrópico negativo.
+    u:
+      - Control de la frecuencia en la FA o el flutter sin IC con FE reducida.
+      - Angina crónica e hipertensión.
+    d:
+      - EV 0,25 mg/kg (15–20 mg) en 2 min; si no responde, 0,35 mg/kg a los 15 min; infusión de 5–15 mg/h.
+      - VO 60 mg cada 8 h o 120–360 mg al día de liberación prolongada.
+    c: IC con FE reducida, hipotensión, bloqueo AV avanzado, FA preexcitada.
+    e: Bradicardia, hipotensión, edema y constipación.
+    i: Inhibe el CYP3A4 (aumenta estatinas, ciclosporina, ACOD). Más bradicardia con betabloqueadores y digoxina.
+    em: Usar si el beneficio lo justifica.
+  - n: Doxazosina
+    g: Bloqueador alfa-1 adrenérgico
+    q: Relaja el músculo liso vascular y prostático.
+    u:
+      - Hiperplasia prostática benigna sintomática.
+      - Hipertensión resistente (como cuarto o quinto fármaco).
+    d:
+      - 1 mg VO en la noche; subir cada 1–2 semanas hasta 4–8 mg al día.
+    e: Hipotensión ortostática y síncope con la primera dosis, mareo, congestión nasal.
+    i: Más hipotensión con inhibidores de la PDE-5 y otros antihipertensivos.
+    em: Usar solo si se necesita.
+    p: Iniciar en la noche para evitar el síncope de la primera dosis; aumenta el riesgo de caídas en adultos mayores.
+  - n: Enalapril
+    g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
+    q: IECA de dos tomas al día; reduce la mortalidad en la IC con FE reducida y la progresión de la ERC proteinúrica.
+    u:
+      - Hipertensión arterial.
+      - IC con FE reducida e IAM con disfunción ventricular.
+      - ERC con albuminuria y nefropatía diabética.
+    d:
+      - HTA 5–20 mg VO cada 12 h (máximo 40 mg al día).
+      - IC 2,5 mg VO cada 12 h, subir hasta 10–20 mg cada 12 h.
+    a: Iniciar con dosis bajas en la ERC y en adultos mayores.
+    c: Embarazo. Antecedente de angioedema. Estenosis bilateral de las arterias renales. Hiperkalemia > 5,5 mEq/L.
+    e: Tos seca (hasta 10 %), hiperkalemia, alza de la creatinina, hipotensión y angioedema.
+    i: Más hiperkalemia con espironolactona, potasio, trimetoprim y AINE. No combinar con ARA-II ni con sacubitril-valsartán.
+    em: Contraindicado en el embarazo (fetotóxico en el 2.° y 3.er trimestre); compatible con la lactancia.
+    p: Controlar la creatinina y el potasio 1–2 semanas después de iniciarlo; un alza de la creatinina de hasta 30 % es aceptable.
+  - n: Esmolol
+    g: Betabloqueador cardioselectivo de acción ultracorta
+    q: Betabloqueador endovenoso con vida media de unos 9 minutos; se titula y se suspende con rapidez.
+    u:
+      - Disección aórtica (bajar la FC antes del vasodilatador).
+      - Taquicardias supraventriculares y control de la frecuencia perioperatorio.
+    d:
+      - Bolo de 0,5–1 mg/kg EV y luego 50–300 µg/kg/min.
+    c: Bradicardia, bloqueo AV avanzado, shock cardiogénico, IC descompensada.
+    e: Hipotensión, bradicardia y flebitis.
+    em: Usar si el beneficio lo justifica.
+  - n: Espironolactona
+    g: Diurético ahorrador de potasio · antagonista del receptor de mineralocorticoides
+    q: Bloquea el receptor de aldosterona. Reduce la mortalidad en la IC con FE reducida y es el diurético base de la ascitis cirrótica.
+    u:
+      - IC con FE reducida (uno de los cuatro pilares).
+      - Ascitis por cirrosis (con furosemida).
+      - Hiperaldosteronismo primario e hipertensión resistente.
+      - Hirsutismo (uso fuera de ficha).
+    d:
+      - IC 25–50 mg VO al día.
+      - Ascitis 100 mg VO al día, subir hasta 400 mg (relación 100:40 con furosemida).
+      - HTA resistente 25–50 mg al día.
+    a: Evitar con TFG < 30 mL/min o K > 5 mEq/L.
+    c: Hiperkalemia, ERC avanzada, enfermedad de Addison.
+    e: Hiperkalemia, alza de la creatinina, ginecomastia y mastodinia, trastornos menstruales.
+    i: Hiperkalemia con IECA, ARA-II, suplementos de potasio, trimetoprim y AINE.
+    em: Evitar en el embarazo (efecto antiandrogénico en el feto masculino).
+    p: Controlar el potasio y la creatinina a la semana, al mes y luego cada 3–4 meses.
+  - n: Finerenona
+    g: Antagonista no esteroidal del receptor de mineralocorticoides
+    q: Bloqueador selectivo del receptor de mineralocorticoides, con menos hiperkalemia y sin efectos hormonales.
+    u:
+      - ERC con diabetes tipo 2 y albuminuria (reduce la progresión renal y los eventos cardiovasculares).
+      - IC con FE levemente reducida o preservada.
+    d:
+      - 10 mg VO al día si la TFG es 25–60 mL/min; 20 mg al día si es ≥ 60. Subir a 20 mg al mes si el K es ≤ 4,8 mEq/L.
+    a: No iniciar si el K es > 5 mEq/L o la TFG < 25 mL/min.
+    c: Uso de inhibidores potentes del CYP3A4 (claritromicina, itraconazol). Insuficiencia suprarrenal.
+    e: Hiperkalemia, hipotensión y alza leve de la creatinina.
+    i: Más hiperkalemia con IECA, ARA-II y suplementos de potasio.
+    em: Evitar en el embarazo.
+  - n: Flecainida
+    g: Antiarrítmico clase IC
+    q: Bloqueador de canales de sodio que enlentece la conducción. Eficaz para cardiovertir la FA en corazones sanos.
+    u:
+      - Cardioversión farmacológica de la FA reciente sin cardiopatía estructural (incluida la estrategia de "pastilla en el bolsillo").
+      - Control del ritmo en la FA paroxística sin cardiopatía.
+    d:
+      - Cardioversión 200–300 mg VO en dosis única.
+      - Mantención 50–150 mg VO cada 12 h.
+    c: Cardiopatía isquémica, IC, hipertrofia ventricular importante y cardiopatía estructural (aumenta la mortalidad, estudio CAST). Síndrome de Brugada.
+    e: Proarritmia, mareo, visión borrosa y flutter con conducción 1:1.
+    i: Asociarla a un betabloqueador o a un bloqueador del calcio no dihidropiridínico para evitar el flutter 1:1.
+    em: Usar solo si se necesita.
+  - n: Furosemida
+    g: Diurético de asa
+    q: Bloquea el cotransportador Na-K-2Cl del asa de Henle. Es el diurético más potente y de efecto rápido.
+    u:
+      - Congestión en la IC descompensada y el edema pulmonar agudo.
+      - Edemas por síndrome nefrótico, cirrosis (con espironolactona) y ERC.
+      - Hiperkalemia y, tras hidratar, hipercalcemia (coadyuvante).
+    d:
+      - IC aguda sin uso previo 20–40 mg EV; con uso crónico, 1 a 2,5 veces la dosis oral diaria por vía EV.
+      - Edema crónico 20–80 mg VO al día.
+    a: En la ERC se necesitan dosis más altas para lograr efecto.
+    c: Anuria, hipovolemia, hipokalemia o hiponatremia graves no corregidas.
+    e: Hipokalemia, hipomagnesemia, hiponatremia, alcalosis metabólica, deshidratación con LRA prerrenal, hiperuricemia y ototoxicidad con bolos rápidos y dosis altas.
+    i: Más ototoxicidad con aminoglicósidos. Los AINE reducen su efecto. Aumenta la toxicidad de la digoxina (por hipokalemia) y los niveles de litio.
+    em: Solo en el edema pulmonar o la IC en el embarazo.
+    p: Evaluar la respuesta a las 2 h con el sodio urinario (≥ 50–70 mEq/L) o la diuresis; si no responde, duplicar la dosis.
+  - n: Hidralazina
+    g: Vasodilatador arterial directo
+    q: Relaja el músculo liso arteriolar. Provoca taquicardia refleja y retención de sodio.
+    u:
+      - Crisis hipertensiva en la preeclampsia.
+      - IC con FE reducida, junto a nitratos, si no se toleran IECA, ARA-II ni ARNI.
+    d:
+      - Preeclampsia 5–10 mg EV en 2 min; repetir cada 20 min según la respuesta.
+      - IC 25–75 mg VO cada 8 h (con dinitrato de isosorbida).
+    c: Cardiopatía coronaria sin betabloqueador. Lupus.
+    e: Taquicardia, cefalea, rubor, hipotensión y lupus inducido por fármacos (dosis altas, acetiladores lentos).
+    em: Se usa en el embarazo.
+  - n: Hidroclorotiazida
+    g: Diurético tiazídico
+    q: Bloquea el cotransportador Na-Cl del túbulo distal. Antihipertensivo de primera línea.
+    u:
+      - Hipertensión arterial (sola o combinada).
+      - Bloqueo secuencial de la nefrona en la IC con resistencia a diuréticos de asa.
+      - Hipercalciuria y litiasis cálcica recurrente.
+    d:
+      - 12,5–25 mg VO al día.
+    a: Menos eficaz con TFG < 30 mL/min (salvo combinada con diuréticos de asa).
+    c: Hiponatremia o hipokalemia graves, gota activa, alergia a sulfas.
+    e: Hiponatremia (más en mujeres mayores), hipokalemia, hipomagnesemia, hiperuricemia y gota, hiperglicemia, hipercalcemia, fotosensibilidad (mayor riesgo de cáncer de piel no melanoma con uso prolongado).
+    i: Aumenta los niveles de litio. Más hipokalemia con corticoides.
+    em: No se inicia en el embarazo; evitar en la preeclampsia (reduce el volumen plasmático).
+    p: Ante una hiponatremia en un adulto mayor, revisar si usa tiazidas.
+  - n: Ivabradina
+    g: Inhibidor de la corriente If del nodo sinusal
+    q: Reduce la frecuencia cardíaca sin efecto inotrópico; solo sirve en ritmo sinusal.
+    u:
+      - IC con FE ≤ 35 % en ritmo sinusal con FC ≥ 70 lpm pese al betabloqueador en dosis máxima tolerada.
+      - Angina crónica estable en quienes no toleran betabloqueadores.
+    d:
+      - 5 mg VO cada 12 h; ajustar a 2,5–7,5 mg cada 12 h según la FC (meta 50–60 lpm).
+    c: FA o ritmo no sinusal, FC < 60 lpm antes de iniciar, hipotensión, IC descompensada, embarazo.
+    e: Fosfenos (destellos luminosos), bradicardia y FA.
+    i: Contraindicada con inhibidores potentes del CYP3A4 y con verapamilo o diltiazem.
+    em: Contraindicada en el embarazo.
+  - n: Labetalol
+    g: Betabloqueador no selectivo con bloqueo alfa-1
+    q: Antihipertensivo con acción alfa y beta, de uso endovenoso y oral.
+    u:
+      - Emergencias hipertensivas (ACV, encefalopatía, disección con un vasodilatador).
+      - Crisis hipertensiva de la preeclampsia y HTA crónica en el embarazo.
+    d:
+      - EV 20 mg en 2 min; repetir 20–80 mg cada 10 min o infusión de 1–2 mg/min; máximo 300 mg.
+      - Preeclampsia 20 mg → 40 mg → 80 mg EV cada 10 min (máximo 300 mg).
+      - VO 100–400 mg cada 8–12 h.
+    c: Asma, bradicardia, bloqueo AV avanzado, IC descompensada, intoxicación por cocaína.
+    e: Hipotensión, bradicardia, broncoespasmo, cansancio y hepatotoxicidad (rara).
+    em: De elección en las crisis hipertensivas del embarazo; compatible con la lactancia.
+  - n: Losartán
+    g: Antihipertensivo · antagonista del receptor de angiotensina II (ARA-II)
+    q: Bloquea el receptor AT1 de la angiotensina II. Efecto similar a los IECA, sin tos.
+    u:
+      - Hipertensión arterial.
+      - IC con FE reducida en intolerantes a IECA o ARNI.
+      - ERC con albuminuria y nefropatía diabética.
+    d:
+      - 50–100 mg VO al día (en una o dos tomas).
+    c: Embarazo. Estenosis bilateral de las arterias renales. Hiperkalemia.
+    e: Hiperkalemia, alza de la creatinina, hipotensión y mareo; angioedema raro.
+    i: No combinar con IECA. Más hiperkalemia con espironolactona, potasio y trimetoprim.
+    em: Contraindicado en el embarazo.
+    p: Tiene un leve efecto uricosúrico, útil en hipertensos con gota.
+  - n: Metoprolol
+    g: Betabloqueador cardioselectivo (beta-1)
+    q: Betabloqueador disponible en forma endovenosa, oral de liberación inmediata (tartrato) y prolongada (succinato).
+    u:
+      - Control de la frecuencia en la FA y taquicardias supraventriculares.
+      - SCA (sin IC, hipotensión ni bradicardia) y angina crónica.
+      - IC con FE reducida (succinato) e hipertensión.
+    d:
+      - EV 2,5–5 mg cada 5 min, hasta 15 mg.
+      - VO tartrato 25–100 mg cada 12 h; succinato 12,5–25 mg al día hasta 200 mg al día en la IC.
+    c: Bradicardia, bloqueo AV avanzado, shock, IC descompensada, broncoespasmo activo.
+    e: Bradicardia, hipotensión, fatiga y depresión del ánimo.
+    i: Más bradicardia con verapamilo, diltiazem, amiodarona y digoxina. La fluoxetina y la paroxetina aumentan sus niveles (CYP2D6).
+    em: Compatible; vigilar el crecimiento fetal.
+  - n: Nicardipino
+    g: Bloqueador de canales de calcio dihidropiridínico endovenoso
+    q: Vasodilatador arterial titulable en infusión, sin efecto sobre la conducción AV.
+    u:
+      - Emergencias hipertensivas, en especial el ACV, la hemorragia intracerebral y la encefalopatía hipertensiva.
+    d:
+      - 5 mg/h EV; subir 2,5 mg/h cada 5–15 min hasta 15 mg/h.
+    c: Estenosis aórtica grave.
+    e: Cefalea, taquicardia refleja, rubor y flebitis.
+    em: Se usa en el embarazo cuando se necesita.
+  - n: Nifedipino
+    g: Bloqueador de canales de calcio dihidropiridínico
+    q: Vasodilatador arterial. Se usa como antihipertensivo (liberación prolongada) y como tocolítico.
+    u:
+      - Crisis hipertensiva de la preeclampsia (vía oral).
+      - Hipertensión crónica en el embarazo.
+      - Tocolisis en la amenaza de parto prematuro.
+    d:
+      - Preeclampsia 10 mg VO, repetir 10–20 mg cada 20–30 min.
+      - HTA, liberación prolongada 30–90 mg VO al día.
+      - Tocolisis 20 mg VO y luego 10–20 mg cada 6–8 h.
+    c: Shock y estenosis aórtica grave. Nunca la vía sublingual.
+    e: Cefalea, rubor, taquicardia refleja, hipotensión y edema.
+    em: Compatible con el embarazo y la lactancia.
+    p: El nifedipino sublingual de acción corta produce caídas bruscas de la PA con riesgo de isquemia cerebral o coronaria; no usarlo.
+  - n: Nimodipino
+    g: Bloqueador de canales de calcio dihidropiridínico con acción cerebral
+    q: Bloqueador del calcio liposoluble que mejora el pronóstico neurológico en la hemorragia subaracnoidea.
+    u:
+      - Hemorragia subaracnoidea aneurismática (prevención del déficit isquémico tardío).
+    d:
+      - 60 mg VO o por sonda cada 4 h por 21 días.
+    e: Hipotensión (fraccionar a 30 mg cada 2 h si ocurre), cefalea.
+    i: Más hipotensión con otros antihipertensivos; inhibidores del CYP3A4 aumentan sus niveles.
+    em: Usar solo si se necesita.
+  - n: Nitroglicerina
+    g: Nitrato · vasodilatador venoso y coronario
+    q: Libera óxido nítrico; reduce la precarga (venodilatación) y dilata las coronarias.
+    u:
+      - Angina y SCA con dolor, HTA o congestión.
+      - Edema pulmonar agudo hipertensivo.
+    d:
+      - Sublingual 0,4 mg cada 5 min, hasta 3 dosis.
+      - EV 10–20 µg/min; subir cada 3–5 min hasta 200 µg/min.
+    c: PAS < 90 mmHg, infarto del ventrículo derecho, uso de inhibidores de la PDE-5 en las últimas 24–48 h, estenosis aórtica grave.
+    e: Cefalea, hipotensión, taquicardia refleja y tolerancia con el uso continuo.
+    i: Hipotensión grave con sildenafil, tadalafil y vardenafil.
+    em: Usar si se necesita.
+  - n: Nitroprusiato
+    g: Vasodilatador arterial y venoso directo
+    q: Donador de óxido nítrico de acción inmediata; muy potente y titulable.
+    u:
+      - Emergencias hipertensivas refractarias.
+      - Disección aórtica (después del betabloqueador).
+    d:
+      - 0,3–0,5 µg/kg/min EV; subir hasta 10 µg/kg/min, por el menor tiempo posible.
+    a: Evitar en la ERC y la insuficiencia hepática (acumulación de tiocianato y cianuro).
+    c: Hipertensión endocraneana (relativa). Coartación aórtica.
+    e: Hipotensión brusca, toxicidad por cianuro (acidosis láctica) y por tiocianato (confusión), robo coronario.
+    i: Proteger la infusión de la luz. Requiere línea arterial.
+    em: Evitar en el embarazo (toxicidad fetal por cianuro), salvo crisis refractaria.
+  - n: Propranolol
+    g: Betabloqueador no selectivo
+    q: Bloquea los receptores beta-1 y beta-2. Liposoluble.
+    u:
+      - Profilaxis de la hemorragia variceal en la cirrosis.
+      - Control de los síntomas adrenérgicos en la tirotoxicosis y la tormenta tiroidea.
+      - Temblor esencial y profilaxis de la migraña.
+    d:
+      - Profilaxis variceal 20–40 mg VO cada 12 h, ajustando a FC 55–60 lpm.
+      - Tirotoxicosis 20–40 mg VO cada 6–8 h.
+      - Temblor esencial o migraña 40–160 mg al día.
+    c: Asma, bradicardia, bloqueo AV avanzado, IC descompensada, enfermedad arterial periférica grave.
+    e: Broncoespasmo, bradicardia, hipotensión, fatiga, depresión, insomnio y enmascaramiento de la hipoglicemia.
+    i: Más bradicardia con verapamilo y diltiazem. Aumenta los niveles de lidocaína.
+    em: Se puede usar con vigilancia fetal.
+  - n: Verapamilo
+    g: Bloqueador de canales de calcio no dihidropiridínico
+    q: Frena el nodo AV y tiene efecto inotrópico negativo marcado.
+    u:
+      - Taquicardia supraventricular paroxística (alternativa a la adenosina).
+      - Control de la frecuencia en la FA sin IC con FE reducida.
+      - Profilaxis de la cefalea en racimos.
+    d:
+      - EV 2,5–5 mg en 2 min; repetir 5–10 mg a los 15–30 min.
+      - VO 80–120 mg cada 8 h o 120–480 mg al día de liberación prolongada.
+    c: IC con FE reducida, hipotensión, bloqueo AV avanzado, FA preexcitada, taquicardia de QRS ancho (puede causar colapso si es una TV).
+    e: Constipación (frecuente), bradicardia, hipotensión y edema.
+    i: Aumenta los niveles de digoxina, estatinas y ciclosporina. No combinar con betabloqueadores EV.
+    em: Usar si el beneficio lo justifica.
+  - n: Acetazolamida
+    g: Diurético inhibidor de la anhidrasa carbónica
+    q: Inhibe la anhidrasa carbónica del túbulo proximal; elimina bicarbonato y reduce la producción de humor acuoso y de LCR.
+    u:
+      - Resistencia a diuréticos en la IC (bloqueo secuencial de la nefrona).
+      - Glaucoma agudo de ángulo cerrado.
+      - Hipertensión endocraneana idiopática.
+      - Prevención del mal de altura y alcalosis metabólica.
+    d:
+      - IC 500 mg EV al día.
+      - Glaucoma agudo 500 mg EV o VO.
+      - Hipertensión endocraneana idiopática 250–1.000 mg VO cada 12 h.
+      - Mal de altura 125–250 mg VO cada 12 h.
+    c: Acidosis metabólica, hipokalemia o hiponatremia graves, insuficiencia hepática (riesgo de encefalopatía), alergia a sulfas.
+    e: Acidosis metabólica hiperclorémica, hipokalemia, parestesias, disgeusia y litiasis renal.
+    em: Evitar en el primer trimestre.
+  - n: Manitol
+    g: Diurético osmótico
+    q: Azúcar que no se reabsorbe; crea un gradiente osmótico que saca agua del cerebro y de los tejidos.
+    u:
+      - Hipertensión endocraneana con herniación inminente.
+      - Glaucoma agudo refractario.
+    d:
+      - 0,25–1 g/kg EV (solución al 20 %) en 15–20 min.
+    c: Anuria, IC o edema pulmonar, hipovolemia, hemorragia intracraneana activa (relativa).
+    e: Hipovolemia y LRA, hipernatremia, sobrecarga de volumen inicial, efecto rebote.
+    i: Controlar la osmolalidad y la brecha osmolar; suspender si la brecha es > 20 mOsm/kg.
+    em: Usar solo si se necesita.
+  - n: Atorvastatina
+    g: Hipolipemiante · estatina de alta intensidad
+    q: Inhibe la HMG-CoA reductasa; baja el colesterol LDL entre 30 % y 50 % o más según la dosis y reduce los eventos cardiovasculares.
+    u:
+      - Prevención secundaria (SCA, ACV isquémico, enfermedad arterial periférica).
+      - Prevención primaria según el riesgo cardiovascular y la diabetes.
+    d:
+      - Alta intensidad 40–80 mg VO al día.
+      - Moderada intensidad 10–20 mg VO al día.
+    a: No requiere ajuste renal.
+    c: Hepatopatía activa, embarazo y lactancia.
+    e: Mialgias (las más frecuentes), alza de transaminasas, miopatía y, rara vez, rabdomiólisis; leve aumento del riesgo de diabetes.
+    i: Más miopatía con claritromicina, azoles, ciclosporina, gemfibrozilo y algunos antirretrovirales.
+    em: Suspender en el embarazo y la lactancia.
+    p: El beneficio cardiovascular supera ampliamente el pequeño aumento del riesgo de diabetes.
+  - n: Rosuvastatina
+    g: Hipolipemiante · estatina de alta intensidad
+    q: Estatina potente e hidrofílica, con pocas interacciones por el CYP3A4.
+    u:
+      - Prevención cardiovascular secundaria y primaria de alto riesgo.
+    d:
+      - Alta intensidad 20–40 mg VO al día; moderada 5–10 mg al día.
+    a: Con TFG < 30 mL/min, iniciar con 5 mg y no superar 10 mg. Iniciar con 5 mg en personas de ascendencia asiática.
+    c: Hepatopatía activa, embarazo y lactancia.
+    e: Mialgias, alza de transaminasas, proteinuria transitoria con dosis altas, miopatía.
+    i: Más miopatía con ciclosporina y gemfibrozilo.
+    em: Suspender en el embarazo y la lactancia.

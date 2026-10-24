@@ -265,3 +265,6 @@ Vitamina D|colecalciferol
 Vitamina K|fitomenadiona
 Warfarina
 Zolpidem
+Atorvastatina
+Rosuvastatina
+Tenecteplase|tenecteplasa|TNK
