@@ -1,7 +1,7 @@
 /* La Ficha: service worker para usar el sitio sin conexión.
-   Páginas: primero la red y, sin conexión, la copia guardada.
-   Estilos, scripts e imágenes: la copia guardada y se actualiza en segundo plano. */
-var CACHE = "laficha-v1";
+   Páginas, estilos, scripts y datos: primero la red y, sin conexión, la copia guardada.
+   Imágenes y fuentes: la copia guardada y se actualiza en segundo plano. */
+var CACHE = "laficha-v2";
 
 self.addEventListener("install", function () { self.skipWaiting(); });
 self.addEventListener("activate", function (ev) {
@@ -13,7 +13,7 @@ self.addEventListener("activate", function (ev) {
 self.addEventListener("fetch", function (ev) {
   var req = ev.request;
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
-  var esPagina = req.mode === "navigate" || /\.html$|\/$/.test(new URL(req.url).pathname);
+  var esPagina = req.mode === "navigate" || /\.(html|css|js|json)$|\/$/.test(new URL(req.url).pathname);
   if (esPagina) {
     ev.respondWith(fetch(req).then(function (r) {
       var copia = r.clone();
