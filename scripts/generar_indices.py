@@ -362,6 +362,7 @@ def main():
         "  - Patologías GES: ges/index.md",
         "  - Estudio:",
         "      - Preguntas del día: preguntas-del-dia.md",
+        "      - Calculadoras: calculadoras.md",
         "      - Índice A–Z: indice-alfabetico.md",
         "      - Mis temas: mis-temas.md",
         "  - Acerca de:",

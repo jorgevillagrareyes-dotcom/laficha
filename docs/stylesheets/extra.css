@@ -417,3 +417,22 @@
 .md-typeset .lf-pq-resp { border-left: 2px solid var(--mi-linea); padding-left: 1rem; margin-top: 0.6em; }
 .md-typeset .lf-pq-marcar { font-size: 0.74rem; color: var(--mi-tenue); }
 .md-typeset .lf-btn[hidden] { display: none; }
+
+/* Calculadoras */
+.md-typeset .calc { border-top: 1.5px solid var(--md-default-fg-color); border-bottom: 1px solid var(--mi-linea); padding: 0.8em 0; margin: 0.6em 0 0.4em; display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.35em 1.6em; font-size: 0.78rem; }
+.md-typeset .calc > label { display: flex; align-items: baseline; gap: 0.5em; cursor: pointer; }
+.md-typeset .calc > label > span { margin-left: auto; color: var(--mi-tenue); font-variant-numeric: tabular-nums; }
+.md-typeset .calc > label.calc-campo { flex-direction: column; align-items: stretch; gap: 0.2em; color: var(--mi-tenue); font-size: 0.72rem; cursor: default; }
+.md-typeset .calc input[type=number], .md-typeset .calc input[type=date], .md-typeset .calc select {
+  font: inherit; font-size: 0.8rem; color: var(--md-default-fg-color); background: transparent;
+  border: none; border-bottom: 1px solid var(--mi-linea); padding: 0.25em 0; border-radius: 0;
+}
+.md-typeset .calc input:focus, .md-typeset .calc select:focus { outline: none; border-bottom-color: var(--md-default-fg-color); }
+.md-typeset .calc select option { color: #1b1b1b; }
+.md-typeset .calc input[type=checkbox], .md-typeset .calc input[type=radio] { accent-color: var(--md-default-fg-color); }
+.md-typeset .calc-res { grid-column: 1 / -1; display: block; margin-top: 0.5em; padding-top: 0.6em; border-top: 1px dotted var(--mi-linea); font-size: 0.82rem; line-height: 1.6; }
+.md-typeset .calc-res > strong:first-child { font-family: var(--mi-display); font-size: 1.25rem; margin-right: 0.6em; }
+.md-typeset .calc-res > span { color: var(--mi-tenue); }
+.md-typeset .calc-falta { color: var(--mi-tenue); font-style: italic; }
+.md-typeset .calc-fuente { font-size: 0.68rem; color: var(--mi-tenue); margin-top: 0.3em; }
+.md-typeset .calc-indice { font-size: 0.76rem; }
