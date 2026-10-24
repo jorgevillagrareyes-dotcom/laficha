@@ -22,7 +22,7 @@ hide:
 
 <div class="accesos" markdown>
 
-**[Preguntas del día](preguntas-del-dia.md)** · [Índice A–Z](indice-alfabetico.md) · [Mis temas](mis-temas.md) · [Patologías GES](ges/index.md) · [Urgencias](urgencias/index.md) · [Frecuentes en sala](acerca/etiquetas.md#tag:frecuente-en-sala) · [Temas GES por etiqueta](acerca/etiquetas.md#tag:ges) · [Cómo se hizo](acerca/metodologia.md)
+**[Urgencias vitales](urgencias-vitales/index.md)** · **[Preguntas del día](preguntas-del-dia.md)** · [Calculadoras](calculadoras.md) · [Fármacos](farmacos.md) · [Índice A–Z](indice-alfabetico.md) · [Mis temas](mis-temas.md) · [Patologías GES](ges/index.md) · [Urgencias](urgencias/index.md) · [Frecuentes en sala](acerca/etiquetas.md#tag:frecuente-en-sala) · [Temas GES por etiqueta](acerca/etiquetas.md#tag:ges) · [Cómo se hizo](acerca/metodologia.md)
 
 </div>
 

@@ -467,7 +467,28 @@ nav:
       - "Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud": salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
       - "Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento": salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
   - Patologías GES: ges/index.md
-  - Estudio:
+  - Herramientas:
+      - Urgencias vitales:
+          - urgencias-vitales/index.md
+          - "Paro cardiorrespiratorio del adulto": urgencias-vitales/paro-cardiorrespiratorio-del-adulto.md
+          - "Taquicardia y bradicardia inestables": urgencias-vitales/taquicardia-y-bradicardia-inestables.md
+          - "Paro y shock en el niño": urgencias-vitales/paro-y-shock-en-el-nino.md
+          - "Sepsis y shock séptico": urgencias-vitales/shock-septico.md
+          - "Anafilaxia": urgencias-vitales/anafilaxia.md
+          - "Infarto con supradesnivel del ST": urgencias-vitales/iam-con-supradesnivel-del-st.md
+          - "Edema pulmonar agudo e IC descompensada": urgencias-vitales/edema-pulmonar-agudo.md
+          - "TEP de alto riesgo": urgencias-vitales/tep-de-alto-riesgo.md
+          - "Emergencia hipertensiva": urgencias-vitales/emergencia-hipertensiva.md
+          - "Hemorragia digestiva alta grave": urgencias-vitales/hemorragia-digestiva-alta-grave.md
+          - "ACV agudo (código ACV)": urgencias-vitales/acv-agudo.md
+          - "Estado epiléptico convulsivo": urgencias-vitales/estado-epileptico.md
+          - "Cetoacidosis y estado hiperosmolar": urgencias-vitales/cetoacidosis-y-estado-hiperosmolar.md
+          - "Hiperkalemia grave": urgencias-vitales/hiperkalemia-grave.md
+          - "Hipoglicemia grave": urgencias-vitales/hipoglicemia-grave.md
+          - "Crisis asmática grave": urgencias-vitales/crisis-asmatica-grave.md
+          - "Politraumatizado": urgencias-vitales/politraumatizado.md
+          - "Hemorragia posparto": urgencias-vitales/hemorragia-posparto.md
+          - "Eclampsia y preeclampsia grave": urgencias-vitales/eclampsia-y-preeclampsia-grave.md
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
       - Fármacos: farmacos.md

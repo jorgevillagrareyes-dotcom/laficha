@@ -444,3 +444,10 @@
 .md-typeset details.farmaco > summary::before { display: none; }
 .md-typeset details.farmaco li { font-size: 0.74rem; line-height: 1.5; margin-bottom: 0.5em; }
 .md-typeset .farm-ancla { display: block; height: 0; }
+
+/* Fichas de urgencias vitales */
+.md-typeset .uv-fuente { font-size: 0.72rem; color: var(--mi-tenue); margin-top: -0.4em; }
+.md-typeset:has(.uv-fuente) h2 { margin-top: 1.4em; padding-top: 0.9em; }
+.md-typeset .uv-lista ul { list-style: none; margin-left: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0 1.5rem; }
+.md-typeset .uv-lista li { margin: 0; padding: 0.45em 0; border-bottom: 1px dotted var(--mi-linea); }
+.md-typeset .uv-lista li a { font-family: var(--mi-display); font-size: 0.9rem; }
