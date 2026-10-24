@@ -15,6 +15,7 @@ from collections import OrderedDict
 from pathlib import Path
 import os
 import re
+import unicodedata
 
 import yaml
 
@@ -286,6 +287,40 @@ def main():
     texto = re.sub(r"<!-- cifras:inicio -->.*?<!-- cifras:fin -->", cifras, texto, flags=re.S)
     inicio.write_text(texto, encoding="utf-8")
 
+    # Índice alfabético de todos los resúmenes
+    nombres = dict(CARPETAS)
+    for esp, _, _, _, secciones in resumen_otras:
+        for sec, _, _, _ in secciones:
+            nombres[sec["carpeta"]] = sec["titulo"] if len(secciones) > 1 else esp["titulo"]
+    entradas = []
+    for carpeta, nombre in nombres.items():
+        if not (DOCS / carpeta).exists():
+            continue
+        for pag in paginas_de(carpeta):
+            entradas.append((titulo_pagina(f"{carpeta}/{pag.name}"), f"{carpeta}/{pag.name}", nombre))
+
+    def clave(t):
+        return unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+
+    entradas.sort(key=lambda e: clave(e[0]))
+    grupos = OrderedDict()
+    for t, ruta, nombre in entradas:
+        letra = clave(t)[:1].upper()
+        letra = letra if letra.isalpha() else "#"
+        grupos.setdefault(letra, []).append((t, ruta, nombre))
+    partes = [
+        "---\nhide:\n  - toc\n---\n",
+        "# Índice alfabético\n",
+        f"Los **{len(entradas)} resúmenes** de La Ficha ordenados de la A a la Z, con su especialidad.\n",
+        '<p class="az-letras">' + " ".join(f'<a href="#{l.lower()}">{l}</a>' for l in grupos) + "</p>\n",
+    ]
+    for letra, items in grupos.items():
+        partes.append(f"## {letra} {{ #{letra.lower()} }}\n")
+        partes.append('<div class="az-lista" markdown>\n')
+        partes.append("\n".join(f'- [{t}]({ruta}) <span class="az-esp">{nombre}</span>' for t, ruta, nombre in items) + "\n")
+        partes.append("</div>\n")
+    (DOCS / "indice-alfabetico.md").write_text("\n".join(partes), encoding="utf-8")
+
     # Navegación de mkdocs.yml (una pestaña por especialidad)
     nav = ["nav:", "  - Inicio: index.md", "  - Medicina interna:", "      - medicina-interna/index.md"]
     for carpeta, titulo in CARPETAS.items():
@@ -311,6 +346,7 @@ def main():
                 nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
     nav += [
         "  - Patologías GES: ges/index.md",
+        "  - Índice A–Z: indice-alfabetico.md",
         "  - Acerca de:",
         "      - Cómo se hacen los resúmenes: acerca/metodologia.md",
         "      - Temas GES y etiquetas: acerca/etiquetas.md",

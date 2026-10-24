@@ -35,11 +35,13 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
+    - navigation.prune
     - navigation.top
     - navigation.footer
     - navigation.tracking
     - search.suggest
     - search.highlight
+    - search.share
     - toc.follow
     - content.tabs.link
     - content.code.copy
@@ -52,6 +54,9 @@ extra_css:
 extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/laficha.js
+
+hooks:
+  - hooks/acentos.py
 
 plugins:
   - search:
@@ -459,6 +464,7 @@ nav:
       - "Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud": salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
       - "Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento": salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
   - Patologías GES: ges/index.md
+  - Índice A–Z: indice-alfabetico.md
   - Acerca de:
       - Cómo se hacen los resúmenes: acerca/metodologia.md
       - Temas GES y etiquetas: acerca/etiquetas.md

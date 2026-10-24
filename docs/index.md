@@ -22,7 +22,7 @@ hide:
 
 <div class="accesos" markdown>
 
-[Patologías GES](ges/index.md) · [Urgencias](urgencias/index.md) · [Frecuentes en sala](acerca/etiquetas.md#tag:frecuente-en-sala) · [Temas GES por etiqueta](acerca/etiquetas.md#tag:ges) · [Cómo se hizo](acerca/metodologia.md)
+[Índice A–Z](indice-alfabetico.md) · [Patologías GES](ges/index.md) · [Urgencias](urgencias/index.md) · [Frecuentes en sala](acerca/etiquetas.md#tag:frecuente-en-sala) · [Temas GES por etiqueta](acerca/etiquetas.md#tag:ges) · [Cómo se hizo](acerca/metodologia.md)
 
 </div>
 

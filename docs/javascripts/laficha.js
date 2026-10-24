@@ -53,9 +53,53 @@
     });
   }
 
+
+  // Búsqueda sin tildes ni variantes: completa la consulta antes de que la lea el buscador
+  var SINONIMOS = {
+    hipercalemia: "hiperkalemia", hipocalemia: "hipokalemia", hiperpotasemia: "hiperkalemia",
+    hipopotasemia: "hipokalemia", glucemia: "glicemia", hiperglucemia: "hiperglicemia",
+    hipoglucemia: "hipoglicemia"
+  };
+  var acentos = null;
+  function cargarAcentos() {
+    if (acentos !== null) return;
+    acentos = {};
+    var base = document.querySelector("script[src*='javascripts/laficha.js']");
+    var url = base ? base.src.replace(/javascripts\/laficha\.js.*$/, "search/acentos.json") : "search/acentos.json";
+    try {
+      fetch(url).then(function (r) { return r.ok ? r.json() : {}; })
+        .then(function (m) { acentos = m || {}; })
+        .catch(function () {});
+    } catch (e) { /* sin fetch: se busca tal cual */ }
+  }
+  function normalizarConsulta(valor) {
+    return valor.replace(/[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g, function (palabra) {
+      var minus = palabra.toLowerCase();
+      if (SINONIMOS[minus]) return SINONIMOS[minus];
+      return (acentos && acentos[minus]) || palabra;
+    });
+  }
+  function busquedaSinTildes() {
+    var campo = document.querySelector(".md-search__input");
+    if (!campo || campo.getAttribute("data-lf") === "1") return;
+    campo.setAttribute("data-lf", "1");
+    campo.addEventListener("focus", cargarAcentos);
+    // Captura en window: corre antes que los manejadores del buscador
+    window.addEventListener("input", function (ev) {
+      if (ev.target !== campo) return;
+      var nuevo = normalizarConsulta(campo.value);
+      if (nuevo !== campo.value) {
+        var alFinal = campo.selectionStart === campo.value.length;
+        campo.value = nuevo;
+        if (alFinal) campo.setSelectionRange(nuevo.length, nuevo.length);
+      }
+    }, true);
+  }
+
   function iniciar() {
     barraProgreso();
     botonRepaso();
+    busquedaSinTildes();
   }
 
   impresion();
