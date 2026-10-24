@@ -321,6 +321,20 @@ def main():
         partes.append("</div>\n")
     (DOCS / "indice-alfabetico.md").write_text("\n".join(partes), encoding="utf-8")
 
+    # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)
+    (DOCS / "mis-temas.md").write_text(
+        "---\nhide:\n  - toc\n---\n\n"
+        "# Mis temas\n\n"
+        "Tus temas **guardados** y **estudiados**. Se guardan solo en este navegador y dispositivo; "
+        "no se envían a ningún servidor. Márcalos con los botones que aparecen bajo el título de cada resumen.\n\n"
+        f'<div id="lf-mis-temas" data-total="{len(entradas)}"></div>\n\n'
+        "## Usar sin conexión\n\n"
+        "Guarda el sitio completo en este dispositivo para estudiar sin internet (por ejemplo, en el turno). "
+        "Después, cada vez que entres con conexión, las páginas se actualizan solas.\n\n"
+        '<div id="lf-sin-conexion"></div>\n',
+        encoding="utf-8",
+    )
+
     # Navegación de mkdocs.yml (una pestaña por especialidad)
     nav = ["nav:", "  - Inicio: index.md", "  - Medicina interna:", "      - medicina-interna/index.md"]
     for carpeta, titulo in CARPETAS.items():
@@ -346,7 +360,9 @@ def main():
                 nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
     nav += [
         "  - Patologías GES: ges/index.md",
-        "  - Índice A–Z: indice-alfabetico.md",
+        "  - Estudio:",
+        "      - Índice A–Z: indice-alfabetico.md",
+        "      - Mis temas: mis-temas.md",
         "  - Acerca de:",
         "      - Cómo se hacen los resúmenes: acerca/metodologia.md",
         "      - Temas GES y etiquetas: acerca/etiquetas.md",
