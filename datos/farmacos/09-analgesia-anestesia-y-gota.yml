@@ -1,0 +1,283 @@
+orden: 9
+titulo: Analgesia, anestesia y gota
+farmacos:
+  - n: Paracetamol
+    g: Analgésico y antipirético
+    q: Analgésico de acción central sin efecto antiinflamatorio periférico ni sobre las plaquetas. Seguro en dosis correctas; hepatotóxico en sobredosis.
+    u:
+      - Dolor leve a moderado y fiebre (primera línea, también en ERC, embarazo y adultos mayores).
+      - Artrosis y analgesia multimodal.
+    d:
+      - 500 mg a 1 g VO o EV cada 6–8 h, máximo 4 g al día (3 g al día en alcoholismo, desnutrición, hepatopatía o adultos mayores frágiles).
+      - Niños 10–15 mg/kg cada 6 h.
+    c: Insuficiencia hepática grave.
+    e: Prácticamente ninguno en dosis terapéuticas. En sobredosis (> 150 mg/kg o > 7,5–10 g), necrosis hepática que aparece a las 24–72 h.
+    i: El alcohol crónico y los inductores enzimáticos aumentan el riesgo hepático. En dosis altas y continuas puede subir el INR con warfarina.
+    em: Analgésico de elección en el embarazo y la lactancia.
+    p: En la intoxicación, la acetilcisteína es más eficaz dentro de las primeras 8 h; no esperar los síntomas.
+  - n: Ibuprofeno
+    g: Antiinflamatorio no esteroidal (AINE)
+    q: Inhibidor no selectivo de la ciclooxigenasa; analgésico, antipirético y antiinflamatorio.
+    u:
+      - Dolor leve a moderado, dismenorrea, cefalea y fiebre.
+      - Dolor musculoesquelético y crisis de gota.
+    d:
+      - 400–600 mg VO cada 6–8 h (máximo 2.400 mg al día).
+      - Niños 10 mg/kg cada 6–8 h.
+    c: TFG < 30 mL/min, IC, úlcera o hemorragia digestiva activa, tercer trimestre del embarazo, asma exacerbada por AINE.
+    e: Dispepsia, úlcera y hemorragia digestiva, LRA, hiperkalemia, HTA, retención de líquido y descompensación de la IC; mayor riesgo cardiovascular con dosis altas.
+    i: Más sangrado con anticoagulantes, ISRS y corticoides. Con IECA o ARA-II más diurético, riesgo de LRA ("triple golpe"). Aumenta el litio y el metotrexato. Puede bloquear el efecto antiagregante de la aspirina.
+    em: Evitar desde las 20 semanas (oligoamnios) y en el tercer trimestre (cierre del ductus); compatible con la lactancia.
+    p: Si se necesita un AINE en un paciente con riesgo digestivo, asociarlo a un IBP y usar la menor dosis por el menor tiempo.
+  - n: Naproxeno
+    g: Antiinflamatorio no esteroidal (AINE)
+    q: AINE de vida media larga (dos tomas al día), con un perfil cardiovascular algo más favorable que otros AINE.
+    u:
+      - Dolor musculoesquelético, artritis inflamatorias y crisis de gota.
+      - Dismenorrea.
+    d:
+      - 250–500 mg VO cada 12 h.
+    c: Las de los AINE.
+    e: Los de los AINE (digestivos, renales, HTA, retención de líquido).
+    i: Las de los AINE.
+    em: Evitar desde las 20 semanas.
+  - n: Diclofenaco
+    g: Antiinflamatorio no esteroidal (AINE)
+    q: AINE potente, con mayor riesgo cardiovascular que naproxeno e ibuprofeno en dosis bajas.
+    u:
+      - Cólico renal y dolor musculoesquelético agudo.
+      - Artrosis (gel tópico, con menos efectos sistémicos).
+    d:
+      - 50 mg VO cada 8–12 h (máximo 150 mg al día).
+      - 75 mg IM en dosis única (cólico renal).
+    c: Las de los AINE; cardiopatía isquémica, ACV previo o enfermedad arterial periférica.
+    e: Los de los AINE y hepatotoxicidad.
+    i: Las de los AINE.
+    em: Evitar desde las 20 semanas.
+  - n: Ketorolaco
+    g: Antiinflamatorio no esteroidal (AINE) de alta potencia analgésica
+    q: AINE con potencia analgésica similar a dosis moderadas de opioides; uso breve.
+    u:
+      - Dolor agudo moderado a intenso de corta duración (posoperatorio, cólico renal).
+    d:
+      - 10 mg VO cada 6–8 h (máximo 40 mg al día).
+      - 15–30 mg EV o IM cada 6 h (máximo 120 mg al día; 60 mg en ≥ 65 años, < 50 kg o ERC leve).
+      - Duración máxima total 5 días.
+    c: Las de los AINE; hemorragia, alto riesgo de sangrado, ERC moderada a grave, deshidratación, trabajo de parto.
+    e: Hemorragia digestiva y LRA (mayores que con otros AINE).
+    i: Las de los AINE; no combinar con otros AINE ni con aspirina.
+    em: Contraindicado en el trabajo de parto y en el tercer trimestre.
+  - n: Metamizol
+    g: Analgésico y antipirético (pirazolona)
+    q: Analgésico con efecto antipirético y espasmolítico, sin el daño digestivo de los AINE. Muy usado en Chile.
+    u:
+      - Dolor agudo moderado (cólico, posoperatorio) y fiebre que no responde a paracetamol.
+    d:
+      - 500 mg a 1 g VO o EV cada 6–8 h (máximo 4 g al día); la vía EV, lenta.
+    c: Antecedente de agranulocitosis, porfiria, déficit de G6PD, último trimestre del embarazo.
+    e: Agranulocitosis (rara e idiosincrática), hipotensión con la inyección rápida y reacciones alérgicas.
+    em: Evitar en el tercer trimestre y en la lactancia.
+    p: Ante fiebre, odinofagia o úlceras orales durante su uso, suspender y pedir un hemograma.
+  - n: Indometacina
+    g: Antiinflamatorio no esteroidal (AINE)
+    q: AINE potente con más efectos adversos en el SNC que otros AINE.
+    u:
+      - Crisis de gota (alternativa).
+      - Hemicránea paroxística y hemicránea continua (respuesta absoluta, diagnóstica).
+      - Cierre del ductus arterioso en prematuros (EV).
+    d:
+      - 25–50 mg VO cada 8 h.
+    c: Las de los AINE.
+    e: Los de los AINE más cefalea, mareo y confusión en adultos mayores.
+    em: Evitar desde las 20 semanas.
+  - n: Codeína
+    g: Analgésico opioide débil
+    q: Profármaco que el CYP2D6 convierte en morfina; su efecto varía mucho según el genotipo.
+    u:
+      - Dolor moderado (con paracetamol).
+      - Tos seca persistente (uso limitado).
+    d:
+      - 30–60 mg VO cada 4–6 h (máximo 240 mg al día).
+    c: Menores de 12 años, lactancia, metabolizadores ultrarrápidos del CYP2D6, insuficiencia respiratoria.
+    e: Constipación, náuseas, somnolencia y depresión respiratoria (grave en los metabolizadores ultrarrápidos).
+    i: Más sedación con benzodiacepinas y alcohol. Los inhibidores del CYP2D6 (fluoxetina, paroxetina) reducen su efecto.
+    em: Evitar en la lactancia (muertes de lactantes por madres metabolizadoras ultrarrápidas).
+  - n: Tramadol
+    g: Analgésico opioide débil con acción serotoninérgica y noradrenérgica
+    q: Agonista opioide débil que además inhibe la recaptación de serotonina y noradrenalina.
+    u:
+      - Dolor moderado que no responde a paracetamol o AINE.
+    d:
+      - 50–100 mg VO o EV cada 6–8 h (máximo 400 mg al día; 300 mg en mayores de 75 años).
+    a: Con depuración < 30 mL/min, cada 12 h (máximo 200 mg al día).
+    c: Epilepsia no controlada, uso de IMAO, intoxicación por alcohol o depresores del SNC.
+    e: Náuseas, mareo, constipación, convulsiones, síndrome serotoninérgico, hipoglicemia e hiponatremia.
+    i: Síndrome serotoninérgico con ISRS, IRSN, linezolid y triptanes. Más convulsiones con bupropión y antidepresivos tricíclicos.
+    em: Evitar en el embarazo y la lactancia.
+  - n: Morfina
+    g: Analgésico opioide potente
+    q: Agonista de los receptores opioides mu; analgésico de referencia para el dolor intenso y la disnea en cuidados paliativos.
+    u:
+      - Dolor agudo intenso (trauma, posoperatorio) y dolor oncológico.
+      - Disnea refractaria en cuidados paliativos.
+    d:
+      - EV 2–4 mg cada 5–15 min hasta controlar el dolor (titulación).
+      - VO 5–10 mg cada 4 h en pacientes sin uso previo de opioides.
+      - Disnea paliativa 2,5–5 mg VO cada 4 h según necesidad.
+    a: En la ERC se acumulan metabolitos activos (somnolencia, mioclonías); preferir fentanilo o reducir la dosis y alargar el intervalo.
+    c: Depresión respiratoria sin soporte, íleo paralítico, asma grave descompensada.
+    e: Constipación (no hay tolerancia), náuseas, somnolencia, prurito, retención urinaria, hipotensión, depresión respiratoria y neurotoxicidad.
+    i: Más depresión respiratoria con benzodiacepinas, alcohol y otros depresores.
+    em: Se usa en el embarazo si es necesario; vigilar el síndrome de abstinencia neonatal.
+    p: Al indicar un opioide, indicar siempre un laxante.
+  - n: Fentanilo
+    g: Analgésico opioide de alta potencia
+    q: Opioide sintético unas 100 veces más potente que la morfina, de inicio rápido y sin metabolitos activos.
+    u:
+      - Analgesia y sedación en urgencias y UCI; intubación de secuencia rápida.
+      - Dolor crónico oncológico estable (parche transdérmico).
+      - Analgesia en la ERC.
+    d:
+      - EV 0,5–1 µg/kg (25–100 µg), repetible; inducción 1–3 µg/kg.
+      - Parche 12–25 µg/h cada 72 h solo en pacientes ya tolerantes a opioides.
+    c: Depresión respiratoria sin soporte. Parche en pacientes sin uso previo de opioides o con dolor agudo.
+    e: Depresión respiratoria, rigidez torácica con bolos rápidos y altos, bradicardia, constipación.
+    i: Los inhibidores del CYP3A4 (claritromicina, azoles, ritonavir) aumentan mucho sus niveles; síndrome serotoninérgico con ISRS.
+    em: Usar si es necesario.
+  - n: Naloxona
+    g: Antídoto · antagonista opioide
+    q: Desplaza a los opioides de sus receptores. Actúa en 1–2 min, pero dura menos que la mayoría de los opioides.
+    u:
+      - Intoxicación por opioides con depresión respiratoria.
+    d:
+      - 0,04–0,4 mg EV, titulando cada 2–3 min hasta que respire bien (en dependientes, iniciar con 0,04 mg).
+      - Sin vía venosa 0,4 mg IM o 4 mg intranasal.
+      - Infusión, cada hora, dos tercios de la dosis que revirtió el cuadro.
+    e: Síndrome de abstinencia aguda (agitación, vómitos, taquicardia), edema pulmonar e hipertensión.
+    em: Se usa en el embarazo si es necesario.
+    p: La meta es que respire, no que despierte; observar al menos 4–6 h por el riesgo de re-sedación.
+  - n: Ketamina
+    g: Anestésico disociativo · antagonista NMDA
+    q: Produce anestesia y analgesia conservando los reflejos de la vía aérea, la respiración y la PA. Es broncodilatador.
+    u:
+      - Inducción en la intubación de secuencia rápida (sobre todo con hipotensión o broncoespasmo).
+      - Sedación para procedimientos y analgesia en dosis bajas.
+    d:
+      - Inducción 1–2 mg/kg EV.
+      - Sedación 1–1,5 mg/kg EV o 4–5 mg/kg IM.
+      - Analgesia 0,1–0,3 mg/kg EV.
+    c: Psicosis activa. Precaución en la cardiopatía isquémica y la hipertensión grave.
+    e: Fenómenos de emergencia (alucinaciones, agitación), sialorrea, laringoespasmo, hipertensión y taquicardia.
+    i: Las benzodiacepinas reducen los fenómenos de emergencia.
+    em: Usar si es necesario.
+  - n: Etomidato
+    g: Hipnótico de inducción
+    q: Hipnótico de acción ultracorta con mínimo efecto sobre la PA.
+    u:
+      - Inducción en la intubación de secuencia rápida en pacientes inestables.
+    d:
+      - 0,3 mg/kg EV.
+    e: Supresión suprarrenal transitoria (incluso con una dosis), mioclonías, dolor en la inyección y náuseas.
+    em: Usar si es necesario.
+  - n: Rocuronio
+    g: Bloqueador neuromuscular no despolarizante
+    q: Relajante muscular de inicio rápido en dosis altas; se revierte de inmediato con sugammadex.
+    u:
+      - Intubación de secuencia rápida (alternativa a la succinilcolina).
+    d:
+      - 1–1,2 mg/kg EV (inicio en unos 60 s, dura 30–60 min).
+      - Reversión inmediata con sugammadex 16 mg/kg.
+    c: Alergia a rocuronio.
+    e: Anafilaxia (rara) y parálisis prolongada.
+    i: Más efecto con aminoglicósidos y magnesio.
+    em: Usar si es necesario.
+    p: Paraliza pero no seda ni analgesia; dar siempre un hipnótico antes.
+  - n: Succinilcolina
+    g: Bloqueador neuromuscular despolarizante
+    q: Relajante de inicio ultrarrápido (45–60 s) y corta duración (5–10 min).
+    u:
+      - Intubación de secuencia rápida.
+    d:
+      - 1–1,5 mg/kg EV.
+    c: Hiperkalemia, quemaduras, aplastamiento, lesión medular o ACV de más de 24–72 h, inmovilización prolongada, miopatías, antecedente personal o familiar de hipertermia maligna, déficit de colinesterasa.
+    e: Hiperkalemia, bradicardia (sobre todo en niños y con dosis repetidas), fasciculaciones, mialgias, hipertermia maligna.
+    em: Usar si es necesario.
+  - n: Lidocaína
+    g: Anestésico local de tipo amida · antiarrítmico clase IB
+    q: Bloquea los canales de sodio; se usa como anestésico local y como antiarrítmico ventricular.
+    u:
+      - Anestesia local e infiltrativa, bloqueos regionales.
+      - FV o TV sin pulso refractaria (alternativa a amiodarona).
+    d:
+      - Infiltración al 1–2 %, máximo 4,5 mg/kg (7 mg/kg con adrenalina).
+      - Paro 1–1,5 mg/kg EV; luego 0,5–0,75 mg/kg.
+    c: Alergia a anestésicos amida. Bloqueo AV avanzado sin marcapaso (vía EV).
+    e: Toxicidad sistémica por anestésicos locales (parestesias periorales, tinnitus, convulsiones, arritmias y paro).
+    i: Aumentan sus niveles el propranolol y la cimetidina.
+    em: Compatible.
+    p: La toxicidad sistémica por anestésicos locales se trata con emulsión lipídica al 20 % (1,5 mL/kg en bolo) y soporte.
+  - n: Neostigmina
+    g: Inhibidor de la acetilcolinesterasa
+    q: Aumenta la acetilcolina en la placa motora y en el músculo liso.
+    u:
+      - Reversión del bloqueo neuromuscular no despolarizante.
+      - Seudoobstrucción colónica aguda (síndrome de Ogilvie).
+      - Miastenia gravis (uso limitado).
+    d:
+      - Reversión 0,04–0,07 mg/kg EV (máximo 5 mg) junto con atropina o glicopirrolato.
+      - Síndrome de Ogilvie 2 mg EV en 3–5 min, con monitor y atropina disponible.
+    c: Obstrucción intestinal o urinaria mecánica, peritonitis, perforación.
+    e: Bradicardia, broncoespasmo, sialorrea, cólicos y vómitos.
+    em: Usar si es necesario.
+  - n: Dantroleno
+    g: Relajante muscular de acción directa
+    q: Bloquea la liberación de calcio del retículo sarcoplásmico del músculo esquelético.
+    u:
+      - Hipertermia maligna (antídoto).
+      - Síndrome neuroléptico maligno grave (coadyuvante).
+    d:
+      - Hipertermia maligna 2,5 mg/kg EV rápido; repetir hasta 10 mg/kg o hasta controlar el cuadro.
+      - Síndrome neuroléptico maligno 1–2,5 mg/kg EV.
+    e: Debilidad muscular, flebitis y hepatotoxicidad con uso oral prolongado.
+    em: Usar si es necesario.
+  - n: Colchicina
+    g: Antiinflamatorio · inhibidor de los microtúbulos
+    q: Inhibe la migración y activación de los neutrófilos.
+    u:
+      - Crisis de gota (en las primeras 12–36 h).
+      - Profilaxis de crisis al iniciar el tratamiento hipouricemiante.
+      - Pericarditis aguda y recurrente (con AINE o aspirina).
+      - Fiebre mediterránea familiar.
+    d:
+      - Crisis de gota 1 mg VO y 0,5 mg 1 h después (1,5 mg el primer día); luego 0,5 mg cada 8–12 h.
+      - Profilaxis 0,5 mg VO 1–2 veces al día por 3–6 meses.
+      - Pericarditis 0,5 mg cada 12 h (0,5 mg al día si pesa < 70 kg) por 3 meses.
+    a: Reducir la dosis en la ERC y la insuficiencia hepática; evitar en la diálisis.
+    c: ERC o insuficiencia hepática graves combinadas con inhibidores del CYP3A4 o la glicoproteína P.
+    e: Diarrea (primer signo de toxicidad), náuseas, mielosupresión, miopatía y neuropatía.
+    i: Toxicidad grave con claritromicina, ciclosporina, verapamilo, diltiazem y azoles. Más miopatía con estatinas.
+    em: Se puede usar en la fiebre mediterránea familiar en el embarazo.
+  - n: Alopurinol
+    g: Hipouricemiante · inhibidor de la xantina oxidasa
+    q: Reduce la producción de ácido úrico. Es el hipouricemiante de primera línea.
+    u:
+      - Gota con crisis recurrentes, tofos, daño articular o nefrolitiasis.
+      - Prevención del síndrome de lisis tumoral.
+    d:
+      - Iniciar con 100 mg VO al día (50 mg en la ERC avanzada) y subir 100 mg cada 2–4 semanas hasta ácido úrico < 6 mg/dL (< 5 si hay tofos); máximo 800–900 mg.
+      - Lisis tumoral 300 mg al día, iniciando 1–2 días antes de la quimioterapia.
+    c: Antecedente de reacción grave por alopurinol.
+    e: Exantema, síndrome de Stevens-Johnson y DRESS (más con HLA-B*58:01, frecuente en personas de origen asiático), crisis de gota al inicio, hepatitis.
+    i: Aumenta mucho la toxicidad de azatioprina y mercaptopurina (reducir su dosis a la cuarta parte o evitar). Más exantema con amoxicilina.
+    em: Evitar en el embarazo.
+    p: Iniciar con dosis bajas y subir lento reduce las reacciones graves; dar profilaxis de crisis con colchicina.
+  - n: Febuxostat
+    g: Hipouricemiante · inhibidor no purínico de la xantina oxidasa
+    q: Inhibidor potente de la xantina oxidasa; no requiere ajuste en la ERC leve a moderada.
+    u:
+      - Gota con intolerancia o contraindicación al alopurinol.
+    d:
+      - 40 mg VO al día; subir a 80 mg si no se logra la meta de ácido úrico.
+    c: Uso de azatioprina o mercaptopurina. Enfermedad cardiovascular establecida (relativa).
+    e: Alza de transaminasas, crisis de gota al inicio, exantema; en el estudio CARES, mayor mortalidad cardiovascular que con alopurinol.
+    em: Evitar en el embarazo.

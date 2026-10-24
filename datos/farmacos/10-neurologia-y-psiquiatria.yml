@@ -1,0 +1,552 @@
+orden: 10
+titulo: Neurología y psiquiatría
+farmacos:
+  - n: Ácido valproico
+    g: Antiepiléptico de amplio espectro · estabilizador del ánimo
+    q: Aumenta el GABA y bloquea canales de sodio y calcio. Eficaz en crisis focales y generalizadas.
+    u:
+      - Epilepsias generalizadas (ausencias, mioclonías, tónico-clónicas).
+      - Estado epiléptico (segunda línea).
+      - Trastorno bipolar (manía) y profilaxis de la migraña.
+    d:
+      - Estado epiléptico 40 mg/kg EV (máximo 3.000 mg) en 10 min.
+      - Mantención 500 mg al día VO; subir hasta 20–30 mg/kg/día. Niveles 50–100 µg/mL.
+    c: Embarazo y mujeres en edad fértil sin anticoncepción eficaz (teratogénico y afecta el desarrollo cognitivo), hepatopatía, enfermedad mitocondrial (POLG), trastornos del ciclo de la urea.
+    e: Temblor, aumento de peso, alopecia, trombocitopenia, hepatotoxicidad, pancreatitis, hiperamonemia y síndrome de ovario poliquístico.
+    i: Los carbapenémicos bajan sus niveles a casi cero. Duplica los niveles de lamotrigina (riesgo de exantema grave). Interacciones con otros antiepilépticos.
+    em: Evitar en el embarazo (defectos del tubo neural y menor CI); compatible con la lactancia.
+    p: Ante un paciente con valproato y compromiso de conciencia, medir el amonio.
+  - n: Carbamazepina
+    g: Antiepiléptico · bloqueador de canales de sodio
+    q: Antiepiléptico para crisis focales; potente inductor enzimático.
+    u:
+      - Epilepsia focal.
+      - Neuralgia del trigémino (de elección).
+      - Trastorno bipolar (alternativa).
+    d:
+      - Epilepsia 200 mg VO cada 12 h; subir hasta 800–1.200 mg al día.
+      - Neuralgia del trigémino 100–200 mg cada 12 h; subir según la respuesta hasta 600–1.200 mg al día.
+    c: Antecedente de aplasia medular, bloqueo AV, porfiria, uso de IMAO.
+    e: Mareo, diplopía y ataxia; hiponatremia; exantema y Stevens-Johnson (más con HLA-B*15:02 en personas de origen asiático); agranulocitosis y aplasia; hepatitis. Empeora las ausencias y las mioclonías.
+    i: Inductor potente del CYP3A4 (reduce el efecto de anticonceptivos, warfarina, ACOD, corticoides y otros antiepilépticos); se autoinduce. La claritromicina y el fluconazol aumentan sus niveles.
+    em: Teratogénica (defectos del tubo neural); dar ácido fólico en dosis alta antes y durante el embarazo.
+  - n: Fenitoína
+    g: Antiepiléptico · bloqueador de canales de sodio
+    q: Antiepiléptico con cinética no lineal (pequeños cambios de dosis producen grandes cambios de nivel).
+    u:
+      - Estado epiléptico (segunda línea).
+      - Epilepsia focal y crisis tónico-clónicas (uso decreciente).
+    d:
+      - Estado epiléptico 20 mg/kg EV a ≤ 50 mg/min, solo en suero fisiológico y con monitor.
+      - Mantención 100 mg VO cada 8 h; niveles 10–20 µg/mL (corregir por albúmina).
+    c: Bradicardia sinusal, bloqueo AV avanzado, síndrome de Adams-Stokes (vía EV).
+    e: EV, hipotensión, bradicardia, arritmias y necrosis por extravasación. Crónico, nistagmo y ataxia (toxicidad), hiperplasia gingival, hirsutismo, exantema, osteomalacia.
+    i: Inductor enzimático; interacciones numerosas (warfarina, anticonceptivos, ACOD). La isoniazida, el fluconazol y la amiodarona aumentan sus niveles.
+    em: Teratogénica (síndrome fetal por hidantoína).
+  - n: Fenobarbital
+    g: Antiepiléptico barbitúrico
+    q: Potencia el GABA; sedante de vida media muy larga.
+    u:
+      - Estado epiléptico refractario (cuando no hay otras opciones).
+      - Convulsiones neonatales (primera línea).
+      - Abstinencia alcohólica resistente a benzodiacepinas.
+    d:
+      - Estado epiléptico 15–20 mg/kg EV a 50–100 mg/min.
+      - Mantención 1–3 mg/kg/día.
+    c: Porfiria, insuficiencia respiratoria grave sin soporte.
+    e: Sedación, depresión respiratoria, hipotensión y deterioro cognitivo.
+    i: Inductor enzimático potente.
+    em: Usar solo si se necesita.
+  - n: Lamotrigina
+    g: Antiepiléptico · estabilizador del ánimo
+    q: Bloquea canales de sodio y reduce la liberación de glutamato. Bien tolerada y de las más seguras en el embarazo.
+    u:
+      - Epilepsia focal y generalizada.
+      - Trastorno bipolar (prevención de la depresión).
+    d:
+      - Iniciar con 25 mg al día por 2 semanas, luego 50 mg al día por 2 semanas, y subir 50 mg cada 1–2 semanas hasta 100–200 mg al día. La mitad con valproato; el doble con inductores.
+    c: Antecedente de exantema grave por lamotrigina.
+    e: Exantema (incluidos Stevens-Johnson y necrólisis epidérmica tóxica, sobre todo con titulación rápida o con valproato), mareo, insomnio y diplopía.
+    i: El valproato duplica sus niveles. Los anticonceptivos con estrógeno y el embarazo los reducen.
+    em: De las más seguras en el embarazo (medir niveles, porque bajan).
+    p: Respetar la titulación lenta; si se suspende más de 5 días, reiniciar desde la dosis inicial.
+  - n: Levetiracetam
+    g: Antiepiléptico · modulador de la proteína SV2A
+    q: Antiepiléptico de amplio espectro, sin interacciones relevantes ni metabolismo hepático.
+    u:
+      - Estado epiléptico (segunda línea).
+      - Epilepsia focal y generalizada; epilepsia en la mujer en edad fértil.
+      - Profilaxis de crisis en el TEC grave o la neurocirugía (por tiempo limitado).
+    d:
+      - Estado epiléptico 60 mg/kg EV (máximo 4.500 mg) en 10–15 min.
+      - Mantención 500 mg VO o EV cada 12 h; subir hasta 1.000–1.500 mg cada 12 h.
+    a: Reducir la dosis según la función renal.
+    e: Irritabilidad, ánimo depresivo, ideación suicida y somnolencia.
+    em: De elección en el embarazo junto a lamotrigina.
+  - n: Topiramato
+    g: Antiepiléptico · múltiples mecanismos
+    q: Bloquea canales de sodio, potencia el GABA, antagoniza el glutamato e inhibe la anhidrasa carbónica.
+    u:
+      - Profilaxis de la migraña.
+      - Epilepsia focal y generalizada.
+    d:
+      - Migraña 25 mg en la noche; subir 25 mg por semana hasta 50 mg cada 12 h.
+      - Epilepsia 100–400 mg al día.
+    c: Antecedente de litiasis renal (relativa). Embarazo.
+    e: Parestesias, dificultad para encontrar palabras y concentrarse, baja de peso, litiasis renal, acidosis metabólica, glaucoma agudo de ángulo cerrado.
+    i: En dosis ≥ 200 mg reduce la eficacia de los anticonceptivos orales.
+    em: Evitar en el embarazo (labio y paladar hendido).
+  - n: Gabapentina
+    g: Gabapentinoide · ligando alfa-2-delta
+    q: Reduce la liberación de neurotransmisores excitatorios; útil en el dolor neuropático.
+    u:
+      - Dolor neuropático (neuralgia posherpética, neuropatía diabética).
+      - Síndrome de piernas inquietas y epilepsia focal (coadyuvante).
+    d:
+      - Iniciar 300 mg VO en la noche; subir hasta 900–3.600 mg al día en 3 tomas.
+    a: Reducir la dosis según la función renal.
+    e: Somnolencia, mareo, ataxia, edema y potencial de abuso.
+    i: Depresión respiratoria al combinarla con opioides.
+    em: Usar solo si se necesita.
+  - n: Pregabalina
+    g: Gabapentinoide · ligando alfa-2-delta
+    q: Similar a la gabapentina, con absorción más predecible.
+    u:
+      - Dolor neuropático y fibromialgia.
+      - Trastorno de ansiedad generalizada.
+    d:
+      - 75 mg VO cada 12 h; subir hasta 150–300 mg cada 12 h.
+    a: Reducir la dosis según la función renal.
+    e: Mareo, somnolencia, edema, aumento de peso y potencial de abuso.
+    i: Depresión respiratoria con opioides.
+    em: Usar solo si se necesita.
+  - n: Clonazepam
+    g: Benzodiacepina de acción prolongada
+    q: Benzodiacepina de alta potencia con efecto ansiolítico y antiepiléptico.
+    u:
+      - Trastorno de pánico y ansiedad (uso breve, mientras actúa un antidepresivo).
+      - Trastorno conductual del sueño REM y algunas epilepsias mioclónicas.
+    d:
+      - 0,25–0,5 mg VO cada 12 h (máximo 4 mg al día).
+      - Trastorno conductual del sueño REM 0,25–1 mg en la noche.
+    c: Insuficiencia respiratoria grave, apnea del sueño no tratada, miastenia gravis, insuficiencia hepática grave.
+    e: Sedación, caídas, deterioro cognitivo, tolerancia, dependencia y abstinencia al suspenderla bruscamente.
+    i: Depresión respiratoria con opioides y alcohol.
+    em: Evitar en el embarazo y la lactancia si es posible.
+    p: Evitar las benzodiacepinas en adultos mayores (caídas, delirium) y retirarlas siempre en forma gradual.
+  - n: Diazepam
+    g: Benzodiacepina de acción prolongada
+    q: Benzodiacepina con metabolitos activos de vida media muy larga.
+    u:
+      - Estado epiléptico (primera línea, EV o rectal).
+      - Abstinencia alcohólica y delirium tremens.
+      - Espasmo muscular y tétanos.
+    d:
+      - Estado epiléptico 0,15–0,2 mg/kg EV (máximo 10 mg por dosis), repetible una vez.
+      - Abstinencia alcohólica 10–20 mg VO cada 1–4 h según la escala CIWA-Ar; en el delirium tremens, 10–20 mg EV cada 5–10 min hasta la sedación leve.
+    a: Evitar en la insuficiencia hepática grave y en adultos mayores (preferir lorazepam).
+    c: Insuficiencia respiratoria grave, apnea del sueño, miastenia gravis.
+    e: Sedación prolongada, depresión respiratoria, caídas y dependencia.
+    i: Depresión respiratoria con opioides y alcohol.
+    em: Evitar al final del embarazo (síndrome del lactante hipotónico).
+  - n: Lorazepam
+    g: Benzodiacepina de acción intermedia
+    q: Benzodiacepina sin metabolitos activos (glucuronidación); útil en la hepatopatía y en adultos mayores.
+    u:
+      - Estado epiléptico (primera línea).
+      - Abstinencia alcohólica en hepatopatía grave o adultos mayores.
+      - Agitación y ansiedad aguda.
+    d:
+      - Estado epiléptico 0,1 mg/kg EV (máximo 4 mg por dosis).
+      - Abstinencia alcohólica 1–4 mg VO o EV cada 1–4 h según la CIWA-Ar.
+      - Agitación 1–2 mg VO o IM.
+    c: Insuficiencia respiratoria grave, miastenia gravis.
+    e: Sedación, depresión respiratoria y dependencia.
+    em: Evitar si es posible.
+  - n: Midazolam
+    g: Benzodiacepina de acción corta
+    q: Benzodiacepina hidrosoluble que se absorbe bien por vía IM, intranasal o bucal; inicio rápido.
+    u:
+      - Estado epiléptico sin vía venosa (IM, intranasal o bucal).
+      - Sedación para procedimientos e intubación.
+      - Agitación psicomotora y sedación en la UCI y en cuidados paliativos.
+    d:
+      - Estado epiléptico 10 mg IM (> 40 kg) o 5 mg (13–40 kg).
+      - Sedación 1–2,5 mg EV titulado (0,5–1 mg en adultos mayores).
+      - Agitación 5 mg IM.
+    c: Insuficiencia respiratoria sin soporte.
+    e: Depresión respiratoria, hipotensión y delirium.
+    i: Los inhibidores del CYP3A4 (claritromicina, azoles) aumentan mucho sus niveles.
+    em: Usar si se necesita.
+  - n: Flumazenil
+    g: Antídoto · antagonista de las benzodiacepinas
+    q: Antagonista competitivo del receptor de benzodiacepinas; vida media más corta que la mayoría de ellas.
+    u:
+      - Reversión de una sedación excesiva por benzodiacepinas en procedimientos.
+    d:
+      - 0,2 mg EV cada 1 min hasta 1 mg (máximo 3 mg).
+    c: Intoxicación mixta o desconocida (sobre todo con tricíclicos), uso crónico de benzodiacepinas y epilepsia (desencadena convulsiones).
+    e: Convulsiones, abstinencia aguda, arritmias y re-sedación.
+    em: Usar si se necesita.
+    p: No se usa de rutina en el paciente intoxicado con compromiso de conciencia de causa no clara.
+  - n: Zolpidem
+    g: Hipnótico no benzodiacepínico
+    q: Agonista selectivo del receptor GABA-A (subunidad alfa-1) de vida media corta.
+    u:
+      - Insomnio de conciliación, por tiempo breve (≤ 4 semanas) y después de la terapia cognitivo-conductual.
+    d:
+      - 5 mg VO al acostarse (mujeres y adultos mayores); 10 mg en hombres.
+    c: Apnea del sueño grave, insuficiencia hepática grave, antecedente de conductas complejas del sueño.
+    e: Conductas complejas del sueño (sonambulismo, conducir dormido), amnesia, caídas y dependencia.
+    i: Más sedación con alcohol, opioides y otros hipnóticos.
+    em: Evitar si es posible.
+  - n: Haloperidol
+    g: Antipsicótico típico (butirofenona)
+    q: Antagonista potente de los receptores D2; poco sedante y poco hipotensor.
+    u:
+      - Delirium hiperactivo con agitación peligrosa o angustia intensa (dosis bajas, por pocos días).
+      - Agitación psicomotora por psicosis.
+      - Náuseas y vómitos en cuidados paliativos.
+    d:
+      - Delirium 0,25–0,5 mg VO, IM o EV en adultos mayores (0,5–1 mg en adultos jóvenes); repetir cada 30–60 min si es necesario.
+      - Agitación psicótica 5 mg IM (con prometazina o una benzodiacepina).
+      - Esquizofrenia 5–10 mg VO al día.
+    c: Enfermedad de Parkinson, demencia por cuerpos de Lewy, QTc > 500 ms, coma.
+    e: Distonía aguda, acatisia, parkinsonismo, discinesia tardía, prolongación del QT (torsades, más con la vía EV) y síndrome neuroléptico maligno.
+    i: Más prolongación del QT con macrólidos, quinolonas, ondansetrón y metadona.
+    em: Usar si se necesita.
+    p: En el delirium no acorta el cuadro; tratar la causa y usar medidas no farmacológicas primero.
+  - n: Olanzapina
+    g: Antipsicótico atípico
+    q: Antagonista de los receptores D2 y 5-HT2A con efecto sedante y antiemético.
+    u:
+      - Esquizofrenia y trastorno bipolar (manía).
+      - Agitación psicótica (oral o IM).
+      - Náuseas y vómitos por quimioterapia.
+    d:
+      - 10–20 mg VO al día.
+      - Agitación 10 mg IM.
+      - Antiemético 5–10 mg VO.
+    c: Glaucoma de ángulo cerrado (relativa).
+    e: Aumento de peso, síndrome metabólico, hiperglicemia, sedación e hipotensión ortostática.
+    i: No combinar la olanzapina IM con benzodiacepinas parenterales en la misma hora (hipotensión y depresión respiratoria). El tabaco reduce sus niveles.
+    em: Usar si se necesita; vigilar la diabetes gestacional.
+  - n: Quetiapina
+    g: Antipsicótico atípico
+    q: Antipsicótico con poco efecto extrapiramidal; sedante e hipotensor.
+    u:
+      - Esquizofrenia y trastorno bipolar (manía y depresión).
+      - Psicosis o agitación en la enfermedad de Parkinson o la demencia por cuerpos de Lewy (dosis bajas).
+    d:
+      - Esquizofrenia 300–750 mg al día; depresión bipolar 300 mg en la noche.
+      - Delirium o agitación en Parkinson 12,5–25 mg VO.
+    e: Sedación, hipotensión ortostática, aumento de peso, síndrome metabólico y prolongación del QT.
+    i: Los inhibidores del CYP3A4 aumentan sus niveles.
+    em: Usar si se necesita.
+    p: No usarla como hipnótico en dosis bajas (riesgo metabólico sin beneficio demostrado).
+  - n: Risperidona
+    g: Antipsicótico atípico
+    q: Antagonista D2 y 5-HT2A; más extrapiramidalismo e hiperprolactinemia que otros atípicos con dosis altas.
+    u:
+      - Esquizofrenia y manía.
+      - Irritabilidad en el trastorno del espectro autista.
+      - Agresividad grave en la demencia (dosis bajas, por poco tiempo).
+    d:
+      - 2–6 mg VO al día.
+      - Demencia 0,25–1 mg al día.
+    a: Reducir la dosis en la ERC y la insuficiencia hepática.
+    e: Hiperprolactinemia (galactorrea, amenorrea), extrapiramidalismo, aumento de peso e hipotensión ortostática.
+    em: Usar si se necesita.
+    p: En la demencia, los antipsicóticos aumentan la mortalidad y el riesgo de ACV; usar solo si hay riesgo y por el menor tiempo.
+  - n: Aripiprazol
+    g: Antipsicótico atípico · agonista parcial D2
+    q: Agonista parcial de los receptores D2; poco efecto metabólico y sobre la prolactina.
+    u:
+      - Esquizofrenia y trastorno bipolar.
+      - Depresión resistente (coadyuvante) e irritabilidad en el autismo.
+    d:
+      - 10–30 mg VO al día; coadyuvante en la depresión 2–15 mg al día.
+    e: Acatisia, insomnio, náuseas y trastornos del control de impulsos.
+    i: Ajustar la dosis con inhibidores o inductores del CYP2D6 y el CYP3A4.
+    em: Usar si se necesita.
+  - n: Clozapina
+    g: Antipsicótico atípico
+    q: El antipsicótico más eficaz; reservado para la esquizofrenia resistente por su toxicidad.
+    u:
+      - Esquizofrenia resistente (fracaso de 2 antipsicóticos en dosis y tiempo adecuados).
+      - Esquizofrenia con alto riesgo suicida.
+    d:
+      - Iniciar 12,5 mg VO 1–2 veces al día y subir lentamente hasta 300–450 mg al día.
+    c: Antecedente de agranulocitosis, epilepsia no controlada, íleo paralítico.
+    e: Agranulocitosis, miocarditis (primeras semanas), convulsiones, sialorrea, constipación grave (íleo), síndrome metabólico, sedación e hipotensión.
+    i: Dejar de fumar aumenta mucho sus niveles; la fluvoxamina y el ciprofloxacino también.
+    em: Usar si se necesita.
+    p: Requiere hemogramas seriados (semanales al inicio) en un programa de control.
+  - n: Litio
+    g: Estabilizador del ánimo
+    q: Estabilizador de primera línea en el trastorno bipolar; reduce el suicidio. Margen terapéutico estrecho y eliminación renal.
+    u:
+      - Trastorno bipolar (manía aguda y mantención).
+      - Depresión resistente (potenciación).
+    d:
+      - Iniciar 300 mg VO cada 12 h y ajustar por niveles (medidos 12 h después de la última dosis, 5–7 días tras cada cambio).
+      - Litemia de mantención 0,6–1,0 mEq/L (0,8–1,2 en la manía aguda).
+    a: Reducir la dosis en la ERC y en adultos mayores.
+    c: ERC avanzada, IC, deshidratación, hiponatremia, enfermedad de Addison.
+    e: Temblor fino, poliuria (diabetes insípida nefrogénica), hipotiroidismo, hiperparatiroidismo, ERC, aumento de peso y acné. Intoxicación (> 1,5 mEq/L) con vómitos, diarrea, temblor grueso, ataxia, confusión y convulsiones.
+    i: Aumentan sus niveles los IECA, los ARA-II, las tiazidas, los AINE y la deshidratación.
+    em: Riesgo de anomalía de Ebstein; evaluar caso a caso con el especialista.
+    p: La intoxicación grave por litio se trata con hemodiálisis.
+  - n: Fluoxetina
+    g: Antidepresivo · inhibidor selectivo de la recaptación de serotonina (ISRS)
+    q: ISRS de vida media muy larga (sin síndrome de discontinuación, pero con interacciones prolongadas).
+    u:
+      - Depresión (también en adolescentes), trastorno obsesivo-compulsivo y bulimia nerviosa.
+      - Trastornos de ansiedad.
+    d:
+      - 20 mg VO al día en la mañana; subir hasta 60 mg (bulimia 60 mg).
+    c: Uso de IMAO (esperar 5 semanas tras suspender la fluoxetina antes de un IMAO).
+    e: Náuseas, insomnio, ansiedad inicial, disfunción sexual, hiponatremia (adultos mayores), sangrado y viraje a manía.
+    i: Inhibidor potente del CYP2D6 (aumenta tricíclicos, metoprolol; reduce el efecto de la codeína y el tamoxifeno). Síndrome serotoninérgico con tramadol, triptanes y linezolid.
+    em: Se puede usar en el embarazo (preferir sertralina).
+    p: Vigilar la ideación suicida al inicio en menores de 25 años.
+  - n: Sertralina
+    g: Antidepresivo · ISRS
+    q: ISRS con pocas interacciones y buen perfil cardiovascular.
+    u:
+      - Depresión, también en cardiópatas, embarazadas y en la lactancia.
+      - Trastorno de pánico, TOC, trastorno de estrés postraumático y ansiedad social.
+    d:
+      - 50 mg VO al día; subir hasta 200 mg al día.
+    c: Uso de IMAO.
+    e: Diarrea, náuseas, insomnio, disfunción sexual, hiponatremia y sangrado.
+    i: Síndrome serotoninérgico con otros serotoninérgicos. Más sangrado con AINE y anticoagulantes.
+    em: ISRS de elección en el embarazo y la lactancia.
+  - n: Citalopram
+    g: Antidepresivo · ISRS
+    q: ISRS con pocas interacciones, pero que prolonga el QT de forma dependiente de la dosis.
+    u:
+      - Depresión y trastornos de ansiedad.
+    d:
+      - 20 mg VO al día (máximo 40 mg; 20 mg en mayores de 60 años).
+    c: QT largo congénito o adquirido, uso de IMAO.
+    e: Náuseas, disfunción sexual, hiponatremia y prolongación del QT.
+    em: Se puede usar.
+  - n: Escitalopram
+    g: Antidepresivo · ISRS
+    q: Enantiómero activo del citalopram, bien tolerado.
+    u:
+      - Depresión y trastorno de ansiedad generalizada.
+    d:
+      - 10 mg VO al día; subir a 20 mg (máximo 10 mg en mayores de 65 años).
+    c: QT largo, uso de IMAO.
+    e: Náuseas, disfunción sexual, hiponatremia y prolongación del QT dependiente de la dosis.
+    em: Se puede usar.
+  - n: Duloxetina
+    g: Antidepresivo · inhibidor de la recaptación de serotonina y noradrenalina (IRSN)
+    q: IRSN con efecto analgésico en el dolor crónico.
+    u:
+      - Depresión y ansiedad generalizada.
+      - Dolor neuropático diabético, fibromialgia y dolor crónico musculoesquelético.
+    d:
+      - 30 mg VO al día por 1–2 semanas y luego 60 mg al día.
+    a: Evitar con depuración < 30 mL/min y en la hepatopatía.
+    c: Hepatopatía, alcoholismo, glaucoma de ángulo cerrado no controlado, uso de IMAO.
+    e: Náuseas, sequedad de boca, sudoración, alza leve de la PA, hepatotoxicidad y síndrome de discontinuación.
+    i: Inhibe el CYP2D6. Síndrome serotoninérgico con otros serotoninérgicos.
+    em: Usar si se necesita.
+  - n: Amitriptilina
+    g: Antidepresivo tricíclico
+    q: Inhibe la recaptación de serotonina y noradrenalina, con potente efecto anticolinérgico, antihistamínico y alfa-bloqueador. Letal en sobredosis.
+    u:
+      - Dolor neuropático y cefalea tensional crónica.
+      - Profilaxis de la migraña e intestino irritable con dolor.
+    d:
+      - 10–25 mg VO en la noche; subir hasta 50–75 mg según la respuesta.
+    c: IAM reciente, bloqueos de rama o AV, arritmias, glaucoma de ángulo cerrado, retención urinaria, uso de IMAO.
+    e: Sedación, sequedad de boca, constipación, retención urinaria, hipotensión ortostática, aumento de peso y prolongación del QRS y el QT.
+    i: Los inhibidores del CYP2D6 (fluoxetina, paroxetina) aumentan sus niveles.
+    em: Usar si se necesita.
+    p: Evitar en adultos mayores (criterios de Beers). En la intoxicación con QRS > 100 ms, bicarbonato de sodio.
+  - n: Mirtazapina
+    g: Antidepresivo noradrenérgico y serotoninérgico específico
+    q: Antagonista alfa-2 y de los receptores 5-HT2 y H1; sedante y orexígeno, con poca disfunción sexual.
+    u:
+      - Depresión con insomnio, inapetencia o baja de peso (útil en adultos mayores).
+    d:
+      - 15 mg VO en la noche; subir hasta 30–45 mg.
+    e: Somnolencia, aumento del apetito y del peso, y rara vez agranulocitosis.
+    i: Más sedación con alcohol y benzodiacepinas.
+    em: Usar si se necesita.
+  - n: Trazodona
+    g: Antidepresivo · antagonista e inhibidor de la recaptación de serotonina
+    q: Antidepresivo sedante que en dosis bajas se usa para el insomnio.
+    u:
+      - Insomnio asociado a depresión o en adultos mayores (dosis bajas).
+      - Depresión (dosis altas, poco usada).
+    d:
+      - Insomnio 25–100 mg VO en la noche.
+      - Depresión 150–400 mg al día.
+    e: Sedación, hipotensión ortostática, mareo, priapismo (raro) y prolongación del QT.
+    em: Usar si se necesita.
+  - n: Bupropión
+    g: Antidepresivo · inhibidor de la recaptación de dopamina y noradrenalina
+    q: Antidepresivo activador, sin disfunción sexual ni aumento de peso.
+    u:
+      - Depresión (sobre todo con fatiga o disfunción sexual por ISRS).
+      - Cesación tabáquica.
+    d:
+      - Depresión 150 mg VO al día de liberación prolongada; subir a 300 mg.
+      - Tabaco 150 mg al día por 3 días y luego cada 12 h por 7–12 semanas; dejar de fumar en la segunda semana.
+    c: Epilepsia, bulimia o anorexia, suspensión brusca de alcohol o benzodiacepinas, uso de IMAO.
+    e: Insomnio, ansiedad, sequedad de boca, alza de la PA y convulsiones (dosis dependiente).
+    i: Inhibe el CYP2D6. Más convulsiones con tramadol y antipsicóticos.
+    em: Usar si se necesita.
+  - n: Metilfenidato
+    g: Psicoestimulante
+    q: Inhibe la recaptación de dopamina y noradrenalina; mejora la atención y reduce la impulsividad.
+    u:
+      - Trastorno por déficit de atención e hiperactividad (TDAH) en niños desde los 6 años y en adultos.
+      - Narcolepsia.
+    dt: Dosis habitual
+    d:
+      - Liberación inmediata 5 mg VO en la mañana y a mediodía; subir 5–10 mg por semana hasta 0,3–1 mg/kg/día (máximo 60 mg).
+      - Liberación prolongada 18–54 mg VO en la mañana.
+    c: Glaucoma, hipertiroidismo, arritmias o cardiopatía estructural, psicosis, uso de IMAO.
+    e: Inapetencia, baja de peso, insomnio, cefalea, dolor abdominal, alza de la FC y la PA, tics y leve retraso del crecimiento.
+    em: Usar si se necesita.
+    p: Controlar el peso, la talla, la PA y la FC en cada visita.
+  - n: Donepezilo
+    g: Inhibidor de la acetilcolinesterasa
+    q: Aumenta la acetilcolina cerebral; mejora modestamente la cognición y la funcionalidad.
+    u:
+      - Enfermedad de Alzheimer leve, moderada y grave.
+      - Demencia por cuerpos de Lewy y demencia vascular o mixta.
+    d:
+      - 5 mg VO en la noche; subir a 10 mg tras 4–6 semanas.
+    c: Bradicardia, bloqueo AV o enfermedad del nodo sinusal sin marcapaso.
+    e: Náuseas, diarrea, anorexia, bradicardia y síncope, pesadillas, calambres.
+    i: Los anticolinérgicos (oxibutinina, antihistamínicos de primera generación) anulan su efecto.
+    em: No aplica en la práctica.
+  - n: Levodopa
+    g: Antiparkinsoniano · precursor de la dopamina
+    q: Precursor de la dopamina que se da con carbidopa o benserazida para evitar su conversión periférica. El fármaco más eficaz para los síntomas motores del Parkinson.
+    u:
+      - Enfermedad de Parkinson.
+    d:
+      - Levodopa-carbidopa 100/25 mg VO cada 8 h (iniciar con media tableta), subir según la respuesta hasta 300–600 mg de levodopa al día.
+    c: Glaucoma de ángulo cerrado, uso de IMAO no selectivos, melanoma activo.
+    e: Náuseas, hipotensión ortostática, discinesias y fluctuaciones motoras con los años, alucinaciones.
+    i: Los antipsicóticos típicos, la metoclopramida y la proteína de la dieta reducen su efecto.
+    em: Usar si se necesita.
+    p: No suspenderla bruscamente (riesgo de un cuadro similar al síndrome neuroléptico maligno); si el paciente queda en ayunas, buscar otra vía.
+  - n: Ropinirol
+    g: Agonista dopaminérgico no ergótico
+    q: Agonista de los receptores D2 y D3.
+    u:
+      - Enfermedad de Parkinson (inicial en jóvenes o asociado a levodopa).
+      - Síndrome de piernas inquietas.
+    d:
+      - Parkinson 0,25 mg VO cada 8 h; subir hasta 3–24 mg al día.
+      - Piernas inquietas 0,25 mg 1–3 h antes de acostarse; subir hasta 4 mg.
+    e: Somnolencia y ataques de sueño, trastornos del control de impulsos (juego, compras, hipersexualidad), alucinaciones, edema y aumento paradójico de los síntomas de piernas inquietas.
+    em: Usar si se necesita.
+    p: Preguntar siempre por conductas compulsivas; el paciente rara vez las cuenta.
+  - n: Biperideno
+    g: Anticolinérgico central
+    q: Antimuscarínico que restablece el balance dopamina-acetilcolina en los ganglios basales.
+    u:
+      - Distonía aguda por antipsicóticos o metoclopramida.
+      - Parkinsonismo por antipsicóticos.
+    d:
+      - Distonía aguda 2–5 mg EV o IM; repetir a los 30 min si es necesario.
+      - Parkinsonismo 1–2 mg VO cada 8–12 h.
+    c: Glaucoma de ángulo cerrado, retención urinaria, obstrucción intestinal.
+    e: Sequedad de boca, visión borrosa, retención urinaria, constipación, confusión y delirium en adultos mayores.
+    em: Usar si se necesita.
+  - n: Baclofeno
+    g: Relajante muscular · agonista GABA-B
+    q: Reduce la espasticidad de origen central.
+    u:
+      - Espasticidad por esclerosis múltiple, lesión medular o parálisis cerebral.
+      - Hipo persistente.
+    d:
+      - 5 mg VO cada 8 h; subir cada 3 días hasta 20 mg cada 8 h (máximo 80 mg al día).
+    a: Reducir mucho la dosis en la ERC (riesgo de encefalopatía).
+    e: Somnolencia, debilidad, mareo y confusión.
+    i: Suspenderlo bruscamente produce abstinencia (convulsiones, alucinaciones, hipertermia).
+    em: Usar si se necesita.
+  - n: Piridostigmina
+    g: Inhibidor de la acetilcolinesterasa
+    q: Aumenta la acetilcolina en la placa neuromuscular; alivia los síntomas de la miastenia.
+    u:
+      - Miastenia gravis (tratamiento sintomático).
+    d:
+      - 30–60 mg VO cada 4–6 h, ajustando según la respuesta.
+    c: Obstrucción intestinal o urinaria mecánica.
+    e: Diarrea, cólicos, sialorrea, sudoración, bradicardia; en dosis altas, crisis colinérgica con debilidad.
+    em: Compatible con el embarazo.
+  - n: Sumatriptán
+    g: Antimigrañoso · agonista 5-HT1B/1D (triptán)
+    q: Vasoconstrictor craneal que inhibe la liberación de neuropéptidos en el trigémino.
+    u:
+      - Crisis de migraña moderada a grave.
+      - Cefalea en racimos (vía SC o intranasal).
+    d:
+      - 50–100 mg VO al inicio del dolor; repetir a las 2 h si recurre (máximo 200 mg al día).
+      - 6 mg SC (racimos); 20 mg intranasal.
+    c: Cardiopatía isquémica, ACV o AIT previo, enfermedad arterial periférica, HTA no controlada, migraña hemipléjica o con aura del tronco, uso de IMAO.
+    e: Opresión torácica, parestesias, rubor, mareo y somnolencia.
+    i: Riesgo bajo de síndrome serotoninérgico con ISRS e IRSN.
+    em: Se puede usar en el embarazo si el paracetamol no basta.
+    p: Usar triptanes más de 10 días al mes produce cefalea por abuso de medicamentos.
+  - n: Tiamina
+    g: Vitamina B1
+    q: Cofactor del metabolismo de la glucosa. Su déficit produce la encefalopatía de Wernicke y el beriberi.
+    u:
+      - Encefalopatía de Wernicke (sospechada o confirmada).
+      - Prevención en alcohólicos, desnutridos, hiperémesis, cirugía bariátrica y realimentación.
+      - Antes de dar glucosa a un paciente con riesgo de déficit.
+    d:
+      - Wernicke 200 mg EV cada 8 h (EFNS) o hasta 500 mg EV cada 8 h por 2–3 días; luego 250 mg al día por 3–5 días y 100 mg al día VO.
+      - Prevención 100–300 mg al día.
+    e: Prácticamente ninguno; reacción anafiláctica muy rara con la vía EV.
+    em: Compatible (indicada en la hiperémesis gravídica).
+    p: Corregir también el magnesio; sin magnesio la tiamina no actúa bien.
+  - n: Naltrexona
+    g: Antagonista opioide oral
+    q: Bloquea los receptores opioides; reduce el deseo de consumo y el efecto placentero del alcohol.
+    u:
+      - Trastorno por consumo de alcohol (prevención de recaídas).
+      - Trastorno por consumo de opioides, tras la desintoxicación.
+    d:
+      - 50 mg VO al día.
+    c: Uso actual de opioides (precipita una abstinencia), dolor que requiere opioides, hepatitis aguda o insuficiencia hepática.
+    e: Náuseas, cefalea, mareo y alza de transaminasas.
+    em: Usar si se necesita.
+  - n: Acamprosato
+    g: Modulador glutamatérgico
+    q: Reduce la hiperexcitabilidad glutamatérgica de la abstinencia prolongada; ayuda a mantener la abstinencia del alcohol.
+    u:
+      - Mantención de la abstinencia en el trastorno por consumo de alcohol (iniciar después de la desintoxicación).
+    d:
+      - 666 mg VO cada 8 h si pesa ≥ 60 kg; 666 mg en la mañana y 333 mg a mediodía y en la noche si pesa < 60 kg.
+    a: Depuración 30–50 mL/min, 333 mg cada 8 h; contraindicado si es < 30.
+    c: ERC con depuración < 30 mL/min.
+    e: Diarrea, náuseas y prurito.
+    i: Se puede usar en la hepatopatía (no se metaboliza en el hígado).
+    em: Usar si se necesita.
+  - n: Prometazina
+    g: Antihistamínico fenotiazínico
+    q: Antihistamínico H1 sedante con efecto antiemético y anticolinérgico.
+    u:
+      - Agitación psicótica (asociada a haloperidol IM).
+      - Náuseas y vómitos; reacciones alérgicas.
+    d:
+      - Agitación 25–50 mg IM.
+      - Náuseas 12,5–25 mg VO o IM cada 4–6 h.
+    c: Menores de 2 años (depresión respiratoria fatal), coma, uso de IMAO.
+    e: Sedación, efectos anticolinérgicos, hipotensión, extrapiramidalismo y prolongación del QT. La inyección intraarterial o la extravasación producen necrosis grave.
+    i: Potencia a los depresores del SNC.
+    em: Usar si se necesita.
+    p: Por vía IM, inyectar en un músculo profundo; evitar la vía EV.
