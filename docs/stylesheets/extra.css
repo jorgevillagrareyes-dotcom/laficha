@@ -405,3 +405,15 @@
 .md-copyright, .md-copyright__highlight { color: var(--mi-tenue); }
 .md-footer-meta.md-typeset a { color: var(--mi-tenue); }
 .md-footer-meta.md-typeset a:hover { color: var(--md-default-fg-color); }
+
+/* Preguntas del día */
+.md-typeset .lf-fecha { font-family: var(--mi-display); font-style: italic; color: var(--mi-tenue); text-transform: none; }
+.md-typeset ol.lf-pdia { list-style: none; margin-left: 0; counter-reset: pq; }
+.md-typeset ol.lf-pdia > li.lf-pq { counter-increment: pq; margin: 0 0 1.4em; padding: 0 0 1.2em 2.2em; border-bottom: 1px solid var(--mi-linea); position: relative; }
+.md-typeset ol.lf-pdia > li.lf-pq::before { content: counter(pq); position: absolute; left: 0; top: 0.1em; font-family: var(--mi-display); font-size: 1.3rem; font-weight: 700; color: var(--mi-tenue); }
+.md-typeset .lf-pq-esp { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--mi-tenue); margin: 0 0 0.3em; }
+.md-typeset .lf-pq-esp a { text-transform: none; letter-spacing: 0; }
+.md-typeset .lf-pq-texto { font-weight: 600; margin: 0 0 0.6em; }
+.md-typeset .lf-pq-resp { border-left: 2px solid var(--mi-linea); padding-left: 1rem; margin-top: 0.6em; }
+.md-typeset .lf-pq-marcar { font-size: 0.74rem; color: var(--mi-tenue); }
+.md-typeset .lf-btn[hidden] { display: none; }

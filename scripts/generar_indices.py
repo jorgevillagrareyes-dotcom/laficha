@@ -361,6 +361,7 @@ def main():
     nav += [
         "  - Patologías GES: ges/index.md",
         "  - Estudio:",
+        "      - Preguntas del día: preguntas-del-dia.md",
         "      - Índice A–Z: indice-alfabetico.md",
         "      - Mis temas: mis-temas.md",
         "  - Acerca de:",

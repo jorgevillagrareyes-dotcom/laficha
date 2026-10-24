@@ -238,6 +238,109 @@
     }).catch(function () { caja.innerHTML = ""; });
   }
 
+  // Preguntas del día: 5 preguntas de especialidades distintas, fijas por fecha
+  function azar(semilla) {
+    // Generador pseudoaleatorio reproducible (mulberry32)
+    return function () {
+      semilla |= 0; semilla = (semilla + 0x6D2B79F5) | 0;
+      var t = Math.imul(semilla ^ (semilla >>> 15), 1 | semilla);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function hoy() {
+    var d = new Date();
+    return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+  }
+  function elegir(preguntas, aleatorio) {
+    var porEsp = {};
+    preguntas.forEach(function (q, i) { (porEsp[q.e] = porEsp[q.e] || []).push(i); });
+    var esps = Object.keys(porEsp).sort();
+    for (var i = esps.length - 1; i > 0; i--) {
+      var j = Math.floor(aleatorio() * (i + 1)), t = esps[i]; esps[i] = esps[j]; esps[j] = t;
+    }
+    return esps.slice(0, 5).map(function (e) {
+      var lista = porEsp[e];
+      return lista[Math.floor(aleatorio() * lista.length)];
+    });
+  }
+  function preguntasDelDia() {
+    var caja = document.getElementById("lf-preguntas");
+    if (!caja || caja.getAttribute("data-lf") === "1") return;
+    caja.setAttribute("data-lf", "1");
+    var historial = document.getElementById("lf-historial");
+    fetch(BASE + "preguntas.json").then(function (r) { return r.json(); }).then(function (preguntas) {
+      var fecha = hoy();
+      var semilla = parseInt(fecha.replace(/-/g, ""), 10);
+      function mostrar(indices, etiqueta, extra) {
+        var reg = leer("respuestas", {});
+        var html = "<p class='lf-fecha'>" + etiqueta + "</p><ol class='lf-pdia'>";
+        indices.forEach(function (i, n) {
+          var q = preguntas[i], clave = (extra ? "x" : fecha) + ":" + i, r = reg[clave];
+          html += "<li class='lf-pq' data-i='" + i + "' data-clave='" + clave + "'>" +
+            "<p class='lf-pq-esp'>" + q.e + " · <a href='" + BASE + q.u + "'>" + q.t + "</a></p>" +
+            "<p class='lf-pq-texto'>" + q.p + "</p>" +
+            "<button type='button' class='lf-btn lf-ver'>Ver respuesta</button>" +
+            "<div class='lf-pq-resp' hidden>" + q.r.replace(/(href|src)="(?!https?:|#|\/)/g, '$1="' + BASE) +
+            "<p class='lf-pq-marcar'>¿Acertaste? " +
+            "<button type='button' class='lf-btn" + (r === 1 ? " lf-activo" : "") + "' data-ok='1'>Sí</button> " +
+            "<button type='button' class='lf-btn" + (r === 0 ? " lf-activo" : "") + "' data-ok='0'>No</button></p></div></li>";
+        });
+        html += "</ol><p><button type='button' class='lf-btn lf-otra'>Practicar 5 preguntas más</button></p>";
+        caja.innerHTML = html;
+      }
+      caja.addEventListener("click", function (ev) {
+        var b = ev.target.closest("button");
+        if (!b) return;
+        var li = b.closest(".lf-pq");
+        if (b.classList.contains("lf-ver")) {
+          li.querySelector(".lf-pq-resp").hidden = false; b.hidden = true;
+        } else if (b.hasAttribute("data-ok") && li) {
+          var reg = leer("respuestas", {}), clave = li.getAttribute("data-clave");
+          reg[clave] = parseInt(b.getAttribute("data-ok"), 10);
+          var esp = preguntas[parseInt(li.getAttribute("data-i"), 10)].e;
+          var stats = leer("estadisticas", {});
+          var previo = li.getAttribute("data-marcada");
+          stats[esp] = stats[esp] || { ok: 0, total: 0 };
+          if (previo === null) stats[esp].total++; else if (previo === "1") stats[esp].ok--;
+          if (reg[clave] === 1) stats[esp].ok++;
+          li.setAttribute("data-marcada", String(reg[clave]));
+          guardar("respuestas", reg); guardar("estadisticas", stats);
+          li.querySelectorAll("[data-ok]").forEach(function (x) { x.classList.toggle("lf-activo", x === b); });
+          pintarHistorial();
+        } else if (b.classList.contains("lf-otra")) {
+          mostrar(elegir(preguntas, azar(Date.now() & 0x7fffffff)), "Práctica extra (preguntas al azar)", true);
+          caja.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+      function pintarHistorial() {
+        if (!historial) return;
+        var stats = leer("estadisticas", {}), esps = Object.keys(stats).sort();
+        if (!esps.length) { historial.innerHTML = "<p class='lf-vacio'>Aún no marcas respuestas.</p>"; return; }
+        var tot = 0, ok = 0;
+        var filas = esps.map(function (e) {
+          tot += stats[e].total; ok += stats[e].ok;
+          var pct = stats[e].total ? Math.round(100 * stats[e].ok / stats[e].total) : 0;
+          return "<tr><td>" + e + "</td><td>" + stats[e].ok + " / " + stats[e].total + "</td><td>" + pct + " %</td></tr>";
+        }).join("");
+        historial.innerHTML = "<table><thead><tr><th>Especialidad</th><th>Aciertos</th><th>%</th></tr></thead><tbody>" + filas +
+          "<tr><td><strong>Total</strong></td><td><strong>" + ok + " / " + tot + "</strong></td><td><strong>" +
+          (tot ? Math.round(100 * ok / tot) : 0) + " %</strong></td></tr></tbody></table>";
+      }
+      var fechaLarga = new Date().toLocaleDateString("es-CL", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+      mostrar(elegir(preguntas, azar(semilla)), "Preguntas del " + fechaLarga, false);
+      // Marca las preguntas de hoy ya respondidas para no duplicar el historial
+      var reg = leer("respuestas", {});
+      caja.querySelectorAll(".lf-pq").forEach(function (li) {
+        var r = reg[li.getAttribute("data-clave")];
+        if (r === 0 || r === 1) li.setAttribute("data-marcada", String(r));
+      });
+      pintarHistorial();
+    }).catch(function () {
+      caja.innerHTML = "<p class='lf-vacio'>No se pudieron cargar las preguntas. Revisa tu conexión o descarga el sitio en «Mis temas».</p>";
+    });
+  }
+
   function accesibilidad() {
     var busqueda = document.querySelector(".md-search[role='dialog']");
     if (busqueda && !busqueda.hasAttribute("aria-label")) busqueda.setAttribute("aria-label", "Búsqueda");
@@ -252,6 +355,7 @@
     barraEstudio();
     marcarEnlaces();
     misTemas();
+    preguntasDelDia();
     registrarSW();
     botonSinConexion();
   }

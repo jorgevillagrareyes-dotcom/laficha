@@ -58,6 +58,7 @@ extra_javascript:
 hooks:
   - hooks/acentos.py
   - hooks/offline.py
+  - hooks/preguntas.py
 
 plugins:
   - search:
@@ -466,6 +467,7 @@ nav:
       - "Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento": salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
   - Patologías GES: ges/index.md
   - Estudio:
+      - Preguntas del día: preguntas-del-dia.md
       - Índice A–Z: indice-alfabetico.md
       - Mis temas: mis-temas.md
   - Acerca de:
