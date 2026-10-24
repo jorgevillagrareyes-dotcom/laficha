@@ -20,11 +20,21 @@ hide:
 
 </div>
 
-<div class="accesos" markdown>
+<div class="lf-accesos" markdown>
 
-**[Preguntas del día](preguntas-del-dia.md)** · [Calculadoras](calculadoras.md) · [Fármacos](farmacos.md) · [Índice A–Z](indice-alfabetico.md) · [Mis temas](mis-temas.md) · [Patologías GES](ges/index.md) · [Urgencias](urgencias/index.md) · [Frecuentes en sala](acerca/etiquetas.md#tag:frecuente-en-sala) · [Temas GES por etiqueta](acerca/etiquetas.md#tag:ges) · [Cómo se hizo](acerca/metodologia.md)
+[:material-comment-question-outline: <span><strong>Preguntas del día</strong><small>5 casos clínicos al día</small></span>](preguntas-del-dia.md)
+[:material-calculator-variant-outline: <span><strong>Calculadoras</strong><small>Puntajes y fórmulas</small></span>](calculadoras.md)
+[:material-pill: <span><strong>Fármacos</strong><small>268 fichas con dosis</small></span>](farmacos.md)
+[:material-sort-alphabetical-ascending: <span><strong>Índice A–Z</strong><small>Todos los temas</small></span>](indice-alfabetico.md)
+[:material-bookmark-outline: <span><strong>Mis temas</strong><small>Guardados y sin conexión</small></span>](mis-temas.md)
+[:material-shield-check-outline: <span><strong>Patologías GES</strong><small>Los 90 problemas GES</small></span>](ges/index.md)
+[:material-ambulance: <span><strong>Urgencias</strong><small>Temas de urgencia</small></span>](urgencias/index.md)
+[:material-hospital-building: <span><strong>Frecuentes en sala</strong><small>Lo que más se ve</small></span>](acerca/etiquetas.md#tag:frecuente-en-sala)
 
 </div>
+
+[Cómo se hizo La Ficha](acerca/metodologia.md)
+{ .lf-accesos-nota }
 
 ## Índice
 
