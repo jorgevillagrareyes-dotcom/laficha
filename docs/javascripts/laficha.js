@@ -238,7 +238,13 @@
     }).catch(function () { caja.innerHTML = ""; });
   }
 
+  function accesibilidad() {
+    var busqueda = document.querySelector(".md-search[role='dialog']");
+    if (busqueda && !busqueda.hasAttribute("aria-label")) busqueda.setAttribute("aria-label", "Búsqueda");
+  }
+
   function iniciar() {
+    accesibilidad();
     barraProgreso();
     botonRepaso();
     busquedaSinTildes();

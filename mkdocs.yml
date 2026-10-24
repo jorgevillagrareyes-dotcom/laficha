@@ -9,10 +9,10 @@ use_directory_urls: false
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
-  font:
-    text: Source Sans 3
-    code: JetBrains Mono
+  # Fuentes servidas desde el sitio (docs/assets/fuentes), sin Google Fonts
+  font: false
   icon:
     logo: material/stethoscope
     repo: fontawesome/brands/github

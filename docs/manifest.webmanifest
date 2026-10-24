@@ -1,0 +1,15 @@
+{
+  "name": "La Ficha: resúmenes para el internado y el EUNACOM",
+  "short_name": "La Ficha",
+  "description": "Resúmenes de medicina para el internado y el EUNACOM, basados en guías clínicas vigentes y datos chilenos.",
+  "lang": "es-CL",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "assets/app/icono-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/app/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -25,6 +25,14 @@ Las referencias completas están al final de cada página.
 
 Cada página indica cuándo se revisó por última vez. Las guías cambian: si ves que salió una versión nueva de alguna guía citada, conviene actualizar la página.
 
+## Herramientas de estudio
+
+- **Búsqueda sin tildes y con sinónimos**: al compilar el sitio se genera un diccionario con las palabras del contenido; mientras escribes, el buscador completa las tildes ("sindrome" → "síndrome") y reconoce variantes frecuentes (hipercalemia/hiperkalemia, glucemia/glicemia).
+- **Estudiado, Guardar y tamaño de letra**: se guardan solo en tu navegador (almacenamiento local); no hay cuentas ni se envían datos a ningún servidor. Si borras los datos del navegador o cambias de dispositivo, se pierden.
+- **Sin conexión**: el sitio usa un *service worker*. Las páginas que visitas quedan guardadas y, desde [Mis temas](../mis-temas.md), puedes descargar el sitio completo. Con conexión, siempre se muestra la versión más reciente.
+- **Instalable**: en Android (Chrome) o iPhone (Safari), "Agregar a la pantalla de inicio" la abre a pantalla completa, como una app.
+- **Fuentes y accesibilidad**: las fuentes Source Sans 3 y Source Serif 4 (licencia SIL Open Font License) vienen incluidas en el sitio; el contraste de los textos cumple el nivel AA de las pautas WCAG en modo claro y oscuro.
+
 ## Limitaciones
 
 Los resúmenes se redactan con apoyo de inteligencia artificial. Aunque cada dato relevante está referenciado, pueden existir errores u omisiones, sobre todo en dosis y puntos de corte. Este sitio es una herramienta de estudio personal y no reemplaza la guía original ni el juicio clínico.

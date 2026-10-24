@@ -63,6 +63,13 @@ hide:
 
 Los temarios siguen el **[perfil de conocimientos EUNACOM versión 3](https://www.eunacom.cl/contenidos/Perfil2026.pdf)** (junio 2026, vigente desde diciembre de 2026).
 
+## Cómo usar La Ficha
+
+- **Busca sin preocuparte de las tildes**: escribe "sindrome nefrotico" o "hipercalemia" y el buscador completa la palabra. Atajo: tecla <kbd>/</kbd>.
+- **Marca tu avance**: bajo el título de cada resumen están los botones **Estudiado** y **Guardar**, y **A−/A+** para el tamaño de letra. Tu avance aparece en [Mis temas](mis-temas.md) y en los índices.
+- **Úsala sin internet**: en [Mis temas](mis-temas.md) puedes descargar el sitio completo al teléfono. En el celular, usa "Agregar a la pantalla de inicio" para abrirla como una app.
+- **Repasa**: cada resumen termina con preguntas tipo caso clínico; el botón "Mostrar todas las respuestas" las abre de una vez. Al imprimir, salen con las respuestas.
+
 ## Cómo está armada cada página
 
 Todas las patologías usan las mismas secciones, en este orden, para que sepas dónde buscar:

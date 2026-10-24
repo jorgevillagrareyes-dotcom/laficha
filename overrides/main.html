@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}">
+  <link rel="apple-touch-icon" href="{{ 'assets/app/icono-180.png' | url }}">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17191b" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="La Ficha">
+{% endblock %}
