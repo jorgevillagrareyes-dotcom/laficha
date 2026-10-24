@@ -1,0 +1,199 @@
+orden: 2
+titulo: Antivirales, antifúngicos y antiparasitarios
+farmacos:
+  - n: Aciclovir
+    g: Antiviral análogo de nucleósido
+    q: Inhibe la ADN polimerasa de los virus herpes simple y varicela zóster tras ser activado por la timidina quinasa viral.
+    u:
+      - Encefalitis herpética (también empírica ante la sospecha).
+      - Herpes genital, herpes zóster y varicela del adulto.
+      - Infecciones herpéticas graves en inmunosuprimidos.
+    d:
+      - Encefalitis 10 mg/kg EV cada 8 h por 14–21 días.
+      - Herpes zóster o varicela 800 mg VO 5 veces al día por 7 días.
+      - Primoinfección por herpes genital 400 mg VO cada 8 h por 7–10 días.
+    a: Ajustar a la función renal.
+    c: Alergia a aciclovir o valaciclovir.
+    e: Nefrotoxicidad por cristales (hidratar bien con la vía EV), neurotoxicidad (confusión, temblor) en la ERC y flebitis.
+    i: Más nefrotoxicidad con otros nefrotóxicos.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Valaciclovir
+    g: Antiviral · profármaco del aciclovir
+    q: Profármaco oral del aciclovir con mejor biodisponibilidad, que permite menos tomas al día.
+    u:
+      - Herpes zóster (idealmente en las primeras 72 h).
+      - Herpes genital (primoinfección, recurrencias y supresión) y herpes labial.
+      - Parálisis facial con sospecha de síndrome de Ramsay Hunt (con corticoides).
+    d:
+      - Herpes zóster 1 g VO cada 8 h por 7 días.
+      - Primoinfección genital 1 g VO cada 12 h por 7–10 días; recurrencia 500 mg cada 12 h por 3 días.
+      - Herpes labial 2 g VO cada 12 h por 1 día.
+    a: Ajustar a la función renal.
+    c: Alergia a aciclovir o valaciclovir.
+    e: Cefalea, náuseas y neurotoxicidad en la ERC.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Famciclovir
+    g: Antiviral · profármaco del penciclovir
+    q: Profármaco oral del penciclovir, activo contra herpes simple y varicela zóster.
+    u:
+      - Herpes zóster.
+      - Herpes genital y labial recurrentes.
+    d:
+      - Herpes zóster 500 mg VO cada 8 h por 7 días.
+      - Herpes genital recurrente 1 g VO cada 12 h por 1 día.
+    a: Ajustar a la función renal.
+    e: Cefalea y náuseas.
+    em: Preferir aciclovir o valaciclovir en el embarazo (más experiencia).
+  - n: Valganciclovir
+    g: Antiviral · profármaco del ganciclovir
+    q: Profármaco oral del ganciclovir, activo contra citomegalovirus (CMV).
+    u:
+      - Profilaxis y tratamiento de la infección por CMV en trasplantados.
+      - Retinitis por CMV en personas con VIH.
+    d:
+      - Tratamiento (inducción) 900 mg VO cada 12 h por 21 días; luego 900 mg al día.
+      - Profilaxis 900 mg VO al día.
+    a: Ajustar estrictamente a la función renal.
+    c: Neutrófilos < 500/µL, plaquetas < 25.000/µL o Hb < 8 g/dL. Embarazo.
+    e: Mielosupresión (neutropenia, anemia, trombocitopenia), diarrea; es teratogénico y carcinogénico.
+    i: Más mielosupresión con micofenolato, cotrimoxazol y zidovudina.
+    em: Contraindicado en el embarazo; usar anticoncepción eficaz.
+  - n: Oseltamivir
+    g: Antiviral inhibidor de la neuraminidasa
+    q: Inhibe la neuraminidasa de los virus influenza A y B y limita su replicación.
+    u:
+      - Influenza en hospitalizados, graves o con alto riesgo (≥ 65 años, embarazo, comorbilidad), aunque hayan pasado más de 48 h.
+      - Profilaxis de contactos de alto riesgo.
+    d:
+      - Tratamiento 75 mg VO cada 12 h por 5 días.
+      - Profilaxis 75 mg VO al día por 10 días.
+    a: Depuración 30–60 mL/min 30 mg cada 12 h; 10–30 mL/min 30 mg al día.
+    e: Náuseas y vómitos (tomar con comida); rara vez, síntomas neuropsiquiátricos.
+    em: Recomendado en la embarazada con influenza (alto riesgo de complicaciones).
+    p: Iniciarlo cuanto antes, sin esperar la confirmación, en el paciente grave o de riesgo.
+  - n: Entecavir
+    g: Antiviral contra el virus de la hepatitis B
+    q: Análogo de nucleósido con alta potencia y alta barrera a la resistencia contra el VHB.
+    u:
+      - Hepatitis B crónica con indicación de tratamiento.
+      - Profilaxis de la reactivación del VHB antes de inmunosupresión intensa (rituximab, quimioterapia).
+    d:
+      - 0,5 mg VO al día en ayunas (1 mg si hay resistencia a lamivudina).
+    a: Ajustar a la función renal.
+    e: Cefalea y fatiga. Al suspenderlo puede haber una reactivación grave de la hepatitis.
+    i: No es activo contra el VIH como tratamiento; en coinfectados, el esquema debe incluir fármacos activos contra ambos virus.
+    em: En el embarazo se prefiere tenofovir.
+  - n: Nirsevimab
+    g: Anticuerpo monoclonal contra el virus respiratorio sincicial
+    q: Anticuerpo monoclonal de vida media prolongada contra la proteína F del VRS. Da protección pasiva durante toda la temporada con una sola dosis.
+    u:
+      - Prevención de la infección grave por VRS en lactantes en su primera temporada (estrategia nacional en Chile).
+      - Segunda temporada en niños con alto riesgo (cardiopatías, prematurez extrema, enfermedad pulmonar crónica).
+    dt: Dosis (lactantes)
+    d:
+      - Peso < 5 kg 50 mg IM en dosis única.
+      - Peso ≥ 5 kg 100 mg IM en dosis única.
+      - Segunda temporada en niños de riesgo 200 mg IM.
+    e: Exantema, fiebre y reacciones en el sitio de punción, poco frecuentes.
+    i: Puede administrarse junto con las vacunas del calendario.
+  - n: Anfotericina B
+    g: Antifúngico poliénico
+    q: Antifúngico de muy amplio espectro que se une al ergosterol de la membrana fúngica. La formulación liposomal es menos nefrotóxica.
+    u:
+      - Meningitis criptocócica (inducción, con flucitosina).
+      - Mucormicosis.
+      - Histoplasmosis y otras micosis endémicas graves; candidiasis y aspergilosis refractarias.
+    d:
+      - Liposomal 3–5 mg/kg EV al día (mucormicosis 5–10 mg/kg).
+      - Desoxicolato 0,7–1 mg/kg EV al día.
+    a: Preferir la liposomal en la ERC; hidratar con suero fisiológico antes de cada dosis.
+    e: Nefrotoxicidad, hipokalemia, hipomagnesemia, acidosis tubular, reacciones a la infusión (fiebre, calofríos) y anemia.
+    i: Más nefrotoxicidad con aminoglicósidos, vancomicina y ciclosporina.
+    em: Es el antifúngico de elección para las micosis graves en el embarazo.
+  - n: Caspofungina
+    g: Antifúngico equinocandina
+    q: Inhibe la síntesis de la pared fúngica (beta-glucano). Fungicida contra Candida, incluida C. glabrata.
+    u:
+      - Candidemia y candidiasis invasora (primera línea).
+      - Neutropenia febril persistente (empírica) y aspergilosis refractaria.
+    d:
+      - 70 mg EV de carga y luego 50 mg EV al día.
+    a: En la insuficiencia hepática moderada, 35 mg al día después de la carga. No requiere ajuste renal.
+    e: Buen perfil. Flebitis, alza de transaminasas y reacciones por liberación de histamina.
+    i: No alcanza buenas concentraciones en el ojo, el SNC ni la orina.
+    em: Usar si el beneficio lo justifica.
+  - n: Fluconazol
+    g: Antifúngico azólico
+    q: Azol con buena biodisponibilidad oral y penetración en el SNC y la orina. Activo contra la mayoría de Candida albicans y Cryptococcus; no contra Aspergillus ni C. krusei.
+    u:
+      - Candidiasis vulvovaginal, orofaríngea y esofágica.
+      - Candidemia por cepas sensibles, como paso a vía oral.
+      - Meningitis criptocócica (consolidación y mantención).
+    d:
+      - Candidiasis vulvovaginal 150 mg VO en dosis única.
+      - Candidiasis orofaríngea 100–200 mg al día por 7–14 días; esofágica 200–400 mg al día por 14–21 días.
+      - Candidemia 800 mg de carga y luego 400 mg al día.
+    a: Reducir la dosis a la mitad con depuración < 50 mL/min (después de la carga).
+    c: Uso de fármacos que prolongan mucho el QT. Alergia a azoles.
+    e: Náuseas, hepatotoxicidad y prolongación del QT.
+    i: Inhibe el CYP2C9 y el CYP3A4. Aumenta el INR con warfarina y los niveles de sulfonilureas, fenitoína y estatinas.
+    em: Evitar dosis altas o prolongadas en el embarazo (teratogénico). En la candidiasis vaginal de la embarazada se prefieren los azoles tópicos.
+  - n: Nistatina
+    g: Antifúngico poliénico no absorbible
+    q: Antifúngico que no se absorbe en el intestino; actúa por contacto sobre Candida.
+    u:
+      - Candidiasis oral (algorra) y del pañal.
+    d:
+      - Suspensión 100.000 UI/mL, 4–6 mL cada 6 h por 7–14 días; mantener en la boca antes de tragar.
+    e: Náuseas y diarrea leves.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Albendazol
+    g: Antiparasitario benzimidazol
+    q: Antihelmíntico de amplio espectro que inhibe la polimerización de la tubulina del parásito.
+    u:
+      - Neurocisticercosis (con corticoides).
+      - Hidatidosis (antes y después de la cirugía o la punción).
+      - Triquinosis, ascariasis, uncinariasis, oxiuriasis y toxocariasis.
+    d:
+      - Geohelmintos y oxiuros 400 mg VO en dosis única (oxiuros, repetir a las 2 semanas).
+      - Neurocisticercosis 15 mg/kg/día (máximo 800 mg) en 2 tomas por 10–14 días.
+      - Hidatidosis 400 mg VO cada 12 h en ciclos.
+      - Triquinosis 400 mg VO cada 12 h por 10–14 días.
+    c: Embarazo (primer trimestre).
+    e: Dolor abdominal, alza de transaminasas, neutropenia y alopecia en tratamientos largos.
+    i: Tomarlo con comida grasa aumenta su absorción en las infecciones tisulares.
+    em: Evitar en el primer trimestre del embarazo.
+    p: En los tratamientos largos, controlar el hemograma y las transaminasas cada 2 semanas.
+  - n: Mebendazol
+    g: Antiparasitario benzimidazol
+    q: Antihelmíntico de acción intestinal (se absorbe poco).
+    u:
+      - Oxiuriasis, ascariasis, tricocefalosis y uncinariasis.
+    d:
+      - Oxiuros 100 mg VO en dosis única; repetir a las 2 semanas y tratar a la familia.
+      - Ascariasis y tricocefalosis 100 mg VO cada 12 h por 3 días o 500 mg en dosis única.
+    e: Dolor abdominal y diarrea.
+    em: Evitar en el primer trimestre del embarazo.
+  - n: Ivermectina
+    g: Antiparasitario avermectina
+    q: Antiparasitario que paraliza nematodos y ectoparásitos.
+    u:
+      - Estrongiloidiasis (también antes de iniciar corticoides en personas de riesgo).
+      - Escabiosis (sarna), incluida la costrosa junto a permetrina, y pediculosis.
+    d:
+      - Estrongiloidiasis 200 µg/kg VO al día por 1–2 días.
+      - Escabiosis 200 µg/kg VO; repetir a los 7–14 días.
+    c: Embarazo. Niños de menos de 15 kg.
+    e: Prurito, mareo y náuseas.
+    em: Evitar en el embarazo.
+  - n: Cloroquina
+    g: Antipalúdico 4-aminoquinolina
+    q: Antipalúdico esquizonticida sanguíneo. Muchas cepas de Plasmodium falciparum son resistentes.
+    u:
+      - Malaria por P. vivax, P. ovale y P. malariae, y P. falciparum de zonas sin resistencia.
+    d:
+      - 10 mg/kg de cloroquina base VO, luego 5 mg/kg a las 6, 24 y 48 h (total 25 mg/kg base).
+      - En la malaria por P. vivax o P. ovale se agrega primaquina (tras descartar déficit de G6PD).
+    e: Prurito, molestias digestivas, prolongación del QT, hipoglicemia y retinopatía con uso prolongado.
+    i: Precaución con otros fármacos que prolongan el QT.
+    em: Compatible con el embarazo.

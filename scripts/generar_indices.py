@@ -67,6 +67,13 @@ Fuente: [Perfil de Conocimientos EUNACOM, versión 3 (junio 2026)](https://www.e
 """
 
 
+def slug(texto):
+    """Identificador simple para anclas (sin tildes ni espacios)."""
+    s = unicodedata.normalize("NFD", texto.lower())
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
 def titulo_pagina(ruta_doc):
     """Devuelve el H1 de una página de docs/."""
     for linea in (DOCS / ruta_doc).read_text(encoding="utf-8").splitlines():
@@ -385,32 +392,53 @@ def main():
             for nombre, patron in farmacos:
                 if patron.search(texto):
                     usos[nombre].append((texto, titulo, ruta))
-    con_datos = [(n, u) for n, u in usos.items() if u]
-    con_datos.sort(key=lambda x: clave(x[0]))
-    letras_f = OrderedDict()
-    for n, _ in con_datos:
-        letras_f.setdefault(clave(n)[:1].upper(), n)
+    # Fichas de fármacos: datos/farmacos/*.yml (escritas a mano) + resúmenes donde aparece la dosis
+    paginas_de_farmaco = {n: list(OrderedDict(((t, r), None) for _x, t, r in u)) for n, u in usos.items()}
+    grupos = []
+    for archivo in sorted((RAIZ / "datos" / "farmacos").glob("*.yml")):
+        datos = yaml.safe_load(archivo.read_text(encoding="utf-8"))
+        grupos.append((datos["orden"], datos["titulo"], datos.get("intro", ""), datos["farmacos"]))
+    grupos.sort()
+    total_f = sum(len(g[3]) for g in grupos)
     partes = [
         "---\nhide:\n  - toc\n---\n",
-        "# Índice de fármacos\n",
-        f"Dónde aparece la dosis de **{len(con_datos)} fármacos** en los resúmenes de La Ficha. "
-        "Cada línea viene del recuadro de dosis o de la tabla de dosis de un resumen, con el enlace a la página para ver el contexto "
-        "(indicación, ajuste renal y precauciones).\n",
-        '!!! warning "Antes de indicar"\n    Las dosis se muestran fuera de su contexto clínico. Revisa siempre el resumen completo, '
-        "la función renal y hepática, el peso, las interacciones y el protocolo de tu centro.\n",
-        '<input type="search" class="farm-filtro" placeholder="Filtrar por nombre, por ejemplo: amoxicilina" aria-label="Filtrar fármacos">\n',
-        '<p class="az-letras">' + " ".join(f'<a href="#f-{l.lower()}">{l}</a>' for l in letras_f) + "</p>\n",
+        "# Fármacos\n",
+        f"Fichas de **{total_f} fármacos** usados en los resúmenes de La Ficha: qué es, para qué se usa, dosis habitual en adultos, "
+        "ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. Toca el nombre para abrir la ficha.\n",
+        '!!! warning "Antes de indicar"\n    Las dosis son las habituales en adultos con función renal y hepática normales. '
+        "Revisa la indicación en el resumen correspondiente, el peso, la función renal, las interacciones, la ficha técnica (ISP) "
+        "y el protocolo de tu centro.\n",
+        '<input type="search" class="farm-filtro" placeholder="Buscar fármaco, grupo o uso; por ejemplo: amoxicilina, betabloqueador" aria-label="Buscar fármacos">\n',
+        '<p class="farm-grupos">' + " · ".join(f'<a href="#{slug(t)}">{t}</a>' for _o, t, _i, _f in grupos) + "</p>\n",
     ]
-    letra_actual = None
-    for nombre, lista in con_datos:
-        letra = clave(nombre)[:1].upper()
-        if letra != letra_actual:
-            partes.append(f'<span id="f-{letra.lower()}" class="farm-ancla"></span>\n')
-            letra_actual = letra
-        partes.append(f'??? farmaco "{nombre} ({len(lista)})"')
-        for texto, titulo, ruta in lista[:40]:
-            partes.append(f"    - {texto} — *[{titulo}]({ruta})*")
-        partes.append("")
+    def bloque(etiqueta, valor):
+        if not valor:
+            return []
+        if isinstance(valor, list):
+            return [f"    **{etiqueta}**", ""] + [f"    - {x}" for x in valor] + [""]
+        return [f"    **{etiqueta}.** {valor}", ""]
+    for _orden, titulo, intro, lista in grupos:
+        partes.append(f"## {titulo} {{ #{slug(titulo)} }}\n")
+        if intro:
+            partes.append(intro + "\n")
+        for f in sorted(lista, key=lambda x: clave(x["n"])):
+            partes.append(f'??? farmaco "{f["n"]}"')
+            partes.append(f'    <p class="farm-grupo">{f["g"]}</p>')
+            partes.append("")
+            partes += bloque("Qué es", f.get("q"))
+            partes += bloque("Para qué se usa", f.get("u"))
+            partes += bloque(f.get("dt", "Dosis habitual en adultos"), f.get("d"))
+            partes += bloque("Ajustes", f.get("a"))
+            partes += bloque("Contraindicaciones", f.get("c"))
+            partes += bloque("Efectos adversos", f.get("e"))
+            partes += bloque("Interacciones y precauciones", f.get("i"))
+            partes += bloque("Embarazo y lactancia", f.get("em"))
+            if f.get("p"):
+                partes += ['    !!! perla "Perla"', f'        {f["p"]}', ""]
+            enlaces = paginas_de_farmaco.get(f["n"], [])
+            if enlaces:
+                partes.append("    **En La Ficha:** " + " · ".join(f"[{t}]({r})" for t, r in enlaces))
+                partes.append("")
     (DOCS / "farmacos.md").write_text("\n".join(partes), encoding="utf-8")
 
     # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)

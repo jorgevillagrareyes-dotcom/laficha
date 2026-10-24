@@ -1,0 +1,562 @@
+orden: 1
+titulo: Antibióticos
+farmacos:
+  - n: Amikacina
+    g: Antibiótico aminoglicósido
+    q: Aminoglicósido bactericida que inhibe la síntesis proteica bacteriana (subunidad 30S). Cubre bacilos gramnegativos, incluida Pseudomonas; no cubre anaerobios.
+    u:
+      - Infecciones graves por gramnegativos multirresistentes, en combinación.
+      - Tuberculosis multirresistente (segunda línea).
+    d:
+      - 15 mg/kg EV cada 24 h (dosis única diaria). Ajustar con niveles plasmáticos.
+    a: En la ERC se alarga el intervalo según la función renal y los niveles. Usar el peso ajustado en la obesidad.
+    c: Alergia a aminoglicósidos. Precaución en la miastenia gravis.
+    e: Nefrotoxicidad (habitualmente reversible), ototoxicidad coclear y vestibular (irreversible) y bloqueo neuromuscular.
+    i: Más nefrotoxicidad con vancomicina, AINE, contraste yodado y diuréticos de asa.
+    em: Evitar en el embarazo salvo que no haya alternativa (ototoxicidad fetal).
+    p: Usar cursos cortos (idealmente ≤ 5–7 días) y controlar la creatinina cada 2–3 días.
+  - n: Amoxicilina
+    g: Antibiótico betalactámico · aminopenicilina
+    q: Penicilina de espectro ampliado. Cubre estreptococos (incluido neumococo), enterococo sensible, Listeria y algunos gramnegativos; la inactivan las betalactamasas.
+    u:
+      - Neumonía adquirida en la comunidad ambulatoria sin comorbilidad.
+      - Faringoamigdalitis estreptocócica, otitis media aguda y sinusitis bacteriana.
+      - Erradicación de Helicobacter pylori (en terapias combinadas).
+      - Profilaxis de endocarditis en procedimientos dentales de riesgo.
+    d:
+      - NAC ambulatoria 1 g VO cada 8 h.
+      - Faringoamigdalitis 500 mg VO cada 8–12 h por 10 días.
+      - H. pylori 1 g VO cada 12 h por 14 días, con IBP y un segundo antibiótico.
+      - Profilaxis de endocarditis 2 g VO 30–60 min antes del procedimiento.
+    a: Con depuración < 30 mL/min, cada 12 h.
+    c: Alergia a penicilinas.
+    e: Diarrea, náuseas, exantema (muy frecuente si se da en una mononucleosis), candidiasis y, rara vez, anafilaxia.
+    i: Más exantema con alopurinol. Puede aumentar el INR con anticoagulantes orales y la toxicidad del metotrexato.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Amoxicilina-ácido clavulánico
+    g: Antibiótico betalactámico con inhibidor de betalactamasas
+    q: Amoxicilina asociada a ácido clavulánico, que bloquea las betalactamasas. Agrega cobertura de Haemophilus y Moraxella productores de betalactamasa, Staphylococcus aureus sensible a meticilina y anaerobios.
+    u:
+      - NAC ambulatoria con comorbilidad (con un macrólido).
+      - Mordeduras de animales y humanas.
+      - Sinusitis y otitis que no responden a amoxicilina.
+      - Infecciones odontogénicas, pie diabético leve, celulitis con riesgo de anaerobios.
+    d:
+      - 875/125 mg VO cada 12 h o 500/125 mg VO cada 8 h.
+    a: Con depuración < 30 mL/min no usar la presentación de 875 mg; usar 500/125 mg cada 12–24 h.
+    c: Alergia a penicilinas. Antecedente de ictericia colestásica por amoxicilina-ácido clavulánico.
+    e: Diarrea (más que la amoxicilina sola), náuseas, exantema y hepatitis colestásica (más en hombres mayores, puede aparecer semanas después).
+    i: Las mismas de la amoxicilina.
+    em: Compatible. Evitarla en la rotura prematura de membranas (se asoció a enterocolitis necrotizante neonatal).
+  - n: Ampicilina
+    g: Antibiótico betalactámico · aminopenicilina endovenosa
+    q: Aminopenicilina de uso endovenoso. Es el antibiótico de elección para Listeria y Enterococcus faecalis.
+    u:
+      - Meningitis con riesgo de Listeria (mayores de 50 años, embarazadas, inmunosuprimidos), junto a ceftriaxona.
+      - Endocarditis e infecciones por enterococo sensible.
+      - Profilaxis intraparto del estreptococo grupo B y sepsis neonatal precoz (con gentamicina).
+    d:
+      - 1–2 g EV cada 4–6 h.
+      - Meningitis 2 g EV cada 4 h.
+      - Profilaxis de estreptococo grupo B 2 g EV y luego 1 g EV cada 4 h hasta el parto.
+    a: Alargar el intervalo en la ERC.
+    c: Alergia a penicilinas.
+    e: Exantema, diarrea, flebitis y reacciones alérgicas.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Ampicilina-sulbactam
+    g: Antibiótico betalactámico con inhibidor de betalactamasas
+    q: Ampicilina con sulbactam. Cubre grampositivos, anaerobios y parte de los gramnegativos; el sulbactam tiene actividad propia contra Acinetobacter.
+    u:
+      - Neumonía aspirativa y absceso pulmonar.
+      - Infecciones intraabdominales y ginecológicas comunitarias leves a moderadas.
+      - Pie diabético, mordeduras e infecciones de cabeza y cuello.
+    d:
+      - 1,5–3 g EV cada 6 h.
+    a: Alargar el intervalo en la ERC.
+    c: Alergia a penicilinas.
+    e: Diarrea, exantema y flebitis.
+    i: La resistencia de E. coli a ampicilina-sulbactam es alta; revisar la epidemiología local antes de usarla en infecciones por gramnegativos.
+    em: Compatible.
+  - n: Azitromicina
+    g: Antibiótico macrólido (azálida)
+    q: Macrólido de vida media larga que se concentra en los tejidos. Cubre gérmenes atípicos (Mycoplasma, Chlamydophila, Legionella), Chlamydia trachomatis, Bordetella y algunos enteropatógenos.
+    u:
+      - NAC, combinada con un betalactámico (cobertura de atípicos).
+      - Uretritis y cervicitis por Chlamydia.
+      - Coqueluche.
+      - Diarrea por Campylobacter o Shigella y diarrea del viajero.
+    d:
+      - 500 mg VO o EV al día por 3 días (o 500 mg el día 1 y 250 mg los días 2 a 5).
+      - Chlamydia 1 g VO en dosis única (la doxiciclina por 7 días es preferible).
+    a: No requiere ajuste renal. Precaución en la insuficiencia hepática.
+    c: Alergia a macrólidos. Antecedente de ictericia por azitromicina.
+    e: Náuseas, diarrea, dolor abdominal, prolongación del QT y hepatotoxicidad poco frecuente.
+    i: Precaución con otros fármacos que prolongan el QT. Interactúa menos con el CYP3A4 que la claritromicina.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Cefadroxilo
+    g: Antibiótico betalactámico · cefalosporina de primera generación oral
+    q: Cefalosporina oral de vida media larga. Cubre estreptococos y Staphylococcus aureus sensible a meticilina, y algunos gramnegativos urinarios.
+    u:
+      - Infecciones de piel y partes blandas no complicadas (celulitis, impétigo extenso).
+      - Mastitis puerperal (alternativa).
+      - Infección urinaria baja, también en el embarazo.
+    d:
+      - 500 mg a 1 g VO cada 12 h.
+    a: Alargar el intervalo con depuración < 50 mL/min.
+    c: Alergia a cefalosporinas. Evitar en la alergia grave a amoxicilina (comparten la cadena lateral).
+    e: Diarrea, náuseas y exantema.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Cefalexina
+    g: Antibiótico betalactámico · cefalosporina de primera generación oral
+    q: Cefalosporina oral activa contra estreptococos, Staphylococcus aureus sensible a meticilina y algunos gramnegativos urinarios.
+    u:
+      - Celulitis no purulenta e impétigo.
+      - Infección urinaria baja (incluido el embarazo).
+    d:
+      - 500 mg VO cada 6–8 h.
+    a: Alargar el intervalo en la ERC avanzada.
+    c: Alergia a cefalosporinas. Evitar en la alergia grave a ampicilina (comparten la cadena lateral).
+    e: Diarrea, náuseas y exantema.
+    em: Compatible.
+  - n: Cefazolina
+    g: Antibiótico betalactámico · cefalosporina de primera generación endovenosa
+    q: Cefalosporina endovenosa muy activa contra Staphylococcus aureus sensible a meticilina y estreptococos.
+    u:
+      - Profilaxis antibiótica quirúrgica (la más usada).
+      - Bacteriemia, endocarditis y osteomielitis por S. aureus sensible a meticilina.
+      - Celulitis que requiere hospitalización.
+    d:
+      - Profilaxis 2 g EV 30–60 min antes de la incisión (3 g si pesa ≥ 120 kg); repetir cada 4 h de cirugía.
+      - Tratamiento 1–2 g EV cada 8 h.
+    a: Alargar el intervalo en la ERC.
+    c: Alergia grave a cefalosporinas.
+    e: Exantema, flebitis y, rara vez, anafilaxia.
+    em: Compatible con el embarazo (profilaxis en la cesárea).
+  - n: Cefepime
+    g: Antibiótico betalactámico · cefalosporina de cuarta generación
+    q: Cefalosporina de amplio espectro con actividad antipseudomónica y buena cobertura de grampositivos.
+    u:
+      - Neutropenia febril.
+      - Infecciones asociadas a la atención de salud y por Pseudomonas aeruginosa.
+    d:
+      - 2 g EV cada 8 h.
+    a: Ajustar siempre a la función renal.
+    c: Alergia a cefalosporinas.
+    e: Exantema, diarrea y neurotoxicidad (encefalopatía, mioclonías, estado epiléptico no convulsivo), sobre todo si no se ajusta en la ERC.
+    em: Compatible si se necesita.
+    p: Ante un paciente con ERC que recibe cefepime y se pone confuso, pensar en neurotoxicidad y pedir un EEG.
+  - n: Cefotaxima
+    g: Antibiótico betalactámico · cefalosporina de tercera generación
+    q: Cefalosporina endovenosa de espectro similar a la ceftriaxona, pero de vida media corta.
+    u:
+      - Meningitis bacteriana y sepsis en recién nacidos (se prefiere a la ceftriaxona).
+      - Peritonitis bacteriana espontánea.
+    d:
+      - 1–2 g EV cada 6–8 h; meningitis 2 g EV cada 4–6 h.
+    a: Alargar el intervalo en la ERC avanzada.
+    c: Alergia a cefalosporinas.
+    e: Exantema, diarrea y flebitis.
+    em: Compatible.
+  - n: Ceftazidima
+    g: Antibiótico betalactámico · cefalosporina de tercera generación antipseudomónica
+    q: Cefalosporina con buena actividad contra Pseudomonas aeruginosa y escasa actividad contra grampositivos.
+    u:
+      - Infecciones por Pseudomonas aeruginosa.
+      - Neutropenia febril (alternativa).
+    d:
+      - 2 g EV cada 8 h.
+    a: Ajustar a la función renal.
+    c: Alergia a cefalosporinas.
+    e: Exantema, diarrea y neurotoxicidad en la ERC.
+    i: No cubre bien estafilococos ni estreptococos; no usarla sola si se sospechan grampositivos.
+    em: Compatible si se necesita.
+  - n: Ceftriaxona
+    g: Antibiótico betalactámico · cefalosporina de tercera generación
+    q: Cefalosporina de vida media larga (una dosis al día) con buena penetración en el SNC. Cubre neumococo, meningococo, Haemophilus, enterobacterias comunitarias, gonococo y Salmonella; no cubre Pseudomonas, enterococo ni Listeria.
+    u:
+      - NAC hospitalizada (con un macrólido).
+      - Meningitis bacteriana.
+      - Pielonefritis e infección urinaria complicada.
+      - Peritonitis bacteriana espontánea y profilaxis en la hemorragia digestiva del cirrótico.
+      - Gonorrea, fiebre tifoidea y neurosífilis (alternativa).
+    d:
+      - 1–2 g EV o IM cada 24 h.
+      - Meningitis 2 g EV cada 12 h.
+      - Gonorrea 500 mg IM en dosis única (1 g si pesa ≥ 150 kg).
+      - HDA en el cirrótico 1 g EV cada 24 h hasta por 7 días.
+    a: No requiere ajuste renal habitual (eliminación renal y biliar).
+    c: Alergia a cefalosporinas. Recién nacidos con hiperbilirrubinemia; no administrar junto con calcio endovenoso en neonatos.
+    e: Barro biliar (seudolitiasis), diarrea y Clostridioides difficile, exantema y, rara vez, anemia hemolítica inmune.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Ciprofloxacino
+    g: Antibiótico fluoroquinolona
+    q: Fluoroquinolona con buena actividad contra gramnegativos, incluida Pseudomonas, y escasa contra neumococo. Excelente biodisponibilidad oral.
+    u:
+      - Pielonefritis y prostatitis (según la resistencia local).
+      - Diarrea bacteriana invasora y fiebre tifoidea.
+      - Profilaxis de contactos de meningitis meningocócica.
+    d:
+      - 500 mg VO cada 12 h (pielonefritis por 7 días).
+      - 400 mg EV cada 8–12 h.
+      - Profilaxis meningocócica 500 mg VO en dosis única.
+    a: Reducir la dosis con depuración < 30 mL/min.
+    c: Miastenia gravis (la empeora). Antecedente de tendinopatía por quinolonas. Evitar en el embarazo y en los niños si hay alternativa.
+    e: Tendinitis y rotura del tendón de Aquiles (más en adultos mayores y con corticoides), prolongación del QT, disglicemias, neuropatía periférica, delirium, aneurisma aórtico y C. difficile.
+    i: Separar 2 h de antiácidos, calcio, hierro y zinc (quelación). Aumenta los niveles de teofilina y tizanidina y el INR con warfarina.
+    em: Evitar en el embarazo. Preferir otra opción en la lactancia.
+    p: Las agencias regulatorias restringen las quinolonas en infecciones leves (cistitis no complicada, sinusitis, bronquitis) por sus efectos adversos.
+  - n: Claritromicina
+    g: Antibiótico macrólido
+    q: Macrólido con actividad contra atípicos, Helicobacter pylori y micobacterias no tuberculosas.
+    u:
+      - Erradicación de H. pylori (donde la resistencia a claritromicina es baja).
+      - NAC (cobertura de atípicos).
+      - Infecciones por Mycobacterium avium.
+    d:
+      - 500 mg VO cada 12 h.
+    a: Reducir la dosis a la mitad con depuración < 30 mL/min.
+    c: Uso de simvastatina, lovastatina, colchicina (en ERC o insuficiencia hepática), ergotamina o fármacos que prolongan el QT.
+    e: Disgeusia, náuseas, diarrea, prolongación del QT y hepatotoxicidad.
+    i: Potente inhibidor del CYP3A4 y la glicoproteína P. Aumenta los niveles de estatinas, colchicina, tacrolimus, ciclosporina, bloqueadores del calcio, ACOD y warfarina.
+    em: Evitar en el embarazo si hay alternativa.
+  - n: Clindamicina
+    g: Antibiótico lincosamida
+    q: Antibiótico bacteriostático activo contra grampositivos (incluido parte del SAMR comunitario) y anaerobios. Inhibe la producción de toxinas.
+    u:
+      - Infecciones de piel y partes blandas, en especial en alérgicos a penicilina o con sospecha de SAMR comunitario.
+      - Fasceítis necrotizante y shock tóxico (con un betalactámico, para frenar la toxina).
+      - Infecciones odontogénicas y absceso pulmonar.
+      - Endometritis puerperal (con gentamicina), vaginosis bacteriana y toxoplasmosis.
+    d:
+      - 300–450 mg VO cada 6–8 h.
+      - 600–900 mg EV cada 8 h (endometritis 900 mg EV cada 8 h).
+    a: No requiere ajuste renal; precaución en la insuficiencia hepática.
+    c: Alergia a lincosamidas. Antecedente de colitis por C. difficile.
+    e: Diarrea y colitis por Clostridioides difficile (el antibiótico más asociado), exantema y elevación de transaminasas.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Cloxacilina
+    g: Antibiótico betalactámico · penicilina antiestafilocócica
+    q: Penicilina resistente a la penicilinasa estafilocócica. Tratamiento de elección del Staphylococcus aureus sensible a meticilina.
+    u:
+      - Impétigo, celulitis, mastitis y abscesos por S. aureus.
+      - Bacteriemia, endocarditis y osteomielitis por S. aureus sensible a meticilina (EV).
+    d:
+      - 500 mg a 1 g VO cada 6 h, en ayunas.
+      - 2 g EV cada 4 h en infecciones graves.
+    c: Alergia a penicilinas.
+    e: Molestias digestivas, flebitis, hepatitis colestásica y nefritis intersticial.
+    em: Compatible con el embarazo y la lactancia.
+  - n: Cotrimoxazol
+    g: Antibiótico sulfonamida con trimetoprim
+    q: Asociación de sulfametoxazol y trimetoprim que bloquea dos pasos de la síntesis de folato bacteriano. Cubre enterobacterias, SAMR comunitario, Pneumocystis, Toxoplasma, Nocardia y Stenotrophomonas.
+    u:
+      - Cistitis (si la resistencia local es < 20 %).
+      - Tratamiento y profilaxis de Pneumocystis jirovecii; profilaxis de toxoplasmosis.
+      - Infecciones de piel por SAMR comunitario.
+    d:
+      - Cistitis 160/800 mg VO cada 12 h por 3 días.
+      - Profilaxis de Pneumocystis 160/800 mg VO al día (o 3 veces por semana).
+      - Neumonía por Pneumocystis 15–20 mg/kg/día de trimetoprim, en 3–4 dosis.
+    a: Reducir la dosis a la mitad con depuración 15–30 mL/min; evitar si es < 15.
+    c: Alergia a sulfas. Déficit de G6PD. Primer trimestre del embarazo y cerca del término.
+    e: Exantema (incluidos Stevens-Johnson y necrólisis epidérmica tóxica), hiperkalemia, alza de la creatinina sin daño renal real, citopenias y hepatitis.
+    i: Aumenta el INR con warfarina y la toxicidad del metotrexato. Más hiperkalemia con IECA, ARA-II y espironolactona.
+    em: Evitar en el primer trimestre (antifolato) y cerca del parto (kernicterus).
+  - n: Dapsona
+    g: Antimicrobiano sulfona
+    q: Sulfona con acción antibacteriana y antiinflamatoria (inhibe a los neutrófilos).
+    u:
+      - Profilaxis de Pneumocystis en alérgicos a cotrimoxazol.
+      - Lepra.
+      - Dermatitis herpetiforme y otras dermatosis neutrofílicas.
+    d:
+      - 100 mg VO al día.
+    c: Déficit de G6PD (medirla antes de iniciar). Alergia a sulfonas.
+    e: Hemólisis, metahemoglobinemia, agranulocitosis y síndrome de hipersensibilidad (DRESS).
+    i: La rifampicina disminuye sus niveles.
+    em: Usar solo si el beneficio lo justifica.
+  - n: Doxiciclina
+    g: Antibiótico tetraciclina
+    q: Tetraciclina de amplio espectro con actividad contra atípicos, Chlamydia, espiroquetas, rickettsias, Brucella y parte del SAMR comunitario.
+    u:
+      - Uretritis y cervicitis por Chlamydia; enfermedad inflamatoria pélvica (con ceftriaxona y metronidazol).
+      - Sífilis en alérgicos a penicilina (no embarazadas).
+      - Leptospirosis, rickettsiosis y brucelosis (combinada).
+      - NAC (alternativa) y acné moderado.
+    d:
+      - 100 mg VO cada 12 h (Chlamydia por 7 días; sífilis precoz por 14 días).
+    a: No requiere ajuste renal.
+    c: Embarazo, lactancia y menores de 8 años (manchas dentales).
+    e: Fotosensibilidad, esofagitis (tomar con abundante agua y sentado), náuseas.
+    i: Separar de antiácidos, calcio, hierro y magnesio (quelación).
+    em: Contraindicada en el embarazo.
+  - n: Eritromicina
+    g: Antibiótico macrólido · procinético
+    q: Macrólido antiguo que además estimula los receptores de motilina y acelera el vaciamiento gástrico.
+    u:
+      - Antes de la endoscopía en la hemorragia digestiva alta, para vaciar el estómago de sangre.
+      - Rotura prematura de membranas de pretérmino (con ampicilina).
+      - Gastroparesia (uso breve).
+    d:
+      - HDA 250 mg EV en 30 min, 30–120 min antes de la endoscopía.
+      - Como antibiótico, 250–500 mg VO cada 6 h.
+    c: Fármacos que prolongan el QT o se metabolizan por CYP3A4 con riesgo (simvastatina, colchicina).
+    e: Náuseas, vómitos, dolor abdominal, prolongación del QT. En lactantes menores de 2 semanas, estenosis hipertrófica del píloro.
+    i: Inhibidor del CYP3A4, como la claritromicina.
+    em: Compatible (el estolato se evita por hepatotoxicidad).
+  - n: Fosfomicina
+    g: Antibiótico (derivado del ácido fosfónico)
+    q: Antibiótico que inhibe la síntesis de la pared bacteriana. La sal de trometamol oral alcanza altas concentraciones en la orina.
+    u:
+      - Cistitis no complicada.
+      - Bacteriuria asintomática y cistitis en el embarazo.
+      - Infección urinaria baja por enterobacterias productoras de BLEE.
+    d:
+      - Cistitis 3 g VO en dosis única, disuelto en agua.
+      - Cistitis por BLEE 3 g VO cada 48–72 h (3 dosis).
+    a: Evitar con depuración < 10 mL/min.
+    e: Diarrea, náuseas y cefalea.
+    i: La metoclopramida reduce su absorción.
+    em: Compatible con el embarazo.
+    p: No usarla en la pielonefritis (la dosis oral no alcanza niveles en el tejido renal).
+  - n: Gentamicina
+    g: Antibiótico aminoglicósido
+    q: Aminoglicósido bactericida contra bacilos gramnegativos. Tiene efecto sinérgico con betalactámicos contra enterococo y estreptococos.
+    u:
+      - Pielonefritis e infecciones por gramnegativos (sola o combinada).
+      - Endometritis puerperal y enfermedad inflamatoria pélvica (con clindamicina).
+      - Sepsis neonatal precoz (con ampicilina).
+      - Sinergia en la endocarditis por enterococo o estreptococo.
+    d:
+      - 5–7 mg/kg EV o IM cada 24 h.
+      - Sinergia en la endocarditis 3 mg/kg/día.
+    a: Alargar el intervalo según la función renal y los niveles plasmáticos.
+    c: Alergia a aminoglicósidos. Precaución en la miastenia gravis.
+    e: Nefrotoxicidad, ototoxicidad (irreversible) y bloqueo neuromuscular.
+    i: Más nefrotoxicidad con vancomicina, AINE, contraste y diuréticos de asa.
+    em: Evitar si hay alternativa; se usa en infecciones graves y en el puerperio.
+  - n: Imipenem
+    g: Antibiótico betalactámico · carbapenémico
+    q: Carbapenémico de muy amplio espectro (gramnegativos incluidos BLEE y Pseudomonas, grampositivos y anaerobios). Se administra con cilastatina.
+    u:
+      - Infecciones graves por enterobacterias productoras de BLEE.
+      - Infecciones intraabdominales graves y asociadas a la atención de salud.
+    d:
+      - 500 mg EV cada 6 h o 1 g EV cada 6–8 h.
+    a: Ajustar siempre a la función renal.
+    c: Alergia a carbapenémicos. Precaución en la epilepsia y lesiones del SNC.
+    e: Convulsiones (más que con meropenem), náuseas, diarrea y C. difficile.
+    i: Disminuye mucho los niveles de ácido valproico (riesgo de crisis); evitar la asociación.
+    em: Usar si el beneficio lo justifica.
+  - n: Levofloxacino
+    g: Antibiótico fluoroquinolona respiratoria
+    q: Fluoroquinolona con buena actividad contra neumococo, atípicos y gramnegativos.
+    u:
+      - NAC en alérgicos a betalactámicos.
+      - Pielonefritis (según la resistencia local).
+      - Terapia de rescate de H. pylori y tuberculosis multirresistente.
+    d:
+      - 750 mg VO o EV al día (NAC por 5 días) o 500 mg al día.
+    a: Ajustar con depuración < 50 mL/min.
+    c: Miastenia gravis. Antecedente de tendinopatía por quinolonas. Evitar en el embarazo.
+    e: Los de las quinolonas (tendinopatía, QT largo, disglicemia, neuropatía, delirium); prolonga el QT más que el ciprofloxacino.
+    i: Separar de antiácidos, calcio y hierro. Precaución con otros fármacos que prolongan el QT.
+    em: Evitar en el embarazo.
+  - n: Linezolid
+    g: Antibiótico oxazolidinona
+    q: Antibiótico activo contra grampositivos resistentes (SAMR, enterococo resistente a vancomicina) con biodisponibilidad oral completa.
+    u:
+      - Neumonía e infecciones de piel por SAMR.
+      - Infecciones por enterococo resistente a vancomicina.
+      - Tuberculosis multirresistente.
+    d:
+      - 600 mg VO o EV cada 12 h.
+    a: No requiere ajuste renal.
+    c: Uso de IMAO.
+    e: Mielosupresión (trombocitopenia, sobre todo después de 2 semanas), neuropatía periférica y óptica, acidosis láctica.
+    i: Es un IMAO débil. Riesgo de síndrome serotoninérgico con ISRS, IRSN y tramadol; crisis hipertensivas con simpaticomiméticos.
+    em: Usar si el beneficio lo justifica.
+    p: Si se usa más de 2 semanas, controlar el hemograma cada semana.
+  - n: Meropenem
+    g: Antibiótico betalactámico · carbapenémico
+    q: Carbapenémico de muy amplio espectro, con menos riesgo de convulsiones que el imipenem. Cubre enterobacterias BLEE, Pseudomonas y anaerobios; no cubre SAMR.
+    u:
+      - Infecciones graves por enterobacterias BLEE.
+      - Sepsis asociada a la atención de salud y neutropenia febril con alto riesgo.
+      - Meningitis nosocomial.
+    d:
+      - 1 g EV cada 8 h (meningitis 2 g cada 8 h).
+      - En la sepsis, infusión prolongada de 3 h tras una dosis de carga.
+    a: Ajustar siempre a la función renal.
+    c: Alergia a carbapenémicos.
+    e: Diarrea, C. difficile, exantema y convulsiones (poco frecuentes).
+    i: Disminuye mucho los niveles de ácido valproico; evitar la asociación.
+    em: Usar si el beneficio lo justifica.
+  - n: Metronidazol
+    g: Antimicrobiano nitroimidazol
+    q: Antibiótico y antiparasitario activo contra anaerobios y protozoos (Trichomonas, Giardia, Entamoeba).
+    u:
+      - Cobertura de anaerobios en infecciones intraabdominales (con ceftriaxona).
+      - Vaginosis bacteriana, tricomoniasis y enfermedad inflamatoria pélvica.
+      - Giardiasis y amebiasis.
+      - Colitis por C. difficile, solo si no hay vancomicina ni fidaxomicina.
+    d:
+      - Intraabdominal 500 mg EV o VO cada 8 h.
+      - Vaginosis bacteriana 500 mg VO cada 12 h por 7 días.
+      - Tricomoniasis 2 g VO en dosis única o 500 mg cada 12 h por 7 días.
+      - Amebiasis invasora 750 mg VO cada 8 h por 7–10 días.
+    a: Reducir la dosis en la insuficiencia hepática grave.
+    c: Alergia a nitroimidazoles.
+    e: Sabor metálico, náuseas, orina oscura y, con uso prolongado, neuropatía periférica y encefalopatía con ataxia.
+    i: Aumenta el INR con warfarina y los niveles de litio. Evitar el alcohol durante el tratamiento.
+    em: Compatible con el embarazo (preferir los esquemas de 7 días).
+  - n: Nitrofurantoína
+    g: Antibiótico urinario (nitrofurano)
+    q: Antibiótico que solo alcanza concentraciones útiles en la orina. Mantiene buena sensibilidad de E. coli.
+    u:
+      - Cistitis no complicada.
+      - Profilaxis de la infección urinaria recurrente.
+      - Bacteriuria asintomática y cistitis en el embarazo.
+    d:
+      - Cistitis 100 mg VO cada 12 h por 5 días (macrocristales).
+      - Profilaxis 50–100 mg VO en la noche.
+    a: Evitar con depuración < 30 mL/min (ineficaz y más tóxica).
+    c: Depuración < 30 mL/min, déficit de G6PD y embarazo de término (hemólisis neonatal).
+    e: Náuseas, orina oscura y, con uso crónico, neumonitis o fibrosis pulmonar, hepatitis y neuropatía periférica.
+    em: Compatible en el embarazo salvo cerca del término.
+    p: No sirve para la pielonefritis ni para la bacteriemia.
+  - n: Penicilina benzatina
+    g: Antibiótico betalactámico · penicilina de depósito
+    q: Penicilina G de liberación lenta por vía intramuscular, que mantiene niveles bajos y prolongados por semanas.
+    u:
+      - Sífilis primaria, secundaria y latente.
+      - Profilaxis secundaria de la fiebre reumática.
+      - Faringoamigdalitis estreptocócica (dosis única).
+    d:
+      - Sífilis precoz 2.400.000 UI IM en dosis única.
+      - Sífilis latente tardía o de duración desconocida 2.400.000 UI IM semanal por 3 semanas.
+      - Profilaxis de fiebre reumática 1.200.000 UI IM cada 3–4 semanas.
+    c: Alergia a penicilinas (en la sífilis del embarazo, desensibilizar).
+    e: Dolor en el sitio de punción, reacción de Jarisch-Herxheimer en la sífilis, anafilaxia.
+    i: Nunca administrarla por vía endovenosa.
+    em: Es el único tratamiento eficaz de la sífilis en el embarazo.
+  - n: Penicilina G sódica
+    g: Antibiótico betalactámico · penicilina endovenosa
+    q: Penicilina natural endovenosa de vida media corta. Muy activa contra estreptococos, meningococo sensible, Treponema y Leptospira.
+    u:
+      - Neurosífilis y sífilis ocular.
+      - Endocarditis por estreptococos sensibles.
+      - Leptospirosis grave y actinomicosis.
+    d:
+      - 2–4 millones de UI EV cada 4 h.
+      - Neurosífilis 18–24 millones de UI al día por 10–14 días.
+    a: Reducir la dosis en la ERC avanzada.
+    c: Alergia a penicilinas.
+    e: Reacciones alérgicas, flebitis y convulsiones con dosis altas en la ERC.
+    em: Compatible.
+  - n: Piperacilina-tazobactam
+    g: Antibiótico betalactámico antipseudomónico con inhibidor de betalactamasas
+    q: Penicilina de amplio espectro con tazobactam. Cubre Pseudomonas, enterobacterias, enterococo sensible a ampicilina y anaerobios.
+    u:
+      - Sepsis asociada a la atención de salud y neumonía nosocomial.
+      - Neutropenia febril.
+      - Infecciones intraabdominales graves y pie diabético grave.
+    d:
+      - 4,5 g EV cada 6–8 h; en la sepsis, infusión prolongada de 3–4 h tras una dosis de carga.
+    a: Ajustar con depuración < 40 mL/min.
+    c: Alergia a penicilinas.
+    e: Diarrea, C. difficile, trombocitopenia, hipokalemia y más lesión renal aguda cuando se asocia a vancomicina.
+    em: Usar si el beneficio lo justifica.
+  - n: Rifaximina
+    g: Antibiótico rifamicina no absorbible
+    q: Antibiótico que casi no se absorbe y actúa sobre la flora intestinal.
+    u:
+      - Prevención de la recurrencia de la encefalopatía hepática (con lactulosa).
+      - Diarrea del viajero no invasora y sobrecrecimiento bacteriano.
+    d:
+      - Encefalopatía hepática 550 mg VO cada 12 h.
+    e: Náuseas, distensión y, rara vez, C. difficile.
+    em: No se recomienda en el embarazo.
+  - n: Tobramicina
+    g: Antibiótico aminoglicósido
+    q: Aminoglicósido con buena actividad contra Pseudomonas aeruginosa.
+    u:
+      - Infecciones por Pseudomonas (combinada).
+      - Por vía inhalada, colonización crónica por Pseudomonas en fibrosis quística y bronquiectasias.
+      - Por vía oftálmica, conjuntivitis y queratitis bacterianas.
+    d:
+      - 5–7 mg/kg EV cada 24 h.
+      - Inhalada 300 mg cada 12 h en ciclos de 28 días.
+    a: Ajustar el intervalo a la función renal y los niveles.
+    e: Nefrotoxicidad y ototoxicidad; broncoespasmo con la vía inhalada.
+    em: Evitar por vía sistémica.
+  - n: Vancomicina
+    g: Antibiótico glucopéptido
+    q: Antibiótico bactericida contra grampositivos, incluidos SAMR y enterococo sensible. Por vía oral no se absorbe y actúa en el colon.
+    u:
+      - Infecciones graves por SAMR (bacteriemia, neumonía, endocarditis, osteomielitis).
+      - Meningitis bacteriana empírica (con ceftriaxona) y alergia grave a betalactámicos.
+      - Colitis por C. difficile, por vía oral.
+    d:
+      - 15–20 mg/kg EV cada 8–12 h; carga de 20–35 mg/kg en infecciones graves. Ajustar por niveles o por AUC.
+      - C. difficile 125 mg VO cada 6 h por 10 días.
+    a: Ajustar siempre a la función renal y los niveles plasmáticos.
+    c: Alergia a vancomicina.
+    e: Nefrotoxicidad, reacción a la infusión rápida (eritema y prurito de cara y tronco, el antiguo "síndrome del hombre rojo"), neutropenia y ototoxicidad rara.
+    i: Más nefrotoxicidad con aminoglicósidos, piperacilina-tazobactam, AINE y contraste.
+    em: Usar si el beneficio lo justifica.
+    p: Infundir cada gramo en al menos 60 minutos para evitar la reacción a la infusión, que no es una alergia.
+  - n: Isoniazida
+    g: Antituberculoso de primera línea
+    q: Bactericida contra Mycobacterium tuberculosis en replicación; inhibe la síntesis de ácidos micólicos.
+    u:
+      - Tratamiento de la tuberculosis (con rifampicina, pirazinamida y etambutol).
+      - Tratamiento de la infección tuberculosa latente.
+    d:
+      - 5 mg/kg/día VO (máximo 300 mg) en la fase diaria.
+      - Infección latente 300 mg/día por 6–9 meses (o combinada con rifapentina o rifampicina en esquemas cortos).
+    a: Suspender si las transaminasas suben > 3 veces lo normal con síntomas o > 5 veces sin síntomas.
+    c: Hepatitis aguda o antecedente de hepatitis grave por isoniazida.
+    e: Hepatitis (más con la edad y el alcohol), neuropatía periférica, lupus inducido y, en sobredosis, convulsiones.
+    i: Aumenta los niveles de fenitoína y carbamazepina.
+    em: Compatible con el embarazo y la lactancia, siempre con piridoxina.
+    p: Agregar piridoxina (vitamina B6) 25–50 mg/día en embarazadas, alcohólicos, diabéticos, desnutridos, personas con VIH o ERC para prevenir la neuropatía.
+  - n: Rifampicina
+    g: Antituberculoso de primera línea · rifamicina
+    q: Bactericida contra micobacterias y estafilococos; inhibe la ARN polimerasa bacteriana. Potente inductor enzimático.
+    u:
+      - Tuberculosis y su infección latente (esquema de 4 meses).
+      - Brucelosis (combinada), lepra y profilaxis de contactos de meningococo.
+      - Infecciones estafilocócicas de prótesis (combinada, nunca sola).
+    d:
+      - 10 mg/kg/día VO (máximo 600 mg).
+      - Profilaxis meningocócica 600 mg VO cada 12 h por 2 días.
+    c: Ictericia. Uso de inhibidores de proteasa del VIH que interactúan.
+    e: Orina, lágrimas y sudor anaranjados; hepatitis, trombocitopenia y síndrome seudogripal.
+    i: Potente inductor del CYP3A4. Reduce el efecto de anticonceptivos hormonales, warfarina, ACOD, corticoides, azoles, antirretrovirales, inmunosupresores y metadona.
+    em: Compatible con el embarazo (dar vitamina K al recién nacido) y la lactancia.
+    p: Advertir a las mujeres que los anticonceptivos hormonales dejan de ser confiables.
+  - n: Pirazinamida
+    g: Antituberculoso de primera línea
+    q: Antituberculoso que actúa sobre bacilos en medio ácido; permite acortar el tratamiento a 6 meses.
+    u:
+      - Fase inicial del tratamiento de la tuberculosis (2 meses).
+    d:
+      - 25 mg/kg/día VO.
+    a: Reducir la frecuencia en la ERC avanzada.
+    c: Hepatopatía grave. Gota activa.
+    e: Hepatotoxicidad, hiperuricemia y gota, artralgias y exantema.
+    em: Se usa en el embarazo según las normas nacionales.
+  - n: Etambutol
+    g: Antituberculoso de primera línea
+    q: Bacteriostático contra micobacterias; protege contra la selección de resistencia en la fase inicial.
+    u:
+      - Fase inicial del tratamiento de la tuberculosis.
+      - Infecciones por Mycobacterium avium (combinado).
+    d:
+      - 15–20 mg/kg/día VO.
+    a: Alargar el intervalo en la ERC.
+    c: Neuritis óptica previa. Niños que no pueden informar cambios visuales.
+    e: Neuritis óptica (baja de la agudeza visual y de la visión de colores), dosis dependiente.
+    em: Compatible.
+    p: Controlar la agudeza visual y la visión de colores antes y durante el tratamiento.
