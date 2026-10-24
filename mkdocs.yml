@@ -51,6 +51,7 @@ extra_css:
 # Mermaid se sirve localmente para que los diagramas funcionen sin conexión.
 extra_javascript:
   - javascripts/mermaid.min.js
+  - javascripts/laficha.js
 
 plugins:
   - search:

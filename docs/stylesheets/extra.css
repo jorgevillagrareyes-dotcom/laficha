@@ -303,3 +303,38 @@
   .md-typeset .indice-cifras { flex-basis: 100%; }
 }
 @media screen and (max-width: 44.9375em) { .md-typeset .portada-buscar kbd { display: none; } }
+
+/* Páginas de resumen ------------------------------------------------------ */
+.lf-progreso {
+  position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 10;
+  background: var(--md-default-fg-color); transform-origin: 0 50%; transform: scaleX(0);
+  pointer-events: none;
+}
+.md-typeset .lf-repaso-todas {
+  font-size: 0.68rem; padding: 0.35em 1em; margin: 0.4em 0 0.8em;
+  border: 1px solid var(--mi-linea); border-radius: 0.15rem; color: var(--md-default-fg-color);
+  background: transparent; cursor: pointer;
+}
+.md-typeset .lf-repaso-todas:hover { border-color: var(--md-default-fg-color); background: var(--mi-fondo-suave); color: var(--md-default-fg-color); }
+
+/* Resumen en 60 segundos: un poco más compacto */
+.md-typeset .admonition.abstract ul { margin-top: 0.4em; }
+.md-typeset .admonition.abstract li { margin-bottom: 0.35em; }
+
+/* Tablas en pantallas pequeñas: desplazamiento horizontal con primera columna legible */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table:not([class]) { font-size: 0.7rem; }
+  .md-typeset table:not([class]) td:first-child, .md-typeset table:not([class]) th:first-child { min-width: 7rem; }
+  .md-typeset .ficha { grid-template-columns: 1fr; }
+}
+
+/* Impresión: solo el contenido, en blanco y negro */
+@media print {
+  .md-header, .md-tabs, .md-sidebar, .md-footer, .lf-progreso, .lf-repaso-todas, .md-top, .md-source-file { display: none !important; }
+  .md-main__inner { margin: 0; }
+  .md-content { max-width: none; }
+  .md-typeset { font-size: 10pt; line-height: 1.45; color: #000; }
+  .md-typeset a { color: #000; text-decoration: none; }
+  .md-typeset h2 { break-after: avoid; }
+  .md-typeset table, .md-typeset .admonition, .md-typeset details, .md-typeset figure { break-inside: avoid; }
+}
