@@ -283,6 +283,15 @@ def main():
                          "Los 90 problemas de salud GES con su guía clínica y los resúmenes que los tratan",
                          "90 problemas"))
     tarjetas.append("</div>")
+    (DOCS / "temario").mkdir(exist_ok=True)
+    (DOCS / "temario" / "index.md").write_text(
+        "---\nhide:\n  - toc\n---\n\n# Temario\n\n"
+        "Todas las especialidades del perfil EUNACOM v3, con sus resúmenes y el avance de cada una.\n\n"
+        + re.sub(r"\]\((?!\.\./)", "](../", "\n".join(tarjetas)).replace(
+            "</div>", item("Urgencias", "../urgencias/index.md",
+                           "Los temas de urgencia de medicina interna reunidos en una página", "") + "</div>"),
+        encoding="utf-8",
+    )
     inicio = DOCS / "index.md"
     texto = inicio.read_text(encoding="utf-8")
     bloque = "<!-- especialidades:inicio -->\n" + "\n".join(tarjetas) + "\n<!-- especialidades:fin -->"
@@ -401,7 +410,7 @@ def main():
     grupos.sort()
     total_f = sum(len(g[3]) for g in grupos)
     partes = [
-        "---\nherramienta: farmacos\nhide:\n  - navigation\n  - toc\n---\n",
+        "---\nhide:\n  - navigation\n  - toc\n---\n",
         "# Fármacos\n",
         f"Fichas de **{total_f} fármacos** usados en los resúmenes de La Ficha: qué es, para qué se usa, dosis habitual en adultos, "
         "ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. Toca el nombre para abrir la ficha.\n",
@@ -455,35 +464,37 @@ def main():
         encoding="utf-8",
     )
 
-    # Navegación de mkdocs.yml (una pestaña por especialidad)
-    nav = ["nav:", "  - Inicio: index.md", "  - Medicina interna:", "      - medicina-interna/index.md"]
+    # Navegación de mkdocs.yml: Inicio, Temario (todas las especialidades), Farmacoterapia, Herramientas y Acerca de
+    nav = ["nav:", "  - Inicio: index.md", "  - Temario:", "      - temario/index.md",
+           "      - Medicina interna:", "          - medicina-interna/index.md"]
     for carpeta, titulo in CARPETAS.items():
-        nav.append(f"      - {titulo}:")
-        nav.append(f"          - {carpeta}/index.md")
+        nav.append(f"          - {titulo}:")
+        nav.append(f"              - {carpeta}/index.md")
         for p in paginas_de(carpeta):
-            nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
-    nav.append("      - Urgencias: urgencias/index.md")
+            nav.append(f'              - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
     for esp, _, _, _, secciones in resumen_otras:
-        nav.append(f"  - {esp['titulo']}:")
+        nav.append(f"      - {esp['titulo']}:")
         if len(secciones) == 1:
             carpeta = secciones[0][0]["carpeta"]
-            nav.append(f"      - {carpeta}/index.md")
+            nav.append(f"          - {carpeta}/index.md")
             for p in secciones[0][3]:
-                nav.append(f'      - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
+                nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
             continue
-        nav.append(f"      - {esp['carpeta']}/index.md")
+        nav.append(f"          - {esp['carpeta']}/index.md")
         for sec, _, _, paginas in secciones:
             carpeta = sec["carpeta"]
-            nav.append(f"      - \"{sec['titulo']}\":")
-            nav.append(f"          - {carpeta}/index.md")
+            nav.append(f"          - \"{sec['titulo']}\":")
+            nav.append(f"              - {carpeta}/index.md")
             for p in paginas:
-                nav.append(f'          - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
+                nav.append(f'              - "{titulo_pagina(f"{carpeta}/{p.name}")}": {carpeta}/{p.name}')
     nav += [
-        "  - Patologías GES: ges/index.md",
+        "      - Patologías GES: ges/index.md",
+        "      - Urgencias: urgencias/index.md",
+        "  - Farmacoterapia:",
+        "      - Fármacos: farmacos.md",
         "  - Herramientas:",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
-        "      - Fármacos: farmacos.md",
         "      - Índice A–Z: indice-alfabetico.md",
         "      - Mis temas: mis-temas.md",
         "  - Acerca de:",

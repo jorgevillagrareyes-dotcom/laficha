@@ -459,8 +459,8 @@
 .md-typeset details.farmaco > :not(summary) { font-size: 0.78rem; }
 .md-typeset details.farmaco p strong:first-child { color: var(--md-default-fg-color); }
 
-/* Barra de herramientas (Preguntas, Calculadoras, Fármacos, Índice, Mis temas) */
-.md-typeset .lf-herr, .lf-herr { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.5rem; margin: 0 0 1.6rem; }
+/* Barra de herramientas (Preguntas, Calculadoras, Índice, Mis temas) */
+.md-typeset .lf-herr, .lf-herr { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.5rem; margin: 0 0 1.6rem; }
 .lf-herr-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.65rem 0.75rem; border: 1px solid var(--mi-linea); border-radius: 0.3rem; color: var(--md-default-fg-color) !important; text-decoration: none !important; background: var(--md-default-bg-color); transition: border-color .15s, background-color .15s; }
 .lf-herr-item:hover { border-color: var(--md-default-fg-color--light); background: var(--mi-fondo-suave); }
 .lf-herr-activa { border-color: var(--md-default-fg-color); background: var(--mi-fondo-suave); }

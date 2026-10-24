@@ -1,5 +1,4 @@
 ---
-herramienta: farmacos
 hide:
   - navigation
   - toc

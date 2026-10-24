@@ -108,369 +108,372 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - Medicina interna:
-      - medicina-interna/index.md
-      - Cardiología:
-          - cardiologia/index.md
-          - "Angina crónica estable (síndrome coronario crónico)": cardiologia/angina-cronica-estable.md
-          - "Cardiopatías congénitas en el adulto": cardiologia/cardiopatias-congenitas-del-adulto.md
-          - "Crisis hipertensiva": cardiologia/crisis-hipertensiva.md
-          - "Extrasistolía ventricular y supraventricular": cardiologia/extrasistolia.md
-          - "Fibrilación y flutter auricular": cardiologia/fibrilacion-auricular.md
-          - "Hipertensión arterial": cardiologia/hipertension-arterial.md
-          - "Insuficiencia cardíaca": cardiologia/insuficiencia-cardiaca.md
-          - "Miocardiopatías": cardiologia/miocardiopatias.md
-          - "Paro cardiorrespiratorio y arritmias con compromiso hemodinámico": cardiologia/paro-cardiorrespiratorio-y-arritmias.md
-          - "Pericarditis aguda, derrame pericárdico y taponamiento cardíaco": cardiologia/pericarditis-y-taponamiento.md
-          - "Síndrome aórtico agudo: disección aórtica, hematoma intramural y úlcera penetrante": cardiologia/sindrome-aortico-agudo.md
-          - "Síndrome coronario agudo": cardiologia/sindrome-coronario-agudo.md
-          - "Valvulopatías, paciente con soplo y fiebre reumática": cardiologia/valvulopatias-y-soplos.md
-      - Endocrinología, diabetes y nutrición:
-          - endocrinologia/index.md
-          - "Bocio, nódulo tiroideo y cáncer de tiroides": endocrinologia/bocio-nodulo-y-cancer-de-tiroides.md
-          - "Cetoacidosis diabética y estado hiperglicémico hiperosmolar": endocrinologia/cetoacidosis-y-estado-hiperosmolar.md
-          - "Complicaciones crónicas de la diabetes: nefropatía, retinopatía, neuropatía, enfermedad arterial periférica y pie diabético": endocrinologia/complicaciones-cronicas-de-la-diabetes.md
-          - "Desnutrición, malnutrición y síndromes carenciales de vitaminas y minerales": endocrinologia/desnutricion-y-sindromes-carenciales.md
-          - "Diabetes mellitus tipo 1, otros tipos de diabetes (LADA, MODY) y diabetes por corticoides": endocrinologia/diabetes-tipo-1-y-otros-tipos.md
-          - "Diabetes mellitus tipo 2": endocrinologia/diabetes-mellitus-tipo-2.md
-          - "Diabetes y embarazo: diabetes gestacional y diabetes pregestacional": endocrinologia/diabetes-y-embarazo.md
-          - "Dislipidemias e hipertrigliceridemia grave": endocrinologia/dislipidemia.md
-          - "Hipoglicemia": endocrinologia/hipoglicemia.md
-          - "Hipogonadismo masculino y ginecomastia": endocrinologia/hipogonadismo-masculino-y-ginecomastia.md
-          - "Hipotiroidismo, hipertiroidismo y tiroiditis": endocrinologia/hipotiroidismo-e-hipertiroidismo.md
-          - "Hirsutismo, amenorrea y síndrome de ovario poliquístico": endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md
-          - "Insuficiencia suprarrenal y crisis suprarrenal": endocrinologia/insuficiencia-suprarrenal.md
-          - "Obesidad, obesidad mórbida y síndrome metabólico": endocrinologia/obesidad-y-sindrome-metabolico.md
-          - "Osteoporosis primaria y secundaria": endocrinologia/osteoporosis.md
-          - "Síndrome climatérico y menopausia": endocrinologia/climaterio-y-menopausia.md
-          - "Síndrome de Cushing e incidentaloma suprarrenal": endocrinologia/sindrome-de-cushing-e-incidentaloma-suprarrenal.md
-          - "Trastornos de la conducta alimentaria": endocrinologia/trastornos-de-la-conducta-alimentaria.md
-          - "Trastornos del calcio, fósforo y magnesio: hipocalcemia, tetania e hipercalcemia": endocrinologia/trastornos-del-calcio-fosforo-y-magnesio.md
-          - "Tumores hipofisiarios y de la región selar, hipopituitarismo e hiperprolactinemia": endocrinologia/hipofisis-tumores-hipopituitarismo-e-hiperprolactinemia.md
-      - Enfermedades infecciosas:
-          - infectologia/index.md
-          - "Brucelosis, cólera y ántrax": infectologia/brucelosis-colera-y-antrax.md
-          - "Dengue y malaria": infectologia/dengue-y-malaria.md
-          - "Endocarditis infecciosa": infectologia/endocarditis-infecciosa.md
-          - "Fiebre tifoidea y paratifoidea": infectologia/fiebre-tifoidea-y-paratifoidea.md
-          - "Infecciones de piel y partes blandas": infectologia/infecciones-piel-partes-blandas.md
-          - "Infecciones de transmisión sexual y sífilis": infectologia/infecciones-de-transmision-sexual-y-sifilis.md
-          - "Infecciones por flora oral: flegmón del piso de la boca (angina de Ludwig), absceso pulmonar y absceso cerebral": infectologia/flegmon-cervical-absceso-pulmonar-y-cerebral.md
-          - "Infección por VIH y SIDA, candidiasis orofaríngea y esofágica, y diarrea en inmunosuprimidos": infectologia/infeccion-por-vih.md
-          - "Influenza, COVID-19 y bronquitis aguda": infectologia/influenza-y-covid-19.md
-          - "Meningitis y encefalitis agudas": infectologia/meningitis-y-encefalitis.md
-          - "Micosis invasoras (candidiasis, aspergilosis y mucormicosis)": infectologia/micosis-invasoras.md
-          - "Neumonía nosocomial, neumonía en inmunosuprimidos e infección asociada a catéter": infectologia/neumonia-nosocomial-inmunosuprimidos-y-cateter.md
-          - "Osteomielitis": infectologia/osteomielitis.md
-          - "Parasitosis intestinales": infectologia/parasitosis-intestinales.md
-          - "Sepsis y shock séptico": infectologia/sepsis-y-shock-septico.md
-          - "Síndrome cardiopulmonar por hantavirus y leptospirosis": infectologia/hantavirus-y-leptospirosis.md
-          - "Síndrome febril prolongado (fiebre de origen desconocido)": infectologia/sindrome-febril-prolongado.md
-          - "Síndrome mononucleósico, adenopatías y adenitis": infectologia/sindrome-mononucleosico-y-adenitis.md
-          - "Triquinosis e hidatidosis": infectologia/triquinosis-e-hidatidosis.md
-          - "Tétanos": infectologia/tetanos.md
-          - "Varicela, herpes zóster y otros exantemas del adulto": infectologia/varicela-y-herpes-zoster.md
-      - Enfermedades respiratorias:
-          - respiratorio/index.md
-          - "Apnea obstructiva del sueño y trastornos del sueño": respiratorio/apnea-del-sueno-y-trastornos-del-sueno.md
-          - "Asma bronquial": respiratorio/asma.md
-          - "Bronquiectasias": respiratorio/bronquiectasias.md
-          - "Derrame pleural: paraneumónico, empiema, neoplásico y enfoque diagnóstico": respiratorio/derrame-pleural.md
-          - "Enfermedad pulmonar obstructiva crónica (EPOC)": respiratorio/epoc.md
-          - "Enfermedades pulmonares intersticiales, daño pulmonar por fármacos y neumoconiosis": respiratorio/enfermedades-intersticiales-farmacos-y-neumoconiosis.md
-          - "Hipertensión pulmonar": respiratorio/hipertension-pulmonar.md
-          - "Infecciones de las vías aéreas superiores": respiratorio/infecciones-de-vias-aereas-superiores.md
-          - "Insuficiencia respiratoria aguda, soporte no invasivo, SDRA y hemoptisis": respiratorio/insuficiencia-respiratoria-aguda.md
-          - "Intoxicación por monóxido de carbono, ahogamiento y cuerpo extraño en la vía aérea": respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md
-          - "Neumonía adquirida en la comunidad": respiratorio/neumonia-adquirida-en-la-comunidad.md
-          - "Neumotórax y trauma torácico": respiratorio/neumotorax-y-trauma-toracico.md
-          - "Nódulo pulmonar, cáncer pulmonar y metástasis pulmonares": respiratorio/nodulo-pulmonar-y-cancer-pulmonar.md
-          - "Síndromes mediastínicos: masas, mediastinitis y neumomediastino": respiratorio/sindromes-mediastinicos.md
-          - "Tos crónica": respiratorio/tos-cronica.md
-          - "Tromboembolismo pulmonar": respiratorio/tromboembolismo-pulmonar.md
-          - "Tuberculosis": respiratorio/tuberculosis.md
-      - Gastroenterología:
-          - gastroenterologia/index.md
-          - "Abdomen agudo (incluido el del adulto mayor)": gastroenterologia/abdomen-agudo.md
-          - "Cirrosis hepática y sus complicaciones": gastroenterologia/cirrosis-y-complicaciones.md
-          - "Colestasia: colangitis biliar primaria, colangitis esclerosante y otras causas": gastroenterologia/colestasia.md
-          - "Constipación, fecaloma, síndrome de intestino irritable y diarrea crónica": gastroenterologia/constipacion-intestino-irritable-y-diarrea-cronica.md
-          - "Cáncer de páncreas y pancreatitis crónica": gastroenterologia/cancer-de-pancreas-y-pancreatitis-cronica.md
-          - "Diarrea aguda, toxiinfección alimentaria e infección por Clostridioides difficile": gastroenterologia/diarrea-aguda-y-clostridioides-difficile.md
-          - "Disfagia y afagia aguda (impactación alimentaria y cuerpos extraños esofágicos)": gastroenterologia/disfagia-y-afagia-aguda.md
-          - "Dispepsia, úlcera péptica, *Helicobacter pylori* y cáncer gástrico": gastroenterologia/dispepsia-ulcera-peptica-y-cancer-gastrico.md
-          - "Enfermedad celíaca, intolerancia a la lactosa y síndrome de malabsorción": gastroenterologia/enfermedad-celiaca-intolerancia-a-la-lactosa-y-malabsorcion.md
-          - "Enfermedad inflamatoria intestinal: colitis ulcerosa y enfermedad de Crohn": gastroenterologia/enfermedad-inflamatoria-intestinal.md
-          - "Enfermedad por reflujo gastroesofágico (ERGE) y esófago de Barrett": gastroenterologia/reflujo-gastroesofagico.md
-          - "Hemorragia digestiva alta": gastroenterologia/hemorragia-digestiva-alta.md
-          - "Hemorragia digestiva baja": gastroenterologia/hemorragia-digestiva-baja.md
-          - "Hepatitis aguda e insuficiencia hepática aguda": gastroenterologia/hepatitis-aguda-e-insuficiencia-hepatica-aguda.md
-          - "Hepatitis crónica e insuficiencia hepática crónica": gastroenterologia/hepatitis-cronica-e-insuficiencia-hepatica-cronica.md
-          - "Litiasis biliar, colecistitis aguda y colangitis aguda": gastroenterologia/litiasis-biliar-colecistitis-colangitis.md
-          - "Masa hepática y hepatocarcinoma": gastroenterologia/masa-hepatica-y-hepatocarcinoma.md
-          - "Pancreatitis aguda": gastroenterologia/pancreatitis-aguda.md
-          - "Tumores de colon y cáncer colorrectal": gastroenterologia/tumores-de-colon-y-cancer-colorrectal.md
-      - Geriatría:
-          - geriatria/index.md
-          - "Agitación psicomotora y agresividad (con énfasis en el adulto mayor)": geriatria/agitacion-psicomotora-y-agresividad.md
-          - "Caídas, hipotensión ortostática y fractura de cadera en el adulto mayor": geriatria/caidas-hipotension-ortostatica-y-fractura-de-cadera.md
-          - "Delirium (síndrome confusional agudo)": geriatria/delirium.md
-          - "Depresión (con énfasis en el adulto mayor)": geriatria/depresion.md
-          - "Fragilidad y sarcopenia": geriatria/fragilidad-y-sarcopenia.md
-          - "Hipotermia accidental": geriatria/hipotermia.md
-          - "Incontinencia urinaria": geriatria/incontinencia-urinaria.md
-          - "Inmovilidad y úlceras (lesiones) por presión": geriatria/inmovilidad-y-ulceras-por-presion.md
-      - Hemato-oncología:
-          - hematologia/index.md
-          - "Anemias: enfoque, ferropénica, de enfermedades crónicas, megaloblástica y hemolítica": hematologia/anemias.md
-          - "Coagulopatías, coagulación intravascular diseminada y reversión de anticoagulantes": hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md
-          - "Gammapatías monoclonales y mieloma múltiple": hematologia/gammapatias-monoclonales-y-mieloma-multiple.md
-          - "Leucemias agudas y crónicas, reacción leucemoide y síndrome leucoeritroblástico": hematologia/leucemias-agudas-y-cronicas.md
-          - "Linfomas: linfoma de Hodgkin y linfomas no Hodgkin": hematologia/linfomas.md
-          - "Neoplasias mieloproliferativas crónicas: policitemia vera, trombocitemia esencial y mielofibrosis": hematologia/neoplasias-mieloproliferativas.md
-          - "Síndromes mielodisplásicos, aplasia medular y enfoque de la pancitopenia": hematologia/mielodisplasia-y-aplasia-medular.md
-          - "Síndromes paraneoplásicos": hematologia/sindromes-paraneoplasicos.md
-          - "Trombocitopenia: enfoque, PTI, microangiopatías trombóticas (PTT y SHU) y trombocitopenia inducida por heparina": hematologia/trombocitopenias.md
-          - "Trombofilias hereditarias y adquiridas": hematologia/trombofilias.md
-          - "Urgencias oncológicas: neutropenia febril, lisis tumoral, hipercalcemia, compresión medular y síndrome de vena cava superior": hematologia/urgencias-oncologicas.md
-      - Nefrología:
-          - nefrologia/index.md
-          - "Enfermedad renal crónica": nefrologia/enfermedad-renal-cronica.md
-          - "Hipokalemia e hiperkalemia": nefrologia/trastornos-del-potasio.md
-          - "Hiponatremia e hipernatremia": nefrologia/trastornos-del-sodio.md
-          - "Infección del tracto urinario": nefrologia/infeccion-urinaria.md
-          - "Lesión renal aguda": nefrologia/lesion-renal-aguda.md
-          - "Preeclampsia y síndrome hipertensivo del embarazo": nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md
-          - "Riñón poliquístico (poliquistosis renal autosómica dominante)": nefrologia/rinon-poliquistico.md
-          - "Síndrome nefrótico, síndrome nefrítico y glomerulonefritis rápidamente progresiva": nefrologia/sindromes-glomerulares.md
-          - "Trastornos ácido-base": nefrologia/trastornos-acido-base.md
-          - "Urolitiasis y cólico renal": nefrologia/urolitiasis-y-colico-renal.md
-      - Neurología:
-          - neurologia/index.md
-          - "Accidente cerebrovascular (ACV) y crisis isquémica transitoria": neurologia/accidente-cerebrovascular.md
-          - "Cefalea: enfoque en urgencia, migraña, cefalea tensional y neuralgia del trigémino": neurologia/cefalea.md
-          - "Crisis epiléptica, epilepsia y estado epiléptico": neurologia/crisis-epileptica-y-estado-epileptico.md
-          - "Debilidad aguda: síndrome de Guillain-Barré, paraplejia y cuadriplejia aguda y trauma raquimedular": neurologia/debilidad-aguda-guillain-barre-y-mielopatias.md
-          - "Debilidad muscular: enfoque de la parálisis, síndrome miasténico y síndrome miopático": neurologia/debilidad-miastenia-y-miopatias.md
-          - "Demencia, deterioro cognitivo leve y causas reversibles de deterioro cognitivo": neurologia/demencia-y-deterioro-cognitivo.md
-          - "Encefalopatías tóxico-metabólicas: urémica, hepática, hipercápnica, séptica, hipertensiva y por fármacos": neurologia/encefalopatias-toxico-metabolicas.md
-          - "Enfermedad de Parkinson, temblor, trastornos de la marcha y síndrome atáxico": neurologia/parkinson-temblor-y-trastornos-de-la-marcha.md
-          - "Esclerosis múltiple": neurologia/esclerosis-multiple.md
-          - "Neuropatías periféricas (polineuropatías, mononeuropatías y radiculopatías) y síndromes sensitivos": neurologia/neuropatias-perifericas-y-sindromes-sensitivos.md
-          - "Parálisis facial periférica (parálisis de Bell y síndrome de Ramsay Hunt)": neurologia/paralisis-facial-periferica.md
-          - "Síndrome de abstinencia alcohólica, encefalopatía de Wernicke y complicaciones neurológicas de las sustancias": neurologia/abstinencia-alcoholica-y-wernicke.md
-          - "Trastornos del movimiento inducidos por fármacos: distonía aguda, acatisia, parkinsonismo, discinesia tardía, síndrome neuroléptico maligno y síndrome serotoninérgico": neurologia/trastornos-del-movimiento-por-farmacos.md
-          - "Traumatismo encefalocraneano e hipertensión endocraneana": neurologia/tec-e-hipertension-endocraneana.md
-          - "Tumores primarios y metastásicos del sistema nervioso central": neurologia/tumores-del-snc.md
-          - "Vértigo: síndromes vertiginosos periféricos y centrales": neurologia/vertigo.md
-      - Reumatología:
-          - reumatologia/index.md
-          - "Artrosis, reumatismos de partes blandas, síndrome de túnel carpiano y fibromialgia": reumatologia/artrosis-y-reumatismos-de-partes-blandas.md
-          - "Lumbago, lumbociática, cervicalgia y columna dolorosa (incluido el lumbago infeccioso y tumoral)": reumatologia/lumbago-lumbociatica-y-cervicalgia.md
-          - "Lupus eritematoso sistémico, síndrome antifosfolípidos, Sjögren, esclerosis sistémica, miopatías inflamatorias y vasculitis": reumatologia/lupus-y-otras-mesenquimopatias.md
-          - "Monoartritis aguda: gota, artritis séptica y enfermedad por pirofosfato de calcio": reumatologia/monoartritis-gota-artritis-septica.md
-          - "Poliartritis y oligoartritis: artritis reumatoide, espondiloartritis, artritis psoriásica y reactiva": reumatologia/poliartritis-artritis-reumatoide-y-espondiloartritis.md
+  - Temario:
+      - temario/index.md
+      - Medicina interna:
+          - medicina-interna/index.md
+          - Cardiología:
+              - cardiologia/index.md
+              - "Angina crónica estable (síndrome coronario crónico)": cardiologia/angina-cronica-estable.md
+              - "Cardiopatías congénitas en el adulto": cardiologia/cardiopatias-congenitas-del-adulto.md
+              - "Crisis hipertensiva": cardiologia/crisis-hipertensiva.md
+              - "Extrasistolía ventricular y supraventricular": cardiologia/extrasistolia.md
+              - "Fibrilación y flutter auricular": cardiologia/fibrilacion-auricular.md
+              - "Hipertensión arterial": cardiologia/hipertension-arterial.md
+              - "Insuficiencia cardíaca": cardiologia/insuficiencia-cardiaca.md
+              - "Miocardiopatías": cardiologia/miocardiopatias.md
+              - "Paro cardiorrespiratorio y arritmias con compromiso hemodinámico": cardiologia/paro-cardiorrespiratorio-y-arritmias.md
+              - "Pericarditis aguda, derrame pericárdico y taponamiento cardíaco": cardiologia/pericarditis-y-taponamiento.md
+              - "Síndrome aórtico agudo: disección aórtica, hematoma intramural y úlcera penetrante": cardiologia/sindrome-aortico-agudo.md
+              - "Síndrome coronario agudo": cardiologia/sindrome-coronario-agudo.md
+              - "Valvulopatías, paciente con soplo y fiebre reumática": cardiologia/valvulopatias-y-soplos.md
+          - Endocrinología, diabetes y nutrición:
+              - endocrinologia/index.md
+              - "Bocio, nódulo tiroideo y cáncer de tiroides": endocrinologia/bocio-nodulo-y-cancer-de-tiroides.md
+              - "Cetoacidosis diabética y estado hiperglicémico hiperosmolar": endocrinologia/cetoacidosis-y-estado-hiperosmolar.md
+              - "Complicaciones crónicas de la diabetes: nefropatía, retinopatía, neuropatía, enfermedad arterial periférica y pie diabético": endocrinologia/complicaciones-cronicas-de-la-diabetes.md
+              - "Desnutrición, malnutrición y síndromes carenciales de vitaminas y minerales": endocrinologia/desnutricion-y-sindromes-carenciales.md
+              - "Diabetes mellitus tipo 1, otros tipos de diabetes (LADA, MODY) y diabetes por corticoides": endocrinologia/diabetes-tipo-1-y-otros-tipos.md
+              - "Diabetes mellitus tipo 2": endocrinologia/diabetes-mellitus-tipo-2.md
+              - "Diabetes y embarazo: diabetes gestacional y diabetes pregestacional": endocrinologia/diabetes-y-embarazo.md
+              - "Dislipidemias e hipertrigliceridemia grave": endocrinologia/dislipidemia.md
+              - "Hipoglicemia": endocrinologia/hipoglicemia.md
+              - "Hipogonadismo masculino y ginecomastia": endocrinologia/hipogonadismo-masculino-y-ginecomastia.md
+              - "Hipotiroidismo, hipertiroidismo y tiroiditis": endocrinologia/hipotiroidismo-e-hipertiroidismo.md
+              - "Hirsutismo, amenorrea y síndrome de ovario poliquístico": endocrinologia/hirsutismo-amenorrea-y-ovario-poliquistico.md
+              - "Insuficiencia suprarrenal y crisis suprarrenal": endocrinologia/insuficiencia-suprarrenal.md
+              - "Obesidad, obesidad mórbida y síndrome metabólico": endocrinologia/obesidad-y-sindrome-metabolico.md
+              - "Osteoporosis primaria y secundaria": endocrinologia/osteoporosis.md
+              - "Síndrome climatérico y menopausia": endocrinologia/climaterio-y-menopausia.md
+              - "Síndrome de Cushing e incidentaloma suprarrenal": endocrinologia/sindrome-de-cushing-e-incidentaloma-suprarrenal.md
+              - "Trastornos de la conducta alimentaria": endocrinologia/trastornos-de-la-conducta-alimentaria.md
+              - "Trastornos del calcio, fósforo y magnesio: hipocalcemia, tetania e hipercalcemia": endocrinologia/trastornos-del-calcio-fosforo-y-magnesio.md
+              - "Tumores hipofisiarios y de la región selar, hipopituitarismo e hiperprolactinemia": endocrinologia/hipofisis-tumores-hipopituitarismo-e-hiperprolactinemia.md
+          - Enfermedades infecciosas:
+              - infectologia/index.md
+              - "Brucelosis, cólera y ántrax": infectologia/brucelosis-colera-y-antrax.md
+              - "Dengue y malaria": infectologia/dengue-y-malaria.md
+              - "Endocarditis infecciosa": infectologia/endocarditis-infecciosa.md
+              - "Fiebre tifoidea y paratifoidea": infectologia/fiebre-tifoidea-y-paratifoidea.md
+              - "Infecciones de piel y partes blandas": infectologia/infecciones-piel-partes-blandas.md
+              - "Infecciones de transmisión sexual y sífilis": infectologia/infecciones-de-transmision-sexual-y-sifilis.md
+              - "Infecciones por flora oral: flegmón del piso de la boca (angina de Ludwig), absceso pulmonar y absceso cerebral": infectologia/flegmon-cervical-absceso-pulmonar-y-cerebral.md
+              - "Infección por VIH y SIDA, candidiasis orofaríngea y esofágica, y diarrea en inmunosuprimidos": infectologia/infeccion-por-vih.md
+              - "Influenza, COVID-19 y bronquitis aguda": infectologia/influenza-y-covid-19.md
+              - "Meningitis y encefalitis agudas": infectologia/meningitis-y-encefalitis.md
+              - "Micosis invasoras (candidiasis, aspergilosis y mucormicosis)": infectologia/micosis-invasoras.md
+              - "Neumonía nosocomial, neumonía en inmunosuprimidos e infección asociada a catéter": infectologia/neumonia-nosocomial-inmunosuprimidos-y-cateter.md
+              - "Osteomielitis": infectologia/osteomielitis.md
+              - "Parasitosis intestinales": infectologia/parasitosis-intestinales.md
+              - "Sepsis y shock séptico": infectologia/sepsis-y-shock-septico.md
+              - "Síndrome cardiopulmonar por hantavirus y leptospirosis": infectologia/hantavirus-y-leptospirosis.md
+              - "Síndrome febril prolongado (fiebre de origen desconocido)": infectologia/sindrome-febril-prolongado.md
+              - "Síndrome mononucleósico, adenopatías y adenitis": infectologia/sindrome-mononucleosico-y-adenitis.md
+              - "Triquinosis e hidatidosis": infectologia/triquinosis-e-hidatidosis.md
+              - "Tétanos": infectologia/tetanos.md
+              - "Varicela, herpes zóster y otros exantemas del adulto": infectologia/varicela-y-herpes-zoster.md
+          - Enfermedades respiratorias:
+              - respiratorio/index.md
+              - "Apnea obstructiva del sueño y trastornos del sueño": respiratorio/apnea-del-sueno-y-trastornos-del-sueno.md
+              - "Asma bronquial": respiratorio/asma.md
+              - "Bronquiectasias": respiratorio/bronquiectasias.md
+              - "Derrame pleural: paraneumónico, empiema, neoplásico y enfoque diagnóstico": respiratorio/derrame-pleural.md
+              - "Enfermedad pulmonar obstructiva crónica (EPOC)": respiratorio/epoc.md
+              - "Enfermedades pulmonares intersticiales, daño pulmonar por fármacos y neumoconiosis": respiratorio/enfermedades-intersticiales-farmacos-y-neumoconiosis.md
+              - "Hipertensión pulmonar": respiratorio/hipertension-pulmonar.md
+              - "Infecciones de las vías aéreas superiores": respiratorio/infecciones-de-vias-aereas-superiores.md
+              - "Insuficiencia respiratoria aguda, soporte no invasivo, SDRA y hemoptisis": respiratorio/insuficiencia-respiratoria-aguda.md
+              - "Intoxicación por monóxido de carbono, ahogamiento y cuerpo extraño en la vía aérea": respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md
+              - "Neumonía adquirida en la comunidad": respiratorio/neumonia-adquirida-en-la-comunidad.md
+              - "Neumotórax y trauma torácico": respiratorio/neumotorax-y-trauma-toracico.md
+              - "Nódulo pulmonar, cáncer pulmonar y metástasis pulmonares": respiratorio/nodulo-pulmonar-y-cancer-pulmonar.md
+              - "Síndromes mediastínicos: masas, mediastinitis y neumomediastino": respiratorio/sindromes-mediastinicos.md
+              - "Tos crónica": respiratorio/tos-cronica.md
+              - "Tromboembolismo pulmonar": respiratorio/tromboembolismo-pulmonar.md
+              - "Tuberculosis": respiratorio/tuberculosis.md
+          - Gastroenterología:
+              - gastroenterologia/index.md
+              - "Abdomen agudo (incluido el del adulto mayor)": gastroenterologia/abdomen-agudo.md
+              - "Cirrosis hepática y sus complicaciones": gastroenterologia/cirrosis-y-complicaciones.md
+              - "Colestasia: colangitis biliar primaria, colangitis esclerosante y otras causas": gastroenterologia/colestasia.md
+              - "Constipación, fecaloma, síndrome de intestino irritable y diarrea crónica": gastroenterologia/constipacion-intestino-irritable-y-diarrea-cronica.md
+              - "Cáncer de páncreas y pancreatitis crónica": gastroenterologia/cancer-de-pancreas-y-pancreatitis-cronica.md
+              - "Diarrea aguda, toxiinfección alimentaria e infección por Clostridioides difficile": gastroenterologia/diarrea-aguda-y-clostridioides-difficile.md
+              - "Disfagia y afagia aguda (impactación alimentaria y cuerpos extraños esofágicos)": gastroenterologia/disfagia-y-afagia-aguda.md
+              - "Dispepsia, úlcera péptica, *Helicobacter pylori* y cáncer gástrico": gastroenterologia/dispepsia-ulcera-peptica-y-cancer-gastrico.md
+              - "Enfermedad celíaca, intolerancia a la lactosa y síndrome de malabsorción": gastroenterologia/enfermedad-celiaca-intolerancia-a-la-lactosa-y-malabsorcion.md
+              - "Enfermedad inflamatoria intestinal: colitis ulcerosa y enfermedad de Crohn": gastroenterologia/enfermedad-inflamatoria-intestinal.md
+              - "Enfermedad por reflujo gastroesofágico (ERGE) y esófago de Barrett": gastroenterologia/reflujo-gastroesofagico.md
+              - "Hemorragia digestiva alta": gastroenterologia/hemorragia-digestiva-alta.md
+              - "Hemorragia digestiva baja": gastroenterologia/hemorragia-digestiva-baja.md
+              - "Hepatitis aguda e insuficiencia hepática aguda": gastroenterologia/hepatitis-aguda-e-insuficiencia-hepatica-aguda.md
+              - "Hepatitis crónica e insuficiencia hepática crónica": gastroenterologia/hepatitis-cronica-e-insuficiencia-hepatica-cronica.md
+              - "Litiasis biliar, colecistitis aguda y colangitis aguda": gastroenterologia/litiasis-biliar-colecistitis-colangitis.md
+              - "Masa hepática y hepatocarcinoma": gastroenterologia/masa-hepatica-y-hepatocarcinoma.md
+              - "Pancreatitis aguda": gastroenterologia/pancreatitis-aguda.md
+              - "Tumores de colon y cáncer colorrectal": gastroenterologia/tumores-de-colon-y-cancer-colorrectal.md
+          - Geriatría:
+              - geriatria/index.md
+              - "Agitación psicomotora y agresividad (con énfasis en el adulto mayor)": geriatria/agitacion-psicomotora-y-agresividad.md
+              - "Caídas, hipotensión ortostática y fractura de cadera en el adulto mayor": geriatria/caidas-hipotension-ortostatica-y-fractura-de-cadera.md
+              - "Delirium (síndrome confusional agudo)": geriatria/delirium.md
+              - "Depresión (con énfasis en el adulto mayor)": geriatria/depresion.md
+              - "Fragilidad y sarcopenia": geriatria/fragilidad-y-sarcopenia.md
+              - "Hipotermia accidental": geriatria/hipotermia.md
+              - "Incontinencia urinaria": geriatria/incontinencia-urinaria.md
+              - "Inmovilidad y úlceras (lesiones) por presión": geriatria/inmovilidad-y-ulceras-por-presion.md
+          - Hemato-oncología:
+              - hematologia/index.md
+              - "Anemias: enfoque, ferropénica, de enfermedades crónicas, megaloblástica y hemolítica": hematologia/anemias.md
+              - "Coagulopatías, coagulación intravascular diseminada y reversión de anticoagulantes": hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md
+              - "Gammapatías monoclonales y mieloma múltiple": hematologia/gammapatias-monoclonales-y-mieloma-multiple.md
+              - "Leucemias agudas y crónicas, reacción leucemoide y síndrome leucoeritroblástico": hematologia/leucemias-agudas-y-cronicas.md
+              - "Linfomas: linfoma de Hodgkin y linfomas no Hodgkin": hematologia/linfomas.md
+              - "Neoplasias mieloproliferativas crónicas: policitemia vera, trombocitemia esencial y mielofibrosis": hematologia/neoplasias-mieloproliferativas.md
+              - "Síndromes mielodisplásicos, aplasia medular y enfoque de la pancitopenia": hematologia/mielodisplasia-y-aplasia-medular.md
+              - "Síndromes paraneoplásicos": hematologia/sindromes-paraneoplasicos.md
+              - "Trombocitopenia: enfoque, PTI, microangiopatías trombóticas (PTT y SHU) y trombocitopenia inducida por heparina": hematologia/trombocitopenias.md
+              - "Trombofilias hereditarias y adquiridas": hematologia/trombofilias.md
+              - "Urgencias oncológicas: neutropenia febril, lisis tumoral, hipercalcemia, compresión medular y síndrome de vena cava superior": hematologia/urgencias-oncologicas.md
+          - Nefrología:
+              - nefrologia/index.md
+              - "Enfermedad renal crónica": nefrologia/enfermedad-renal-cronica.md
+              - "Hipokalemia e hiperkalemia": nefrologia/trastornos-del-potasio.md
+              - "Hiponatremia e hipernatremia": nefrologia/trastornos-del-sodio.md
+              - "Infección del tracto urinario": nefrologia/infeccion-urinaria.md
+              - "Lesión renal aguda": nefrologia/lesion-renal-aguda.md
+              - "Preeclampsia y síndrome hipertensivo del embarazo": nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md
+              - "Riñón poliquístico (poliquistosis renal autosómica dominante)": nefrologia/rinon-poliquistico.md
+              - "Síndrome nefrótico, síndrome nefrítico y glomerulonefritis rápidamente progresiva": nefrologia/sindromes-glomerulares.md
+              - "Trastornos ácido-base": nefrologia/trastornos-acido-base.md
+              - "Urolitiasis y cólico renal": nefrologia/urolitiasis-y-colico-renal.md
+          - Neurología:
+              - neurologia/index.md
+              - "Accidente cerebrovascular (ACV) y crisis isquémica transitoria": neurologia/accidente-cerebrovascular.md
+              - "Cefalea: enfoque en urgencia, migraña, cefalea tensional y neuralgia del trigémino": neurologia/cefalea.md
+              - "Crisis epiléptica, epilepsia y estado epiléptico": neurologia/crisis-epileptica-y-estado-epileptico.md
+              - "Debilidad aguda: síndrome de Guillain-Barré, paraplejia y cuadriplejia aguda y trauma raquimedular": neurologia/debilidad-aguda-guillain-barre-y-mielopatias.md
+              - "Debilidad muscular: enfoque de la parálisis, síndrome miasténico y síndrome miopático": neurologia/debilidad-miastenia-y-miopatias.md
+              - "Demencia, deterioro cognitivo leve y causas reversibles de deterioro cognitivo": neurologia/demencia-y-deterioro-cognitivo.md
+              - "Encefalopatías tóxico-metabólicas: urémica, hepática, hipercápnica, séptica, hipertensiva y por fármacos": neurologia/encefalopatias-toxico-metabolicas.md
+              - "Enfermedad de Parkinson, temblor, trastornos de la marcha y síndrome atáxico": neurologia/parkinson-temblor-y-trastornos-de-la-marcha.md
+              - "Esclerosis múltiple": neurologia/esclerosis-multiple.md
+              - "Neuropatías periféricas (polineuropatías, mononeuropatías y radiculopatías) y síndromes sensitivos": neurologia/neuropatias-perifericas-y-sindromes-sensitivos.md
+              - "Parálisis facial periférica (parálisis de Bell y síndrome de Ramsay Hunt)": neurologia/paralisis-facial-periferica.md
+              - "Síndrome de abstinencia alcohólica, encefalopatía de Wernicke y complicaciones neurológicas de las sustancias": neurologia/abstinencia-alcoholica-y-wernicke.md
+              - "Trastornos del movimiento inducidos por fármacos: distonía aguda, acatisia, parkinsonismo, discinesia tardía, síndrome neuroléptico maligno y síndrome serotoninérgico": neurologia/trastornos-del-movimiento-por-farmacos.md
+              - "Traumatismo encefalocraneano e hipertensión endocraneana": neurologia/tec-e-hipertension-endocraneana.md
+              - "Tumores primarios y metastásicos del sistema nervioso central": neurologia/tumores-del-snc.md
+              - "Vértigo: síndromes vertiginosos periféricos y centrales": neurologia/vertigo.md
+          - Reumatología:
+              - reumatologia/index.md
+              - "Artrosis, reumatismos de partes blandas, síndrome de túnel carpiano y fibromialgia": reumatologia/artrosis-y-reumatismos-de-partes-blandas.md
+              - "Lumbago, lumbociática, cervicalgia y columna dolorosa (incluido el lumbago infeccioso y tumoral)": reumatologia/lumbago-lumbociatica-y-cervicalgia.md
+              - "Lupus eritematoso sistémico, síndrome antifosfolípidos, Sjögren, esclerosis sistémica, miopatías inflamatorias y vasculitis": reumatologia/lupus-y-otras-mesenquimopatias.md
+              - "Monoartritis aguda: gota, artritis séptica y enfermedad por pirofosfato de calcio": reumatologia/monoartritis-gota-artritis-septica.md
+              - "Poliartritis y oligoartritis: artritis reumatoide, espondiloartritis, artritis psoriásica y reactiva": reumatologia/poliartritis-artritis-reumatoide-y-espondiloartritis.md
+      - Cirugía:
+          - cirugia/index.md
+          - "Abdomen agudo, pared abdominal y obesidad":
+              - cirugia/abdomen-agudo-y-pared/index.md
+              - "Hernias de la pared abdominal, eventraciones y evisceraciones": cirugia/abdomen-agudo-y-pared/hernias-de-la-pared-abdominal.md
+          - "Esófago y estómago":
+              - cirugia/esofago-y-estomago/index.md
+              - "Cáncer de esófago y divertículos esofágicos": cirugia/esofago-y-estomago/cancer-de-esofago-y-diverticulos-esofagicos.md
+              - "Esofagitis cáustica (ingestión de cáusticos)": cirugia/esofago-y-estomago/esofagitis-caustica.md
+              - "Tumores gástricos benignos: pólipos, GIST y tumores subepiteliales": cirugia/esofago-y-estomago/tumores-gastricos-benignos.md
+          - "Intestino delgado, colon y proctología":
+              - cirugia/intestino-colon-y-proctologia/index.md
+              - "Abscesos y fístulas anorrectales, enfermedad pilonidal, prolapso rectal, cáncer anal y condilomas": cirugia/intestino-colon-y-proctologia/abscesos-fistulas-y-otras-patologias-anorrectales.md
+              - "Apendicitis aguda": cirugia/intestino-colon-y-proctologia/apendicitis-aguda.md
+              - "Divertículo de Meckel, tumores y fístulas del intestino delgado": cirugia/intestino-colon-y-proctologia/diverticulo-de-meckel-tumores-y-fistulas-del-intestino-delgado.md
+              - "Hemorroides y fisura anal": cirugia/intestino-colon-y-proctologia/hemorroides-y-fisura-anal.md
+              - "Megacolon, colostomías e ileostomías": cirugia/intestino-colon-y-proctologia/megacolon-y-ostomias.md
+          - "Hígado, vías biliares y páncreas":
+              - cirugia/higado-vias-biliares-y-pancreas/index.md
+              - "Cáncer de vesícula y vías biliares (con pólipos vesiculares)": cirugia/higado-vias-biliares-y-pancreas/cancer-de-vesicula-y-vias-biliares.md
+          - "Cabeza y cuello, tiroides y mama":
+              - cirugia/cabeza-cuello-tiroides-y-mama/index.md
+              - "Cáncer de mama y diagnóstico precoz": cirugia/cabeza-cuello-tiroides-y-mama/cancer-de-mama.md
+              - "Heridas de cara y trauma maxilofacial": cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
+              - "Patología de las glándulas salivales y masa cervical": cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md
+              - "Patología mamaria benigna": cirugia/cabeza-cuello-tiroides-y-mama/patologia-mamaria-benigna.md
+          - "Tórax":
+              - cirugia/torax/index.md
+              - "Mesotelioma pleural y hernias diafragmáticas traumáticas y congénitas": cirugia/torax/mesotelioma-y-hernias-diafragmaticas.md
+          - "Vascular periférico":
+              - cirugia/vascular/index.md
+              - "Aneurisma de aorta abdominal, torácica, femoral y poplítea": cirugia/vascular/aneurismas-aorticos-y-perifericos.md
+              - "Enfermedad renovascular e insuficiencia cerebrovascular (estenosis carotídea)": cirugia/vascular/enfermedad-renovascular-y-carotidea.md
+              - "Insuficiencia arterial aguda (embolia y trombosis) y trauma vascular": cirugia/vascular/isquemia-arterial-aguda-y-trauma-vascular.md
+              - "Várices, insuficiencia venosa crónica y úlceras de las piernas": cirugia/vascular/varices-insuficiencia-venosa-y-ulceras-de-pierna.md
+          - "Piel, partes blandas, heridas y quemaduras":
+              - cirugia/piel-partes-blandas-y-quemaduras/index.md
+              - "Heridas y contusiones menores, mordeduras, profilaxis antitetánica y antirrábica, y onicocriptosis": cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md
+              - "Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos": cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md
+              - "Tumores benignos y malignos de partes blandas": cirugia/piel-partes-blandas-y-quemaduras/tumores-de-partes-blandas.md
+          - "Trauma, shock y paciente quirúrgico grave":
+              - cirugia/trauma-y-shock/index.md
+              - "Trauma abdominal abierto y cerrado": cirugia/trauma-y-shock/trauma-abdominal.md
+              - "Trauma, politraumatizado y manejo en catástrofes": cirugia/trauma-y-shock/trauma-y-politraumatizado.md
+          - "Anestesia y perioperatorio":
+              - cirugia/anestesia-y-perioperatorio/index.md
+              - "Anestesia general, regional y local, e intoxicación por anestésicos locales": cirugia/anestesia-y-perioperatorio/anestesia-y-anestesicos-locales.md
+              - "Epidemiología del cáncer (mundo y Chile), prevención y tamizaje": cirugia/anestesia-y-perioperatorio/epidemiologia-del-cancer.md
+              - "Evaluación nutricional y alimentación en cirugía y enfermedades digestivas": cirugia/anestesia-y-perioperatorio/evaluacion-nutricional-y-alimentacion-en-enfermedades-digestivas.md
+              - "Infección quirúrgica e intrahospitalaria, asepsia y antisepsia, y profilaxis antibiótica": cirugia/anestesia-y-perioperatorio/infeccion-quirurgica-asepsia-y-profilaxis.md
+              - "Manejo del dolor (agudo, posoperatorio y oncológico)": cirugia/anestesia-y-perioperatorio/manejo-del-dolor.md
+              - "Pre y posoperatorio, complicaciones posoperatorias, hemorragia posoperatoria y cirugía ambulatoria": cirugia/anestesia-y-perioperatorio/preoperatorio-posoperatorio-y-complicaciones.md
+          - "Urología":
+              - cirugia/urologia/index.md
+              - "Cáncer de próstata y tamizaje": cirugia/urologia/cancer-de-prostata.md
+              - "Escroto agudo y patología testicular": cirugia/urologia/escroto-agudo-y-patologia-testicular.md
+              - "Hematuria, cáncer de vejiga, tumor renal y tuberculosis urogenital": cirugia/urologia/hematuria-y-tumores-urologicos.md
+              - "Hidronefrosis, uropatía obstructiva alta, malformaciones nefrourológicas y reflujo vesicoureteral": cirugia/urologia/hidronefrosis-uropatia-obstructiva-y-malformaciones.md
+              - "Hiperplasia prostática benigna, retención urinaria, uropatía obstructiva baja y prostatitis": cirugia/urologia/hiperplasia-prostatica-retencion-urinaria-y-prostatitis.md
+              - "Patología del pene: fimosis, parafimosis, balanitis, priapismo y disfunción eréctil": cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md
+              - "Trasplante renal: indicaciones y complicaciones": cirugia/urologia/trasplante-renal.md
+              - "Trauma urológico (renal, ureteral, vesical, uretral y genital)": cirugia/urologia/trauma-urologico.md
+      - Traumatología:
+          - traumatologia/index.md
+          - "Accidentes del trabajo y enfermedades profesionales (Ley 16.744)": traumatologia/accidentes-del-trabajo-y-enfermedades-profesionales.md
+          - "Complicaciones de los traumatismos (sistémicas y vasculares) y de la inmovilización con yeso": traumatologia/complicaciones-de-los-traumatismos-y-del-yeso.md
+          - "Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz": traumatologia/displasia-del-desarrollo-de-cadera.md
+          - "Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño": traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md
+          - "Esguinces, luxación del hombro, luxofractura del tobillo y lesiones de partes blandas": traumatologia/esguinces-luxaciones-y-lesiones-de-partes-blandas.md
+          - "Fractura de la muñeca, heridas de la mano y lesiones de los nervios periféricos": traumatologia/fractura-de-muneca-heridas-de-la-mano-y-lesiones-de-nervios.md
+          - "Fractura inestable de la pelvis": traumatologia/fractura-inestable-de-pelvis.md
+          - "Fracturas de diáfisis y metáfisis, y fracturas expuestas": traumatologia/fracturas-de-diafisis-y-metafisis-y-fracturas-expuestas.md
+          - "Fracturas y disyunciones epifisarias del niño": traumatologia/fracturas-y-disyunciones-del-nino.md
+          - "Triage: categorización en el servicio de urgencia y en las catástrofes": traumatologia/triage.md
+          - "Tumores óseos (benignos, malignos primarios y metástasis óseas)": traumatologia/tumores-oseos.md
+      - Ginecología y obstetricia:
+          - ginecologia-obstetricia/index.md
+          - "Anticoncepción y métodos naturales de regulación de la fertilidad": ginecologia-obstetricia/anticoncepcion-y-metodos-naturales.md
+          - "Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada": ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
+          - "Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)": ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
+          - "Dolor pélvico, dismenorrea, endometriosis y torsión anexial": ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
+          - "Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional": ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
+          - "Infertilidad conyugal": ginecologia-obstetricia/infertilidad-conyugal.md
+          - "Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina": ginecologia-obstetricia/metrorragia-de-la-segunda-mitad-del-embarazo.md
+          - "Mortalidad materna y perinatal; salud pública perinatal": ginecologia-obstetricia/mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md
+          - "Parto prematuro y rotura prematura de membranas": ginecologia-obstetricia/parto-prematuro-y-rotura-prematura-de-membranas.md
+          - "Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino": ginecologia-obstetricia/proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md
+          - "Prolapso genital (prolapso de órganos pélvicos)": ginecologia-obstetricia/prolapso-genital.md
+          - "Pubertad y adolescencia; sexualidad, género y diversidad": ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
+          - "Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego": ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
+          - "Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica": ginecologia-obstetricia/restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md
+          - "Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)": ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
+          - "Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple": ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
+          - "Tumores ováricos y masa anexial (incluido el cáncer de ovario epitelial)": ginecologia-obstetricia/tumores-ovaricos-y-masa-anexial.md
+      - Pediatría:
+          - pediatria/index.md
+          - "Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal": pediatria/abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md
+          - "Alergias en el niño: alergia alimentaria, alergia a la proteína de leche de vaca, anafilaxia y rinitis alérgica": pediatria/alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md
+          - "Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño": pediatria/anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md
+          - "Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis": pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
+          - "Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño": pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md
+          - "Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril": pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
+          - "Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico": pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
+          - "Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño": pediatria/diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md
+          - "Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño": pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
+          - "Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño": pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
+          - "Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)": pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md
+          - "Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita": pediatria/talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md
+          - "Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño": pediatria/exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md
+          - "Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño": pediatria/fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md
+          - "Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital": pediatria/vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md
+          - "Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño": pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
+          - "Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior": pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
+          - "Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI": pediatria/inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md
+          - "Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes": pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
+          - "Lactancia materna y alimentación normal del niño": pediatria/lactancia-materna-y-alimentacion-normal-del-nino.md
+          - "Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño": pediatria/meningitis-meningoencefalitis-y-meningococcemia.md
+          - "Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso": pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
+          - "Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial": pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
+          - "Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia": pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
+          - "Neonatología II: ictericia neonatal, sepsis neonatal, infecciones congénitas (TORCH), enterocolitis necrotizante y VIH pediátrico": pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
+          - "Neonatología III: dificultad respiratoria del recién nacido, síndrome aspirativo meconial, apneas, asfixia, encefalopatía hipóxico-isquémica y convulsiones neonatales": pediatria/dificultad-respiratoria-del-recien-nacido-apneas-asfixia-y-convulsiones-neonatales.md
+          - "Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño": pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
+          - "Paro cardiorrespiratorio, shock y politraumatismo en el niño": pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md
+          - "Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística": pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
+          - "Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares": pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
+          - "Salud infantil en Chile y el mundo, familia y ciclo vital, entrevista, relación médico-paciente-familia y psiquiatría de enlace pediátrica": pediatria/salud-infantil-familia-entrevista-relacion-medico-paciente-familia-y-psiquiatria-de-enlace.md
+          - "Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud": pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
+          - "Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica": pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
+          - "Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño": pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
+          - "Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño": pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
+      - Psiquiatría:
+          - psiquiatria/index.md
+          - "Conducta suicida (adultos, niños y adolescentes)": psiquiatria/conducta-suicida.md
+          - "Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)": psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
+          - "Enuresis y encopresis": psiquiatria/enuresis-y-encopresis.md
+          - "Esquizofrenia y otros trastornos psicóticos": psiquiatria/esquizofrenia-y-trastornos-psicoticos.md
+          - "Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación": psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
+          - "Intoxicación por sustancias psicoactivas": psiquiatria/intoxicacion-por-sustancias-psicoactivas.md
+          - "Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense": psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
+          - "Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género": psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
+          - "Trastorno bipolar": psiquiatria/trastorno-bipolar.md
+          - "Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)": psiquiatria/tdah-y-trastornos-de-conducta.md
+          - "Trastornos de ansiedad y del ánimo en niños y adolescentes": psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
+          - "Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)": psiquiatria/trastornos-de-ansiedad-y-toc.md
+          - "Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)": psiquiatria/trastornos-de-la-personalidad.md
+          - "Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)": psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
+          - "Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje": psiquiatria/trastornos-del-neurodesarrollo.md
+          - "Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)": psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
+      - Especialidades:
+          - especialidades/index.md
+          - "Dermatología":
+              - especialidades/dermatologia/index.md
+              - "Acné y rosácea": especialidades/dermatologia/acne-y-rosacea.md
+              - "Alopecias y vitíligo": especialidades/dermatologia/alopecias-y-vitiligo.md
+              - "Dermatitis atópica, de contacto, seborreica y del pañal": especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
+              - "Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas": especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
+              - "Fotodermatosis, quemadura solar y fotoprotección": especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
+              - "Hemangiomas y malformaciones vasculares": especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md
+              - "Loxoscelismo e higiene de la vivienda": especialidades/dermatologia/loxoscelismo-e-higiene-de-la-vivienda.md
+              - "Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras": especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
+              - "Psoriasis, liquen plano, pitiriasis rosada y eritrodermia": especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
+              - "Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada": especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
+              - "Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos": especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
+              - "Urticaria y angioedema": especialidades/dermatologia/urticaria-y-angioedema.md
+          - "Oftalmología":
+              - especialidades/oftalmologia/index.md
+              - "Conjuntivitis, ojo seco y pterigión": especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
+              - "Glaucoma crónico, glaucoma congénito y catarata": especialidades/oftalmologia/glaucoma-y-catarata.md
+              - "Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo": especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
+              - "Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado": especialidades/oftalmologia/parpados-y-via-lagrimal.md
+              - "Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro": especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
+              - "Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados": especialidades/oftalmologia/trauma-ocular.md
+              - "Tumores oculares y orbitarios, y parálisis del III par con midriasis": especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
+              - "Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto": especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
+          - "Otorrinolaringología":
+              - especialidades/otorrinolaringologia/index.md
+              - "Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales": especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
+              - "Epistaxis: leve, a repetición y masiva": especialidades/otorrinolaringologia/epistaxis.md
+              - "Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo": especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
+              - "Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus": especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
+              - "Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal": especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
+              - "Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído": especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
+              - "Trastornos de la deglución, del habla y del lenguaje": especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
+      - Salud pública:
+          - salud-publica/index.md
+          - "Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación": salud-publica/planificacion-gestion-y-calidad-en-salud.md
+          - "Causalidad, sesgos y pruebas de tamizaje y diagnósticas": salud-publica/causalidad-sesgos-y-pruebas-diagnosticas.md
+          - "Demografía, indicadores de nivel de salud y fuentes de información": salud-publica/demografia-e-indicadores-de-salud.md
+          - "Diagnóstico de situación de salud, descripción de problemas y priorización": salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
+          - "Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente": salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
+          - "Epidemiología analítica: diseños de investigación y medidas de asociación e impacto": salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
+          - "Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades": salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
+          - "Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud": salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
+          - "Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento": salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
+      - Patologías GES: ges/index.md
       - Urgencias: urgencias/index.md
-  - Cirugía:
-      - cirugia/index.md
-      - "Abdomen agudo, pared abdominal y obesidad":
-          - cirugia/abdomen-agudo-y-pared/index.md
-          - "Hernias de la pared abdominal, eventraciones y evisceraciones": cirugia/abdomen-agudo-y-pared/hernias-de-la-pared-abdominal.md
-      - "Esófago y estómago":
-          - cirugia/esofago-y-estomago/index.md
-          - "Cáncer de esófago y divertículos esofágicos": cirugia/esofago-y-estomago/cancer-de-esofago-y-diverticulos-esofagicos.md
-          - "Esofagitis cáustica (ingestión de cáusticos)": cirugia/esofago-y-estomago/esofagitis-caustica.md
-          - "Tumores gástricos benignos: pólipos, GIST y tumores subepiteliales": cirugia/esofago-y-estomago/tumores-gastricos-benignos.md
-      - "Intestino delgado, colon y proctología":
-          - cirugia/intestino-colon-y-proctologia/index.md
-          - "Abscesos y fístulas anorrectales, enfermedad pilonidal, prolapso rectal, cáncer anal y condilomas": cirugia/intestino-colon-y-proctologia/abscesos-fistulas-y-otras-patologias-anorrectales.md
-          - "Apendicitis aguda": cirugia/intestino-colon-y-proctologia/apendicitis-aguda.md
-          - "Divertículo de Meckel, tumores y fístulas del intestino delgado": cirugia/intestino-colon-y-proctologia/diverticulo-de-meckel-tumores-y-fistulas-del-intestino-delgado.md
-          - "Hemorroides y fisura anal": cirugia/intestino-colon-y-proctologia/hemorroides-y-fisura-anal.md
-          - "Megacolon, colostomías e ileostomías": cirugia/intestino-colon-y-proctologia/megacolon-y-ostomias.md
-      - "Hígado, vías biliares y páncreas":
-          - cirugia/higado-vias-biliares-y-pancreas/index.md
-          - "Cáncer de vesícula y vías biliares (con pólipos vesiculares)": cirugia/higado-vias-biliares-y-pancreas/cancer-de-vesicula-y-vias-biliares.md
-      - "Cabeza y cuello, tiroides y mama":
-          - cirugia/cabeza-cuello-tiroides-y-mama/index.md
-          - "Cáncer de mama y diagnóstico precoz": cirugia/cabeza-cuello-tiroides-y-mama/cancer-de-mama.md
-          - "Heridas de cara y trauma maxilofacial": cirugia/cabeza-cuello-tiroides-y-mama/heridas-de-cara-y-trauma-maxilofacial.md
-          - "Patología de las glándulas salivales y masa cervical": cirugia/cabeza-cuello-tiroides-y-mama/glandulas-salivales-y-masa-cervical.md
-          - "Patología mamaria benigna": cirugia/cabeza-cuello-tiroides-y-mama/patologia-mamaria-benigna.md
-      - "Tórax":
-          - cirugia/torax/index.md
-          - "Mesotelioma pleural y hernias diafragmáticas traumáticas y congénitas": cirugia/torax/mesotelioma-y-hernias-diafragmaticas.md
-      - "Vascular periférico":
-          - cirugia/vascular/index.md
-          - "Aneurisma de aorta abdominal, torácica, femoral y poplítea": cirugia/vascular/aneurismas-aorticos-y-perifericos.md
-          - "Enfermedad renovascular e insuficiencia cerebrovascular (estenosis carotídea)": cirugia/vascular/enfermedad-renovascular-y-carotidea.md
-          - "Insuficiencia arterial aguda (embolia y trombosis) y trauma vascular": cirugia/vascular/isquemia-arterial-aguda-y-trauma-vascular.md
-          - "Várices, insuficiencia venosa crónica y úlceras de las piernas": cirugia/vascular/varices-insuficiencia-venosa-y-ulceras-de-pierna.md
-      - "Piel, partes blandas, heridas y quemaduras":
-          - cirugia/piel-partes-blandas-y-quemaduras/index.md
-          - "Heridas y contusiones menores, mordeduras, profilaxis antitetánica y antirrábica, y onicocriptosis": cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md
-          - "Quemaduras, secuelas, cicatrices viciosas, injertos y colgajos": cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md
-          - "Tumores benignos y malignos de partes blandas": cirugia/piel-partes-blandas-y-quemaduras/tumores-de-partes-blandas.md
-      - "Trauma, shock y paciente quirúrgico grave":
-          - cirugia/trauma-y-shock/index.md
-          - "Trauma abdominal abierto y cerrado": cirugia/trauma-y-shock/trauma-abdominal.md
-          - "Trauma, politraumatizado y manejo en catástrofes": cirugia/trauma-y-shock/trauma-y-politraumatizado.md
-      - "Anestesia y perioperatorio":
-          - cirugia/anestesia-y-perioperatorio/index.md
-          - "Anestesia general, regional y local, e intoxicación por anestésicos locales": cirugia/anestesia-y-perioperatorio/anestesia-y-anestesicos-locales.md
-          - "Epidemiología del cáncer (mundo y Chile), prevención y tamizaje": cirugia/anestesia-y-perioperatorio/epidemiologia-del-cancer.md
-          - "Evaluación nutricional y alimentación en cirugía y enfermedades digestivas": cirugia/anestesia-y-perioperatorio/evaluacion-nutricional-y-alimentacion-en-enfermedades-digestivas.md
-          - "Infección quirúrgica e intrahospitalaria, asepsia y antisepsia, y profilaxis antibiótica": cirugia/anestesia-y-perioperatorio/infeccion-quirurgica-asepsia-y-profilaxis.md
-          - "Manejo del dolor (agudo, posoperatorio y oncológico)": cirugia/anestesia-y-perioperatorio/manejo-del-dolor.md
-          - "Pre y posoperatorio, complicaciones posoperatorias, hemorragia posoperatoria y cirugía ambulatoria": cirugia/anestesia-y-perioperatorio/preoperatorio-posoperatorio-y-complicaciones.md
-      - "Urología":
-          - cirugia/urologia/index.md
-          - "Cáncer de próstata y tamizaje": cirugia/urologia/cancer-de-prostata.md
-          - "Escroto agudo y patología testicular": cirugia/urologia/escroto-agudo-y-patologia-testicular.md
-          - "Hematuria, cáncer de vejiga, tumor renal y tuberculosis urogenital": cirugia/urologia/hematuria-y-tumores-urologicos.md
-          - "Hidronefrosis, uropatía obstructiva alta, malformaciones nefrourológicas y reflujo vesicoureteral": cirugia/urologia/hidronefrosis-uropatia-obstructiva-y-malformaciones.md
-          - "Hiperplasia prostática benigna, retención urinaria, uropatía obstructiva baja y prostatitis": cirugia/urologia/hiperplasia-prostatica-retencion-urinaria-y-prostatitis.md
-          - "Patología del pene: fimosis, parafimosis, balanitis, priapismo y disfunción eréctil": cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md
-          - "Trasplante renal: indicaciones y complicaciones": cirugia/urologia/trasplante-renal.md
-          - "Trauma urológico (renal, ureteral, vesical, uretral y genital)": cirugia/urologia/trauma-urologico.md
-  - Traumatología:
-      - traumatologia/index.md
-      - "Accidentes del trabajo y enfermedades profesionales (Ley 16.744)": traumatologia/accidentes-del-trabajo-y-enfermedades-profesionales.md
-      - "Complicaciones de los traumatismos (sistémicas y vasculares) y de la inmovilización con yeso": traumatologia/complicaciones-de-los-traumatismos-y-del-yeso.md
-      - "Displasia del desarrollo de la cadera (displasia luxante de caderas) y su pesquisa precoz": traumatologia/displasia-del-desarrollo-de-cadera.md
-      - "Escoliosis, pie plano y otras alteraciones de la columna y de los pies en el niño": traumatologia/escoliosis-pie-plano-y-ortopedia-infantil.md
-      - "Esguinces, luxación del hombro, luxofractura del tobillo y lesiones de partes blandas": traumatologia/esguinces-luxaciones-y-lesiones-de-partes-blandas.md
-      - "Fractura de la muñeca, heridas de la mano y lesiones de los nervios periféricos": traumatologia/fractura-de-muneca-heridas-de-la-mano-y-lesiones-de-nervios.md
-      - "Fractura inestable de la pelvis": traumatologia/fractura-inestable-de-pelvis.md
-      - "Fracturas de diáfisis y metáfisis, y fracturas expuestas": traumatologia/fracturas-de-diafisis-y-metafisis-y-fracturas-expuestas.md
-      - "Fracturas y disyunciones epifisarias del niño": traumatologia/fracturas-y-disyunciones-del-nino.md
-      - "Triage: categorización en el servicio de urgencia y en las catástrofes": traumatologia/triage.md
-      - "Tumores óseos (benignos, malignos primarios y metástasis óseas)": traumatologia/tumores-oseos.md
-  - Ginecología y obstetricia:
-      - ginecologia-obstetricia/index.md
-      - "Anticoncepción y métodos naturales de regulación de la fertilidad": ginecologia-obstetricia/anticoncepcion-y-metodos-naturales.md
-      - "Control prenatal, edad gestacional, prevención de la isoinmunización Rh y derechos de la embarazada": ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md
-      - "Cáncer cervicouterino, lesiones preinvasoras (VPH) y tamizaje ginecológico (PAP, test de VPH y mamografía)": ginecologia-obstetricia/cancer-cervicouterino-lesiones-preinvasoras-y-tamizaje.md
-      - "Dolor pélvico, dismenorrea, endometriosis y torsión anexial": ginecologia-obstetricia/dolor-pelvico-dismenorrea-endometriosis-y-torsion-anexial.md
-      - "Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional": ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md
-      - "Infertilidad conyugal": ginecologia-obstetricia/infertilidad-conyugal.md
-      - "Metrorragia de la segunda mitad del embarazo: placenta previa, desprendimiento prematuro de placenta y rotura uterina": ginecologia-obstetricia/metrorragia-de-la-segunda-mitad-del-embarazo.md
-      - "Mortalidad materna y perinatal; salud pública perinatal": ginecologia-obstetricia/mortalidad-materna-y-perinatal-y-salud-publica-perinatal.md
-      - "Parto prematuro y rotura prematura de membranas": ginecologia-obstetricia/parto-prematuro-y-rotura-prematura-de-membranas.md
-      - "Proceso inflamatorio pelviano, pelviperitonitis y absceso de la glándula de Bartolino": ginecologia-obstetricia/proceso-inflamatorio-pelviano-pelviperitonitis-y-bartolinitis.md
-      - "Prolapso genital (prolapso de órganos pélvicos)": ginecologia-obstetricia/prolapso-genital.md
-      - "Pubertad y adolescencia; sexualidad, género y diversidad": ginecologia-obstetricia/pubertad-adolescencia-sexualidad-y-diversidad.md
-      - "Puerperio: hemorragia posparto, endometritis, mastitis, lactancia y apego": ginecologia-obstetricia/puerperio-hemorragia-posparto-endometritis-mastitis-y-lactancia.md
-      - "Restricción de crecimiento fetal, colestasia intrahepática del embarazo e hiperemesis gravídica": ginecologia-obstetricia/restriccion-de-crecimiento-fetal-colestasia-e-hiperemesis.md
-      - "Sangrado uterino anormal, mioma uterino y patología endometrial (hiperplasia, pólipos y cáncer de endometrio)": ginecologia-obstetricia/sangrado-uterino-anormal-miomas-y-patologia-endometrial.md
-      - "Trabajo de parto distócico, presentaciones anómalas, sufrimiento fetal agudo, macrosomía y embarazo múltiple": ginecologia-obstetricia/trabajo-de-parto-distocias-y-sufrimiento-fetal.md
-      - "Tumores ováricos y masa anexial (incluido el cáncer de ovario epitelial)": ginecologia-obstetricia/tumores-ovaricos-y-masa-anexial.md
-  - Pediatría:
-      - pediatria/index.md
-      - "Abdomen agudo en el niño: apendicitis, invaginación intestinal, obstrucción intestinal y hernia inguinal": pediatria/abdomen-agudo-obstruccion-intestinal-y-hernia-inguinal.md
-      - "Alergias en el niño: alergia alimentaria, alergia a la proteína de leche de vaca, anafilaxia y rinitis alérgica": pediatria/alergias-en-el-nino-alergia-alimentaria-aplv-anafilaxia-y-rinitis.md
-      - "Anemia ferropriva, síndrome purpúrico y trastornos de la coagulación en el niño": pediatria/anemia-ferropriva-sindrome-purpurico-y-trastornos-de-la-coagulacion.md
-      - "Cardiología pediátrica: cardiopatías congénitas, soplos, insuficiencia cardíaca, arritmias, síncope y endocarditis": pediatria/cardiopatias-congenitas-soplos-insuficiencia-cardiaca-arritmias-sincope-y-endocarditis.md
-      - "Cefalea, traumatismo encefalocraneano e hipertensión endocraneana en el niño": pediatria/cefalea-traumatismo-encefalocraneano-e-hipertension-endocraneana.md
-      - "Cáncer infantil: leucemias, linfomas, tumores sólidos, tumores del SNC y neutropenia febril": pediatria/cancer-infantil-leucemias-linfomas-tumores-solidos-y-neutropenia-febril.md
-      - "Desarrollo psicomotor, retraso del desarrollo, macro y microcefalia, síndrome hipotónico y síndrome hipertónico": pediatria/desarrollo-psicomotor-retraso-del-desarrollo-macro-y-microcefalia-hipotonia-e-hipertonia.md
-      - "Diabetes mellitus tipo 1 y cetoacidosis diabética en el niño": pediatria/diabetes-mellitus-tipo-1-y-cetoacidosis-diabetica-en-el-nino.md
-      - "Diagnóstico nutricional, desnutrición, obesidad y dislipidemia en el niño": pediatria/diagnostico-nutricional-desnutricion-obesidad-y-dislipidemia-en-el-nino.md
-      - "Diarrea aguda, síndrome disentérico, infección por *Salmonella* y deshidratación en el niño": pediatria/diarrea-aguda-disenteria-y-deshidratacion.md
-      - "Dismorfias, malformaciones congénitas frecuentes y trisomía 21 (síndrome de Down)": pediatria/dismorfias-malformaciones-congenitas-y-trisomia-21.md
-      - "Endocrinología pediátrica: talla baja, hipotiroidismo congénito y adquirido, e hiperplasia suprarrenal congénita": pediatria/talla-baja-hipotiroidismo-e-hiperplasia-suprarrenal-congenita.md
-      - "Exantemas virales, mononucleosis infecciosa, adenopatías y adenitis cervical, celulitis periorbitaria e infecciones de piel y partes blandas en el niño": pediatria/exantemas-mononucleosis-adenopatias-e-infecciones-de-piel.md
-      - "Fluidoterapia, trastornos hidroelectrolíticos y del equilibrio ácido-base en el niño": pediatria/fluidoterapia-trastornos-hidroelectroliticos-y-acido-base.md
-      - "Ginecología infantil: leucorrea y vulvovaginitis, sinequias vulvares y candidiasis urogenital": pediatria/vulvovaginitis-leucorrea-sinequias-vulvares-y-candidiasis-urogenital.md
-      - "Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño": pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md
-      - "Infecciones respiratorias altas en el niño: resfrío, faringoamigdalitis, escarlatina, otitis media, sinusitis, laringitis, estridor y obstrucción de la vía aérea superior": pediatria/infecciones-respiratorias-altas-y-obstruccion-de-via-aerea-superior.md
-      - "Inmunizaciones en Chile: Programa Nacional de Inmunizaciones (PNI) y vacunas extra PNI": pediatria/inmunizaciones-programa-nacional-de-inmunizaciones-y-vacunas-extra-pni.md
-      - "Intoxicaciones, BRUE, muerte súbita del lactante y prevención de accidentes": pediatria/intoxicaciones-brue-muerte-subita-del-lactante-y-prevencion-de-accidentes.md
-      - "Lactancia materna y alimentación normal del niño": pediatria/lactancia-materna-y-alimentacion-normal-del-nino.md
-      - "Meningitis bacteriana aguda, meningoencefalitis y meningococcemia en el niño": pediatria/meningitis-meningoencefalitis-y-meningococcemia.md
-      - "Nefrología pediátrica I: infección urinaria, hematuria, síndrome nefrítico, síndrome nefrótico y síndrome edematoso": pediatria/infeccion-urinaria-hematuria-sindrome-nefritico-nefrotico-y-edema.md
-      - "Nefrología pediátrica II: síndrome hemolítico urémico, lesión renal aguda, enfermedad renal crónica e hipertensión arterial": pediatria/sindrome-hemolitico-uremico-lesion-renal-aguda-erc-e-hipertension-arterial.md
-      - "Neonatología I: recién nacido normal, prematurez, RN PEG y GEG, hijo de madre diabética, termorregulación, hipoglicemia, hipocalcemia y poliglobulia": pediatria/recien-nacido-prematurez-peg-geg-hijo-de-madre-diabetica-y-trastornos-metabolicos-neonatales.md
-      - "Neonatología II: ictericia neonatal, sepsis neonatal, infecciones congénitas (TORCH), enterocolitis necrotizante y VIH pediátrico": pediatria/ictericia-neonatal-sepsis-neonatal-torch-enterocolitis-necrotizante-y-vih-pediatrico.md
-      - "Neonatología III: dificultad respiratoria del recién nacido, síndrome aspirativo meconial, apneas, asfixia, encefalopatía hipóxico-isquémica y convulsiones neonatales": pediatria/dificultad-respiratoria-del-recien-nacido-apneas-asfixia-y-convulsiones-neonatales.md
-      - "Neumonía e IRA baja en el niño, coqueluche, COVID-19, insuficiencia respiratoria aguda y aspiración de cuerpo extraño": pediatria/neumonia-coqueluche-covid-insuficiencia-respiratoria-y-cuerpo-extrano.md
-      - "Paro cardiorrespiratorio, shock y politraumatismo en el niño": pediatria/paro-cardiorrespiratorio-shock-y-politraumatismo-en-el-nino.md
-      - "Reflujo gastroesofágico y vómitos del lactante, constipación, dolor abdominal recurrente, diarrea crónica, malabsorción y fibrosis quística": pediatria/reflujo-vomitos-constipacion-dolor-abdominal-y-diarrea-cronica.md
-      - "Reumatología pediátrica: artritis idiopática juvenil, mesenquimopatías, vasculitis (Schönlein-Henoch y Kawasaki) e infecciones osteoarticulares": pediatria/artritis-idiopatica-juvenil-mesenquimopatias-vasculitis-e-infecciones-osteoarticulares.md
-      - "Salud infantil en Chile y el mundo, familia y ciclo vital, entrevista, relación médico-paciente-familia y psiquiatría de enlace pediátrica": pediatria/salud-infantil-familia-entrevista-relacion-medico-paciente-familia-y-psiquiatria-de-enlace.md
-      - "Supervisión de salud del lactante al adolescente, salud oral, prevención de conductas de riesgo y promoción de la salud": pediatria/supervision-de-salud-del-lactante-al-adolescente-salud-oral-y-promocion.md
-      - "Síndrome bronquial obstructivo, bronquiolitis, asma del niño y enfermedad pulmonar crónica": pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md
-      - "Síndrome convulsivo, convulsión febril, estatus convulsivo y compromiso de conciencia en el niño": pediatria/sindrome-convulsivo-convulsion-febril-estatus-y-compromiso-de-conciencia.md
-      - "Síndrome febril agudo sin foco, síndrome febril prolongado, infecciones recurrentes e inmunodeficiencias en el niño": pediatria/fiebre-sin-foco-sindrome-febril-prolongado-e-inmunodeficiencias.md
-  - Psiquiatría:
-      - psiquiatria/index.md
-      - "Conducta suicida (adultos, niños y adolescentes)": psiquiatria/conducta-suicida.md
-      - "Consumo perjudicial y dependencia de alcohol, tabaco y otras drogas (incluidos niños y adolescentes, y prevención)": psiquiatria/consumo-de-alcohol-tabaco-y-drogas.md
-      - "Enuresis y encopresis": psiquiatria/enuresis-y-encopresis.md
-      - "Esquizofrenia y otros trastornos psicóticos": psiquiatria/esquizofrenia-y-trastornos-psicoticos.md
-      - "Fundamentos de psiquiatría: clasificaciones, examen mental, desarrollo a lo largo del ciclo vital e higiene del sueño y de la alimentación": psiquiatria/fundamentos-clasificaciones-desarrollo-e-higiene.md
-      - "Intoxicación por sustancias psicoactivas": psiquiatria/intoxicacion-por-sustancias-psicoactivas.md
-      - "Maltrato infantil, maltrato al adulto mayor, violencia intrafamiliar y nociones de psiquiatría forense": psiquiatria/maltrato-violencia-intrafamiliar-y-psiquiatria-forense.md
-      - "Sexualidad humana, respuesta sexual, disfunciones sexuales y disforia de género": psiquiatria/sexualidad-disfunciones-sexuales-y-disforia-de-genero.md
-      - "Trastorno bipolar": psiquiatria/trastorno-bipolar.md
-      - "Trastorno por déficit de atención e hiperactividad (TDAH) y trastornos de conducta (oposicionista desafiante y disocial)": psiquiatria/tdah-y-trastornos-de-conducta.md
-      - "Trastornos de ansiedad y del ánimo en niños y adolescentes": psiquiatria/ansiedad-y-animo-en-ninos-y-adolescentes.md
-      - "Trastornos de ansiedad y trastorno obsesivo-compulsivo (pánico, agorafobia, fobias, TAG y TOC)": psiquiatria/trastornos-de-ansiedad-y-toc.md
-      - "Trastornos de la personalidad (y concepto, medición y teorías de la personalidad)": psiquiatria/trastornos-de-la-personalidad.md
-      - "Trastornos de síntomas somáticos (somatomorfos), disociativos y facticios (incluida la somatización en niños)": psiquiatria/trastornos-somatomorfos-disociativos-y-facticios.md
-      - "Trastornos del neurodesarrollo: espectro autista, discapacidad intelectual y trastorno específico del aprendizaje": psiquiatria/trastornos-del-neurodesarrollo.md
-      - "Trastornos relacionados con traumas y estrés (adaptación, estrés agudo y estrés postraumático)": psiquiatria/trastornos-relacionados-con-traumas-y-estres.md
-  - Especialidades:
-      - especialidades/index.md
-      - "Dermatología":
-          - especialidades/dermatologia/index.md
-          - "Acné y rosácea": especialidades/dermatologia/acne-y-rosacea.md
-          - "Alopecias y vitíligo": especialidades/dermatologia/alopecias-y-vitiligo.md
-          - "Dermatitis atópica, de contacto, seborreica y del pañal": especialidades/dermatologia/dermatitis-atopica-contacto-seborreica-y-del-panal.md
-          - "Enfermedades ampollares, lupus cutáneo, vasculitis cutáneas, eritema nodoso y piel en las enfermedades sistémicas": especialidades/dermatologia/ampollares-lupus-cutaneo-vasculitis-y-eritema-nodoso.md
-          - "Fotodermatosis, quemadura solar y fotoprotección": especialidades/dermatologia/fotodermatosis-quemadura-solar-y-fotoproteccion.md
-          - "Hemangiomas y malformaciones vasculares": especialidades/dermatologia/hemangiomas-y-malformaciones-vasculares.md
-          - "Loxoscelismo e higiene de la vivienda": especialidades/dermatologia/loxoscelismo-e-higiene-de-la-vivienda.md
-          - "Micosis superficiales, escabiosis, pediculosis, virosis cutáneas (verrugas, molusco, herpes simple) y prúrigo por picaduras": especialidades/dermatologia/micosis-superficiales-escabiosis-pediculosis-y-virosis-cutaneas.md
-          - "Psoriasis, liquen plano, pitiriasis rosada y eritrodermia": especialidades/dermatologia/psoriasis-liquen-plano-pitiriasis-rosada-y-eritrodermia.md
-          - "Reacciones cutáneas por fármacos, Stevens-Johnson, NET, DRESS y piel escaldada": especialidades/dermatologia/reacciones-cutaneas-por-farmacos-sjs-net-y-dress.md
-          - "Tumores cutáneos: melanoma, carcinomas, lesiones premalignas, linfomas cutáneos y tumores benignos": especialidades/dermatologia/tumores-cutaneos-melanoma-carcinomas-y-lesiones-benignas.md
-          - "Urticaria y angioedema": especialidades/dermatologia/urticaria-y-angioedema.md
-      - "Oftalmología":
-          - especialidades/oftalmologia/index.md
-          - "Conjuntivitis, ojo seco y pterigión": especialidades/oftalmologia/conjuntivitis-ojo-seco-y-pterigion.md
-          - "Glaucoma crónico, glaucoma congénito y catarata": especialidades/oftalmologia/glaucoma-y-catarata.md
-          - "Ojo rojo grave: queratitis, úlcera corneal, leucoma, uveítis y glaucoma agudo": especialidades/oftalmologia/ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md
-          - "Párpados y vía lagrimal: blefaritis, orzuelo, chalazión, dacriocistitis, obstrucción lagrimal y tumores de párpado": especialidades/oftalmologia/parpados-y-via-lagrimal.md
-          - "Retina, nervio óptico y baja de visión: DMRE, desprendimiento de retina, hemorragia vítrea, neuropatía óptica isquémica y retinopatía del prematuro": especialidades/oftalmologia/retina-nervio-optico-y-baja-de-vision.md
-          - "Trauma ocular: causticaciones, contusión, hifema, heridas penetrantes y perforantes, y heridas de párpados": especialidades/oftalmologia/trauma-ocular.md
-          - "Tumores oculares y orbitarios, y parálisis del III par con midriasis": especialidades/oftalmologia/tumores-oculares-y-paralisis-del-iii-par.md
-          - "Vicios de refracción, estrabismo, ambliopía y examen visual del niño y del adulto": especialidades/oftalmologia/vicios-de-refraccion-estrabismo-y-examen-visual.md
-      - "Otorrinolaringología":
-          - especialidades/otorrinolaringologia/index.md
-          - "Cáncer de cabeza y cuello: boca, labios, orofaringe, laringe, hipofaringe, rinofaringe y senos paranasales": especialidades/otorrinolaringologia/cancer-de-cabeza-y-cuello.md
-          - "Epistaxis: leve, a repetición y masiva": especialidades/otorrinolaringologia/epistaxis.md
-          - "Faringe y laringe: amigdalitis crónica, odinofagia crónica, disfonías, estridor laríngeo y absceso retrofaríngeo": especialidades/otorrinolaringologia/faringe-y-laringe-disfonia-estridor-y-amigdalitis-cronica.md
-          - "Hipoacusias, sordera súbita, barotrauma, trauma acústico y tinnitus": especialidades/otorrinolaringologia/hipoacusias-sordera-subita-y-tinnitus.md
-          - "Nariz: rinitis alérgica, rinorrea y obstrucción nasal crónica, rinosinusitis crónica, poliposis, respirador bucal, atresia de coanas y cuerpo extraño nasal": especialidades/otorrinolaringologia/nariz-rinitis-sinusitis-cronica-y-obstruccion-nasal.md
-          - "Oído: otitis media con efusión, otitis media recurrente y crónica, mastoiditis, colesteatoma y urgencias del oído": especialidades/otorrinolaringologia/oido-otitis-media-cronica-y-urgencias-oticas.md
-          - "Trastornos de la deglución, del habla y del lenguaje": especialidades/otorrinolaringologia/trastornos-de-deglucion-habla-y-lenguaje.md
-  - Salud pública:
-      - salud-publica/index.md
-      - "Administración y gestión en salud: planificación, programación, organización, dirección, evaluación, auditoría y acreditación": salud-publica/planificacion-gestion-y-calidad-en-salud.md
-      - "Causalidad, sesgos y pruebas de tamizaje y diagnósticas": salud-publica/causalidad-sesgos-y-pruebas-diagnosticas.md
-      - "Demografía, indicadores de nivel de salud y fuentes de información": salud-publica/demografia-e-indicadores-de-salud.md
-      - "Diagnóstico de situación de salud, descripción de problemas y priorización": salud-publica/diagnostico-de-situacion-de-salud-y-priorizacion.md
-      - "Documentos médico-legales y ejercicio profesional: certificado de defunción, licencia médica, notificación, derechos y deberes del paciente": salud-publica/documentos-medico-legales-y-ejercicio-profesional.md
-      - "Epidemiología analítica: diseños de investigación y medidas de asociación e impacto": salud-publica/disenos-de-investigacion-y-medidas-de-asociacion.md
-      - "Epidemiología descriptiva, vigilancia, estudio de brotes y control de enfermedades": salud-publica/epidemiologia-descriptiva-vigilancia-y-control-de-enfermedades.md
-      - "Salud pública: conceptos, funciones esenciales, prevención y determinantes de la salud": salud-publica/conceptos-prevencion-y-determinantes-de-la-salud.md
-      - "Seguridad social y sistema de salud chileno: historia, organización, red asistencial, objetivos sanitarios y financiamiento": salud-publica/sistema-de-salud-chileno-y-seguridad-social.md
-  - Patologías GES: ges/index.md
+  - Farmacoterapia:
+      - Fármacos: farmacos.md
   - Herramientas:
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
-      - Fármacos: farmacos.md
       - Índice A–Z: indice-alfabetico.md
       - Mis temas: mis-temas.md
   - Acerca de:
