@@ -471,6 +471,7 @@ nav:
       - Urgencias: urgencias/index.md
   - Farmacoterapia:
       - Fármacos: farmacos.md
+  - Herramientas:
       - Indicaciones al hospitalizado:
           - indicaciones/index.md
           - Régimen: indicaciones/regimen.md
@@ -478,7 +479,6 @@ nav:
           - Oxigenoterapia: indicaciones/oxigeno.md
           - Fluidoterapia: indicaciones/fluidoterapia.md
           - Insulina en el hospitalizado: indicaciones/insulina.md
-  - Herramientas:
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
       - Índice A–Z: indice-alfabetico.md

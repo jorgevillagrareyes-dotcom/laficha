@@ -393,3 +393,30 @@
     iniciar();
   }
 })();
+
+// Pestañas con submenú: al tocar una pestaña con secciones se abre su submenú en vez de ir a la primera página
+(function () {
+  function cerrar(excepto) {
+    document.querySelectorAll(".lf-tab-menu.lf-abierto").forEach(function (li) {
+      if (li !== excepto) {
+        li.classList.remove("lf-abierto");
+        li.querySelector(".md-tabs__link").setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+  document.addEventListener("click", function (ev) {
+    var enlace = ev.target.closest(".lf-tab-menu > .md-tabs__link");
+    if (enlace) {
+      ev.preventDefault();
+      var li = enlace.parentNode;
+      cerrar(li);
+      var abierto = li.classList.toggle("lf-abierto");
+      enlace.setAttribute("aria-expanded", abierto ? "true" : "false");
+      return;
+    }
+    if (!ev.target.closest(".lf-submenu")) cerrar(null);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape") cerrar(null);
+  });
+})();

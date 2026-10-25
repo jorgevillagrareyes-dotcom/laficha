@@ -510,3 +510,13 @@
   .md-sidebar--primary.lf-sin-menu { display: none; }
   [dir=ltr] .md-sidebar--primary.lf-sin-menu ~ .md-content > .md-content__inner { margin-left: 0.8rem; }
 }
+
+/* Pestañas con submenú desplegable */
+.md-tabs, .md-tabs__list, .md-tabs__item { overflow: visible; contain: none; }
+.md-tabs__item.lf-tab-menu { position: relative; }
+.lf-tab-menu > .md-tabs__link::after { content: ""; display: inline-block; width: 0.32rem; height: 0.32rem; margin-left: 0.35rem; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-0.12rem) rotate(45deg); opacity: 0.6; }
+.lf-submenu { display: none; position: absolute; top: 100%; left: -0.6rem; z-index: 5; min-width: 13rem; max-height: 70vh; overflow-y: auto; margin: 0; padding: 0.3rem 0; list-style: none; background: var(--md-default-bg-color); border: 1px solid var(--mi-linea); border-radius: 0.3rem; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12); white-space: nowrap; }
+.lf-tab-menu.lf-abierto > .lf-submenu { display: block; }
+.lf-submenu a { display: block; padding: 0.45rem 0.9rem; font-size: 0.7rem; color: var(--md-default-fg-color); text-decoration: none; }
+.lf-submenu a:hover, .lf-submenu a:focus { background: var(--mi-fondo-suave); }
+.lf-submenu a.lf-submenu-todo { color: var(--mi-tenue); border-bottom: 1px solid var(--mi-linea); margin-bottom: 0.2rem; }

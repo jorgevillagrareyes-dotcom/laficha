@@ -1,0 +1,39 @@
+{#-
+  Pestañas de La Ficha: una pestaña con secciones abre un submenú (laficha.js)
+  en vez de ir directo a su primera página. Sin JavaScript, el enlace lleva a la primera página.
+-#}
+{% macro primera(item) -%}
+  {%- if item.children -%}{{ primera(item.children | first) }}{%- else -%}{{ item.url | url }}{%- endif -%}
+{%- endmacro %}
+{% macro render(nav_item, ref) %}
+  {% set class = "md-tabs__item" %}
+  {% if nav_item.active %}
+    {% set class = class ~ " md-tabs__item--active" %}
+  {% endif %}
+  {% if nav_item.children %}
+    <li class="{{ class }} lf-tab-menu">
+      <a href="{{ primera(nav_item) }}" class="md-tabs__link" aria-haspopup="true" aria-expanded="false">
+        {{ nav_item.title }}
+      </a>
+      <ul class="lf-submenu">
+        {% for hijo in nav_item.children %}
+          <li>
+            {% if hijo.children %}
+              <a href="{{ primera(hijo) }}">{{ hijo.title }}</a>
+            {% elif hijo.is_index and loop.first %}
+              <a href="{{ hijo.url | url }}" class="lf-submenu-todo">Ver todo: {{ nav_item.title }}</a>
+            {% else %}
+              <a href="{{ hijo.url | url }}">{{ hijo.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% else %}
+    <li class="{{ class }}">
+      <a href="{{ nav_item.url | url }}" class="md-tabs__link">
+        {{ nav_item.title }}
+      </a>
+    </li>
+  {% endif %}
+{% endmacro %}
