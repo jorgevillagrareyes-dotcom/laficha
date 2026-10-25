@@ -503,3 +503,10 @@
   .md-typeset .lf-accesos small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media print { .md-typeset .lf-accesos, .md-typeset .lf-accesos-nota { display: none; } }
+
+/* Páginas sin menú lateral (portada y herramientas): se oculta solo en pantallas anchas;
+   en el celular y la tableta el menú sigue disponible en el cajón */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary.lf-sin-menu { display: none; }
+  [dir=ltr] .md-sidebar--primary.lf-sin-menu ~ .md-content > .md-content__inner { margin-left: 0.8rem; }
+}

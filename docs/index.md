@@ -22,105 +22,16 @@ hide:
 
 <div class="lf-accesos" markdown>
 
+[:material-book-open-page-variant-outline: <span><strong>Temario</strong><small>Todas las especialidades</small></span>](temario/index.md)
+[:material-clipboard-text-outline: <span><strong>Indicaciones</strong><small>Al paciente hospitalizado</small></span>](indicaciones/index.md)
 [:material-comment-question-outline: <span><strong>Preguntas del día</strong><small>5 casos clínicos al día</small></span>](preguntas-del-dia.md)
 [:material-calculator-variant-outline: <span><strong>Calculadoras</strong><small>Puntajes y fórmulas</small></span>](calculadoras.md)
 [:material-pill: <span><strong>Fármacos</strong><small>268 fichas con dosis</small></span>](farmacos.md)
 [:material-sort-alphabetical-ascending: <span><strong>Índice A–Z</strong><small>Todos los temas</small></span>](indice-alfabetico.md)
 [:material-bookmark-outline: <span><strong>Mis temas</strong><small>Guardados y sin conexión</small></span>](mis-temas.md)
 [:material-shield-check-outline: <span><strong>Patologías GES</strong><small>Los 90 problemas GES</small></span>](ges/index.md)
-[:material-ambulance: <span><strong>Urgencias</strong><small>Temas de urgencia</small></span>](urgencias/index.md)
-[:material-hospital-building: <span><strong>Frecuentes en sala</strong><small>Lo que más se ve</small></span>](acerca/etiquetas.md#tag:frecuente-en-sala)
 
 </div>
 
 [Cómo se hizo La Ficha](acerca/metodologia.md)
 { .lf-accesos-nota }
-
-## Índice
-
-<!-- especialidades:inicio -->
-<div class="indice" markdown>
-
-1.  <span class="indice-titulo">[Medicina interna](medicina-interna/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">140 resúmenes · 385/385 temas</span>
-    <span class="indice-desc">Diez subespecialidades y urgencias</span>
-
-1.  <span class="indice-titulo">[Cirugía](cirugia/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">38 resúmenes · 151/151 temas</span>
-    <span class="indice-desc">Digestiva, tórax, vascular, cabeza y cuello, trauma, anestesia y urología</span>
-
-1.  <span class="indice-titulo">[Traumatología](traumatologia/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">11 resúmenes · 31/31 temas</span>
-    <span class="indice-desc">Fracturas, luxaciones, columna y ortopedia</span>
-
-1.  <span class="indice-titulo">[Ginecología y obstetricia](ginecologia-obstetricia/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">17 resúmenes · 69/69 temas</span>
-    <span class="indice-desc">Embarazo, parto, puerperio y ginecología</span>
-
-1.  <span class="indice-titulo">[Pediatría](pediatria/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">35 resúmenes · 190/190 temas</span>
-    <span class="indice-desc">Recién nacido, niño y adolescente</span>
-
-1.  <span class="indice-titulo">[Psiquiatría](psiquiatria/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">16 resúmenes · 52/52 temas</span>
-    <span class="indice-desc">Trastornos del ánimo, ansiedad, psicosis y adicciones</span>
-
-1.  <span class="indice-titulo">[Especialidades](especialidades/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">27 resúmenes · 157/157 temas</span>
-    <span class="indice-desc">Dermatología, oftalmología y otorrinolaringología</span>
-
-1.  <span class="indice-titulo">[Salud pública](salud-publica/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">9 resúmenes · 55/55 temas</span>
-    <span class="indice-desc">Epidemiología, sistema de salud y gestión</span>
-
-1.  <span class="indice-titulo">[Patologías GES](ges/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">90 problemas</span>
-    <span class="indice-desc">Los 90 problemas de salud GES con su guía clínica y los resúmenes que los tratan</span>
-
-</div>
-<!-- especialidades:fin -->
-
-Los temarios siguen el **[perfil de conocimientos EUNACOM versión 3](https://www.eunacom.cl/contenidos/Perfil2026.pdf)** (junio 2026, vigente desde diciembre de 2026).
-
-## Cómo usar La Ficha
-
-- **Busca sin preocuparte de las tildes**: escribe "sindrome nefrotico" o "hipercalemia" y el buscador completa la palabra. Atajo: tecla <kbd>/</kbd>.
-- **Marca tu avance**: bajo el título de cada resumen están los botones **Estudiado** y **Guardar**, y **A−/A+** para el tamaño de letra. Tu avance aparece en [Mis temas](mis-temas.md) y en los índices.
-- **Úsala sin internet**: en [Mis temas](mis-temas.md) puedes descargar el sitio completo al teléfono. En el celular, usa "Agregar a la pantalla de inicio" para abrirla como una app.
-- **Repasa**: cada resumen termina con preguntas tipo caso clínico; el botón "Mostrar todas las respuestas" las abre de una vez. Al imprimir, salen con las respuestas.
-
-## Cómo está armada cada página
-
-Todas las patologías usan las mismas secciones, en este orden, para que sepas dónde buscar:
-
-1. Ficha (subespecialidad, guías usadas, GES, fecha de revisión) y resumen rápido
-2. Definición
-3. Epidemiología mundial y en Chile
-4. Etiología y factores de riesgo
-5. Fisiopatología
-6. Clasificación
-7. Clínica
-8. Diagnóstico
-9. Laboratorio
-10. Imágenes
-11. Diagnóstico diferencial
-12. Tratamiento
-13. Complicaciones
-14. Pronóstico y seguimiento
-15. Perlas para el internado
-16. Preguntas de repaso
-17. Referencias
-
-### Recuadros
-
-!!! guia "Recomendación de guía"
-    Recomendación textual o casi textual de una guía, con su clase y nivel de evidencia cuando la guía los entrega.
-
-!!! chile "Chile"
-    Datos epidemiológicos nacionales, garantías GES y particularidades del sistema de salud chileno.
-
-!!! alarma "Signos de alarma"
-    Hallazgos que obligan a actuar de inmediato o a derivar.
-
-!!! dosis "Dosis"
-    Esquemas farmacológicos. Revisa siempre ajuste por función renal y hepática.
-
-!!! perla "Perla clínica"
-    Datos prácticos para la sala, el turno y el EUNACOM.
-
-??? repaso "Pregunta de repaso"
-    Las preguntas vienen cerradas; haz clic para ver la respuesta.
-
-!!! warning "Advertencia"
-    Estos resúmenes se escribieron con apoyo de inteligencia artificial a partir de guías clínicas y literatura científica. Pueden contener errores. Antes de indicar un tratamiento, contrasta las dosis y recomendaciones con la guía original citada y con los protocolos de tu centro.
