@@ -34,8 +34,6 @@ theme:
         name: Cambiar a modo claro
   features:
     - navigation.tabs
-    - navigation.indexes
-    - navigation.prune
     - navigation.top
     - navigation.footer
     - navigation.tracking
