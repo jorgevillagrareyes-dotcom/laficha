@@ -512,6 +512,7 @@ def main():
         "          - Sonda nasogástrica: procedimientos/sonda-nasogastrica.md",
         "          - Punción lumbar: procedimientos/puncion-lumbar.md",
         "          - Toracocentesis: procedimientos/toracocentesis.md",
+        "          - Paracentesis: procedimientos/paracentesis.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
         "      - Índice A–Z: indice-alfabetico.md",

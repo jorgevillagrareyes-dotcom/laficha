@@ -31,6 +31,6 @@ Todas las páginas tienen la misma estructura:
 | **Sonda nasogástrica** | Alimentación, descompresión, lavado | [Sonda nasogástrica](sonda-nasogastrica.md) |
 | **Punción lumbar** | Estudio del LCR | [Punción lumbar](puncion-lumbar.md) |
 | **Toracocentesis** | Estudio o evacuación de un derrame pleural | [Toracocentesis](toracocentesis.md) |
-| **Paracentesis** | Estudio o evacuación de la ascitis | En preparación |
+| **Paracentesis** | Estudio o evacuación de la ascitis | [Paracentesis](paracentesis.md) |
 | **Drenaje de absceso** | Absceso cutáneo | En preparación |
 | **Uña encarnada** | Onicocriptosis | En preparación |
