@@ -9,7 +9,7 @@ Aseo y sutura de heridas cortantes o contusas simples de la piel, con anestesia 
 Forsch 2017 (*Am Fam Physician*): reparación de laceraciones · Mankowitz 2017 (*J Emerg Med*) · IDSA 2014: mordeduras · ACIP 2018: profilaxis antitetánica
 
 **Otras fuentes**
-Fernandez 2022 (Cochrane): agua para lavar heridas · Heal 2006 (*BMJ*): mojar la herida suturada · Cummings 1995: antibióticos en heridas simples · Ilicki 2015: epinefrina en los dedos · Ver [heridas, mordeduras y onicocriptosis](../cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md) y [tétanos](../infectologia/tetanos.md)
+Fernandez 2022 (Cochrane): agua para lavar heridas · Heal 2006 (*BMJ*): mojar la herida suturada · Cummings 1995: antibióticos en heridas simples · Ilicki 2015: epinefrina en los dedos · Lineaweaver 1985 y Gravett 1987: antisépticos · Ver [heridas, mordeduras y onicocriptosis](../cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md) y [tétanos](../infectologia/tetanos.md)
 
 **Revisado**
 Octubre 2026
@@ -22,6 +22,7 @@ Octubre 2026
     - **No suturar**: mordeduras de la **mano**, heridas **punzantes**, infectadas o muy contaminadas (cierre diferido o segunda intención).
     - **Anestesia**: **lidocaína 1–2 %**, máximo **4,5 mg/kg** sin epinefrina y **7 mg/kg** con epinefrina. La epinefrina **se puede usar en los dedos** si no hay compromiso vascular.
     - **Lavado**: el **agua potable** es tan segura como el suero; **50–100 mL por cada cm** de herida, a presión.
+    - **Antisépticos**: en la **piel sana alrededor**, sí (povidona yodada o clorhexidina). **Dentro de la herida, no**: la povidona concentrada, el agua oxigenada y el alcohol dañan el tejido y retrasan la cicatrización.
     - **Hilo**: nylon **5-0/6-0 en la cara**, **4-0 en la mayoría**, **3-0 en el cuero cabelludo, la espalda, las palmas y las plantas**.
     - **Sin antibiótico** en las heridas simples. **Sí** en las **mordeduras de riesgo** (amoxicilina-ácido clavulánico).
     - **Retiro de puntos**: cara **3–5 días**, cuero cabelludo y brazos **7–10**, tronco, piernas, manos y pies **10–14**, palmas y plantas **14–21**.
@@ -67,6 +68,7 @@ flowchart TD
 - **Consentimiento** verbal, explicando el procedimiento y la cicatriz esperable.
 - **Guantes**: los guantes de **examen limpios** no aumentan la infección frente a los estériles (Forsch 2017).
 - **Lavado**: suero fisiológico o agua potable, jeringa de 20–35 mL con aguja o catéter.
+- **Antiséptico** para la piel alrededor: povidona yodada o clorhexidina.
 - **Anestesia**: lidocaína 1 % o 2 % (con o sin epinefrina), jeringa y aguja fina (25–27 G).
 - **Caja de sutura**: porta-agujas, pinza, tijera; campo estéril; hilo según la zona.
 - **Apósito**: gasa o apósito transparente; vaselina.
@@ -76,13 +78,24 @@ flowchart TD
 1. **Posición cómoda** y buena luz. Higiene de manos y guantes.
 2. **Anestesia local**: infiltrar lentamente por los **bordes de la herida** (no por la piel sana), con aguja fina. Calcular la **dosis máxima** antes: la lidocaína al **2 %** tiene **20 mg/mL** (un adulto de 70 kg puede recibir hasta ~ **15 mL** de lidocaína al 2 % sin epinefrina). En los dedos, **bloqueo digital**.
 3. **Lavado** a presión con **50–100 mL por cada cm** de herida (agua potable o suero).
-4. **Explorar** la herida en todo su recorrido: cuerpos extraños, tendones, fondo.
-5. **Desbridar** el tejido desvitalizado y regularizar los bordes muy irregulares.
-6. **Planos profundos**: si la herida es profunda o con tensión, afrontar el subcutáneo con hilo **reabsorbible** (puntos invertidos, nudo hacia abajo).
-7. **Piel**: entrar **perpendicular** a la piel, a la **misma distancia del borde y la misma profundidad** a ambos lados, para que los bordes queden **evertidos**. Nudo hacia un lado, sin estrangular el tejido.
-8. **Hemostasia** y control final: sin sangrado activo, bordes bien afrontados.
-9. **Apósito** y **profilaxis antitetánica** si corresponde.
-10. **Registrar** el procedimiento y entregar las **indicaciones**.
+4. **Antisepsia de la piel alrededor** de la herida, desde el borde hacia afuera, sin que el antiséptico escurra dentro. Poner el **campo**.
+5. **Explorar** la herida en todo su recorrido: cuerpos extraños, tendones, fondo.
+6. **Desbridar** el tejido desvitalizado y regularizar los bordes muy irregulares.
+7. **Planos profundos**: si la herida es profunda o con tensión, afrontar el subcutáneo con hilo **reabsorbible** (puntos invertidos, nudo hacia abajo).
+8. **Piel**: entrar **perpendicular** a la piel, a la **misma distancia del borde y la misma profundidad** a ambos lados, para que los bordes queden **evertidos**. Nudo hacia un lado, sin estrangular el tejido.
+9. **Hemostasia** y control final: sin sangrado activo, bordes bien afrontados.
+10. **Apósito** y **profilaxis antitetánica** si corresponde.
+11. **Registrar** el procedimiento y entregar las **indicaciones**.
+
+### ¿Y los antisépticos?
+
+| Dónde | Conducta | Por qué |
+|---|---|---|
+| **Piel sana alrededor** | Pincelar con **povidona yodada** o **clorhexidina** antes de poner el campo (evitar la clorhexidina cerca de los ojos y los oídos) | Es parte de la técnica aséptica: baja la carga bacteriana de la piel que rodea la herida |
+| **Dentro de la herida** | **No** aplicar antisépticos concentrados: povidona al 10 %, **agua oxigenada**, **alcohol**, clorhexidina | Son **tóxicos para los fibroblastos** y en modelos animales empeoran la cicatrización; el agua oxigenada y el ácido acético son más tóxicos que bactericidas (Lineaweaver 1985). Lo que limpia la herida es el **lavado a presión** |
+| **Herida sucia o contaminada** | Se puede lavar con **povidona yodada diluida al 1 %** | En un ensayo de 1987 (395 pacientes analizados), lavar y escobillar con povidona al 1 % redujo la infección (11 de 201 frente a 30 de 194). Es antiguo y perdió a uno de cada cinco pacientes en el seguimiento, así que no es obligatorio en las heridas limpias |
+
+Fuentes: Lineaweaver 1985; Gravett 1987; Mankowitz 2017 (la mayoría de los agentes tópicos sobre la herida tienen un beneficio limitado).
 
 ### Elegir el hilo y el punto
 
@@ -110,7 +123,7 @@ Fuente: Forsch 2017 (los días de retiro son opinión de expertos).
 
 ## Cómo se escribe
 
-Completa los datos y copia el texto con la descripción y las indicaciones. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
+Completa los datos y copia el texto con la descripción y las indicaciones. Las **indicaciones se pueden editar**: desmarca las que no quieras, cambia el texto, agrega las tuyas y guárdalas como **tus indicaciones** (quedan en este dispositivo). También puedes corregir el texto final antes de copiarlo. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
 
 <div class="calc" data-gen="sutura">
 <span class="gen-titulo">La herida</span>
@@ -125,6 +138,8 @@ Completa los datos y copia el texto con la descripción y las indicaciones. **No
 <label class="calc-campo">N.° de puntos <input type="text" name="n" inputmode="numeric" placeholder="4"></label>
 <label class="calc-campo">Hilo de piel <select name="hilo"><option value="nylon 6-0">Nylon 6-0</option><option value="nylon 5-0">Nylon 5-0</option><option value="nylon 4-0" selected>Nylon 4-0</option><option value="nylon 3-0">Nylon 3-0</option></select></label>
 <label class="calc-campo">Hilo del plano profundo <select name="hiloprof"><option value="poliglactina (Vicryl) 4-0">Reabsorbible 4-0</option><option value="poliglactina (Vicryl) 3-0">Reabsorbible 3-0</option></select></label>
+<label class="calc-campo">Antiséptico para la piel <select name="antiseptico"><option value="povidona yodada">Povidona yodada</option><option value="clorhexidina">Clorhexidina</option></select></label>
+<label><input type="checkbox" name="antisepsia" checked> Antisepsia de la piel alrededor</label>
 <label><input type="checkbox" name="lavado" checked> Irrigación con suero</label>
 <label><input type="checkbox" name="explora" checked> Exploración sin cuerpo extraño ni lesión de estructuras</label>
 <label><input type="checkbox" name="desbrida"> Desbridamiento</label>
@@ -141,7 +156,7 @@ Completa los datos y copia el texto con la descripción y las indicaciones. **No
 </div>
 
 !!! plantilla "Ejemplo de descripción"
-    Se realiza aseo y sutura de herida cortante de 3 cm en región palmar de mano izquierda, bajo técnica aséptica y anestesia local con lidocaína al 2 % (4 mL). Se irriga con abundante suero fisiológico y se explora la herida sin evidencia de cuerpo extraño ni compromiso de tendones, vasos o nervios. Se afronta piel con 4 puntos simples de nylon 3-0. Procedimiento sin complicaciones, sin sangrado activo al término. Se cubre con apósito. Se entregan indicaciones.
+    Se realiza aseo y sutura de herida cortante de 3 cm en región palmar de mano izquierda, bajo técnica aséptica y anestesia local con lidocaína al 2 % (4 mL). Se realiza antisepsia de la piel perilesional con povidona yodada. Se irriga con abundante suero fisiológico y se explora la herida sin evidencia de cuerpo extraño ni compromiso de tendones, vasos o nervios. Se afronta piel con 4 puntos simples de nylon 3-0. Procedimiento sin complicaciones, sin sangrado activo al término. Se cubre con apósito. Se entregan indicaciones.
 
 ## Indicaciones después de la sutura
 
@@ -189,6 +204,7 @@ Fuente: ACIP 2018. Los adultos no tienen refuerzos programados en el PNI: la pro
     - Suturar una **mordedura de la mano** o una herida **punzante**.
     - Pasarse de la **dosis máxima de lidocaína** en las heridas grandes (calcula los mL antes de empezar).
     - Indicar **antibiótico "por si acaso"** en una herida simple.
+    - Echar **povidona yodada concentrada, agua oxigenada o alcohol dentro** de la herida.
     - Olvidar la **profilaxis antitetánica**.
     - Dejar los **puntos de la cara** 10 días: quedan marcas.
 
@@ -223,3 +239,5 @@ Fuente: ACIP 2018. Los adultos no tienen refuerzos programados en el PNI: la pro
 7. Cummings P, Del Beccaro MA. Antibiotics to prevent infection of simple wounds: a meta-analysis of randomized studies. *Am J Emerg Med.* 1995;13(4):396–400. doi:[10.1016/0735-6757(95)90122-1](https://doi.org/10.1016/0735-6757(95)90122-1)
 8. Ilicki J. Safety of Epinephrine in Digital Nerve Blocks: A Literature Review. *J Emerg Med.* 2015;49(5):799–809. doi:[10.1016/j.jemermed.2015.05.038](https://doi.org/10.1016/j.jemermed.2015.05.038)
 9. Neal JM, Woodward CM, Harrison TK. The American Society of Regional Anesthesia and Pain Medicine Checklist for Managing Local Anesthetic Systemic Toxicity: 2017 Version. *Reg Anesth Pain Med.* 2018;43(2):150–153. doi:[10.1097/AAP.0000000000000726](https://doi.org/10.1097/AAP.0000000000000726)
+10. Gravett A, Sterner S, Clinton JE, Ruiz E. A trial of povidone-iodine in the prevention of infection in sutured lacerations. *Ann Emerg Med.* 1987;16(2):167–171. doi:[10.1016/s0196-0644(87)80008-2](https://doi.org/10.1016/s0196-0644(87)80008-2)
+11. Lineaweaver W, Howard R, Soucy D, et al. Topical antimicrobial toxicity. *Arch Surg.* 1985;120(3):267–270. doi:[10.1001/archsurg.1985.01390270007001](https://doi.org/10.1001/archsurg.1985.01390270007001)

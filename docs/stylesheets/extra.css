@@ -555,3 +555,21 @@
 .md-typeset .gen-barra { display: flex; align-items: center; gap: 0.6em; padding: 0.45em 0.8em; border-bottom: 1px solid var(--mi-linea); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mi-tenue); }
 .md-typeset .gen-texto { white-space: pre-wrap; padding: 0.9em 1em; font-size: 0.8rem; line-height: 1.7; background: var(--mi-fondo-suave); }
 .md-typeset .gen-aviso { grid-column: 1 / -1; font-size: 0.68rem; color: var(--mi-tenue); }
+.md-typeset .gen-ind { grid-column: 1 / -1; }
+.md-typeset .gen-filas { display: flex; flex-direction: column; gap: 0.15em; margin-top: 0.3em; }
+.md-typeset .gen-fila { display: flex; align-items: flex-start; gap: 0.6em; }
+.md-typeset .gen-fila input[type=checkbox] { margin-top: 0.55em; }
+.md-typeset .gen-fila .gen-ind-txt { resize: none; overflow: hidden; line-height: 1.5; display: block; }
+.md-typeset .gen-fila input[type=checkbox] { flex: none; accent-color: var(--md-default-fg-color); }
+.md-typeset .gen-fila .gen-ind-txt { flex: 1 1 auto; min-width: 0; font: inherit; font-size: 0.78rem; color: var(--md-default-fg-color); background: transparent; border: none; border-bottom: 1px solid var(--mi-linea); padding: 0.35em 0; }
+.md-typeset .gen-fila .gen-ind-txt:focus { outline: none; border-bottom-color: var(--md-default-fg-color); }
+.md-typeset .gen-fila input[type=checkbox]:not(:checked) + .gen-ind-txt { color: var(--mi-tenue); text-decoration: line-through; }
+.md-typeset .gen-quitar { flex: none; font: inherit; font-size: 1rem; line-height: 1; color: var(--mi-tenue); background: transparent; border: none; cursor: pointer; padding: 0 0.2em; }
+.md-typeset .gen-quitar:hover { color: var(--md-default-fg-color); }
+.md-typeset .gen-acciones { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5em; margin-top: 0.7em; }
+.md-typeset .gen-boton { font: inherit; font-size: 0.72rem; color: var(--md-default-fg-color); background: transparent; border: 1px solid var(--mi-linea); border-radius: 999px; padding: 0.3em 0.9em; cursor: pointer; }
+.md-typeset .gen-boton:hover { border-color: var(--md-default-fg-color); }
+.md-typeset .gen-boton.gen-sutil { border-color: transparent; color: var(--mi-tenue); }
+.md-typeset .gen-estado { font-size: 0.7rem; color: var(--mi-tenue); }
+.md-typeset .gen-texto[contenteditable]:focus { outline: 1px solid var(--mi-linea); outline-offset: -1px; }
+.md-typeset .gen-nota { font-size: 0.66rem; color: var(--mi-tenue); padding: 0.4em 1em 0.6em; background: var(--mi-fondo-suave); }
