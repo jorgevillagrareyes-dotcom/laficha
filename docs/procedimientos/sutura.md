@@ -123,7 +123,7 @@ Fuente: Forsch 2017 (los días de retiro son opinión de expertos).
 
 ## Cómo se escribe
 
-Escribe los datos **como tú los registras**: todos los campos son de texto libre, y al tocarlos aparecen sugerencias que puedes usar o ignorar. Los campos opcionales que dejes vacíos no aparecen en el texto. Las **indicaciones** se pueden desmarcar, cambiar o agregar. Con **Guardar como mi plantilla** quedan en este dispositivo tus indicaciones y tus datos habituales (anestesia, hilo, tipo de punto, apósito), para no escribirlos cada vez. El texto final también se puede corregir antes de copiarlo. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
+Escribe los datos **como tú los registras**: todos los campos son de texto libre, y al tocarlos aparecen sugerencias que puedes usar o ignorar. Los campos opcionales que dejes vacíos no aparecen en el texto. Las **indicaciones** se pueden desmarcar, cambiar, **quitar** (×) o **agregar**. Con **Guardar como mi plantilla** quedan en este dispositivo tus indicaciones y tus datos habituales (anestesia, hilo, tipo de punto, apósito), para no escribirlos cada vez. El texto final también se puede corregir antes de copiarlo. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
 
 <div class="calc" data-gen="sutura">
 <span class="gen-titulo">La herida</span>

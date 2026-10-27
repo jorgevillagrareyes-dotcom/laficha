@@ -90,7 +90,8 @@
     cont.innerHTML = "<span class='gen-titulo'>Indicaciones · edítalas a tu gusto</span><div class='gen-filas'></div>" +
       "<div class='gen-acciones'><button type='button' class='gen-boton' data-a='agregar'>+ Agregar indicación</button>" +
       "<button type='button' class='gen-boton' data-a='guardar'>Guardar como mi plantilla</button>" +
-      "<button type='button' class='gen-boton gen-sutil' data-a='restablecer'>Restablecer</button>" +
+      "<button type='button' class='gen-boton gen-sutil' data-a='restablecer'>Deshacer cambios</button>" +
+      "<button type='button' class='gen-boton gen-sutil' data-a='borrar'>Borrar mi plantilla</button>" +
       "<span class='gen-estado' aria-live='polite'></span></div>";
     caja.insertBefore(cont, salida);
     var filas = cont.querySelector(".gen-filas"), aviso = cont.querySelector(".gen-estado");
@@ -103,7 +104,7 @@
         c.value = pref && pref.campos && pref.campos[c.name] ? pref.campos[c.name] : "";
       });
       if (pref && pref.filas) pref.filas.forEach(function (x) {
-        estado[x.id] = { texto: x.texto, on: x.on, manual: true, propia: !!x.propia };
+        estado[x.id] = { texto: x.texto, on: x.on, manual: true, propia: !!x.propia, quitada: !!x.quitada };
         if (x.propia) nuevas++;
       });
     }
@@ -112,7 +113,7 @@
       var el = document.createElement("div");
       el.className = "gen-fila"; el.setAttribute("data-id", id);
       el.innerHTML = "<input type='checkbox' aria-label='Incluir'><textarea class='gen-ind-txt' rows='1' aria-label='Indicación'></textarea>" +
-        (e.propia ? "<button type='button' class='gen-quitar' aria-label='Quitar'>×</button>" : "");
+        "<button type='button' class='gen-quitar' aria-label='Quitar indicación' title='Quitar'>×</button>";
       el.querySelector("input[type=checkbox]").checked = e.on;
       el.querySelector(".gen-ind-txt").value = e.texto;
       return el;
@@ -123,12 +124,12 @@
     }
     // Funde lo sugerido por el formulario con lo que el usuario cambió.
     function sincronizar(base) {
-      var ids = base.map(function (x) { return x.id; });
+      var ids = base.map(function (x) { return x.id; }).filter(function (id) { return !(estado[id] && estado[id].quitada); });
       base.forEach(function (x) {
         var e = estado[x.id];
         if (!e || !e.manual) estado[x.id] = { texto: x.texto, on: x.on, manual: false };
       });
-      var propias = Object.keys(estado).filter(function (id) { return estado[id].propia; });
+      var propias = Object.keys(estado).filter(function (id) { return estado[id].propia && !estado[id].quitada; });
       var nuevoOrden = ids.concat(propias);
       if (nuevoOrden.join() !== orden.join()) {
         orden = nuevoOrden; filas.innerHTML = "";
@@ -156,8 +157,11 @@
     filas.addEventListener("change", marcarManual);
     filas.addEventListener("click", function (ev) {
       if (!ev.target.classList.contains("gen-quitar")) return;
-      var el = ev.target.closest(".gen-fila");
-      delete estado[el.getAttribute("data-id")];
+      // Las propias se borran; las sugeridas quedan marcadas como quitadas (para recordarlo en la plantilla).
+      var id = ev.target.closest(".gen-fila").getAttribute("data-id");
+      if (estado[id].propia) delete estado[id];
+      else { estado[id].quitada = true; estado[id].manual = true; }
+      aviso.textContent = "";
       caja.dispatchEvent(new Event("change"));
     });
     cont.querySelector(".gen-acciones").addEventListener("click", function (ev) {
@@ -171,14 +175,18 @@
         if (txt) txt.focus();
         aviso.textContent = "";
       } else if (a === "guardar") {
-        var lista = orden.filter(function (id) { return estado[id].manual; }).map(function (id) {
+        var lista = Object.keys(estado).filter(function (id) { return estado[id].manual; }).map(function (id) {
           var e = estado[id];
-          return { id: id, texto: e.texto, on: e.on, propia: !!e.propia };
+          return { id: id, texto: e.texto, on: e.on, propia: !!e.propia, quitada: !!e.quitada };
         });
         var campos = {};
         caja.querySelectorAll("[data-recordar]").forEach(function (c) { if (c.value.trim()) campos[c.name] = c.value.trim(); });
         aviso.textContent = guardarPref(clave, { filas: lista, campos: campos }) ? "Plantilla guardada en este dispositivo" : "No se pudo guardar";
       } else if (a === "restablecer") {
+        cargar(); orden = [];
+        caja.dispatchEvent(new Event("change"));
+        aviso.textContent = leerPref(clave) ? "Se volvió a tu plantilla" : "Se volvió a las sugeridas";
+      } else if (a === "borrar") {
         guardarPref(clave, null); cargar(); orden = [];
         caja.dispatchEvent(new Event("change"));
         aviso.textContent = "Se borró tu plantilla";
