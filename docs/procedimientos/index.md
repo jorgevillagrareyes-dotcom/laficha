@@ -26,7 +26,7 @@ Todas las páginas tienen la misma estructura:
 | Procedimiento | Para qué | Página |
 |---|---|---|
 | **Sutura de heridas** | Cerrar heridas cortantes o contusas simples | [Sutura de heridas](sutura.md) |
-| **Punción venosa y gases arteriales** | Exámenes de sangre y gasometría | En preparación |
+| **Gases arteriales** | Gasometría arterial: oxigenación, ventilación y ácido-base | [Gases arteriales](gases-arteriales.md) |
 | **Sonda Foley** | Retención urinaria, medición de la diuresis | [Sonda Foley](foley.md) |
 | **Sonda nasogástrica** | Alimentación, descompresión, lavado | [Sonda nasogástrica](sonda-nasogastrica.md) |
 | **Punción lumbar** | Estudio del LCR | [Punción lumbar](puncion-lumbar.md) |
