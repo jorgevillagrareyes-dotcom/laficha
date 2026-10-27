@@ -22,7 +22,7 @@ Una indicación ordenada evita olvidos. El orden más usado en las salas chilena
 | 4 | **Volumen** | ¿Necesita fluidos EV? ¿Para qué: reanimar, mantener o reponer? | [Fluidoterapia](fluidoterapia.md) |
 | 5 | **Antibiótico** | ¿Hay infección? ¿Cuál, dosis, vía, día y hasta cuándo? | [Antibióticos](antibioticos.md) |
 | 6 | **Analgesia** | ¿Tiene dolor o náuseas? ¿Fijo o SOS? | [Analgesia y antieméticos](analgesia.md) |
-| 7 | **Fármacos crónicos** | ¿Cuáles sigo, cuáles suspendo y cuáles ajusto? | En preparación |
+| 7 | **Fármacos crónicos** | ¿Cuáles sigo, cuáles suspendo y cuáles ajusto? | [Fármacos crónicos](cronicos.md) |
 | 8 | **Anticoagulación** | ¿Necesita tromboprofilaxis o anticoagulación terapéutica? | [Tromboprofilaxis y anticoagulación](tromboprofilaxis.md) |
 | 9 | **Cuidados de enfermería** | Signos vitales, HGT, balance, sondas, aislamiento, prevención | En preparación |
 | 10 | **Otros** | Exámenes, kinesioterapia, interconsultas, protección gástrica | En preparación |

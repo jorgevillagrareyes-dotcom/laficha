@@ -502,6 +502,7 @@ def main():
         "          - Tromboprofilaxis y anticoagulación: indicaciones/tromboprofilaxis.md",
         "          - Antibióticos: indicaciones/antibioticos.md",
         "          - Analgesia y antieméticos: indicaciones/analgesia.md",
+        "          - Fármacos crónicos: indicaciones/cronicos.md",
         "          - Insulina en el hospitalizado: indicaciones/insulina.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
