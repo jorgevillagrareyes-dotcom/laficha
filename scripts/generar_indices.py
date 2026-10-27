@@ -513,6 +513,7 @@ def main():
         "          - Punción lumbar: procedimientos/puncion-lumbar.md",
         "          - Toracocentesis: procedimientos/toracocentesis.md",
         "          - Paracentesis: procedimientos/paracentesis.md",
+        "          - Drenaje de absceso: procedimientos/absceso.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
         "      - Índice A–Z: indice-alfabetico.md",
