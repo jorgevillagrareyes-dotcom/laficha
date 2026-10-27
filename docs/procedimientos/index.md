@@ -29,10 +29,10 @@ Todas las páginas tienen la misma estructura:
 |---|---|---|
 | **Línea arterial** | Monitoreo invasivo de la presión y gases seriados | [Línea arterial](linea-arterial.md) |
 | **Catéter venoso central** | Fármacos vasoactivos, accesos difíciles, PVC | [Catéter venoso central](cvc.md) |
-| **Vía venosa periférica guiada por ecografía** | Pacientes con venas difíciles | En preparación |
-| **Vía intraósea** | Acceso de emergencia cuando no hay vía venosa | En preparación |
-| **Hemocultivos** | Diagnóstico de bacteriemia sin contaminar | En preparación |
-| **Punción venosa para exámenes** | Toma de muestras y orden de llenado de los tubos | En preparación |
+| **Vía venosa periférica guiada por ecografía** | Pacientes con venas difíciles | [Vía periférica guiada por ecografía](via-periferica-ecografia.md) |
+| **Vía intraósea** | Acceso de emergencia cuando no hay vía venosa | [Vía intraósea](via-intraosea.md) |
+| **Hemocultivos** | Diagnóstico de bacteriemia sin contaminar | [Hemocultivos](hemocultivos.md) |
+| **Punción venosa para exámenes** | Toma de muestras y orden de llenado de los tubos | [Punción venosa para exámenes](puncion-venosa.md) |
 | **Gases arteriales** | Gasometría arterial: oxigenación, ventilación y ácido-base | [Gases arteriales](gases-arteriales.md) |
 
 ### Vía aérea y tórax
