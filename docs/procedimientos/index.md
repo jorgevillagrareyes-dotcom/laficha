@@ -33,4 +33,4 @@ Todas las páginas tienen la misma estructura:
 | **Toracocentesis** | Estudio o evacuación de un derrame pleural | [Toracocentesis](toracocentesis.md) |
 | **Paracentesis** | Estudio o evacuación de la ascitis | [Paracentesis](paracentesis.md) |
 | **Drenaje de absceso** | Absceso cutáneo | [Drenaje de absceso](absceso.md) |
-| **Uña encarnada** | Onicocriptosis | En preparación |
+| **Uña encarnada** | Onicocriptosis | [Uña encarnada](una-encarnada.md) |
