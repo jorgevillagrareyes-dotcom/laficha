@@ -23,7 +23,7 @@ Una indicación ordenada evita olvidos. El orden más usado en las salas chilena
 | 5 | **Antibiótico** | ¿Hay infección? ¿Cuál, dosis, vía, día y hasta cuándo? | En preparación |
 | 6 | **Analgesia** | ¿Tiene dolor o náuseas? ¿Fijo o SOS? | En preparación |
 | 7 | **Fármacos crónicos** | ¿Cuáles sigo, cuáles suspendo y cuáles ajusto? | En preparación |
-| 8 | **Anticoagulación** | ¿Necesita tromboprofilaxis o anticoagulación terapéutica? | En preparación |
+| 8 | **Anticoagulación** | ¿Necesita tromboprofilaxis o anticoagulación terapéutica? | [Tromboprofilaxis y anticoagulación](tromboprofilaxis.md) |
 | 9 | **Cuidados de enfermería** | Signos vitales, HGT, balance, sondas, aislamiento, prevención | En preparación |
 | 10 | **Otros** | Exámenes, kinesioterapia, interconsultas, protección gástrica | En preparación |
 | — | **Glicemia** | ¿Cómo indico la insulina sin dejar solo "cristalina según esquema"? | [Insulina en el hospitalizado](insulina.md) |

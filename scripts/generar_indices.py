@@ -499,6 +499,7 @@ def main():
         "          - Reposo y posición: indicaciones/reposo.md",
         "          - Oxigenoterapia: indicaciones/oxigeno.md",
         "          - Fluidoterapia: indicaciones/fluidoterapia.md",
+        "          - Tromboprofilaxis y anticoagulación: indicaciones/tromboprofilaxis.md",
         "          - Insulina en el hospitalizado: indicaciones/insulina.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
