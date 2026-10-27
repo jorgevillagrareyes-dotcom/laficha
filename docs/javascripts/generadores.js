@@ -52,6 +52,37 @@
     }
   };
 
+  // Generador definido en la propia página: <script type="application/json" class="gen-def">.
+  // "frases": texto con {campo}; una frase que empieza con "?" se omite si falta alguno de sus campos.
+  // Las frases obligatorias muestran [etiqueta] donde falta un dato. "indicaciones": [{id, on, texto}].
+  function desdeDefinicion(caja, def) {
+    var etiqueta = function (n) {
+      var e = caja.querySelector("[name='" + n + "']"), l = e && e.closest("label");
+      if (e && e.getAttribute("data-marca")) return e.getAttribute("data-marca");
+      var s = l ? l.childNodes[0].textContent : n;
+      return s.replace(/\(.*?\)/g, "").trim().toLowerCase();
+    };
+    var llenar = function (s, d, opcional) {
+      var falta = false;
+      var r = s.replace(/\{(\w+)\}/g, function (_, n) {
+        var x = d.val(n);
+        if (!x) { falta = true; return "[" + etiqueta(n) + "]"; }
+        return x;
+      });
+      return opcional && falta ? "" : r;
+    };
+    return function (d) {
+      var t = def.frases.map(function (f) {
+        var opcional = f.charAt(0) === "?";
+        return llenar(opcional ? f.slice(1) : f, d, opcional);
+      }).filter(Boolean);
+      var ind = (def.indicaciones || []).map(function (x) {
+        return { id: x.id, on: x.on !== false, texto: llenar(x.texto, d, false) };
+      });
+      return { texto: t.join(" "), indicaciones: ind };
+    };
+  }
+
   // Espacio duro antes de "%" y entre número y unidad, para que no se corten al final de la línea.
   function duro(s) { return s.replace(/ (%|cm|mL|mg|UI)\b/g, "\u00a0$1").replace(/ %/g, "\u00a0%"); }
 
@@ -207,6 +238,8 @@
       if (caja.getAttribute("data-lf") === "1") return;
       caja.setAttribute("data-lf", "1");
       var clave = caja.getAttribute("data-gen"), f = GEN[clave], salida = caja.querySelector(".gen-res");
+      var def = caja.querySelector("script.gen-def");
+      if (!f && def) { try { f = desdeDefinicion(caja, JSON.parse(def.textContent)); } catch (e) { f = null; } }
       if (!f || !salida) return;
       salida.innerHTML = "<div class='gen-barra'><span>Texto para la ficha</span><button type='button' class='gen-copiar'>Copiar</button></div>" +
         "<div class='gen-texto' contenteditable='true' spellcheck='false'></div>" +

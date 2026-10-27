@@ -27,7 +27,7 @@ Todas las páginas tienen la misma estructura:
 |---|---|---|
 | **Sutura de heridas** | Cerrar heridas cortantes o contusas simples | [Sutura de heridas](sutura.md) |
 | **Punción venosa y gases arteriales** | Exámenes de sangre y gasometría | En preparación |
-| **Sonda Foley** | Retención urinaria, medición de la diuresis | En preparación |
+| **Sonda Foley** | Retención urinaria, medición de la diuresis | [Sonda Foley](foley.md) |
 | **Sonda nasogástrica** | Alimentación, descompresión, lavado | En preparación |
 | **Punción lumbar** | Estudio del LCR | En preparación |
 | **Toracocentesis** | Estudio o evacuación de un derrame pleural | En preparación |

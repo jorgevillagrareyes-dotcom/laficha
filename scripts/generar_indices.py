@@ -508,6 +508,7 @@ def main():
         "      - Procedimientos:",
         "          - procedimientos/index.md",
         "          - Sutura de heridas: procedimientos/sutura.md",
+        "          - Sonda Foley: procedimientos/foley.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
         "      - Índice A–Z: indice-alfabetico.md",
