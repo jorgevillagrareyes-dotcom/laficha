@@ -53,6 +53,7 @@ extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/laficha.js
   - javascripts/calculadoras.js
+  - javascripts/generadores.js
 
 hooks:
   - hooks/acentos.py
@@ -482,6 +483,9 @@ nav:
           - Tromboprofilaxis y anticoagulación: indicaciones/tromboprofilaxis.md
           - Cuidados de enfermería y otros: indicaciones/enfermeria.md
           - Insulina en el hospitalizado: indicaciones/insulina.md
+      - Procedimientos:
+          - procedimientos/index.md
+          - Sutura de heridas: procedimientos/sutura.md
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
       - Índice A–Z: indice-alfabetico.md
