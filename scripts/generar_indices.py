@@ -500,6 +500,7 @@ def main():
         "          - Oxigenoterapia: indicaciones/oxigeno.md",
         "          - Fluidoterapia: indicaciones/fluidoterapia.md",
         "          - Tromboprofilaxis y anticoagulación: indicaciones/tromboprofilaxis.md",
+        "          - Antibióticos: indicaciones/antibioticos.md",
         "          - Insulina en el hospitalizado: indicaciones/insulina.md",
         "      - Preguntas del día: preguntas-del-dia.md",
         "      - Calculadoras: calculadoras.md",
