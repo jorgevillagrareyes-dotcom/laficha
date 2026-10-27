@@ -573,3 +573,4 @@
 .md-typeset .gen-estado { font-size: 0.7rem; color: var(--mi-tenue); }
 .md-typeset .gen-texto[contenteditable]:focus { outline: 1px solid var(--mi-linea); outline-offset: -1px; }
 .md-typeset .gen-nota { font-size: 0.66rem; color: var(--mi-tenue); padding: 0.4em 1em 0.6em; background: var(--mi-fondo-suave); }
+.md-typeset .calc input[type=text]::placeholder { color: var(--mi-tenue); opacity: 0.6; font-style: italic; }

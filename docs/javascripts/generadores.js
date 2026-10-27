@@ -14,51 +14,39 @@
       }
     };
   }
-  // Une una lista en español: "a, b y c".
-  function unir(l) {
-    l = l.filter(Boolean);
-    if (l.length < 2) return l.join("");
-    return l.slice(0, -1).join(", ") + " y " + l[l.length - 1];
-  }
   function o(x, alt) { return x ? x : "[" + alt + "]"; }
 
-  var RETIRO = {
-    cara: "3 a 5 días", cuero: "7 a 10 días", brazo: "7 a 10 días", tronco: "10 a 14 días",
-    pierna: "10 a 14 días", mano: "10 a 14 días", palma: "14 a 21 días"
-  };
+  // Primera letra en mayúscula (para los textos libres que empiezan una oración).
+  function may(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  function cerrar(s) { s = s.trim(); return s && !/[.!?]$/.test(s) ? s + "." : s; }
 
   var GEN = {
+    // Todos los datos los escribe el usuario; los campos vacíos opcionales no aparecen en el texto.
     sutura: function (d) {
-      var cm = d.val("cm"), lugar = d.val("lugar"), tipo = d.val("tipo"), zona = d.val("zona");
-      var anest = d.val("anest"), ml = d.val("ml"), punto = d.val("punto"), n = d.val("n"), hilo = d.val("hilo");
-      var profundo = d.si("profundo"), mordedura = d.val("mordedura"), tet = d.val("tet");
-      var t = [];
-      var herida = "herida " + tipo + " de " + o(cm, "x") + " cm en " + o(lugar, "ubicación");
-      t.push("Se realiza aseo y sutura de " + herida + ", bajo técnica aséptica y anestesia local con " + anest +
-        (ml ? " (" + ml + " mL)" : "") + ".");
-      var hallazgos = [];
-      if (d.si("antisepsia")) t.push("Se realiza antisepsia de la piel perilesional con " + d.val("antiseptico") + ".");
-      if (d.si("lavado")) hallazgos.push("Se irriga con abundante suero fisiológico");
-      if (d.si("explora")) hallazgos.push("se explora la herida sin evidencia de cuerpo extraño ni compromiso de tendones, vasos o nervios");
-      if (hallazgos.length) t.push(unir(hallazgos) + ".");
-      if (d.si("desbrida")) t.push("Se debrida tejido desvitalizado.");
-      if (profundo) t.push("Se afronta plano subcutáneo con " + d.val("hiloprof") + " (puntos invertidos).");
-      t.push("Se afronta piel con " + o(n, "n") + " puntos " + punto + " de " + hilo + ".");
-      t.push("Procedimiento sin complicaciones, sin sangrado activo al término. Se cubre con apósito" +
-        (d.si("ungüento") ? " y vaselina" : "") + ".");
-      if (tet !== "no") t.push(tet === "vac" ? "Se indica vacuna antitetánica (dT)." : "Se indica vacuna antitetánica (dT) e inmunoglobulina antitetánica 250 UI IM.");
+      var v = d.val, t = [];
+      var tipo = v("tipo") ? " " + v("tipo") : "";
+      t.push("Se realiza aseo y sutura de herida" + tipo + " de " + o(v("cm"), "x") + " cm en " + o(v("lugar"), "ubicación") +
+        ", bajo técnica aséptica y anestesia local con " + o(v("anest"), "anestesia") + (v("ml") ? " (" + v("ml") + " mL)" : "") + ".");
+      if (v("antisepsia")) t.push("Se realiza antisepsia de la piel perilesional con " + v("antisepsia") + ".");
+      if (v("lavado")) t.push("Se irriga con " + v("lavado") + ".");
+      if (v("explora")) t.push("Se explora la herida " + v("explora").replace(/^se explora (la herida )?/i, "") + ".");
+      if (v("otros")) t.push(cerrar(may(v("otros"))));
+      if (v("profundo")) t.push("Se afronta plano subcutáneo con " + v("profundo") + ".");
+      t.push("Se afronta piel con " + o(v("n"), "n") + " puntos " + o(v("punto"), "tipo de punto") + " de " + o(v("hilo"), "material") + ".");
+      if (v("final")) t.push(cerrar(/^procedimiento/i.test(v("final")) ? may(v("final")) : "Procedimiento " + v("final")));
+      if (v("aposito")) t.push("Se cubre con " + v("aposito") + ".");
+      if (v("tet")) t.push(/^no /i.test(v("tet")) ? "Profilaxis antitetánica: " + v("tet") + "." : "Se indica " + v("tet") + ".");
       t.push("Se entregan indicaciones.");
 
       // Cada indicación tiene un id estable: así se conservan las que el usuario editó o guardó.
-      var mord = mordedura === "si";
       var ind = [
         { id: "limpia", on: true, texto: "Mantener la herida limpia y seca; puede ducharse desde mañana, secando sin frotar." },
-        { id: "aposito", on: true, texto: "Cambio de apósito si se moja, se ensucia o se despega" + (d.si("ungüento") ? "; aplicar vaselina en cada cambio" : "") + "." },
-        { id: "atb", on: mord, texto: "Amoxicilina-ácido clavulánico 875/125 mg VO cada 12 h por 5 días." },
+        { id: "aposito", on: true, texto: "Cambio de apósito si se moja, se ensucia o se despega." },
+        { id: "atb", on: false, texto: "Amoxicilina-ácido clavulánico 875/125 mg VO cada 12 h por 5 días." },
         { id: "analgesia", on: true, texto: "Paracetamol 1 g VO cada 8 h si hay dolor." },
-        { id: "retiro", on: true, texto: "Retiro de puntos en " + (RETIRO[zona] || "[días]") + " en su CESFAM o servicio de urgencia." },
+        { id: "retiro", on: true, texto: "Retiro de puntos en " + o(v("retiro"), "días") + " en su CESFAM o servicio de urgencia." },
         { id: "alarma", on: true, texto: "Consultar antes si presenta fiebre, enrojecimiento que se extiende, aumento del dolor, secreción de pus o apertura de la herida." },
-        { id: "control", on: mord, texto: "Control de la herida en 48 horas." }
+        { id: "control", on: false, texto: "Control de la herida en 48 horas." }
       ];
       return { texto: t.join(" "), indicaciones: ind };
     }
@@ -101,7 +89,7 @@
     cont.className = "gen-ind";
     cont.innerHTML = "<span class='gen-titulo'>Indicaciones · edítalas a tu gusto</span><div class='gen-filas'></div>" +
       "<div class='gen-acciones'><button type='button' class='gen-boton' data-a='agregar'>+ Agregar indicación</button>" +
-      "<button type='button' class='gen-boton' data-a='guardar'>Guardar como mis indicaciones</button>" +
+      "<button type='button' class='gen-boton' data-a='guardar'>Guardar como mi plantilla</button>" +
       "<button type='button' class='gen-boton gen-sutil' data-a='restablecer'>Restablecer</button>" +
       "<span class='gen-estado' aria-live='polite'></span></div>";
     caja.insertBefore(cont, salida);
@@ -111,6 +99,9 @@
     function cargar() {
       estado = {}; orden = []; nuevas = 0;
       var pref = leerPref(clave);
+      caja.querySelectorAll("[data-recordar]").forEach(function (c) {
+        c.value = pref && pref.campos && pref.campos[c.name] ? pref.campos[c.name] : "";
+      });
       if (pref && pref.filas) pref.filas.forEach(function (x) {
         estado[x.id] = { texto: x.texto, on: x.on, manual: true, propia: !!x.propia };
         if (x.propia) nuevas++;
@@ -184,11 +175,13 @@
           var e = estado[id];
           return { id: id, texto: e.texto, on: e.on, propia: !!e.propia };
         });
-        aviso.textContent = guardarPref(clave, { filas: lista }) ? "Guardadas en este dispositivo" : "No se pudo guardar";
+        var campos = {};
+        caja.querySelectorAll("[data-recordar]").forEach(function (c) { if (c.value.trim()) campos[c.name] = c.value.trim(); });
+        aviso.textContent = guardarPref(clave, { filas: lista, campos: campos }) ? "Plantilla guardada en este dispositivo" : "No se pudo guardar";
       } else if (a === "restablecer") {
         guardarPref(clave, null); cargar(); orden = [];
         caja.dispatchEvent(new Event("change"));
-        aviso.textContent = "Se volvió a las sugeridas";
+        aviso.textContent = "Se borró tu plantilla";
       }
     });
     cargar();

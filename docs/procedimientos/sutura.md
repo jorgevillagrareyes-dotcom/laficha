@@ -123,35 +123,29 @@ Fuente: Forsch 2017 (los días de retiro son opinión de expertos).
 
 ## Cómo se escribe
 
-Completa los datos y copia el texto con la descripción y las indicaciones. Las **indicaciones se pueden editar**: desmarca las que no quieras, cambia el texto, agrega las tuyas y guárdalas como **tus indicaciones** (quedan en este dispositivo). También puedes corregir el texto final antes de copiarlo. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
+Escribe los datos **como tú los registras**: todos los campos son de texto libre, y al tocarlos aparecen sugerencias que puedes usar o ignorar. Los campos opcionales que dejes vacíos no aparecen en el texto. Las **indicaciones** se pueden desmarcar, cambiar o agregar. Con **Guardar como mi plantilla** quedan en este dispositivo tus indicaciones y tus datos habituales (anestesia, hilo, tipo de punto, apósito), para no escribirlos cada vez. El texto final también se puede corregir antes de copiarlo. **No escribas el nombre ni el RUT del paciente**: el texto se arma solo en tu dispositivo, pero lo copiarás a otro lugar.
 
 <div class="calc" data-gen="sutura">
 <span class="gen-titulo">La herida</span>
-<label class="calc-campo">Largo (cm) <input type="text" name="cm" inputmode="decimal" placeholder="3"></label>
-<label class="calc-campo">Ubicación <input type="text" name="lugar" placeholder="región frontal derecha"></label>
-<label class="calc-campo">Tipo de herida <select name="tipo"><option value="cortante">Cortante</option><option value="contusa">Contusa</option><option value="cortocontusa">Cortocontusa</option><option value="por mordedura">Por mordedura</option></select></label>
-<label class="calc-campo">Zona (para el retiro de puntos) <select name="zona"><option value="cara">Cara</option><option value="cuero">Cuero cabelludo</option><option value="brazo">Brazo</option><option value="mano" selected>Mano, antebrazo o pie</option><option value="tronco">Tronco</option><option value="pierna">Pierna</option><option value="palma">Palma o planta</option></select></label>
+<label class="calc-campo">Largo (cm) <input type="text" name="cm" inputmode="decimal" placeholder="ej.: 3"></label>
+<label class="calc-campo">Ubicación <input type="text" name="lugar" placeholder="ej.: región frontal derecha"></label>
+<label class="calc-campo">Tipo de herida <input type="text" name="tipo" list="dl-tipo" placeholder="ej.: cortante"></label><datalist id="dl-tipo"><option value="cortante"><option value="contusa"><option value="cortocontusa"><option value="punzante"><option value="por mordedura de perro"><option value="por mordedura de gato"></datalist>
 <span class="gen-titulo">El procedimiento</span>
-<label class="calc-campo">Anestesia <select name="anest"><option value="lidocaína al 2 %">Lidocaína 2 %</option><option value="lidocaína al 1 %">Lidocaína 1 %</option><option value="lidocaína al 2 % con epinefrina">Lidocaína 2 % con epinefrina</option><option value="lidocaína al 2 % (bloqueo digital)">Lidocaína 2 %, bloqueo digital</option></select></label>
-<label class="calc-campo">Volumen (mL, opcional) <input type="text" name="ml" inputmode="decimal" placeholder="4"></label>
-<label class="calc-campo">Tipo de punto <select name="punto"><option value="simples">Simples</option><option value="colchoneros verticales">Colchonero vertical</option><option value="colchoneros horizontales">Colchonero horizontal</option><option value="intradérmicos">Intradérmico</option></select></label>
-<label class="calc-campo">N.° de puntos <input type="text" name="n" inputmode="numeric" placeholder="4"></label>
-<label class="calc-campo">Hilo de piel <select name="hilo"><option value="nylon 6-0">Nylon 6-0</option><option value="nylon 5-0">Nylon 5-0</option><option value="nylon 4-0" selected>Nylon 4-0</option><option value="nylon 3-0">Nylon 3-0</option></select></label>
-<label class="calc-campo">Hilo del plano profundo <select name="hiloprof"><option value="poliglactina (Vicryl) 4-0">Reabsorbible 4-0</option><option value="poliglactina (Vicryl) 3-0">Reabsorbible 3-0</option></select></label>
-<label class="calc-campo">Antiséptico para la piel <select name="antiseptico"><option value="povidona yodada">Povidona yodada</option><option value="clorhexidina">Clorhexidina</option></select></label>
-<label><input type="checkbox" name="antisepsia" checked> Antisepsia de la piel alrededor</label>
-<label><input type="checkbox" name="lavado" checked> Irrigación con suero</label>
-<label><input type="checkbox" name="explora" checked> Exploración sin cuerpo extraño ni lesión de estructuras</label>
-<label><input type="checkbox" name="desbrida"> Desbridamiento</label>
-<label><input type="checkbox" name="profundo"> Plano subcutáneo</label>
-<label><input type="checkbox" name="ungüento"> Vaselina en el apósito</label>
-<span class="gen-titulo">Profilaxis antitetánica</span>
-<label><input type="radio" name="tet" value="no" checked> No requiere</label>
-<label><input type="radio" name="tet" value="vac"> Vacuna dT</label>
-<label><input type="radio" name="tet" value="vacig"> Vacuna dT + inmunoglobulina</label>
-<span class="gen-titulo">Antibiótico</span>
-<label><input type="radio" name="mordedura" value="no" checked> No (herida simple)</label>
-<label><input type="radio" name="mordedura" value="si"> Mordedura de riesgo: amoxicilina-ácido clavulánico</label>
+<label class="calc-campo">Anestesia <input type="text" name="anest" list="dl-anest" data-recordar placeholder="ej.: lidocaína al 2 %"></label><datalist id="dl-anest"><option value="lidocaína al 2 %"><option value="lidocaína al 1 %"><option value="lidocaína al 2 % con epinefrina"><option value="lidocaína al 1 % con epinefrina"><option value="bloqueo digital con lidocaína al 2 %"></datalist>
+<label class="calc-campo">Volumen de anestesia (mL) <input type="text" name="ml" inputmode="decimal" placeholder="ej.: 4"></label>
+<label class="calc-campo">Antisepsia de la piel con <input type="text" name="antisepsia" list="dl-antisepsia" data-recordar placeholder="ej.: povidona yodada"></label><datalist id="dl-antisepsia"><option value="povidona yodada"><option value="clorhexidina"></datalist>
+<label class="calc-campo">Irrigación con <input type="text" name="lavado" list="dl-lavado" data-recordar placeholder="ej.: abundante suero fisiológico"></label><datalist id="dl-lavado"><option value="abundante suero fisiológico"><option value="abundante agua potable"><option value="povidona yodada diluida al 1 %"></datalist>
+<label class="calc-campo">Exploración <input type="text" name="explora" list="dl-explora" data-recordar placeholder="ej.: sin cuerpo extraño ni compromiso de tendones, vasos o nervios"></label><datalist id="dl-explora"><option value="sin evidencia de cuerpo extraño ni compromiso de tendones, vasos o nervios"><option value="sin cuerpo extraño; tendones con función conservada"></datalist>
+<label class="calc-campo">Otros gestos (opcional) <input type="text" name="otros" list="dl-otros" placeholder="ej.: debridamiento de tejido desvitalizado"></label><datalist id="dl-otros"><option value="Se debrida tejido desvitalizado"><option value="Se regularizan bordes"><option value="Hemostasia con compresión"></datalist>
+<label class="calc-campo">Plano profundo (opcional) <input type="text" name="profundo" list="dl-profundo" placeholder="ej.: poliglactina 4-0, puntos invertidos"></label><datalist id="dl-profundo"><option value="poliglactina (Vicryl) 4-0, puntos invertidos"><option value="poliglactina (Vicryl) 3-0, puntos invertidos"><option value="poliglecaprona (Monocryl) 4-0, puntos invertidos"></datalist>
+<label class="calc-campo">N.° de puntos <input type="text" name="n" inputmode="decimal" placeholder="ej.: 4"></label>
+<label class="calc-campo">Tipo de punto <input type="text" name="punto" list="dl-punto" data-recordar placeholder="ej.: simples"></label><datalist id="dl-punto"><option value="simples"><option value="colchoneros verticales"><option value="colchoneros horizontales"><option value="intradérmicos"><option value="corridos"></datalist>
+<label class="calc-campo">Hilo o material <input type="text" name="hilo" list="dl-hilo" data-recordar placeholder="ej.: nylon 4-0"></label><datalist id="dl-hilo"><option value="nylon 6-0"><option value="nylon 5-0"><option value="nylon 4-0"><option value="nylon 3-0"><option value="polipropileno 5-0"><option value="poliglecaprona (Monocryl) 4-0"><option value="corchetes"></datalist>
+<label class="calc-campo">Al término <input type="text" name="final" list="dl-final" data-recordar placeholder="ej.: sin complicaciones, sin sangrado activo"></label><datalist id="dl-final"><option value="Procedimiento sin complicaciones, sin sangrado activo al término"></datalist>
+<label class="calc-campo">Se cubre con <input type="text" name="aposito" list="dl-aposito" data-recordar placeholder="ej.: apósito"></label><datalist id="dl-aposito"><option value="apósito"><option value="gasa y vaselina"><option value="apósito transparente"><option value="tiras adhesivas y apósito"></datalist>
+<span class="gen-titulo">Profilaxis y seguimiento</span>
+<label class="calc-campo">Profilaxis antitetánica (opcional) <input type="text" name="tet" list="dl-tet" placeholder="ej.: vacuna dT"></label><datalist id="dl-tet"><option value="vacuna dT"><option value="vacuna dT e inmunoglobulina antitetánica 250 UI IM"><option value="no requiere (esquema vigente)"></datalist>
+<label class="calc-campo">Retiro de puntos en <input type="text" name="retiro" list="dl-retiro" placeholder="ej.: 10 a 14 días"></label><datalist id="dl-retiro"><option value="3 a 5 días"><option value="5 días"><option value="7 a 10 días"><option value="10 a 14 días"><option value="14 a 21 días"></datalist>
 <div class="gen-res"></div>
 </div>
 
