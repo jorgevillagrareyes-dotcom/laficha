@@ -24,8 +24,8 @@ Una indicación ordenada evita olvidos. El orden más usado en las salas chilena
 | 6 | **Analgesia** | ¿Tiene dolor o náuseas? ¿Fijo o SOS? | [Analgesia y antieméticos](analgesia.md) |
 | 7 | **Fármacos crónicos** | ¿Cuáles sigo, cuáles suspendo y cuáles ajusto? | [Fármacos crónicos](cronicos.md) |
 | 8 | **Anticoagulación** | ¿Necesita tromboprofilaxis o anticoagulación terapéutica? | [Tromboprofilaxis y anticoagulación](tromboprofilaxis.md) |
-| 9 | **Cuidados de enfermería** | Signos vitales, HGT, balance, sondas, aislamiento, prevención | En preparación |
-| 10 | **Otros** | Exámenes, kinesioterapia, interconsultas, protección gástrica | En preparación |
+| 9 | **Cuidados de enfermería** | Signos vitales, HGT, balance, sondas, aislamiento, prevención | [Cuidados de enfermería y otros](enfermeria.md) |
+| 10 | **Otros** | Exámenes, kinesioterapia, interconsultas, protección gástrica | [Cuidados de enfermería y otros](enfermeria.md#otros) |
 | — | **Glicemia** | ¿Cómo indico la insulina sin dejar solo "cristalina según esquema"? | [Insulina en el hospitalizado](insulina.md) |
 
 ## Cinco reglas para cualquier indicación
