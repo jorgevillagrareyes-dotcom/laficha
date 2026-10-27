@@ -27,6 +27,15 @@ Octubre 2026
     - **Sin antibiótico** en las heridas simples. **Sí** en las **mordeduras de riesgo** (amoxicilina-ácido clavulánico).
     - **Retiro de puntos**: cara **3–5 días**, cuero cabelludo y brazos **7–10**, tronco, piernas, manos y pies **10–14**, palmas y plantas **14–21**.
 
+!!! guia "¿Qué respalda esta página?"
+    Para la sutura de heridas simples **no hay guías formales** de NICE, la OMS ni las sociedades de urgencia, y **en Chile no hay una norma del MINSAL**: cada servicio tiene su protocolo. La página se apoya en tres tipos de fuentes:
+
+    - **Ensayos y metaanálisis** sobre preguntas puntuales: agua o suero para lavar, mojar la herida, antibióticos, epinefrina en los dedos, antisépticos.
+    - **Revisiones** (Forsch 2017, Mankowitz 2017) y **guías de hospitales**, como la de Sydney Children's Hospitals Network (2021, pediátrica).
+    - **Guías formales** solo para los temas vecinos: mordeduras (IDSA 2014), tétanos (ACIP 2018), toxicidad por anestésicos locales (ASRA 2017).
+
+    Los **días de retiro de puntos** son **opinión de expertos** y varían entre fuentes. **Manda el protocolo de tu servicio.**
+
 ## Cuándo suturar y cuándo no
 
 | Situación | Conducta | Por qué |
@@ -95,7 +104,7 @@ flowchart TD
 | **Dentro de la herida** | **No** aplicar antisépticos concentrados: povidona al 10 %, **agua oxigenada**, **alcohol**, clorhexidina | Son **tóxicos para los fibroblastos** y en modelos animales empeoran la cicatrización; el agua oxigenada y el ácido acético son más tóxicos que bactericidas (Lineaweaver 1985). Lo que limpia la herida es el **lavado a presión** |
 | **Herida sucia o contaminada** | Se puede lavar con **povidona yodada diluida al 1 %** | En un ensayo de 1987 (395 pacientes analizados), lavar y escobillar con povidona al 1 % redujo la infección (11 de 201 frente a 30 de 194). Es antiguo y perdió a uno de cada cinco pacientes en el seguimiento, así que no es obligatorio en las heridas limpias |
 
-Fuentes: Lineaweaver 1985; Gravett 1987; Mankowitz 2017 (la mayoría de los agentes tópicos sobre la herida tienen un beneficio limitado).
+Fuentes: Lineaweaver 1985; Gravett 1987; Sydney Children's Hospitals Network 2021 (limpiar la piel alrededor con gasa con suero, agua o clorhexidina acuosa); Mankowitz 2017 (la mayoría de los agentes tópicos sobre la herida tienen un beneficio limitado).
 
 ### Elegir el hilo y el punto
 
@@ -111,7 +120,7 @@ Fuentes: Lineaweaver 1985; Gravett 1987; Mankowitz 2017 (la mayoría de los agen
 | **Piernas y pies** | Nylon **4-0** | **10–14 días** |
 | **Palmas y plantas** | Nylon **3-0** | **14–21 días** |
 
-Fuente: Forsch 2017 (los días de retiro son opinión de expertos).
+Fuente: Forsch 2017 (los días de retiro son opinión de expertos). En los **niños**, la guía de Sydney (2021) usa plazos más cortos: cara 5 días; cuero cabelludo, tronco anterior, brazos, piernas y manos 7 días; articulaciones y espalda 10–14 días.
 
 | Punto | Cuándo |
 |---|---|
@@ -235,3 +244,4 @@ Fuente: ACIP 2018. Los adultos no tienen refuerzos programados en el PNI: la pro
 9. Neal JM, Woodward CM, Harrison TK. The American Society of Regional Anesthesia and Pain Medicine Checklist for Managing Local Anesthetic Systemic Toxicity: 2017 Version. *Reg Anesth Pain Med.* 2018;43(2):150–153. doi:[10.1097/AAP.0000000000000726](https://doi.org/10.1097/AAP.0000000000000726)
 10. Gravett A, Sterner S, Clinton JE, Ruiz E. A trial of povidone-iodine in the prevention of infection in sutured lacerations. *Ann Emerg Med.* 1987;16(2):167–171. doi:[10.1016/s0196-0644(87)80008-2](https://doi.org/10.1016/s0196-0644(87)80008-2)
 11. Lineaweaver W, Howard R, Soucy D, et al. Topical antimicrobial toxicity. *Arch Surg.* 1985;120(3):267–270. doi:[10.1001/archsurg.1985.01390270007001](https://doi.org/10.1001/archsurg.1985.01390270007001)
+12. Sydney Children's Hospitals Network. Laceration Management in the Emergency Department. Practice Guideline 2009-0011 v4. Vigente desde el 1 de agosto de 2021. [schn.health.nsw.gov.au](https://resources.schn.health.nsw.gov.au/policies/policies/pdf/2009-0011.pdf)
