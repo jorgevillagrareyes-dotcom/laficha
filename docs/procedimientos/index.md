@@ -29,7 +29,7 @@ Todas las páginas tienen la misma estructura:
 | **Punción venosa y gases arteriales** | Exámenes de sangre y gasometría | En preparación |
 | **Sonda Foley** | Retención urinaria, medición de la diuresis | [Sonda Foley](foley.md) |
 | **Sonda nasogástrica** | Alimentación, descompresión, lavado | [Sonda nasogástrica](sonda-nasogastrica.md) |
-| **Punción lumbar** | Estudio del LCR | En preparación |
+| **Punción lumbar** | Estudio del LCR | [Punción lumbar](puncion-lumbar.md) |
 | **Toracocentesis** | Estudio o evacuación de un derrame pleural | En preparación |
 | **Paracentesis** | Estudio o evacuación de la ascitis | En preparación |
 | **Drenaje de absceso** | Absceso cutáneo | En preparación |
