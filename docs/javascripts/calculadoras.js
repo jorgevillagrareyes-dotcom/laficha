@@ -315,19 +315,74 @@
   function slug(s) {
     return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   }
+  function normal(s) { return s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+  function escapar(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+  // Página de calculadoras: tarjetas por área, buscador y filtros. Una calculadora abierta a la vez; enlace directo por #nombre.
   function plegables() {
-    var lista = document.querySelectorAll("details.calculadora");
+    var lista = Array.prototype.slice.call(document.querySelectorAll("details.calculadora"));
+    if (!lista.length || lista[0].getAttribute("data-lf") === "1") return;
+    var areas = [];
+    document.querySelectorAll(".md-content h2").forEach(function (h) {
+      var propias = [], el = h.nextElementSibling;
+      while (el && el.tagName !== "H2") { if (el.matches("details.calculadora")) propias.push(el); el = el.nextElementSibling; }
+      if (!propias.length) return;
+      var grilla = document.createElement("div"); grilla.className = "calc-grilla";
+      h.parentNode.insertBefore(grilla, h.nextSibling);
+      propias.forEach(function (d) { grilla.appendChild(d); });
+      h.classList.add("calc-area");
+      areas.push({ h: h, grilla: grilla, lista: propias, nombre: h.textContent.replace(/¶/g, "").trim() });
+    });
     lista.forEach(function (d) {
-      if (d.getAttribute("data-lf") === "1") return;
       d.setAttribute("data-lf", "1");
-      var s = d.querySelector("summary");
-      d.id = slug(s.textContent);
+      var s = d.querySelector("summary"), texto = s.textContent.trim();
+      d.id = slug(texto);
+      var m = texto.match(/^(.*?)\s*\((.*)\)\s*$/);
+      s.innerHTML = "<span class='calc-nombre'>" + escapar(m ? m[1] : texto) + "</span>" + (m ? "<span class='calc-desc'>" + escapar(m[2].charAt(0).toUpperCase() + m[2].slice(1)) + "</span>" : "");
+      var fuente = d.querySelector(".calc-fuente");
+      if (fuente) {
+        var mas = document.createElement("details"); mas.className = "calc-mas";
+        mas.innerHTML = "<summary>Fuente e interpretación</summary>";
+        fuente.parentNode.insertBefore(mas, fuente); mas.appendChild(fuente);
+      }
+      d.setAttribute("data-buscar", normal(texto + " " + (fuente ? fuente.textContent : "")));
       d.addEventListener("toggle", function () {
         if (!d.open) return;
         lista.forEach(function (o) { if (o !== d) o.open = false; });
         try { history.replaceState(null, "", "#" + d.id); } catch (e) { /* sin historial */ }
+        setTimeout(function () { d.scrollIntoView({ block: "nearest", behavior: "smooth" }); }, 30);
       });
     });
+
+    // Barra: buscador y filtros por área
+    var barra = document.querySelector(".calc-barra");
+    if (barra) {
+      barra.innerHTML = "<label class='calc-buscar'><span class='calc-oculto'>Buscar calculadora</span><input type='search' placeholder='Buscar: CURB, sepsis, sodio, TEP…' autocomplete='off'></label><div class='calc-filtros' role='group' aria-label='Filtrar por área'></div><p class='calc-vacio' hidden>No hay calculadoras con ese nombre.</p>";
+      var entrada = barra.querySelector("input"), filtros = barra.querySelector(".calc-filtros"), vacio = barra.querySelector(".calc-vacio"), area = null;
+      [{ nombre: "Todas", lista: lista }].concat(areas).forEach(function (a, i) {
+        var b = document.createElement("button"); b.type = "button"; b.innerHTML = escapar(a.nombre) + "<span>" + a.lista.length + "</span>";
+        b.setAttribute("aria-pressed", i === 0); filtros.appendChild(b);
+        b.addEventListener("click", function () {
+          area = i === 0 ? null : a;
+          filtros.querySelectorAll("button").forEach(function (o) { o.setAttribute("aria-pressed", o === b); });
+          filtrar();
+        });
+      });
+      var filtrar = function () {
+        var q = normal(entrada.value).split(/\s+/).filter(Boolean), total = 0;
+        areas.forEach(function (a) {
+          var n = 0;
+          a.lista.forEach(function (d) {
+            var si = (!area || area === a) && q.every(function (w) { return d.getAttribute("data-buscar").indexOf(w) >= 0; });
+            d.hidden = !si; if (si) n++;
+          });
+          a.h.hidden = a.grilla.hidden = n === 0; total += n;
+        });
+        vacio.hidden = total > 0;
+      };
+      entrada.addEventListener("input", filtrar);
+    }
+
     var h = decodeURIComponent(location.hash.slice(1));
     var objetivo = h && document.getElementById(h);
     if (objetivo && objetivo.matches("details.calculadora")) { objetivo.open = true; objetivo.scrollIntoView(); }

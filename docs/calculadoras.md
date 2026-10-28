@@ -7,41 +7,12 @@ hide:
 
 # Calculadoras clínicas
 
-Puntajes y fórmulas de uso diario, con la misma definición que usan los resúmenes de La Ficha. Toca el nombre de una calculadora para abrirla; escribe los datos y el resultado aparece de inmediato. Funcionan sin conexión.
+Busca por nombre o problema, o filtra por área. Toca una calculadora para abrirla: el resultado aparece mientras escribes.
 
-!!! warning "Apoyo, no reemplazo"
-    Las calculadoras ayudan a ordenar la información; la decisión clínica es tuya. Verifica las unidades (mg/dL, mmol/L) y revisa el resumen correspondiente antes de indicar un tratamiento.
+<p class="calc-aviso">Son un apoyo: la decisión clínica es tuya. Revisa las unidades y el resumen del tema antes de indicar un tratamiento.</p>
 
-??? info "Cómo se eligieron los puntajes"
-    Para cada problema se dejó el puntaje que recomienda la guía vigente y, cuando hay varios, el que mejor rinde en los estudios de validación. La sensibilidad (Se) importa para **descartar**; la especificidad (Sp), para **confirmar**.
+<div class="calc-barra"></div>
 
-    | Problema | Puntaje | Guía que lo recomienda | Rendimiento |
-    |---|---|---|---|
-    | Riesgo embólico en la FA | **CHA₂DS₂-VA** | ESC 2024 | Reemplaza al CHA₂DS₂-VASc (el sexo femenino no suma) |
-    | Riesgo de sangrado con anticoagulantes | HAS-BLED | ESC 2024 no recomienda un puntaje específico | Útil solo para encontrar y corregir factores modificables |
-    | Dolor torácico en urgencia (sin supradesnivel del ST) | **HEART** | Six 2008; validación prospectiva de Backus 2013 | 0–3 puntos: eventos (IAM, revascularización o muerte) en **2,5 %**; 4–6: 20,3 %; ≥ 7: 72,7 % |
-| Sospecha de TEP | **Wells** + **dímero D ajustado por edad** | ESC 2019, AHA/ACC 2026 | Corte por edad: en ≥ 75 años, descarta TEP en 29,7 % frente a 6,4 % con el corte fijo, sin más falsos negativos |
-    | TEP con probabilidad baja | **PERC** | ESC 2019 | **Se 97 %**, Sp 22 % (metaanálisis): solo para descartar |
-    | Sospecha de TEP (alternativa) | **YEARS** | ESC 2019 | TEV a 3 meses 0,61 % en los descartados; 14 % menos angioTC que con Wells |
-    | Gravedad del TEP confirmado | **sPESI** | ESC 2019, AHA/ACC 2026 | sPESI 0: mortalidad a 30 días ~ 1 % |
-    | Sospecha de TVP | **Wells para TVP** (dos niveles) + dímero D | NICE NG158 2020 (actualizada en 2023) | Improbable con dímero D negativo, sin ecografía: TEV a 3 meses **0,4 %** |
-| Tromboprofilaxis en el paciente médico | **Padua** + **IMPROVE** | ASH 2018 | Padua ≥ 4 sin profilaxis: TEV a 90 días **11 %**; Padua < 4: 0,3 % |
-| Sospecha de TIH | **4T** | ASH 2018 | 0–3: valor predictivo negativo alto; evita pedir anticuerpos |
-| Deterioro y sepsis en sala | **NEWS2** | SSC 2021 y 2026 (no usar qSOFA solo) | El qSOFA es poco sensible para tamizar |
-    | Disfunción orgánica (sepsis) | **SOFA-2** | Ranzani 2025 (actualiza el SOFA de 1996) | Aumento agudo ≥ 2 puntos = disfunción orgánica (Sepsis-3) |
-| Faringoamigdalitis | **Centor/McIsaac** | IDSA 2012 (no testear con rasgos virales) | McIsaac: sensibilidad **83,1 %** para *S. pyogenes* |
-| Dónde tratar la neumonía | **PSI** (o CURB-65) | ATS/IDSA 2019 prefiere el PSI; la BTS y NICE usan CURB-65 o CRB-65 | PSI: la mayor sensibilidad para mortalidad; CRB-65: la mayor especificidad |
-    | Neumonía grave (UCI) | **Criterios ATS/IDSA** | ATS/IDSA 2019 | 1 mayor o ≥ 3 menores |
-    | Gravedad del ACV | **NIHSS** | Escala estándar del resumen de ACV (Brott 1989) | ≥ 6 sugiere oclusión de gran vaso |
-| Crisis isquémica transitoria | **ABCD²** | Johnston 2007 | ACV a 2 días: 1,0 % (0–3), 4,1 % (4–5), **8,1 %** (6–7) |
-| Abstinencia alcohólica | **CIWA-Ar** | ASAM 2020 | < 10: no suele requerir fármacos (Sullivan 1989) |
-| Hemorragia digestiva alta | **Glasgow-Blatchford** | ACG 2021, ESGE 2021 | Puntaje ≤ 1: **Se 98,6 %**, Sp 34,6 %; el mejor de 5 puntajes (AUROC 0,86) |
-    | Pancreatitis aguda | **BISAP** | Wu 2008 | AUC 0,82 para mortalidad, similar al APACHE II (0,83) |
-| Fibrosis hepática (MASLD) | **FIB-4** | EASL-EASD-EASO 2024 | < 1,3 bajo riesgo; > 2,67 alto riesgo |
-| Apendicitis | **AIR** (o Alvarado) | WSES 2020 | AIR > 4: **Se 91 %**, Sp 63 %; AIR > 8: Sp 98 %. AUC 0,86 frente a 0,79 del Alvarado |
-    | Función renal | **CKD-EPI 2021** (con cistatina C si se dispone) | KDIGO 2024 | La ecuación con creatinina y cistatina C es la más exacta |
-
-<nav class="lf-chips" aria-label="Secciones"><a href="#cardiologia-y-tep">Cardiología y TEP<span>7</span></a><a href="#trombosis-y-hemostasia">Trombosis y hemostasia<span>4</span></a><a href="#infecciones-y-deterioro-clinico">Infecciones y deterioro clínico<span>7</span></a><a href="#neurologia">Neurología<span>4</span></a><a href="#gastroenterologia-y-cirugia">Gastroenterología y cirugía<span>7</span></a><a href="#rinon-y-electrolitos">Riñón y electrolitos<span>3</span></a><a href="#fluidos-dosis-y-otros">Fluidos, dosis y otros<span>5</span></a></nav>
 
 ## Cardiología y TEP
 
@@ -617,6 +588,37 @@ Puntajes y fórmulas de uso diario, con la misma definición que usan los resúm
 
     Regla de Naegele: FPP = FUR + 280 días. Si la FUR es dudosa o difiere de la ecografía del primer trimestre, se usa la ecografía. Ver [control prenatal](ginecologia-obstetricia/control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md).
     { .calc-fuente }
+
+## Cómo se eligieron los puntajes
+
+??? info "Ver la tabla: puntaje, guía que lo recomienda y rendimiento"
+    Para cada problema se dejó el puntaje que recomienda la guía vigente y, cuando hay varios, el que mejor rinde en los estudios de validación. La sensibilidad (Se) importa para **descartar**; la especificidad (Sp), para **confirmar**.
+
+    | Problema | Puntaje | Guía que lo recomienda | Rendimiento |
+    |---|---|---|---|
+    | Riesgo embólico en la FA | **CHA₂DS₂-VA** | ESC 2024 | Reemplaza al CHA₂DS₂-VASc (el sexo femenino no suma) |
+    | Riesgo de sangrado con anticoagulantes | HAS-BLED | ESC 2024 no recomienda un puntaje específico | Útil solo para encontrar y corregir factores modificables |
+    | Dolor torácico en urgencia (sin supradesnivel del ST) | **HEART** | Six 2008; validación prospectiva de Backus 2013 | 0–3 puntos: eventos (IAM, revascularización o muerte) en **2,5 %**; 4–6: 20,3 %; ≥ 7: 72,7 % |
+| Sospecha de TEP | **Wells** + **dímero D ajustado por edad** | ESC 2019, AHA/ACC 2026 | Corte por edad: en ≥ 75 años, descarta TEP en 29,7 % frente a 6,4 % con el corte fijo, sin más falsos negativos |
+    | TEP con probabilidad baja | **PERC** | ESC 2019 | **Se 97 %**, Sp 22 % (metaanálisis): solo para descartar |
+    | Sospecha de TEP (alternativa) | **YEARS** | ESC 2019 | TEV a 3 meses 0,61 % en los descartados; 14 % menos angioTC que con Wells |
+    | Gravedad del TEP confirmado | **sPESI** | ESC 2019, AHA/ACC 2026 | sPESI 0: mortalidad a 30 días ~ 1 % |
+    | Sospecha de TVP | **Wells para TVP** (dos niveles) + dímero D | NICE NG158 2020 (actualizada en 2023) | Improbable con dímero D negativo, sin ecografía: TEV a 3 meses **0,4 %** |
+| Tromboprofilaxis en el paciente médico | **Padua** + **IMPROVE** | ASH 2018 | Padua ≥ 4 sin profilaxis: TEV a 90 días **11 %**; Padua < 4: 0,3 % |
+| Sospecha de TIH | **4T** | ASH 2018 | 0–3: valor predictivo negativo alto; evita pedir anticuerpos |
+| Deterioro y sepsis en sala | **NEWS2** | SSC 2021 y 2026 (no usar qSOFA solo) | El qSOFA es poco sensible para tamizar |
+    | Disfunción orgánica (sepsis) | **SOFA-2** | Ranzani 2025 (actualiza el SOFA de 1996) | Aumento agudo ≥ 2 puntos = disfunción orgánica (Sepsis-3) |
+| Faringoamigdalitis | **Centor/McIsaac** | IDSA 2012 (no testear con rasgos virales) | McIsaac: sensibilidad **83,1 %** para *S. pyogenes* |
+| Dónde tratar la neumonía | **PSI** (o CURB-65) | ATS/IDSA 2019 prefiere el PSI; la BTS y NICE usan CURB-65 o CRB-65 | PSI: la mayor sensibilidad para mortalidad; CRB-65: la mayor especificidad |
+    | Neumonía grave (UCI) | **Criterios ATS/IDSA** | ATS/IDSA 2019 | 1 mayor o ≥ 3 menores |
+    | Gravedad del ACV | **NIHSS** | Escala estándar del resumen de ACV (Brott 1989) | ≥ 6 sugiere oclusión de gran vaso |
+| Crisis isquémica transitoria | **ABCD²** | Johnston 2007 | ACV a 2 días: 1,0 % (0–3), 4,1 % (4–5), **8,1 %** (6–7) |
+| Abstinencia alcohólica | **CIWA-Ar** | ASAM 2020 | < 10: no suele requerir fármacos (Sullivan 1989) |
+| Hemorragia digestiva alta | **Glasgow-Blatchford** | ACG 2021, ESGE 2021 | Puntaje ≤ 1: **Se 98,6 %**, Sp 34,6 %; el mejor de 5 puntajes (AUROC 0,86) |
+    | Pancreatitis aguda | **BISAP** | Wu 2008 | AUC 0,82 para mortalidad, similar al APACHE II (0,83) |
+| Fibrosis hepática (MASLD) | **FIB-4** | EASL-EASD-EASO 2024 | < 1,3 bajo riesgo; > 2,67 alto riesgo |
+| Apendicitis | **AIR** (o Alvarado) | WSES 2020 | AIR > 4: **Se 91 %**, Sp 63 %; AIR > 8: Sp 98 %. AUC 0,86 frente a 0,79 del Alvarado |
+    | Función renal | **CKD-EPI 2021** (con cistatina C si se dispone) | KDIGO 2024 | La ecuación con creatinina y cistatina C es la más exacta |
 
 ## Referencias
 
