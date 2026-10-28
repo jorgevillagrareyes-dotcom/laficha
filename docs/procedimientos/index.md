@@ -5,7 +5,7 @@ hide:
 
 # Procedimientos del internado
 
-Este capítulo **no es parte del temario EUNACOM**. Es una guía práctica de los procedimientos que hace un interno: **cuándo** hacerlos, **qué revisar y pedir** antes, **cómo** hacerlos paso a paso, **cómo escribir la descripción** en la ficha y **qué indicaciones** dejar después. Cada recomendación está respaldada por una guía o un estudio, citado al final de cada página.
+Este capítulo **no es parte del temario EUNACOM**. Es una guía práctica de los procedimientos que hace un interno: **cuándo** hacerlos, **qué revisar y pedir** antes, **cómo** hacerlos paso a paso, **cómo escribir la descripción** en la ficha y **qué indicaciones** dejar después. Cada página dice en el recuadro **«¿Qué respalda esta página?»** si sus recomendaciones vienen de guías, de estudios o de la práctica habitual, y cita sus fuentes al final.
 
 !!! alarma "Orientación, no reemplazo de la supervisión"
     Haz cada procedimiento por primera vez con un tutor a tu lado. Manda el protocolo de tu servicio y los materiales disponibles. Antes de empezar, revisa siempre alergias, anticoagulantes y el consentimiento del paciente.
@@ -22,6 +22,8 @@ Todas las páginas tienen la misma estructura:
 6. Complicaciones, errores frecuentes, preguntas de repaso y referencias.
 
 ## Procedimientos
+
+**61 procedimientos** en 10 grupos (también ordenados así en el menú).
 
 ### Accesos vasculares y muestras
 

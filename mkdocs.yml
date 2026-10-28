@@ -485,67 +485,77 @@ nav:
           - Insulina en el hospitalizado: indicaciones/insulina.md
       - Procedimientos:
           - procedimientos/index.md
-          - Sutura de heridas: procedimientos/sutura.md
-          - Sonda Foley: procedimientos/foley.md
-          - Sonda nasogástrica: procedimientos/sonda-nasogastrica.md
-          - Punción lumbar: procedimientos/puncion-lumbar.md
-          - Toracocentesis: procedimientos/toracocentesis.md
-          - Paracentesis: procedimientos/paracentesis.md
-          - Drenaje de absceso: procedimientos/absceso.md
-          - Uña encarnada: procedimientos/una-encarnada.md
-          - Gases arteriales: procedimientos/gases-arteriales.md
-          - Línea arterial: procedimientos/linea-arterial.md
-          - Catéter venoso central: procedimientos/cvc.md
-          - Vía periférica guiada por ecografía: procedimientos/via-periferica-ecografia.md
-          - Vía intraósea: procedimientos/via-intraosea.md
-          - Hemocultivos: procedimientos/hemocultivos.md
-          - Punción venosa para exámenes: procedimientos/puncion-venosa.md
-          - Ventilación con bolsa-mascarilla: procedimientos/bolsa-mascarilla.md
-          - Intubación orotraqueal: procedimientos/intubacion-orotraqueal.md
-          - Dispositivos supraglóticos: procedimientos/supragloticos.md
-          - Cricotiroidotomía de emergencia: procedimientos/cricotiroidotomia.md
-          - Drenaje pleural: procedimientos/drenaje-pleural.md
-          - Descompresión con aguja: procedimientos/descompresion-aguja.md
-          - Ventilación mecánica no invasiva: procedimientos/vmni.md
-          - Técnica inhalatoria: procedimientos/tecnica-inhalatoria.md
-          - Electrocardiograma: procedimientos/electrocardiograma.md
-          - Cardioversión eléctrica: procedimientos/cardioversion.md
-          - Desfibrilación: procedimientos/desfibrilacion.md
-          - Marcapaso transcutáneo: procedimientos/marcapaso-transcutaneo.md
-          - Maniobras vagales: procedimientos/maniobras-vagales.md
-          - Pericardiocentesis: procedimientos/pericardiocentesis.md
-          - Ecografía en el punto de atención: procedimientos/pocus.md
-          - Tacto rectal: procedimientos/tacto-rectal.md
-          - Desimpactación fecal: procedimientos/desimpactacion-fecal.md
-          - Sonda rectal y enemas: procedimientos/sonda-rectal-y-enemas.md
-          - Lavado gástrico y carbón activado: procedimientos/lavado-gastrico-y-carbon.md
-          - Manejo de la gastrostomía: procedimientos/gastrostomia.md
-          - Balón de Sengstaken-Blakemore: procedimientos/sengstaken.md
-          - Cateterismo vesical intermitente: procedimientos/cateterismo-intermitente.md
-          - Cambio de cistostomía: procedimientos/cistostomia.md
-          - Reducción de parafimosis: procedimientos/parafimosis.md
-          - Artrocentesis de rodilla: procedimientos/artrocentesis.md
-          - Infiltración articular: procedimientos/infiltracion-articular.md
-          - Reducción de luxación de hombro: procedimientos/luxacion-hombro.md
-          - Férulas y yesos: procedimientos/ferulas-y-yesos.md
-          - Cuerpos extraños de la piel: procedimientos/cuerpos-extranos-piel.md
-          - Hematoma subungueal: procedimientos/hematoma-subungueal.md
-          - Curación de quemaduras: procedimientos/curacion-quemaduras.md
-          - Curación de úlceras por presión y pie diabético: procedimientos/curacion-ulceras.md
-          - Bloqueos regionales simples: procedimientos/bloqueos-regionales.md
-          - Biopsia de piel con punch: procedimientos/biopsia-punch.md
-          - Taponamiento nasal anterior: procedimientos/taponamiento-nasal.md
-          - Otoscopía y lavado de oído: procedimientos/otoscopia-lavado-oido.md
-          - Fondo de ojo: procedimientos/fondo-de-ojo.md
-          - Fluoresceína y cuerpo extraño corneal: procedimientos/fluoresceina-cuerpo-extrano.md
-          - Lavado ocular: procedimientos/lavado-ocular.md
-          - Especuloscopía y PAP: procedimientos/especuloscopia-pap.md
-          - Tacto vaginal: procedimientos/tacto-vaginal.md
-          - Atención del parto normal: procedimientos/parto-normal.md
-          - Examen neurológico y NIHSS: procedimientos/nihss.md
-          - Maniobra de Epley: procedimientos/maniobra-epley.md
-          - Constatación de lesiones y alcoholemia: procedimientos/constatacion-lesiones.md
-          - Constatación de fallecimiento: procedimientos/constatacion-fallecimiento.md
+          - Accesos vasculares y muestras:
+              - Línea arterial: procedimientos/linea-arterial.md
+              - Catéter venoso central: procedimientos/cvc.md
+              - Vía periférica guiada por ecografía: procedimientos/via-periferica-ecografia.md
+              - Vía intraósea: procedimientos/via-intraosea.md
+              - Hemocultivos: procedimientos/hemocultivos.md
+              - Punción venosa para exámenes: procedimientos/puncion-venosa.md
+              - Gases arteriales: procedimientos/gases-arteriales.md
+          - Vía aérea y tórax:
+              - Ventilación con bolsa-mascarilla: procedimientos/bolsa-mascarilla.md
+              - Intubación orotraqueal: procedimientos/intubacion-orotraqueal.md
+              - Dispositivos supraglóticos: procedimientos/supragloticos.md
+              - Cricotiroidotomía de emergencia: procedimientos/cricotiroidotomia.md
+              - Drenaje pleural: procedimientos/drenaje-pleural.md
+              - Descompresión con aguja: procedimientos/descompresion-aguja.md
+              - Ventilación mecánica no invasiva: procedimientos/vmni.md
+              - Técnica inhalatoria: procedimientos/tecnica-inhalatoria.md
+              - Toracocentesis: procedimientos/toracocentesis.md
+          - Cardiovascular:
+              - Electrocardiograma: procedimientos/electrocardiograma.md
+              - Cardioversión eléctrica: procedimientos/cardioversion.md
+              - Desfibrilación: procedimientos/desfibrilacion.md
+              - Marcapaso transcutáneo: procedimientos/marcapaso-transcutaneo.md
+              - Maniobras vagales: procedimientos/maniobras-vagales.md
+              - Pericardiocentesis: procedimientos/pericardiocentesis.md
+              - Ecografía en el punto de atención: procedimientos/pocus.md
+          - Digestivo:
+              - Sonda nasogástrica: procedimientos/sonda-nasogastrica.md
+              - Paracentesis: procedimientos/paracentesis.md
+              - Tacto rectal: procedimientos/tacto-rectal.md
+              - Desimpactación fecal: procedimientos/desimpactacion-fecal.md
+              - Sonda rectal y enemas: procedimientos/sonda-rectal-y-enemas.md
+              - Lavado gástrico y carbón activado: procedimientos/lavado-gastrico-y-carbon.md
+              - Manejo de la gastrostomía: procedimientos/gastrostomia.md
+              - Balón de Sengstaken-Blakemore: procedimientos/sengstaken.md
+          - Urología:
+              - Sonda Foley: procedimientos/foley.md
+              - Cateterismo vesical intermitente: procedimientos/cateterismo-intermitente.md
+              - Cambio de cistostomía: procedimientos/cistostomia.md
+              - Reducción de parafimosis: procedimientos/parafimosis.md
+          - Neurología:
+              - Punción lumbar: procedimientos/puncion-lumbar.md
+              - Examen neurológico y NIHSS: procedimientos/nihss.md
+              - Maniobra de Epley: procedimientos/maniobra-epley.md
+          - Osteoarticular, piel y partes blandas:
+              - Sutura de heridas: procedimientos/sutura.md
+              - Drenaje de absceso: procedimientos/absceso.md
+              - Uña encarnada: procedimientos/una-encarnada.md
+              - Artrocentesis de rodilla: procedimientos/artrocentesis.md
+              - Infiltración articular: procedimientos/infiltracion-articular.md
+              - Reducción de luxación de hombro: procedimientos/luxacion-hombro.md
+              - Férulas y yesos: procedimientos/ferulas-y-yesos.md
+              - Cuerpos extraños de la piel: procedimientos/cuerpos-extranos-piel.md
+              - Hematoma subungueal: procedimientos/hematoma-subungueal.md
+              - Curación de quemaduras: procedimientos/curacion-quemaduras.md
+              - Curación de úlceras por presión y pie diabético: procedimientos/curacion-ulceras.md
+              - Bloqueos regionales simples: procedimientos/bloqueos-regionales.md
+              - Biopsia de piel con punch: procedimientos/biopsia-punch.md
+          - Otorrinolaringología y oftalmología:
+              - Taponamiento nasal anterior: procedimientos/taponamiento-nasal.md
+              - Otoscopía y lavado de oído: procedimientos/otoscopia-lavado-oido.md
+              - Fondo de ojo: procedimientos/fondo-de-ojo.md
+              - Fluoresceína y cuerpo extraño corneal: procedimientos/fluoresceina-cuerpo-extrano.md
+              - Lavado ocular: procedimientos/lavado-ocular.md
+          - Ginecología y obstetricia:
+              - Especuloscopía y PAP: procedimientos/especuloscopia-pap.md
+              - Tacto vaginal: procedimientos/tacto-vaginal.md
+              - Atención del parto normal: procedimientos/parto-normal.md
+          - Médico-legal:
+              - Constatación de lesiones y alcoholemia: procedimientos/constatacion-lesiones.md
+              - Constatación de fallecimiento: procedimientos/constatacion-fallecimiento.md
       - Preguntas del día: preguntas-del-dia.md
       - Calculadoras: calculadoras.md
       - Índice A–Z: indice-alfabetico.md
