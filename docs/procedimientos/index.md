@@ -67,21 +67,21 @@ Todas las páginas tienen la misma estructura:
 |---|---|---|
 | **Sonda nasogástrica** | Alimentación, descompresión, lavado | [Sonda nasogástrica](sonda-nasogastrica.md) |
 | **Paracentesis** | Estudio o evacuación de la ascitis | [Paracentesis](paracentesis.md) |
-| **Tacto rectal** | Examen del recto y la próstata | En preparación |
-| **Desimpactación fecal** | Fecaloma | En preparación |
-| **Sonda rectal y enemas** | Constipación, distensión | En preparación |
-| **Lavado gástrico y carbón activado** | Intoxicaciones: cuándo sí y cuándo no | En preparación |
-| **Manejo de la gastrostomía** | Recambio y sonda salida | En preparación |
-| **Balón de Sengstaken-Blakemore** | Hemorragia variceal refractaria | En preparación |
+| **Tacto rectal** | Examen del recto y la próstata | [Tacto rectal](tacto-rectal.md) |
+| **Desimpactación fecal** | Fecaloma | [Desimpactación fecal](desimpactacion-fecal.md) |
+| **Sonda rectal y enemas** | Constipación, distensión | [Sonda rectal y enemas](sonda-rectal-y-enemas.md) |
+| **Lavado gástrico y carbón activado** | Intoxicaciones: cuándo sí y cuándo no | [Lavado gástrico y carbón activado](lavado-gastrico-y-carbon.md) |
+| **Manejo de la gastrostomía** | Recambio y sonda salida | [Manejo de la gastrostomía](gastrostomia.md) |
+| **Balón de Sengstaken-Blakemore** | Hemorragia variceal refractaria | [Balón de Sengstaken-Blakemore](sengstaken.md) |
 
 ### Urología
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
 | **Sonda Foley** | Retención urinaria, medición de la diuresis | [Sonda Foley](foley.md) |
-| **Cateterismo vesical intermitente** | Retención crónica, vejiga neurogénica | En preparación |
-| **Cambio de cistostomía** | Recambio de la sonda suprapúbica | En preparación |
-| **Reducción de parafimosis** | Prepucio atrapado tras el glande | En preparación |
+| **Cateterismo vesical intermitente** | Retención crónica, vejiga neurogénica | [Cateterismo vesical intermitente](cateterismo-intermitente.md) |
+| **Cambio de cistostomía** | Recambio de la sonda suprapúbica | [Cambio de cistostomía](cistostomia.md) |
+| **Reducción de parafimosis** | Prepucio atrapado tras el glande | [Reducción de parafimosis](parafimosis.md) |
 
 ### Neurología
 
