@@ -22,6 +22,8 @@ Sitio MkDocs Material llamado **La Ficha**, de Jorge Villagra, estudiante de med
 
 ## Flujo para cada patología nueva
 
+El flujo completo (con los scripts de verificación de referencias, revisión en celular y vista previa) está en la skill `.claude/skills/la-ficha-pagina/`.
+
 1. Investigar la **versión vigente** de las guías (ESC, ACC/AHA, ADA, KDIGO, GOLD, GINA, IDSA/ATS, ACG, EASL/AASLD, etc.) y los datos chilenos (MINSAL/GES, ENS, DEIS, consensos de sociedades chilenas). Indicar el año de cada guía.
 2. Escribir la página siguiendo **exactamente** las secciones de la plantilla y el estilo de las páginas existentes (por ejemplo `docs/cardiologia/insuficiencia-cardiaca.md`): ficha, resumen en 60 segundos, definición, epidemiología mundial y Chile, etiología, fisiopatología (con diagrama Mermaid), clasificación, clínica, diagnóstico, laboratorio, imágenes, diagnóstico diferencial, tratamiento con dosis, complicaciones, pronóstico y seguimiento, perlas para el internado, 5–6 preguntas de repaso y referencias.
 3. Recuadros propios: `guia`, `chile`, `alarma`, `dosis`, `perla`, `repaso` (este último plegable con `???`).
