@@ -39,14 +39,14 @@ Todas las páginas tienen la misma estructura:
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
-| **Ventilación con bolsa-mascarilla** | Ventilar y oxigenar en el paro o la apnea | En preparación |
-| **Intubación orotraqueal** | Asegurar la vía aérea con secuencia rápida | En preparación |
-| **Dispositivos supraglóticos** | Rescate de la vía aérea | En preparación |
-| **Cricotiroidotomía de emergencia** | No se puede intubar ni oxigenar | En preparación |
-| **Drenaje pleural** | Neumotórax, empiema, hemotórax | En preparación |
-| **Descompresión con aguja** | Neumotórax a tensión | En preparación |
-| **Ventilación mecánica no invasiva** | Inicio y ajuste en EPOC y edema pulmonar | En preparación |
-| **Técnica inhalatoria** | Enseñar inhaladores y aerocámara | En preparación |
+| **Ventilación con bolsa-mascarilla** | Ventilar y oxigenar en el paro o la apnea | [Ventilación con bolsa-mascarilla](bolsa-mascarilla.md) |
+| **Intubación orotraqueal** | Asegurar la vía aérea con secuencia rápida | [Intubación orotraqueal](intubacion-orotraqueal.md) |
+| **Dispositivos supraglóticos** | Rescate de la vía aérea | [Dispositivos supraglóticos](supragloticos.md) |
+| **Cricotiroidotomía de emergencia** | No se puede intubar ni oxigenar | [Cricotiroidotomía de emergencia](cricotiroidotomia.md) |
+| **Drenaje pleural** | Neumotórax, empiema, hemotórax | [Drenaje pleural](drenaje-pleural.md) |
+| **Descompresión con aguja** | Neumotórax a tensión | [Descompresión con aguja](descompresion-aguja.md) |
+| **Ventilación mecánica no invasiva** | Inicio y ajuste en EPOC y edema pulmonar | [Ventilación mecánica no invasiva](vmni.md) |
+| **Técnica inhalatoria** | Enseñar inhaladores y aerocámara | [Técnica inhalatoria](tecnica-inhalatoria.md) |
 | **Toracocentesis** | Estudio o evacuación de un derrame pleural | [Toracocentesis](toracocentesis.md) |
 
 ### Cardiovascular
