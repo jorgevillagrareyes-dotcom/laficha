@@ -43,6 +43,83 @@
       var p = d.suma();
       return res(p + " puntos", p >= 3 ? "Riesgo de sangrado alto: corregir factores modificables y controlar más seguido" : "Riesgo de sangrado bajo o intermedio");
     },
+    heart: function (d) {
+      var p = ["h", "e", "a", "r", "t"].reduce(function (a, n) { return a + d.sel(n); }, 0);
+      var t = p <= 3 ? "Riesgo bajo: eventos 2,5 % en la cohorte original; considerar el alta con control"
+        : p <= 6 ? "Riesgo intermedio: eventos 20,3 %; observación y estudio"
+        : "Riesgo alto: eventos 72,7 %; manejo como SCA y estrategia invasiva precoz";
+      return res(p + " / 10", t);
+    },
+    wellstvp: function (d) {
+      var p = d.suma();
+      return res(p + (Math.abs(p) === 1 ? " punto" : " puntos"), p >= 2 ? "TVP probable: ecografía proximal de la pierna" : "TVP improbable: dímero D (si es negativo, se descarta)");
+    },
+    padua: function (d) {
+      var p = d.suma();
+      return res(p + " puntos", p >= 4 ? "Alto riesgo de TEV: tromboprofilaxis si el riesgo de sangrado lo permite" : "Bajo riesgo de TEV: sin profilaxis farmacológica; movilizar y reevaluar");
+    },
+    improve: function (d) {
+      var p = d.suma() + d.sel("edad") + d.sel("renal");
+      return res(fmt(p, 1) + " puntos", p >= 7 ? "Alto riesgo de sangrado: preferir la profilaxis mecánica" : "Riesgo de sangrado aceptable");
+    },
+    cuatrot: function (d) {
+      var p = d.sel("t1") + d.sel("t2") + d.sel("t3") + d.sel("t4");
+      var t = p <= 3 ? "Probabilidad baja: no pedir anticuerpos; continuar la heparina y buscar otra causa"
+        : (p <= 5 ? "Probabilidad intermedia" : "Probabilidad alta") + ": suspender toda heparina, anticoagulante no heparínico y anticuerpos anti-PF4";
+      return res(p + " / 8", t);
+    },
+    sofa2: function (d) {
+      var cer = d.sel("gcs");
+      if (cer === 0 && d.si("delirio")) cer = 1;
+      var r = d.num("ratio"), sf = d.val("tipo") === "sf", c = sf ? [300, 250, 200, 120] : [300, 225, 150, 75], sop = d.si("soporte");
+      var resp = d.si("ecmo") ? 4 : isNaN(r) ? 0 : r <= c[3] && sop ? 4 : r <= c[2] && sop ? 3 : r <= c[1] ? 2 : r <= c[0] ? 1 : 0;
+      var pam = d.num("pam"), na = d.num("na") || 0, otro = d.si("otro");
+      var cv = d.si("mec") || na > 0.4 || (na > 0.2 && otro) ? 4 : na > 0.2 || (na > 0 && otro) ? 3 : na > 0 || otro ? 2 : !isNaN(pam) && pam < 70 ? 1 : 0;
+      var b = d.num("bili");
+      var hig = isNaN(b) ? 0 : b > 12 ? 4 : b > 6 ? 3 : b > 3 ? 2 : b > 1.2 ? 1 : 0;
+      var cr = d.num("cr"), diu = d.sel("diu");
+      var ren = d.si("trr") ? 4 : Math.max(diu, isNaN(cr) ? 0 : cr > 3.5 ? 3 : cr > 2 ? 2 : cr > 1.2 ? 1 : 0);
+      var pl = d.num("plaq");
+      var hem = isNaN(pl) ? 0 : pl <= 50 ? 4 : pl <= 80 ? 3 : pl <= 100 ? 2 : pl <= 150 ? 1 : 0;
+      var p = cer + resp + cv + hig + ren + hem;
+      return res(p + " / 24", "Cerebro " + cer + " · respiratorio " + resp + " · cardiovascular " + cv + " · hígado " + hig + " · riñón " + ren + " · hemostasia " + hem +
+        " · un aumento agudo ≥ 2 puntos sobre el basal por una infección define la sepsis");
+    },
+    qsofa: function (d) {
+      var p = d.suma();
+      return res(p + " / 3", p >= 2 ? "Mayor riesgo de muerte: evaluar disfunción orgánica (SOFA) y manejo de sepsis" : "No descarta la sepsis: el qSOFA es poco sensible");
+    },
+    centor: function (d) {
+      var p = d.suma() + d.sel("edad");
+      return res(p + (Math.abs(p) === 1 ? " punto" : " puntos"), p >= 2 ? "Test rápido de S. pyogenes (o cultivo); antibiótico solo si es positivo" : "No testear ni dar antibiótico");
+    },
+    nihss: function (d) {
+      var p = ["n1a", "n1b", "n1c", "n2", "n3", "n4", "n5a", "n5b", "n6a", "n6b", "n7", "n8", "n9", "n10", "n11"].reduce(function (a, n) { return a + d.sel(n); }, 0);
+      var t = p === 0 ? "Sin déficit medible (no descarta un ACV de circulación posterior)" : p <= 3 ? "ACV menor (NIHSS ≤ 3)" : p >= 6 ? "≥ 6: sospechar oclusión de gran vaso" : "Déficit leve a moderado";
+      return res(p + " / 42", t);
+    },
+    abcd2: function (d) {
+      var p = d.suma() + d.sel("cl") + d.sel("dur");
+      var t = p <= 3 ? "Riesgo bajo: ACV a 2 días 1,0 %" : p <= 5 ? "Riesgo moderado: ACV a 2 días 4,1 %" : "Riesgo alto: ACV a 2 días 8,1 %";
+      return res(p + " / 7", t + (p >= 4 ? " · estudio inmediato y doble antiagregación si no es cardioembólico" : " · estudiar igual en forma urgente"));
+    },
+    ciwa: function (d) {
+      var p = ["nau", "tem", "sud", "ans", "agi", "tac", "aud", "vis", "cef", "ori"].reduce(function (a, n) { return a + d.sel(n); }, 0);
+      var t = p < 10 ? "Abstinencia leve: no suele requerir fármacos" : p <= 18 ? "Abstinencia moderada: benzodiacepina según el esquema guiado por síntomas" : "Abstinencia grave: benzodiacepina y vigilancia estrecha (riesgo de convulsiones y delirium tremens)";
+      return res(p + " / 67", t);
+    },
+    bisap: function (d) {
+      var p = d.suma();
+      return res(p + " / 5", p >= 3 ? "Mayor riesgo de mortalidad: considerar UCI o intermedio" : "Menor riesgo de mortalidad: reevaluar en las primeras 48 h");
+    },
+    fib4: function (d) {
+      var edad = d.num("edad"), ast = d.num("ast"), alt = d.num("alt"), pl = d.num("plaq");
+      if (isNaN(edad) || isNaN(ast) || isNaN(alt) || isNaN(pl) || alt <= 0 || pl <= 0) return falta;
+      var f = edad * ast / (pl * Math.sqrt(alt)), bajo = edad > 65 ? 2.0 : 1.3;
+      var t = f < bajo ? "Bajo riesgo de fibrosis avanzada" + (edad > 65 ? " (corte 2,0 por tener > 65 años)" : "") + ": reevaluar cada 1–3 años"
+        : f > 2.67 ? "Alto riesgo de fibrosis avanzada: derivar a hepatología" : "Indeterminado: elastografía";
+      return res("FIB-4 " + fmt(f, 2), t);
+    },
     wells: function (d) {
       var p = d.suma(), edad = d.num("edad");
       var corte = !isNaN(edad) && edad > 50 ? edad * 10 : 500;
