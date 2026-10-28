@@ -26,6 +26,16 @@ Este capítulo **no es parte del temario EUNACOM**. Es una guía práctica para 
 | Examen | Qué incluye | Página |
 |---|---|---|
 | **Hemograma** | Serie roja, índices, reticulocitos, leucocitos y fórmula diferencial, plaquetas, VHS y frotis | [Hemograma](hemograma.md) |
+| **Coagulación** | TP/INR, TTPa, fibrinógeno, dímero D, estudio de mezcla y puntaje de CID | [Coagulación](coagulacion.md) |
+| **Función renal y electrolitos** | Creatinina, VFG, BUN, Na, K, Cl, HCO₃, Ca, P, Mg, ácido úrico, osmolalidad, anión gap e índices urinarios | [Función renal y electrolitos](renal-y-electrolitos.md) |
+| **Pruebas hepáticas y pancreáticas** | Transaminasas, fosfatasa alcalina, GGT, bilirrubina, albúmina, LDH, amilasa y lipasa | [Pruebas hepáticas y pancreáticas](hepaticas-y-pancreaticas.md) |
+| **Glicemia, HbA1c y lípidos** | Diagnóstico de diabetes, metas, hipoglicemia, perfil lipídico, Lp(a) y metas de LDL | [Glicemia, HbA1c y lípidos](glicemia-y-lipidos.md) |
+| **Tiroides y cortisol** | TSH, T4 libre, T3, anticuerpos y cortisol de las 8 AM | [Tiroides y cortisol](tiroides.md) |
+| **Marcadores cardíacos e inflamatorios** | Troponina, BNP y NT-proBNP, CK, PCR, VHS, procalcitonina y lactato | [Marcadores cardíacos e inflamatorios](marcadores-cardiacos-e-inflamatorios.md) |
+| **Orina completa y urocultivo** | Tira reactiva, sedimento, proteinuria, hematuria y urocultivo | [Orina completa y urocultivo](orina.md) |
+| **Líquidos** | Cefalorraquídeo, pleural, ascítico y sinovial | [Líquidos](liquidos.md) |
+
+Para los **gases arteriales** y el equilibrio ácido-base, ver [gases arteriales](../procedimientos/gases-arteriales.md) y [trastornos ácido-base](../nefrologia/trastornos-acido-base.md).
 
 ## Referencias
 
