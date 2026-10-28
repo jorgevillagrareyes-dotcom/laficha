@@ -106,9 +106,9 @@ flowchart TD
 |---|---|---|---|
 | **I** | 0 horas de reloj | 0 % | Muy bueno |
 | **II** | ≤ 3 horas | ≤ 30 % | Bueno |
-| **III** | > 3–6 horas | > 30–50 % | Bueno a reservado |
-| **IV** | > 6–9 horas | > 50–75 % | Reservado a malo |
-| **V** | > 9–< 12 horas | > 75–< 100 % | Malo |
+| **III** | > 3–6 horas | > 30–50 % | Bueno |
+| **IV** | > 6–9 horas | > 50–75 % | Bueno a reservado |
+| **V** | > 9–< 12 horas | > 75–< 100 % | Reservado a malo |
 | **VI** | 12 horas (todo el limbo) | 100 % | Muy malo |
 
 | Hifema (grado) | Altura de la sangre en la cámara anterior |

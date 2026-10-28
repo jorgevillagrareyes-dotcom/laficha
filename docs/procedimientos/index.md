@@ -88,8 +88,8 @@ Todas las páginas tienen la misma estructura:
 | Procedimiento | Para qué | Página |
 |---|---|---|
 | **Punción lumbar** | Estudio del LCR | [Punción lumbar](puncion-lumbar.md) |
-| **Examen neurológico y NIHSS** | Evaluación rápida del ACV | En preparación |
-| **Maniobra de Epley** | Vértigo posicional paroxístico benigno | En preparación |
+| **Examen neurológico y NIHSS** | Evaluación rápida del ACV | [Examen neurológico y NIHSS](nihss.md) |
+| **Maniobra de Epley** | Vértigo posicional paroxístico benigno | [Maniobra de Epley](maniobra-epley.md) |
 
 ### Osteoarticular, piel y partes blandas
 
@@ -113,23 +113,23 @@ Todas las páginas tienen la misma estructura:
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
-| **Taponamiento nasal anterior** | Epistaxis | En preparación |
-| **Otoscopía y lavado de oído** | Tapón de cerumen y cuerpo extraño | En preparación |
-| **Fondo de ojo** | Papiledema, retinopatía | En preparación |
-| **Fluoresceína y cuerpo extraño corneal** | Erosión y cuerpo extraño | En preparación |
-| **Lavado ocular** | Quemaduras químicas | En preparación |
+| **Taponamiento nasal anterior** | Epistaxis | [Taponamiento nasal anterior](taponamiento-nasal.md) |
+| **Otoscopía y lavado de oído** | Tapón de cerumen y cuerpo extraño | [Otoscopía y lavado de oído](otoscopia-lavado-oido.md) |
+| **Fondo de ojo** | Papiledema, retinopatía | [Fondo de ojo](fondo-de-ojo.md) |
+| **Fluoresceína y cuerpo extraño corneal** | Erosión y cuerpo extraño | [Fluoresceína y cuerpo extraño corneal](fluoresceina-cuerpo-extrano.md) |
+| **Lavado ocular** | Quemaduras químicas | [Lavado ocular](lavado-ocular.md) |
 
 ### Ginecología y obstetricia
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
-| **Especuloscopía y PAP** | Tamizaje de cáncer cervicouterino | En preparación |
-| **Tacto vaginal** | Examen ginecológico y obstétrico | En preparación |
-| **Atención del parto normal** | Conceptos para el interno | En preparación |
+| **Especuloscopía y PAP** | Tamizaje de cáncer cervicouterino | [Especuloscopía y PAP](especuloscopia-pap.md) |
+| **Tacto vaginal** | Examen ginecológico y obstétrico | [Tacto vaginal](tacto-vaginal.md) |
+| **Atención del parto normal** | Conceptos para el interno | [Atención del parto normal](parto-normal.md) |
 
 ### Médico-legal
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
-| **Constatación de lesiones y alcoholemia** | Documentos médico-legales en la urgencia | En preparación |
-| **Constatación de fallecimiento y certificado de defunción** | Muerte en la sala | En preparación |
+| **Constatación de lesiones y alcoholemia** | Documentos médico-legales en la urgencia | [Constatación de lesiones y alcoholemia](constatacion-lesiones.md) |
+| **Constatación de fallecimiento y certificado de defunción** | Muerte en la sala | [Constatación de fallecimiento](constatacion-fallecimiento.md) |

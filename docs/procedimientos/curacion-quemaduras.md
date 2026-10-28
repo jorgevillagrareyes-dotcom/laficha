@@ -9,7 +9,7 @@ Primeros auxilios y curación de las quemaduras menores, y reconocimiento de las
 ISBI 2016: guías de práctica para el cuidado de quemaduras · MINSAL 2007: guía clínica GES gran quemado
 
 **Otras fuentes**
-Ver [quemaduras, secuelas y cicatrices](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md) y [heridas menores y profilaxis antitetánica](../cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md)
+Ver [quemaduras, secuelas y cicatrices](../cirugia/piel-partes-blandas-y-quemaduras/quemaduras-secuelas-y-cicatrices.md), [heridas menores y profilaxis antitetánica](../cirugia/piel-partes-blandas-y-quemaduras/heridas-menores-mordeduras-y-onicocriptosis.md) y [lavado ocular](lavado-ocular.md)
 
 **Revisado**
 Octubre 2026
