@@ -647,6 +647,29 @@
   .ecg-cuerpo { grid-template-columns: 1fr; }
   .ecg-3d { height: 21rem; }
   .ecg-fase { min-height: 6em; }
-  .ecg-mini canvas { height: 3.4rem; }
+
   .ecg-atlas { padding: 0.5rem; margin-left: -0.3rem; margin-right: -0.3rem; }
+}
+.ecg-pestanas { display: flex; gap: 0; margin-bottom: 0.5rem; border-bottom: 1px solid var(--mi-linea); }
+.ecg-pestanas button { font: inherit; font-size: 0.8rem; font-weight: 600; padding: 0.45em 1em; border: 0; border-bottom: 3px solid transparent; background: none; color: var(--mi-tenue); cursor: pointer; }
+.ecg-pestanas button.ecg-activa { color: var(--md-default-fg-color); border-bottom-color: var(--md-accent-fg-color); }
+.ecg-elegir { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.7rem; }
+.ecg-elegir[hidden] { display: none; }
+.ecg-elegir button, .ecg-onda { font: inherit; font-size: 0.72rem; padding: 0.3em 0.8em; border: 1px solid var(--mi-linea); border-radius: 999px; background: var(--md-default-bg-color); color: var(--md-default-fg-color); cursor: pointer; }
+.ecg-elegir button.ecg-activa, .ecg-onda.ecg-activa { background: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); color: var(--md-default-bg-color); }
+.ecg-ficha { font-size: 0.72rem; }
+.ecg-controles { margin-bottom: 0.6rem; }
+.ecg-ondas { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-top: 0.6rem; }
+.ecg-ondas > span { font-size: 0.72rem; color: var(--mi-tenue); margin-right: 0.2rem; }
+.ecg-onda { font-weight: 700; min-width: 2.8em; }
+.ecg-detalle { margin-top: 0.6rem; padding: 0.6rem 0.8rem; border: 1px solid var(--mi-linea); border-left: 4px solid var(--md-accent-fg-color); border-radius: 4px; background: var(--md-default-bg-color); font-size: 0.76rem; }
+.ecg-detalle h4 { margin: 0 0 0.4rem; font-size: 0.85rem; }
+.ecg-detalle p { margin: 0 0 0.45rem; }
+.ecg-detalle .ecg-pato { color: inherit; border-left: 3px solid #c0392b; padding-left: 0.5rem; }
+.ecg-detalle .ecg-norm { border-left: 3px solid var(--mi-ok); padding-left: 0.5rem; }
+.ecg-detalle .ecg-normal-breve { color: var(--mi-tenue); font-size: 0.72rem; }
+.md-typeset .ecg-ver { font: inherit; font-size: 0.72rem; font-weight: 600; padding: 0.3em 0.9em; border: 1px solid var(--md-accent-fg-color); border-radius: 3px; background: none; color: var(--md-accent-fg-color); cursor: pointer; margin-bottom: 0.4rem; }
+@media (max-width: 47.9em) {
+  .ecg-12 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ecg-mini canvas { height: 4rem; }
 }
