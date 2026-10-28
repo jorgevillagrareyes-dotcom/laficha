@@ -98,16 +98,16 @@ Todas las páginas tienen la misma estructura:
 | **Sutura de heridas** | Cerrar heridas cortantes o contusas simples | [Sutura de heridas](sutura.md) |
 | **Drenaje de absceso** | Absceso cutáneo | [Drenaje de absceso](absceso.md) |
 | **Uña encarnada** | Onicocriptosis | [Uña encarnada](una-encarnada.md) |
-| **Artrocentesis de rodilla** | Monoartritis, sospecha de artritis séptica | En preparación |
-| **Infiltración articular** | Hombro y rodilla | En preparación |
-| **Reducción de luxación de hombro** | Luxación anterior | En preparación |
-| **Férulas y yesos** | Inmovilización | En preparación |
-| **Extracción de cuerpos extraños de la piel** | Astillas, anzuelos, vidrio | En preparación |
-| **Hematoma subungueal** | Trepanación de la uña | En preparación |
-| **Curación de quemaduras** | Quemaduras menores | En preparación |
-| **Curación de úlceras por presión y pie diabético** | Heridas crónicas | En preparación |
-| **Bloqueos regionales simples** | Digital, muñeca, hematoma de fractura | En preparación |
-| **Biopsia de piel con punch** | Diagnóstico de lesiones cutáneas | En preparación |
+| **Artrocentesis de rodilla** | Monoartritis, sospecha de artritis séptica | [Artrocentesis de rodilla](artrocentesis.md) |
+| **Infiltración articular** | Hombro y rodilla | [Infiltración articular](infiltracion-articular.md) |
+| **Reducción de luxación de hombro** | Luxación anterior | [Reducción de luxación de hombro](luxacion-hombro.md) |
+| **Férulas y yesos** | Inmovilización | [Férulas y yesos](ferulas-y-yesos.md) |
+| **Extracción de cuerpos extraños de la piel** | Astillas, anzuelos, vidrio | [Cuerpos extraños de la piel](cuerpos-extranos-piel.md) |
+| **Hematoma subungueal** | Trepanación de la uña | [Hematoma subungueal](hematoma-subungueal.md) |
+| **Curación de quemaduras** | Quemaduras menores | [Curación de quemaduras](curacion-quemaduras.md) |
+| **Curación de úlceras por presión y pie diabético** | Heridas crónicas | [Curación de úlceras por presión y pie diabético](curacion-ulceras.md) |
+| **Bloqueos regionales simples** | Digital, muñeca, hematoma de fractura | [Bloqueos regionales simples](bloqueos-regionales.md) |
+| **Biopsia de piel con punch** | Diagnóstico de lesiones cutáneas | [Biopsia de piel con punch](biopsia-punch.md) |
 
 ### Otorrinolaringología y oftalmología
 

@@ -9,7 +9,7 @@ Reducción manual del prepucio retraído y atrapado detrás del glande, tras dis
 Pohlman 2013 (*J Pediatr Urol*): técnica y revisión de los métodos conservadores · Práctica clínica habitual
 
 **Otras fuentes**
-Ver [patología del pene: fimosis y parafimosis](../cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md) y [sonda Foley](foley.md)
+Ver [patología del pene: fimosis y parafimosis](../cirugia/urologia/patologia-del-pene-y-disfuncion-erectil.md), [sonda Foley](foley.md) y [bloqueos regionales simples](bloqueos-regionales.md)
 
 **Revisado**
 Octubre 2026
