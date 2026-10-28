@@ -53,13 +53,13 @@ Todas las páginas tienen la misma estructura:
 
 | Procedimiento | Para qué | Página |
 |---|---|---|
-| **Electrocardiograma** | Toma correcta y ubicación de los electrodos | En preparación |
-| **Cardioversión eléctrica** | Taquiarritmias inestables o programadas | En preparación |
-| **Desfibrilación** | Fibrilación ventricular y TV sin pulso | En preparación |
-| **Marcapaso transcutáneo** | Bradicardia inestable | En preparación |
-| **Maniobras vagales** | Taquicardia supraventricular estable | En preparación |
-| **Pericardiocentesis** | Taponamiento cardíaco | En preparación |
-| **Ecografía en el punto de atención** | POCUS básico: eFAST, vena cava, pericardio, pulmón | En preparación |
+| **Electrocardiograma** | Toma correcta y ubicación de los electrodos | [Electrocardiograma](electrocardiograma.md) |
+| **Cardioversión eléctrica** | Taquiarritmias inestables o programadas | [Cardioversión eléctrica](cardioversion.md) |
+| **Desfibrilación** | Fibrilación ventricular y TV sin pulso | [Desfibrilación](desfibrilacion.md) |
+| **Marcapaso transcutáneo** | Bradicardia inestable | [Marcapaso transcutáneo](marcapaso-transcutaneo.md) |
+| **Maniobras vagales** | Taquicardia supraventricular estable | [Maniobras vagales](maniobras-vagales.md) |
+| **Pericardiocentesis** | Taponamiento cardíaco | [Pericardiocentesis](pericardiocentesis.md) |
+| **Ecografía en el punto de atención** | POCUS básico: eFAST, vena cava, pericardio, pulmón | [Ecografía en el punto de atención](pocus.md) |
 
 ### Digestivo
 
