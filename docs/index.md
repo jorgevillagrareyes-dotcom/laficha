@@ -10,7 +10,7 @@ hide:
 
 # La Ficha
 
-<p class="portada-autor">Jorge Villagra · Estudiante de medicina, Universidad de Valparaíso</p>
+<p class="portada-autor">Jorge Villagra Reyes · Estudiante de medicina, Universidad de Valparaíso</p>
 
 <p class="portada-lead">Cada tema sigue la misma estructura y se basa en la versión vigente de las guías clínicas internacionales y chilenas, citadas al final de cada página.</p>
 

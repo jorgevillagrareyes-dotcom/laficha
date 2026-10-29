@@ -2,7 +2,7 @@
 
 ## Autor
 
-Los resúmenes fueron elaborados por **Jorge Villagra**, estudiante de medicina de la Universidad de Valparaíso, como material de estudio para el internado y el EUNACOM, y se comparten libremente con sus compañeros. Se pueden usar y compartir para estudiar, sin fines comerciales y citando la fuente.
+Los resúmenes fueron elaborados por **Jorge Villagra Reyes**, estudiante de medicina de la Universidad de Valparaíso, como material de estudio para el internado y el EUNACOM, y se comparten libremente con sus compañeros. Se pueden usar y compartir para estudiar, sin fines comerciales y citando la fuente.
 
 ## Fuentes
 

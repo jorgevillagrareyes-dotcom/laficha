@@ -1,6 +1,6 @@
 # La Ficha: sitio de estudio de medicina interna
 
-Sitio MkDocs Material llamado **La Ficha**, de Jorge Villagra, estudiante de medicina de la Universidad de Valparaíso (autor que debe figurar en portada, metodología y pie), en español de Chile, con resúmenes de patologías de medicina interna para un interno de medicina. El usuario aprobó el formato y la profundidad de los resúmenes piloto: mantenerlos.
+Sitio MkDocs Material llamado **La Ficha**, de Jorge Villagra Reyes, estudiante de medicina de la Universidad de Valparaíso (autor que debe figurar en portada, metodología y pie), en español de Chile, con resúmenes de patologías de medicina interna para un interno de medicina. El usuario aprobó el formato y la profundidad de los resúmenes piloto: mantenerlos.
 
 ## Estructura
 

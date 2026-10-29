@@ -5,7 +5,7 @@ description: Flujo completo para crear o actualizar una página de La Ficha (sit
 
 # Crear o actualizar una página de La Ficha
 
-La Ficha es el sitio de estudio de Jorge Villagra (Universidad de Valparaíso) para internos de medicina en Chile. Se publica solo con cada push a la rama de despliegue, así que **un push es una publicación**. Lo que pide el usuario, en orden de importancia:
+La Ficha es el sitio de estudio de Jorge Villagra Reyes (Universidad de Valparaíso) para internos de medicina en Chile. Se publica solo con cada push a la rama de despliegue, así que **un push es una publicación**. Lo que pide el usuario, en orden de importancia:
 
 1. **Exactitud verificada.** Es material médico que otros estudiantes usarán en la sala. Un DOI inventado, una dosis distinta entre dos páginas o un umbral mal citado es peor que una página que falta.
 2. **Nada se publica sin que lo vea antes.** Trabaja en una rama local, muéstrale una vista previa y sube solo con su aprobación explícita ("sí, súbelo"). La única excepción es una corrección que él mismo pidió con precisión en una página existente; aun así, cuéntale qué cambiaste.
