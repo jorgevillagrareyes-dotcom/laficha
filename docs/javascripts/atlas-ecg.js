@@ -411,7 +411,8 @@
     var q = decodificar(M.pos, Int16Array), n = q.length / 3, pos = new Float32Array(q.length), i;
     for (i = 0; i < q.length; i++) pos[i] = q[i] / M.escala;
     var geo = new THREE.BufferGeometry();
-    geo.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+    var posMalla = pos.slice(); // posiciones que se deforman con la contracción; "pos" queda en reposo
+    geo.setAttribute("position", new THREE.BufferAttribute(posMalla, 3));
     geo.setIndex(new THREE.BufferAttribute(decodificar(M.idx, M.idx32 ? Uint32Array : Uint16Array), 1));
     geo.computeVertexNormals();
     var colores = new Float32Array(n * 3); geo.setAttribute("color", new THREE.BufferAttribute(colores, 3));
@@ -419,6 +420,43 @@
     var mat = new THREE.MeshPhysicalMaterial({ vertexColors: true, roughness: 0.42, metalness: 0, clearcoat: 0.75, clearcoatRoughness: 0.22,
       sheen: 0.5, sheenColor: new THREE.Color(0xff9a88), sheenRoughness: 0.55, envMapIntensity: 0.55, transparent: true, opacity: 1 });
     grupo.add(new THREE.Mesh(geo, mat));
+
+    // Contracción: los ventrículos se estrechan y la base baja hacia la punta; las aurículas se encogen hacia su centro.
+    // Los pesos son continuos en el espacio, así que la malla, las coronarias y la conducción se mueven juntas sin romperse.
+    var EJE_B = new THREE.Vector3(0.2, 0.9, -0.9), EJE_A = new THREE.Vector3(2.9, -3.7, 0.9), EJE_U = EJE_A.clone().sub(EJE_B), EJE_L = EJE_U.length(); EJE_U.normalize();
+    var C_AD = new THREE.Vector3(-2.55, 1.35, -0.1), C_AI = new THREE.Vector3(0.55, 1.85, -1.85);
+    function suave(x) { x = Math.max(0, Math.min(1, x)); return x * x * (3 - 2 * x); }
+    function preparar(arr) { // por vértice: desplazamiento ventricular y auricular para una contracción completa
+      var m = arr.length / 3, dv = new Float32Array(arr.length), da = new Float32Array(arr.length), q = new THREE.Vector3(), c = new THREE.Vector3();
+      for (var i = 0; i < m; i++) {
+        q.set(arr[i * 3], arr[i * 3 + 1], arr[i * 3 + 2]);
+        var s = q.clone().sub(EJE_B).dot(EJE_U) / EJE_L, wv = suave((s + 0.12) / 0.2) * (q.y < 3.2 ? 1 : 0);
+        c.copy(EJE_B).addScaledVector(EJE_U, Math.max(0, Math.min(1, s)) * EJE_L);
+        var radial = c.clone().sub(q).multiplyScalar(0.14 * wv), largo = EJE_U.clone().multiplyScalar(0.45 * (1 - Math.max(0, Math.min(1, s))) * wv);
+        dv[i * 3] = radial.x + largo.x; dv[i * 3 + 1] = radial.y + largo.y; dv[i * 3 + 2] = radial.z + largo.z;
+        var dAD = q.distanceTo(C_AD), dAI = q.distanceTo(C_AI), ca = dAD < dAI ? C_AD : C_AI, wa = suave((2.3 - Math.min(dAD, dAI)) / 0.7) * suave((-s + 0.02) / 0.15);
+        c.copy(ca).sub(q).multiplyScalar(0.11 * wa);
+        da[i * 3] = c.x; da[i * 3 + 1] = c.y; da[i * 3 + 2] = c.z;
+      }
+      return { dv: dv, da: da };
+    }
+    var deformables = [];
+    function deformable(arr, attr) { var d = preparar(arr); deformables.push({ p0: arr.slice(), attr: attr, dv: d.dv, da: d.da }); }
+    deformable(pos, geo.attributes.position);
+    var contraer = true, cVent = 0, cAur = 0;
+    function deformar(cv, ca) {
+      if (Math.abs(cv - cVent) < 0.002 && Math.abs(ca - cAur) < 0.002) return;
+      cVent = cv; cAur = ca;
+      deformables.forEach(function (d) {
+        var a = d.attr.array;
+        for (var i = 0; i < a.length; i++) a[i] = d.p0[i] + cv * d.dv[i] + ca * d.da[i];
+        d.attr.needsUpdate = true;
+      });
+    }
+    function moverPunto(v, destino) { // aplica la misma deformación a un punto suelto (nódulos y pulso)
+      var d = preparar([v.x, v.y, v.z]);
+      destino.set(v.x + cVent * d.dv[0] + cAur * d.da[0], v.y + cVent * d.dv[1] + cAur * d.da[1], v.z + cVent * d.dv[2] + cAur * d.da[2]);
+    }
 
     var Col = function (r, g, b) { return new THREE.Color(r, g, b).convertSRGBToLinear(); };
     var MIO = Col(0.56, 0.16, 0.14), MIO_A = Col(0.64, 0.24, 0.21), GRASA = Col(0.93, 0.8, 0.5), ARTERIA = Col(0.88, 0.72, 0.66), VENA = Col(0.36, 0.4, 0.62);
@@ -437,6 +475,7 @@
       var curva = new THREE.CatmullRomCurve3(puntos.map(function (p) { return new THREE.Vector3(p[0], p[1], p[2]); }));
       var m = new THREE.Mesh(new THREE.TubeGeometry(curva, 90, radio, 10, false), new THREE.MeshPhysicalMaterial({ color: color, roughness: 0.35, clearcoat: 0.8, clearcoatRoughness: 0.2, envMapIntensity: 0.6 }));
       grupo.add(m); vasos[k] = { malla: m, curva: curva, color: color };
+      deformable(m.geometry.attributes.position.array, m.geometry.attributes.position);
     }
     Object.keys(M.arterias).forEach(function (k) { tubo(k, M.arterias[k], k === "cd" || k === "tci_da" || k === "cx" ? 0.13 : 0.085, 0xb3302a); });
     Object.keys(M.venas).forEach(function (k) { tubo(k, M.venas[k], k === "vcm" ? 0.12 : 0.08, 0x3f4f86); });
@@ -449,6 +488,7 @@
       var curva = new THREE.CatmullRomCurve3(puntos.map(function (p) { return p.isVector3 ? p : new THREE.Vector3(p[0], p[1], p[2]); }));
       var m = new THREE.Mesh(new THREE.TubeGeometry(curva, 40, r || 0.07, 8, false), new THREE.MeshBasicMaterial({ color: AZUL, depthTest: false, transparent: true, opacity: 0.9 }));
       m.renderOrder = 10; grupo.add(m); vias.push({ malla: m, curva: curva, t0: t0, t1: t1, tipo: tipo, lado: lado });
+      deformable(m.geometry.attributes.position.array, m.geometry.attributes.position);
     }
     via([SA, [-1.9, 1.6, 0.35], [-1.4, 0.9, 0.1], NAV], 0, 35, "auricular");
     via([SA, [-1.1, 2.6, -0.4], [0.2, 2.45, -1.1], [1.0, 2.2, -1.5]], 0, 45, "auricular", 0.05);
@@ -458,7 +498,7 @@
     [[[2.35, -3.25, 0.8], [2.8, -1.8, 1.5], [2.4, 0.0, 1.4], "izquierda"], [[2.35, -3.25, 0.8], [3.0, -2.0, 0.0], [2.7, -0.3, -0.9], "izquierda"],
       [[2.35, -3.25, 0.8], [1.4, -2.3, -0.8], [0.8, -0.6, -1.3], "izquierda"], [[1.1, -3.05, 1.7], [0.4, -1.8, 2.1], [-0.5, -0.4, 1.9], "derecha"],
       [[1.1, -3.05, 1.7], [-0.6, -2.1, 1.5], [-1.6, -0.7, 1.0], "derecha"]].forEach(function (p) { via(p.slice(0, 3), -5, 18, "purkinje", 0.04, p[3]); });
-    function nodo(p, r) { var m = new THREE.Mesh(new THREE.SphereGeometry(r, 20, 14), new THREE.MeshBasicMaterial({ color: AZUL, depthTest: false, transparent: true })); m.renderOrder = 11; m.position.copy(p); grupo.add(m); return m; }
+    function nodo(p, r) { var m = new THREE.Mesh(new THREE.SphereGeometry(r, 20, 14), new THREE.MeshBasicMaterial({ color: AZUL, depthTest: false, transparent: true })); m.renderOrder = 11; m.position.copy(p); m.userData.reposo = p.clone(); grupo.add(m); return m; }
     var nodoSA = nodo(SA, 0.22), nodoAV = nodo(NAV, 0.2);
     var pulso = new THREE.Mesh(new THREE.SphereGeometry(0.17, 16, 12), new THREE.MeshBasicMaterial({ color: 0xffffff, depthTest: false })); pulso.renderOrder = 12; grupo.add(pulso);
 
@@ -554,6 +594,18 @@
       }
       geo.attributes.color.needsUpdate = true;
 
+      // Contracción mecánica, un poco después de la activación eléctrica
+      var cv = 0, ca = 0;
+      if (contraer) {
+        if (r.ventriculos === "fv") cv = 0.06 * (0.5 + 0.5 * Math.sin(t * 0.045)) * (0.5 + 0.5 * Math.sin(t * 0.031 + 1));
+        else if (dq !== null) { var fin = tFin(r, tipo); cv = suave((dq - 40) / 170) * (1 - suave((dq - fin + 30) / 160)); }
+        if (r.auriculas === "fa") ca = 0.05 * (0.5 + 0.5 * Math.sin(t * 0.04));
+        else if (r.auriculas === "flutter") ca = 0.18 * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI / 200));
+        else if (dp !== null) ca = suave((dp - 50) / 80) * (1 - suave((dp - 170) / 110));
+      }
+      deformar(cv, ca);
+      moverPunto(nodoSA.userData.reposo, nodoSA.position); moverPunto(nodoAV.userData.reposo, nodoAV.position);
+
       // Conducción: lo que se enciende es lo que está conduciendo en ese instante
       var conducido = bq && CONDUCIDOS[tipo] && r.ventriculos !== "fv", activo = null, sinusalP = !r.auriculas && bp && !bp.retro;
       vias.forEach(function (v) {
@@ -572,9 +624,9 @@
       var avOn = r.auriculas === "fa" || r.auriculas === "flutter" ? Math.sin(t * 0.07) > 0.2 : r.auriculas === "retro" || enPR;
       nodoAV.material.color.setHex(avBloq ? ROJO : avOn ? ACT : AZUL);
       nodoAV.scale.setScalar(avBloq ? 1.5 : r.auriculas === "retro" ? 1.25 + 0.2 * Math.sin(t * 0.0185) : 1);
-      if (activo) { pulso.visible = true; pulso.position.copy(activo.v.curva.getPointAt(Math.max(0, Math.min(1, (activo.ref - activo.v.t0) / (activo.v.t1 - activo.v.t0))))); }
+      if (activo) { pulso.visible = true; moverPunto(activo.v.curva.getPointAt(Math.max(0, Math.min(1, (activo.ref - activo.v.t0) / (activo.v.t1 - activo.v.t0)))), pulso.position); }
       else if (r.auriculas === "retro") { var an = t * 0.0185; pulso.visible = true; pulso.position.set(NAV.x + 0.35 * Math.cos(an), NAV.y + 0.35 * Math.sin(an), NAV.z); }
-      else if (enPR && dp >= 35) { pulso.visible = true; pulso.position.copy(NAV); }
+      else if (enPR && dp >= 35) { pulso.visible = true; pulso.position.copy(nodoAV.position); }
       else pulso.visible = false;
       // Isquemia: arteria ocluida en morado y punto negro en la oclusión
       Object.keys(vasos).forEach(function (k) { vasos[k].malla.material.color.setHex(r.lesion && k === r.lesion.arteria ? 0x6a1d6e : vasos[k].color); });
@@ -620,6 +672,7 @@
     return {
       actualizar: actualizar, render: render, marcarDerivacion: marcarDerivacion,
       nombres: function (si) { capa.hidden = !si; },
+      contraccion: function (si) { contraer = si; if (!si) deformar(0, 0); },
       transparente: function (si) { mat.opacity = si ? 0.42 : 1; mat.depthWrite = !si; mat.needsUpdate = true; },
       vista: function (rx, ry, inmediato) { if (inmediato) { grupo.rotation.set(rx, ry, 0); giroObjetivo = null; } else giroObjetivo = [rx || 0, ry || 0]; }
     };
@@ -725,7 +778,8 @@
     function rotularBoton() { boton.textContent = corriendo ? "Pausa" : "Reproducir"; boton.setAttribute("aria-pressed", corriendo); }
     boton.addEventListener("click", function () { corriendo = !corriendo; rotularBoton(); });
     selVista.addEventListener("change", function () { if (heart) heart.vista(VISTAS[selVista.value][0], VISTAS[selVista.value][1]); });
-    var nombres = $("input[name=nombres]"), transp = $("input[name=transparente]");
+    var nombres = $("input[name=nombres]"), transp = $("input[name=transparente]"), contr = $("input[name=contraccion]");
+    contr.addEventListener("change", function () { if (heart) heart.contraccion(contr.checked); });
     nombres.addEventListener("change", function () { if (heart) heart.nombres(nombres.checked); });
     transp.addEventListener("change", function () { if (heart) heart.transparente(transp.checked); });
     rotularBoton();
