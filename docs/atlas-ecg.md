@@ -5,7 +5,7 @@ hide:
 
 # Atlas de ECG
 
-Un corazón en 3D con la conducción eléctrica animada **en el mismo instante** que el ECG. El corazón **se contrae** al ritmo del trazado. Elige un trazado, toca una **onda o segmento** para ver qué la genera y sus valores, y gira el corazón con el dedo o el mouse.
+Un corazón en 3D con la conducción eléctrica animada **en el mismo instante** que el ECG. El corazón **se contrae** al ritmo del trazado. Elige un trazado, toca una **onda o segmento** para ver qué la genera y sus valores, y gira el corazón con el dedo o el mouse. Al final, **ECG reales** de pacientes para practicar.
 
 <div id="atlas-ecg" class="ecg-atlas">
 <div class="ecg-barra"><div class="ecg-pestanas" role="tablist"><button type="button" role="tab" data-grupo="normal">ECG normal</button><button type="button" role="tab" data-grupo="patologico">ECG patológicos</button></div><label class="ecg-elegir-movil">Trazado <select name="ritmo"></select></label></div>
@@ -525,6 +525,22 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
+## ECG reales
+
+Trazados de **pacientes reales**, elegidos uno a uno de la base pública **PTB-XL** (PhysioNet) entre los registros validados por un cardiólogo y sin problemas de calidad señalados. Toca una derivación para ampliarla y usa el **compás**: dos toques miden el intervalo en ms, la frecuencia y la diferencia de altura en mV.
+
+<div id="visor-reales" class="ecg-reales">
+<div class="ecgr-lista" role="group" aria-label="ECG reales disponibles"></div>
+<div class="ecgr-cabecera"><p class="ecgr-titulo"></p><p class="ecgr-meta"></p></div>
+<div class="ecgr-papel"><canvas class="ecgr-12" aria-label="ECG real de 12 derivaciones en formato 3 por 4 con DII de ritmo, a 25 mm/s"></canvas><p class="ecgr-estado" aria-live="polite" hidden></p></div>
+<div class="ecgr-herr"><label>Ampliar <select name="ampliada"></select></label><label>Ganancia <select name="ganancia"><option value="5">5 mm/mV</option><option value="10" selected>10 mm/mV</option><option value="20">20 mm/mV</option></select></label></div>
+<div class="ecgr-tira"><span class="ecgr-tira-rotulo">DII</span><canvas aria-label="Derivación ampliada de 10 segundos; toca dos puntos para medir"></canvas></div>
+<p class="ecgr-medida" aria-live="polite"></p>
+<div class="ecgr-texto"><p class="ecgr-sub">Qué buscar</p><ul class="ecgr-buscar"></ul><p class="ecgr-informe"></p><button type="button" class="ecgr-sim">Ver la simulación en el corazón</button></div>
+</div>
+
+<p class="ecg-nota">Fuente: PTB-XL 1.0.3 (Wagner y cols., PhysioNet 2022), licencia <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Cambios hechos en La Ficha: filtro de línea de base de 0,5 Hz y filtro de 100 Hz (ambos de fase cero), remuestreo a 250 Hz y centrado de cada tramo; la descripción "Qué buscar" y la traducción del informe son propias. La base no registra la edad exacta de los mayores de 89 años (anonimización). Las edades y los informes son los de la base; algunos casos tienen otros hallazgos además del principal.</p>
+
 ## Referencias
 
 1. Kligfield P, Gettes LS, Bailey JJ, et al. Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology. A scientific statement from the AHA, ACCF and HRS. *Circulation.* 2007;115(10):1306–1324. doi:[10.1161/CIRCULATIONAHA.106.180200](https://doi.org/10.1161/CIRCULATIONAHA.106.180200)
@@ -537,7 +553,11 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 8. Glikson M, Nielsen JC, Kronborg MB, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. *Eur Heart J.* 2021;42(35):3427–3520. doi:[10.1093/eurheartj/ehab364](https://doi.org/10.1093/eurheartj/ehab364)
 9. Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. *Eur Heart J.* 2022;43(40):3997–4126. doi:[10.1093/eurheartj/ehac262](https://doi.org/10.1093/eurheartj/ehac262)
 10. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). *Circulation.* 2018;138(20):e618–e651. doi:[10.1161/CIR.0000000000000617](https://doi.org/10.1161/CIR.0000000000000617)
+11. Wagner P, Strodthoff N, Bousseljot RD, Kreiseler D, Lunze FI, Samek W, Schaeffter T. PTB-XL, a large publicly available electrocardiography dataset. *Sci Data.* 2020;7:154. doi:[10.1038/s41597-020-0495-6](https://doi.org/10.1038/s41597-020-0495-6)
+12. Wagner P, Strodthoff N, Bousseljot R, Samek W, Schaeffter T. PTB-XL, a large publicly available electrocardiography dataset (version 1.0.3). PhysioNet. 2022. doi:[10.13026/kfzx-aw45](https://doi.org/10.13026/kfzx-aw45). Licencia CC BY 4.0.
+13. Pollard T, Moody BE, Lehman L, Gow B, Fernandes C, Xie C, Johnson A, Mark RG, Heldt T. PhysioNet as a global platform for biomedical research. *Nat Health.* 2026;1(8):792–795. doi:[10.1038/s44360-026-00096-z](https://doi.org/10.1038/s44360-026-00096-z)
 
 <script src="javascripts/vendor/three.min.js"></script>
 <script src="javascripts/atlas-ecg-modelo.js"></script>
 <script src="javascripts/atlas-ecg.js"></script>
+<script src="javascripts/atlas-ecg-reales.js"></script>

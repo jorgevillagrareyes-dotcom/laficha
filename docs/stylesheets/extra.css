@@ -705,3 +705,42 @@
   .ecg-mini canvas { height: 4rem; }
   .ecg-tira canvas { height: 8.5rem; }
 }
+
+/* Atlas de ECG: ECG reales (PTB-XL) */
+.md-typeset .ecg-tarjeta .ecg-botones { margin-top: auto; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.md-typeset .ecg-tarjeta .ecg-botones .ecg-ver { margin-top: 0; }
+.md-typeset .ecg-tarjeta .ecg-real { font: inherit; font-size: 0.72rem; font-weight: 600; padding: 0.35em 0.9em; border: 1px solid var(--md-accent-fg-color); border-radius: 4px; background: transparent; color: var(--md-accent-fg-color); cursor: pointer; }
+.ecg-reales { border: 1px solid var(--mi-linea); border-radius: 8px; background: var(--md-default-bg-color); padding: 0.8rem; margin: 0.6rem 0 0.4rem; }
+.ecgr-lista { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.7rem; }
+.ecgr-grupo { display: grid; grid-template-columns: 8.5rem 1fr; align-items: start; gap: 0.3rem; }
+.ecgr-opciones { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.ecgr-grupo-nombre { padding-top: 0.35em; font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--mi-tenue); }
+.ecgr-grupo button { font: inherit; font-size: 0.7rem; padding: 0.25em 0.7em; border: 1px solid var(--mi-linea); border-radius: 999px; background: var(--mi-fondo-suave); color: var(--md-default-fg-color); cursor: pointer; }
+.ecgr-grupo button[aria-pressed="true"] { background: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); color: var(--md-default-bg-color); }
+.md-typeset .ecgr-cabecera p { margin: 0; }
+.md-typeset .ecgr-titulo { font-family: var(--mi-display); font-size: 1rem; font-weight: 600; }
+.md-typeset .ecgr-meta { font-size: 0.66rem; color: var(--mi-tenue); margin-bottom: 0.4rem !important; }
+.ecgr-elegir { display: none; font-size: 0.74rem; margin-bottom: 0.6rem; }
+.ecgr-elegir select { font: inherit; max-width: 100%; margin-left: 0.3em; }
+.ecgr-papel { position: relative; }
+.ecgr-12 { display: block; width: 100%; height: 18rem; cursor: pointer; }
+.md-typeset .ecgr-estado { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; margin: 0; font-size: 0.74rem; color: var(--mi-tenue); }
+.ecgr-estado[hidden] { display: none !important; }
+.ecgr-herr { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 0.6rem 0 0.3rem; font-size: 0.72rem; }
+.ecgr-herr select { font: inherit; margin-left: 0.3em; }
+.ecgr-tira { position: relative; overflow-x: auto; border: 1px solid var(--mi-linea); border-radius: 6px; }
+.ecgr-tira canvas { display: block; width: 100%; min-width: 56rem; height: 9rem; cursor: crosshair; }
+.ecgr-tira-rotulo { position: sticky; left: 0.4rem; float: left; margin: 0.3rem 0 -1.4rem 0.4rem; font-size: 0.7rem; font-weight: 700; color: #b3261e; z-index: 1; }
+[data-md-color-scheme="slate"] .ecgr-tira-rotulo { color: #f2a0a0; }
+.md-typeset .ecgr-medida { font-size: 0.7rem; color: var(--mi-tenue); margin: 0.35rem 0 0.6rem; min-height: 1.2em; }
+.md-typeset .ecgr-texto { font-size: 0.76rem; }
+.md-typeset .ecgr-sub { margin: 0 0 0.2rem; font-weight: 700; }
+.md-typeset .ecgr-buscar { margin: 0 0 0.5rem; }
+.md-typeset .ecgr-informe { font-size: 0.7rem; color: var(--mi-tenue); margin: 0 0 0.6rem; }
+.md-typeset .ecgr-sim { font: inherit; font-size: 0.72rem; font-weight: 600; padding: 0.35em 0.9em; border: 1px solid var(--md-accent-fg-color); border-radius: 4px; background: var(--md-accent-fg-color); color: var(--md-default-bg-color); cursor: pointer; }
+.ecgr-sim[hidden] { display: none; }
+@media (max-width: 47.9em) {
+  .ecgr-lista { display: none; }
+  .ecgr-elegir { display: block; }
+  .ecg-reales { padding: 0.6rem; }
+}
