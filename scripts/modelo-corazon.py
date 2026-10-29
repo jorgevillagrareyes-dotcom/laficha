@@ -148,7 +148,7 @@ def main(salida):
             d = smax(d, -g, 0.18)
         return d
 
-    paso = 0.12
+    paso = 0.13
     xs = np.arange(-5.2, 5.4, paso); ys = np.arange(-5.0, 7.8, paso); zs = np.arange(-4.3, 3.9, paso)
     X, Y, Z = np.meshgrid(xs, ys, zs, indexing="ij")
     P = np.stack([X, Y, Z], -1)
@@ -183,6 +183,7 @@ def main(salida):
     dsurco = np.min([np.min(np.linalg.norm(verts[:, None, :] - lineas[k][None, ::2, :], axis=-1), axis=1) for k in SURCOS], axis=0)
     grasa = np.exp(-(dsurco / 0.75) ** 2) * (region <= 3)
     grasa = np.clip(grasa * (0.75 + 0.45 * ruido(verts, 5.0, 3)), 0, 1)
+    grasa *= np.clip((verts[:, 1] + 3.0) / 1.4, 0, 1)  # casi sin grasa en la punta
     N = normales_de(verts)
     relieve = 0.025 * ruido(verts, 9.0, 7) + 0.06 * grasa * (0.5 + 0.5 * ruido(verts, 7.0, 11))
     verts = verts + N * relieve[:, None] * (region <= 3)[:, None]

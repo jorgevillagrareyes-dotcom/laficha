@@ -5,89 +5,291 @@ hide:
 
 # Atlas de ECG
 
-Un corazón en 3D con la conducción eléctrica animada **en el mismo instante** que el ECG. Elige un trazado del apartado **ECG normal** o **ECG patológicos**. Toca una **onda o segmento** (P, PR, QRS, ST, T, QT, RR) para marcarlo en el trazado, detener el corazón en el momento que lo genera y ver sus valores normales o lo que está alterado. Gira el corazón con el dedo o el mouse, y toca una de las 12 derivaciones para ver hacia dónde mira.
+Un corazón en 3D con la conducción eléctrica animada **en el mismo instante** que el ECG. Elige un trazado, toca una **onda o segmento** para ver qué la genera y sus valores, y gira el corazón con el dedo o el mouse.
 
-<div id="atlas-ecg" class="ecg-atlas" markdown>
-<div class="ecg-pestanas" role="tablist"><button type="button" role="tab" data-grupo="normal">ECG normal</button><button type="button" role="tab" data-grupo="patologico">ECG patológicos</button></div>
-<div class="ecg-elegir" data-grupo="normal"><button type="button" data-ritmo="sinusal" data-ficha="ritmo-sinusal-normal">Ritmo sinusal</button><button type="button" data-ritmo="bradicardia" data-ficha="bradicardia-sinusal">Bradicardia sinusal</button><button type="button" data-ritmo="taquicardia" data-ficha="taquicardia-sinusal">Taquicardia sinusal</button></div>
-<div class="ecg-elegir" data-grupo="patologico" hidden><button type="button" data-ritmo="fa" data-ficha="fibrilacion-auricular">Fibrilación auricular</button><button type="button" data-ritmo="bav3" data-ficha="bloqueo-av-completo">Bloqueo AV completo</button><button type="button" data-ritmo="iam_inf" data-ficha="iam-inferior-con-supradesnivel-del-st">IAM inferior con SDST</button></div>
-<div class="ecg-cabecera"><span class="ecg-ritmo"></span><a class="ecg-ficha" href="#ritmo-sinusal-normal">Ver la ficha</a></div>
-<div class="ecg-controles"><button type="button" class="ecg-boton ecg-boton-prim" data-accion="reproducir">Pausa</button><label>Velocidad <select name="velocidad"><option value="1">1×</option><option value="0.5">½×</option><option value="0.25" selected>¼× (cámara lenta)</option></select></label><label>Vista <select name="vista"><option value="frontal">Frontal</option><option value="izquierda">Lateral izquierda</option><option value="inferior">Inferior</option><option value="posterior">Posterior</option></select></label><label><input type="checkbox" name="nombres" checked> Nombres</label><label><input type="checkbox" name="transparente"> Transparente</label></div>
-<div class="ecg-cuerpo"><div class="ecg-3d" role="img" aria-label="Corazón en 3D con aurículas, ventrículos, grandes vasos, arterias coronarias y sistema de conducción, que se iluminan en el orden de la activación eléctrica"></div><div class="ecg-panel"><p class="ecg-fase"></p><p class="ecg-cara"></p></div></div>
-<div class="ecg-tira"><span class="ecg-tira-rotulo">II</span><canvas aria-label="Trazado del ECG de la derivación elegida, a 25 mm/s y 10 mm/mV"></canvas></div>
-<div class="ecg-ondas" role="group" aria-label="Ondas y segmentos"><span>Ondas y segmentos:</span></div>
-<div class="ecg-detalle" aria-live="polite" hidden></div>
-<div class="ecg-12" role="group" aria-label="Las 12 derivaciones (2,5 s cada una)"></div>
-<p class="ecg-nota">Trazado esquemático calculado con un modelo de dipolo, a 25 mm/s y 10 mm/mV (cada cuadro grande = 0,2 s y 0,5 mV). El corazón y el trazado usan los mismos tiempos: lo que se enciende en el corazón es lo que dibuja el ECG en ese momento. Modelo 3D propio, simplificado; no reemplaza un ECG real.</p>
+<div id="atlas-ecg" class="ecg-atlas">
+<div class="ecg-barra"><div class="ecg-pestanas" role="tablist"><button type="button" role="tab" data-grupo="normal">ECG normal</button><button type="button" role="tab" data-grupo="patologico">ECG patológicos</button></div><label class="ecg-elegir-movil">Trazado <select name="ritmo"></select></label></div>
+<div class="ecg-menu"></div>
+<div class="ecg-cuerpo"><div class="ecg-escena"><div class="ecg-3d" role="img" aria-label="Corazón en 3D con aurículas, ventrículos, grandes vasos, arterias coronarias, venas cardíacas y sistema de conducción, que se iluminan en el orden de la activación eléctrica"></div><div class="ecg-controles"><button type="button" class="ecg-boton ecg-boton-prim" data-accion="reproducir">Pausa</button><label>Velocidad <select name="velocidad"><option value="1">1×</option><option value="0.5">½×</option><option value="0.25" selected>¼×</option></select></label><label>Vista <select name="vista"><option value="frontal">Frontal</option><option value="izquierda">Lateral izq.</option><option value="inferior">Inferior</option><option value="posterior">Posterior</option></select></label><label><input type="checkbox" name="nombres" checked> Nombres</label><label><input type="checkbox" name="transparente"> Transparente</label></div></div><div class="ecg-panel"><p class="ecg-ritmo"></p><div class="ecg-claves"></div><p class="ecg-resumen"></p><p class="ecg-fase" aria-live="off"></p><p class="ecg-cara"></p></div></div>
+<div class="ecg-tira-caja"><div class="ecg-tira-cabecera"><label>Derivación <select name="derivacion"></select></label><div class="ecg-ondas" role="group" aria-label="Ondas y segmentos"></div></div><div class="ecg-tira"><span class="ecg-tira-rotulo">II</span><canvas aria-label="Trazado del ECG de la derivación elegida, a 25 mm/s y 10 mm/mV"></canvas></div><div class="ecg-detalle" aria-live="polite" hidden></div></div>
+<details class="ecg-doce" open><summary>Las 12 derivaciones</summary><div class="ecg-12" role="group" aria-label="Las 12 derivaciones"></div></details>
+<p class="ecg-nota">Trazados esquemáticos calculados con un modelo de dipolo, a 25 mm/s y 10 mm/mV (cuadro grande = 0,2 s y 0,5 mV). El corazón y el trazado usan los mismos tiempos: lo que se enciende en el corazón es lo que dibuja el ECG en ese momento. Modelo 3D propio y simplificado; no reemplaza un ECG real.</p>
+</div>
+
+## Cómo leer un ECG en 7 pasos
+
+<div class="ecg-pasos" markdown>
+
+1. **Datos y calidad**: nombre, fecha y hora; velocidad **25 mm/s** y calibración **10 mm/mV**; sin artefactos; electrodos bien puestos (P y QRS positivos en DI).
+2. **Ritmo**: ¿hay una **P antes de cada QRS** y un QRS después de cada P? ¿Es regular?
+3. **Frecuencia**: **300 / cuadros grandes** entre dos R, o 1500 / cuadros chicos. Si es irregular, contar los QRS en 10 s × 6.
+4. **Eje**: positivo en DI y aVF = normal (−30° a +90°). Negativo en aVF con DII negativo: desviado a la izquierda.
+5. **Intervalos**: **PR 120–200 ms**, **QRS < 120 ms** y **QTc** (prolongado si es ≥ 450 ms en hombres o ≥ 460 ms en mujeres).
+6. **Morfología**: P (crecimiento auricular), QRS (ondas Q, bloqueos de rama, hipertrofia), transición en V3–V4.
+7. **ST y T**: supradesnivel o infradesnivel del ST en derivaciones contiguas; T invertidas o picudas. **Comparar con un ECG previo.**
+
 </div>
 
 ## ECG normal
 
-### Ritmo sinusal normal
+<div class="ecg-tarjetas" markdown>
 
-<button type="button" class="ecg-ver" data-ritmo="sinusal">Ver en el corazón</button>
+<div class="ecg-tarjeta" data-ritmo="sinusal" markdown>
 
-!!! guia "Cómo reconocerlo"
-    - **Onda P** antes de cada QRS, **positiva en DI, DII y aVF** y **negativa en aVR**: el impulso nace en el nódulo sinusal, arriba y a la derecha, y baja hacia la izquierda.
-    - **Cada P va seguida de un QRS**, con un **PR constante de 120–200 ms**.
-    - **QRS angosto**: menos de **120 ms**.
-    - **Frecuencia** de 60 a 100 lpm y ritmo regular.
+#### Ritmo sinusal normal
 
-!!! perla "Por qué V1 es negativa y V6 positiva"
-    El ventrículo izquierdo tiene mucha más masa, así que el vector principal del QRS apunta **a la izquierda, abajo y atrás**. V1 queda del lado del que el vector se aleja (QRS con una **r** pequeña del septo y una **S** profunda) y V6 del lado al que se acerca (**R** alta). Entre V3 y V4 el QRS pasa de negativo a positivo: es la **zona de transición**.
+- **P positiva en DI, DII y aVF** y negativa en aVR, antes de cada QRS.
+- **PR 120–200 ms** constante; **QRS < 120 ms**.
+- **FC 60–100 lpm**, regular.
+- V1 negativa y V6 positiva: el vector del QRS apunta a la izquierda, abajo y atrás.
 
-### Bradicardia sinusal
+[Cómo tomar un ECG](procedimientos/electrocardiograma.md)
 
-<button type="button" class="ecg-ver" data-ritmo="bradicardia">Ver en el corazón</button>
+</div>
 
-- Ritmo sinusal (P normal antes de cada QRS) con **FC menor de 60 lpm**.
+<div class="ecg-tarjeta" data-ritmo="bradicardia" markdown>
+
+#### Bradicardia sinusal
+
+- Ritmo sinusal con **FC < 60 lpm**.
 - Puede ser **normal** en deportistas y durante el sueño.
-- Si hay síntomas, buscar **fármacos** (betabloqueadores, calcioantagonistas no dihidropiridínicos), **hipotiroidismo** o enfermedad del nódulo sinusal. Ver [paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md).
+- Con síntomas: buscar **fármacos**, **hipotiroidismo** o enfermedad del nódulo sinusal.
 
-### Taquicardia sinusal
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
 
-<button type="button" class="ecg-ver" data-ritmo="taquicardia">Ver en el corazón</button>
+</div>
 
-- Ritmo sinusal con **FC mayor de 100 lpm**; el PR y el QT se acortan con la frecuencia.
-- Casi siempre es una **respuesta**: fiebre, dolor, hipovolemia, anemia, hipoxemia, TEP, hipertiroidismo o fármacos. Se trata la causa, no la taquicardia.
+<div class="ecg-tarjeta" data-ritmo="taquicardia" markdown>
+
+#### Taquicardia sinusal
+
+- Ritmo sinusal con **FC > 100 lpm**; el PR y el QT se acortan.
+- Casi siempre es una **respuesta**: fiebre, dolor, hipovolemia, anemia, hipoxemia, TEP, hipertiroidismo.
+- Se trata **la causa**.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+</div>
 
 ## ECG patológicos
 
-### Fibrilación auricular
+### Taquiarritmias supraventriculares
 
-<button type="button" class="ecg-ver" data-ritmo="fa">Ver en el corazón</button>
+<div class="ecg-tarjetas" markdown>
 
-!!! alarma "Claves"
-    - **Sin ondas P**: en su lugar, **ondas f** finas e irregulares (mejor en V1 y DII).
-    - **RR irregularmente irregular**.
-    - **QRS angosto** si la conducción por las ramas es normal.
-    - Diagnóstico: un registro de **≥ 30 s** en una derivación, o un ECG de 12 derivaciones, con este patrón (ESC 2024).
+<div class="ecg-tarjeta" data-ritmo="fa" markdown>
 
-En el corazón: las aurículas se activan en parches desordenados y el nódulo AV deja pasar impulsos al azar. Ver [fibrilación auricular](cardiologia/fibrilacion-auricular.md).
+#### Fibrilación auricular
 
-### Bloqueo AV completo
+- **Sin ondas P**: ondas **f** finas e irregulares (mejor en V1).
+- **RR irregularmente irregular**; QRS angosto.
+- Diagnóstico: **≥ 30 s** en una derivación o un ECG de 12 derivaciones (ESC 2024).
 
-<button type="button" class="ecg-ver" data-ritmo="bav3">Ver en el corazón</button>
+[Fibrilación auricular](cardiologia/fibrilacion-auricular.md)
 
-!!! alarma "Claves"
-    - **Disociación AV**: las P son regulares y los QRS también, pero **no hay relación entre ellos** (el PR cambia en cada latido).
-    - Hay **más P que QRS**; el ritmo ventricular es un **escape** lento.
-    - **QRS angosto** si el escape nace en la unión o el haz de His; **ancho** si nace en el ventrículo (más lento e inestable).
-    - Descartadas las causas reversibles, es indicación de **marcapaso** (ESC 2021).
+</div>
 
-En el corazón: las aurículas se activan con normalidad, pero el impulso se detiene en el nódulo AV (rojo); los ventrículos se activan desde el haz de His a su propio ritmo. Ver [paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md).
+<div class="ecg-tarjeta" data-ritmo="flutter" markdown>
 
-### IAM inferior con supradesnivel del ST
+#### Flutter auricular típico
 
-<button type="button" class="ecg-ver" data-ritmo="iam_inf">Ver en el corazón</button>
+- Ondas **F en dientes de sierra** (~ 300/min), **negativas en DII, DIII y aVF**, sin línea isoeléctrica.
+- Conducción **2:1**: taquicardia **regular a ~ 150 lpm**.
+- Macrorreentrada alrededor de la tricúspide: **ablación del istmo cavotricuspídeo**.
 
-!!! alarma "Claves"
-    - **Supradesnivel del ST en DII, DIII y aVF** (cara inferior).
-    - **Infradesnivel especular en aVL** (y DI).
-    - Criterio: supradesnivel nuevo en el punto J **≥ 1 mm en 2 derivaciones contiguas** (en V2–V3, ≥ 2 mm en hombres ≥ 40 años, ≥ 2,5 mm en hombres < 40 años y ≥ 1,5 mm en mujeres).
-    - En el IAM inferior, registrar **V3R–V4R** para buscar infarto del ventrículo derecho.
+[Fibrilación y flutter auricular](cardiologia/fibrilacion-auricular.md)
 
-En el corazón: la pared inferior isquémica (morado) y la coronaria derecha ocluida (punto negro); la corriente de lesión apunta hacia las derivaciones inferiores durante el segmento ST. Ver [síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md).
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="tsv" markdown>
+
+#### Taquicardia por reentrada nodal
+
+- Taquicardia **regular de QRS angosto**, de inicio y fin bruscos.
+- **P retrógrada** escondida en el QRS o justo después (**pseudo r' en V1**).
+- Estable: **maniobras vagales** y luego **adenosina** (ESC 2019).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+</div>
+
+### Bloqueos AV
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="bav1" markdown>
+
+#### Bloqueo AV de primer grado
+
+- **PR > 200 ms** y constante.
+- **Toda P conduce**.
+- Riesgo **bajo**: revisar fármacos que enlentecen el nódulo AV.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="mobitz1" markdown>
+
+#### Mobitz I (Wenckebach)
+
+- El **PR se alarga** latido a latido hasta que **una P no conduce**.
+- Latidos agrupados; bloqueo **nodal**, QRS angosto.
+- Riesgo **bajo** (puede verse en el IAM inferior).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="mobitz2" markdown>
+
+#### Mobitz II
+
+- **PR constante** y, de pronto, **una P que no conduce**.
+- QRS **a menudo ancho**: bloqueo bajo el nódulo (His–Purkinje).
+- Riesgo **alto** de bloqueo completo: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="bav3" markdown>
+
+#### Bloqueo AV completo
+
+- **Disociación AV**: P y QRS regulares, sin relación entre sí.
+- **Más P que QRS**; escape lento (angosto si es de la unión, ancho si es ventricular).
+- Descartadas causas reversibles: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+</div>
+
+### Bloqueos de rama
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="brd" markdown>
+
+#### Bloqueo de rama derecha
+
+- **QRS ≥ 120 ms** con **rsR' en V1–V2**.
+- **S ancha en DI y V6**.
+- T negativa en V1–V2 (secundaria). Si es nuevo: pensar en TEP o cardiopatía (y en Chagas).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="bri" markdown>
+
+#### Bloqueo de rama izquierda
+
+- **QRS ≥ 120 ms**; **R ancha con muesca** en DI, aVL, V5 y V6, **sin q septal**.
+- **QS o rS en V1**.
+- ST y T **opuestos al QRS**: dificulta el diagnóstico de IAM. Suele indicar cardiopatía.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+</div>
+
+### Arritmias ventriculares
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="ev" markdown>
+
+#### Extrasístole ventricular
+
+- **QRS prematuro, ancho y raro**, sin P antes; T opuesta.
+- **Pausa compensadora completa**.
+- Imagen de BRI con eje inferior: tracto de salida del VD (la más frecuente de las benignas).
+
+[Extrasistolía](cardiologia/extrasistolia.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="tv" markdown>
+
+#### Taquicardia ventricular monomorfa
+
+- **QRS ancho, regular y monomorfo**, a más de 100 lpm.
+- **Disociación AV**, latidos de captura o de fusión.
+- Taquicardia de QRS ancho: **tratar como TV** ante la duda.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="fv" markdown>
+
+#### Fibrilación ventricular
+
+- **Ondas caóticas** sin QRS identificables.
+- **Sin pulso: paro cardíaco**.
+- **Desfibrilar** de inmediato y 2 minutos de RCP.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+</div>
+
+### Isquemia
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="iam_inf" markdown>
+
+#### IAM inferior con supradesnivel del ST
+
+- **Supradesnivel en DII, DIII y aVF**; **infradesnivel especular en aVL**.
+- Criterio: **≥ 1 mm** en el punto J en 2 derivaciones contiguas.
+- Coronaria derecha (o circunfleja): registrar **V3R–V4R**.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="iam_ant" markdown>
+
+#### IAM anterior con supradesnivel del ST
+
+- **Supradesnivel en V1–V4**: **descendente anterior**.
+- En V2–V3: **≥ 2 mm** (hombres ≥ 40 años), **≥ 2,5 mm** (hombres < 40) o **≥ 1,5 mm** (mujeres).
+- Emergencia de **reperfusión**.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+</div>
+
+### Electrolitos
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="hk" markdown>
+
+#### Hiperkalemia
+
+- **T altas, picudas, simétricas** y de base estrecha.
+- Luego **P aplanada, PR largo y QRS ancho**; al final, patrón sinusoidal, FV o asistolia.
+- Con cambios en el ECG: **gluconato de calcio** EV. Un ECG normal no la descarta.
+
+[Trastornos del potasio](nefrologia/trastornos-del-potasio.md)
+
+</div>
+
+</div>
 
 ## Referencias
 
@@ -97,8 +299,10 @@ En el corazón: la pared inferior isquémica (morado) y la coronaria derecha ocl
 4. Rautaharju PM, Surawicz B, Gettes LS, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. *Circulation.* 2009;119(10):e241–e250. doi:[10.1161/CIRCULATIONAHA.108.191096](https://doi.org/10.1161/CIRCULATIONAHA.108.191096)
 5. Hancock EW, Deal BJ, Mirvis DM, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part V: electrocardiogram changes associated with cardiac chamber hypertrophy. *Circulation.* 2009;119(10):e251–e261. doi:[10.1161/CIRCULATIONAHA.108.191097](https://doi.org/10.1161/CIRCULATIONAHA.108.191097)
 6. Van Gelder IC, Rienstra M, Bunting KV, Casado-Arroyo R, et al. 2024 ESC Guidelines for the management of atrial fibrillation. *Eur Heart J.* 2024;45(36):3314–3414. doi:[10.1093/eurheartj/ehae176](https://doi.org/10.1093/eurheartj/ehae176)
-7. Glikson M, Nielsen JC, Kronborg MB, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. *Eur Heart J.* 2021;42(35):3427–3520. doi:[10.1093/eurheartj/ehab364](https://doi.org/10.1093/eurheartj/ehab364)
-8. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). *Circulation.* 2018;138(20):e618–e651. doi:[10.1161/CIR.0000000000000617](https://doi.org/10.1161/CIR.0000000000000617)
+7. Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. *Eur Heart J.* 2020;41(5):655–720. doi:[10.1093/eurheartj/ehz467](https://doi.org/10.1093/eurheartj/ehz467)
+8. Glikson M, Nielsen JC, Kronborg MB, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. *Eur Heart J.* 2021;42(35):3427–3520. doi:[10.1093/eurheartj/ehab364](https://doi.org/10.1093/eurheartj/ehab364)
+9. Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. *Eur Heart J.* 2022;43(40):3997–4126. doi:[10.1093/eurheartj/ehac262](https://doi.org/10.1093/eurheartj/ehac262)
+10. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). *Circulation.* 2018;138(20):e618–e651. doi:[10.1161/CIR.0000000000000617](https://doi.org/10.1161/CIR.0000000000000617)
 
 <script src="javascripts/vendor/three.min.js"></script>
 <script src="javascripts/atlas-ecg-modelo.js"></script>
