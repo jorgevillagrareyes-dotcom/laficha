@@ -115,6 +115,30 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
+<div class="ecg-tarjeta" data-ritmo="ea" markdown>
+
+#### Extrasístole auricular
+
+- **P' prematura** y de forma distinta, con **QRS angosto**.
+- **Pausa no compensadora**: la P' reinicia el nódulo sinusal.
+- Frecuentes y benignas en la mayoría.
+
+[Extrasistolía](cardiologia/extrasistolia.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="wpw" markdown>
+
+#### Preexcitación (WPW)
+
+- **PR corto** (< 120 ms) y **onda delta**.
+- QRS ensanchado, con ST-T secundario.
+- FA preexcitada: **evitar bloqueadores del nódulo AV**; cardioversión o procainamida.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
 </div>
 
 ### Bloqueos AV
@@ -169,6 +193,18 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
+<div class="ecg-tarjeta" data-ritmo="pausa" markdown>
+
+#### Pausa sinusal
+
+- **Falta la P** (y el QRS) durante la pausa.
+- La pausa no es múltiplo del ciclo sinusal.
+- Pausas con síntomas: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
 </div>
 
 ### Bloqueos de rama
@@ -196,6 +232,18 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 - ST y T **opuestos al QRS**: dificulta el diagnóstico de IAM. Suele indicar cardiopatía.
 
 [Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hai" markdown>
+
+#### Hemibloqueo anterior izquierdo
+
+- **Eje a la izquierda** (−45° a −90°).
+- **qR en aVL** y rS en DII, DIII y aVF; QRS < 120 ms.
+- Con BRD, en Chile: pensar en **Chagas**.
+
+[Extrasistolía y Chagas](cardiologia/extrasistolia.md)
 
 </div>
 
@@ -241,6 +289,30 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
+<div class="ecg-tarjeta" data-ritmo="tdp" markdown>
+
+#### Torsades de pointes
+
+- **TV polimorfa** que gira alrededor de la línea de base.
+- Sobre un **QT largo** (fármacos, hipokalemia, hipomagnesemia).
+- **Sulfato de magnesio 1–2 g EV**; sin pulso: desfibrilar.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="asistolia" markdown>
+
+#### Asistolia
+
+- **Línea plana**: sin actividad ventricular.
+- Ritmo **no desfibrilable**.
+- RCP, **adrenalina 1 mg** lo antes posible y causas reversibles (5H y 5T).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
 </div>
 
 ### Isquemia
@@ -271,6 +343,54 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
+<div class="ecg-tarjeta" data-ritmo="iam_lat" markdown>
+
+#### IAM lateral con supradesnivel del ST
+
+- **Supradesnivel en DI, aVL, V5 y V6**.
+- Infradesnivel especular en DIII y aVF.
+- **Circunfleja** o diagonal.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="iam_post" markdown>
+
+#### IAM posterior
+
+- **Infradesnivel del ST en V1–V3** (espejo del posterior).
+- Con la evolución, **R alta en V1–V2**.
+- Registrar **V7–V9**: supradesnivel ≥ 0,5 mm.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="isq_sub" markdown>
+
+#### Infradesnivel del ST
+
+- **Infradesnivel horizontal o descendente** ≥ 0,5 mm en 2 derivaciones contiguas.
+- Isquemia subendocárdica: no localiza la arteria.
+- Con supradesnivel en aVR e infradesnivel en ≥ 6 derivaciones: **tronco o tres vasos**.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="q_inf" markdown>
+
+#### Ondas Q (IAM inferior antiguo)
+
+- **Q patológicas** (≥ 30 ms y ≥ 1 mm) en DII, DIII y aVF.
+- ST isoeléctrico; **T negativas** en las inferiores.
+- Cicatriz de un infarto previo.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
 </div>
 
 ### Electrolitos
@@ -286,6 +406,120 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 - Con cambios en el ECG: **gluconato de calcio** EV. Un ECG normal no la descarta.
 
 [Trastornos del potasio](nefrologia/trastornos-del-potasio.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hipok" markdown>
+
+#### Hipokalemia
+
+- **T aplanada** y **onda U** prominente.
+- **ST descendido**; el QT parece largo (es un QU).
+- Predispone a arritmias y torsades.
+
+[Trastornos del potasio](nefrologia/trastornos-del-potasio.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hipercal" markdown>
+
+#### Hipercalcemia
+
+- **ST muy corto**: la T empieza casi al terminar el QRS.
+- **QT corto**.
+- Grave si el calcio es > 14 mg/dL.
+
+[Calcio, fósforo y magnesio](endocrinologia/trastornos-del-calcio-fosforo-y-magnesio.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hipocal" markdown>
+
+#### Hipocalcemia
+
+- **ST largo y plano**, con T normal.
+- **QT largo**: riesgo de torsades.
+- Buscar tetania, Chvostek y Trousseau.
+
+[Calcio, fósforo y magnesio](endocrinologia/trastornos-del-calcio-fosforo-y-magnesio.md)
+
+</div>
+
+</div>
+
+### Otros patrones
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="qtlargo" markdown>
+
+#### QT largo
+
+- **QTc ≥ 450 ms** (hombres) o **≥ 460 ms** (mujeres).
+- **> 500 ms**: alto riesgo de torsades.
+- Revisar fármacos, potasio y magnesio.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="pericarditis" markdown>
+
+#### Pericarditis aguda
+
+- **Supradesnivel del ST difuso y cóncavo**.
+- **Infradesnivel del PR** (y espejo en aVR).
+- Sin territorio coronario ni ondas Q.
+
+[Pericarditis y taponamiento](cardiologia/pericarditis-y-taponamiento.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hvi" markdown>
+
+#### Hipertrofia ventricular izquierda
+
+- **Voltaje alto**: S V1 + R V5/V6 > 35 mm (Sokolow-Lyon).
+- **Sobrecarga**: ST descendido y T negativa asimétrica en V5–V6, DI y aVL.
+- Causa más frecuente: HTA.
+
+[Hipertensión arterial](cardiologia/hipertension-arterial.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="tep" markdown>
+
+#### Tromboembolismo pulmonar
+
+- Lo más frecuente: **taquicardia sinusal**.
+- **S1Q3T3**, BRD y **T negativas en V1–V4** (sobrecarga del VD).
+- Poco sensible: un ECG normal no descarta TEP.
+
+[Tromboembolismo pulmonar](respiratorio/tromboembolismo-pulmonar.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="marcapaso" markdown>
+
+#### Ritmo de marcapaso
+
+- **Espiga** seguida de **QRS ancho** (imagen de BRI: electrodo en el VD).
+- Espiga sin QRS: **falla de captura**.
+- ST-T opuesto al QRS (secundario).
+
+[Marcapaso transcutáneo](procedimientos/marcapaso-transcutaneo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="derrame" markdown>
+
+#### Derrame pericárdico
+
+- **Bajo voltaje** y **alternancia eléctrica**.
+- **Taquicardia sinusal**.
+- Sugiere derrame grande o taponamiento: **ecocardiograma urgente**.
+
+[Pericarditis y taponamiento](cardiologia/pericarditis-y-taponamiento.md)
 
 </div>
 

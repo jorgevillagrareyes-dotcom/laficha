@@ -627,11 +627,14 @@
 .ecg-pestanas button.ecg-activa { color: var(--md-default-fg-color); border-bottom-color: var(--md-accent-fg-color); }
 .ecg-elegir-movil { display: none; font-size: 0.72rem; color: var(--mi-tenue); padding-bottom: 0.4rem; }
 .ecg-elegir-movil select { font: inherit; font-size: 0.8rem; color: var(--md-default-fg-color); padding: 0.3em; max-width: 100%; }
-.ecg-menu { margin-bottom: 0.8rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 0.2rem 1.2rem; }
-.ecg-grupo[data-grupo="normal"] { grid-column: 1 / -1; }
+.ecg-menu { margin-bottom: 0.8rem; }
+.ecg-categorias { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 1px dashed var(--mi-linea); }
+.ecg-categorias[hidden] { display: none; }
+.ecg-categorias button { font: inherit; font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.35em 0.7em; border: 0; border-radius: 4px; background: none; color: var(--mi-tenue); cursor: pointer; }
+.ecg-categorias button:hover { color: var(--md-default-fg-color); }
+.ecg-categorias button.ecg-activa { background: var(--md-accent-fg-color--transparent); color: var(--md-accent-fg-color); }
 .ecg-grupo { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-bottom: 0.35rem; }
 .ecg-grupo[hidden] { display: none; }
-.ecg-grupo > span { flex-basis: 100%; font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--mi-tenue); margin-top: 0.25rem; }
 .ecg-grupo button, .ecg-onda { font: inherit; font-size: 0.72rem; padding: 0.3em 0.85em; border: 1px solid var(--mi-linea); border-radius: 999px; background: var(--md-default-bg-color); color: var(--md-default-fg-color); cursor: pointer; }
 .ecg-grupo button:hover, .ecg-onda:hover { border-color: var(--md-accent-fg-color); }
 .ecg-grupo button.ecg-activa, .ecg-onda.ecg-activa { background: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); color: var(--md-default-bg-color); }

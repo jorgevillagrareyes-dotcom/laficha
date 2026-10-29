@@ -43,18 +43,28 @@
     ev: { fin: 150, comps: [C(40, 24, unit(0.25, -0.85, -0.45), 1.6), C(100, 24, unit(0.4, -0.7, -0.6), 0.85)], t: [C(300, 50, unit(-0.3, 0.8, 0.5), 0.45)] },
     tv: { fin: 160, comps: [C(45, 27, unit(-0.35, 0.7, 0.6), 1.7), C(110, 24, unit(-0.5, 0.5, 0.7), 0.8)], t: [C(245, 40, unit(0.4, -0.6, -0.6), 0.4)] },
     hk: { fin: 118, comps: [C(16, 9, unit(-0.45, -0.15, 0.85), 0.22), C(52, 15, unit(0.63, -0.63, -0.46), 1.4), C(88, 13, unit(-0.35, 0.55, -0.6), 0.4)],
-      t: [C(235, 30, unit(0.5, -0.6, 0.45), 0.95)] }
+      t: [C(235, 30, unit(0.5, -0.6, 0.45), 0.95)] },
+    hai: { fin: 100, comps: [C(12, 8, unit(-0.25, -0.7, 0.45), 0.35), C(45, 13, unit(0.45, 0.75, -0.45), 1.6), C(75, 9, unit(-0.2, 0.4, -0.6), 0.3)], t: [C(250, 48, unit(0.6, -0.3, 0.3), 0.32)] },
+    wpw: { fin: 113, comps: [C(10, 15, unit(0.4, -0.55, 0.3), 0.38), C(37, 7, unit(-0.45, -0.15, 0.85), 0.15), C(64, 11, unit(0.63, -0.63, -0.46), 1.45), C(90, 9, unit(-0.35, 0.55, -0.6), 0.38)],
+      t: [C(270, 50, unit(-0.25, -0.45, -0.05), 0.18)] },
+    qinf: { fin: 92, comps: [C(14, 9, unit(0.1, 0.95, 0.1), 0.5), C(45, 11, unit(0.63, -0.5, -0.5), 1.45), C(70, 9, unit(-0.35, 0.55, -0.6), 0.38)], t: [C(250, 48, unit(0.6, 0.45, 0.2), 0.3)] },
+    hvi: { fin: 100, comps: [C(12, 7, unit(-0.45, -0.15, 0.85), 0.25), C(44, 13, unit(0.63, -0.63, -0.46), 3.0), C(72, 10, unit(-0.35, 0.55, -0.6), 0.5)], t: [C(260, 50, unit(-0.6, 0.25, 0.45), 0.32)] },
+    tep: { fin: 92, comps: [C(10, 7, unit(0.25, 0.8, 0.1), 0.28), C(40, 11, unit(0.63, -0.63, -0.46), 1.35), C(72, 11, unit(-0.65, 0.15, 0.5), 0.62)], t: [C(240, 45, unit(0.6, 0.15, -0.65), 0.3)] },
+    mp: { fin: 150, comps: [C(-3, 2.5, unit(0.55, -0.45, 0.7), 3.2), C(40, 25, unit(0.4, 0.6, -0.7), 1.5), C(100, 22, unit(0.5, 0.5, -0.5), 0.8)], t: [C(300, 50, unit(-0.4, -0.5, 0.7), 0.4)] }
   };
   var P_NORMAL = [C(45, 20, unit(0.5, -0.85, 0.1), 0.17)];
   var P_HK = [C(50, 26, unit(0.5, -0.85, 0.1), 0.07)];
   var P_RETRO = [C(25, 13, unit(-0.25, 0.9, 0.35), 0.09)];
+  var P_EA = [C(42, 18, unit(0.35, 0.3, -0.6), 0.14)]; // P' de una extrasístole de la aurícula izquierda: distinta de la sinusal
+  var TA_PERI = [C(118, 34, unit(-0.5, 0.85, -0.1), 0.055)]; // repolarización auricular en la pericarditis: PR descendido
+  var T_DIR = unit(0.55, -0.65, 0.25);
   var EJE_FA = unit(-0.25, -0.55, 0.8), EJE_FLUTTER = unit(0.05, 0.9, 0.35);
-  var P_FIN = 90, QRS_INI = -5, CONDUCIDOS = { normal: 1, brd: 1, bri: 1, hk: 1 };
+  var P_FIN = 90, QRS_INI = -5, CONDUCIDOS = { normal: 1, brd: 1, bri: 1, hk: 1, hai: 1, wpw: 1, qinf: 1, hvi: 1, tep: 1 };
 
   function gauss(t, c, s) { var u = (t - c) / s; return Math.exp(-0.5 * u * u); }
-  function sumar(acc, comps, t) {
+  function sumar(acc, comps, t, k) {
     for (var i = 0; i < comps.length; i++) {
-      var c = comps[i], g = c.a * gauss(t, c.c, c.s);
+      var c = comps[i], g = (k === undefined ? 1 : k) * c.a * gauss(t, c.c, c.s);
       acc.x += g * c.d.x; acc.y += g * c.d.y; acc.z += g * c.d.z;
     }
   }
@@ -67,7 +77,7 @@
     return function (t) {
       var k = Math.floor(t / periodo), out = [];
       for (var i = k - 2; i <= k + 1; i++) plantilla.forEach(function (b) {
-        out.push({ p: b.p === null ? null : i * periodo + b.p, q: b.q === null ? null : i * periodo + b.q, tipo: b.tipo || "normal", retro: b.retro, bloq: b.bloq, oculta: b.oculta });
+        out.push({ p: b.p === null ? null : i * periodo + b.p, q: b.q === null ? null : i * periodo + b.q, tipo: b.tipo || "normal", retro: b.retro, bloq: b.bloq, oculta: b.oculta, ectopica: b.ectopica, alt: b.alt });
       });
       return out;
     };
@@ -123,21 +133,60 @@
     iam_ant: { nombre: "IAM anterior con supradesnivel del ST", corto: "IAM anterior", grupo: "isq", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "V2",
       lesion: { dir: unit(0.2, 0.3, 0.93), zona: "anterior", arteria: "tci_da", punto: 0.12 } },
 
-    hk: { nombre: "Hiperkalemia", grupo: "elec", tipoQRS: "hk", hk: true, tira: "V3", latidos: sinusal(800, 220, "hk"), pr: 220, rr: 800, kT: 1 }
+    hk: { nombre: "Hiperkalemia", grupo: "elec", tipoQRS: "hk", hk: true, tira: "V3", latidos: sinusal(800, 220, "hk"), pr: 220, rr: 800, kT: 1 },
+
+    ea: { nombre: "Extrasístole auricular", grupo: "supra", tira: "II", kT: 1,
+      latidos: periodico(3000, [{ p: 0, q: 160 }, { p: 800, q: 960 }, { p: 1400, q: 1560, ectopica: true }, { p: 2200, q: 2360 }]) },
+    wpw: { nombre: "Preexcitación (Wolff-Parkinson-White)", corto: "WPW", grupo: "supra", tipoQRS: "wpw", accesoria: true, tira: "II", latidos: sinusal(800, 100, "wpw"), pr: 100, rr: 800, kT: 1 },
+    pausa: { nombre: "Pausa sinusal (disfunción del nódulo sinusal)", corto: "Pausa sinusal", grupo: "bloqueo", pausaSinusal: true, tira: "II", kT: 1,
+      latidos: periodico(4600, [{ p: 0, q: 160 }, { p: 800, q: 960 }, { p: 1600, q: 1760 }, { p: 3800, q: 3960 }]) },
+    hai: { nombre: "Hemibloqueo anterior izquierdo", corto: "Hemibloqueo anterior", grupo: "rama", rama: "fant", tipoQRS: "hai", tira: "aVL", latidos: sinusal(800, 160, "hai"), pr: 160, rr: 800, kT: 1 },
+    tdp: { nombre: "Torsades de pointes", grupo: "vent", ventriculos: "tdp", tira: "II", kT: 1, latidos: function () { return []; } },
+    asistolia: { nombre: "Asistolia", grupo: "vent", ventriculos: "asistolia", tira: "II", kT: 1, latidos: function () { return []; } },
+    iam_lat: { nombre: "IAM lateral con supradesnivel del ST", corto: "IAM lateral", grupo: "isq", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "aVL",
+      lesion: { dir: unit(0.9, 0.35, -0.15), zona: "lateral", arteria: "cx", punto: 0.3 }, vista: "izquierda" },
+    iam_post: { nombre: "IAM posterior", grupo: "isq", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "V2",
+      lesion: { dir: unit(0.05, 0.1, -1), zona: "posterior", arteria: "cx", punto: 0.65, amp: 0.22 }, vista: "posterior" },
+    isq_sub: { nombre: "Infradesnivel del ST (isquemia subendocárdica)", corto: "Infradesnivel del ST", grupo: "isq", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "V5",
+      lesion: { dir: unit(-0.55, 0.65, -0.25), zona: "subendo", amp: 0.16 } },
+    q_inf: { nombre: "IAM inferior antiguo (ondas Q)", corto: "Ondas Q (IAM antiguo)", grupo: "isq", tipoQRS: "qinf", cicatriz: "inferior", latidos: sinusal(800, 160, "qinf"), pr: 160, rr: 800, kT: 1, tira: "III", vista: "inferior" },
+    hipok: { nombre: "Hipokalemia", grupo: "elec", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "V3",
+      ondaT: [C(250, 48, T_DIR, 0.1)], U: [C(470, 45, T_DIR, 0.15)], lesion: { dir: unit(-0.55, 0.65, -0.25), amp: 0.07 } },
+    hipercal: { nombre: "Hipercalcemia (QT corto)", corto: "Hipercalcemia", grupo: "elec", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
+      ondaT: [C(195, 44, T_DIR, 0.34), C(245, 26, T_DIR, 0.1)], tDesp: -55 },
+    hipocal: { nombre: "Hipocalcemia (QT largo)", corto: "Hipocalcemia", grupo: "elec", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
+      ondaT: [C(360, 48, T_DIR, 0.34), C(410, 28, T_DIR, 0.1)], tDesp: 110 },
+    qtlargo: { nombre: "QT largo", grupo: "otros", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
+      ondaT: [C(320, 65, T_DIR, 0.3), C(390, 36, T_DIR, 0.08)], tDesp: 60, tAncho: 30 },
+    pericarditis: { nombre: "Pericarditis aguda", grupo: "otros", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II", Ta: TA_PERI,
+      lesion: { dir: unit(0.45, -0.55, 0.6), zona: "todo", amp: 0.17, concava: true } },
+    hvi: { nombre: "Hipertrofia ventricular izquierda", corto: "HVI", grupo: "otros", tipoQRS: "hvi", tira: "V5", latidos: sinusal(800, 160, "hvi"), pr: 160, rr: 800, kT: 1,
+      lesion: { dir: unit(-0.7, 0.3, 0.4), amp: 0.09 } },
+    tep: { nombre: "Tromboembolismo pulmonar (S1Q3T3)", corto: "TEP", grupo: "otros", tipoQRS: "tep", tira: "III", latidos: sinusal(545, 140, "tep"), pr: 140, rr: 545, kT: 1.2 },
+    marcapaso: { nombre: "Ritmo de marcapaso ventricular", corto: "Marcapaso", grupo: "otros", tipoQRS: "mp", marcapaso: true, completo: true, tira: "II", rr: 857, kT: 1,
+      latidos: independientes(800, 857, 200, "mp") },
+    derrame: { nombre: "Derrame pericárdico con alternancia eléctrica", corto: "Alternancia eléctrica", grupo: "otros", derrame: true, ganancia: 0.42, tira: "V3", rr: 570, kT: 1.25, pr: 150,
+      latidos: periodico(1140, [{ p: 0, q: 150 }, { p: 570, q: 720, alt: true }]) }
   };
   var GRUPOS = [["normal", "ECG normal"], ["supra", "Taquiarritmias supraventriculares"], ["bloqueo", "Bloqueos AV"], ["rama", "Bloqueos de rama"],
-    ["vent", "Arritmias ventriculares"], ["isq", "Isquemia"], ["elec", "Electrolitos"]];
+    ["vent", "Arritmias ventriculares"], ["isq", "Isquemia"], ["elec", "Electrolitos"], ["otros", "Otros patrones"]];
 
   function vector(r, t) {
     var acc = v3(0, 0, 0), ls = r.latidos(t);
     for (var i = 0; i < ls.length; i++) {
       var b = ls[i];
-      if (b.p !== null && !b.oculta && t >= b.p - 100 && t < b.p + 200) sumar(acc, b.retro ? P_RETRO : r.hk ? P_HK : P_NORMAL, t - b.p);
+      var k = (r.ganancia || 1) * (b.alt ? 0.62 : 1);
+      if (b.p !== null && !b.oculta && t >= b.p - 100 && t < b.p + 200) sumar(acc, b.retro ? P_RETRO : b.ectopica ? P_EA : r.hk ? P_HK : P_NORMAL, t - b.p, r.ganancia || 1);
+      if (r.Ta && b.p !== null && t >= b.p && t < b.p + 260) sumar(acc, r.Ta, t - b.p);
       if (b.q !== null && t >= b.q - 100 && t < b.q + 800) {
         var dq = t - b.q, Q = QRS[b.tipo || "normal"];
-        sumar(acc, Q.comps, dq);
-        sumar(acc, Q.t, dq < 100 ? dq : 100 + (dq - 100) * r.kT);
-        if (r.lesion) { var m = 0.28 * meseta(dq, 90, 200, 130); acc.x += m * r.lesion.dir.x; acc.y += m * r.lesion.dir.y; acc.z += m * r.lesion.dir.z; }
+        sumar(acc, Q.comps, dq, k);
+        sumar(acc, r.ondaT || Q.t, dq < 100 ? dq : 100 + (dq - 100) * r.kT, r.ganancia || 1);
+        if (r.U) sumar(acc, r.U, dq);
+        if (r.lesion) {
+          var L = r.lesion, m = (L.amp || 0.28) * (L.concava ? meseta(dq, 80, 190, 110) : meseta(dq, 90, 200, 130));
+          acc.x += m * L.dir.x; acc.y += m * L.dir.y; acc.z += m * L.dir.z;
+        }
       }
     }
     if (r.auriculas === "fa") {
@@ -148,6 +197,12 @@
       var ph = ((t % 200) + 200) % 200 / 200, s = ph < 0.72 ? ph / 0.72 : 1 - (ph - 0.72) / 0.28, a = 0.2 * (s - 0.5);
       acc.x += a * EJE_FLUTTER.x; acc.y += a * EJE_FLUTTER.y; acc.z += a * EJE_FLUTTER.z;
     }
+    if (r.ventriculos === "tdp") { // TV polimorfa que "gira" alrededor de la línea de base
+      var ang = t * 2 * Math.PI / 1800, env = 0.3 + 0.7 * Math.abs(Math.sin(Math.PI * t / 1500)), sv = Math.sin(2 * Math.PI * t / 240) * env * 1.3;
+      var dd = unit(Math.cos(ang), -Math.sin(ang) * 0.8, 0.5 * Math.sin(ang * 0.7));
+      acc.x += sv * dd.x; acc.y += sv * dd.y; acc.z += sv * dd.z;
+    }
+    if (r.ventriculos === "asistolia") { var w = 0.025 * Math.sin(t * 0.0021) + 0.01 * Math.sin(t * 0.013); acc.x += w * 0.5; acc.y -= w * 0.8; }
     if (r.ventriculos === "fv") {
       var amp = 0.55 + 0.35 * Math.sin(t * 0.0013), g1 = Math.sin(t * 0.034) + 0.6 * Math.sin(t * 0.047 + 1.1) + 0.4 * Math.sin(t * 0.027 + 2.3);
       var d = unit(Math.sin(t * 0.0021), -Math.cos(t * 0.0017), Math.sin(t * 0.0013 + 1));
@@ -160,8 +215,8 @@
     var b = null; r.latidos(t).forEach(function (x) { if (x[campo] !== null && x[campo] - (adelanto || 0) <= t && (!b || x[campo] > b[campo])) b = x; }); return b;
   }
   function finQRS(tipo) { return QRS[tipo || "normal"].fin; }
-  function tIni(r, tipo) { return 100 + (finQRS(tipo) + 72 - 100) / r.kT; }
-  function tFin(r, tipo) { return 100 + (finQRS(tipo) + 292 - 100) / r.kT; }
+  function tIni(r, tipo) { return 100 + (finQRS(tipo) + 72 - 100) / r.kT + (r.tDesp || 0); }
+  function tFin(r, tipo) { return 100 + (finQRS(tipo) + 292 - 100) / r.kT + (r.tDesp || 0) + (r.tAncho || 0); }
 
   // Intervalos de cada onda en los latidos que rodean t
   function intervalos(r, onda, t) {
@@ -184,6 +239,8 @@
 
   /* ---------- Qué pasa en cada instante ---------- */
   function fase(r, t) {
+    if (r.ventriculos === "tdp") return "<strong>Torsades de pointes</strong>: TV polimorfa. Los QRS cambian de amplitud y parecen <strong>girar alrededor de la línea de base</strong>. Aparece sobre un QT largo y puede degenerar en FV.";
+    if (r.ventriculos === "asistolia") return "<strong>Asistolia</strong>: no hay actividad eléctrica ventricular (línea plana). Ritmo <strong>no desfibrilable</strong>: RCP, adrenalina 1 mg lo antes posible y buscar las causas reversibles (5H y 5T).";
     if (r.ventriculos === "fv") return "<strong>Fibrilación ventricular</strong>: los ventrículos se activan en parches caóticos y no se contraen. No hay QRS ni pulso: es un <strong>paro cardíaco</strong>.";
     var bp = ultimo(r, t, "p"), bq = ultimo(r, t, "q", 45);
     var dp = bp ? t - bp.p : null, dq = bq ? t - bq.q : null, tq = bq ? bq.tipo : "normal";
@@ -193,9 +250,26 @@
       if (tq === "brd") return "<strong>QRS ancho</strong>: la rama derecha no conduce (roja). El ventrículo izquierdo se activa normal, pero el derecho se activa tarde y lento a través del septo: eso es la R' de V1.";
       if (tq === "bri") return "<strong>QRS ancho</strong>: la rama izquierda no conduce (roja). El septo se activa de derecha a izquierda (sin q en V6) y el ventrículo izquierdo se activa tarde y lento.";
       if (tq === "hk") return "<strong>QRS ensanchado</strong>: el potasio alto enlentece la conducción en todo el miocardio.";
+      if (tq === "wpw") return "<strong>Onda delta</strong>: el impulso llega antes al ventrículo por una <strong>vía accesoria</strong> (verde) que salta el nódulo AV y lo activa lento desde la base; después se suma la conducción normal por el His.";
+      if (tq === "mp") return "<strong>Espiga del marcapaso y QRS ancho</strong>: el electrodo estimula la punta del ventrículo derecho y la activación avanza lenta, de célula a célula (imagen de bloqueo de rama izquierda).";
+      if (tq === "hai") return "<strong>QRS con eje a la izquierda</strong>: el fascículo anterior de la rama izquierda no conduce (rojo). La pared anterolateral se activa al final, desde abajo hacia arriba: el vector apunta arriba y a la izquierda.";
+      if (tq === "qinf") return "<strong>Onda Q</strong>: la pared inferior es una <strong>cicatriz</strong> (gris) que ya no se activa. Al inicio del QRS el vector se aleja de DII, DIII y aVF.";
+      if (tq === "hvi") return "<strong>QRS de gran voltaje</strong>: el ventrículo izquierdo engrosado genera un vector mucho mayor.";
+      if (tq === "tep") return "<strong>QRS</strong>: el ventrículo derecho sobrecargado se activa algo tarde (S en DI) y el vector inicial se aleja de DIII (Q en DIII).";
+      if (r.derrame) return "<strong>QRS pequeños que alternan de tamaño</strong>: el corazón <strong>oscila</strong> dentro de un derrame grande (azul) y cambia su posición respecto de los electrodos latido a latido.";
       return "<strong>Complejo QRS</strong>: despolarización de los ventrículos; primero el septo, luego la punta y al final las bases.";
     }
-    if (r.lesion && dq !== null && dq >= finQRS(tq) && dq < 330) return "<strong>Segmento ST elevado</strong>: la pared isquémica (morado) genera una corriente de lesión que apunta hacia las derivaciones que la miran" + (r.lesion.zona === "inferior" ? " (DII, DIII y aVF); aVL la ve alejarse (infradesnivel especular)." : " (V1–V4).");
+    if (r.lesion && r.lesion.zona && dq !== null && dq >= finQRS(tq) && dq < 330) {
+      var z = r.lesion.zona;
+      if (z === "posterior") return "<strong>Infradesnivel del ST en V1–V3</strong>: ninguna de las 12 derivaciones mira la pared posterior (morado). V1–V3 la ven por delante, al revés: el supradesnivel aparece como infradesnivel. Registrar V7–V9.";
+      if (z === "subendo") return "<strong>Infradesnivel del ST</strong>: la isquemia de la capa interna del ventrículo genera una corriente que se aleja de las derivaciones laterales e inferiores; aVR la ve acercarse (supradesnivel).";
+      if (z === "todo") return "<strong>ST elevado y cóncavo en casi todas las derivaciones</strong>: la inflamación del pericardio afecta toda la superficie del corazón, no un territorio coronario; aVR lo ve al revés.";
+      return "<strong>Segmento ST elevado</strong>: la pared isquémica (morado) genera una corriente de lesión que apunta hacia las derivaciones que la miran" + (z === "inferior" ? " (DII, DIII y aVF); aVL la ve alejarse (infradesnivel especular)." : z === "lateral" ? " (DI, aVL, V5 y V6); DIII y aVF la ven alejarse (infradesnivel especular)." : " (V1–V4).");
+    }
+    if (r.U && dq !== null && dq >= tFin(r, tq) - 40 && dq < 540) return "<strong>Onda U</strong>: con el potasio bajo, la T se aplana y aparece una onda U después de ella; el QT parece largo (en realidad es un QU).";
+    if (r.pausaSinusal && bp && dp > 900) return "<strong>Pausa sinusal</strong>: el nódulo sinusal deja de descargar. No hay P ni QRS hasta que vuelve a disparar.";
+    if (bp && bp.ectopica && dp < P_FIN) return "<strong>Onda P' prematura y distinta</strong>: descarga antes de tiempo un foco de la aurícula izquierda. Conduce con un QRS normal y reinicia el nódulo sinusal: <strong>pausa no compensadora</strong>.";
+    if (r.Ta && bp && dp >= P_FIN && dp < r.pr) return "<strong>Segmento PR descendido</strong>: la inflamación también afecta las aurículas.";
     if (r.auriculas === "fa") return "<strong>Fibrilación auricular</strong>: no hay onda P. Frentes desordenados recorren las aurículas y el nódulo AV deja pasar algunos al azar: los QRS son <strong>irregularmente irregulares</strong>.";
     if (r.auriculas === "flutter") return "<strong>Flutter auricular</strong>: un circuito de macrorreentrada gira alrededor de la válvula tricúspide (300 vueltas por minuto). Cada vuelta es una onda F; el nódulo AV deja pasar una de cada dos.";
     if (r.auriculas === "retro") return "<strong>Reentrada nodal</strong>: el impulso gira dentro del nódulo AV. En cada vuelta baja a los ventrículos (QRS angosto) y sube a las aurículas casi al mismo tiempo (P retrógrada escondida al final del QRS).";
@@ -329,11 +403,70 @@
       RR: "Regular aquí; la bradicardia, los bloqueos y los ritmos de escape indican gravedad. Si hay cambios en el ECG: <strong>gluconato de calcio</strong> EV de inmediato. La secuencia puede seguir hacia un patrón sinusoidal, FV o asistolia."
     }
   };
+  var MAS = {
+    ea: { P: "<strong>P' prematura y de forma distinta</strong> a la sinusal (aquí negativa en DII: nace en la aurícula izquierda).", PR: "El de la P' puede ser normal o algo más largo.",
+      QRS: "<strong>Angosto</strong>, igual a los sinusales: la conducción por debajo del nódulo AV es normal.", ST: SIN, T: "La P' puede deformar la T del latido previo.", QT: SIN,
+      RR: "Irregular por el latido prematuro, con <strong>pausa no compensadora</strong>: la P' reinicia el nódulo sinusal, así que el RR que la rodea mide menos del doble del sinusal." },
+    wpw: { P: "Normal (ritmo sinusal).", PR: "<strong>Corto (menos de 120 ms)</strong>: la vía accesoria salta el retraso del nódulo AV (aquí 100 ms).",
+      QRS: "<strong>Onda delta</strong> (inicio empastado del QRS) y QRS ensanchado: el ventrículo empieza a activarse por la vía accesoria, lento, antes que por el His.",
+      ST: "Alteraciones secundarias, opuestas a la onda delta.", T: "Secundaria, a menudo opuesta al QRS.", QT: SIN,
+      RR: "Regular. Con FA preexcitada (QRS ancho e irregular), <strong>evitar los bloqueadores del nódulo AV</strong> (adenosina, betabloqueadores, calcioantagonistas, digoxina, amiodarona): cardioversión o procainamida." },
+    pausa: { P: "Normales, pero <strong>falta la P</strong> durante la pausa.", PR: "Normal en los latidos que hay.", QRS: "Normales.", ST: SIN, T: SIN, QT: SIN,
+      RR: "<strong>Pausa sin P ni QRS</strong> (aquí 2,2 s), que no es múltiplo del ciclo sinusal. Si las pausas se correlacionan con síncope o mareos, hay indicación de <strong>marcapaso</strong> (ESC 2021)." },
+    hai: { P: "Normal (ritmo sinusal).", PR: "Normal.",
+      QRS: "<strong>Eje a la izquierda (−45° a −90°)</strong>, con <strong>qR en aVL</strong> y rS en DII, DIII y aVF, y QRS menor de 120 ms.", ST: SIN, T: SIN, QT: SIN,
+      RR: "Regular. Junto con un bloqueo de rama derecha, en Chile pensar en <strong>enfermedad de Chagas</strong>." },
+    tdp: { P: "No se identifican.", PR: "No existe.", QRS: "<strong>Anchos y polimorfos</strong>, que cambian de amplitud y de polaridad: parecen girar alrededor de la línea de base.",
+      ST: "No existe.", T: "No existe.", QT: "El latido sinusal de base suele tener un <strong>QT largo</strong> (fármacos, hipokalemia, hipomagnesemia).",
+      RR: "Muy rápido e irregular. Tratamiento: <strong>sulfato de magnesio 1–2 g EV</strong>; si no hay pulso, <strong>desfibrilación</strong> (no sincronizada)." },
+    asistolia: { P: "No hay (o solo P sin QRS).", PR: "No existe.", QRS: "<strong>No hay QRS</strong>: línea plana.", ST: "No existe.", T: "No existe.", QT: "No existe.",
+      RR: "<strong>Paro cardíaco con ritmo no desfibrilable</strong>: RCP, adrenalina 1 mg lo antes posible y buscar las causas reversibles (5H y 5T)." },
+    iam_lat: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Todavía sin ondas Q.",
+      ST: "<strong>Supradesnivel en DI, aVL, V5 y V6</strong> (cara lateral) con infradesnivel especular en DIII y aVF: <strong>circunfleja o diagonal</strong>. Criterio: ≥ 1 mm en 2 derivaciones contiguas.",
+      T: "Positiva; puede ser hiperaguda.", QT: SIN, RR: "Regular (ritmo sinusal)." },
+    iam_post: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Con la evolución aparece una <strong>R alta en V1–V2</strong> (la imagen en espejo de las Q posteriores).",
+      ST: "<strong>Infradesnivel del ST en V1–V3</strong>: es el espejo de un supradesnivel posterior. Registrar <strong>V7–V9</strong> (supradesnivel ≥ 0,5 mm confirma un IAM posterior). Circunfleja o coronaria derecha.",
+      T: "Puede ser alta y positiva en V1–V3 (espejo).", QT: SIN, RR: "Regular (ritmo sinusal)." },
+    isq_sub: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Normal.",
+      ST: "<strong>Infradesnivel horizontal o descendente del ST</strong> (≥ 0,5 mm en 2 derivaciones contiguas) en DI, DII y V4–V6, con supradesnivel en aVR. Es isquemia, no localiza la arteria. Con supradesnivel en aVR e infradesnivel en ≥ 6 derivaciones, pensar en enfermedad de tronco o de tres vasos.",
+      T: "Puede invertirse.", QT: SIN, RR: "Regular (ritmo sinusal). Con dolor torácico: SCA sin supradesnivel; medir troponina." },
+    q_inf: { P: "Normal (ritmo sinusal).", PR: "Normal.",
+      QRS: "<strong>Ondas Q patológicas en DII, DIII y aVF</strong>: anchas (≥ 30 ms) y profundas (≥ 1 mm) en 2 derivaciones contiguas (definición universal). Indican necrosis antigua de la cara inferior.",
+      ST: "Isoeléctrico: ya no hay lesión aguda.", T: "<strong>Negativa</strong> en las derivaciones inferiores (cicatriz).", QT: SIN, RR: "Regular (ritmo sinusal)." },
+    hipok: { P: "Normal; puede ser algo más alta.", PR: "Normal o algo largo.", QRS: "Normal.", ST: "<strong>Descendido</strong> levemente.",
+      T: "<strong>Aplanada</strong> y seguida de una <strong>onda U</strong> prominente (mejor en V2–V3).", QT: "Parece largo porque la T se funde con la U (es un intervalo QU).",
+      RR: "Regular aquí; la hipokalemia predispone a extrasístoles, TV y torsades de pointes, sobre todo con QT largo o digoxina." },
+    hipercal: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Normal.", ST: "<strong>Muy corto o ausente</strong>: la T empieza casi al terminar el QRS.", T: "Normal en forma.",
+      QT: "<strong>Corto</strong>: la hipercalcemia acorta la fase 2 del potencial de acción. Es grave si el calcio es mayor de 14 mg/dL.", RR: "Regular (ritmo sinusal)." },
+    hipocal: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Normal.", ST: "<strong>Largo y plano</strong>: la hipocalcemia alarga la fase 2 del potencial de acción.", T: "Normal en forma.",
+      QT: "<strong>Largo</strong> a expensas del ST: riesgo de torsades de pointes.", RR: "Regular (ritmo sinusal). Buscar tetania, signos de Chvostek y Trousseau." },
+    qtlargo: { P: "Normal (ritmo sinusal).", PR: "Normal.", QRS: "Normal.", ST: "Largo.", T: "Ancha y tardía.",
+      QT: "<strong>Prolongado</strong> (QTc ≥ 450 ms en hombres y ≥ 460 ms en mujeres). <strong>Sobre 500 ms</strong> el riesgo de torsades es alto: revisar fármacos (antipsicóticos, macrólidos, antiarrítmicos), potasio y magnesio.",
+      RR: "Regular aquí. Corregir el potasio y el magnesio y suspender los fármacos que alargan el QT." },
+    pericarditis: { P: "Normal (ritmo sinusal).", PR: "<strong>Descendido</strong> (infradesnivel del PR), con supradesnivel del PR en aVR.", QRS: "Normal: sin ondas Q.",
+      ST: "<strong>Supradesnivel difuso y cóncavo</strong> en casi todas las derivaciones, sin territorio coronario y sin infradesnivel especular (salvo aVR y V1). Evolución: ST elevado → normalización → T invertidas → normalización.",
+      T: "Positiva al inicio; se invierte en días a semanas.", QT: SIN, RR: "Regular; puede haber taquicardia sinusal." },
+    hvi: { P: "Puede verse crecimiento auricular izquierdo.", PR: "Normal.",
+      QRS: "<strong>Voltaje alto</strong>: S en V1 + R en V5 o V6 &gt; 35 mm (Sokolow-Lyon), o Cornell. Aquí ~ 43 mm.",
+      ST: "<strong>Infradesnivel</strong> en V5–V6, DI y aVL (patrón de sobrecarga).", T: "<strong>Negativa y asimétrica</strong> en V5–V6, DI y aVL (sobrecarga).", QT: SIN,
+      RR: "Regular. Causa más frecuente: HTA; buscar también estenosis aórtica y miocardiopatía hipertrófica (ecocardiograma)." },
+    tep: { P: "Normal; ritmo sinusal rápido.", PR: "Normal.",
+      QRS: "<strong>S en DI y Q en DIII</strong> (S1Q3T3), a veces con bloqueo de rama derecha y eje a la derecha: sobrecarga aguda del ventrículo derecho.",
+      ST: SIN, T: "<strong>Negativa en DIII y en V1–V4</strong>.", QT: SIN,
+      RR: "<strong>Taquicardia sinusal</strong> (aquí 110 lpm): es el hallazgo más frecuente. El S1Q3T3 es poco sensible: su ausencia no descarta un TEP." },
+    marcapaso: { P: "Las P sinusales van a su ritmo (aquí hay un bloqueo AV completo de base).", PR: "No existe: el marcapaso no sigue a las P (modo VVI).",
+      QRS: "<strong>Espiga</strong> seguida de un <strong>QRS ancho</strong> con imagen de bloqueo de rama izquierda: el electrodo está en el ventrículo derecho. Si tras la espiga no hay QRS, es una <strong>falla de captura</strong>.",
+      ST: "Opuesto al QRS (secundario).", T: "Opuesta al QRS (secundaria).", QT: "Se alarga por el QRS ancho.", RR: "Regular, a la frecuencia programada (aquí 70 lpm)." },
+    derrame: { P: "Pequeña (bajo voltaje).", PR: "Normal.", QRS: "<strong>Bajo voltaje</strong> y <strong>alternancia eléctrica</strong>: un QRS grande y uno chico, alternados, porque el corazón oscila dentro del derrame.",
+      ST: SIN, T: "Pequeña.", QT: SIN, RR: "<strong>Taquicardia sinusal</strong>. Bajo voltaje con alternancia sugiere un derrame grande o taponamiento: ecocardiograma urgente." }
+  };
+  Object.keys(MAS).forEach(function (k) { HALLAZGO[k] = MAS[k]; });
+
   function medida(r, onda) {
     var tipo = r.tipoQRS || "normal";
-    if (onda === "PR" && r.pr && !r.completo) return "Aquí: <strong>" + r.pr + " ms</strong>.";
-    if (onda === "QRS" && r.ventriculos !== "fv") return "Aquí: <strong>" + (finQRS(tipo) - QRS_INI) + " ms</strong>.";
-    if (onda === "QT" && r.rr && !r.completo && !r.auriculas && !r.disociada) { var qt = Math.round(tFin(r, tipo) - QRS_INI); return "Aquí: QT <strong>" + qt + " ms</strong>, QTc <strong>" + Math.round(qt / Math.sqrt(r.rr / 1000)) + " ms</strong>."; }
+    if (onda === "PR" && r.pr && !r.completo && !r.Ta) return "Aquí: <strong>" + r.pr + " ms</strong>.";
+    if (onda === "QRS" && !r.ventriculos) return "Aquí: <strong>" + (finQRS(tipo) - QRS_INI) + " ms</strong>.";
+    if (onda === "QT" && r.rr && !r.completo && !r.auriculas && !r.disociada && !r.U) { var qt = Math.round(tFin(r, tipo) - QRS_INI); return "Aquí: QT <strong>" + qt + " ms</strong>, QTc <strong>" + Math.round(qt / Math.sqrt(r.rr / 1000)) + " ms</strong>."; }
     if (onda === "RR" && r.rr) return "Aquí: RR <strong>" + r.rr + " ms</strong> = <strong>" + Math.round(60000 / r.rr) + " lpm</strong>.";
     return "";
   }
@@ -460,7 +593,7 @@
 
     var Col = function (r, g, b) { return new THREE.Color(r, g, b).convertSRGBToLinear(); };
     var MIO = Col(0.56, 0.16, 0.14), MIO_A = Col(0.64, 0.24, 0.21), GRASA = Col(0.93, 0.8, 0.5), ARTERIA = Col(0.88, 0.72, 0.66), VENA = Col(0.36, 0.4, 0.62);
-    var FRENTE = Col(1, 0.93, 0.42), DESP = Col(0.98, 0.52, 0.3), CARA = Col(0.32, 0.62, 0.8), ISQ = Col(0.4, 0.18, 0.42);
+    var FRENTE = Col(1, 0.93, 0.42), DESP = Col(0.98, 0.52, 0.3), CARA = Col(0.32, 0.62, 0.8), ISQ = Col(0.4, 0.18, 0.42), INFL = Col(0.95, 0.5, 0.58), CIC = Col(0.8, 0.75, 0.72);
     var base = new Float32Array(n * 3), tmp = new THREE.Color();
     for (i = 0; i < n; i++) {
       var rg = region[i], g = grasa[i] / 255, o = 0.35 + 0.65 * ao[i] / 255;
@@ -498,6 +631,17 @@
     [[[2.35, -3.25, 0.8], [2.8, -1.8, 1.5], [2.4, 0.0, 1.4], "izquierda"], [[2.35, -3.25, 0.8], [3.0, -2.0, 0.0], [2.7, -0.3, -0.9], "izquierda"],
       [[2.35, -3.25, 0.8], [1.4, -2.3, -0.8], [0.8, -0.6, -1.3], "izquierda"], [[1.1, -3.05, 1.7], [0.4, -1.8, 2.1], [-0.5, -0.4, 1.9], "derecha"],
       [[1.1, -3.05, 1.7], [-0.6, -2.1, 1.5], [-1.6, -0.7, 1.0], "derecha"]].forEach(function (p) { via(p.slice(0, 3), -5, 18, "purkinje", 0.04, p[3]); });
+    via([[0.25, -1.35, 0.2], [0.9, -1.2, 0.9], [1.6, -1.0, 1.55]], -18, -3, "rama", 0.05, "fant");
+    via([[0.25, -1.35, 0.2], [0.8, -1.7, -0.4], [1.3, -1.9, -1.1]], -18, -3, "rama", 0.05, "fpost");
+    via([[1.6, 1.4, -1.2], [2.0, 0.9, -0.8], [2.35, 0.5, -0.5]], -14, -2, "accesoria", 0.08);
+    var accesoria = vias[vias.length - 1]; accesoria.malla.visible = false;
+    var electrodo = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([[-2.6, 6.0, -0.4], [-2.5, 3.0, -0.2], [-2.2, 1.2, 0.3], [-1.1, -0.6, 1.1], [0.6, -2.5, 1.75]].map(function (q) { return new THREE.Vector3(q[0], q[1], q[2]); })), 60, 0.07, 8, false),
+      new THREE.MeshBasicMaterial({ color: 0xb8c0c8, depthTest: false, transparent: true, opacity: 0.95 }));
+    electrodo.visible = false; electrodo.renderOrder = 9; grupo.add(electrodo);
+    var punta = new THREE.Mesh(new THREE.SphereGeometry(0.16, 14, 10), new THREE.MeshBasicMaterial({ color: 0xc0c6cc, depthTest: false })); punta.renderOrder = 12;
+    punta.position.set(0.6, -2.5, 1.75); punta.visible = false; grupo.add(punta);
+    var derrame = new THREE.Mesh(new THREE.SphereGeometry(1, 40, 28), new THREE.MeshPhysicalMaterial({ color: 0x9cc7e6, transparent: true, opacity: 0.16, roughness: 0.1, clearcoat: 1, depthWrite: false }));
+    derrame.scale.set(4.6, 4.4, 4.0); derrame.position.set(0.5, -1.1, 0.3); derrame.visible = false; derrame.renderOrder = 5; grupo.add(derrame);
     function nodo(p, r) { var m = new THREE.Mesh(new THREE.SphereGeometry(r, 20, 14), new THREE.MeshBasicMaterial({ color: AZUL, depthTest: false, transparent: true })); m.renderOrder = 11; m.position.copy(p); m.userData.reposo = p.clone(); grupo.add(m); return m; }
     var nodoSA = nodo(SA, 0.22), nodoAV = nodo(NAV, 0.2);
     var pulso = new THREE.Mesh(new THREE.SphereGeometry(0.17, 16, 12), new THREE.MeshBasicMaterial({ color: 0xffffff, depthTest: false })); pulso.renderOrder = 12; grupo.add(pulso);
@@ -523,24 +667,32 @@
       hk: mapa([[P_SEPTO_I, 0], [P_APEX_I, 0.5], [P_APEX_D, 0.6]], 118),
       brd: mapa([[P_SEPTO_I, 0], [P_APEX_I, 0.5], [P_SEPTO_D, 2.2]], 140, [1, 2.4]),
       bri: mapa([[P_APEX_D, 0], [P_SEPTO_D, 0.3], [P_SEPTO_I, 1.6]], 150, [0, 2.4]),
-      ev: mapa([[P_TSVD, 0]], 150), tv: mapa([[P_INFLAT, 0]], 160)
+      ev: mapa([[P_TSVD, 0]], 150), tv: mapa([[P_INFLAT, 0]], 160),
+      hai: mapa([[P_SEPTO_I, 0], [new THREE.Vector3(1.3, -1.8, -1.1), 0.3], [P_APEX_D, 0.6]], 100),
+      wpw: mapa([[new THREE.Vector3(2.35, 0.5, -0.5), 0], [P_SEPTO_I, 1.8], [P_APEX_I, 2.2], [P_APEX_D, 2.3]], 113),
+      mp: mapa([[P_APEX_D, 0]], 150)
     };
-    var actA = new Float32Array(n), actRetro = new Float32Array(n), angulo = new Float32Array(n), maxA = 0, maxR = 0;
+    var actA = new Float32Array(n), actRetro = new Float32Array(n), actEA = new Float32Array(n), angulo = new Float32Array(n), maxA = 0, maxR = 0, maxE = 0, P_FOCO = new THREE.Vector3(1.2, 2.0, -1.6);
     var CENTRO_TRI = new THREE.Vector3(-1.6, 0.4, 0.6); // centro aproximado del anillo tricuspídeo
     for (i = 0; i < n; i++) {
       if (region[i] !== 2 && region[i] !== 3) continue;
       p.set(pos[i * 3], pos[i * 3 + 1], pos[i * 3 + 2]);
       actA[i] = p.distanceTo(SA); maxA = Math.max(maxA, actA[i]);
       actRetro[i] = p.distanceTo(NAV); maxR = Math.max(maxR, actRetro[i]);
+      actEA[i] = p.distanceTo(P_FOCO); maxE = Math.max(maxE, actEA[i]);
       angulo[i] = region[i] === 2 ? (Math.atan2(p.y - CENTRO_TRI.y, p.z - CENTRO_TRI.z) + Math.PI) / (2 * Math.PI) : -1;
     }
-    for (i = 0; i < n; i++) if (region[i] === 2 || region[i] === 3) { actA[i] = actA[i] / maxA * (P_FIN - 8); actRetro[i] = actRetro[i] / maxR * 70; }
-    var zona = { inferior: new Float32Array(n), anterior: new Float32Array(n) };
+    for (i = 0; i < n; i++) if (region[i] === 2 || region[i] === 3) { actA[i] = actA[i] / maxA * (P_FIN - 8); actRetro[i] = actRetro[i] / maxR * 70; actEA[i] = actEA[i] / maxE * (P_FIN - 8); }
+    var zona = { inferior: new Float32Array(n), anterior: new Float32Array(n), lateral: new Float32Array(n), posterior: new Float32Array(n), subendo: new Float32Array(n), todo: new Float32Array(n) };
     for (i = 0; i < n; i++) {
       if (region[i] > 1) continue;
       var y = pos[i * 3 + 1];
       zona.inferior[i] = Math.max(0, Math.min(1, (-nor.getY(i) - 0.2) / 0.3)) * (y < -0.2 ? 1 : 0);
       zona.anterior[i] = Math.max(0, Math.min(1, (nor.getZ(i) - 0.35) / 0.35)) * (y < 0.8 ? 1 : 0) * (pos[i * 3] > -0.6 ? 1 : 0);
+      zona.lateral[i] = region[i] === 0 ? Math.max(0, Math.min(1, (nor.getX(i) - 0.4) / 0.35)) * (y > -2.9 ? 1 : 0) : 0;
+      zona.posterior[i] = region[i] === 0 ? Math.max(0, Math.min(1, (-nor.getZ(i) - 0.4) / 0.35)) : 0;
+      zona.subendo[i] = region[i] === 0 ? 0.45 : 0;
+      zona.todo[i] = 0.55;
     }
 
     var centro = new THREE.Vector3(0.4, -0.8, 0.3), flecha = null, ojo = null, cara = new Float32Array(n);
@@ -573,14 +725,15 @@
     function actualizar(r, t) {
       var bp = ultimo(r, t, "p"), bq = ultimo(r, t, "q", 45), dp = bp ? t - bp.p : null, dq = bq ? t - bq.q : null, tipo = bq ? bq.tipo : "normal";
       var actV = MAPAS[tipo] || MAPAS.normal, vDesp = tIni(r, tipo) + 30, vFin = tFin(r, tipo), lesion = r.lesion ? zona[r.lesion.zona] : null;
-      var aMapa = bp && bp.retro ? actRetro : actA;
+      var aMapa = bp && bp.retro ? actRetro : bp && bp.ectopica ? actEA : actA, cicatriz = r.cicatriz ? zona[r.cicatriz] : null, colorLesion = r.lesion && r.lesion.zona === "todo" ? INFL : ISQ;
       for (var i = 0; i < n; i++) {
         var j = i * 3, rg = region[i], b = null;
         tmp.setRGB(base[j], base[j + 1], base[j + 2]);
         if (cara[i] > 0) tmp.lerp(CARA, 0.7 * cara[i]);
         if (rg <= 1) {
-          if (r.ventriculos === "fv") { var f = caos(i, t, 2.2); if (f > 0) tmp.lerp(FRENTE, 0.85 * f); }
-          else if (dq !== null) b = brillo(dq - actV[i], vDesp - actV[i], vFin - actV[i]);
+          if (r.ventriculos === "fv" || r.ventriculos === "tdp") { var f = caos(i, t, r.ventriculos === "fv" ? 2.2 : 1.5); if (f > 0) tmp.lerp(FRENTE, 0.85 * f); }
+          else if (cicatriz && cicatriz[i] > 0.5) b = null;
+          else if (dq !== null && !r.ventriculos) b = brillo(dq - actV[i], vDesp - actV[i], vFin - actV[i]);
         } else if (rg <= 3) {
           if (r.auriculas === "fa") { var fa = caos(i, t, 1); if (fa > 0) tmp.lerp(FRENTE, 0.8 * fa); }
           else if (r.auriculas === "flutter") {
@@ -589,15 +742,24 @@
           } else if (dp !== null) b = brillo(dp - aMapa[i], 110, 240);
         }
         if (b) { if (b[0]) tmp.lerp(FRENTE, b[0]); else if (b[1]) tmp.lerp(DESP, b[1]); }
-        if (lesion && lesion[i] > 0) tmp.lerp(ISQ, 0.85 * lesion[i]);
+        if (lesion && lesion[i] > 0) tmp.lerp(colorLesion, 0.85 * lesion[i]);
+        if (cicatriz && cicatriz[i] > 0) tmp.lerp(CIC, 0.85 * cicatriz[i]);
         colores[j] = tmp.r; colores[j + 1] = tmp.g; colores[j + 2] = tmp.b;
       }
       geo.attributes.color.needsUpdate = true;
 
+      // Elementos de algunos trazados: vía accesoria, electrodo de marcapaso y derrame (el corazón oscila dentro de él)
+      accesoria.malla.visible = !!r.accesoria;
+      electrodo.visible = punta.visible = !!r.marcapaso;
+      if (r.marcapaso) punta.material.color.setHex(dq !== null && dq > -10 && dq < 25 ? 0xffffff : 0x8c949c);
+      derrame.visible = !!r.derrame;
+      grupo.position.x = -0.3 + (r.derrame ? 0.45 * Math.sin(2 * Math.PI * t / 1140) : 0);
+
       // Contracción mecánica, un poco después de la activación eléctrica
       var cv = 0, ca = 0;
       if (contraer) {
-        if (r.ventriculos === "fv") cv = 0.06 * (0.5 + 0.5 * Math.sin(t * 0.045)) * (0.5 + 0.5 * Math.sin(t * 0.031 + 1));
+        if (r.ventriculos === "fv" || r.ventriculos === "tdp") cv = 0.06 * (0.5 + 0.5 * Math.sin(t * 0.045)) * (0.5 + 0.5 * Math.sin(t * 0.031 + 1));
+        else if (r.ventriculos === "asistolia") cv = 0;
         else if (dq !== null) { var fin = tFin(r, tipo); cv = suave((dq - 40) / 170) * (1 - suave((dq - fin + 30) / 160)); }
         if (r.auriculas === "fa") ca = 0.05 * (0.5 + 0.5 * Math.sin(t * 0.04));
         else if (r.auriculas === "flutter") ca = 0.18 * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI / 200));
@@ -607,15 +769,16 @@
       moverPunto(nodoSA.userData.reposo, nodoSA.position); moverPunto(nodoAV.userData.reposo, nodoAV.position);
 
       // Conducción: lo que se enciende es lo que está conduciendo en ese instante
-      var conducido = bq && CONDUCIDOS[tipo] && r.ventriculos !== "fv", activo = null, sinusalP = !r.auriculas && bp && !bp.retro;
+      var conducido = bq && CONDUCIDOS[tipo] && !r.ventriculos, activo = null, sinusalP = !r.auriculas && bp && !bp.retro && !bp.ectopica;
       vias.forEach(function (v) {
         var on = false, ref = v.tipo === "auricular" ? dp : dq, bloqueada = r.rama && v.lado === r.rama;
         if (v.tipo === "auricular") {
           if (r.auriculas === "fa" || r.auriculas === "flutter") on = Math.sin(t * 0.05 + v.t1) > 0.3;
           else on = sinusalP && ref >= v.t0 && ref <= v.t1 + 25;
         } else on = conducido && !bloqueada && ref !== null && ref >= v.t0 && ref <= v.t1 + 25;
+        if (v.tipo === "accesoria") on = !!r.accesoria && ref !== null && ref >= v.t0 && ref <= v.t1 + 25;
         var rojo = bloqueada || (v.tipo === "his" && r.bloqueoEn === "his" && bp && bp.bloq && dp < 400);
-        v.malla.material.color.setHex(rojo ? ROJO : on ? ACT : AZUL);
+        v.malla.material.color.setHex(rojo ? ROJO : on ? ACT : v.tipo === "accesoria" ? 0x45c07a : AZUL);
         if (on && ref >= v.t0 && ref <= v.t1 && v.tipo !== "purkinje" && !(v.tipo === "auricular" && r.auriculas)) activo = activo && activo.v.tipo !== "auricular" ? activo : { v: v, ref: ref };
       });
       nodoSA.material.color.setHex(sinusalP && dp < 30 ? ACT : AZUL);
@@ -630,8 +793,8 @@
       else pulso.visible = false;
       // Isquemia: arteria ocluida en morado y punto negro en la oclusión
       Object.keys(vasos).forEach(function (k) { vasos[k].malla.material.color.setHex(r.lesion && k === r.lesion.arteria ? 0x6a1d6e : vasos[k].color); });
-      oclusion.visible = !!r.lesion;
-      if (r.lesion) oclusion.position.copy(vasos[r.lesion.arteria].curva.getPointAt(r.lesion.punto));
+      oclusion.visible = !!(r.lesion && r.lesion.arteria);
+      if (oclusion.visible) moverPunto(vasos[r.lesion.arteria].curva.getPointAt(r.lesion.punto), oclusion.position);
     }
 
     var ETIQ = [["Nódulo sinusal", SA], ["Nódulo AV", NAV], ["Haz de His", HIS], ["Aurícula derecha", new THREE.Vector3(-3.9, 1.0, 0.6)],
@@ -696,10 +859,14 @@
     if (!heart) { vista.classList.add("ecg-sin-3d"); vista.innerHTML = "<p>Este navegador no puede mostrar el corazón en 3D. El trazado funciona igual.</p>"; }
 
     // Menú de ritmos: pestañas Normal / Patológicos, con los patológicos agrupados por tipo. En el celular, una lista desplegable.
-    var pestanas = raiz.querySelectorAll(".ecg-pestanas button");
+    var pestanas = raiz.querySelectorAll(".ecg-pestanas button"), cats = document.createElement("div");
+    cats.className = "ecg-categorias"; cats.setAttribute("role", "group"); cats.setAttribute("aria-label", "Tipo de trazado"); menu.appendChild(cats);
     GRUPOS.forEach(function (g) {
-      var caja = document.createElement("div"); caja.className = "ecg-grupo"; caja.setAttribute("data-grupo", g[0] === "normal" ? "normal" : "patologico");
-      caja.innerHTML = g[0] === "normal" ? "" : "<span>" + g[1] + "</span>";
+      var caja = document.createElement("div"); caja.className = "ecg-grupo"; caja.setAttribute("data-grupo", g[0] === "normal" ? "normal" : "patologico"); caja.setAttribute("data-cat", g[0]);
+      if (g[0] !== "normal") {
+        var bc = document.createElement("button"); bc.type = "button"; bc.setAttribute("data-cat", g[0]); bc.textContent = g[1]; cats.appendChild(bc);
+        bc.addEventListener("click", function () { var k = Object.keys(RITMOS).filter(function (x) { return RITMOS[x].grupo === g[0]; })[0]; elegirRitmo(k); });
+      }
       var og = document.createElement("optgroup"); og.label = g[1];
       Object.keys(RITMOS).forEach(function (k) {
         if (RITMOS[k].grupo !== g[0]) return;
@@ -710,9 +877,11 @@
       menu.appendChild(caja); selRitmo.appendChild(og);
     });
     selRitmo.addEventListener("change", function () { elegirRitmo(selRitmo.value); });
-    function mostrarGrupo(g) {
+    function mostrarGrupo(g, cat) {
       pestanas.forEach(function (b) { var s = b.getAttribute("data-grupo") === g; b.classList.toggle("ecg-activa", s); b.setAttribute("aria-selected", s); });
-      menu.querySelectorAll(".ecg-grupo").forEach(function (c) { c.hidden = c.getAttribute("data-grupo") !== g; });
+      cats.hidden = g !== "patologico";
+      cats.querySelectorAll("button").forEach(function (b) { var s = b.getAttribute("data-cat") === cat; b.classList.toggle("ecg-activa", s); b.setAttribute("aria-pressed", s); });
+      menu.querySelectorAll(".ecg-grupo").forEach(function (c) { c.hidden = g === "normal" ? c.getAttribute("data-grupo") !== "normal" : c.getAttribute("data-cat") !== cat; });
     }
     pestanas.forEach(function (b) { b.addEventListener("click", function () { var g = b.getAttribute("data-grupo"); mostrarGrupo(g); elegirRitmo(g === "normal" ? "sinusal" : "fa"); }); });
 
@@ -764,7 +933,7 @@
       clave = k; ritmo = RITMOS[k]; t = 3200;
       titulo.textContent = ritmo.nombre; selRitmo.value = k;
       menu.querySelectorAll("button[data-ritmo]").forEach(function (b) { var s = b.getAttribute("data-ritmo") === k; b.classList.toggle("ecg-activa", s); b.setAttribute("aria-pressed", s); });
-      mostrarGrupo(ritmo.grupo === "normal" ? "normal" : "patologico");
+      mostrarGrupo(ritmo.grupo === "normal" ? "normal" : "patologico", ritmo.grupo);
       var tarjeta = document.getElementById("ecg-" + k), lista = tarjeta && tarjeta.querySelector("ul"), enlace = tarjeta && tarjeta.querySelector("p a[href]");
       claves.innerHTML = lista ? lista.outerHTML : "";
       resumen.innerHTML = enlace ? "Resumen del tema: " + enlace.outerHTML : "";
