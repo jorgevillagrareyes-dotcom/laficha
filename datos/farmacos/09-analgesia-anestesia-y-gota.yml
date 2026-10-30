@@ -308,3 +308,48 @@ farmacos:
     c: Uso de azatioprina o mercaptopurina. Enfermedad cardiovascular establecida (relativa).
     e: Alza de transaminasas, crisis de gota al inicio, exantema; en el estudio CARES, mayor mortalidad cardiovascular que con alopurinol.
     em: Evitar en el embarazo.
+  - n: Oxicodona
+    g: Opioide agonista puro
+    fam: Opioides y su antídoto
+    q: Opioide oral de potencia algo mayor que la morfina, con buena biodisponibilidad.
+    u:
+      - Dolor agudo posoperatorio o dolor oncológico moderado a intenso.
+      - Alternativa a la morfina en la ERC (en dosis bajas).
+    d:
+      - 5–10 mg VO cada 4–6 h.
+    a: Bajar la dosis en la ERC, la insuficiencia hepática y el adulto mayor.
+    c: Depresión respiratoria, íleo paralítico.
+    e: Constipación, náuseas, sedación y depresión respiratoria.
+    i: Con benzodiacepinas, alcohol y otros depresores del SNC, más depresión respiratoria; los inhibidores del CYP3A4 suben sus niveles.
+    em: Usar si el beneficio lo justifica; vigilar abstinencia neonatal.
+    p: Indicar siempre un laxante junto con el opioide.
+  - n: Bupivacaína
+    g: Anestésico local tipo amida de acción larga
+    fam: Anestesia e intubación
+    q: Bloquea los canales de sodio de los nervios; actúa lento pero dura 4–8 h.
+    u:
+      - Anestesia local e infiltración de heridas quirúrgicas (por ejemplo, hernioplastía ambulatoria).
+      - Bloqueos de nervios periféricos y anestesia raquídea.
+    d:
+      - Infiltración al 0,25–0,5 %.
+      - Máximo ~ 2,5 mg/kg (~ 175 mg) sin epinefrina y ~ 3 mg/kg (~ 225 mg) con epinefrina.
+    c: Inyección intravascular, vía EV (Bier).
+    e: Toxicidad sistémica por anestésicos locales (convulsiones y paro cardíaco difícil de revertir).
+    em: Se usa en la anestesia obstétrica.
+    p: Es el anestésico local más cardiotóxico; ante la toxicidad, emulsión lipídica al 20 %.
+  - n: Propofol
+    g: Hipnótico EV de acción corta
+    fam: Anestesia e intubación
+    q: Hipnótico que potencia el GABA; actúa en segundos y dura pocos minutos.
+    u:
+      - Inducción de la anestesia y sedación para procedimientos.
+      - Estado epiléptico refractario (con intubación).
+      - Sedación del paciente en ventilación mecánica.
+    d:
+      - Inducción 1,5–2,5 mg/kg EV (menos en el adulto mayor o inestable).
+      - Estado epiléptico refractario carga 1–2 mg/kg e infusión de 20–200 µg/kg/min.
+    c: Alergia al fármaco o a sus excipientes; shock no resucitado.
+    e: Hipotensión y depresión respiratoria; síndrome de infusión de propofol con dosis altas y prolongadas (acidosis, rabdomiólisis, arritmias).
+    i: Más hipotensión con opioides y benzodiacepinas.
+    em: Se usa en la anestesia obstétrica.
+    p: En el paciente inestable, preferir ketamina o etomidato para la intubación.

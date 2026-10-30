@@ -3,6 +3,7 @@ titulo: Ginecología, obstetricia, urología y dermatología
 familias:
   - Obstetricia
   - Anticoncepción
+  - Terapia hormonal y fertilidad
   - Urología y andrología
   - Dermatología
 farmacos:
@@ -140,3 +141,135 @@ farmacos:
     c: Rosácea, acné, dermatitis perioral, infecciones cutáneas no tratadas. Evitar en la cara, los pliegues y los niños.
     e: Atrofia cutánea, estrías, telangiectasias, dermatitis perioral y supresión suprarrenal si se usa en grandes áreas.
     em: Usar en áreas pequeñas y por poco tiempo.
+  - n: Estradiol
+    g: Estrógeno natural
+    fam: Terapia hormonal y fertilidad
+    q: Estrógeno idéntico al humano; se usa oral o transdérmico para reemplazar el déficit estrogénico.
+    u:
+      - Síndrome climatérico (bochornos) en menores de 60 años o con menos de 10 años de menopausia.
+      - Insuficiencia ovárica prematura (hasta la edad promedio de la menopausia natural).
+    d:
+      - Oral 1 mg/día.
+      - Transdérmico gel 0,5–0,75 mg/día o parche de 50 µg/día.
+      - Insuficiencia ovárica prematura 2 mg/día oral o 100 µg/día transdérmico.
+    c: Cáncer de mama o de endometrio, trombosis venosa o arterial, enfermedad hepática activa, sangrado genital no estudiado.
+    e: Mastalgia, sangrado, trombosis venosa (vía oral) e hiperplasia endometrial si se da sin progestágeno.
+    i: Los inductores (rifampicina, carbamazepina) bajan sus niveles; requiere subir la levotiroxina por vía oral.
+    em: No se usa en el embarazo.
+    p: Si la mujer tiene útero, siempre con un progestágeno; preferir la vía transdérmica con obesidad, HTA, diabetes o riesgo de trombosis.
+  - n: Progesterona micronizada
+    g: Progestágeno natural
+    fam: Terapia hormonal y fertilidad
+    q: Progesterona idéntica a la humana; protege el endometrio del efecto estrogénico con un perfil metabólico y de mama favorable.
+    u:
+      - Protección endometrial en la terapia hormonal de la mujer con útero.
+      - Prevención del parto prematuro en mujeres con cuello corto (vía vaginal).
+    d:
+      - Terapia hormonal 200 mg/noche por 10–14 días al mes (cíclico) o 100 mg/noche (continuo), oral o vaginal.
+    c: Cáncer de mama, trombosis activa, sangrado genital no estudiado.
+    e: Somnolencia (tomar en la noche), mareo y sangrado irregular.
+    em: Se usa en el embarazo (prevención del parto prematuro).
+    p: Darla en la noche aprovecha su efecto sedante.
+  - n: Medroxiprogesterona
+    g: Progestágeno sintético
+    fam: Terapia hormonal y fertilidad
+    q: Progestágeno oral o inyectable que transforma el endometrio en secretor.
+    u:
+      - Protección endometrial en la anovulación y en la terapia hormonal.
+      - Sangrado uterino anormal agudo (dosis altas).
+      - Anticoncepción inyectable trimestral (de depósito).
+    d:
+      - Anovulación 10 mg/día por 10–14 días cada 1–3 meses.
+      - Sangrado uterino agudo 20 mg cada 8 h por 7 días.
+      - Terapia hormonal 5–10 mg/día por 10–14 días (cíclico) o 2,5 mg/día (continuo).
+    c: Cáncer de mama, trombosis activa, sangrado genital no estudiado, embarazo.
+    e: Sangrado irregular, aumento de peso, cambios del ánimo; el depósito baja la densidad ósea.
+    em: No se usa en el embarazo.
+    p: Tras su retiro, el sangrado aparece en 3–10 días; si no sangra, pensar en hipoestrogenismo o embarazo.
+  - n: Letrozol
+    g: Inhibidor de la aromatasa
+    fam: Terapia hormonal y fertilidad
+    q: Bloquea la conversión de andrógenos en estrógenos; en dosis cortas induce la ovulación y en uso continuo trata el cáncer de mama hormonosensible.
+    u:
+      - Inducción de la ovulación en el SOP (primera línea, especialista).
+      - Cáncer de mama con receptores hormonales positivos en la posmenopáusica.
+    d:
+      - Inducción de la ovulación 2,5 mg/día por 5 días (días 3–7 del ciclo), subir a 5–7,5 mg si no ovula.
+      - Cáncer de mama 2,5 mg/día.
+    c: Embarazo, premenopausia (para el cáncer, salvo con supresión ovárica).
+    e: Uso prolongado, osteoporosis, artralgias y bochornos.
+    em: Contraindicado en el embarazo (descartarlo antes de cada ciclo).
+    p: En el cáncer de mama, pedir densitometría al inicio y durante el tratamiento.
+  - n: Oxibutinina
+    g: Antimuscarínico vesical
+    fam: Urología y andrología
+    q: Bloquea los receptores muscarínicos del detrusor y reduce las contracciones no inhibidas.
+    u:
+      - Vejiga hiperactiva e incontinencia de urgencia.
+      - Enuresis con síntomas diurnos (combinada con desmopresina).
+    d:
+      - Adultos 5 mg VO cada 8–12 h.
+      - Niños 2,5–5 mg en la noche.
+    c: Glaucoma de ángulo estrecho, retención urinaria, miastenia, adulto mayor con demencia.
+    e: Boca seca, constipación, retención urinaria y confusión (efecto central).
+    i: Suma carga anticolinérgica; reduce el efecto de los inhibidores de la colinesterasa.
+    em: Evitar en el embarazo.
+    p: Evitarla en el adulto mayor (Beers 2023); preferir mirabegrón.
+  - n: Mirabegrón
+    g: Agonista beta-3 adrenérgico
+    fam: Urología y andrología
+    q: Relaja el detrusor durante el llenado sin efecto anticolinérgico.
+    u:
+      - Vejiga hiperactiva e incontinencia de urgencia (de elección en el adulto mayor).
+      - Síntomas de llenado en la HPB con residuo bajo.
+    d:
+      - 25–50 mg/día VO.
+    a: Máximo 25 mg/día en la ERC grave o la insuficiencia hepática moderada.
+    c: HTA grave no controlada.
+    e: Alza de la presión arterial, taquicardia y cefalea.
+    i: Inhibe el CYP2D6 (sube metoprolol y antidepresivos tricíclicos).
+    em: Evitar en el embarazo.
+    p: Controlar la presión arterial al iniciarlo.
+  - n: Tadalafilo
+    g: Inhibidor de la fosfodiesterasa 5
+    fam: Urología y andrología
+    q: Aumenta el GMPc y relaja el músculo liso del cuerpo cavernoso, la próstata y la arteria pulmonar; dura hasta 36 h.
+    u:
+      - Disfunción eréctil.
+      - Síntomas urinarios bajos por HPB con disfunción eréctil.
+      - Hipertensión pulmonar (especialista).
+    d:
+      - Disfunción eréctil 10–20 mg a demanda o 5 mg/día continuo.
+      - HPB 5 mg/día.
+      - Hipertensión pulmonar 40 mg/día.
+    a: Bajar la dosis en la ERC y la insuficiencia hepática.
+    c: Uso de nitratos o riociguat; infarto o ACV reciente, hipotensión.
+    e: Cefalea, rubor, dispepsia, lumbalgia y congestión nasal.
+    i: Hipotensión grave con nitratos (separar al menos 48 h); los inhibidores del CYP3A4 suben sus niveles.
+    em: No aplica en la indicación urológica.
+    p: Antes de dar nitratos en el dolor torácico, preguntar siempre por el uso de inhibidores de la fosfodiesterasa 5.
+  - n: Dutasterida
+    g: Inhibidor de la 5-alfa reductasa
+    fam: Urología y andrología
+    q: Bloquea la conversión de testosterona en dihidrotestosterona y reduce el volumen prostático.
+    u:
+      - Hiperplasia prostática con próstata grande (> 30–40 mL o APE > 1,5 ng/mL), sola o con un alfabloqueador.
+    d:
+      - 0,5 mg/día VO.
+    c: Mujeres y niños.
+    e: Disminución de la libido, disfunción eréctil y ginecomastia.
+    em: Teratogénica para un feto masculino; las embarazadas no deben manipular las cápsulas rotas.
+    p: Baja el APE a la mitad a los 6 meses; multiplicarlo por 2 para interpretarlo.
+  - n: Isotretinoína
+    g: Retinoide oral
+    fam: Dermatología
+    q: Derivado de la vitamina A que reduce mucho la glándula sebácea y la producción de sebo.
+    u:
+      - Acné nodular o quístico, o acné moderado refractario o con cicatrices (dermatólogo).
+    d:
+      - 0,5–1 mg/kg/día VO hasta una dosis acumulada de ~ 120–150 mg/kg.
+    c: Embarazo, lactancia, uso de tetraciclinas (hipertensión endocraneana).
+    e: Sequedad de piel y mucosas, alza de los lípidos y las transaminasas, alteraciones del ánimo.
+    i: Con tetraciclinas, hipertensión endocraneana; evitar suplementos de vitamina A.
+    em: Muy teratogénica; 2 métodos anticonceptivos desde 1 mes antes hasta 1 mes después.
+    p: Controlar el perfil lipídico y las transaminasas al inicio y durante el tratamiento, y vigilar el ánimo.

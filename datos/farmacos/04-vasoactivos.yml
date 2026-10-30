@@ -121,3 +121,18 @@ farmacos:
       - Hipoglicemia por sulfonilureas 50–100 µg SC cada 6–12 h.
     e: Náuseas, diarrea, litiasis biliar con uso prolongado, alteraciones de la glicemia y bradicardia.
     em: Usar si se necesita.
+  - n: Fenilefrina
+    g: Agonista alfa-1 puro
+    fam: Vasopresores e inotrópicos
+    q: Vasoconstrictor alfa-1 sin efecto beta; sube la presión aumentando la resistencia vascular.
+    u:
+      - Priapismo isquémico (vía intracavernosa).
+      - Hipotensión por anestesia o sedación (bolos).
+    d:
+      - Priapismo solución de 100–500 µg/mL, 1 mL intracavernoso cada 3–5 minutos, hasta por 1 h, con monitorización de la presión y la frecuencia.
+      - Hipotensión 50–100 µg EV en bolo.
+    c: Hipertensión grave, bradicardia significativa.
+    e: Hipertensión, bradicardia refleja e isquemia periférica.
+    i: Más hipertensión con IMAO.
+    em: Se usa en la hipotensión de la anestesia raquídea de la cesárea.
+    p: Puede bajar el gasto cardíaco en la falla ventricular; no es buen vasopresor en el shock cardiogénico.

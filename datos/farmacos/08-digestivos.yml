@@ -1,14 +1,15 @@
 orden: 8
 titulo: Digestivos
 familias:
-  - Supresores del ácido
+  - Ácido y Helicobacter pylori
   - Antieméticos y procinéticos
   - Laxantes y antidiarreicos
-  - Intestino, hígado y toxicología
+  - Intestino e hígado
+  - Toxicología y antídotos
 farmacos:
   - n: Omeprazol
     g: Inhibidor de la bomba de protones (IBP)
-    fam: Supresores del ácido
+    fam: Ácido y Helicobacter pylori
     q: Bloquea de forma irreversible la bomba de protones de la célula parietal; reduce la secreción ácida por 24 h.
     u:
       - ERGE, esofagitis y úlcera péptica.
@@ -26,7 +27,7 @@ farmacos:
     p: Revisar periódicamente si sigue siendo necesario; muchos pacientes lo usan años sin indicación (deprescribir de forma gradual).
   - n: Ranitidina
     g: Antagonista de los receptores H2
-    fam: Supresores del ácido
+    fam: Ácido y Helicobacter pylori
     q: Bloquea los receptores H2 de la célula parietal; menos potente que los IBP.
     u:
       - Dispepsia y ERGE leve (hoy reemplazada por IBP o famotidina).
@@ -131,7 +132,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Mesalazina
     g: Antiinflamatorio intestinal · aminosalicilato (5-ASA)
-    fam: Intestino, hígado y toxicología
+    fam: Intestino e hígado
     q: Antiinflamatorio de acción local en la mucosa del colon.
     u:
       - Colitis ulcerosa leve a moderada (inducción y mantención).
@@ -145,7 +146,7 @@ farmacos:
     p: Medir la creatinina antes de iniciarla y luego cada 6–12 meses.
   - n: Ácido ursodesoxicólico
     g: Ácido biliar hidrofílico
-    fam: Intestino, hígado y toxicología
+    fam: Intestino e hígado
     q: Reemplaza a los ácidos biliares tóxicos, aumenta el flujo biliar y protege a los colangiocitos.
     u:
       - Colangitis biliar primaria (primera línea).
@@ -159,7 +160,7 @@ farmacos:
     em: Se usa en la colestasia del embarazo.
   - n: Carbón activado
     g: Adsorbente gastrointestinal
-    fam: Intestino, hígado y toxicología
+    fam: Toxicología y antídotos
     q: Polvo de gran superficie que adsorbe muchos tóxicos en el intestino e impide su absorción.
     u:
       - Intoxicaciones orales con riesgo vital, idealmente dentro de 1–2 h de la ingesta.
@@ -169,3 +170,68 @@ farmacos:
     c: Vía aérea no protegida, obstrucción o perforación intestinal. No sirve para alcoholes, metales (hierro, litio), cáusticos ni hidrocarburos.
     e: Vómitos, aspiración pulmonar y constipación.
     em: Compatible.
+  - n: Subsalicilato de bismuto
+    g: Sal de bismuto
+    fam: Ácido y Helicobacter pylori
+    q: Tiene efecto antimicrobiano directo sobre *H. pylori* y protege la mucosa; es la base de la terapia cuádruple.
+    u:
+      - Erradicación de *H. pylori* (cuádruple con bismuto, preferida si no se conoce la susceptibilidad).
+    d:
+      - 300 mg cada 6 h por 14 días (con IBP, tetraciclina o amoxicilina y metronidazol).
+    c: Alergia a salicilatos, insuficiencia renal grave.
+    e: Deposiciones y lengua negras (inofensivo).
+    i: Contiene salicilato; evitar con anticoagulantes en dosis plenas y en niños o adolescentes con infecciones virales (síndrome de Reye).
+    em: Evitar en el embarazo.
+    p: Advertir al paciente que las deposiciones negras son esperables y no indican hemorragia.
+  - n: Bisacodilo
+    g: Laxante estimulante
+    fam: Laxantes y antidiarreicos
+    q: Estimula el plexo mientérico y la secreción del colon; actúa en 6–12 h por vía oral.
+    u:
+      - Constipación que no responde a fibra ni a laxantes osmóticos.
+      - Constipación por opioides (asociado a un osmótico).
+    d:
+      - 5–10 mg VO en la noche.
+    c: Obstrucción intestinal, abdomen agudo.
+    e: Dolor cólico y diarrea.
+    em: Se puede usar por períodos cortos.
+    p: El uso prolongado es seguro; el temor al colon catártico no tiene buen sustento.
+  - n: Azul de metileno
+    g: Antídoto de la metahemoglobinemia
+    fam: Toxicología y antídotos
+    q: Reduce la metahemoglobina a hemoglobina usando el NADPH.
+    u:
+      - Metahemoglobinemia sintomática o mayor de 20–30 % (nitritos, dapsona, anestésicos locales, primaquina).
+    d:
+      - 1–2 mg/kg EV en 5 minutos; se puede repetir en 1 h.
+    c: Déficit de G6PD (puede causar hemólisis y no funcionar), uso de ISRS u otros serotoninérgicos.
+    e: Coloración azul de la piel y la orina, síndrome serotoninérgico.
+    i: Inhibidor de la MAO; síndrome serotoninérgico con ISRS, IRSN y otros serotoninérgicos.
+    em: Evitar salvo riesgo vital.
+    p: Si no responde, pensar en déficit de G6PD o en sulfohemoglobina.
+  - n: Fomepizol
+    g: Inhibidor de la alcohol deshidrogenasa
+    fam: Toxicología y antídotos
+    q: Bloquea la alcohol deshidrogenasa e impide que el metanol y el etilenglicol se transformen en sus metabolitos tóxicos.
+    u:
+      - Intoxicación por metanol o etilenglicol (con hemodiálisis si está indicada).
+    d:
+      - Carga 15 mg/kg EV, luego 10 mg/kg cada 12 h por 4 dosis y después 15 mg/kg cada 12 h hasta que el tóxico desaparezca (aumentar la frecuencia durante la hemodiálisis).
+    c: Alergia al fármaco.
+    e: Cefalea, náuseas y mareo.
+    i: Con etanol, cada uno reduce la eliminación del otro.
+    em: Se usa si hay riesgo vital.
+    p: Si no hay fomepizol, el etanol cumple la misma función.
+  - n: Deferoxamina
+    g: Quelante del hierro
+    fam: Toxicología y antídotos
+    q: Se une al hierro libre y forma ferrioxamina, que se elimina por la orina.
+    u:
+      - Intoxicación grave por hierro.
+      - Sobrecarga crónica de hierro por transfusiones (especialista).
+    d:
+      - Intoxicación por hierro 15 mg/kg/h EV en infusión.
+    c: Anuria (salvo diálisis).
+    e: Hipotensión si se pasa rápido, orina color vino rosado, daño pulmonar con infusiones prolongadas e infección por *Yersinia*.
+    em: Se usa si hay riesgo vital.
+    p: El carbón activado no adsorbe el hierro.

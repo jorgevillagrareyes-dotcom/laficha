@@ -21,31 +21,40 @@ Alendronato
 Alopurinol
 Alprostadil|prostaglandina E1
 Alteplasa|alteplase
+Amantadina
 Amikacina
 Amiodarona
 Amitriptilina
 Amlodipino
-Amoxicilina-ácido clavulánico|amoxicilina/ácido clavulánico|amoxicilina-clavulánico
 Amoxicilina
-Ampicilina-sulbactam|ampicilina/sulbactam
+Amoxicilina-ácido clavulánico|amoxicilina/ácido clavulánico|amoxicilina-clavulánico
 Ampicilina
+Ampicilina-sulbactam|ampicilina/sulbactam
+Andexanet alfa|andexanet
 Anfotericina B|anfotericina
 Apixabán
 Aripiprazol
+Artesunato
+Atorvastatina
 Atropina
 Azatioprina
 Azitromicina
+Azul de metileno
 Baclofeno
 Beclometasona
 Betametasona
 Bicarbonato de sodio|bicarbonato
 Biperideno
+Bisacodilo
 Bisoprolol
 Bromocriptina
 Budesonida
+Budesonida-formoterol|budesonida/formoterol|ICS-formoterol
+Bupivacaína
 Bupropión
 Cabergolina
 Calcitonina
+Calcitriol
 Captopril
 Carbamazepina
 Carbetocina
@@ -59,6 +68,7 @@ Cefepime
 Cefotaxima
 Ceftazidima
 Ceftriaxona
+Cefuroxima
 Cetirizina
 Ciclofosfamida
 Ciclosporina
@@ -72,18 +82,23 @@ Clonazepam
 Clopidogrel
 Clorfenamina
 Cloroquina
+Clortalidona
 Cloruro de potasio|KCl|potasio EV
+Clotrimazol
 Cloxacilina
 Clozapina
 Codeína
 Colchicina
 Colestiramina
+Colistina
 Complejo protrombínico|concentrado de complejo protrombínico|CCP
 Cotrimoxazol|trimetoprim-sulfametoxazol
 Crioprecipitado
 Dabigatrán
 Dantroleno
 Dapsona
+Daptomicina
+Deferoxamina
 Denosumab
 Desmopresina
 Dexametasona
@@ -92,29 +107,36 @@ Diclofenaco
 Digoxina
 Diltiazem
 Dimenhidrinato
+Disulfiram
 Dobutamina
+Dolutegravir
 Domperidona
 Donepezilo
 Dopamina
 Doxazosina
 Doxiciclina
 Duloxetina
+Dutasterida
 Edoxabán
 Empagliflozina|dapagliflozina|iSGLT2
 Enalapril
 Enoxaparina
 Entecavir
+Eplerenona
 Eritromicina
 Eritropoyetina
+Ertapenem
 Escitalopram
 Esmolol
 Espironolactona
+Estradiol
 Estreptoquinasa|estreptokinasa
 Etambutol
 Etomidato
 Ezetimibe
 Famciclovir
 Febuxostat
+Fenilefrina
 Fenitoína
 Fenobarbital
 Fentanilo
@@ -125,13 +147,16 @@ Flecainida
 Fluconazol
 Fludrocortisona
 Flumazenil
+Flunarizina
 Fluoxetina
 Fluticasona
+Fomepizol
 Fondaparinux
 Fosfomicina
 Furosemida
 Gabapentina
 Gentamicina
+Glibenclamida
 Glucagón
 Gluconato de calcio|calcio EV|calcio
 Glucosa|suero glucosado
@@ -144,20 +169,27 @@ Hidroxicloroquina
 Hidroxiurea
 Hidroxocobalamina
 Ibuprofeno
+Idarucizumab
 Imipenem
 Indometacina
 Infliximab
 Inmunoglobulina
 Insulina
+Insulina glargina|glargina
+Insulina NPH|NPH
 Ipratropio|bromuro de ipratropio
 Isoniazida
+Isotretinoína
 Ivabradina
 Ivermectina
 Ketamina
+Ketoconazol
 Ketorolaco
 Labetalol
 Lactulosa
 Lamotrigina
+Leflunomida
+Letrozol
 Levetiracetam
 Levodopa
 Levofloxacino
@@ -165,6 +197,7 @@ Levonorgestrel
 Levotiroxina
 Lidocaína
 Linezolid
+Liraglutida
 Litio
 Loperamida
 Loratadina
@@ -173,10 +206,12 @@ Losartán
 Magnesio|sulfato de magnesio
 Manitol
 Mebendazol
+Medroxiprogesterona|acetato de medroxiprogesterona
+Memantina
 Meropenem
 Mesalazina
-Metformina
 Metamizol
+Metformina
 Metilfenidato
 Metilprednisolona
 Metimazol|tiamazol
@@ -184,11 +219,14 @@ Metoclopramida
 Metoprolol
 Metotrexato
 Metronidazol
+Micofenolato|micofenolato mofetil
 Midazolam
 Mifepristona
 Milrinona
+Mirabegrón
 Mirtazapina
 Misoprostol
+Mononitrato de isosorbide
 Montelukast
 Morfina
 Naloxona
@@ -198,34 +236,49 @@ Neostigmina
 Nicardipino
 Nifedipino
 Nimodipino
+Nirmatrelvir/ritonavir|nirmatrelvir
 Nirsevimab
 Nistatina
+Nitazoxanida
 Nitrofurantoína
 Nitroglicerina
 Nitroprusiato
 Noradrenalina|norepinefrina
 Octreotide|octreótido
 Olanzapina
+Omalizumab
 Omeprazol|esomeprazol|pantoprazol|IBP
 Ondansetrón
 Oseltamivir
-Oxitocina
+Oxcarbazepina
+Oxibutinina
+Oxicodona
 Oxígeno
+Oxitocina
 Paracetamol
+Paroxetina
+Patiromer
 Penicilina benzatina|penicilina G benzatina
 Penicilina G sódica|penicilina G cristalina
+Permetrina
 Piperacilina-tazobactam|piperacilina/tazobactam
 Pirazinamida
 Piridostigmina
 Plaquetas
 Plasma fresco congelado|plasma
 Polietilenglicol
+Pramipexol
 Prasugrel
+Praziquantel
 Prednisolona
 Prednisona
 Pregabalina
+Primaquina
+Progesterona micronizada
 Prometazina
+Propafenona
 Propiltiouracilo
+Propofol
 Propranolol
 Protamina
 Quetiapina
@@ -235,36 +288,51 @@ Rifaximina
 Risperidona
 Rituximab
 Rivaroxabán
+Rivastigmina
 Rocuronio
 Ropinirol
+Rosuvastatina
+Sacubitrilo/valsartán|sacubitril/valsartán|sacubitrilo-valsartán|sacubitril-valsartán
 Salbutamol
 Semaglutida
 Sertralina
 Sildenafil
+Sofosbuvir/velpatasvir|sofosbuvir|velpatasvir
 Somatostatina
+Subsalicilato de bismuto|bismuto
 Succinilcolina
+Sulfasalazina
 Sumatriptán
+Tacrolimus
+Tadalafilo
 Tamsulosina
+Tenecteplase|tenecteplasa|TNK
+Tenofovir|TDF|TAF
+Terbinafina
 Terbutalina
+Teriparatida
 Terlipresina
 Testosterona
 Tiamina
 Ticagrelor
+Tinidazol
+Tiotropio
 Tirzepatida
 Tobramicina
+Tocilizumab
 Topiramato
 Tramadol
 Trazodona
 Valaciclovir
 Valganciclovir
 Vancomicina
+Vareniclina
 Vasopresina
+Venlafaxina
 Verapamilo
 Vitamina B12|cianocobalamina
 Vitamina D|colecalciferol
 Vitamina K|fitomenadiona
+Voriconazol
 Warfarina
 Zolpidem
-Atorvastatina
-Rosuvastatina
-Tenecteplase|tenecteplasa|TNK

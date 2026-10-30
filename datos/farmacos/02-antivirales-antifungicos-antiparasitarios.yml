@@ -216,3 +216,196 @@ farmacos:
     e: Prurito, molestias digestivas, prolongación del QT, hipoglicemia y retinopatía con uso prolongado.
     i: Precaución con otros fármacos que prolongan el QT.
     em: Compatible con el embarazo.
+  - n: Tenofovir
+    g: Antiviral · análogo de nucleótido
+    fam: Antivirales
+    q: Inhibe la transcriptasa inversa del VIH y la polimerasa del virus de la hepatitis B. Existe como disoproxil (TDF) y alafenamida (TAF).
+    u:
+      - Hepatitis B crónica (primera línea, con entecavir).
+      - Prevención de la transmisión vertical del VHB (ADN > 200 000 UI/mL).
+      - VIH (parte de la terapia antirretroviral y de la profilaxis preexposición).
+    d:
+      - Tenofovir disoproxil 300 mg/día VO.
+      - Tenofovir alafenamida 25 mg/día VO.
+      - Embarazo con ADN > 200 000 UI/mL desde las semanas 24–28.
+    a: TDF se ajusta a la función renal; TAF no se usa con depuración < 15 mL/min sin diálisis.
+    c: Alergia al fármaco.
+    e: TDF, tubulopatía proximal, caída del fósforo y de la densidad ósea; TAF, más aumento de peso y lípidos.
+    i: Más nefrotoxicidad con otros nefrotóxicos y AINE.
+    em: Compatible con el embarazo y la lactancia.
+    p: Al suspenderlo en la hepatitis B puede haber una reactivación grave; controlar transaminasas.
+  - n: Dolutegravir
+    g: Antiviral · inhibidor de la integrasa
+    fam: Antivirales
+    q: Inhibidor de la integrasa del VIH con alta barrera de resistencia; base de los esquemas antirretrovirales de primera línea.
+    u:
+      - Tratamiento del VIH (con dos análogos de nucleósido o con lamivudina).
+    d:
+      - 50 mg VO una vez al día.
+      - Con rifampicina 50 mg cada 12 h.
+    c: Uso con dofetilida.
+    e: Insomnio, cefalea, aumento de peso y alza leve de la creatinina (sin daño renal real).
+    i: Los antiácidos y suplementos de calcio, hierro o magnesio reducen su absorción (separar 2 h antes o 6 h después); la rifampicina obliga a doblar la dosis; sube los niveles de metformina.
+    em: Compatible con el embarazo (se prefiere en las guías actuales).
+    p: El alza de la creatinina en las primeras semanas es por bloqueo de su secreción tubular, no por nefrotoxicidad.
+  - n: Nirmatrelvir/ritonavir
+    g: Antiviral · inhibidor de la proteasa del SARS-CoV-2
+    fam: Antivirales
+    q: Inhibe la proteasa principal del SARS-CoV-2; el ritonavir eleva sus niveles al bloquear el CYP3A4.
+    u:
+      - COVID-19 leve a moderado en pacientes con alto riesgo de progresión, dentro de los 5 días de síntomas.
+    d:
+      - 300 mg/100 mg VO cada 12 h por 5 días.
+    a: TFG 30–60, 150 mg/100 mg cada 12 h; TFG < 30 no se recomienda.
+    c: Fármacos muy dependientes del CYP3A4 con riesgo grave (amiodarona, algunos antiarrítmicos, rifampicina, carbamazepina, estatinas como simvastatina) e insuficiencia hepática grave.
+    e: Disgeusia, diarrea e hipertensión.
+    i: Muchas e importantes por el ritonavir (tacrolimus, anticoagulantes, estatinas, antiepilépticos); revisar siempre una herramienta de interacciones.
+    em: Usar si el beneficio lo justifica.
+    p: Antes de indicarlo, revisar todos los fármacos del paciente; muchas veces basta suspender la estatina por unos días.
+  - n: Sofosbuvir/velpatasvir
+    g: Antiviral de acción directa · combinación pangenotípica
+    fam: Antivirales
+    q: Combinación de un inhibidor de la polimerasa NS5B (sofosbuvir) y uno de la NS5A (velpatasvir) que cura la hepatitis C de cualquier genotipo.
+    u:
+      - Hepatitis C crónica (esquema GES).
+    d:
+      - 400 mg/100 mg, 1 comprimido al día por 12 semanas.
+    a: Evitar con depuración de creatinina < 30 mL/min.
+    c: Uso con amiodarona (bradicardia grave).
+    e: Cefalea y fatiga.
+    i: Amiodarona (bradicardia); los IBP y antiácidos reducen la absorción del velpatasvir; rifampicina y carbamazepina bajan sus niveles; reactivación del VHB en coinfectados.
+    em: Sin datos suficientes; no se indica en el embarazo.
+    p: Antes de iniciar, buscar la hepatitis B (HBsAg), porque puede reactivarse al eliminar el VHC.
+  - n: Voriconazol
+    g: Antifúngico triazol
+    fam: Antifúngicos
+    q: Triazol de amplio espectro que inhibe la síntesis de ergosterol; es el tratamiento de primera línea de la aspergilosis invasora.
+    u:
+      - Aspergilosis invasora (primera línea).
+      - Candidiasis esofágica refractaria al fluconazol.
+    d:
+      - EV 6 mg/kg cada 12 h por 2 dosis y luego 4 mg/kg cada 12 h.
+      - VO 200–300 mg cada 12 h.
+      - Candidiasis esofágica refractaria 200 mg cada 12 h por 14–21 días.
+    a: Ajustar por niveles plasmáticos. En la ERC preferir la vía oral (el vehículo EV se acumula).
+    c: Uso con rifampicina, carbamazepina o fármacos que alargan el QT de alto riesgo.
+    e: Alteraciones visuales transitorias, alucinaciones, hepatotoxicidad, fotosensibilidad y QT largo.
+    i: Potente inhibidor del CYP3A4 (tacrolimus, ciclosporina, warfarina, estatinas, benzodiacepinas).
+    em: Contraindicado en el embarazo.
+    p: Medir los niveles valle; la variabilidad entre pacientes es muy grande.
+  - n: Terbinafina
+    g: Antifúngico alilamina
+    fam: Antifúngicos
+    q: Inhibe la escualeno epoxidasa de los dermatofitos; es fungicida y se acumula en la uña y la piel.
+    u:
+      - Onicomicosis confirmada.
+      - Tiña de la cabeza por *Trichophyton*.
+      - Tiñas extensas o refractarias (oral) y tiña del pie o del cuerpo (crema).
+    d:
+      - Onicomicosis 250 mg/día VO por 6 semanas (manos) o 12 semanas (pies).
+      - Tiña de la cabeza 10–20 kg 62,5 mg, 20–40 kg 125 mg, > 40 kg 250 mg/día por 4 semanas.
+    a: Evitar en la insuficiencia hepática y con depuración < 50 mL/min.
+    c: Hepatopatía crónica o activa.
+    e: Hepatotoxicidad (rara pero grave), alteración del gusto, exantema.
+    i: Inhibe el CYP2D6 (sube antidepresivos tricíclicos, betabloqueadores y tamoxifeno pierde efecto).
+    em: Evitar en el embarazo.
+    p: Confirmar la onicomicosis con KOH o cultivo antes de un tratamiento de 3 meses.
+  - n: Clotrimazol
+    g: Antifúngico imidazol tópico
+    fam: Antifúngicos
+    q: Azol de uso local en piel y mucosas, activo sobre *Candida* y dermatofitos.
+    u:
+      - Candidiasis orofaríngea leve.
+      - Balanitis candidiásica, intertrigo y dermatitis del pañal.
+      - Candidiasis vulvovaginal no complicada.
+    d:
+      - Candidiasis orofaríngea tabletas bucales 10 mg 5 veces al día por 7–14 días.
+      - Crema al 1 % 2 veces al día por 7–14 días.
+      - Vaginal crema al 1 % por 7–14 días o al 2 % por 3 días.
+    c: Alergia a imidazoles.
+    e: Irritación local.
+    em: Compatible (vía tópica y vaginal).
+  - n: Ketoconazol
+    g: Antifúngico imidazol · inhibidor de la esteroidogénesis
+    fam: Antifúngicos
+    q: Azol que hoy se usa sobre todo por vía tópica y, por vía oral, para bloquear la síntesis de cortisol.
+    u:
+      - Pitiriasis versicolor y dermatitis seborreica (champú o crema).
+      - Síndrome de Cushing, como puente a la cirugía o si esta falla (especialista).
+    d:
+      - Pitiriasis versicolor champú al 2 % por 5 minutos y enjuagar, 1–3 días seguidos o diario por 5 días.
+      - Cushing 400–1200 mg/día VO en 2 dosis.
+    c: Hepatopatía (vía oral).
+    e: Vía oral, hepatotoxicidad (controlar transaminasas), QT largo, ginecomastia e insuficiencia suprarrenal.
+    i: Potente inhibidor del CYP3A4; necesita ácido gástrico (evitar IBP).
+    em: Evitar la vía oral en el embarazo.
+    p: Por vía oral ya no se usa como antifúngico por su hepatotoxicidad.
+  - n: Primaquina
+    g: Antipalúdico 8-aminoquinolina
+    fam: Antiparasitarios y antipalúdicos
+    q: Elimina los hipnozoítos hepáticos de *P. vivax* y *P. ovale* (cura radical) y evita las recaídas.
+    u:
+      - Cura radical de la malaria por *P. vivax* o *P. ovale*, después del tratamiento de la fase sanguínea.
+    d:
+      - 0,25–0,5 mg base/kg/día VO por 14 días.
+    c: Déficit de G6PD (medirla antes), embarazo y lactancia.
+    e: Hemólisis en el déficit de G6PD, metahemoglobinemia, molestias digestivas.
+    em: Contraindicada en el embarazo y la lactancia.
+    p: Medir siempre la G6PD antes de indicarla.
+  - n: Artesunato
+    g: Antipalúdico derivado de la artemisinina
+    fam: Antiparasitarios y antipalúdicos
+    q: Esquizonticida sanguíneo de acción muy rápida; reduce la mortalidad de la malaria grave frente a la quinina.
+    u:
+      - Malaria grave por cualquier especie.
+    d:
+      - 2,4 mg/kg EV a las 0, 12 y 24 h y luego cada 24 h hasta tolerar la vía oral (mínimo 24 h EV); completar con una combinación oral con artemisinina por 3 días.
+    c: Alergia a derivados de la artemisinina.
+    e: Hemólisis tardía (controlar la hemoglobina por 4 semanas), bradicardia.
+    em: Se usa en la malaria grave en cualquier trimestre.
+    p: Después de una malaria grave tratada con artesunato, controlar la hemoglobina por 4 semanas por la hemólisis tardía.
+  - n: Praziquantel
+    g: Antihelmíntico (cestodos y trematodos)
+    fam: Antiparasitarios y antipalúdicos
+    q: Aumenta la permeabilidad al calcio de la membrana del parásito, que queda paralizado y se desprende.
+    u:
+      - Teniasis (*Taenia*) y difilobotriasis (*Dibothriocephalus*).
+      - "*Hymenolepis nana*."
+      - Neurocisticercosis (con albendazol y corticoides, especialista).
+    d:
+      - Teniasis y difilobotriasis 5–10 mg/kg VO en dosis única.
+      - "*Hymenolepis nana* 25 mg/kg en dosis única."
+    c: Cisticercosis ocular.
+    e: Mareo, dolor abdominal y cefalea.
+    i: Rifampicina y carbamazepina bajan mucho sus niveles.
+    em: Usar si el beneficio lo justifica.
+    p: "Con *T. solium*, descartar la neurocisticercosis antes: el praziquantel puede desencadenar convulsiones."
+  - n: Nitazoxanida
+    g: Antiparasitario de amplio espectro
+    fam: Antiparasitarios y antipalúdicos
+    q: Tiazólido que inhibe el metabolismo energético anaerobio de protozoos y helmintos.
+    u:
+      - Criptosporidiosis.
+      - Giardiasis (alternativa).
+      - "*Hymenolepis nana* (alternativa)."
+    d:
+      - 500 mg VO cada 12 h por 3 días.
+      - En el VIH con *Cryptosporidium*, 500–1000 mg cada 12 h por 14 días como complemento de la TAR.
+    c: Alergia al fármaco.
+    e: Dolor abdominal, cefalea y orina amarillo intenso.
+    em: Datos limitados.
+    p: En el VIH, lo que cura la criptosporidiosis es la recuperación de los CD4 con la TAR.
+  - n: Permetrina
+    g: Ectoparasiticida piretroide
+    fam: Antiparasitarios y antipalúdicos
+    q: Bloquea los canales de sodio de los artrópodos y los paraliza.
+    u:
+      - Escabiosis.
+      - Pediculosis de la cabeza.
+    d:
+      - Escabiosis crema al 5 % en todo el cuerpo desde el cuello, en la noche por 8–12 h; repetir a los 7 días.
+      - Pediculosis loción al 1 % por 10 minutos en el pelo seco y enjuagar; repetir a los 7–10 días.
+    c: Alergia a piretroides.
+    e: Prurito y ardor transitorios (el prurito de la escabiosis puede durar semanas después de curada).
+    em: Compatible con el embarazo y la lactancia.
+    p: En la escabiosis tratar a todos los contactos al mismo tiempo y lavar la ropa de cama a 60 °C.

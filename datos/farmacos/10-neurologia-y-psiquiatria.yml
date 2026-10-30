@@ -7,7 +7,7 @@ familias:
   - Antipsicóticos
   - Antidepresivos y estabilizadores del ánimo
   - Demencia, Parkinson y miastenia
-  - Alcohol y adicciones
+  - Alcohol, tabaco y adicciones
   - Migraña y TDAH
 farmacos:
   - n: Ácido valproico
@@ -550,7 +550,7 @@ farmacos:
     p: Usar triptanes más de 10 días al mes produce cefalea por abuso de medicamentos.
   - n: Tiamina
     g: Vitamina B1
-    fam: Alcohol y adicciones
+    fam: Alcohol, tabaco y adicciones
     q: Cofactor del metabolismo de la glucosa. Su déficit produce la encefalopatía de Wernicke y el beriberi.
     u:
       - Encefalopatía de Wernicke (sospechada o confirmada).
@@ -564,7 +564,7 @@ farmacos:
     p: Corregir también el magnesio; sin magnesio la tiamina no actúa bien.
   - n: Naltrexona
     g: Antagonista opioide oral
-    fam: Alcohol y adicciones
+    fam: Alcohol, tabaco y adicciones
     q: Bloquea los receptores opioides; reduce el deseo de consumo y el efecto placentero del alcohol.
     u:
       - Trastorno por consumo de alcohol (prevención de recaídas).
@@ -576,7 +576,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Acamprosato
     g: Modulador glutamatérgico
-    fam: Alcohol y adicciones
+    fam: Alcohol, tabaco y adicciones
     q: Reduce la hiperexcitabilidad glutamatérgica de la abstinencia prolongada; ayuda a mantener la abstinencia del alcohol.
     u:
       - Mantención de la abstinencia en el trastorno por consumo de alcohol (iniciar después de la desintoxicación).
@@ -602,3 +602,148 @@ farmacos:
     i: Potencia a los depresores del SNC.
     em: Usar si se necesita.
     p: Por vía IM, inyectar en un músculo profundo; evitar la vía EV.
+  - n: Venlafaxina
+    g: Inhibidor de la recaptura de serotonina y noradrenalina (IRSN)
+    fam: Antidepresivos y estabilizadores del ánimo
+    q: Antidepresivo dual; en dosis bajas es sobre todo serotoninérgico y en dosis altas suma efecto noradrenérgico.
+    u:
+      - Depresión (segunda línea) y trastorno de ansiedad generalizada.
+      - Bochornos sin terapia hormonal (también con tamoxifeno).
+    d:
+      - Depresión, venlafaxina XR 37,5 mg/día y luego 75–225 mg/día.
+      - Bochornos 37,5–75 mg/día.
+    a: Bajar la dosis en la ERC y la insuficiencia hepática.
+    c: Uso de IMAO, HTA no controlada.
+    e: Náuseas, alza de la presión arterial (dependiente de la dosis), sudoración y síndrome de discontinuación marcado.
+    i: Síndrome serotoninérgico con otros serotoninérgicos (tramadol, triptanes, linezolid).
+    em: Usar si el beneficio lo justifica.
+    p: Controlar la presión arterial y nunca suspenderla bruscamente.
+  - n: Paroxetina
+    g: Inhibidor selectivo de la recaptura de serotonina (ISRS)
+    fam: Antidepresivos y estabilizadores del ánimo
+    q: ISRS más sedante y anticolinérgico que los otros, con vida media corta.
+    u:
+      - Depresión, trastorno de pánico y ansiedad.
+      - Bochornos de la menopausia (dosis baja).
+    d:
+      - Depresión 10–20 mg/día, luego 20–50 mg/día.
+      - Bochornos 7,5 mg/día.
+    c: Uso de IMAO; uso con tamoxifeno.
+    e: Sedación, aumento de peso, disfunción sexual y síndrome de discontinuación intenso.
+    i: Potente inhibidor del CYP2D6 (reduce la activación del tamoxifeno); síndrome serotoninérgico con otros serotoninérgicos.
+    em: Evitar en el embarazo (malformaciones cardíacas).
+    p: Es el ISRS que más evitar en el adulto mayor por su efecto anticolinérgico.
+  - n: Flunarizina
+    g: Bloqueador de canales de calcio
+    fam: Migraña y TDAH
+    q: Antagonista del calcio con efecto antihistamínico y antidopaminérgico; se usa como preventivo de la migraña.
+    u:
+      - Prevención de la migraña (muy usada en Chile y Latinoamérica, también en niños).
+    d:
+      - 5–10 mg VO en la noche (niños < 40 kg 5 mg).
+    c: Depresión, parkinsonismo.
+    e: Depresión, parkinsonismo, somnolencia y aumento de peso.
+    i: Más sedación con alcohol y otros depresores.
+    em: Evitar en el embarazo.
+    p: En el adulto mayor puede causar parkinsonismo; preguntar por ella en todo temblor nuevo.
+  - n: Vareniclina
+    g: Agonista parcial del receptor nicotínico
+    fam: Alcohol, tabaco y adicciones
+    q: Estimula en parte el receptor nicotínico α4β2 y bloquea el efecto de la nicotina; reduce el deseo y la recompensa de fumar.
+    u:
+      - Cesación tabáquica (el fármaco más eficaz).
+    d:
+      - 0,5 mg/día por 3 días, 0,5 mg cada 12 h por 4 días y luego 1 mg cada 12 h por 12 semanas; iniciar 1 semana antes de la fecha de término.
+    a: Depuración de creatinina < 30 mL/min, máximo 0,5 mg cada 12 h.
+    c: Alergia al fármaco.
+    e: Náuseas (tomar con comida), sueños vívidos e insomnio.
+    em: No recomendada en el embarazo.
+    p: El estudio EAGLES no mostró más eventos neuropsiquiátricos que el placebo, pero hay que preguntar por el ánimo.
+  - n: Disulfiram
+    g: Inhibidor de la aldehído deshidrogenasa
+    fam: Alcohol, tabaco y adicciones
+    q: Bloquea el metabolismo del acetaldehído; si el paciente bebe, aparece una reacción aversiva (rubor, náuseas, taquicardia, hipotensión).
+    u:
+      - Mantención de la abstinencia en la dependencia al alcohol, en pacientes motivados y supervisados.
+    d:
+      - 250 mg/día VO.
+    c: Consumo de alcohol en las últimas 12 h, cardiopatía, psicosis, embarazo.
+    e: Hepatotoxicidad, neuropatía, sabor metálico.
+    i: Reacción con cualquier alcohol (también en jarabes y colutorios); potencia la warfarina y la fenitoína.
+    em: Contraindicado en el embarazo.
+    p: Solo con consentimiento del paciente y abstinencia de al menos 12 h.
+  - n: Oxcarbazepina
+    g: Antiepiléptico bloqueador de canales de sodio
+    fam: Antiepilépticos
+    q: Derivado de la carbamazepina con menos interacciones e inducción enzimática.
+    u:
+      - Epilepsia focal.
+      - Neuralgia del trigémino (alternativa a la carbamazepina).
+    d:
+      - 300 mg VO cada 12 h, subir 300 mg cada semana hasta 600–1200 mg cada 12 h.
+    a: Depuración de creatinina < 30 mL/min, iniciar con la mitad.
+    c: Alergia a la carbamazepina (reacción cruzada en cerca de 1/4).
+    e: Hiponatremia (más que la carbamazepina), mareo, diplopía y exantema.
+    i: Baja la eficacia de los anticonceptivos hormonales.
+    em: Usar si el beneficio lo justifica, con ácido fólico.
+    p: Medir el sodio, sobre todo en el adulto mayor o con diuréticos.
+  - n: Pramipexol
+    g: Agonista dopaminérgico no ergótico
+    fam: Demencia, Parkinson y miastenia
+    q: Estimula los receptores dopaminérgicos D2 y D3.
+    u:
+      - Enfermedad de Parkinson (en menores de 65–70 años o como complemento de la levodopa).
+      - Síndrome de piernas inquietas.
+    d:
+      - Parkinson 0,125 mg cada 8 h, subir cada semana hasta 0,5–1 mg cada 8 h (máximo 4,5 mg/día).
+      - Piernas inquietas 0,125 mg 2–3 h antes de acostarse, hasta 0,5 mg.
+    a: Ajustar a la función renal.
+    c: Psicosis.
+    e: Somnolencia y ataques de sueño, trastornos del control de impulsos (juego, compras, hipersexualidad), edema, alucinaciones y aumento en las piernas inquietas.
+    i: Más sedación con otros depresores; los antipsicóticos bloquean su efecto.
+    em: Evitar en el embarazo.
+    p: Preguntar en cada control por conductas impulsivas; el paciente no suele contarlo.
+  - n: Rivastigmina
+    g: Inhibidor de la acetilcolinesterasa y la butirilcolinesterasa
+    fam: Demencia, Parkinson y miastenia
+    q: Aumenta la acetilcolina en la corteza; disponible en parche, que da menos efectos digestivos.
+    u:
+      - Enfermedad de Alzheimer leve a moderada.
+      - Demencia de la enfermedad de Parkinson.
+    d:
+      - Parche 4,6 mg/24 h, subir a 9,5 mg/24 h tras 4 semanas (máximo 13,3 mg/24 h).
+      - Oral 1,5 mg cada 12 h, subir 1,5 mg cada 12 h cada 2 semanas.
+    c: Bradicardia o bloqueo AV sin marcapaso.
+    e: Náuseas, vómitos, baja de peso, bradicardia y síncope; irritación de la piel con el parche.
+    i: Bradicardia con betabloqueadores; los anticolinérgicos anulan su efecto.
+    em: No aplica.
+    p: Si se suspende más de 3 días, reiniciar desde la dosis más baja.
+  - n: Memantina
+    g: Antagonista del receptor NMDA
+    fam: Demencia, Parkinson y miastenia
+    q: Bloquea en forma parcial el receptor NMDA y reduce la excitotoxicidad por glutamato.
+    u:
+      - Enfermedad de Alzheimer moderada a grave (sola o con un inhibidor de la colinesterasa).
+    d:
+      - 5 mg/día, subir 5 mg cada semana hasta 20 mg/día.
+    a: Depuración de creatinina < 30 mL/min, 10 mg/día.
+    c: Alergia al fármaco.
+    e: Mareo, cefalea, constipación y confusión.
+    i: Con amantadina o ketamina se suman los efectos.
+    em: No aplica.
+    p: Es bien tolerada; útil cuando los inhibidores de la colinesterasa dan bradicardia.
+  - n: Amantadina
+    g: Antiparkinsoniano · antagonista NMDA
+    fam: Demencia, Parkinson y miastenia
+    q: Aumenta la liberación de dopamina y bloquea el receptor NMDA.
+    u:
+      - Discinesias por levodopa en la enfermedad de Parkinson.
+      - Parkinsonismo inducido por fármacos.
+    d:
+      - 100 mg VO cada 12 h (máximo 300–400 mg/día).
+    a: Reducir en la falla renal (se acumula).
+    c: Epilepsia no controlada, ERC grave sin ajuste.
+    e: Livedo reticularis, edema de tobillos, confusión y alucinaciones (más en el adulto mayor).
+    i: Más efectos anticolinérgicos con otros anticolinérgicos.
+    em: Evitar en el embarazo.
+    p: "No suspender bruscamente: puede dar un cuadro parecido al síndrome neuroléptico maligno."

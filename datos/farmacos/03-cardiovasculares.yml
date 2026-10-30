@@ -1,7 +1,7 @@
 orden: 3
 titulo: Cardiovasculares, diuréticos e hipolipemiantes
 familias:
-  - IECA y ARA-II
+  - IECA, ARA-II y ARNI
   - Betabloqueadores
   - Bloqueadores de canales de calcio
   - Diuréticos y antagonistas mineralocorticoides
@@ -87,7 +87,7 @@ farmacos:
     p: El asma no es una contraindicación absoluta para un betabloqueador cardioselectivo; sí lo es el broncoespasmo activo.
   - n: Captopril
     g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
-    fam: IECA y ARA-II
+    fam: IECA, ARA-II y ARNI
     q: IECA de acción corta (2–3 tomas al día).
     u:
       - Hipertensión y urgencia hipertensiva (dosis oral).
@@ -159,7 +159,7 @@ farmacos:
     p: Iniciar en la noche para evitar el síncope de la primera dosis; aumenta el riesgo de caídas en adultos mayores.
   - n: Enalapril
     g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
-    fam: IECA y ARA-II
+    fam: IECA, ARA-II y ARNI
     q: IECA de dos tomas al día; reduce la mortalidad en la IC con FE reducida y la progresión de la ERC proteinúrica.
     u:
       - Hipertensión arterial.
@@ -308,7 +308,7 @@ farmacos:
     em: De elección en las crisis hipertensivas del embarazo; compatible con la lactancia.
   - n: Losartán
     g: Antihipertensivo · antagonista del receptor de angiotensina II (ARA-II)
-    fam: IECA y ARA-II
+    fam: IECA, ARA-II y ARNI
     q: Bloquea el receptor AT1 de la angiotensina II. Efecto similar a los IECA, sin tos.
     u:
       - Hipertensión arterial.
@@ -517,3 +517,74 @@ farmacos:
     e: Constipación, distensión, alza de los triglicéridos y déficit de vitaminas liposolubles.
     i: Reduce la absorción de muchos fármacos (levotiroxina, warfarina, digoxina, anticonceptivos); darlos 1 h antes o 4–6 h después.
     em: Compatible (no se absorbe); vigilar las vitaminas liposolubles.
+  - n: Sacubitrilo/valsartán
+    g: ARNI · inhibidor de la neprilisina más ARA-II
+    fam: IECA, ARA-II y ARNI
+    q: Combina un inhibidor de la neprilisina (aumenta los péptidos natriuréticos) con valsartán; reduce mortalidad y hospitalizaciones en la insuficiencia cardíaca con FE reducida.
+    u:
+      - Insuficiencia cardíaca con FE reducida (preferido sobre IECA o ARA-II).
+    d:
+      - Inicio 24/26–49/51 mg VO cada 12 h; meta 97/103 mg cada 12 h.
+    a: Iniciar con dosis baja en la ERC, la hipotensión o el adulto mayor.
+    c: Angioedema previo, uso de IECA en las últimas 36 h, embarazo.
+    e: Hipotensión, hiperkalemia, alza de la creatinina y angioedema.
+    i: Nunca junto con un IECA (dejar 36 h entre ambos); más hiperkalemia con antagonistas mineralocorticoides y suplementos de potasio.
+    em: Contraindicado en el embarazo.
+    p: Sube el BNP (bloquea su degradación); para seguir a estos pacientes usar el NT-proBNP.
+  - n: Clortalidona
+    g: Diurético tipo tiazida
+    fam: Diuréticos y antagonistas mineralocorticoides
+    q: Diurético similar a la tiazida, más potente y de acción más larga que la hidroclorotiazida.
+    u:
+      - Hipertensión arterial (de primera línea).
+      - Hipertensión con ERC avanzada (sirve incluso con TFGe < 30).
+    d:
+      - 12,5–25 mg/día VO.
+    c: Anuria, hiponatremia o hipokalemia grave, gota activa.
+    e: Hipokalemia, hiponatremia, hiperuricemia, hiperglicemia e hipercalcemia.
+    i: Más hipokalemia con corticoides; sube los niveles de litio.
+    em: Evitar en el embarazo.
+    p: Controlar el sodio y el potasio a las 2–4 semanas de iniciarla, sobre todo en el adulto mayor.
+  - n: Eplerenona
+    g: Antagonista mineralocorticoide selectivo
+    fam: Diuréticos y antagonistas mineralocorticoides
+    q: Bloquea el receptor de aldosterona sin los efectos antiandrogénicos de la espironolactona.
+    u:
+      - Insuficiencia cardíaca con FE reducida (alternativa a la espironolactona si da ginecomastia).
+      - Hiperaldosteronismo primario si la espironolactona no se tolera.
+    d:
+      - Inicio 25 mg/día VO; meta 50 mg/día.
+    a: Potasio > 5,5 mEq/L, bajar a la mitad; > 6, suspender. Evitar con TFG < 30.
+    c: Potasio > 5 mEq/L al inicio, TFG < 30, uso con inhibidores potentes del CYP3A4.
+    e: Hiperkalemia y alza de la creatinina.
+    i: Más hiperkalemia con IECA, ARA-II, ARNI y suplementos de potasio; los inhibidores del CYP3A4 (claritromicina, ketoconazol) suben sus niveles.
+    em: Usar solo si el beneficio lo justifica.
+    p: Controlar potasio y creatinina a la semana, al mes y luego periódicamente.
+  - n: Propafenona
+    g: Antiarrítmico clase IC
+    fam: Antiarrítmicos y control de la frecuencia
+    q: Bloquea los canales de sodio y tiene un leve efecto betabloqueador; sirve para revertir y prevenir la FA sin cardiopatía estructural.
+    u:
+      - Cardioversión farmacológica de la FA sin cardiopatía estructural (también como píldora de bolsillo).
+      - Mantención del ritmo sinusal en corazón estructuralmente sano.
+    d:
+      - Cardioversión 450–600 mg VO en dosis única.
+      - Mantención 150–300 mg VO cada 8 h.
+    c: Cardiopatía isquémica, insuficiencia cardíaca o hipertrofia ventricular importante, bloqueo AV o de rama sin marcapaso, asma grave.
+    e: Conversión a flutter con conducción 1:1 (asociar un betabloqueador o un bloqueador de calcio), sabor metálico y broncoespasmo.
+    i: Sube la digoxina y la warfarina.
+    em: Usar solo si el beneficio lo justifica.
+    p: Antes de usarla como píldora de bolsillo, probar la primera dosis con monitorización.
+  - n: Mononitrato de isosorbide
+    g: Nitrato de acción larga
+    fam: Vasodilatadores y nitratos
+    q: Donador de óxido nítrico que dilata las venas y las coronarias y reduce la precarga.
+    u:
+      - Angina crónica estable (segunda línea, como antianginoso).
+    d:
+      - 30–120 mg/día VO, con un período libre de nitrato de 10–14 h.
+    c: Uso de inhibidores de la fosfodiesterasa 5 (sildenafil, tadalafilo), estenosis aórtica grave, miocardiopatía hipertrófica obstructiva.
+    e: Cefalea, hipotensión ortostática y tolerancia.
+    i: Hipotensión grave con sildenafil o tadalafilo.
+    em: Usar si el beneficio lo justifica.
+    p: Dar la dosis en la mañana para dejar libre la noche y evitar la tolerancia.

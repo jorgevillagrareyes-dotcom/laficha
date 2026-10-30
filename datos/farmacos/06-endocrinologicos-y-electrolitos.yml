@@ -444,3 +444,103 @@ farmacos:
     e: Hipernatremia, sobrecarga de volumen, hipokalemia, baja del calcio iónico y alcalosis.
     i: Precipita con calcio en la misma vía.
     em: Usar si se necesita.
+  - n: Insulina NPH
+    g: Insulina humana de acción intermedia
+    fam: Diabetes e hipoglicemia
+    q: Insulina humana con protamina que actúa en 1–2 h, tiene un pico a las 4–8 h y dura 12–16 h. Es la insulina basal del GES y la más usada en el embarazo en Chile.
+    u:
+      - Diabetes tipo 2 que no logra la meta con fármacos orales (insulina basal nocturna).
+      - Diabetes gestacional y pregestacional.
+      - Esquema basal-bolo en la diabetes tipo 1 (en 2 dosis).
+    d:
+      - DM2, inicio 10 U o 0,1–0,2 U/kg en la noche; subir 2 U cada 3 días hasta la glicemia de ayuno meta.
+      - Diabetes gestacional, solo ayuno alterado 0,1 U/kg NPH nocturna; tarde alterada 0,15 U/kg NPH matinal.
+    a: Bajar la dosis en la ERC avanzada y en el adulto mayor frágil.
+    c: Hipoglicemia.
+    e: Hipoglicemia (sobre todo nocturna por su pico), aumento de peso.
+    i: Los betabloqueadores ocultan los síntomas adrenérgicos de la hipoglicemia; los corticoides suben los requerimientos.
+    em: De elección en el embarazo junto con los análogos.
+    p: Si hay hipoglicemias de madrugada con NPH nocturna, bajar la dosis o pasar a un análogo basal sin pico.
+  - n: Insulina glargina
+    g: Análogo de insulina de acción prolongada
+    fam: Diabetes e hipoglicemia
+    q: Análogo basal que dura cerca de 24 h casi sin pico; da menos hipoglicemias nocturnas que la NPH.
+    u:
+      - Insulina basal en la diabetes tipo 1 (esquema basal-bolo).
+      - Diabetes tipo 2 con hipoglicemias nocturnas con NPH.
+    d:
+      - Diabetes tipo 1, cerca del 50 % de la dosis total diaria una vez al día (ejemplo, 60 kg × 0,5 U/kg = 30 U/día, glargina 15 U).
+    a: Bajar la dosis en la ERC avanzada.
+    c: Hipoglicemia.
+    e: Hipoglicemia y aumento de peso.
+    i: Igual que las demás insulinas.
+    em: Se puede usar en el embarazo.
+    p: En la diabetes tipo 1 nunca suspender la basal, aunque el paciente no coma (riesgo de cetoacidosis).
+  - n: Glibenclamida
+    g: Sulfonilurea de segunda generación
+    fam: Diabetes e hipoglicemia
+    q: Estimula la liberación de insulina por el páncreas; potente, barata y de efecto prolongado por un metabolito activo de eliminación renal.
+    u:
+      - Diabetes tipo 2 (segunda línea, cuando no hay otra opción).
+    d:
+      - 2,5–20 mg/día VO, antes de las comidas.
+    a: Evitar en la ERC y en el adulto mayor (preferir gliclazida o glimepirida).
+    c: Diabetes tipo 1, ERC, insuficiencia hepática, adulto mayor frágil.
+    e: Hipoglicemia prolongada (puede durar más de 24 h) y aumento de peso.
+    i: Más hipoglicemia con fluoroquinolonas, cotrimoxazol, fluconazol y alcohol.
+    em: No es de elección; preferir la insulina.
+    p: "La hipoglicemia por glibenclamida se hospitaliza: dura muchas horas y recurre tras la glucosa."
+  - n: Liraglutida
+    g: Agonista del receptor GLP-1 (arGLP-1) de uso diario
+    fam: Diabetes e hipoglicemia
+    q: Análogo del GLP-1 que aumenta la secreción de insulina dependiente de glucosa, enlentece el vaciamiento gástrico y reduce el apetito.
+    u:
+      - Diabetes tipo 2, sobre todo con enfermedad cardiovascular aterosclerótica u obesidad.
+      - Obesidad (IMC ≥ 30, o ≥ 27 con complicaciones).
+    d:
+      - DM2 0,6 mg/día SC por 1 semana y luego 1,2–1,8 mg/día.
+      - Obesidad 0,6 mg/día, subir 0,6 mg cada semana hasta 3 mg/día.
+    c: Antecedente personal o familiar de carcinoma medular de tiroides o MEN 2, pancreatitis previa, embarazo.
+    e: Náuseas, vómitos, diarrea, taquicardia leve, litiasis biliar y pancreatitis (rara).
+    i: Con insulina o sulfonilureas, más hipoglicemia (bajar sus dosis).
+    em: Suspender antes de un embarazo planificado.
+    p: Subir la dosis lento para reducir las náuseas.
+  - n: Calcitriol
+    g: Vitamina D activa (1,25-dihidroxivitamina D)
+    fam: Hueso y calcio
+    q: Forma activa de la vitamina D; no necesita la hidroxilación renal y aumenta la absorción intestinal de calcio.
+    u:
+      - Hipoparatiroidismo (incluido el posterior a una tiroidectomía).
+      - Hipocalcemia de la ERC avanzada con hiperparatiroidismo secundario.
+    d:
+      - 0,25–0,5 µg/día VO, más calcio oral.
+    c: Hipercalcemia.
+    e: Hipercalcemia e hipercalciuria (riesgo de litiasis y nefrocalcinosis).
+    i: Las tiazidas aumentan el riesgo de hipercalcemia.
+    em: Se usa en el hipoparatiroidismo del embarazo, con control estricto.
+    p: En el hipoparatiroidismo la meta es el calcio normal bajo (8–8,5 mg/dL) sin hipercalciuria.
+  - n: Teriparatida
+    g: Análogo de la PTH · anabólico óseo
+    fam: Hueso y calcio
+    q: Fragmento de la PTH que, dado en forma intermitente, estimula la formación de hueso.
+    u:
+      - Osteoporosis con riesgo de fractura muy alto (fracturas vertebrales múltiples o recientes, T ≤ −3,5, corticoides en dosis altas).
+    d:
+      - 20 µg SC diarios por 24 meses (una vez en la vida); después siempre un antirresortivo.
+    c: Hipercalcemia, enfermedad de Paget, radioterapia ósea previa, metástasis óseas, fosfatasa alcalina elevada sin causa clara.
+    e: Hipercalcemia transitoria, hipotensión ortostática y calambres.
+    em: Contraindicada en el embarazo.
+    p: Al terminarla hay que indicar un bifosfonato o denosumab; si no, se pierde lo ganado.
+  - n: Patiromer
+    g: Quelante intestinal de potasio
+    fam: Electrolitos y ácido-base
+    q: Polímero que intercambia calcio por potasio en el colon y aumenta su eliminación fecal.
+    u:
+      - Hiperkalemia crónica, para mantener IECA, ARA-II o antagonistas mineralocorticoides en la insuficiencia cardíaca o la ERC.
+    d:
+      - 8,4 g/día VO (efecto en horas).
+    c: Obstrucción intestinal.
+    e: Constipación, hipomagnesemia.
+    i: Se une a otros fármacos; separar su administración 3 h.
+    em: No se absorbe; datos limitados.
+    p: "No sirve para la hiperkalemia grave aguda: actúa lento."

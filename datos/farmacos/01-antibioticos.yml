@@ -609,3 +609,84 @@ farmacos:
     e: Neuritis óptica (baja de la agudeza visual y de la visión de colores), dosis dependiente.
     em: Compatible.
     p: Controlar la agudeza visual y la visión de colores antes y durante el tratamiento.
+  - n: Cefuroxima
+    g: Cefalosporina de segunda generación
+    fam: Cefalosporinas
+    q: Betalactámico oral y EV con buena actividad sobre estreptococos, Haemophilus, Moraxella y muchas enterobacterias.
+    u:
+      - Pielonefritis o cistitis con cultivo sensible, cuando no se puede usar otra opción oral.
+      - Otitis, sinusitis y neumonía comunitaria leve (alternativa a la amoxicilina/clavulánico).
+      - ITU en niños (terapia oral).
+    d:
+      - Adultos 500 mg VO cada 12 h (ITU por 7 días).
+      - Niños 30 mg/kg/día VO en 2 dosis.
+    a: Ajustar a la función renal.
+    c: Anafilaxia a betalactámicos.
+    e: Diarrea, *C. difficile*, exantema.
+    em: Compatible con el embarazo y la lactancia.
+    p: En la pielonefritis los betalactámicos orales fallan más que las fluoroquinolonas; usarlos solo con cultivo sensible.
+  - n: Ertapenem
+    g: Carbapenémico sin actividad antipseudomónica
+    fam: Carbapenémicos
+    q: Carbapenémico de una dosis diaria activo sobre enterobacterias productoras de BLEE y anaerobios, sin cobertura de *Pseudomonas* ni *Acinetobacter*.
+    u:
+      - ITU o pielonefritis con riesgo de BLEE.
+      - Infección intraabdominal comunitaria (incluida la apendicitis en manejo no operatorio).
+      - Terapia EV ambulatoria por su dosis única diaria.
+    d:
+      - 1 g EV cada 24 h.
+      - Apendicitis no complicada en manejo no operatorio 1 g EV cada 24 h por 3 días y luego terapia oral.
+    a: Depuración de creatinina ≤ 30 mL/min, 500 mg cada 24 h.
+    c: Anafilaxia a betalactámicos.
+    e: Diarrea, flebitis y convulsiones (raras, más en la ERC).
+    i: Baja mucho los niveles del ácido valproico (riesgo de convulsiones); evitar la combinación.
+    em: Usar si el beneficio lo justifica.
+    p: No sirve para la neumonía nosocomial ni la sepsis con riesgo de *Pseudomonas*.
+  - n: Daptomicina
+    g: Lipopéptido cíclico
+    fam: Contra grampositivos resistentes
+    q: Antibiótico bactericida que despolariza la membrana de los grampositivos, incluidos SARM y enterococo resistente a vancomicina.
+    u:
+      - Bacteriemia y endocarditis por SARM (alternativa a la vancomicina).
+      - Osteomielitis por SARM.
+      - Infecciones de piel complicadas por grampositivos resistentes.
+    d:
+      - Endocarditis 10 mg/kg/día EV (8–10 mg/kg/día).
+      - Osteomielitis 6–8 mg/kg/día EV.
+    a: Depuración de creatinina < 30 mL/min, cada 48 h.
+    c: Neumonía (el surfactante la inactiva).
+    e: Miopatía y rabdomiólisis (medir CK semanal), neumonía eosinofílica.
+    i: Más miopatía con estatinas (suspenderlas durante el tratamiento).
+    em: Datos limitados; usar si no hay alternativa.
+    p: Nunca para la neumonía, aunque el germen sea sensible.
+  - n: Colistina
+    g: Polimixina
+    fam: Otros antibacterianos
+    q: Antibiótico catiónico que rompe la membrana externa de los gramnegativos; reservado para bacilos multirresistentes.
+    u:
+      - Infección crónica por *Pseudomonas* en bronquiectasias (vía inhalada, especialista).
+      - Gramnegativos multirresistentes (*Acinetobacter*, *Pseudomonas*, *Klebsiella* productora de carbapenemasas), vía EV y con infectología.
+    d:
+      - Inhalada 1 millón de UI cada 12 h.
+      - EV según infectología (dosis de carga y ajuste renal).
+    a: Ajustar a la función renal en la vía EV.
+    c: Miastenia gravis.
+    e: Nefrotoxicidad y neurotoxicidad (vía EV); broncoespasmo (vía inhalada, usar broncodilatador antes).
+    i: Más nefrotoxicidad con aminoglicósidos y vancomicina; potencia los bloqueadores neuromusculares.
+    em: Evitar salvo que no haya alternativa.
+  - n: Tinidazol
+    g: Nitroimidazol
+    fam: Otros antibacterianos
+    q: Nitroimidazol de vida media larga, activo sobre protozoos (Giardia, Entamoeba, Trichomonas) y anaerobios.
+    u:
+      - Giardiasis.
+      - Amebiasis intestinal y absceso hepático amebiano.
+      - Tricomoniasis y vaginosis bacteriana.
+    d:
+      - Giardiasis 2 g VO en dosis única.
+      - Colitis amebiana 2 g/día VO por 3–5 días; absceso hepático amebiano 2 g/día por 5 días.
+    c: Primer trimestre del embarazo, alergia a nitroimidazoles.
+    e: Sabor metálico, náuseas y efecto disulfiram con alcohol.
+    i: Efecto disulfiram con alcohol; potencia la warfarina.
+    em: Evitar en el primer trimestre; en la lactancia suspender 72 h.
+    p: En la amebiasis, seguir con un amebicida luminal (paromomicina) para erradicar los quistes.

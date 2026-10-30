@@ -2,8 +2,8 @@ orden: 7
 titulo: Respiratorios y antialérgicos
 familias:
   - Broncodilatadores
-  - Corticoides inhalados
-  - Antileucotrienos y antihistamínicos
+  - Corticoides inhalados y combinaciones
+  - Antileucotrienos, antihistamínicos y biológicos
   - Oxígeno y mucolíticos
 farmacos:
   - n: Salbutamol
@@ -47,7 +47,7 @@ farmacos:
     em: Compatible.
   - n: Beclometasona
     g: Corticoide inhalado
-    fam: Corticoides inhalados
+    fam: Corticoides inhalados y combinaciones
     q: Corticoide de acción local en la vía aérea; reduce la inflamación y las crisis en el asma.
     u:
       - Asma persistente (sola o con formoterol como mantención y rescate).
@@ -59,7 +59,7 @@ farmacos:
     p: Enjuagarse la boca y escupir después de cada uso para evitar la candidiasis.
   - n: Budesonida
     g: Corticoide inhalado, nasal, nebulizado y oral
-    fam: Corticoides inhalados
+    fam: Corticoides inhalados y combinaciones
     q: Corticoide con alto metabolismo hepático de primer paso; en combinación con formoterol es la base de la vía 1 de GINA.
     u:
       - Asma (budesonida-formoterol según necesidad o como mantención y rescate).
@@ -73,7 +73,7 @@ farmacos:
     em: Es el corticoide inhalado con más experiencia en el embarazo.
   - n: Fluticasona
     g: Corticoide inhalado y nasal
-    fam: Corticoides inhalados
+    fam: Corticoides inhalados y combinaciones
     q: Corticoide de alta potencia tópica; se combina con salmeterol o vilanterol.
     u:
       - Asma persistente y EPOC con exacerbaciones (combinada con LABA).
@@ -87,7 +87,7 @@ farmacos:
     p: Las combinaciones con salmeterol o vilanterol no sirven como rescate (su inicio es lento).
   - n: Montelukast
     g: Antagonista del receptor de leucotrienos
-    fam: Antileucotrienos y antihistamínicos
+    fam: Antileucotrienos, antihistamínicos y biológicos
     q: Bloquea los leucotrienos que producen broncoconstricción e inflamación.
     u:
       - Asma (alternativa o complemento del corticoide inhalado) y broncoespasmo por ejercicio.
@@ -99,7 +99,7 @@ farmacos:
     p: Advertir a los pacientes y padres sobre los cambios de conducta o del sueño.
   - n: Cetirizina
     g: Antihistamínico H1 de segunda generación
-    fam: Antileucotrienos y antihistamínicos
+    fam: Antileucotrienos, antihistamínicos y biológicos
     q: Antihistamínico poco sedante de una toma al día.
     u:
       - Urticaria aguda y crónica (se puede subir hasta 4 veces la dosis).
@@ -112,7 +112,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Loratadina
     g: Antihistamínico H1 de segunda generación
-    fam: Antileucotrienos y antihistamínicos
+    fam: Antileucotrienos, antihistamínicos y biológicos
     q: Antihistamínico de una toma al día, con muy poca sedación.
     u:
       - Rinitis alérgica y urticaria.
@@ -122,7 +122,7 @@ farmacos:
     em: Compatible.
   - n: Clorfenamina
     g: Antihistamínico H1 de primera generación
-    fam: Antileucotrienos y antihistamínicos
+    fam: Antileucotrienos, antihistamínicos y biológicos
     q: Antihistamínico sedante con efecto anticolinérgico; existe en forma inyectable.
     u:
       - Síntomas cutáneos de reacciones alérgicas y de la anafilaxia (coadyuvante, después de la adrenalina).
@@ -166,3 +166,47 @@ farmacos:
     e: Reacciones anafilactoides (exantema, broncoespasmo), sobre todo con la primera dosis; náuseas y vómitos.
     em: Compatible; se usa en la intoxicación en el embarazo.
     p: Si la reacción anafilactoide es leve, pausar, dar un antihistamínico y continuar más lento; no suspender el antídoto.
+  - n: Budesonida-formoterol
+    g: Corticoide inhalado más LABA de inicio rápido
+    fam: Corticoides inhalados y combinaciones
+    q: Combina un corticoide inhalado con un broncodilatador de acción larga que actúa en minutos; por eso sirve de mantención y de rescate en un solo inhalador.
+    u:
+      - Asma, pasos 1–2 de GINA como rescate antiinflamatorio según necesidad (AIR).
+      - Asma, pasos 3–5 como mantención y rescate (MART).
+      - EPOC con eosinófilos altos o exacerbaciones (como ICS-LABA).
+    d:
+      - AIR 160/4,5 µg, 1 inhalación según necesidad.
+      - MART 1–2 inhalaciones cada 12 h más 1 según necesidad (máximo 12 al día).
+    c: Alergia al fármaco.
+    e: Candidiasis oral y disfonía (enjuagar la boca), temblor y taquicardia.
+    i: Los inhibidores del CYP3A4 (ritonavir, itraconazol) aumentan el efecto sistémico del corticoide.
+    em: Compatible con el embarazo; no suspender el control del asma.
+    p: En el asma no se indica el salbutamol solo como rescate en ningún paso de GINA; el rescate preferido es este inhalador.
+  - n: Tiotropio
+    g: Antimuscarínico de acción larga (LAMA)
+    fam: Broncodilatadores
+    q: Bloquea los receptores muscarínicos M3 del bronquio por 24 h.
+    u:
+      - EPOC (broncodilatador de mantención de primera línea, solo o con LABA).
+      - Asma no controlada en el paso 5 (agregado a ICS-LABA).
+    d:
+      - 18 µg/día inhalado (polvo) o 5 µg/día (Respimat, 2 inhalaciones).
+    c: Alergia a la atropina o sus derivados.
+    e: Boca seca, retención urinaria y constipación; glaucoma agudo si cae en los ojos.
+    i: Sumar a otros anticolinérgicos aumenta los efectos adversos.
+    em: Usar si el beneficio lo justifica.
+    p: Cuidado en el hombre con HPB y residuo alto.
+  - n: Omalizumab
+    g: Anticuerpo monoclonal anti-IgE
+    fam: Antileucotrienos, antihistamínicos y biológicos
+    q: Se une a la IgE libre y baja la expresión de sus receptores en mastocitos y basófilos.
+    u:
+      - Urticaria crónica espontánea que no responde a antihistamínicos en 4 veces la dosis estándar.
+      - Asma alérgica grave (especialista).
+    d:
+      - Urticaria crónica 300 mg SC cada 4 semanas (se puede subir a 600 mg o acortar a cada 2 semanas).
+      - Asma, según el peso y la IgE total.
+    c: Alergia al fármaco.
+    e: Reacción en el sitio de la inyección y anafilaxia (rara; observar tras las primeras dosis).
+    em: Datos tranquilizadores en el embarazo.
+    p: Responde cerca de 2/3 de los pacientes con urticaria crónica.

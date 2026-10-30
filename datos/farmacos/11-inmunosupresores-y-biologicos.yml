@@ -164,3 +164,77 @@ farmacos:
     i: Inhibe el CYP2D6. Los inductores potentes del CYP3A4 reducen sus niveles.
     em: No aplica.
     p: Controlar las pruebas hepáticas cada 2 semanas los primeros 3 meses, y el potasio y la PA en forma periódica.
+  - n: Tacrolimus
+    g: Inhibidor de la calcineurina
+    fam: Inmunosupresores e inmunomoduladores
+    q: Bloquea la calcineurina y la activación de los linfocitos T. Se usa por vía oral (trasplante y glomerulopatías) y tópica.
+    u:
+      - Prevención del rechazo en trasplantes (especialista).
+      - GEFS primaria corticorresistente y otras glomerulopatías (especialista).
+      - Vitíligo y dermatitis atópica de la cara y los pliegues (pomada).
+    d:
+      - Oral, según niveles plasmáticos (especialista).
+      - Pomada al 0,1 % cada 12 h (vitíligo, al menos 6 meses).
+    c: Alergia a los macrólidos inmunosupresores.
+    e: Oral, nefrotoxicidad, hiperkalemia, hipomagnesemia, diabetes postrasplante, temblor y HTA; tópico, ardor local.
+    i: "Muchas por el CYP3A4: claritromicina, azoles, diltiazem y nirmatrelvir/ritonavir suben sus niveles; rifampicina y antiepilépticos inductores los bajan."
+    em: Se usa en trasplantadas embarazadas, con niveles.
+    p: Ante cualquier fármaco nuevo en un trasplantado, revisar la interacción con el tacrolimus.
+  - n: Micofenolato
+    g: Antimetabolito · inhibidor de la síntesis de purinas
+    fam: Inmunosupresores e inmunomoduladores
+    q: Inhibe la IMP deshidrogenasa y frena la proliferación de los linfocitos.
+    u:
+      - Nefritis lúpica clase III, IV o V (inducción y mantención).
+      - Ahorrador de corticoides en el LES, las miopatías inflamatorias y las enfermedades ampollares.
+      - Prevención del rechazo en trasplantes.
+    d:
+      - Micofenolato mofetil 1–1,5 g VO cada 12 h (inducción en la nefritis lúpica).
+    c: Embarazo (teratogénico), lactancia.
+    e: Diarrea, leucopenia, infecciones y teratogenia.
+    i: Los IBP y los antiácidos reducen su absorción; la colestiramina baja sus niveles.
+    em: Teratogénico; suspender al menos 6 semanas antes del embarazo y cambiar a azatioprina.
+    p: Exigir anticoncepción eficaz en las mujeres en edad fértil.
+  - n: Sulfasalazina
+    g: FARME convencional · aminosalicilato
+    fam: Inmunosupresores e inmunomoduladores
+    q: Combina sulfapiridina y 5-ASA; tiene efecto antiinflamatorio intestinal y articular.
+    u:
+      - Artritis reumatoide (sola o en terapia combinada).
+      - Espondiloartritis con compromiso periférico.
+      - Colitis ulcerosa leve a moderada.
+    d:
+      - 500 mg/día, subir hasta 2–3 g/día VO.
+    c: Alergia a sulfas o salicilatos, porfiria.
+    e: Náuseas, exantema, leucopenia, hepatotoxicidad y oligospermia reversible.
+    i: Reduce la absorción de la digoxina y el ácido fólico.
+    em: Segura en el embarazo (dar ácido fólico).
+    p: Controlar el hemograma y el perfil hepático, sobre todo en los primeros meses.
+  - n: Leflunomida
+    g: FARME convencional · inhibidor de la síntesis de pirimidinas
+    fam: Inmunosupresores e inmunomoduladores
+    q: Inhibe la dihidroorotato deshidrogenasa y frena la proliferación de los linfocitos.
+    u:
+      - Artritis reumatoide (alternativa al metotrexato o en combinación).
+      - Artritis psoriásica.
+    d:
+      - 20 mg/día VO.
+    c: Embarazo, hepatopatía, inmunodeficiencia grave.
+    e: Hepatotoxicidad, HTA, diarrea y caída del pelo.
+    i: Más hepatotoxicidad con metotrexato y alcohol; la colestiramina acelera su eliminación.
+    em: Teratogénica; antes de un embarazo, lavado con colestiramina y medir niveles.
+    p: "Su vida media es de semanas: al suspenderla por embarazo o toxicidad, hacer el lavado con colestiramina."
+  - n: Tocilizumab
+    g: Anticuerpo monoclonal anti-receptor de IL-6
+    fam: Biológicos e inmunoglobulina
+    q: Bloquea el receptor de la interleuquina 6.
+    u:
+      - COVID-19 grave que progresa pese a la dexametasona.
+      - Artritis reumatoide y arteritis de células gigantes (especialista).
+    d:
+      - COVID-19 8 mg/kg EV en dosis única (máximo 800 mg).
+    c: Infección bacteriana o fúngica activa no controlada; neutrófilos < 500/µL.
+    e: Infecciones, alza de transaminasas, neutropenia, dislipidemia y perforación intestinal (más con diverticulitis).
+    i: Normaliza la actividad del CYP3A4 (puede bajar los niveles de algunos fármacos).
+    em: Datos limitados.
+    p: Deja la PCR baja aunque haya una infección; no usarla para seguir la infección.

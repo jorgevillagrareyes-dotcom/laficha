@@ -469,3 +469,27 @@ farmacos:
     e: Cefalea, diarrea, palpitaciones y taquicardia.
     i: Reducir a 50 mg cada 12 h con inhibidores del CYP3A4 o 2C19 (claritromicina, omeprazol en dosis altas).
     em: Evitar en el embarazo.
+  - n: Idarucizumab
+    g: Anticuerpo monoclonal · antídoto del dabigatrán
+    fam: Hemostáticos y antídotos
+    q: Fragmento de anticuerpo que se une al dabigatrán y revierte su efecto en minutos.
+    u:
+      - Hemorragia grave o cirugía urgente en un paciente con dabigatrán.
+    d:
+      - 5 g EV (2 frascos de 2,5 g).
+    c: Ninguna absoluta en la urgencia.
+    e: Trombosis (por la enfermedad de base) y reacciones de hipersensibilidad.
+    em: Sin datos; se usa si hay riesgo vital.
+    p: Si no está disponible, el dabigatrán se puede retirar con hemodiálisis.
+  - n: Andexanet alfa
+    g: Antídoto de los inhibidores del factor Xa
+    fam: Hemostáticos y antídotos
+    q: Proteína recombinante parecida al factor Xa que actúa como señuelo y captura al rivaroxabán y al apixabán.
+    u:
+      - Hemorragia grave (sobre todo intracraneal) en pacientes con rivaroxabán o apixabán.
+    d:
+      - Según la ficha técnica (bolo seguido de infusión, en dosis baja o alta según el fármaco, la dosis y la hora de la última toma).
+    c: Ninguna absoluta en la urgencia.
+    e: Eventos trombóticos (más que con el complejo protrombínico en ANNEXA-I) y reacciones a la infusión.
+    em: Sin datos.
+    p: La alternativa más disponible es el complejo protrombínico de 4 factores 50 U/kg, que algunas guías prefieren en la hemorragia intracraneal.
