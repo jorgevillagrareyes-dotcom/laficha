@@ -362,14 +362,22 @@
     campo.addEventListener("input", function () {
       var q = plano(campo.value.trim()), n = 0;
       items.forEach(function (d, i) { var ok = !q || textos[i].indexOf(q) !== -1; d.hidden = !ok; if (ok) n++; });
-      familias.forEach(function (f) { f.hidden = !f.querySelector("details.farmaco:not([hidden])"); });
-      secciones.forEach(function (s) { s.hidden = !s.querySelector(".farm-familia:not([hidden])"); });
+      // Con texto: se abren los grupos y familias con resultados; sin texto: todo vuelve a plegarse
+      familias.forEach(function (f) { f.hidden = !f.querySelector("details.farmaco:not([hidden])"); f.open = !!q && !f.hidden; });
+      secciones.forEach(function (s) { s.hidden = !s.querySelector(".farm-familia:not([hidden])"); s.open = !!q && !s.hidden; });
       vacio.hidden = n > 0; contar(n);
       if (q && n <= 2) items.forEach(function (d) { if (!d.hidden) d.open = true; });
+      if (!q) items.forEach(function (d) { d.open = false; });
     });
     // Abrir la ficha si el enlace apunta a un fármaco (#farmaco-nombre)
     var m = location.hash.match(/^#farmaco-/);
-    if (m) { var d = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (d) { d.open = true; setTimeout(function () { d.scrollIntoView({ block: "start" }); }, 50); } }
+    if (m) {
+      var d = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (d) { for (var x = d; x; x = x.parentElement ? x.parentElement.closest("details") : null) x.open = true; setTimeout(function () { d.scrollIntoView({ block: "start" }); }, 50); }
+    }
+    // Enlace a un grupo (#antibioticos): abrirlo
+    var g = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (g && g.classList.contains("farm-seccion")) g.open = true;
   }
 
   function accesibilidad() {

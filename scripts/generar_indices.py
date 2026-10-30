@@ -417,19 +417,13 @@ def main():
         "# Fármacos\n",
         f'<p class="farm-lead"><strong>{total_f} fármacos</strong> en {len(grupos)} grupos y {total_fam} familias, con lo que necesitas en sala: '
         "para qué se usa, dosis habitual en adultos, ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. "
-        "Toca un fármaco para abrir su ficha.</p>\n",
+        "Abre un grupo, luego una familia y toca el fármaco para ver su ficha.</p>\n",
         '!!! warning "Antes de indicar"\n    Las dosis son las habituales en adultos con función renal y hepática normales. '
         "Revisa la indicación en el resumen correspondiente, el peso, la función renal, las interacciones, la ficha técnica (ISP) "
         "y el protocolo de tu centro.\n",
         '<div class="farm-herr"><input type="search" class="farm-filtro" placeholder="Buscar fármaco, familia o uso: amoxicilina, betabloqueador, anafilaxia" '
         'aria-label="Buscar fármacos"><span class="farm-total" aria-live="polite"></span></div>\n',
     ]
-    mapa = ['<nav class="farm-mapa" aria-label="Grupos de fármacos">']
-    for k, (_o, titulo, familias, lista) in enumerate(grupos, 1):
-        mapa.append(f'<a class="farm-tile farm-t{k}" href="#{slug(titulo)}"><span class="farm-tile-n">{len(lista)}</span>'
-                    f'<strong>{esc(titulo)}</strong><small>{esc(" · ".join(familias))}</small></a>')
-    mapa.append("</nav>\n")
-    partes.append("".join(mapa))
 
     def corto(g):
         c = g.split(" · ", 1)[1] if " · " in g else g
@@ -445,12 +439,15 @@ def main():
         return f'<div class="farm-caja{" " + clase if clase else ""}"><p class="farm-et">{etiqueta}</p>{cuerpo}</div>'
 
     for k, (_orden, titulo, familias, lista) in enumerate(grupos, 1):
-        partes.append(f'<section class="farm-seccion farm-t{k}" id="{slug(titulo)}">\n')
-        partes.append(f'<h2 class="farm-h2">{esc(titulo)} <span>{len(lista)}</span></h2>\n')
+        partes.append(f'<details class="farm-seccion farm-t{k}" id="{slug(titulo)}"><summary class="farm-h2">'
+                      f'<span class="farm-g-n">{len(lista)}</span><span class="farm-g-txt"><strong>{esc(titulo)}</strong>'
+                      f'<small>{esc(" · ".join(familias))}</small></span></summary><div class="farm-g-cuerpo">\n')
         for fam in familias:
             miembros = sorted((f for f in lista if f["fam"] == fam), key=lambda x: clave(x["n"]))
-            partes.append(f'<div class="farm-familia"><h3 class="farm-h3" id="{slug(titulo)}-{slug(fam)}">{esc(fam)} <span>{len(miembros)}</span></h3>'
-                          '<div class="farm-tarjetas">')
+            nombres = ", ".join(f["n"] for f in miembros)
+            partes.append(f'<details class="farm-familia" id="{slug(titulo)}-{slug(fam)}"><summary class="farm-h3">'
+                          f'<span class="farm-f-txt"><strong>{esc(fam)}</strong><small>{esc(nombres)}</small></span>'
+                          f'<span class="farm-f-n">{len(miembros)}</span></summary><div class="farm-tarjetas">')
             for f in miembros:
                 usos = f.get("u") or []
                 resumen = usos[0].rstrip(".") if usos else ""
@@ -481,8 +478,8 @@ def main():
                     partes.append('<div class="farm-en"><p class="farm-et">En La Ficha</p><p>'
                                   + "".join(f'<a href="{esc(r[:-3] + ".html")}">{esc(t)}</a>' for t, r in enlaces) + "</p></div>")
                 partes.append("</div></details>")
-            partes.append("</div></div>\n")
-        partes.append("</section>\n")
+            partes.append("</div></details>\n")
+        partes.append("</div></details>\n")
     (DOCS / "farmacos.md").write_text("\n".join(partes), encoding="utf-8")
 
     # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)
