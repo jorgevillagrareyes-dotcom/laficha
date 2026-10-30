@@ -1,8 +1,17 @@
 orden: 5
 titulo: Antitrombóticos, hemostasia y sangre
+familias:
+  - Antiagregantes plaquetarios
+  - Anticoagulantes orales
+  - Anticoagulantes parenterales
+  - Trombolíticos
+  - Hemostáticos y antídotos
+  - Hemoderivados
+  - Anemia y otros hematológicos
 farmacos:
   - n: Ácido acetilsalicílico
     g: Antiagregante plaquetario · AINE
+    fam: Antiagregantes plaquetarios
     q: Inhibe de forma irreversible la ciclooxigenasa 1 de las plaquetas (efecto de 7–10 días). En dosis altas es analgésico y antiinflamatorio.
     u:
       - SCA y prevención secundaria cardiovascular y cerebrovascular.
@@ -19,6 +28,7 @@ farmacos:
     p: En prevención primaria ya no se indica de rutina; el sangrado supera al beneficio en la mayoría.
   - n: Clopidogrel
     g: Antiagregante plaquetario · inhibidor P2Y12
+    fam: Antiagregantes plaquetarios
     q: Profármaco que bloquea de forma irreversible el receptor P2Y12 de las plaquetas. Su activación depende del CYP2C19.
     u:
       - SCA con fibrinólisis, con anticoagulación oral o si no se pueden usar ticagrelor ni prasugrel.
@@ -33,6 +43,7 @@ farmacos:
     p: Suspenderlo 5 días antes de una cirugía mayor electiva (consultar al cardiólogo si hay un stent reciente).
   - n: Prasugrel
     g: Antiagregante plaquetario · inhibidor P2Y12
+    fam: Antiagregantes plaquetarios
     q: Inhibidor P2Y12 irreversible, más potente y predecible que el clopidogrel.
     u:
       - SCA que va a angioplastía, una vez conocida la anatomía coronaria.
@@ -45,6 +56,7 @@ farmacos:
     p: Suspender 7 días antes de una cirugía mayor electiva.
   - n: Ticagrelor
     g: Antiagregante plaquetario · inhibidor P2Y12 reversible
+    fam: Antiagregantes plaquetarios
     q: Inhibidor P2Y12 directo y reversible, de inicio rápido. Redujo la mortalidad frente a clopidogrel en el SCA (estudio PLATO).
     u:
       - SCA con o sin supradesnivel del ST (de elección junto a prasugrel).
@@ -58,6 +70,7 @@ farmacos:
     p: Suspender 3–5 días antes de una cirugía mayor electiva.
   - n: Acenocumarol
     g: Anticoagulante oral · antagonista de la vitamina K
+    fam: Anticoagulantes orales
     q: Cumarínico que inhibe la síntesis hepática de los factores II, VII, IX y X. Es el antagonista de vitamina K más usado en Chile.
     u:
       - Prótesis valvulares mecánicas y FA con estenosis mitral moderada a grave (donde los ACOD no sirven).
@@ -75,6 +88,7 @@ farmacos:
     p: Ante cualquier antibiótico nuevo, controlar el INR a los 3–5 días.
   - n: Warfarina
     g: Anticoagulante oral · antagonista de la vitamina K
+    fam: Anticoagulantes orales
     q: Cumarínico de vida media más larga que el acenocumarol; mismo mecanismo y mismas indicaciones.
     u:
       - Prótesis valvulares mecánicas, FA con estenosis mitral, síndrome antifosfolípidos.
@@ -87,6 +101,7 @@ farmacos:
     em: Contraindicada en el embarazo; compatible con la lactancia.
   - n: Apixabán
     g: Anticoagulante oral directo · inhibidor del factor Xa
+    fam: Anticoagulantes orales
     q: Inhibidor directo del factor Xa; no requiere controles de INR y tiene menos sangrado mayor que la warfarina.
     u:
       - FA no valvular (prevención del ACV).
@@ -101,6 +116,7 @@ farmacos:
     em: Contraindicado en el embarazo y la lactancia.
   - n: Rivaroxabán
     g: Anticoagulante oral directo · inhibidor del factor Xa
+    fam: Anticoagulantes orales
     q: Inhibidor directo del factor Xa de una toma diaria.
     u:
       - FA no valvular.
@@ -117,6 +133,7 @@ farmacos:
     p: Tomarlo con comida; en ayunas se absorbe mal.
   - n: Dabigatrán
     g: Anticoagulante oral directo · inhibidor directo de la trombina
+    fam: Anticoagulantes orales
     q: Inhibidor directo de la trombina con eliminación principalmente renal. Tiene antídoto específico (idarucizumab).
     u:
       - FA no valvular.
@@ -130,6 +147,7 @@ farmacos:
     em: Contraindicado en el embarazo y la lactancia.
   - n: Edoxabán
     g: Anticoagulante oral directo · inhibidor del factor Xa
+    fam: Anticoagulantes orales
     q: Inhibidor directo del factor Xa de una toma diaria.
     u:
       - FA no valvular.
@@ -142,6 +160,7 @@ farmacos:
     em: Contraindicado en el embarazo y la lactancia.
   - n: Enoxaparina
     g: Anticoagulante parenteral · heparina de bajo peso molecular
+    fam: Anticoagulantes parenterales
     q: Heparina fraccionada que inhibe sobre todo el factor Xa; dosis por peso sin controles de rutina.
     u:
       - Profilaxis de la enfermedad tromboembólica en pacientes hospitalizados y quirúrgicos.
@@ -159,6 +178,7 @@ farmacos:
     p: La protamina solo la revierte en parte.
   - n: Heparina no fraccionada
     g: Anticoagulante parenteral
+    fam: Anticoagulantes parenterales
     q: Potencia la antitrombina contra la trombina y el factor Xa. Vida media corta, totalmente reversible con protamina y útil en la ERC.
     u:
       - TEP de alto riesgo (antes y después de la trombólisis) y anticoagulación en la ERC avanzada.
@@ -174,6 +194,7 @@ farmacos:
     p: Si las plaquetas bajan > 50 % entre los días 5 y 10, calcular el puntaje 4T y sospechar una trombocitopenia inducida por heparina.
   - n: Fondaparinux
     g: Anticoagulante parenteral · inhibidor indirecto del factor Xa
+    fam: Anticoagulantes parenterales
     q: Pentasacárido sintético que inhibe el factor Xa a través de la antitrombina; no causa trombocitopenia inducida por heparina.
     u:
       - SCA sin supradesnivel si no se hará coronariografía precoz.
@@ -189,6 +210,7 @@ farmacos:
     em: Alternativa en embarazadas con alergia o trombocitopenia por heparina.
   - n: Alteplasa
     g: Trombolítico · activador tisular del plasminógeno recombinante
+    fam: Trombolíticos
     q: Convierte el plasminógeno unido a la fibrina en plasmina y disuelve el trombo.
     u:
       - ACV isquémico agudo (< 4,5 h).
@@ -204,6 +226,7 @@ farmacos:
     em: El embarazo es una contraindicación relativa; evaluar caso a caso.
   - n: Tenecteplase
     g: Trombolítico · activador del plasminógeno modificado
+    fam: Trombolíticos
     q: Variante de la alteplasa más específica para la fibrina y de vida media más larga; se da en un solo bolo.
     u:
       - IAM con supradesnivel del ST si la angioplastía no es posible a tiempo.
@@ -216,6 +239,7 @@ farmacos:
     em: Evaluar caso a caso.
   - n: Estreptoquinasa
     g: Trombolítico de primera generación
+    fam: Trombolíticos
     q: Proteína bacteriana que activa el plasminógeno; no es específica de la fibrina y es antigénica.
     u:
       - IAM con supradesnivel del ST cuando no hay otros trombolíticos.
@@ -227,6 +251,7 @@ farmacos:
     p: "No repetirla en el mismo paciente: genera anticuerpos neutralizantes."
   - n: Ácido tranexámico
     g: Antifibrinolítico
+    fam: Hemostáticos y antídotos
     q: Bloquea la unión del plasminógeno a la fibrina e impide la fibrinólisis.
     u:
       - Trauma con hemorragia (dentro de las 3 h).
@@ -243,6 +268,7 @@ farmacos:
     p: No se indica en la hemorragia digestiva (estudio HALT-IT, sin beneficio y con más trombosis).
   - n: Vitamina K
     g: Vitamina liposoluble · antídoto de los antagonistas de la vitamina K
+    fam: Hemostáticos y antídotos
     q: Fitomenadiona; cofactor de la síntesis de los factores II, VII, IX y X. Revierte el efecto de acenocumarol y warfarina en 6–24 h.
     u:
       - INR elevado o sangrado en usuarios de acenocumarol o warfarina.
@@ -256,6 +282,7 @@ farmacos:
     em: Compatible.
   - n: Protamina
     g: Antídoto de la heparina
+    fam: Hemostáticos y antídotos
     q: Proteína básica que se une a la heparina y la neutraliza.
     u:
       - Sangrado o sobredosis con heparina no fraccionada.
@@ -268,6 +295,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Complejo protrombínico
     g: Hemoderivado · concentrado de factores de coagulación
+    fam: Hemostáticos y antídotos
     q: Concentrado de factores II, VII, IX y X (4 factores). Revierte la anticoagulación en minutos con poco volumen.
     u:
       - Sangrado grave o cirugía urgente en usuarios de acenocumarol o warfarina (con vitamina K).
@@ -280,6 +308,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Plasma fresco congelado
     g: Hemoderivado
+    fam: Hemoderivados
     q: Plasma con todos los factores de la coagulación.
     u:
       - Sangrado con coagulopatía y transfusión masiva (proporción cercana a 1:1:1 con glóbulos rojos y plaquetas).
@@ -292,6 +321,7 @@ farmacos:
     em: Compatible.
   - n: Crioprecipitado
     g: Hemoderivado
+    fam: Hemoderivados
     q: Fracción del plasma rica en fibrinógeno, factor VIII, factor de von Willebrand y factor XIII.
     u:
       - Fibrinógeno < 1,5 g/L con sangrado (CID, hemorragia posparto, trauma).
@@ -302,6 +332,7 @@ farmacos:
     em: Compatible.
   - n: Plaquetas
     g: Hemoderivado
+    fam: Hemoderivados
     q: Concentrado de plaquetas por aféresis o de donantes múltiples.
     u:
       - Profilaxis con plaquetas < 10.000/µL en hipoproliferación (quimioterapia, aplasia).
@@ -314,6 +345,7 @@ farmacos:
     em: Compatible.
   - n: Albúmina
     g: Hemoderivado · coloide
+    fam: Hemoderivados
     q: Proteína plasmática que aumenta la presión oncótica.
     u:
       - Paracentesis evacuadora de más de 5 L.
@@ -329,6 +361,7 @@ farmacos:
     p: No se usa en la reanimación inicial de la sepsis (Surviving Sepsis 2026).
   - n: Desmopresina
     g: Análogo de la hormona antidiurética (agonista V2)
+    fam: Hemostáticos y antídotos
     q: Análogo de vasopresina con efecto antidiurético y liberador de factor VIII y von Willebrand, sin efecto vasopresor.
     u:
       - Diabetes insípida central.
@@ -344,6 +377,7 @@ farmacos:
     em: Compatible.
   - n: Eritropoyetina
     g: Agente estimulante de la eritropoyesis
+    fam: Anemia y otros hematológicos
     q: Eritropoyetina recombinante que estimula la producción de glóbulos rojos.
     u:
       - Anemia de la ERC con Hb < 10 g/dL, una vez corregido el déficit de hierro.
@@ -356,6 +390,7 @@ farmacos:
     p: Antes de iniciarla, asegurar ferritina > 100 ng/mL y saturación de transferrina > 20 %.
   - n: Fierro
     g: Mineral · suplemento de hierro
+    fam: Anemia y otros hematológicos
     q: Hierro para reponer los depósitos. Por vía oral (sales ferrosas) o EV (sacarosa, carboximaltosa).
     u:
       - Anemia ferropénica y déficit de hierro sin anemia.
@@ -371,6 +406,7 @@ farmacos:
     p: La Hb debería subir ~ 1–2 g/dL en 3–4 semanas; si no, revisar la adherencia, la pérdida y la malabsorción (celiaquía, H. pylori).
   - n: Ácido fólico
     g: Vitamina del complejo B (B9)
+    fam: Anemia y otros hematológicos
     q: Cofactor de la síntesis de ADN; su déficit produce anemia megaloblástica y defectos del tubo neural.
     u:
       - Prevención de defectos del tubo neural desde antes de la concepción.
@@ -385,6 +421,7 @@ farmacos:
     p: No tratar una anemia megaloblástica solo con folato sin descartar el déficit de B12 (puede empeorar el daño neurológico).
   - n: Vitamina B12
     g: Vitamina del complejo B (cianocobalamina)
+    fam: Anemia y otros hematológicos
     q: Cofactor de la síntesis de ADN y de la mielina. Su déficit causa anemia megaloblástica y daño neurológico.
     u:
       - Anemia perniciosa y déficit por gastrectomía, cirugía bariátrica, metformina o dieta vegana.
@@ -395,6 +432,7 @@ farmacos:
     em: Compatible.
   - n: Hidroxocobalamina
     g: Antídoto · forma de vitamina B12
+    fam: Anemia y otros hematológicos
     q: Precursor de la vitamina B12 que se une al cianuro y forma cianocobalamina, que se elimina por la orina.
     u:
       - Intoxicación por cianuro (incendios en espacios cerrados, nitroprusiato).
@@ -407,6 +445,7 @@ farmacos:
     p: Sospechar cianuro en el rescatado de un incendio con acidosis láctica grave (> 8 mmol/L) y compromiso de conciencia.
   - n: Hidroxiurea
     g: Citorreductor · inhibidor de la ribonucleótido reductasa
+    fam: Anemia y otros hematológicos
     q: Antimetabolito oral que reduce la producción medular de glóbulos rojos, blancos y plaquetas.
     u:
       - Policitemia vera y trombocitemia esencial de alto riesgo.
@@ -418,3 +457,15 @@ farmacos:
     c: Mielosupresión grave. Embarazo.
     e: Mielosupresión, macrocitosis, úlceras en las piernas, lesiones cutáneas y teratogenicidad.
     em: Contraindicada en el embarazo; usar anticoncepción eficaz.
+  - n: Cilostazol
+    g: Antiagregante y vasodilatador · inhibidor de la fosfodiesterasa 3
+    fam: Antiagregantes plaquetarios
+    q: Inhibe la fosfodiesterasa 3 de plaquetas y vasos; mejora la distancia de marcha.
+    u:
+      - Claudicación intermitente en la enfermedad arterial periférica.
+    d:
+      - 100 mg VO cada 12 h, 30 min antes o 2 h después de comer.
+    c: Insuficiencia cardíaca de cualquier grado. Sangrado activo.
+    e: Cefalea, diarrea, palpitaciones y taquicardia.
+    i: Reducir a 50 mg cada 12 h con inhibidores del CYP3A4 o 2C19 (claritromicina, omeprazol en dosis altas).
+    em: Evitar en el embarazo.

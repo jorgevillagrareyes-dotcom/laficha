@@ -1,8 +1,13 @@
 orden: 11
 titulo: Inmunosupresores, biológicos y oncológicos
+familias:
+  - Inmunosupresores e inmunomoduladores
+  - Biológicos e inmunoglobulina
+  - Hormonoterapia oncológica
 farmacos:
   - n: Azatioprina
     g: Inmunosupresor · antimetabolito de las purinas
+    fam: Inmunosupresores e inmunomoduladores
     q: Profármaco de la mercaptopurina que inhibe la proliferación de linfocitos; tarda 2–3 meses en actuar.
     u:
       - Enfermedad inflamatoria intestinal (mantención y ahorro de corticoides).
@@ -18,6 +23,7 @@ farmacos:
     p: Controlar el hemograma y las pruebas hepáticas cada 1–2 semanas al inicio y luego cada 3 meses; usar fotoprotección.
   - n: Ciclofosfamida
     g: Inmunosupresor y quimioterápico · agente alquilante
+    fam: Inmunosupresores e inmunomoduladores
     q: Alquilante que destruye linfocitos y células tumorales en proliferación.
     u:
       - Nefritis lúpica grave y vasculitis ANCA grave (inducción).
@@ -32,6 +38,7 @@ farmacos:
     em: Contraindicada en el embarazo (teratogénica).
   - n: Ciclosporina
     g: Inmunosupresor · inhibidor de la calcineurina
+    fam: Inmunosupresores e inmunomoduladores
     q: Inhibe la activación de los linfocitos T. Margen terapéutico estrecho; se ajusta por niveles.
     u:
       - Trasplante de órganos.
@@ -47,6 +54,7 @@ farmacos:
     em: Se usa en el embarazo de trasplantadas.
   - n: Metotrexato
     g: Inmunosupresor y quimioterápico · antagonista del folato
+    fam: Inmunosupresores e inmunomoduladores
     q: Antifolato que en dosis bajas semanales actúa como antiinflamatorio e inmunomodulador; es la base del tratamiento de la artritis reumatoide.
     u:
       - Artritis reumatoide (primera línea) y artritis psoriásica.
@@ -64,6 +72,7 @@ farmacos:
     p: Es una vez por SEMANA. Tomarlo a diario por error produce toxicidad grave o mortal; el antídoto es el ácido folínico (leucovorina).
   - n: Hidroxicloroquina
     g: Antipalúdico con efecto inmunomodulador
+    fam: Inmunosupresores e inmunomoduladores
     q: Antimalárico que interfiere con la activación inmune; reduce los brotes y la mortalidad en el LES.
     u:
       - LES (indicada en casi todos los pacientes).
@@ -79,6 +88,7 @@ farmacos:
     p: Control oftalmológico al inicio y anual desde los 5 años de uso (antes si hay factores de riesgo).
   - n: Adalimumab
     g: Biológico · anticuerpo monoclonal anti-TNF alfa
+    fam: Biológicos e inmunoglobulina
     q: Anticuerpo humano que bloquea el TNF alfa; se administra en forma subcutánea.
     u:
       - Artritis reumatoide, espondiloartritis y artritis psoriásica.
@@ -94,6 +104,7 @@ farmacos:
     p: Antes de iniciar cualquier anti-TNF, descartar tuberculosis latente (PPD o IGRA y radiografía), VHB, VHC y VIH, y actualizar las vacunas.
   - n: Infliximab
     g: Biológico · anticuerpo monoclonal quimérico anti-TNF alfa
+    fam: Biológicos e inmunoglobulina
     q: Anticuerpo anti-TNF de administración endovenosa.
     u:
       - Enfermedad de Crohn (incluida la fistulizante) y colitis ulcerosa, también grave refractaria a corticoides.
@@ -107,6 +118,7 @@ farmacos:
     em: Según el especialista.
   - n: Rituximab
     g: Biológico · anticuerpo monoclonal anti-CD20
+    fam: Biológicos e inmunoglobulina
     q: Elimina los linfocitos B por varios meses.
     u:
       - Linfomas B (con quimioterapia) y leucemia linfática crónica.
@@ -123,6 +135,7 @@ farmacos:
     p: Antes de usarlo, pedir HBsAg y anti-HBc; si alguno es positivo, dar profilaxis antiviral (entecavir o tenofovir).
   - n: Inmunoglobulina
     g: Hemoderivado · inmunoglobulina humana endovenosa
+    fam: Biológicos e inmunoglobulina
     q: IgG de miles de donantes; aporta anticuerpos y modula la respuesta inmune.
     u:
       - Síndrome de Guillain-Barré y crisis miasténica.
@@ -140,6 +153,7 @@ farmacos:
     em: Se usa en el embarazo si está indicada.
   - n: Abiraterona
     g: Hormonoterapia · inhibidor de la síntesis de andrógenos (CYP17)
+    fam: Hormonoterapia oncológica
     q: Bloquea la producción de andrógenos en testículo, suprarrenal y tumor; se da con prednisona y con la castración.
     u:
       - Cáncer de próstata metastásico, resistente a la castración o hormonosensible de alto riesgo.

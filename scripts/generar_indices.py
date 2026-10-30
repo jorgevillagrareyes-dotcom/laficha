@@ -14,6 +14,7 @@ Uso:  python3 scripts/generar_indices.py
 from collections import OrderedDict
 from pathlib import Path
 import os
+import html
 import re
 import unicodedata
 
@@ -406,48 +407,82 @@ def main():
     grupos = []
     for archivo in sorted((RAIZ / "datos" / "farmacos").glob("*.yml")):
         datos = yaml.safe_load(archivo.read_text(encoding="utf-8"))
-        grupos.append((datos["orden"], datos["titulo"], datos.get("intro", ""), datos["farmacos"]))
-    grupos.sort()
+        grupos.append((datos["orden"], datos["titulo"], datos.get("familias", []), datos["farmacos"]))
+    grupos.sort(key=lambda g: g[0])
     total_f = sum(len(g[3]) for g in grupos)
+    total_fam = sum(len(g[2]) for g in grupos)
+    esc = html.escape
     partes = [
         "---\nhide:\n  - navigation\n  - toc\n---\n",
         "# Fármacos\n",
-        f"Fichas de **{total_f} fármacos** usados en los resúmenes de La Ficha: qué es, para qué se usa, dosis habitual en adultos, "
-        "ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. Toca el nombre para abrir la ficha.\n",
+        f'<p class="farm-lead"><strong>{total_f} fármacos</strong> en {len(grupos)} grupos y {total_fam} familias, con lo que necesitas en sala: '
+        "para qué se usa, dosis habitual en adultos, ajustes, contraindicaciones, efectos adversos, interacciones y embarazo. "
+        "Toca un fármaco para abrir su ficha.</p>\n",
         '!!! warning "Antes de indicar"\n    Las dosis son las habituales en adultos con función renal y hepática normales. '
         "Revisa la indicación en el resumen correspondiente, el peso, la función renal, las interacciones, la ficha técnica (ISP) "
         "y el protocolo de tu centro.\n",
-        '<input type="search" class="farm-filtro" placeholder="Buscar fármaco, grupo o uso; por ejemplo: amoxicilina, betabloqueador" aria-label="Buscar fármacos">\n',
-        '<nav class="lf-chips" aria-label="Grupos">' + "".join(f'<a href="#{slug(t)}">{t}<span>{len(f)}</span></a>' for _o, t, _i, f in grupos) + "</nav>\n",
+        '<div class="farm-herr"><input type="search" class="farm-filtro" placeholder="Buscar fármaco, familia o uso: amoxicilina, betabloqueador, anafilaxia" '
+        'aria-label="Buscar fármacos"><span class="farm-total" aria-live="polite"></span></div>\n',
     ]
-    def bloque(etiqueta, valor):
+    mapa = ['<nav class="farm-mapa" aria-label="Grupos de fármacos">']
+    for k, (_o, titulo, familias, lista) in enumerate(grupos, 1):
+        mapa.append(f'<a class="farm-tile farm-t{k}" href="#{slug(titulo)}"><span class="farm-tile-n">{len(lista)}</span>'
+                    f'<strong>{esc(titulo)}</strong><small>{esc(" · ".join(familias))}</small></a>')
+    mapa.append("</nav>\n")
+    partes.append("".join(mapa))
+
+    def corto(g):
+        c = g.split(" · ", 1)[1] if " · " in g else g
+        return c[:1].upper() + c[1:]
+
+    def lista_html(xs):
+        return "<ul>" + "".join(f"<li>{esc(x)}</li>" for x in xs) + "</ul>"
+
+    def caja(etiqueta, valor, clase=""):
         if not valor:
-            return []
-        if isinstance(valor, list):
-            return [f"    **{etiqueta}**", ""] + [f"    - {x}" for x in valor] + [""]
-        return [f"    **{etiqueta}.** {valor}", ""]
-    for _orden, titulo, intro, lista in grupos:
-        partes.append(f"## {titulo} {{ #{slug(titulo)} }}\n")
-        if intro:
-            partes.append(intro + "\n")
-        for f in sorted(lista, key=lambda x: clave(x["n"])):
-            partes.append(f'??? farmaco "{f["n"]}"')
-            partes.append(f'    <p class="farm-grupo">{f["g"]}</p>')
-            partes.append("")
-            partes += bloque("Qué es", f.get("q"))
-            partes += bloque("Para qué se usa", f.get("u"))
-            partes += bloque(f.get("dt", "Dosis habitual en adultos"), f.get("d"))
-            partes += bloque("Ajustes", f.get("a"))
-            partes += bloque("Contraindicaciones", f.get("c"))
-            partes += bloque("Efectos adversos", f.get("e"))
-            partes += bloque("Interacciones y precauciones", f.get("i"))
-            partes += bloque("Embarazo y lactancia", f.get("em"))
-            if f.get("p"):
-                partes += ['    !!! perla "Perla"', f'        {f["p"]}', ""]
-            enlaces = paginas_de_farmaco.get(f["n"], [])
-            if enlaces:
-                partes.append("    **En La Ficha:** " + " · ".join(f"[{t}]({r})" for t, r in enlaces))
-                partes.append("")
+            return ""
+        cuerpo = lista_html(valor) if isinstance(valor, list) else f"<p>{esc(valor)}</p>"
+        return f'<div class="farm-caja{" " + clase if clase else ""}"><p class="farm-et">{etiqueta}</p>{cuerpo}</div>'
+
+    for k, (_orden, titulo, familias, lista) in enumerate(grupos, 1):
+        partes.append(f'<section class="farm-seccion farm-t{k}" id="{slug(titulo)}">\n')
+        partes.append(f'<h2 class="farm-h2">{esc(titulo)} <span>{len(lista)}</span></h2>\n')
+        for fam in familias:
+            miembros = sorted((f for f in lista if f["fam"] == fam), key=lambda x: clave(x["n"]))
+            partes.append(f'<div class="farm-familia"><h3 class="farm-h3" id="{slug(titulo)}-{slug(fam)}">{esc(fam)} <span>{len(miembros)}</span></h3>'
+                          '<div class="farm-tarjetas">')
+            for f in miembros:
+                usos = f.get("u") or []
+                resumen = usos[0].rstrip(".") if usos else ""
+                bloques = [
+                    f'<details class="farmaco" id="farmaco-{slug(f["n"])}"><summary><span class="farm-n">{esc(f["n"])}</span>'
+                    f'<span class="farm-c">{esc(corto(f["g"]))}</span>'
+                    + (f'<span class="farm-u">{esc(resumen)}</span>' if resumen else "") + "</summary>",
+                    '<div class="farm-ficha">',
+                    f'<p class="farm-grupo">{esc(f["g"])}</p>',
+                    f'<p class="farm-que">{esc(f["q"])}</p>' if f.get("q") else "",
+                    '<div class="farm-dos">',
+                    caja("Para qué se usa", usos, "farm-usos"),
+                    caja(f.get("dt", "Dosis habitual en adultos"), f.get("d"), "farm-dosis"),
+                    "</div>",
+                    '<div class="farm-grilla">',
+                    caja("Ajustes", f.get("a")),
+                    caja("Contraindicaciones", f.get("c")),
+                    caja("Efectos adversos", f.get("e")),
+                    caja("Interacciones y precauciones", f.get("i")),
+                    caja("Embarazo y lactancia", f.get("em")),
+                    "</div>",
+                    f'<div class="farm-perla"><p class="farm-et">Perla</p><p>{esc(f["p"])}</p></div>' if f.get("p") else "",
+                ]
+                html_ficha = "".join(bloques)
+                enlaces = paginas_de_farmaco.get(f["n"], [])
+                partes.append(html_ficha)
+                if enlaces:
+                    partes.append('<div class="farm-en"><p class="farm-et">En La Ficha</p><p>'
+                                  + "".join(f'<a href="{esc(r[:-3] + ".html")}">{esc(t)}</a>' for t, r in enlaces) + "</p></div>")
+                partes.append("</div></details>")
+            partes.append("</div></div>\n")
+        partes.append("</section>\n")
     (DOCS / "farmacos.md").write_text("\n".join(partes), encoding="utf-8")
 
     # Página "Mis temas" (la llena javascripts/laficha.js con lo guardado en el navegador)

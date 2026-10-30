@@ -338,30 +338,38 @@
     });
   }
 
-  // Índice de fármacos: filtro por nombre (sin distinguir tildes)
+  // Fármacos: filtro por nombre, clase, familia o uso (sin distinguir tildes); oculta familias y grupos vacíos
   function filtroFarmacos() {
     var campo = document.querySelector(".farm-filtro");
     if (!campo || campo.getAttribute("data-lf") === "1") return;
     campo.setAttribute("data-lf", "1");
-    var plano = function (t) { return t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
+    var plano = function (t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); };
     var items = Array.prototype.slice.call(document.querySelectorAll("details.farmaco"));
-    // Se busca en el nombre, el grupo y los usos (no en interacciones, para no mostrar de más)
+    var familias = Array.prototype.slice.call(document.querySelectorAll(".farm-familia"));
+    var secciones = Array.prototype.slice.call(document.querySelectorAll(".farm-seccion"));
+    var total = document.querySelector(".farm-total");
+    // Se busca en el nombre, la clase, la familia y los usos (no en interacciones, para no mostrar de más)
     var textos = items.map(function (d) {
-      var grupo = d.querySelector(".farm-grupo"), usos = d.querySelector("ul");
-      return plano(d.querySelector("summary").textContent + " " + (grupo ? grupo.textContent : "") + " " + (usos ? usos.textContent : ""));
+      var fam = d.closest(".farm-familia").querySelector(".farm-h3"), grupo = d.querySelector(".farm-grupo"), usos = d.querySelector(".farm-usos");
+      return plano(d.querySelector("summary").textContent + " " + (grupo ? grupo.textContent : "") + " " +
+        (fam ? fam.textContent : "") + " " + (usos ? usos.textContent : ""));
     });
-    var titulos = Array.prototype.slice.call(document.querySelectorAll(".md-typeset h2"));
+    var vacio = document.createElement("p"); vacio.className = "farm-vacio"; vacio.hidden = true;
+    vacio.textContent = "No hay fármacos que coincidan. Prueba con otro nombre o con el grupo (por ejemplo, «IECA» o «anticoagulante»).";
+    if (secciones.length) secciones[0].parentNode.insertBefore(vacio, secciones[0]);
+    function contar(n) { if (total) total.textContent = n === items.length ? items.length + " fármacos" : n + " de " + items.length + " fármacos"; }
+    contar(items.length);
     campo.addEventListener("input", function () {
-      var q = plano(campo.value.trim());
-      items.forEach(function (d, i) { d.style.display = !q || textos[i].indexOf(q) !== -1 ? "" : "none"; });
-      titulos.forEach(function (h) {
-        var hay = false, n = h.nextElementSibling;
-        while (n && n.tagName !== "H2") { if (n.matches("details.farmaco") && n.style.display !== "none") hay = true; n = n.nextElementSibling; }
-        h.style.display = hay || !q ? "" : "none";
-      });
-      var visibles = items.filter(function (x) { return x.style.display !== "none"; });
-      if (q && visibles.length <= 2) visibles.forEach(function (d) { d.open = true; });
+      var q = plano(campo.value.trim()), n = 0;
+      items.forEach(function (d, i) { var ok = !q || textos[i].indexOf(q) !== -1; d.hidden = !ok; if (ok) n++; });
+      familias.forEach(function (f) { f.hidden = !f.querySelector("details.farmaco:not([hidden])"); });
+      secciones.forEach(function (s) { s.hidden = !s.querySelector(".farm-familia:not([hidden])"); });
+      vacio.hidden = n > 0; contar(n);
+      if (q && n <= 2) items.forEach(function (d) { if (!d.hidden) d.open = true; });
     });
+    // Abrir la ficha si el enlace apunta a un fármaco (#farmaco-nombre)
+    var m = location.hash.match(/^#farmaco-/);
+    if (m) { var d = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (d) { d.open = true; setTimeout(function () { d.scrollIntoView({ block: "start" }); }, 50); } }
   }
 
   function accesibilidad() {

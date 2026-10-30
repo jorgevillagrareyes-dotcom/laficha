@@ -1,8 +1,19 @@
 orden: 1
 titulo: Antibióticos
+familias:
+  - Penicilinas
+  - Cefalosporinas
+  - Carbapenémicos
+  - Aminoglicósidos
+  - Macrólidos y lincosamidas
+  - Fluoroquinolonas
+  - Contra grampositivos resistentes
+  - Otros antibacterianos
+  - Antituberculosos
 farmacos:
   - n: Amikacina
     g: Antibiótico aminoglicósido
+    fam: Aminoglicósidos
     q: Aminoglicósido bactericida que inhibe la síntesis proteica bacteriana (subunidad 30S). Cubre bacilos gramnegativos, incluida Pseudomonas; no cubre anaerobios.
     u:
       - Infecciones graves por gramnegativos multirresistentes, en combinación.
@@ -17,6 +28,7 @@ farmacos:
     p: Usar cursos cortos (idealmente ≤ 5–7 días) y controlar la creatinina cada 2–3 días.
   - n: Amoxicilina
     g: Antibiótico betalactámico · aminopenicilina
+    fam: Penicilinas
     q: Penicilina de espectro ampliado. Cubre estreptococos (incluido neumococo), enterococo sensible, Listeria y algunos gramnegativos; la inactivan las betalactamasas.
     u:
       - Neumonía adquirida en la comunidad ambulatoria sin comorbilidad.
@@ -35,6 +47,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Amoxicilina-ácido clavulánico
     g: Antibiótico betalactámico con inhibidor de betalactamasas
+    fam: Penicilinas
     q: Amoxicilina asociada a ácido clavulánico, que bloquea las betalactamasas. Agrega cobertura de Haemophilus y Moraxella productores de betalactamasa, Staphylococcus aureus sensible a meticilina y anaerobios.
     u:
       - NAC ambulatoria con comorbilidad (con un macrólido).
@@ -50,6 +63,7 @@ farmacos:
     em: Compatible. Evitarla en la rotura prematura de membranas (se asoció a enterocolitis necrotizante neonatal).
   - n: Ampicilina
     g: Antibiótico betalactámico · aminopenicilina endovenosa
+    fam: Penicilinas
     q: Aminopenicilina de uso endovenoso. Es el antibiótico de elección para Listeria y Enterococcus faecalis.
     u:
       - Meningitis con riesgo de Listeria (mayores de 50 años, embarazadas, inmunosuprimidos), junto a ceftriaxona.
@@ -65,6 +79,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Ampicilina-sulbactam
     g: Antibiótico betalactámico con inhibidor de betalactamasas
+    fam: Penicilinas
     q: Ampicilina con sulbactam. Cubre grampositivos, anaerobios y parte de los gramnegativos; el sulbactam tiene actividad propia contra Acinetobacter.
     u:
       - Neumonía aspirativa y absceso pulmonar.
@@ -79,6 +94,7 @@ farmacos:
     em: Compatible.
   - n: Azitromicina
     g: Antibiótico macrólido (azálida)
+    fam: Macrólidos y lincosamidas
     q: Macrólido de vida media larga que se concentra en los tejidos. Cubre gérmenes atípicos (Mycoplasma, Chlamydophila, Legionella), Chlamydia trachomatis, Bordetella y algunos enteropatógenos.
     u:
       - NAC, combinada con un betalactámico (cobertura de atípicos).
@@ -95,6 +111,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Cefadroxilo
     g: Antibiótico betalactámico · cefalosporina de primera generación oral
+    fam: Cefalosporinas
     q: Cefalosporina oral de vida media larga. Cubre estreptococos y Staphylococcus aureus sensible a meticilina, y algunos gramnegativos urinarios.
     u:
       - Infecciones de piel y partes blandas no complicadas (celulitis, impétigo extenso).
@@ -108,6 +125,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Cefalexina
     g: Antibiótico betalactámico · cefalosporina de primera generación oral
+    fam: Cefalosporinas
     q: Cefalosporina oral activa contra estreptococos, Staphylococcus aureus sensible a meticilina y algunos gramnegativos urinarios.
     u:
       - Celulitis no purulenta e impétigo.
@@ -120,6 +138,7 @@ farmacos:
     em: Compatible.
   - n: Cefazolina
     g: Antibiótico betalactámico · cefalosporina de primera generación endovenosa
+    fam: Cefalosporinas
     q: Cefalosporina endovenosa muy activa contra Staphylococcus aureus sensible a meticilina y estreptococos.
     u:
       - Profilaxis antibiótica quirúrgica (la más usada).
@@ -134,6 +153,7 @@ farmacos:
     em: Compatible con el embarazo (profilaxis en la cesárea).
   - n: Cefepime
     g: Antibiótico betalactámico · cefalosporina de cuarta generación
+    fam: Cefalosporinas
     q: Cefalosporina de amplio espectro con actividad antipseudomónica y buena cobertura de grampositivos.
     u:
       - Neutropenia febril.
@@ -147,6 +167,7 @@ farmacos:
     p: Ante un paciente con ERC que recibe cefepime y se pone confuso, pensar en neurotoxicidad y pedir un EEG.
   - n: Cefotaxima
     g: Antibiótico betalactámico · cefalosporina de tercera generación
+    fam: Cefalosporinas
     q: Cefalosporina endovenosa de espectro similar a la ceftriaxona, pero de vida media corta.
     u:
       - Meningitis bacteriana y sepsis en recién nacidos (se prefiere a la ceftriaxona).
@@ -159,6 +180,7 @@ farmacos:
     em: Compatible.
   - n: Ceftazidima
     g: Antibiótico betalactámico · cefalosporina de tercera generación antipseudomónica
+    fam: Cefalosporinas
     q: Cefalosporina con buena actividad contra Pseudomonas aeruginosa y escasa actividad contra grampositivos.
     u:
       - Infecciones por Pseudomonas aeruginosa.
@@ -172,6 +194,7 @@ farmacos:
     em: Compatible si se necesita.
   - n: Ceftriaxona
     g: Antibiótico betalactámico · cefalosporina de tercera generación
+    fam: Cefalosporinas
     q: Cefalosporina de vida media larga (una dosis al día) con buena penetración en el SNC. Cubre neumococo, meningococo, Haemophilus, enterobacterias comunitarias, gonococo y Salmonella; no cubre Pseudomonas, enterococo ni Listeria.
     u:
       - NAC hospitalizada (con un macrólido).
@@ -190,6 +213,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Ciprofloxacino
     g: Antibiótico fluoroquinolona
+    fam: Fluoroquinolonas
     q: Fluoroquinolona con buena actividad contra gramnegativos, incluida Pseudomonas, y escasa contra neumococo. Excelente biodisponibilidad oral.
     u:
       - Pielonefritis y prostatitis (según la resistencia local).
@@ -207,6 +231,7 @@ farmacos:
     p: Las agencias regulatorias restringen las quinolonas en infecciones leves (cistitis no complicada, sinusitis, bronquitis) por sus efectos adversos.
   - n: Claritromicina
     g: Antibiótico macrólido
+    fam: Macrólidos y lincosamidas
     q: Macrólido con actividad contra atípicos, Helicobacter pylori y micobacterias no tuberculosas.
     u:
       - Erradicación de H. pylori (donde la resistencia a claritromicina es baja).
@@ -221,6 +246,7 @@ farmacos:
     em: Evitar en el embarazo si hay alternativa.
   - n: Clindamicina
     g: Antibiótico lincosamida
+    fam: Macrólidos y lincosamidas
     q: Antibiótico bacteriostático activo contra grampositivos (incluido parte del SAMR comunitario) y anaerobios. Inhibe la producción de toxinas.
     u:
       - Infecciones de piel y partes blandas, en especial en alérgicos a penicilina o con sospecha de SAMR comunitario.
@@ -236,6 +262,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Cloxacilina
     g: Antibiótico betalactámico · penicilina antiestafilocócica
+    fam: Penicilinas
     q: Penicilina resistente a la penicilinasa estafilocócica. Tratamiento de elección del Staphylococcus aureus sensible a meticilina.
     u:
       - Impétigo, celulitis, mastitis y abscesos por S. aureus.
@@ -248,6 +275,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Cotrimoxazol
     g: Antibiótico sulfonamida con trimetoprim
+    fam: Otros antibacterianos
     q: Asociación de sulfametoxazol y trimetoprim que bloquea dos pasos de la síntesis de folato bacteriano. Cubre enterobacterias, SAMR comunitario, Pneumocystis, Toxoplasma, Nocardia y Stenotrophomonas.
     u:
       - Cistitis (si la resistencia local es < 20 %).
@@ -264,6 +292,7 @@ farmacos:
     em: Evitar en el primer trimestre (antifolato) y cerca del parto (kernicterus).
   - n: Dapsona
     g: Antimicrobiano sulfona
+    fam: Otros antibacterianos
     q: Sulfona con acción antibacteriana y antiinflamatoria (inhibe a los neutrófilos).
     u:
       - Profilaxis de Pneumocystis en alérgicos a cotrimoxazol.
@@ -277,6 +306,7 @@ farmacos:
     em: Usar solo si el beneficio lo justifica.
   - n: Doxiciclina
     g: Antibiótico tetraciclina
+    fam: Otros antibacterianos
     q: Tetraciclina de amplio espectro con actividad contra atípicos, Chlamydia, espiroquetas, rickettsias, Brucella y parte del SAMR comunitario.
     u:
       - Uretritis y cervicitis por Chlamydia; enfermedad inflamatoria pélvica (con ceftriaxona y metronidazol).
@@ -292,6 +322,7 @@ farmacos:
     em: Contraindicada en el embarazo.
   - n: Eritromicina
     g: Antibiótico macrólido · procinético
+    fam: Macrólidos y lincosamidas
     q: Macrólido antiguo que además estimula los receptores de motilina y acelera el vaciamiento gástrico.
     u:
       - Antes de la endoscopía en la hemorragia digestiva alta, para vaciar el estómago de sangre.
@@ -306,6 +337,7 @@ farmacos:
     em: Compatible (el estolato se evita por hepatotoxicidad).
   - n: Fosfomicina
     g: Antibiótico (derivado del ácido fosfónico)
+    fam: Otros antibacterianos
     q: Antibiótico que inhibe la síntesis de la pared bacteriana. La sal de trometamol oral alcanza altas concentraciones en la orina.
     u:
       - Cistitis no complicada.
@@ -321,6 +353,7 @@ farmacos:
     p: No usarla en la pielonefritis (la dosis oral no alcanza niveles en el tejido renal).
   - n: Gentamicina
     g: Antibiótico aminoglicósido
+    fam: Aminoglicósidos
     q: Aminoglicósido bactericida contra bacilos gramnegativos. Tiene efecto sinérgico con betalactámicos contra enterococo y estreptococos.
     u:
       - Pielonefritis e infecciones por gramnegativos (sola o combinada).
@@ -337,6 +370,7 @@ farmacos:
     em: Evitar si hay alternativa; se usa en infecciones graves y en el puerperio.
   - n: Imipenem
     g: Antibiótico betalactámico · carbapenémico
+    fam: Carbapenémicos
     q: Carbapenémico de muy amplio espectro (gramnegativos incluidos BLEE y Pseudomonas, grampositivos y anaerobios). Se administra con cilastatina.
     u:
       - Infecciones graves por enterobacterias productoras de BLEE.
@@ -350,6 +384,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Levofloxacino
     g: Antibiótico fluoroquinolona respiratoria
+    fam: Fluoroquinolonas
     q: Fluoroquinolona con buena actividad contra neumococo, atípicos y gramnegativos.
     u:
       - NAC en alérgicos a betalactámicos.
@@ -364,6 +399,7 @@ farmacos:
     em: Evitar en el embarazo.
   - n: Linezolid
     g: Antibiótico oxazolidinona
+    fam: Contra grampositivos resistentes
     q: Antibiótico activo contra grampositivos resistentes (SAMR, enterococo resistente a vancomicina) con biodisponibilidad oral completa.
     u:
       - Neumonía e infecciones de piel por SAMR.
@@ -379,6 +415,7 @@ farmacos:
     p: Si se usa más de 2 semanas, controlar el hemograma cada semana.
   - n: Meropenem
     g: Antibiótico betalactámico · carbapenémico
+    fam: Carbapenémicos
     q: Carbapenémico de muy amplio espectro, con menos riesgo de convulsiones que el imipenem. Cubre enterobacterias BLEE, Pseudomonas y anaerobios; no cubre SAMR.
     u:
       - Infecciones graves por enterobacterias BLEE.
@@ -394,6 +431,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Metronidazol
     g: Antimicrobiano nitroimidazol
+    fam: Otros antibacterianos
     q: Antibiótico y antiparasitario activo contra anaerobios y protozoos (Trichomonas, Giardia, Entamoeba).
     u:
       - Cobertura de anaerobios en infecciones intraabdominales (con ceftriaxona).
@@ -412,6 +450,7 @@ farmacos:
     em: Compatible con el embarazo (preferir los esquemas de 7 días).
   - n: Nitrofurantoína
     g: Antibiótico urinario (nitrofurano)
+    fam: Otros antibacterianos
     q: Antibiótico que solo alcanza concentraciones útiles en la orina. Mantiene buena sensibilidad de E. coli.
     u:
       - Cistitis no complicada.
@@ -427,6 +466,7 @@ farmacos:
     p: No sirve para la pielonefritis ni para la bacteriemia.
   - n: Penicilina benzatina
     g: Antibiótico betalactámico · penicilina de depósito
+    fam: Penicilinas
     q: Penicilina G de liberación lenta por vía intramuscular, que mantiene niveles bajos y prolongados por semanas.
     u:
       - Sífilis primaria, secundaria y latente.
@@ -442,6 +482,7 @@ farmacos:
     em: Es el único tratamiento eficaz de la sífilis en el embarazo.
   - n: Penicilina G sódica
     g: Antibiótico betalactámico · penicilina endovenosa
+    fam: Penicilinas
     q: Penicilina natural endovenosa de vida media corta. Muy activa contra estreptococos, meningococo sensible, Treponema y Leptospira.
     u:
       - Neurosífilis y sífilis ocular.
@@ -456,6 +497,7 @@ farmacos:
     em: Compatible.
   - n: Piperacilina-tazobactam
     g: Antibiótico betalactámico antipseudomónico con inhibidor de betalactamasas
+    fam: Penicilinas
     q: Penicilina de amplio espectro con tazobactam. Cubre Pseudomonas, enterobacterias, enterococo sensible a ampicilina y anaerobios.
     u:
       - Sepsis asociada a la atención de salud y neumonía nosocomial.
@@ -469,6 +511,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Rifaximina
     g: Antibiótico rifamicina no absorbible
+    fam: Otros antibacterianos
     q: Antibiótico que casi no se absorbe y actúa sobre la flora intestinal.
     u:
       - Prevención de la recurrencia de la encefalopatía hepática (con lactulosa).
@@ -479,6 +522,7 @@ farmacos:
     em: No se recomienda en el embarazo.
   - n: Tobramicina
     g: Antibiótico aminoglicósido
+    fam: Aminoglicósidos
     q: Aminoglicósido con buena actividad contra Pseudomonas aeruginosa.
     u:
       - Infecciones por Pseudomonas (combinada).
@@ -492,6 +536,7 @@ farmacos:
     em: Evitar por vía sistémica.
   - n: Vancomicina
     g: Antibiótico glucopéptido
+    fam: Contra grampositivos resistentes
     q: Antibiótico bactericida contra grampositivos, incluidos SAMR y enterococo sensible. Por vía oral no se absorbe y actúa en el colon.
     u:
       - Infecciones graves por SAMR (bacteriemia, neumonía, endocarditis, osteomielitis).
@@ -508,6 +553,7 @@ farmacos:
     p: Infundir cada gramo en al menos 60 minutos para evitar la reacción a la infusión, que no es una alergia.
   - n: Isoniazida
     g: Antituberculoso de primera línea
+    fam: Antituberculosos
     q: Bactericida contra Mycobacterium tuberculosis en replicación; inhibe la síntesis de ácidos micólicos.
     u:
       - Tratamiento de la tuberculosis (con rifampicina, pirazinamida y etambutol).
@@ -523,6 +569,7 @@ farmacos:
     p: Agregar piridoxina (vitamina B6) 25–50 mg/día en embarazadas, alcohólicos, diabéticos, desnutridos, personas con VIH o ERC para prevenir la neuropatía.
   - n: Rifampicina
     g: Antituberculoso de primera línea · rifamicina
+    fam: Antituberculosos
     q: Bactericida contra micobacterias y estafilococos; inhibe la ARN polimerasa bacteriana. Potente inductor enzimático.
     u:
       - Tuberculosis y su infección latente (esquema de 4 meses).
@@ -538,6 +585,7 @@ farmacos:
     p: Advertir a las mujeres que los anticonceptivos hormonales dejan de ser confiables.
   - n: Pirazinamida
     g: Antituberculoso de primera línea
+    fam: Antituberculosos
     q: Antituberculoso que actúa sobre bacilos en medio ácido; permite acortar el tratamiento a 6 meses.
     u:
       - Fase inicial del tratamiento de la tuberculosis (2 meses).
@@ -549,6 +597,7 @@ farmacos:
     em: Se usa en el embarazo según las normas nacionales.
   - n: Etambutol
     g: Antituberculoso de primera línea
+    fam: Antituberculosos
     q: Bacteriostático contra micobacterias; protege contra la selección de resistencia en la fase inicial.
     u:
       - Fase inicial del tratamiento de la tuberculosis.

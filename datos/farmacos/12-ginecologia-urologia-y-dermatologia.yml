@@ -1,8 +1,14 @@
 orden: 12
 titulo: Ginecología, obstetricia, urología y dermatología
+familias:
+  - Obstetricia
+  - Anticoncepción
+  - Urología y andrología
+  - Dermatología
 farmacos:
   - n: Oxitocina
     g: Uterotónico · hormona hipofisaria
+    fam: Obstetricia
     q: Estimula las contracciones del útero grávido; efecto inmediato y corto.
     u:
       - Prevención de la hemorragia posparto (manejo activo del alumbramiento).
@@ -17,6 +23,7 @@ farmacos:
     em: Uso obstétrico.
   - n: Carbetocina
     g: Uterotónico · análogo de oxitocina de acción prolongada
+    fam: Obstetricia
     q: Análogo de oxitocina que actúa por más tiempo con una sola dosis.
     u:
       - Prevención de la hemorragia posparto en la cesárea.
@@ -27,6 +34,7 @@ farmacos:
     em: Uso obstétrico.
   - n: Misoprostol
     g: Análogo de la prostaglandina E1
+    fam: Obstetricia
     q: Prostaglandina estable a temperatura ambiente que contrae el útero y madura el cuello.
     u:
       - Hemorragia posparto (tratamiento y prevención si no hay oxitocina).
@@ -41,6 +49,7 @@ farmacos:
     em: Contraindicado como gastroprotector en mujeres embarazadas.
   - n: Mifepristona
     g: Antagonista de los receptores de progesterona
+    fam: Obstetricia
     q: Bloquea la progesterona; desprende la decidua y sensibiliza al útero a las prostaglandinas.
     u:
       - Interrupción del embarazo según la legislación vigente (junto con misoprostol).
@@ -52,6 +61,7 @@ farmacos:
     em: Uso obstétrico.
   - n: Levonorgestrel
     g: Progestágeno
+    fam: Anticoncepción
     q: Progestágeno que, en dosis alta, retrasa o inhibe la ovulación (no interrumpe un embarazo ya implantado). También se usa en dispositivos intrauterinos.
     u:
       - Anticoncepción de emergencia.
@@ -65,6 +75,7 @@ farmacos:
     p: Es menos eficaz con un IMC > 30; el DIU de cobre es la anticoncepción de emergencia más eficaz.
   - n: Finasterida
     g: Inhibidor de la 5-alfa reductasa
+    fam: Urología y andrología
     q: Bloquea la conversión de testosterona a dihidrotestosterona; reduce el volumen prostático.
     u:
       - Hiperplasia prostática benigna con próstata grande (> 30–40 mL), sola o con un alfa-bloqueador.
@@ -77,6 +88,7 @@ farmacos:
     em: Contraindicada (feminización del feto masculino).
   - n: Tamsulosina
     g: Bloqueador alfa-1A uroselectivo
+    fam: Urología y andrología
     q: Relaja el músculo liso de la próstata, el cuello vesical y el uréter distal.
     u:
       - Síntomas urinarios por hiperplasia prostática benigna.
@@ -89,6 +101,7 @@ farmacos:
     p: Preguntar si tiene una cirugía de cataratas programada y avisar al oftalmólogo.
   - n: Sildenafil
     g: Inhibidor de la fosfodiesterasa 5 (PDE-5)
+    fam: Urología y andrología
     q: Potencia el óxido nítrico; produce vasodilatación en el cuerpo cavernoso y en las arterias pulmonares.
     u:
       - Disfunción eréctil.
@@ -102,6 +115,7 @@ farmacos:
     em: Se usa en la hipertensión pulmonar del embarazo según el especialista.
   - n: Alprostadil
     g: Prostaglandina E1
+    fam: Urología y andrología
     q: Vasodilatador que mantiene abierto el ductus arterioso y produce erección por vía intracavernosa.
     u:
       - Cardiopatías congénitas dependientes del ductus en el recién nacido (mientras se resuelve).
@@ -115,6 +129,7 @@ farmacos:
     p: Al iniciarlo en un recién nacido, tener todo listo para intubar por el riesgo de apnea.
   - n: Clobetasol
     g: Corticoide tópico de potencia muy alta
+    fam: Dermatología
     q: Corticoide tópico de la clase de mayor potencia.
     u:
       - Psoriasis en placas, liquen plano y dermatitis crónicas liquenificadas.

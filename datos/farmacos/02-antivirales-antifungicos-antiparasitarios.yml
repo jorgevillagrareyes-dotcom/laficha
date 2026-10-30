@@ -1,8 +1,13 @@
 orden: 2
 titulo: Antivirales, antifúngicos y antiparasitarios
+familias:
+  - Antivirales
+  - Antifúngicos
+  - Antiparasitarios y antipalúdicos
 farmacos:
   - n: Aciclovir
     g: Antiviral análogo de nucleósido
+    fam: Antivirales
     q: Inhibe la ADN polimerasa de los virus herpes simple y varicela zóster tras ser activado por la timidina quinasa viral.
     u:
       - Encefalitis herpética (también empírica ante la sospecha).
@@ -19,6 +24,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Valaciclovir
     g: Antiviral · profármaco del aciclovir
+    fam: Antivirales
     q: Profármaco oral del aciclovir con mejor biodisponibilidad, que permite menos tomas al día.
     u:
       - Herpes zóster (idealmente en las primeras 72 h).
@@ -34,6 +40,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Famciclovir
     g: Antiviral · profármaco del penciclovir
+    fam: Antivirales
     q: Profármaco oral del penciclovir, activo contra herpes simple y varicela zóster.
     u:
       - Herpes zóster.
@@ -46,6 +53,7 @@ farmacos:
     em: Preferir aciclovir o valaciclovir en el embarazo (más experiencia).
   - n: Valganciclovir
     g: Antiviral · profármaco del ganciclovir
+    fam: Antivirales
     q: Profármaco oral del ganciclovir, activo contra citomegalovirus (CMV).
     u:
       - Profilaxis y tratamiento de la infección por CMV en trasplantados.
@@ -60,6 +68,7 @@ farmacos:
     em: Contraindicado en el embarazo; usar anticoncepción eficaz.
   - n: Oseltamivir
     g: Antiviral inhibidor de la neuraminidasa
+    fam: Antivirales
     q: Inhibe la neuraminidasa de los virus influenza A y B y limita su replicación.
     u:
       - Influenza en hospitalizados, graves o con alto riesgo (≥ 65 años, embarazo, comorbilidad), aunque hayan pasado más de 48 h.
@@ -73,6 +82,7 @@ farmacos:
     p: Iniciarlo cuanto antes, sin esperar la confirmación, en el paciente grave o de riesgo.
   - n: Entecavir
     g: Antiviral contra el virus de la hepatitis B
+    fam: Antivirales
     q: Análogo de nucleósido con alta potencia y alta barrera a la resistencia contra el VHB.
     u:
       - Hepatitis B crónica con indicación de tratamiento.
@@ -85,6 +95,7 @@ farmacos:
     em: En el embarazo se prefiere tenofovir.
   - n: Nirsevimab
     g: Anticuerpo monoclonal contra el virus respiratorio sincicial
+    fam: Antivirales
     q: Anticuerpo monoclonal de vida media prolongada contra la proteína F del VRS. Da protección pasiva durante toda la temporada con una sola dosis.
     u:
       - Prevención de la infección grave por VRS en lactantes en su primera temporada (estrategia nacional en Chile).
@@ -98,6 +109,7 @@ farmacos:
     i: Puede administrarse junto con las vacunas del calendario.
   - n: Anfotericina B
     g: Antifúngico poliénico
+    fam: Antifúngicos
     q: Antifúngico de muy amplio espectro que se une al ergosterol de la membrana fúngica. La formulación liposomal es menos nefrotóxica.
     u:
       - Meningitis criptocócica (inducción, con flucitosina).
@@ -112,6 +124,7 @@ farmacos:
     em: Es el antifúngico de elección para las micosis graves en el embarazo.
   - n: Caspofungina
     g: Antifúngico equinocandina
+    fam: Antifúngicos
     q: Inhibe la síntesis de la pared fúngica (beta-glucano). Fungicida contra Candida, incluida C. glabrata.
     u:
       - Candidemia y candidiasis invasora (primera línea).
@@ -124,6 +137,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Fluconazol
     g: Antifúngico azólico
+    fam: Antifúngicos
     q: Azol con buena biodisponibilidad oral y penetración en el SNC y la orina. Activo contra la mayoría de Candida albicans y Cryptococcus; no contra Aspergillus ni C. krusei.
     u:
       - Candidiasis vulvovaginal, orofaríngea y esofágica.
@@ -140,6 +154,7 @@ farmacos:
     em: Evitar dosis altas o prolongadas en el embarazo (teratogénico). En la candidiasis vaginal de la embarazada se prefieren los azoles tópicos.
   - n: Nistatina
     g: Antifúngico poliénico no absorbible
+    fam: Antifúngicos
     q: Antifúngico que no se absorbe en el intestino; actúa por contacto sobre Candida.
     u:
       - Candidiasis oral (algorra) y del pañal.
@@ -149,6 +164,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Albendazol
     g: Antiparasitario benzimidazol
+    fam: Antiparasitarios y antipalúdicos
     q: Antihelmíntico de amplio espectro que inhibe la polimerización de la tubulina del parásito.
     u:
       - Neurocisticercosis (con corticoides).
@@ -166,6 +182,7 @@ farmacos:
     p: En los tratamientos largos, controlar el hemograma y las transaminasas cada 2 semanas.
   - n: Mebendazol
     g: Antiparasitario benzimidazol
+    fam: Antiparasitarios y antipalúdicos
     q: Antihelmíntico de acción intestinal (se absorbe poco).
     u:
       - Oxiuriasis, ascariasis, tricocefalosis y uncinariasis.
@@ -176,6 +193,7 @@ farmacos:
     em: Evitar en el primer trimestre del embarazo.
   - n: Ivermectina
     g: Antiparasitario avermectina
+    fam: Antiparasitarios y antipalúdicos
     q: Antiparasitario que paraliza nematodos y ectoparásitos.
     u:
       - Estrongiloidiasis (también antes de iniciar corticoides en personas de riesgo).
@@ -188,6 +206,7 @@ farmacos:
     em: Evitar en el embarazo.
   - n: Cloroquina
     g: Antipalúdico 4-aminoquinolina
+    fam: Antiparasitarios y antipalúdicos
     q: Antipalúdico esquizonticida sanguíneo. Muchas cepas de Plasmodium falciparum son resistentes.
     u:
       - Malaria por P. vivax, P. ovale y P. malariae, y P. falciparum de zonas sin resistencia.

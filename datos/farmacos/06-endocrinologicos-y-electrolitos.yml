@@ -1,8 +1,16 @@
 orden: 6
 titulo: Diabetes, endocrinología, hueso y electrolitos
+familias:
+  - Diabetes e hipoglicemia
+  - Tiroides
+  - Corticoides sistémicos
+  - Hipófisis y andrógenos
+  - Hueso y calcio
+  - Electrolitos y ácido-base
 farmacos:
   - n: Insulina
     g: Hormona hipoglicemiante
+    fam: Diabetes e hipoglicemia
     q: Hormona que permite la entrada de glucosa a las células y frena la lipólisis y la cetogénesis. Hay insulinas basales (NPH, glargina, degludec) y prandiales o de rescate (cristalina, lispro, aspártica).
     u:
       - Diabetes tipo 1 (siempre) y tipo 2 con mal control, hiperglicemia sintomática o catabólica.
@@ -23,6 +31,7 @@ farmacos:
     p: Rotar los sitios de punción; la lipohipertrofia hace que la absorción sea errática.
   - n: Metformina
     g: Antidiabético oral · biguanida
+    fam: Diabetes e hipoglicemia
     q: Reduce la producción hepática de glucosa y mejora la sensibilidad a la insulina. No causa hipoglicemia ni aumento de peso.
     u:
       - Diabetes tipo 2 (primera línea habitual).
@@ -37,6 +46,7 @@ farmacos:
     p: Medir la vitamina B12 cada 1–2 años en usuarios crónicos, sobre todo si hay neuropatía o anemia.
   - n: Empagliflozina
     g: Antidiabético · inhibidor del cotransportador SGLT2 (iSGLT2)
+    fam: Diabetes e hipoglicemia
     q: Bloquea la reabsorción de glucosa en el túbulo proximal (glucosuria). Protege el corazón y el riñón independiente de la glicemia.
     u:
       - Diabetes tipo 2 con enfermedad cardiovascular, IC o ERC.
@@ -52,6 +62,7 @@ farmacos:
     p: Suspender 3 días antes de una cirugía y en cualquier enfermedad aguda con ingesta pobre (riesgo de cetoacidosis euglicémica).
   - n: Semaglutida
     g: Agonista del receptor de GLP-1 (arGLP-1)
+    fam: Diabetes e hipoglicemia
     q: Incretina que aumenta la secreción de insulina dependiente de glucosa, frena el glucagón, enlentece el vaciamiento gástrico y reduce el apetito. Reduce eventos cardiovasculares.
     u:
       - Diabetes tipo 2 (sobre todo con enfermedad cardiovascular u obesidad).
@@ -66,6 +77,7 @@ farmacos:
     em: Suspender 2 meses antes de buscar un embarazo.
   - n: Tirzepatida
     g: Agonista dual de los receptores de GIP y GLP-1
+    fam: Diabetes e hipoglicemia
     q: Incretina de acción dual que logra mayor baja de peso y de HbA1c que los arGLP-1.
     u:
       - Diabetes tipo 2.
@@ -78,6 +90,7 @@ farmacos:
     em: Suspender antes de buscar un embarazo.
   - n: Glucagón
     g: Hormona hiperglicemiante
+    fam: Diabetes e hipoglicemia
     q: Moviliza el glucógeno hepático; además tiene efecto inotrópico que no depende de los receptores beta.
     u:
       - Hipoglicemia grave sin vía venosa.
@@ -92,6 +105,7 @@ farmacos:
     em: Se usa si es necesario.
   - n: Glucosa
     g: Carbohidrato · solución endovenosa
+    fam: Diabetes e hipoglicemia
     q: Suero glucosado al 5, 10, 30 o 50 %. Las soluciones concentradas son irritantes para las venas.
     u:
       - Hipoglicemia.
@@ -106,6 +120,7 @@ farmacos:
     p: Tiamina 100 mg EV antes de la glucosa en alcohólicos y desnutridos.
   - n: Levotiroxina
     g: Hormona tiroidea (T4 sintética)
+    fam: Tiroides
     q: Tiroxina sintética que reemplaza la producción tiroidea; tiene vida media de 7 días.
     u:
       - Hipotiroidismo primario y central.
@@ -122,6 +137,7 @@ farmacos:
     em: En el embarazo, aumentar la dosis 25–30 % (2 dosis extra a la semana) apenas se confirma.
   - n: Metimazol
     g: Antitiroideo · tionamida
+    fam: Tiroides
     q: Inhibe la peroxidasa tiroidea y la síntesis de hormonas tiroideas.
     u:
       - Enfermedad de Graves y bocio nodular tóxico.
@@ -135,6 +151,7 @@ farmacos:
     p: Advertir que, ante fiebre u odinofagia, suspenda el fármaco y se haga un hemograma urgente (agranulocitosis).
   - n: Propiltiouracilo
     g: Antitiroideo · tionamida
+    fam: Tiroides
     q: Inhibe la síntesis de hormonas tiroideas y además la conversión periférica de T4 a T3.
     u:
       - Hipertiroidismo en el primer trimestre del embarazo.
@@ -147,6 +164,7 @@ farmacos:
     em: De elección en el primer trimestre del embarazo; después, cambiar a metimazol.
   - n: Hidrocortisona
     g: Corticoide (glucocorticoide con efecto mineralocorticoide)
+    fam: Corticoides sistémicos
     q: Cortisol sintético. En dosis de reemplazo cubre la función glucocorticoide; en dosis altas (≥ 50 mg/día) también la mineralocorticoide.
     u:
       - Crisis suprarrenal (insuficiencia suprarrenal aguda).
@@ -164,6 +182,7 @@ farmacos:
     p: En la crisis suprarrenal no esperar los exámenes; tomar cortisol y ACTH y dar la hidrocortisona de inmediato.
   - n: Prednisona
     g: Corticoide oral (glucocorticoide)
+    fam: Corticoides sistémicos
     q: Profármaco que el hígado convierte en prednisolona. Glucocorticoide de potencia intermedia (4 veces la hidrocortisona).
     u:
       - Crisis asmática y exacerbación de EPOC.
@@ -182,6 +201,7 @@ farmacos:
     p: Con ≥ 20 mg/día por ≥ 4 semanas, considerar profilaxis de Pneumocystis; con ≥ 7,5 mg/día por ≥ 3 meses, proteger el hueso (calcio, vitamina D y bifosfonato).
   - n: Prednisolona
     g: Corticoide oral (glucocorticoide)
+    fam: Corticoides sistémicos
     q: Forma activa de la prednisona; disponible en solución oral (útil en niños) y no requiere activación hepática.
     u:
       - Crisis asmática y laringitis en niños.
@@ -195,6 +215,7 @@ farmacos:
     em: Se puede usar en el embarazo.
   - n: Metilprednisolona
     g: Corticoide endovenoso de alta potencia
+    fam: Corticoides sistémicos
     q: Glucocorticoide 5 veces más potente que la hidrocortisona, con poco efecto mineralocorticoide.
     u:
       - Pulsos en enfermedades autoinmunes graves (nefritis lúpica, vasculitis, glomerulonefritis rápidamente progresiva, brote de esclerosis múltiple, rechazo de trasplante).
@@ -206,6 +227,7 @@ farmacos:
     em: Se usa si es necesario.
   - n: Dexametasona
     g: Corticoide de acción prolongada (glucocorticoide puro)
+    fam: Corticoides sistémicos
     q: Glucocorticoide 25–30 veces más potente que la hidrocortisona, sin efecto mineralocorticoide y con buena penetración en el SNC.
     u:
       - Meningitis bacteriana (antes o junto con la primera dosis de antibiótico).
@@ -222,6 +244,7 @@ farmacos:
     em: Se usa en el embarazo para la maduración pulmonar fetal.
   - n: Betametasona
     g: Corticoide de acción prolongada
+    fam: Corticoides sistémicos
     q: Glucocorticoide potente que cruza la placenta; también se usa en forma tópica.
     u:
       - Maduración pulmonar fetal ante riesgo de parto prematuro (24–34 semanas).
@@ -232,6 +255,7 @@ farmacos:
     em: Indicada en el embarazo para la maduración pulmonar.
   - n: Fludrocortisona
     g: Mineralocorticoide
+    fam: Corticoides sistémicos
     q: Análogo de la aldosterona que retiene sodio y elimina potasio.
     u:
       - Insuficiencia suprarrenal primaria (enfermedad de Addison), junto a hidrocortisona.
@@ -244,6 +268,7 @@ farmacos:
     p: Ajustar la dosis según la PA, el potasio y la actividad de renina plasmática.
   - n: Cabergolina
     g: Agonista dopaminérgico
+    fam: Hipófisis y andrógenos
     q: Agonista de los receptores D2 de acción prolongada; inhibe la secreción de prolactina.
     u:
       - Hiperprolactinemia y prolactinoma.
@@ -257,6 +282,7 @@ farmacos:
     em: Suspender al confirmarse el embarazo en el microprolactinoma.
   - n: Bromocriptina
     g: Agonista dopaminérgico
+    fam: Hipófisis y andrógenos
     q: Agonista D2 de vida media corta; más antiguo que la cabergolina y peor tolerado.
     u:
       - Hiperprolactinemia y prolactinoma (alternativa a cabergolina).
@@ -269,6 +295,7 @@ farmacos:
     em: Tiene más experiencia que la cabergolina en el embarazo.
   - n: Testosterona
     g: Andrógeno
+    fam: Hipófisis y andrógenos
     q: Hormona sexual masculina en forma inyectable o en gel.
     u:
       - Hipogonadismo masculino confirmado (síntomas más testosterona baja en 2 mediciones matinales).
@@ -283,6 +310,7 @@ farmacos:
     p: Controlar el hematocrito y el APE a los 3–6 meses y luego cada año.
   - n: Alendronato
     g: Antirresortivo óseo · bifosfonato
+    fam: Hueso y calcio
     q: Inhibe a los osteoclastos; reduce las fracturas vertebrales y de cadera.
     u:
       - Osteoporosis posmenopáusica, masculina y por corticoides.
@@ -296,6 +324,7 @@ farmacos:
     p: Corregir la vitamina D y el calcio antes de iniciarlo; evaluar una pausa terapéutica a los 5 años si el riesgo baja.
   - n: Ácido zoledrónico
     g: Antirresortivo óseo · bifosfonato endovenoso
+    fam: Hueso y calcio
     q: Bifosfonato potente que se administra una vez al año en la osteoporosis.
     u:
       - Osteoporosis (en especial si no tolera la vía oral o tras una fractura de cadera).
@@ -310,6 +339,7 @@ farmacos:
     em: Contraindicado en el embarazo.
   - n: Denosumab
     g: Antirresortivo óseo · anticuerpo monoclonal anti-RANKL
+    fam: Hueso y calcio
     q: Anticuerpo que bloquea el RANKL e inhibe a los osteoclastos; su efecto se pierde rápido al suspenderlo.
     u:
       - Osteoporosis de alto riesgo, también en la ERC.
@@ -322,6 +352,7 @@ farmacos:
     p: "No suspenderlo sin pasar a un bifosfonato: al dejarlo hay un rebote con fracturas vertebrales múltiples."
   - n: Calcitonina
     g: Hormona hipocalcemiante
+    fam: Hueso y calcio
     q: Inhibe la resorción ósea y aumenta la calciuria; actúa en horas, pero su efecto dura solo 48 h (taquifilaxia).
     u:
       - Hipercalcemia grave, como puente mientras actúan los bifosfonatos.
@@ -331,6 +362,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Vitamina D
     g: Vitamina liposoluble (colecalciferol)
+    fam: Hueso y calcio
     q: Prohormona que se activa en el hígado y el riñón; aumenta la absorción intestinal de calcio y fósforo.
     u:
       - Déficit de vitamina D.
@@ -345,6 +377,7 @@ farmacos:
     p: En la ERC avanzada y el hipoparatiroidismo se usa calcitriol (la forma activa), no colecalciferol solo.
   - n: Gluconato de calcio
     g: Sal de calcio endovenosa
+    fam: Hueso y calcio
     q: Calcio que estabiliza la membrana del miocardio y repone el calcio sérico. La solución al 10 % tiene 93 mg de calcio elemental en 10 mL.
     u:
       - Hiperkalemia con cambios en el ECG.
@@ -360,6 +393,7 @@ farmacos:
     em: Compatible.
   - n: Magnesio
     g: Electrolito · sulfato de magnesio
+    fam: Electrolitos y ácido-base
     q: Sulfato de magnesio endovenoso; estabiliza las membranas neuronales y musculares y relaja el músculo liso.
     u:
       - Preeclampsia grave y eclampsia (prevención y tratamiento de las convulsiones).
@@ -380,6 +414,7 @@ farmacos:
     p: Antes de cada hora de infusión, controlar reflejo patelar, frecuencia respiratoria (> 12/min) y diuresis.
   - n: Cloruro de potasio
     g: Electrolito · suplemento de potasio
+    fam: Electrolitos y ácido-base
     q: Sal de potasio de elección, porque la mayoría de las hipokalemias tiene alcalosis y déficit de cloro.
     u:
       - Hipokalemia.
@@ -396,6 +431,7 @@ farmacos:
     p: Medir y corregir también el magnesio; sin magnesio, la hipokalemia no se corrige.
   - n: Bicarbonato de sodio
     g: Alcalinizante
+    fam: Electrolitos y ácido-base
     q: Base que aporta bicarbonato y sodio.
     u:
       - Intoxicación por antidepresivos tricíclicos con QRS ancho y otros bloqueadores de canales de sodio.
@@ -408,26 +444,3 @@ farmacos:
     e: Hipernatremia, sobrecarga de volumen, hipokalemia, baja del calcio iónico y alcalosis.
     i: Precipita con calcio en la misma vía.
     em: Usar si se necesita.
-  - n: Ezetimibe
-    g: Hipolipemiante · inhibidor de la absorción intestinal de colesterol
-    q: Bloquea la proteína NPC1L1 del intestino; baja el LDL alrededor de 20 % adicional a la estatina.
-    u:
-      - Asociado a una estatina cuando no se logra la meta de LDL.
-      - Intolerancia a estatinas.
-    d:
-      - 10 mg VO al día.
-    e: Bien tolerado; diarrea y mialgias poco frecuentes.
-    em: Evitar en el embarazo.
-  - n: Colestiramina
-    g: Resina secuestradora de ácidos biliares
-    q: Resina no absorbible que atrapa los ácidos biliares en el intestino.
-    u:
-      - Prurito por colestasia.
-      - Diarrea por ácidos biliares (por ejemplo, tras una resección ileal).
-      - Hipercolesterolemia (poco usada).
-    d:
-      - 4 g VO 1–2 veces al día; subir hasta 16 g al día.
-    c: Obstrucción biliar completa, hipertrigliceridemia > 400 mg/dL.
-    e: Constipación, distensión, alza de los triglicéridos y déficit de vitaminas liposolubles.
-    i: Reduce la absorción de muchos fármacos (levotiroxina, warfarina, digoxina, anticonceptivos); darlos 1 h antes o 4–6 h después.
-    em: Compatible (no se absorbe); vigilar las vitaminas liposolubles.

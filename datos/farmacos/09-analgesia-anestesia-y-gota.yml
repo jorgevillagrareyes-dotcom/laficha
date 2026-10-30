@@ -1,8 +1,14 @@
 orden: 9
 titulo: Analgesia, anestesia y gota
+familias:
+  - Analgésicos no opioides y AINE
+  - Opioides y su antídoto
+  - Anestesia e intubación
+  - Gota
 farmacos:
   - n: Paracetamol
     g: Analgésico y antipirético
+    fam: Analgésicos no opioides y AINE
     q: Analgésico de acción central sin efecto antiinflamatorio periférico ni sobre las plaquetas. Seguro en dosis correctas; hepatotóxico en sobredosis.
     u:
       - Dolor leve a moderado y fiebre (primera línea, también en ERC, embarazo y adultos mayores).
@@ -17,6 +23,7 @@ farmacos:
     p: En la intoxicación, la acetilcisteína es más eficaz dentro de las primeras 8 h; no esperar los síntomas.
   - n: Ibuprofeno
     g: Antiinflamatorio no esteroidal (AINE)
+    fam: Analgésicos no opioides y AINE
     q: Inhibidor no selectivo de la ciclooxigenasa; analgésico, antipirético y antiinflamatorio.
     u:
       - Dolor leve a moderado, dismenorrea, cefalea y fiebre.
@@ -31,6 +38,7 @@ farmacos:
     p: Si se necesita un AINE en un paciente con riesgo digestivo, asociarlo a un IBP y usar la menor dosis por el menor tiempo.
   - n: Naproxeno
     g: Antiinflamatorio no esteroidal (AINE)
+    fam: Analgésicos no opioides y AINE
     q: AINE de vida media larga (dos tomas al día), con un perfil cardiovascular algo más favorable que otros AINE.
     u:
       - Dolor musculoesquelético, artritis inflamatorias y crisis de gota.
@@ -43,6 +51,7 @@ farmacos:
     em: Evitar desde las 20 semanas.
   - n: Diclofenaco
     g: Antiinflamatorio no esteroidal (AINE)
+    fam: Analgésicos no opioides y AINE
     q: AINE potente, con mayor riesgo cardiovascular que naproxeno e ibuprofeno en dosis bajas.
     u:
       - Cólico renal y dolor musculoesquelético agudo.
@@ -56,6 +65,7 @@ farmacos:
     em: Evitar desde las 20 semanas.
   - n: Ketorolaco
     g: Antiinflamatorio no esteroidal (AINE) de alta potencia analgésica
+    fam: Analgésicos no opioides y AINE
     q: AINE con potencia analgésica similar a dosis moderadas de opioides; uso breve.
     u:
       - Dolor agudo moderado a intenso de corta duración (posoperatorio, cólico renal).
@@ -69,6 +79,7 @@ farmacos:
     em: Contraindicado en el trabajo de parto y en el tercer trimestre.
   - n: Metamizol
     g: Analgésico y antipirético (pirazolona)
+    fam: Analgésicos no opioides y AINE
     q: Analgésico con efecto antipirético y espasmolítico, sin el daño digestivo de los AINE. Muy usado en Chile.
     u:
       - Dolor agudo moderado (cólico, posoperatorio) y fiebre que no responde a paracetamol.
@@ -80,6 +91,7 @@ farmacos:
     p: Ante fiebre, odinofagia o úlceras orales durante su uso, suspender y pedir un hemograma.
   - n: Indometacina
     g: Antiinflamatorio no esteroidal (AINE)
+    fam: Analgésicos no opioides y AINE
     q: AINE potente con más efectos adversos en el SNC que otros AINE.
     u:
       - Crisis de gota (alternativa).
@@ -92,6 +104,7 @@ farmacos:
     em: Evitar desde las 20 semanas.
   - n: Codeína
     g: Analgésico opioide débil
+    fam: Opioides y su antídoto
     q: Profármaco que el CYP2D6 convierte en morfina; su efecto varía mucho según el genotipo.
     u:
       - Dolor moderado (con paracetamol).
@@ -104,6 +117,7 @@ farmacos:
     em: Evitar en la lactancia (muertes de lactantes por madres metabolizadoras ultrarrápidas).
   - n: Tramadol
     g: Analgésico opioide débil con acción serotoninérgica y noradrenérgica
+    fam: Opioides y su antídoto
     q: Agonista opioide débil que además inhibe la recaptación de serotonina y noradrenalina.
     u:
       - Dolor moderado que no responde a paracetamol o AINE.
@@ -116,6 +130,7 @@ farmacos:
     em: Evitar en el embarazo y la lactancia.
   - n: Morfina
     g: Analgésico opioide potente
+    fam: Opioides y su antídoto
     q: Agonista de los receptores opioides mu; analgésico de referencia para el dolor intenso y la disnea en cuidados paliativos.
     u:
       - Dolor agudo intenso (trauma, posoperatorio) y dolor oncológico.
@@ -132,6 +147,7 @@ farmacos:
     p: Al indicar un opioide, indicar siempre un laxante.
   - n: Fentanilo
     g: Analgésico opioide de alta potencia
+    fam: Opioides y su antídoto
     q: Opioide sintético unas 100 veces más potente que la morfina, de inicio rápido y sin metabolitos activos.
     u:
       - Analgesia y sedación en urgencias y UCI; intubación de secuencia rápida.
@@ -146,6 +162,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Naloxona
     g: Antídoto · antagonista opioide
+    fam: Opioides y su antídoto
     q: Desplaza a los opioides de sus receptores. Actúa en 1–2 min, pero dura menos que la mayoría de los opioides.
     u:
       - Intoxicación por opioides con depresión respiratoria.
@@ -158,6 +175,7 @@ farmacos:
     p: La meta es que respire, no que despierte; observar al menos 4–6 h por el riesgo de re-sedación.
   - n: Ketamina
     g: Anestésico disociativo · antagonista NMDA
+    fam: Anestesia e intubación
     q: Produce anestesia y analgesia conservando los reflejos de la vía aérea, la respiración y la PA. Es broncodilatador.
     u:
       - Inducción en la intubación de secuencia rápida (sobre todo con hipotensión o broncoespasmo).
@@ -172,6 +190,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Etomidato
     g: Hipnótico de inducción
+    fam: Anestesia e intubación
     q: Hipnótico de acción ultracorta con mínimo efecto sobre la PA.
     u:
       - Inducción en la intubación de secuencia rápida en pacientes inestables.
@@ -181,6 +200,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Rocuronio
     g: Bloqueador neuromuscular no despolarizante
+    fam: Anestesia e intubación
     q: Relajante muscular de inicio rápido en dosis altas; se revierte de inmediato con sugammadex.
     u:
       - Intubación de secuencia rápida (alternativa a la succinilcolina).
@@ -194,6 +214,7 @@ farmacos:
     p: Paraliza pero no seda ni analgesia; dar siempre un hipnótico antes.
   - n: Succinilcolina
     g: Bloqueador neuromuscular despolarizante
+    fam: Anestesia e intubación
     q: Relajante de inicio ultrarrápido (45–60 s) y corta duración (5–10 min).
     u:
       - Intubación de secuencia rápida.
@@ -204,6 +225,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Lidocaína
     g: Anestésico local de tipo amida · antiarrítmico clase IB
+    fam: Anestesia e intubación
     q: Bloquea los canales de sodio; se usa como anestésico local y como antiarrítmico ventricular.
     u:
       - Anestesia local e infiltrativa, bloqueos regionales.
@@ -218,6 +240,7 @@ farmacos:
     p: La toxicidad sistémica por anestésicos locales se trata con emulsión lipídica al 20 % (1,5 mL/kg en bolo) y soporte.
   - n: Neostigmina
     g: Inhibidor de la acetilcolinesterasa
+    fam: Anestesia e intubación
     q: Aumenta la acetilcolina en la placa motora y en el músculo liso.
     u:
       - Reversión del bloqueo neuromuscular no despolarizante.
@@ -231,6 +254,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Dantroleno
     g: Relajante muscular de acción directa
+    fam: Anestesia e intubación
     q: Bloquea la liberación de calcio del retículo sarcoplásmico del músculo esquelético.
     u:
       - Hipertermia maligna (antídoto).
@@ -242,6 +266,7 @@ farmacos:
     em: Usar si es necesario.
   - n: Colchicina
     g: Antiinflamatorio · inhibidor de los microtúbulos
+    fam: Gota
     q: Inhibe la migración y activación de los neutrófilos.
     u:
       - Crisis de gota (en las primeras 12–36 h).
@@ -259,6 +284,7 @@ farmacos:
     em: Se puede usar en la fiebre mediterránea familiar en el embarazo.
   - n: Alopurinol
     g: Hipouricemiante · inhibidor de la xantina oxidasa
+    fam: Gota
     q: Reduce la producción de ácido úrico. Es el hipouricemiante de primera línea.
     u:
       - Gota con crisis recurrentes, tofos, daño articular o nefrolitiasis.
@@ -273,6 +299,7 @@ farmacos:
     p: Iniciar con dosis bajas y subir lento reduce las reacciones graves; dar profilaxis de crisis con colchicina.
   - n: Febuxostat
     g: Hipouricemiante · inhibidor no purínico de la xantina oxidasa
+    fam: Gota
     q: Inhibidor potente de la xantina oxidasa; no requiere ajuste en la ERC leve a moderada.
     u:
       - Gota con intolerancia o contraindicación al alopurinol.

@@ -1,8 +1,17 @@
 orden: 3
-titulo: Cardiovasculares y diuréticos
+titulo: Cardiovasculares, diuréticos e hipolipemiantes
+familias:
+  - IECA y ARA-II
+  - Betabloqueadores
+  - Bloqueadores de canales de calcio
+  - Diuréticos y antagonistas mineralocorticoides
+  - Vasodilatadores y nitratos
+  - Antiarrítmicos y control de la frecuencia
+  - Hipolipemiantes
 farmacos:
   - n: Adenosina
     g: Antiarrítmico · nucleósido de acción ultracorta
+    fam: Antiarrítmicos y control de la frecuencia
     q: Bloquea en forma transitoria el nodo AV (vida media de segundos). Corta las taquicardias por reentrada que lo usan y desenmascara un flutter o una taquicardia auricular.
     u:
       - Taquicardia supraventricular paroxística estable que no cede con maniobras vagales.
@@ -16,6 +25,7 @@ farmacos:
     p: Avisar al paciente de la sensación desagradable y tener el monitor registrando para documentar el ritmo.
   - n: Amiodarona
     g: Antiarrítmico clase III
+    fam: Antiarrítmicos y control de la frecuencia
     q: Antiarrítmico de amplio espectro (bloquea canales de potasio, sodio y calcio, y receptores beta). Útil en cardiopatía estructural, pero con mucha toxicidad crónica.
     u:
       - Paro por FV o TV sin pulso refractaria.
@@ -32,6 +42,7 @@ farmacos:
     p: Al iniciarla de forma crónica, pedir TSH, pruebas hepáticas y radiografía de tórax, y repetir TSH y pruebas hepáticas cada 6 meses.
   - n: Amlodipino
     g: Antihipertensivo · bloqueador de canales de calcio dihidropiridínico
+    fam: Bloqueadores de canales de calcio
     q: Vasodilatador arterial de vida media larga, sin efecto sobre la frecuencia cardíaca.
     u:
       - Hipertensión arterial (primera línea, sola o en combinación).
@@ -46,6 +57,7 @@ farmacos:
     p: El edema por amlodipino mejora al asociar un IECA o un ARA-II.
   - n: Atropina
     g: Anticolinérgico (antimuscarínico)
+    fam: Antiarrítmicos y control de la frecuencia
     q: Bloquea los receptores muscarínicos y anula el efecto vagal sobre el nodo sinusal y el AV.
     u:
       - Bradicardia sintomática.
@@ -60,6 +72,7 @@ farmacos:
     em: Compatible en la urgencia.
   - n: Bisoprolol
     g: Betabloqueador cardioselectivo (beta-1)
+    fam: Betabloqueadores
     q: Betabloqueador selectivo de los receptores beta-1, de una toma diaria. Reduce la mortalidad en la IC con FE reducida.
     u:
       - IC con FE reducida (uno de los cuatro pilares).
@@ -74,6 +87,7 @@ farmacos:
     p: El asma no es una contraindicación absoluta para un betabloqueador cardioselectivo; sí lo es el broncoespasmo activo.
   - n: Captopril
     g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
+    fam: IECA y ARA-II
     q: IECA de acción corta (2–3 tomas al día).
     u:
       - Hipertensión y urgencia hipertensiva (dosis oral).
@@ -87,6 +101,7 @@ farmacos:
     em: Contraindicado en el embarazo (fetotóxico).
   - n: Carvedilol
     g: Betabloqueador no selectivo con bloqueo alfa-1
+    fam: Betabloqueadores
     q: Betabloqueador con efecto vasodilatador. Reduce la mortalidad en la IC con FE reducida y la presión portal.
     u:
       - IC con FE reducida.
@@ -99,19 +114,9 @@ farmacos:
     e: Hipotensión postural, mareo, bradicardia, fatiga.
     i: Más bradicardia con verapamilo, diltiazem, digoxina y amiodarona.
     em: Se puede usar con vigilancia del crecimiento fetal.
-  - n: Cilostazol
-    g: Antiagregante y vasodilatador · inhibidor de la fosfodiesterasa 3
-    q: Inhibe la fosfodiesterasa 3 de plaquetas y vasos; mejora la distancia de marcha.
-    u:
-      - Claudicación intermitente en la enfermedad arterial periférica.
-    d:
-      - 100 mg VO cada 12 h, 30 min antes o 2 h después de comer.
-    c: Insuficiencia cardíaca de cualquier grado. Sangrado activo.
-    e: Cefalea, diarrea, palpitaciones y taquicardia.
-    i: Reducir a 50 mg cada 12 h con inhibidores del CYP3A4 o 2C19 (claritromicina, omeprazol en dosis altas).
-    em: Evitar en el embarazo.
   - n: Digoxina
     g: Glucósido cardíaco · inotrópico y frenador del nodo AV
+    fam: Antiarrítmicos y control de la frecuencia
     q: Inhibe la Na/K-ATPasa; aumenta la contractilidad y enlentece la conducción AV. Tiene un margen terapéutico estrecho.
     u:
       - Control de la frecuencia en la FA, sobre todo con IC.
@@ -127,6 +132,7 @@ farmacos:
     p: Intoxicación grave = fragmentos Fab antidigoxina. No dar calcio para la hiperkalemia sin consultar.
   - n: Diltiazem
     g: Bloqueador de canales de calcio no dihidropiridínico
+    fam: Bloqueadores de canales de calcio
     q: Frena el nodo AV y reduce la frecuencia cardíaca; tiene efecto inotrópico negativo.
     u:
       - Control de la frecuencia en la FA o el flutter sin IC con FE reducida.
@@ -140,6 +146,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Doxazosina
     g: Bloqueador alfa-1 adrenérgico
+    fam: Vasodilatadores y nitratos
     q: Relaja el músculo liso vascular y prostático.
     u:
       - Hiperplasia prostática benigna sintomática.
@@ -152,6 +159,7 @@ farmacos:
     p: Iniciar en la noche para evitar el síncope de la primera dosis; aumenta el riesgo de caídas en adultos mayores.
   - n: Enalapril
     g: Antihipertensivo · inhibidor de la enzima convertidora (IECA)
+    fam: IECA y ARA-II
     q: IECA de dos tomas al día; reduce la mortalidad en la IC con FE reducida y la progresión de la ERC proteinúrica.
     u:
       - Hipertensión arterial.
@@ -168,6 +176,7 @@ farmacos:
     p: Controlar la creatinina y el potasio 1–2 semanas después de iniciarlo; un alza de la creatinina de hasta 30 % es aceptable.
   - n: Esmolol
     g: Betabloqueador cardioselectivo de acción ultracorta
+    fam: Betabloqueadores
     q: Betabloqueador endovenoso con vida media de unos 9 minutos; se titula y se suspende con rapidez.
     u:
       - Disección aórtica (bajar la FC antes del vasodilatador).
@@ -179,6 +188,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Espironolactona
     g: Diurético ahorrador de potasio · antagonista del receptor de mineralocorticoides
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Bloquea el receptor de aldosterona. Reduce la mortalidad en la IC con FE reducida y es el diurético base de la ascitis cirrótica.
     u:
       - IC con FE reducida (uno de los cuatro pilares).
@@ -197,6 +207,7 @@ farmacos:
     p: Controlar el potasio y la creatinina a la semana, al mes y luego cada 3–4 meses.
   - n: Finerenona
     g: Antagonista no esteroidal del receptor de mineralocorticoides
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Bloqueador selectivo del receptor de mineralocorticoides, con menos hiperkalemia y sin efectos hormonales.
     u:
       - ERC con diabetes tipo 2 y albuminuria (reduce la progresión renal y los eventos cardiovasculares).
@@ -210,6 +221,7 @@ farmacos:
     em: Evitar en el embarazo.
   - n: Flecainida
     g: Antiarrítmico clase IC
+    fam: Antiarrítmicos y control de la frecuencia
     q: Bloqueador de canales de sodio que enlentece la conducción. Eficaz para cardiovertir la FA en corazones sanos.
     u:
       - Cardioversión farmacológica de la FA reciente sin cardiopatía estructural (incluida la estrategia de "pastilla en el bolsillo").
@@ -223,6 +235,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Furosemida
     g: Diurético de asa
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Bloquea el cotransportador Na-K-2Cl del asa de Henle. Es el diurético más potente y de efecto rápido.
     u:
       - Congestión en la IC descompensada y el edema pulmonar agudo.
@@ -239,6 +252,7 @@ farmacos:
     p: Evaluar la respuesta a las 2 h con el sodio urinario (≥ 50–70 mEq/L) o la diuresis; si no responde, duplicar la dosis.
   - n: Hidralazina
     g: Vasodilatador arterial directo
+    fam: Vasodilatadores y nitratos
     q: Relaja el músculo liso arteriolar. Provoca taquicardia refleja y retención de sodio.
     u:
       - Crisis hipertensiva en la preeclampsia.
@@ -251,6 +265,7 @@ farmacos:
     em: Se usa en el embarazo.
   - n: Hidroclorotiazida
     g: Diurético tiazídico
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Bloquea el cotransportador Na-Cl del túbulo distal. Antihipertensivo de primera línea.
     u:
       - Hipertensión arterial (sola o combinada).
@@ -266,6 +281,7 @@ farmacos:
     p: Ante una hiponatremia en un adulto mayor, revisar si usa tiazidas.
   - n: Ivabradina
     g: Inhibidor de la corriente If del nodo sinusal
+    fam: Antiarrítmicos y control de la frecuencia
     q: Reduce la frecuencia cardíaca sin efecto inotrópico; solo sirve en ritmo sinusal.
     u:
       - IC con FE ≤ 35 % en ritmo sinusal con FC ≥ 70 lpm pese al betabloqueador en dosis máxima tolerada.
@@ -278,6 +294,7 @@ farmacos:
     em: Contraindicada en el embarazo.
   - n: Labetalol
     g: Betabloqueador no selectivo con bloqueo alfa-1
+    fam: Betabloqueadores
     q: Antihipertensivo con acción alfa y beta, de uso endovenoso y oral.
     u:
       - Emergencias hipertensivas (ACV, encefalopatía, disección con un vasodilatador).
@@ -291,6 +308,7 @@ farmacos:
     em: De elección en las crisis hipertensivas del embarazo; compatible con la lactancia.
   - n: Losartán
     g: Antihipertensivo · antagonista del receptor de angiotensina II (ARA-II)
+    fam: IECA y ARA-II
     q: Bloquea el receptor AT1 de la angiotensina II. Efecto similar a los IECA, sin tos.
     u:
       - Hipertensión arterial.
@@ -305,6 +323,7 @@ farmacos:
     p: Tiene un leve efecto uricosúrico, útil en hipertensos con gota.
   - n: Metoprolol
     g: Betabloqueador cardioselectivo (beta-1)
+    fam: Betabloqueadores
     q: Betabloqueador disponible en forma endovenosa, oral de liberación inmediata (tartrato) y prolongada (succinato).
     u:
       - Control de la frecuencia en la FA y taquicardias supraventriculares.
@@ -319,6 +338,7 @@ farmacos:
     em: Compatible; vigilar el crecimiento fetal.
   - n: Nicardipino
     g: Bloqueador de canales de calcio dihidropiridínico endovenoso
+    fam: Bloqueadores de canales de calcio
     q: Vasodilatador arterial titulable en infusión, sin efecto sobre la conducción AV.
     u:
       - Emergencias hipertensivas, en especial el ACV, la hemorragia intracerebral y la encefalopatía hipertensiva.
@@ -329,6 +349,7 @@ farmacos:
     em: Se usa en el embarazo cuando se necesita.
   - n: Nifedipino
     g: Bloqueador de canales de calcio dihidropiridínico
+    fam: Bloqueadores de canales de calcio
     q: Vasodilatador arterial. Se usa como antihipertensivo (liberación prolongada) y como tocolítico.
     u:
       - Crisis hipertensiva de la preeclampsia (vía oral).
@@ -344,6 +365,7 @@ farmacos:
     p: El nifedipino sublingual de acción corta produce caídas bruscas de la PA con riesgo de isquemia cerebral o coronaria; no usarlo.
   - n: Nimodipino
     g: Bloqueador de canales de calcio dihidropiridínico con acción cerebral
+    fam: Bloqueadores de canales de calcio
     q: Bloqueador del calcio liposoluble que mejora el pronóstico neurológico en la hemorragia subaracnoidea.
     u:
       - Hemorragia subaracnoidea aneurismática (prevención del déficit isquémico tardío).
@@ -354,6 +376,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Nitroglicerina
     g: Nitrato · vasodilatador venoso y coronario
+    fam: Vasodilatadores y nitratos
     q: Libera óxido nítrico; reduce la precarga (venodilatación) y dilata las coronarias.
     u:
       - Angina y SCA con dolor, HTA o congestión.
@@ -367,6 +390,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Nitroprusiato
     g: Vasodilatador arterial y venoso directo
+    fam: Vasodilatadores y nitratos
     q: Donador de óxido nítrico de acción inmediata; muy potente y titulable.
     u:
       - Emergencias hipertensivas refractarias.
@@ -380,6 +404,7 @@ farmacos:
     em: Evitar en el embarazo (toxicidad fetal por cianuro), salvo crisis refractaria.
   - n: Propranolol
     g: Betabloqueador no selectivo
+    fam: Betabloqueadores
     q: Bloquea los receptores beta-1 y beta-2. Liposoluble.
     u:
       - Profilaxis de la hemorragia variceal en la cirrosis.
@@ -395,6 +420,7 @@ farmacos:
     em: Se puede usar con vigilancia fetal.
   - n: Verapamilo
     g: Bloqueador de canales de calcio no dihidropiridínico
+    fam: Bloqueadores de canales de calcio
     q: Frena el nodo AV y tiene efecto inotrópico negativo marcado.
     u:
       - Taquicardia supraventricular paroxística (alternativa a la adenosina).
@@ -409,6 +435,7 @@ farmacos:
     em: Usar si el beneficio lo justifica.
   - n: Acetazolamida
     g: Diurético inhibidor de la anhidrasa carbónica
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Inhibe la anhidrasa carbónica del túbulo proximal; elimina bicarbonato y reduce la producción de humor acuoso y de LCR.
     u:
       - Resistencia a diuréticos en la IC (bloqueo secuencial de la nefrona).
@@ -425,6 +452,7 @@ farmacos:
     em: Evitar en el primer trimestre.
   - n: Manitol
     g: Diurético osmótico
+    fam: Diuréticos y antagonistas mineralocorticoides
     q: Azúcar que no se reabsorbe; crea un gradiente osmótico que saca agua del cerebro y de los tejidos.
     u:
       - Hipertensión endocraneana con herniación inminente.
@@ -437,6 +465,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Atorvastatina
     g: Hipolipemiante · estatina de alta intensidad
+    fam: Hipolipemiantes
     q: Inhibe la HMG-CoA reductasa; baja el colesterol LDL entre 30 % y 50 % o más según la dosis y reduce los eventos cardiovasculares.
     u:
       - Prevención secundaria (SCA, ACV isquémico, enfermedad arterial periférica).
@@ -452,6 +481,7 @@ farmacos:
     p: El beneficio cardiovascular supera ampliamente el pequeño aumento del riesgo de diabetes.
   - n: Rosuvastatina
     g: Hipolipemiante · estatina de alta intensidad
+    fam: Hipolipemiantes
     q: Estatina potente e hidrofílica, con pocas interacciones por el CYP3A4.
     u:
       - Prevención cardiovascular secundaria y primaria de alto riesgo.
@@ -462,3 +492,28 @@ farmacos:
     e: Mialgias, alza de transaminasas, proteinuria transitoria con dosis altas, miopatía.
     i: Más miopatía con ciclosporina y gemfibrozilo.
     em: Suspender en el embarazo y la lactancia.
+  - n: Ezetimibe
+    g: Hipolipemiante · inhibidor de la absorción intestinal de colesterol
+    fam: Hipolipemiantes
+    q: Bloquea la proteína NPC1L1 del intestino; baja el LDL alrededor de 20 % adicional a la estatina.
+    u:
+      - Asociado a una estatina cuando no se logra la meta de LDL.
+      - Intolerancia a estatinas.
+    d:
+      - 10 mg VO al día.
+    e: Bien tolerado; diarrea y mialgias poco frecuentes.
+    em: Evitar en el embarazo.
+  - n: Colestiramina
+    g: Resina secuestradora de ácidos biliares
+    fam: Hipolipemiantes
+    q: Resina no absorbible que atrapa los ácidos biliares en el intestino.
+    u:
+      - Prurito por colestasia.
+      - Diarrea por ácidos biliares (por ejemplo, tras una resección ileal).
+      - Hipercolesterolemia (poco usada).
+    d:
+      - 4 g VO 1–2 veces al día; subir hasta 16 g al día.
+    c: Obstrucción biliar completa, hipertrigliceridemia > 400 mg/dL.
+    e: Constipación, distensión, alza de los triglicéridos y déficit de vitaminas liposolubles.
+    i: Reduce la absorción de muchos fármacos (levotiroxina, warfarina, digoxina, anticonceptivos); darlos 1 h antes o 4–6 h después.
+    em: Compatible (no se absorbe); vigilar las vitaminas liposolubles.

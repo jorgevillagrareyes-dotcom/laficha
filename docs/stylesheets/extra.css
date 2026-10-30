@@ -438,11 +438,6 @@
 .md-typeset .calc-indice { font-size: 0.76rem; }
 
 /* Índice de fármacos */
-.md-typeset .farm-filtro { width: min(28rem, 100%); font: inherit; font-size: 0.8rem; padding: 0.55em 0.8em; border: 1px solid var(--md-default-fg-color); border-radius: 0.15rem; background: transparent; color: var(--md-default-fg-color); margin: 0.4em 0 0.2em; }
-.md-typeset details.farmaco { border-left: 1px solid var(--mi-linea); margin: 0.2em 0; }
-.md-typeset details.farmaco > summary { font-family: var(--mi-display); font-size: 0.86rem; padding-left: 0.6rem; }
-.md-typeset details.farmaco > summary::before { display: none; }
-.md-typeset details.farmaco li { font-size: 0.74rem; line-height: 1.5; margin-bottom: 0.5em; }
 .md-typeset .farm-ancla { display: block; height: 0; }
 
 /* Calculadoras plegables: lista de títulos */
@@ -453,11 +448,7 @@
 .md-typeset details.calculadora[open] > summary { font-weight: 700; }
 .md-typeset details.calculadora > :not(summary) { margin-left: 0; margin-right: 0; }
 .md-typeset details.calculadora[open] { padding-bottom: 0.8em; }
-.md-typeset .farm-grupo { font-size: 0.72rem; color: var(--mi-tenue); font-style: italic; margin-top: 0; }
 .md-typeset .farm-grupos { font-size: 0.74rem; line-height: 1.9; }
-.md-typeset details.farmaco[open] > summary { font-weight: 700; }
-.md-typeset details.farmaco > :not(summary) { font-size: 0.78rem; }
-.md-typeset details.farmaco p strong:first-child { color: var(--md-default-fg-color); }
 
 /* Barra de herramientas (Preguntas, Calculadoras, Índice, Mis temas) */
 .md-typeset .lf-herr, .lf-herr { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.5rem; margin: 0 0 1.6rem; }
@@ -744,3 +735,81 @@
   .ecgr-elegir { display: block; }
   .ecg-reales { padding: 0.6rem; }
 }
+
+/* Fármacos: mapa de grupos, familias y fichas en tarjetas */
+.farm-t1 { --farm-tono: #2f6f8f; } .farm-t2 { --farm-tono: #6a5d9a; } .farm-t3 { --farm-tono: #a24a4a; } .farm-t4 { --farm-tono: #b0582a; }
+.farm-t5 { --farm-tono: #8a3f63; } .farm-t6 { --farm-tono: #3f7a5a; } .farm-t7 { --farm-tono: #3a7f86; } .farm-t8 { --farm-tono: #8a7a2e; }
+.farm-t9 { --farm-tono: #5c6b2f; } .farm-t10 { --farm-tono: #4a5ea0; } .farm-t11 { --farm-tono: #7a5a3a; } .farm-t12 { --farm-tono: #9a4f86; }
+[data-md-color-scheme="slate"] .farm-t1 { --farm-tono: #7fb6d1; } [data-md-color-scheme="slate"] .farm-t2 { --farm-tono: #ada2d8; }
+[data-md-color-scheme="slate"] .farm-t3 { --farm-tono: #e09a9a; } [data-md-color-scheme="slate"] .farm-t4 { --farm-tono: #e5a37f; }
+[data-md-color-scheme="slate"] .farm-t5 { --farm-tono: #d79cbb; } [data-md-color-scheme="slate"] .farm-t6 { --farm-tono: #8cc7a6; }
+[data-md-color-scheme="slate"] .farm-t7 { --farm-tono: #84c6cc; } [data-md-color-scheme="slate"] .farm-t8 { --farm-tono: #d2c27a; }
+[data-md-color-scheme="slate"] .farm-t9 { --farm-tono: #b3c27e; } [data-md-color-scheme="slate"] .farm-t10 { --farm-tono: #9fb0e6; }
+[data-md-color-scheme="slate"] .farm-t11 { --farm-tono: #cfae8b; } [data-md-color-scheme="slate"] .farm-t12 { --farm-tono: #dba0cd; }
+.md-typeset .farm-lead { font-size: 0.82rem; color: var(--mi-tenue); max-width: 46rem; }
+.md-typeset .farm-lead strong { color: var(--md-default-fg-color); }
+.md-typeset .farm-herr { position: sticky; top: 2.4rem; z-index: 3; display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; padding: 0.55rem 0; margin: 0.6rem 0 0.4rem; background: var(--md-default-bg-color); }
+.md-typeset .farm-filtro { flex: 1 1 18rem; max-width: 32rem; font: inherit; font-size: 0.8rem; padding: 0.55em 0.9em; border: 1px solid var(--mi-linea); border-radius: 999px; background: var(--mi-fondo-suave); color: var(--md-default-fg-color); }
+.md-typeset .farm-filtro:focus { outline: none; border-color: var(--md-default-fg-color); background: var(--md-default-bg-color); }
+.md-typeset .farm-total { font-size: 0.7rem; color: var(--mi-tenue); font-variant-numeric: tabular-nums; }
+.md-typeset .farm-mapa { display: grid; grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr)); gap: 0.55rem; margin: 0.8rem 0 1.8rem; }
+.md-typeset .farm-tile { display: grid; grid-template-columns: auto 1fr; column-gap: 0.7rem; align-items: baseline; padding: 0.65rem 0.8rem 0.7rem; border: 1px solid var(--mi-linea); border-left: 4px solid var(--farm-tono); border-radius: 6px; color: var(--md-default-fg-color); text-decoration: none; background: var(--md-default-bg-color); transition: background-color .15s, border-color .15s; }
+.md-typeset .farm-tile:hover { background: var(--mi-fondo-suave); border-color: var(--farm-tono); }
+.md-typeset .farm-tile-n { grid-row: 1 / span 2; font-family: var(--mi-display); font-size: 1.35rem; font-weight: 600; color: var(--farm-tono); font-variant-numeric: tabular-nums; min-width: 1.6rem; }
+.md-typeset .farm-tile strong { font-size: 0.78rem; line-height: 1.3; }
+.md-typeset .farm-tile small { grid-column: 2; font-size: 0.64rem; line-height: 1.4; color: var(--mi-tenue); margin-top: 0.2rem; }
+.md-typeset .farm-seccion { margin: 0 0 2.2rem; scroll-margin-top: 5.5rem; }
+.md-typeset .farm-h2 { display: flex; align-items: baseline; gap: 0.6rem; margin: 0 0 0.6rem; padding: 0.2rem 0 0.4rem; border-bottom: 2px solid var(--farm-tono); font-family: var(--mi-display); }
+.md-typeset .farm-h2 span, .md-typeset .farm-h3 span { font-family: var(--md-text-font-family, inherit); font-size: 0.62rem; font-weight: 600; color: var(--farm-tono); border: 1px solid currentColor; border-radius: 999px; padding: 0.05em 0.55em; }
+.md-typeset .farm-familia { margin: 0.9rem 0 0; }
+.md-typeset .farm-h3 { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.45rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--mi-tenue); scroll-margin-top: 5.5rem; }
+.md-typeset .farm-tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr)); gap: 0.5rem; }
+.md-typeset details.farmaco { margin: 0; border: 1px solid var(--mi-linea); border-top: 3px solid var(--farm-tono); border-radius: 6px; box-shadow: none; background: var(--md-default-bg-color); font-size: inherit; overflow: hidden; }
+.md-typeset details.farmaco > summary { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.55rem 0.75rem 0.6rem; margin: 0; background: transparent; cursor: pointer; list-style: none; min-height: 4.2rem; }
+.md-typeset details.farmaco > summary::-webkit-details-marker { display: none; }
+.md-typeset details.farmaco > summary::before, .md-typeset details.farmaco > summary::after { display: none; }
+.md-typeset details.farmaco > summary:hover { background: var(--mi-fondo-suave); }
+.md-typeset .farm-n { font-family: var(--mi-display); font-size: 0.9rem; font-weight: 600; color: var(--md-default-fg-color); line-height: 1.25; }
+.md-typeset .farm-c { font-size: 0.66rem; color: var(--farm-tono); font-weight: 600; line-height: 1.3; }
+.md-typeset .farm-u { font-size: 0.66rem; color: var(--mi-tenue); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.md-typeset details.farmaco[open] { grid-column: 1 / -1; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.md-typeset details.farmaco[open] > summary { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: 0.7rem; min-height: 0; border-bottom: 1px solid var(--mi-linea); background: var(--mi-fondo-suave); }
+.md-typeset details.farmaco[open] > summary .farm-n { font-size: 1.05rem; }
+.md-typeset details.farmaco[open] > summary .farm-u { display: none; }
+.md-typeset .farm-ficha { padding: 0.7rem 0.85rem 0.85rem; font-size: 0.76rem; }
+.md-typeset .farm-ficha p, .md-typeset .farm-ficha ul { margin: 0; }
+.md-typeset .farm-ficha ul { padding-left: 1.1em; }
+.md-typeset .farm-ficha li { margin: 0 0 0.3em; line-height: 1.5; }
+.md-typeset .farm-grupo { font-size: 0.68rem; color: var(--mi-tenue); font-style: italic; }
+.md-typeset .farm-que { margin: 0.35rem 0 0.7rem !important; line-height: 1.55; max-width: 52rem; }
+.md-typeset .farm-et { font-size: 0.6rem !important; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--mi-tenue); margin: 0 0 0.3rem !important; }
+.md-typeset .farm-dos { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-bottom: 0.6rem; }
+.md-typeset .farm-caja { padding: 0.55rem 0.7rem; border: 1px solid var(--mi-linea); border-radius: 5px; line-height: 1.5; }
+.md-typeset .farm-dosis { border-color: var(--farm-tono); background: color-mix(in srgb, var(--farm-tono) 7%, var(--md-default-bg-color)); }
+.md-typeset .farm-dosis .farm-et { color: var(--farm-tono); }
+.md-typeset .farm-grilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.6rem; }
+.md-typeset .farm-grilla .farm-caja { font-size: 0.72rem; }
+.md-typeset .farm-perla { margin-top: 0.6rem; padding: 0.5rem 0.75rem; border-left: 3px solid var(--farm-tono); background: var(--mi-fondo-suave); border-radius: 0 5px 5px 0; }
+.md-typeset .farm-en { margin-top: 0.7rem; }
+.md-typeset .farm-en p:last-child { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.md-typeset .farm-en a { font-size: 0.66rem; padding: 0.2rem 0.6rem; border: 1px solid var(--mi-linea); border-radius: 999px; color: var(--md-default-fg-color); text-decoration: none; }
+.md-typeset .farm-en a:hover { border-color: var(--farm-tono); color: var(--farm-tono); }
+.md-typeset .farm-vacio { font-size: 0.78rem; color: var(--mi-tenue); padding: 1rem 0; }
+@media (max-width: 47.9em) {
+  .md-typeset .farm-herr { top: 2.4rem; }
+  .md-typeset .farm-mapa { grid-template-columns: 1fr 1fr; gap: 0.4rem; }
+  .md-typeset .farm-tile { grid-template-columns: 1fr; padding: 0.5rem 0.6rem; }
+  .md-typeset .farm-tile-n { grid-row: auto; font-size: 1.05rem; }
+  .md-typeset .farm-tile small { display: none; }
+  .md-typeset .farm-tarjetas { grid-template-columns: 1fr 1fr; gap: 0.4rem; }
+  .md-typeset details.farmaco > summary { min-height: 3.4rem; padding: 0.45rem 0.6rem; }
+  .md-typeset .farm-u { display: none; }
+  .md-typeset .farm-dos { grid-template-columns: 1fr; }
+}
+@media print { .md-typeset .farm-mapa, .md-typeset .farm-herr { display: none; } .md-typeset details.farmaco { break-inside: avoid; } }
+.md-typeset details.farmaco[hidden], .md-typeset .farm-familia[hidden], .md-typeset .farm-seccion[hidden], .md-typeset .farm-vacio[hidden] { display: none; }
+.md-typeset details.farmaco { padding: 0; }
+.md-typeset details.farmaco > summary { font-weight: 400; }
+.md-typeset details.farmaco > .farm-ficha { margin: 0; }
+@media (max-width: 47.9em) { .md-typeset .farm-ficha { padding: 0.6rem 0.6rem 0.75rem; } }
+.md-typeset details.farmaco > summary { font-family: var(--md-text-font-family, inherit); }

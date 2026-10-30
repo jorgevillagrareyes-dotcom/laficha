@@ -1,8 +1,14 @@
 orden: 7
 titulo: Respiratorios y antialérgicos
+familias:
+  - Broncodilatadores
+  - Corticoides inhalados
+  - Antileucotrienos y antihistamínicos
+  - Oxígeno y mucolíticos
 farmacos:
   - n: Salbutamol
     g: Broncodilatador · agonista beta-2 de acción corta (SABA)
+    fam: Broncodilatadores
     q: Relaja el músculo liso bronquial en minutos; efecto de 4–6 h. También mete el potasio a las células.
     u:
       - Crisis asmática y exacerbación de EPOC.
@@ -18,6 +24,7 @@ farmacos:
     p: En el asma ya no se recomienda el salbutamol solo como rescate sin corticoide inhalado (GINA).
   - n: Terbutalina
     g: Broncodilatador · agonista beta-2
+    fam: Broncodilatadores
     q: Agonista beta-2 que puede darse por vía subcutánea.
     u:
       - Crisis asmática grave cuando no es posible la vía inhalatoria.
@@ -28,6 +35,7 @@ farmacos:
     em: No usarla como tocolítico de mantención (arritmias y edema pulmonar materno).
   - n: Ipratropio
     g: Broncodilatador · antimuscarínico de acción corta
+    fam: Broncodilatadores
     q: Bloquea los receptores muscarínicos bronquiales; suma su efecto al del salbutamol.
     u:
       - Crisis asmática moderada o grave (junto con salbutamol, solo en las primeras horas).
@@ -39,6 +47,7 @@ farmacos:
     em: Compatible.
   - n: Beclometasona
     g: Corticoide inhalado
+    fam: Corticoides inhalados
     q: Corticoide de acción local en la vía aérea; reduce la inflamación y las crisis en el asma.
     u:
       - Asma persistente (sola o con formoterol como mantención y rescate).
@@ -50,6 +59,7 @@ farmacos:
     p: Enjuagarse la boca y escupir después de cada uso para evitar la candidiasis.
   - n: Budesonida
     g: Corticoide inhalado, nasal, nebulizado y oral
+    fam: Corticoides inhalados
     q: Corticoide con alto metabolismo hepático de primer paso; en combinación con formoterol es la base de la vía 1 de GINA.
     u:
       - Asma (budesonida-formoterol según necesidad o como mantención y rescate).
@@ -63,6 +73,7 @@ farmacos:
     em: Es el corticoide inhalado con más experiencia en el embarazo.
   - n: Fluticasona
     g: Corticoide inhalado y nasal
+    fam: Corticoides inhalados
     q: Corticoide de alta potencia tópica; se combina con salmeterol o vilanterol.
     u:
       - Asma persistente y EPOC con exacerbaciones (combinada con LABA).
@@ -76,6 +87,7 @@ farmacos:
     p: Las combinaciones con salmeterol o vilanterol no sirven como rescate (su inicio es lento).
   - n: Montelukast
     g: Antagonista del receptor de leucotrienos
+    fam: Antileucotrienos y antihistamínicos
     q: Bloquea los leucotrienos que producen broncoconstricción e inflamación.
     u:
       - Asma (alternativa o complemento del corticoide inhalado) y broncoespasmo por ejercicio.
@@ -87,6 +99,7 @@ farmacos:
     p: Advertir a los pacientes y padres sobre los cambios de conducta o del sueño.
   - n: Cetirizina
     g: Antihistamínico H1 de segunda generación
+    fam: Antileucotrienos y antihistamínicos
     q: Antihistamínico poco sedante de una toma al día.
     u:
       - Urticaria aguda y crónica (se puede subir hasta 4 veces la dosis).
@@ -99,6 +112,7 @@ farmacos:
     em: Compatible con el embarazo y la lactancia.
   - n: Loratadina
     g: Antihistamínico H1 de segunda generación
+    fam: Antileucotrienos y antihistamínicos
     q: Antihistamínico de una toma al día, con muy poca sedación.
     u:
       - Rinitis alérgica y urticaria.
@@ -108,6 +122,7 @@ farmacos:
     em: Compatible.
   - n: Clorfenamina
     g: Antihistamínico H1 de primera generación
+    fam: Antileucotrienos y antihistamínicos
     q: Antihistamínico sedante con efecto anticolinérgico; existe en forma inyectable.
     u:
       - Síntomas cutáneos de reacciones alérgicas y de la anafilaxia (coadyuvante, después de la adrenalina).
@@ -122,6 +137,7 @@ farmacos:
     p: Evitar en adultos mayores (criterios de Beers) por la sedación y el efecto anticolinérgico.
   - n: Oxígeno
     g: Gas medicinal
+    fam: Oxígeno y mucolíticos
     q: Tratamiento de la hipoxemia. Se dosifica con una meta de saturación, no con un flujo fijo.
     u:
       - Hipoxemia de cualquier causa.
@@ -138,6 +154,7 @@ farmacos:
     p: Más oxígeno no es mejor; la hiperoxia aumenta la mortalidad en varios escenarios.
   - n: Acetilcisteína
     g: Antídoto del paracetamol · mucolítico
+    fam: Oxígeno y mucolíticos
     q: Repone el glutatión hepático y neutraliza el metabolito tóxico del paracetamol (NAPQI).
     u:
       - Intoxicación por paracetamol (según el nomograma o ante la duda).

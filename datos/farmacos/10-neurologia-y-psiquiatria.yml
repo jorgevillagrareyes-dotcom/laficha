@@ -1,8 +1,18 @@
 orden: 10
 titulo: Neurología y psiquiatría
+familias:
+  - Antiepilépticos
+  - Dolor neuropático y espasticidad
+  - Benzodiacepinas, hipnóticos y sedantes
+  - Antipsicóticos
+  - Antidepresivos y estabilizadores del ánimo
+  - Demencia, Parkinson y miastenia
+  - Alcohol y adicciones
+  - Migraña y TDAH
 farmacos:
   - n: Ácido valproico
     g: Antiepiléptico de amplio espectro · estabilizador del ánimo
+    fam: Antiepilépticos
     q: Aumenta el GABA y bloquea canales de sodio y calcio. Eficaz en crisis focales y generalizadas.
     u:
       - Epilepsias generalizadas (ausencias, mioclonías, tónico-clónicas).
@@ -18,6 +28,7 @@ farmacos:
     p: Ante un paciente con valproato y compromiso de conciencia, medir el amonio.
   - n: Carbamazepina
     g: Antiepiléptico · bloqueador de canales de sodio
+    fam: Antiepilépticos
     q: Antiepiléptico para crisis focales; potente inductor enzimático.
     u:
       - Epilepsia focal.
@@ -32,6 +43,7 @@ farmacos:
     em: Teratogénica (defectos del tubo neural); dar ácido fólico en dosis alta antes y durante el embarazo.
   - n: Fenitoína
     g: Antiepiléptico · bloqueador de canales de sodio
+    fam: Antiepilépticos
     q: Antiepiléptico con cinética no lineal (pequeños cambios de dosis producen grandes cambios de nivel).
     u:
       - Estado epiléptico (segunda línea).
@@ -45,6 +57,7 @@ farmacos:
     em: Teratogénica (síndrome fetal por hidantoína).
   - n: Fenobarbital
     g: Antiepiléptico barbitúrico
+    fam: Antiepilépticos
     q: Potencia el GABA; sedante de vida media muy larga.
     u:
       - Estado epiléptico refractario (cuando no hay otras opciones).
@@ -59,6 +72,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Lamotrigina
     g: Antiepiléptico · estabilizador del ánimo
+    fam: Antiepilépticos
     q: Bloquea canales de sodio y reduce la liberación de glutamato. Bien tolerada y de las más seguras en el embarazo.
     u:
       - Epilepsia focal y generalizada.
@@ -72,6 +86,7 @@ farmacos:
     p: Respetar la titulación lenta; si se suspende más de 5 días, reiniciar desde la dosis inicial.
   - n: Levetiracetam
     g: Antiepiléptico · modulador de la proteína SV2A
+    fam: Antiepilépticos
     q: Antiepiléptico de amplio espectro, sin interacciones relevantes ni metabolismo hepático.
     u:
       - Estado epiléptico (segunda línea).
@@ -85,6 +100,7 @@ farmacos:
     em: De elección en el embarazo junto a lamotrigina.
   - n: Topiramato
     g: Antiepiléptico · múltiples mecanismos
+    fam: Antiepilépticos
     q: Bloquea canales de sodio, potencia el GABA, antagoniza el glutamato e inhibe la anhidrasa carbónica.
     u:
       - Profilaxis de la migraña.
@@ -98,6 +114,7 @@ farmacos:
     em: Evitar en el embarazo (labio y paladar hendido).
   - n: Gabapentina
     g: Gabapentinoide · ligando alfa-2-delta
+    fam: Dolor neuropático y espasticidad
     q: Reduce la liberación de neurotransmisores excitatorios; útil en el dolor neuropático.
     u:
       - Dolor neuropático (neuralgia posherpética, neuropatía diabética).
@@ -110,6 +127,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Pregabalina
     g: Gabapentinoide · ligando alfa-2-delta
+    fam: Dolor neuropático y espasticidad
     q: Similar a la gabapentina, con absorción más predecible.
     u:
       - Dolor neuropático y fibromialgia.
@@ -122,6 +140,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Clonazepam
     g: Benzodiacepina de acción prolongada
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Benzodiacepina de alta potencia con efecto ansiolítico y antiepiléptico.
     u:
       - Trastorno de pánico y ansiedad (uso breve, mientras actúa un antidepresivo).
@@ -136,6 +155,7 @@ farmacos:
     p: Evitar las benzodiacepinas en adultos mayores (caídas, delirium) y retirarlas siempre en forma gradual.
   - n: Diazepam
     g: Benzodiacepina de acción prolongada
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Benzodiacepina con metabolitos activos de vida media muy larga.
     u:
       - Estado epiléptico (primera línea, EV o rectal).
@@ -151,6 +171,7 @@ farmacos:
     em: Evitar al final del embarazo (síndrome del lactante hipotónico).
   - n: Lorazepam
     g: Benzodiacepina de acción intermedia
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Benzodiacepina sin metabolitos activos (glucuronidación); útil en la hepatopatía y en adultos mayores.
     u:
       - Estado epiléptico (primera línea).
@@ -165,6 +186,7 @@ farmacos:
     em: Evitar si es posible.
   - n: Midazolam
     g: Benzodiacepina de acción corta
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Benzodiacepina hidrosoluble que se absorbe bien por vía IM, intranasal o bucal; inicio rápido.
     u:
       - Estado epiléptico sin vía venosa (IM, intranasal o bucal).
@@ -180,6 +202,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Flumazenil
     g: Antídoto · antagonista de las benzodiacepinas
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Antagonista competitivo del receptor de benzodiacepinas; vida media más corta que la mayoría de ellas.
     u:
       - Reversión de una sedación excesiva por benzodiacepinas en procedimientos.
@@ -191,6 +214,7 @@ farmacos:
     p: No se usa de rutina en el paciente intoxicado con compromiso de conciencia de causa no clara.
   - n: Zolpidem
     g: Hipnótico no benzodiacepínico
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Agonista selectivo del receptor GABA-A (subunidad alfa-1) de vida media corta.
     u:
       - Insomnio de conciliación, por tiempo breve (≤ 4 semanas) y después de la terapia cognitivo-conductual.
@@ -202,6 +226,7 @@ farmacos:
     em: Evitar si es posible.
   - n: Haloperidol
     g: Antipsicótico típico (butirofenona)
+    fam: Antipsicóticos
     q: Antagonista potente de los receptores D2; poco sedante y poco hipotensor.
     u:
       - Delirium hiperactivo con agitación peligrosa o angustia intensa (dosis bajas, por pocos días).
@@ -218,6 +243,7 @@ farmacos:
     p: En el delirium no acorta el cuadro; tratar la causa y usar medidas no farmacológicas primero.
   - n: Olanzapina
     g: Antipsicótico atípico
+    fam: Antipsicóticos
     q: Antagonista de los receptores D2 y 5-HT2A con efecto sedante y antiemético.
     u:
       - Esquizofrenia y trastorno bipolar (manía).
@@ -233,6 +259,7 @@ farmacos:
     em: Usar si se necesita; vigilar la diabetes gestacional.
   - n: Quetiapina
     g: Antipsicótico atípico
+    fam: Antipsicóticos
     q: Antipsicótico con poco efecto extrapiramidal; sedante e hipotensor.
     u:
       - Esquizofrenia y trastorno bipolar (manía y depresión).
@@ -246,6 +273,7 @@ farmacos:
     p: No usarla como hipnótico en dosis bajas (riesgo metabólico sin beneficio demostrado).
   - n: Risperidona
     g: Antipsicótico atípico
+    fam: Antipsicóticos
     q: Antagonista D2 y 5-HT2A; más extrapiramidalismo e hiperprolactinemia que otros atípicos con dosis altas.
     u:
       - Esquizofrenia y manía.
@@ -260,6 +288,7 @@ farmacos:
     p: En la demencia, los antipsicóticos aumentan la mortalidad y el riesgo de ACV; usar solo si hay riesgo y por el menor tiempo.
   - n: Aripiprazol
     g: Antipsicótico atípico · agonista parcial D2
+    fam: Antipsicóticos
     q: Agonista parcial de los receptores D2; poco efecto metabólico y sobre la prolactina.
     u:
       - Esquizofrenia y trastorno bipolar.
@@ -271,6 +300,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Clozapina
     g: Antipsicótico atípico
+    fam: Antipsicóticos
     q: El antipsicótico más eficaz; reservado para la esquizofrenia resistente por su toxicidad.
     u:
       - Esquizofrenia resistente (fracaso de 2 antipsicóticos en dosis y tiempo adecuados).
@@ -284,6 +314,7 @@ farmacos:
     p: Requiere hemogramas seriados (semanales al inicio) en un programa de control.
   - n: Litio
     g: Estabilizador del ánimo
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Estabilizador de primera línea en el trastorno bipolar; reduce el suicidio. Margen terapéutico estrecho y eliminación renal.
     u:
       - Trastorno bipolar (manía aguda y mantención).
@@ -299,6 +330,7 @@ farmacos:
     p: La intoxicación grave por litio se trata con hemodiálisis.
   - n: Fluoxetina
     g: Antidepresivo · inhibidor selectivo de la recaptación de serotonina (ISRS)
+    fam: Antidepresivos y estabilizadores del ánimo
     q: ISRS de vida media muy larga (sin síndrome de discontinuación, pero con interacciones prolongadas).
     u:
       - Depresión (también en adolescentes), trastorno obsesivo-compulsivo y bulimia nerviosa.
@@ -312,6 +344,7 @@ farmacos:
     p: Vigilar la ideación suicida al inicio en menores de 25 años.
   - n: Sertralina
     g: Antidepresivo · ISRS
+    fam: Antidepresivos y estabilizadores del ánimo
     q: ISRS con pocas interacciones y buen perfil cardiovascular.
     u:
       - Depresión, también en cardiópatas, embarazadas y en la lactancia.
@@ -324,6 +357,7 @@ farmacos:
     em: ISRS de elección en el embarazo y la lactancia.
   - n: Citalopram
     g: Antidepresivo · ISRS
+    fam: Antidepresivos y estabilizadores del ánimo
     q: ISRS con pocas interacciones, pero que prolonga el QT de forma dependiente de la dosis.
     u:
       - Depresión y trastornos de ansiedad.
@@ -334,6 +368,7 @@ farmacos:
     em: Se puede usar.
   - n: Escitalopram
     g: Antidepresivo · ISRS
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Enantiómero activo del citalopram, bien tolerado.
     u:
       - Depresión y trastorno de ansiedad generalizada.
@@ -344,6 +379,7 @@ farmacos:
     em: Se puede usar.
   - n: Duloxetina
     g: Antidepresivo · inhibidor de la recaptación de serotonina y noradrenalina (IRSN)
+    fam: Antidepresivos y estabilizadores del ánimo
     q: IRSN con efecto analgésico en el dolor crónico.
     u:
       - Depresión y ansiedad generalizada.
@@ -357,6 +393,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Amitriptilina
     g: Antidepresivo tricíclico
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Inhibe la recaptación de serotonina y noradrenalina, con potente efecto anticolinérgico, antihistamínico y alfa-bloqueador. Letal en sobredosis.
     u:
       - Dolor neuropático y cefalea tensional crónica.
@@ -370,6 +407,7 @@ farmacos:
     p: Evitar en adultos mayores (criterios de Beers). En la intoxicación con QRS > 100 ms, bicarbonato de sodio.
   - n: Mirtazapina
     g: Antidepresivo noradrenérgico y serotoninérgico específico
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Antagonista alfa-2 y de los receptores 5-HT2 y H1; sedante y orexígeno, con poca disfunción sexual.
     u:
       - Depresión con insomnio, inapetencia o baja de peso (útil en adultos mayores).
@@ -380,6 +418,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Trazodona
     g: Antidepresivo · antagonista e inhibidor de la recaptación de serotonina
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Antidepresivo sedante que en dosis bajas se usa para el insomnio.
     u:
       - Insomnio asociado a depresión o en adultos mayores (dosis bajas).
@@ -391,6 +430,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Bupropión
     g: Antidepresivo · inhibidor de la recaptación de dopamina y noradrenalina
+    fam: Antidepresivos y estabilizadores del ánimo
     q: Antidepresivo activador, sin disfunción sexual ni aumento de peso.
     u:
       - Depresión (sobre todo con fatiga o disfunción sexual por ISRS).
@@ -404,6 +444,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Metilfenidato
     g: Psicoestimulante
+    fam: Migraña y TDAH
     q: Inhibe la recaptación de dopamina y noradrenalina; mejora la atención y reduce la impulsividad.
     u:
       - Trastorno por déficit de atención e hiperactividad (TDAH) en niños desde los 6 años y en adultos.
@@ -418,6 +459,7 @@ farmacos:
     p: Controlar el peso, la talla, la PA y la FC en cada visita.
   - n: Donepezilo
     g: Inhibidor de la acetilcolinesterasa
+    fam: Demencia, Parkinson y miastenia
     q: Aumenta la acetilcolina cerebral; mejora modestamente la cognición y la funcionalidad.
     u:
       - Enfermedad de Alzheimer leve, moderada y grave.
@@ -430,6 +472,7 @@ farmacos:
     em: No aplica en la práctica.
   - n: Levodopa
     g: Antiparkinsoniano · precursor de la dopamina
+    fam: Demencia, Parkinson y miastenia
     q: Precursor de la dopamina que se da con carbidopa o benserazida para evitar su conversión periférica. El fármaco más eficaz para los síntomas motores del Parkinson.
     u:
       - Enfermedad de Parkinson.
@@ -442,6 +485,7 @@ farmacos:
     p: No suspenderla bruscamente (riesgo de un cuadro similar al síndrome neuroléptico maligno); si el paciente queda en ayunas, buscar otra vía.
   - n: Ropinirol
     g: Agonista dopaminérgico no ergótico
+    fam: Demencia, Parkinson y miastenia
     q: Agonista de los receptores D2 y D3.
     u:
       - Enfermedad de Parkinson (inicial en jóvenes o asociado a levodopa).
@@ -454,6 +498,7 @@ farmacos:
     p: Preguntar siempre por conductas compulsivas; el paciente rara vez las cuenta.
   - n: Biperideno
     g: Anticolinérgico central
+    fam: Demencia, Parkinson y miastenia
     q: Antimuscarínico que restablece el balance dopamina-acetilcolina en los ganglios basales.
     u:
       - Distonía aguda por antipsicóticos o metoclopramida.
@@ -466,6 +511,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Baclofeno
     g: Relajante muscular · agonista GABA-B
+    fam: Dolor neuropático y espasticidad
     q: Reduce la espasticidad de origen central.
     u:
       - Espasticidad por esclerosis múltiple, lesión medular o parálisis cerebral.
@@ -478,6 +524,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Piridostigmina
     g: Inhibidor de la acetilcolinesterasa
+    fam: Demencia, Parkinson y miastenia
     q: Aumenta la acetilcolina en la placa neuromuscular; alivia los síntomas de la miastenia.
     u:
       - Miastenia gravis (tratamiento sintomático).
@@ -488,6 +535,7 @@ farmacos:
     em: Compatible con el embarazo.
   - n: Sumatriptán
     g: Antimigrañoso · agonista 5-HT1B/1D (triptán)
+    fam: Migraña y TDAH
     q: Vasoconstrictor craneal que inhibe la liberación de neuropéptidos en el trigémino.
     u:
       - Crisis de migraña moderada a grave.
@@ -502,6 +550,7 @@ farmacos:
     p: Usar triptanes más de 10 días al mes produce cefalea por abuso de medicamentos.
   - n: Tiamina
     g: Vitamina B1
+    fam: Alcohol y adicciones
     q: Cofactor del metabolismo de la glucosa. Su déficit produce la encefalopatía de Wernicke y el beriberi.
     u:
       - Encefalopatía de Wernicke (sospechada o confirmada).
@@ -515,6 +564,7 @@ farmacos:
     p: Corregir también el magnesio; sin magnesio la tiamina no actúa bien.
   - n: Naltrexona
     g: Antagonista opioide oral
+    fam: Alcohol y adicciones
     q: Bloquea los receptores opioides; reduce el deseo de consumo y el efecto placentero del alcohol.
     u:
       - Trastorno por consumo de alcohol (prevención de recaídas).
@@ -526,6 +576,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Acamprosato
     g: Modulador glutamatérgico
+    fam: Alcohol y adicciones
     q: Reduce la hiperexcitabilidad glutamatérgica de la abstinencia prolongada; ayuda a mantener la abstinencia del alcohol.
     u:
       - Mantención de la abstinencia en el trastorno por consumo de alcohol (iniciar después de la desintoxicación).
@@ -538,6 +589,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Prometazina
     g: Antihistamínico fenotiazínico
+    fam: Benzodiacepinas, hipnóticos y sedantes
     q: Antihistamínico H1 sedante con efecto antiemético y anticolinérgico.
     u:
       - Agitación psicótica (asociada a haloperidol IM).

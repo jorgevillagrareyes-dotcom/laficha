@@ -1,8 +1,12 @@
 orden: 4
 titulo: Vasoactivos y fármacos del paro
+familias:
+  - Vasopresores e inotrópicos
+  - Vasoconstrictores esplácnicos
 farmacos:
   - n: Adrenalina
     g: Catecolamina · agonista alfa y beta adrenérgico
+    fam: Vasopresores e inotrópicos
     q: Estimula los receptores alfa-1 (vasoconstricción), beta-1 (inotropismo y cronotropismo) y beta-2 (broncodilatación).
     u:
       - Paro cardiorrespiratorio.
@@ -20,6 +24,7 @@ farmacos:
     p: "En la anafilaxia, nunca el bolo EV de 1 mg (solo en el paro): se usa la vía IM."
   - n: Noradrenalina
     g: Catecolamina · vasopresor alfa con efecto beta-1
+    fam: Vasopresores e inotrópicos
     q: Vasoconstrictor potente con leve efecto inotrópico. Es el vasopresor de primera línea en el shock séptico.
     u:
       - Shock séptico y shock distributivo.
@@ -33,6 +38,7 @@ farmacos:
     em: Se usa en el embarazo si es necesario.
   - n: Dopamina
     g: Catecolamina · efecto dependiente de la dosis
+    fam: Vasopresores e inotrópicos
     q: Precursor de la noradrenalina; en dosis medias estimula los receptores beta-1 y en dosis altas los alfa.
     u:
       - Bradicardia sintomática sin respuesta a atropina (alternativa al marcapaso).
@@ -44,6 +50,7 @@ farmacos:
     p: No se usa en el shock séptico (más arritmias y mortalidad que la noradrenalina) ni en dosis bajas para "proteger el riñón".
   - n: Dobutamina
     g: Inotrópico · agonista beta-1
+    fam: Vasopresores e inotrópicos
     q: Aumenta la contractilidad y el gasto cardíaco; tiene leve efecto vasodilatador.
     u:
       - Shock cardiogénico o IC con hipoperfusión (perfil frío).
@@ -57,6 +64,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Milrinona
     g: Inotrópico · inhibidor de la fosfodiesterasa 3
+    fam: Vasopresores e inotrópicos
     q: Inotrópico y vasodilatador que no depende de los receptores beta; útil en usuarios de betabloqueadores.
     u:
       - IC con bajo gasto e hipertensión pulmonar.
@@ -68,6 +76,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Vasopresina
     g: Vasopresor · hormona antidiurética
+    fam: Vasopresores e inotrópicos
     q: Vasoconstrictor que actúa sobre los receptores V1, sin depender de los receptores adrenérgicos.
     u:
       - Shock séptico, como segundo vasopresor para ahorrar noradrenalina.
@@ -78,6 +87,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Terlipresina
     g: Análogo de la vasopresina · vasoconstrictor esplácnico
+    fam: Vasoconstrictores esplácnicos
     q: Análogo de vasopresina de acción más larga que reduce el flujo y la presión portal.
     u:
       - Hemorragia digestiva variceal (antes de la endoscopía).
@@ -90,6 +100,7 @@ farmacos:
     em: Contraindicada en el embarazo.
   - n: Somatostatina
     g: Hormona inhibidora · vasoconstrictor esplácnico
+    fam: Vasoconstrictores esplácnicos
     q: Inhibe la secreción de hormonas gastrointestinales y reduce el flujo esplácnico.
     u:
       - Hemorragia digestiva variceal (alternativa a terlipresina u octreótido).
@@ -99,6 +110,7 @@ farmacos:
     em: Usar si se necesita.
   - n: Octreotide
     g: Análogo de la somatostatina
+    fam: Vasoconstrictores esplácnicos
     q: Análogo de la somatostatina de vida media más larga, con efecto esplácnico y antisecretor.
     u:
       - Hemorragia digestiva variceal.

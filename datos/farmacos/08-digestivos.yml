@@ -1,8 +1,14 @@
 orden: 8
 titulo: Digestivos
+familias:
+  - Supresores del ácido
+  - Antieméticos y procinéticos
+  - Laxantes y antidiarreicos
+  - Intestino, hígado y toxicología
 farmacos:
   - n: Omeprazol
     g: Inhibidor de la bomba de protones (IBP)
+    fam: Supresores del ácido
     q: Bloquea de forma irreversible la bomba de protones de la célula parietal; reduce la secreción ácida por 24 h.
     u:
       - ERGE, esofagitis y úlcera péptica.
@@ -20,6 +26,7 @@ farmacos:
     p: Revisar periódicamente si sigue siendo necesario; muchos pacientes lo usan años sin indicación (deprescribir de forma gradual).
   - n: Ranitidina
     g: Antagonista de los receptores H2
+    fam: Supresores del ácido
     q: Bloquea los receptores H2 de la célula parietal; menos potente que los IBP.
     u:
       - Dispepsia y ERGE leve (hoy reemplazada por IBP o famotidina).
@@ -31,6 +38,7 @@ farmacos:
     p: En 2020 la FDA pidió retirarla del mercado por contaminación con NDMA (posible carcinógeno); donde no esté disponible, usar famotidina o un IBP.
   - n: Ondansetrón
     g: Antiemético · antagonista del receptor 5-HT3
+    fam: Antieméticos y procinéticos
     q: Bloquea los receptores de serotonina del área postrema y del intestino.
     u:
       - Náuseas y vómitos por quimioterapia y posoperatorios.
@@ -44,6 +52,7 @@ farmacos:
     em: Se usa en el embarazo cuando fallan las primeras opciones.
   - n: Metoclopramida
     g: Antiemético y procinético · antagonista dopaminérgico D2
+    fam: Antieméticos y procinéticos
     q: Bloquea los receptores D2 (central y periférico) y acelera el vaciamiento gástrico.
     u:
       - Náuseas y vómitos, gastroparesia.
@@ -58,6 +67,7 @@ farmacos:
     p: La distonía aguda se trata con biperideno (o difenhidramina) EV o IM.
   - n: Domperidona
     g: Antiemético y procinético · antagonista D2 periférico
+    fam: Antieméticos y procinéticos
     q: Antagonista dopaminérgico que casi no cruza la barrera hematoencefálica (menos efectos extrapiramidales).
     u:
       - Náuseas y vómitos (por ejemplo, por levodopa en la enfermedad de Parkinson).
@@ -68,6 +78,7 @@ farmacos:
     em: Evitar en el embarazo.
   - n: Dimenhidrinato
     g: Antihistamínico H1 con acción antiemética y antivertiginosa
+    fam: Antieméticos y procinéticos
     q: Antihistamínico de primera generación con efecto anticolinérgico y sedante.
     u:
       - Vértigo periférico agudo (por pocos días).
@@ -80,6 +91,7 @@ farmacos:
     p: En el vértigo, usarlo solo los primeros días; prolongarlo retrasa la compensación vestibular.
   - n: Lactulosa
     g: Laxante osmótico · disacárido no absorbible
+    fam: Laxantes y antidiarreicos
     q: Las bacterias del colon la fermentan; acidifica el contenido intestinal, atrapa el amonio y produce un efecto osmótico.
     u:
       - Tratamiento y prevención de la encefalopatía hepática.
@@ -92,6 +104,7 @@ farmacos:
     em: Compatible.
   - n: Polietilenglicol
     g: Laxante osmótico
+    fam: Laxantes y antidiarreicos
     q: Polímero no absorbible que retiene agua en el colon.
     u:
       - Constipación funcional y por opioides, en adultos y niños.
@@ -106,6 +119,7 @@ farmacos:
     em: Compatible.
   - n: Loperamida
     g: Antidiarreico · agonista opioide periférico
+    fam: Laxantes y antidiarreicos
     q: Agonista de los receptores opioides del intestino que reduce la motilidad; no cruza la barrera hematoencefálica en dosis normales.
     u:
       - Diarrea aguda no disentérica del adulto.
@@ -117,6 +131,7 @@ farmacos:
     em: Usar solo si se necesita.
   - n: Mesalazina
     g: Antiinflamatorio intestinal · aminosalicilato (5-ASA)
+    fam: Intestino, hígado y toxicología
     q: Antiinflamatorio de acción local en la mucosa del colon.
     u:
       - Colitis ulcerosa leve a moderada (inducción y mantención).
@@ -130,6 +145,7 @@ farmacos:
     p: Medir la creatinina antes de iniciarla y luego cada 6–12 meses.
   - n: Ácido ursodesoxicólico
     g: Ácido biliar hidrofílico
+    fam: Intestino, hígado y toxicología
     q: Reemplaza a los ácidos biliares tóxicos, aumenta el flujo biliar y protege a los colangiocitos.
     u:
       - Colangitis biliar primaria (primera línea).
@@ -143,6 +159,7 @@ farmacos:
     em: Se usa en la colestasia del embarazo.
   - n: Carbón activado
     g: Adsorbente gastrointestinal
+    fam: Intestino, hígado y toxicología
     q: Polvo de gran superficie que adsorbe muchos tóxicos en el intestino e impide su absorción.
     u:
       - Intoxicaciones orales con riesgo vital, idealmente dentro de 1–2 h de la ingesta.
