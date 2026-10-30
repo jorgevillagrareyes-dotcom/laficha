@@ -736,16 +736,8 @@
   .ecg-reales { padding: 0.6rem; }
 }
 
-/* Fármacos: mapa de grupos, familias y fichas en tarjetas */
-.farm-t1 { --farm-tono: #2f6f8f; } .farm-t2 { --farm-tono: #6a5d9a; } .farm-t3 { --farm-tono: #a24a4a; } .farm-t4 { --farm-tono: #b0582a; }
-.farm-t5 { --farm-tono: #8a3f63; } .farm-t6 { --farm-tono: #3f7a5a; } .farm-t7 { --farm-tono: #3a7f86; } .farm-t8 { --farm-tono: #8a7a2e; }
-.farm-t9 { --farm-tono: #5c6b2f; } .farm-t10 { --farm-tono: #4a5ea0; } .farm-t11 { --farm-tono: #7a5a3a; } .farm-t12 { --farm-tono: #9a4f86; }
-[data-md-color-scheme="slate"] .farm-t1 { --farm-tono: #7fb6d1; } [data-md-color-scheme="slate"] .farm-t2 { --farm-tono: #ada2d8; }
-[data-md-color-scheme="slate"] .farm-t3 { --farm-tono: #e09a9a; } [data-md-color-scheme="slate"] .farm-t4 { --farm-tono: #e5a37f; }
-[data-md-color-scheme="slate"] .farm-t5 { --farm-tono: #d79cbb; } [data-md-color-scheme="slate"] .farm-t6 { --farm-tono: #8cc7a6; }
-[data-md-color-scheme="slate"] .farm-t7 { --farm-tono: #84c6cc; } [data-md-color-scheme="slate"] .farm-t8 { --farm-tono: #d2c27a; }
-[data-md-color-scheme="slate"] .farm-t9 { --farm-tono: #b3c27e; } [data-md-color-scheme="slate"] .farm-t10 { --farm-tono: #9fb0e6; }
-[data-md-color-scheme="slate"] .farm-t11 { --farm-tono: #cfae8b; } [data-md-color-scheme="slate"] .farm-t12 { --farm-tono: #dba0cd; }
+/* Fármacos: grupos y familias plegables, fichas en tarjetas (paleta neutra del sitio) */
+.farm-seccion, .farm-familia, .farmaco { --farm-tono: var(--md-default-fg-color); }
 .md-typeset .farm-lead { font-size: 0.82rem; color: var(--mi-tenue); max-width: 46rem; }
 .md-typeset .farm-lead strong { color: var(--md-default-fg-color); }
 .md-typeset .farm-herr { position: sticky; top: 2.4rem; z-index: 3; display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; padding: 0.55rem 0; margin: 0.6rem 0 0.4rem; background: var(--md-default-bg-color); }
@@ -835,3 +827,31 @@
   .md-typeset .farm-g-cuerpo { padding: 0.25rem 0.35rem 0.5rem; }
 }
 .md-typeset details.farm-familia { border-top: none; border-left: none; border-right: none; border-radius: 0; }
+
+/* Fármacos: estilo sobrio (filas con líneas finas, sin recuadros de color) */
+.md-typeset details.farm-seccion { border: none; border-bottom: 1px solid var(--mi-linea); border-radius: 0; margin: 0; background: transparent; }
+.md-typeset details.farm-seccion:first-of-type { border-top: 1px solid var(--mi-linea); }
+.md-typeset details.farm-seccion > summary.farm-h2 { padding: 0.75rem 2.2rem 0.75rem 0; }
+.md-typeset details.farm-seccion > summary.farm-h2:hover, .md-typeset details.farm-familia > summary.farm-h3:hover { background: transparent; }
+.md-typeset details.farm-seccion > summary.farm-h2:hover .farm-g-txt strong, .md-typeset details.farm-familia > summary.farm-h3:hover .farm-f-txt strong { color: var(--md-accent-fg-color); }
+.md-typeset details.farm-seccion > summary.farm-h2::after, .md-typeset details.farm-familia > summary.farm-h3::after { right: 0.4rem; }
+.md-typeset details.farm-seccion[open] > summary.farm-h2 { border-bottom: none; }
+.md-typeset .farm-g-n { color: var(--mi-tenue); font-size: 1rem; font-weight: 400; min-width: 1.8rem; text-align: left; }
+.md-typeset .farm-g-cuerpo { padding: 0 0 0.8rem 2.65rem; }
+.md-typeset details.farm-familia > summary.farm-h3 { padding: 0.5rem 2rem 0.5rem 0; }
+.md-typeset .farm-f-n { color: var(--mi-tenue); border: none; padding: 0; font-weight: 400; font-size: 0.68rem; }
+.md-typeset details.farm-familia > .farm-tarjetas { padding: 0.1rem 0 0.7rem; }
+.md-typeset details.farmaco { border: 1px solid var(--mi-linea); border-radius: 6px; background: var(--mi-fondo-suave); transition: border-color .15s; }
+.md-typeset details.farmaco:hover { border-color: var(--md-accent-fg-color); }
+.md-typeset details.farmaco > summary:hover { background: transparent; }
+.md-typeset details.farmaco[open] { background: var(--md-default-bg-color); border-color: var(--md-accent-fg-color); }
+.md-typeset details.farmaco[open] > summary { background: transparent; }
+.md-typeset .farm-c { color: var(--mi-tenue); font-weight: 400; font-style: italic; }
+.md-typeset .farm-dosis { border-color: var(--md-default-fg-color--light, var(--mi-linea)); background: var(--mi-fondo-suave); }
+.md-typeset .farm-dosis .farm-et { color: var(--md-default-fg-color); }
+.md-typeset .farm-perla { border-left-color: var(--mi-linea); }
+.md-typeset .farm-en a:hover { border-color: var(--md-accent-fg-color); color: var(--md-accent-fg-color); }
+@media (max-width: 47.9em) {
+  .md-typeset .farm-g-cuerpo { padding-left: 0; }
+  .md-typeset details.farm-seccion > summary.farm-h2 { padding: 0.65rem 2rem 0.65rem 0; }
+}

@@ -439,7 +439,7 @@ def main():
         return f'<div class="farm-caja{" " + clase if clase else ""}"><p class="farm-et">{etiqueta}</p>{cuerpo}</div>'
 
     for k, (_orden, titulo, familias, lista) in enumerate(grupos, 1):
-        partes.append(f'<details class="farm-seccion farm-t{k}" id="{slug(titulo)}"><summary class="farm-h2">'
+        partes.append(f'<details class="farm-seccion" id="{slug(titulo)}"><summary class="farm-h2">'
                       f'<span class="farm-g-n">{len(lista)}</span><span class="farm-g-txt"><strong>{esc(titulo)}</strong>'
                       f'<small>{esc(" · ".join(familias))}</small></span></summary><div class="farm-g-cuerpo">\n')
         for fam in familias:
