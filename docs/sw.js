@@ -15,16 +15,29 @@ self.addEventListener("fetch", function (ev) {
   if (req.method !== "GET" || new URL(req.url).origin !== location.origin) return;
   var esPagina = req.mode === "navigate" || /\.(html|css|js|json)$|\/$/.test(new URL(req.url).pathname);
   if (esPagina) {
-    ev.respondWith(fetch(req).then(function (r) {
+    // Primero la red; si tarda más de 3 s (mala señal) y hay copia guardada, se muestra la copia
+    // y la respuesta de la red igual actualiza la copia para la próxima vez.
+    var red = fetch(req).then(function (r) {
       var copia = r.clone();
       if (r.ok) caches.open(CACHE).then(function (c) { c.put(req, copia); });
       return r;
-    }).catch(function () {
-      return caches.match(req, { ignoreSearch: true }).then(function (r) {
-        return r || new Response("<p style='font-family:serif;padding:2rem'>Sin conexión y esta página no está guardada. Abre «Mis temas» con conexión y descarga el sitio.</p>",
-          { headers: { "Content-Type": "text/html; charset=utf-8" } });
+    });
+    var guardada = function () {
+      return caches.match(req, { ignoreSearch: true });
+    };
+    ev.respondWith(new Promise(function (listo) {
+      var hecho = false;
+      var responder = function (r) { if (!hecho && r) { hecho = true; listo(r); } };
+      var espera = setTimeout(function () { guardada().then(responder); }, 3000);
+      red.then(function (r) { clearTimeout(espera); responder(r); }).catch(function () {
+        clearTimeout(espera);
+        guardada().then(function (r) {
+          responder(r || new Response("<p style='font-family:serif;padding:2rem'>Sin conexión y esta página no está guardada. Abre «Mis temas» con conexión y descarga el sitio.</p>",
+            { headers: { "Content-Type": "text/html; charset=utf-8" } }));
+        });
       });
     }));
+    if (ev.waitUntil) ev.waitUntil(red.catch(function () {}));
     return;
   }
   ev.respondWith(caches.match(req, { ignoreSearch: true }).then(function (guardada) {

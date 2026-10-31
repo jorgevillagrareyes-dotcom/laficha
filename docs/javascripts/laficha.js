@@ -2,6 +2,17 @@
 (function () {
   "use strict";
 
+  // Diagramas ya dibujados al compilar (hooks/optimizar.py) vienen en un shadow DOM declarativo;
+  // los navegadores antiguos que no lo entienden lo arman aquí.
+  Array.prototype.forEach.call(document.querySelectorAll("template[shadowrootmode]"), function (t) {
+    var host = t.parentNode;
+    if (!host || host.shadowRoot || !host.attachShadow) return;
+    try {
+      host.attachShadow({ mode: t.getAttribute("shadowrootmode") }).appendChild(t.content);
+      t.parentNode.removeChild(t);
+    } catch (e) { /* sin soporte: el diagrama no se muestra, como sin JavaScript */ }
+  });
+
   // Barra fina de progreso de lectura bajo el encabezado
   function barraProgreso() {
     if (!document.querySelector(".md-content h1")) return;

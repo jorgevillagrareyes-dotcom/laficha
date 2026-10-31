@@ -75,7 +75,13 @@ Reglas que el usuario ya fijó:
 python3 scripts/generar_indices.py && mkdocs build --strict
 ```
 
-Debe terminar **sin ninguna advertencia** (el aviso de "MkDocs 2.0" del tema no cuenta). Luego revisa la página en un celular simulado:
+Debe terminar **sin ninguna advertencia** (el aviso de "MkDocs 2.0" del tema no cuenta). Si la compilación avisa "diagramas sin SVG" (un diagrama Mermaid nuevo o modificado), dibújalos y vuelve a compilar; los SVG de `datos/mermaid/` van en el commit:
+
+```bash
+node scripts/mermaid-svg.js && mkdocs build --strict
+```
+
+Luego revisa la página en un celular simulado:
 
 ```bash
 (cd site && python3 -m http.server 8765 >/dev/null 2>&1 &)
