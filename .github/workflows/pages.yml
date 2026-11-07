@@ -45,3 +45,6 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # GitHub Pages a veces tarda más de los 10 minutos por defecto en copiar el sitio
+          timeout: 1800000
