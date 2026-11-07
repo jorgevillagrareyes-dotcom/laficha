@@ -156,7 +156,7 @@
       ondaT: [C(195, 44, T_DIR, 0.34), C(245, 26, T_DIR, 0.1)], tDesp: -55 },
     hipocal: { nombre: "Hipocalcemia (QT largo)", corto: "Hipocalcemia", grupo: "elec", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
       ondaT: [C(360, 48, T_DIR, 0.34), C(410, 28, T_DIR, 0.1)], tDesp: 110 },
-    qtlargo: { nombre: "QT largo", grupo: "otros", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
+    qtlargo: { nombre: "QT largo", grupo: "elec", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II",
       ondaT: [C(320, 65, T_DIR, 0.3), C(390, 36, T_DIR, 0.08)], tDesp: 60, tAncho: 30 },
     pericarditis: { nombre: "Pericarditis aguda", grupo: "otros", latidos: sinusal(800, 160), pr: 160, rr: 800, kT: 1, tira: "II", Ta: TA_PERI,
       lesion: { dir: unit(0.45, -0.55, 0.6), zona: "todo", amp: 0.17, concava: true } },
@@ -168,8 +168,10 @@
     derrame: { nombre: "Derrame pericárdico con alternancia eléctrica", corto: "Alternancia eléctrica", grupo: "otros", derrame: true, ganancia: 0.42, tira: "V3", rr: 570, kT: 1.25, pr: 150,
       latidos: periodico(1140, [{ p: 0, q: 150 }, { p: 570, q: 720, alt: true }]) }
   };
-  var GRUPOS = [["normal", "ECG normal"], ["supra", "Taquiarritmias supraventriculares"], ["bloqueo", "Bloqueos AV"], ["rama", "Bloqueos de rama"],
-    ["vent", "Arritmias ventriculares"], ["isq", "Isquemia"], ["elec", "Electrolitos"], ["otros", "Otros patrones"]];
+  // Mismo orden y nombres que los temas del atlas en la página (docs/atlas-ecg.md)
+  var GRUPOS = [["normal", "ECG normal"], ["supra", "Taquiarritmias supraventriculares"], ["vent", "Arritmias ventriculares y paro"],
+    ["bloqueo", "Bradiarritmias y bloqueos AV"], ["rama", "Bloqueos de rama"], ["isq", "Isquemia e infarto"], ["elec", "Electrolitos y QT"],
+    ["otros", "Pericardio, hipertrofia y otros"]];
 
   function vector(r, t) {
     var acc = v3(0, 0, 0), ls = r.latidos(t);
@@ -997,7 +999,9 @@
       var b = document.createElement("button"); b.type = "button"; b.className = "ecg-ver"; b.textContent = "Ver en el corazón";
       b.addEventListener("click", function () { elegirRitmo(k, true); }); c.appendChild(b);
     });
-    function dibujarTarjetas() { tarjetas.forEach(function (c) { var r = RITMOS[c.getAttribute("data-ritmo")]; if (r) trazo(c.querySelector(".ecg-miniatura"), r, r.tira || "II", 3200, 3, 1.1); }); }
+    function dibujarTarjetas() { tarjetas.forEach(function (c) { var r = RITMOS[c.getAttribute("data-ritmo")]; if (r && c.offsetParent) trazo(c.querySelector(".ecg-miniatura"), r, r.tira || "II", 3200, 3, 1.1); }); }
+    // Los temas del atlas son plegables: las miniaturas se dibujan al abrirlos
+    document.querySelectorAll("details.ecg-seccion").forEach(function (d) { d.addEventListener("toggle", dibujarTarjetas); });
 
     if ("IntersectionObserver" in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; }).observe(raiz);
     window.addEventListener("resize", function () { dibujarMinis(); dibujarTarjetas(); });

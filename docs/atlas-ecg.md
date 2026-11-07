@@ -7,6 +7,8 @@ hide:
 
 Un corazón en 3D con la conducción eléctrica animada **en el mismo instante** que el ECG. El corazón **se contrae** al ritmo del trazado. Elige un trazado, toca una **onda o segmento** para ver qué la genera y sus valores, y gira el corazón con el dedo o el mouse. Al final, **ECG reales** de pacientes para practicar.
 
+<nav class="ecg-indice" aria-label="En esta página"><a href="#atlas-ecg">Simulador</a><a href="#como-leer-un-ecg-en-7-pasos">Cómo leer un ECG</a><a href="#atlas-por-tema">Atlas por tema</a><a href="#ecg-reales">ECG reales</a><a href="#referencias">Referencias</a></nav>
+
 <div id="atlas-ecg" class="ecg-atlas">
 <div class="ecg-barra"><div class="ecg-pestanas" role="tablist"><button type="button" role="tab" data-grupo="normal">ECG normal</button><button type="button" role="tab" data-grupo="patologico">ECG patológicos</button></div><label class="ecg-elegir-movil">Trazado <select name="ritmo"></select></label></div>
 <div class="ecg-menu"></div>
@@ -30,7 +32,12 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-## ECG normal
+## Atlas por tema
+
+Cada tema se abre con un toque. Las tarjetas muestran el trazado típico, los criterios clave y el enlace al resumen; **Ver en el corazón** lo carga en el simulador y **Ver ECG real** abre un ejemplo de un paciente.
+
+<details class="ecg-seccion" id="tema-normal" open markdown>
+<summary><span class="ecg-sec-txt"><strong>ECG normal</strong><small>Ritmo sinusal normal · Bradicardia sinusal · Taquicardia sinusal</small></span><span class="ecg-sec-n">3</span></summary>
 
 <div class="ecg-tarjetas" markdown>
 
@@ -73,9 +80,10 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-## ECG patológicos
+</details>
 
-### Taquiarritmias supraventriculares
+<details class="ecg-seccion" id="tema-supra" markdown>
+<summary><span class="ecg-sec-txt"><strong>Taquiarritmias supraventriculares</strong><small>Fibrilación auricular · Flutter auricular típico · Taquicardia por reentrada nodal · Extrasístole auricular · Preexcitación</small></span><span class="ecg-sec-n">5</span></summary>
 
 <div class="ecg-tarjetas" markdown>
 
@@ -141,115 +149,10 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-### Bloqueos AV
+</details>
 
-<div class="ecg-tarjetas" markdown>
-
-<div class="ecg-tarjeta" data-ritmo="bav1" markdown>
-
-#### Bloqueo AV de primer grado
-
-- **PR > 200 ms** y constante.
-- **Toda P conduce**.
-- Riesgo **bajo**: revisar fármacos que enlentecen el nódulo AV.
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="mobitz1" markdown>
-
-#### Mobitz I (Wenckebach)
-
-- El **PR se alarga** latido a latido hasta que **una P no conduce**.
-- Latidos agrupados; bloqueo **nodal**, QRS angosto.
-- Riesgo **bajo** (puede verse en el IAM inferior).
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="mobitz2" markdown>
-
-#### Mobitz II
-
-- **PR constante** y, de pronto, **una P que no conduce**.
-- QRS **a menudo ancho**: bloqueo bajo el nódulo (His–Purkinje).
-- Riesgo **alto** de bloqueo completo: **marcapaso** (ESC 2021).
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="bav3" markdown>
-
-#### Bloqueo AV completo
-
-- **Disociación AV**: P y QRS regulares, sin relación entre sí.
-- **Más P que QRS**; escape lento (angosto si es de la unión, ancho si es ventricular).
-- Descartadas causas reversibles: **marcapaso** (ESC 2021).
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="pausa" markdown>
-
-#### Pausa sinusal
-
-- **Falta la P** (y el QRS) durante la pausa.
-- La pausa no es múltiplo del ciclo sinusal.
-- Pausas con síntomas: **marcapaso** (ESC 2021).
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-</div>
-
-### Bloqueos de rama
-
-<div class="ecg-tarjetas" markdown>
-
-<div class="ecg-tarjeta" data-ritmo="brd" markdown>
-
-#### Bloqueo de rama derecha
-
-- **QRS ≥ 120 ms** con **rsR' en V1–V2**.
-- **S ancha en DI y V6**.
-- T negativa en V1–V2 (secundaria). Si es nuevo: pensar en TEP o cardiopatía (y en Chagas).
-
-[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="bri" markdown>
-
-#### Bloqueo de rama izquierda
-
-- **QRS ≥ 120 ms**; **R ancha con muesca** en DI, aVL, V5 y V6, **sin q septal**.
-- **QS o rS en V1**.
-- ST y T **opuestos al QRS**: dificulta el diagnóstico de IAM. Suele indicar cardiopatía.
-
-[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
-
-</div>
-
-<div class="ecg-tarjeta" data-ritmo="hai" markdown>
-
-#### Hemibloqueo anterior izquierdo
-
-- **Eje a la izquierda** (−45° a −90°).
-- **qR en aVL** y rS en DII, DIII y aVF; QRS < 120 ms.
-- Con BRD, en Chile: pensar en **Chagas**.
-
-[Extrasistolía y Chagas](cardiologia/extrasistolia.md)
-
-</div>
-
-</div>
-
-### Arritmias ventriculares
+<details class="ecg-seccion" id="tema-vent" markdown>
+<summary><span class="ecg-sec-txt"><strong>Arritmias ventriculares y paro</strong><small>Extrasístole ventricular · Taquicardia ventricular monomorfa · Fibrilación ventricular · Torsades de pointes · Asistolia</small></span><span class="ecg-sec-n">5</span></summary>
 
 <div class="ecg-tarjetas" markdown>
 
@@ -315,7 +218,124 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-### Isquemia
+</details>
+
+<details class="ecg-seccion" id="tema-bloqueo" markdown>
+<summary><span class="ecg-sec-txt"><strong>Bradiarritmias y bloqueos AV</strong><small>Bloqueo AV de primer grado · Mobitz I · Mobitz II · Bloqueo AV completo · Pausa sinusal</small></span><span class="ecg-sec-n">5</span></summary>
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="bav1" markdown>
+
+#### Bloqueo AV de primer grado
+
+- **PR > 200 ms** y constante.
+- **Toda P conduce**.
+- Riesgo **bajo**: revisar fármacos que enlentecen el nódulo AV.
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="mobitz1" markdown>
+
+#### Mobitz I (Wenckebach)
+
+- El **PR se alarga** latido a latido hasta que **una P no conduce**.
+- Latidos agrupados; bloqueo **nodal**, QRS angosto.
+- Riesgo **bajo** (puede verse en el IAM inferior).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="mobitz2" markdown>
+
+#### Mobitz II
+
+- **PR constante** y, de pronto, **una P que no conduce**.
+- QRS **a menudo ancho**: bloqueo bajo el nódulo (His–Purkinje).
+- Riesgo **alto** de bloqueo completo: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="bav3" markdown>
+
+#### Bloqueo AV completo
+
+- **Disociación AV**: P y QRS regulares, sin relación entre sí.
+- **Más P que QRS**; escape lento (angosto si es de la unión, ancho si es ventricular).
+- Descartadas causas reversibles: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="pausa" markdown>
+
+#### Pausa sinusal
+
+- **Falta la P** (y el QRS) durante la pausa.
+- La pausa no es múltiplo del ciclo sinusal.
+- Pausas con síntomas: **marcapaso** (ESC 2021).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+</div>
+
+</details>
+
+<details class="ecg-seccion" id="tema-rama" markdown>
+<summary><span class="ecg-sec-txt"><strong>Bloqueos de rama</strong><small>Bloqueo de rama derecha · Bloqueo de rama izquierda · Hemibloqueo anterior izquierdo</small></span><span class="ecg-sec-n">3</span></summary>
+
+<div class="ecg-tarjetas" markdown>
+
+<div class="ecg-tarjeta" data-ritmo="brd" markdown>
+
+#### Bloqueo de rama derecha
+
+- **QRS ≥ 120 ms** con **rsR' en V1–V2**.
+- **S ancha en DI y V6**.
+- T negativa en V1–V2 (secundaria). Si es nuevo: pensar en TEP o cardiopatía (y en Chagas).
+
+[Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="bri" markdown>
+
+#### Bloqueo de rama izquierda
+
+- **QRS ≥ 120 ms**; **R ancha con muesca** en DI, aVL, V5 y V6, **sin q septal**.
+- **QS o rS en V1**.
+- ST y T **opuestos al QRS**: dificulta el diagnóstico de IAM. Suele indicar cardiopatía.
+
+[Síndrome coronario agudo](cardiologia/sindrome-coronario-agudo.md)
+
+</div>
+
+<div class="ecg-tarjeta" data-ritmo="hai" markdown>
+
+#### Hemibloqueo anterior izquierdo
+
+- **Eje a la izquierda** (−45° a −90°).
+- **qR en aVL** y rS en DII, DIII y aVF; QRS < 120 ms.
+- Con BRD, en Chile: pensar en **Chagas**.
+
+[Extrasistolía y Chagas](cardiologia/extrasistolia.md)
+
+</div>
+
+</div>
+
+</details>
+
+<details class="ecg-seccion" id="tema-isq" markdown>
+<summary><span class="ecg-sec-txt"><strong>Isquemia e infarto</strong><small>IAM inferior con supradesnivel del ST · IAM anterior con supradesnivel del ST · IAM lateral con supradesnivel del ST · IAM posterior · Infradesnivel del ST · Ondas Q</small></span><span class="ecg-sec-n">6</span></summary>
 
 <div class="ecg-tarjetas" markdown>
 
@@ -393,7 +413,10 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-### Electrolitos
+</details>
+
+<details class="ecg-seccion" id="tema-elec" markdown>
+<summary><span class="ecg-sec-txt"><strong>Electrolitos y QT</strong><small>Hiperkalemia · Hipokalemia · Hipercalcemia · Hipocalcemia · QT largo</small></span><span class="ecg-sec-n">5</span></summary>
 
 <div class="ecg-tarjetas" markdown>
 
@@ -445,12 +468,6 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 
 </div>
 
-</div>
-
-### Otros patrones
-
-<div class="ecg-tarjetas" markdown>
-
 <div class="ecg-tarjeta" data-ritmo="qtlargo" markdown>
 
 #### QT largo
@@ -462,6 +479,15 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 [Paro cardiorrespiratorio y arritmias](cardiologia/paro-cardiorrespiratorio-y-arritmias.md)
 
 </div>
+
+</div>
+
+</details>
+
+<details class="ecg-seccion" id="tema-otros" markdown>
+<summary><span class="ecg-sec-txt"><strong>Pericardio, hipertrofia y otros</strong><small>Pericarditis aguda · Hipertrofia ventricular izquierda · Tromboembolismo pulmonar · Ritmo de marcapaso · Derrame pericárdico</small></span><span class="ecg-sec-n">5</span></summary>
+
+<div class="ecg-tarjetas" markdown>
 
 <div class="ecg-tarjeta" data-ritmo="pericarditis" markdown>
 
@@ -524,6 +550,8 @@ Un corazón en 3D con la conducción eléctrica animada **en el mismo instante**
 </div>
 
 </div>
+
+</details>
 
 ## ECG reales
 
