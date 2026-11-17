@@ -9,7 +9,7 @@ Resúmenes de medicina interna ordenados por subespecialidad. Cada patología si
 
 <!-- avance:inicio -->
 !!! info "Avance del temario"
-    **140 resúmenes** escritos, que cubren **385 de 385** situaciones clínicas de medicina interna del perfil EUNACOM v3 (2026).
+    **141 resúmenes** escritos, que cubren **385 de 385** situaciones clínicas de medicina interna del perfil EUNACOM v3 (2026).
 <!-- avance:fin -->
 
 ## Subespecialidades

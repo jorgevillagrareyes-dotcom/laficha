@@ -30,7 +30,7 @@ hide:
 | Código | Situación | Diagnóstico | Tratamiento | Seguimiento | Resumen |
 |---|---|---|---|---|---|
 | 4.01.2.001 | Esofagitis cáustica | Específico | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Esofagitis cáustica (ingestión de cáusticos)](esofagitis-caustica.md) |
-| 4.01.2.004 | Hemorragia digestiva alta | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva alta](../../gastroenterologia/hemorragia-digestiva-alta.md) |
+| 4.01.2.004 | Hemorragia digestiva alta | Sospecha | Inicial | Derivar | :material-check-circle:{ .ok title="Resumen disponible" } [Hemorragia digestiva alta](../../gastroenterologia/hemorragia-digestiva-alta.md) · [Hemorragia digestiva alta no variceal](../../gastroenterologia/hda-no-variceal.md) |
 
 La división de cirugía en subespecialidades es propia del sitio; los códigos y niveles son los del perfil EUNACOM.
 

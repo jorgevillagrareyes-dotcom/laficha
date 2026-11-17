@@ -97,6 +97,7 @@ especialidades:
       seg: Derivar
       resumen:
       - gastroenterologia/hemorragia-digestiva-alta.md
+      - gastroenterologia/hda-no-variceal.md
     generales: []
   - carpeta: cirugia/intestino-colon-y-proctologia
     titulo: Intestino delgado, colon y proctología

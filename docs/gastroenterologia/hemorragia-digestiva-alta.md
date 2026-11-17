@@ -277,11 +277,11 @@ flowchart TD
 **Plaquetas y coagulación**
 
 - **Plaquetas** si hay sangrado activo con recuento < 50.000/µL.
-- **Anticoagulantes**:
-    - **Warfarina** con sangrado grave: **concentrado de complejo protrombínico** + vitamina K 10 mg EV (el plasma es una alternativa si no hay concentrado).
-    - **Dabigatrán**: **idarucizumab**.
-    - **Inhibidores del factor Xa** (rivaroxabán, apixabán): **andexanet alfa** o concentrado de complejo protrombínico, en sangrado con riesgo vital.
-    - **No postergar la endoscopía** para corregir el INR si es < 2,5.
+- **Anticoagulantes** (ACG-CAG 2022, para la hemorragia digestiva en general):
+    - **Warfarina**: no se sugiere dar plasma ni vitamina K de rutina; si hay que revertir, preferir el **concentrado de complejo protrombínico** al plasma.
+    - **Anticoagulantes directos**: no se sugiere revertir de rutina (complejo protrombínico, idarucizumab ni andexanet).
+    - Con un **sangrado que amenaza la vida** y no se controla, la reversión se decide caso a caso (ver [Coagulopatías y reversión de anticoagulantes](../hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md)).
+    - **No postergar la endoscopía** para corregir la coagulación.
 - En la **cirrosis**, el INR **no refleja** el riesgo de sangrado: **no** corregirlo con plasma de rutina.
 
 !!! alarma "No indicar"
@@ -290,6 +290,9 @@ flowchart TD
     - **Sobrerreanimación** con volumen en el paciente cirrótico.
 
 ### 2. HDA no variceal
+
+!!! info "Más detalle"
+    La página [HDA no variceal](hda-no-variceal.md) profundiza este manejo con la guía ESGE 2026 (clip sobre el endoscopio, embolización profiláctica, otras causas no pépticas).
 
 **Antes de la endoscopía**
 

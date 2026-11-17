@@ -9,7 +9,7 @@ Todas las especialidades del perfil EUNACOM v3, con sus resúmenes y el avance d
 
 <div class="indice" markdown>
 
-1.  <span class="indice-titulo">[Medicina interna](../medicina-interna/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">140 resúmenes · 385/385 temas</span>
+1.  <span class="indice-titulo">[Medicina interna](../medicina-interna/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">141 resúmenes · 385/385 temas</span>
     <span class="indice-desc">Diez subespecialidades y urgencias</span>
 
 1.  <span class="indice-titulo">[Cirugía](../cirugia/index.md)</span><span class="indice-relleno"></span><span class="indice-cifras">38 resúmenes · 151/151 temas</span>

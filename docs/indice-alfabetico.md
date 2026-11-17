@@ -7,7 +7,7 @@ hide:
 
 # Índice alfabético
 
-Los **293 resúmenes** de La Ficha ordenados de la A a la Z, con su especialidad.
+Los **294 resúmenes** de La Ficha ordenados de la A a la Z, con su especialidad.
 
 <p class="az-letras"><a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> <a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> <a href="#g">G</a> <a href="#h">H</a> <a href="#i">I</a> <a href="#l">L</a> <a href="#m">M</a> <a href="#n">N</a> <a href="#o">O</a> <a href="#p">P</a> <a href="#q">Q</a> <a href="#r">R</a> <a href="#s">S</a> <a href="#t">T</a> <a href="#u">U</a> <a href="#v">V</a></p>
 
@@ -185,6 +185,7 @@ Los **293 resúmenes** de La Ficha ordenados de la A a la Z, con su especialidad
 - [Hematuria, cáncer de vejiga, tumor renal y tuberculosis urogenital](cirugia/urologia/hematuria-y-tumores-urologicos.md) <span class="az-esp">Urología</span>
 - [Hemorragia del primer trimestre: aborto, embarazo ectópico y enfermedad trofoblástica gestacional](ginecologia-obstetricia/hemorragia-del-primer-trimestre-aborto-ectopico-y-mola.md) <span class="az-esp">Ginecología y obstetricia</span>
 - [Hemorragia digestiva alta](gastroenterologia/hemorragia-digestiva-alta.md) <span class="az-esp">Gastroenterología</span>
+- [Hemorragia digestiva alta no variceal](gastroenterologia/hda-no-variceal.md) <span class="az-esp">Gastroenterología</span>
 - [Hemorragia digestiva baja](gastroenterologia/hemorragia-digestiva-baja.md) <span class="az-esp">Gastroenterología</span>
 - [Hemorragia digestiva, hepatitis viral, insuficiencia hepática aguda y hepatomegalia en el niño](pediatria/hemorragia-digestiva-hepatitis-insuficiencia-hepatica-y-hepatomegalia.md) <span class="az-esp">Pediatría</span>
 - [Hemorroides y fisura anal](cirugia/intestino-colon-y-proctologia/hemorroides-y-fisura-anal.md) <span class="az-esp">Intestino delgado, colon y proctología</span>

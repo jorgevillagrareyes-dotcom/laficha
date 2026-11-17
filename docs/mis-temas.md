@@ -9,7 +9,7 @@ hide:
 
 Tus temas **guardados** y **estudiados**. Se guardan solo en este navegador y dispositivo; no se envían a ningún servidor. Márcalos con los botones que aparecen bajo el título de cada resumen.
 
-<div id="lf-mis-temas" data-total="293"></div>
+<div id="lf-mis-temas" data-total="294"></div>
 
 ## Usar sin conexión
 

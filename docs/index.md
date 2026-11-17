@@ -16,7 +16,7 @@ hide:
 
 <label class="portada-buscar" for="__search" title="Buscar (tecla /)"><span class="twemoji">:material-magnify:</span> Busca un tema, un fármaco o un criterio diagnóstico <kbd>/</kbd></label>
 
-<!-- cifras:inicio --><span class="portada-cifras">**293** resúmenes · **1090** de 1090 temas del perfil EUNACOM v3 cubiertos</span><!-- cifras:fin -->
+<!-- cifras:inicio --><span class="portada-cifras">**294** resúmenes · **1090** de 1090 temas del perfil EUNACOM v3 cubiertos</span><!-- cifras:fin -->
 
 </div>
 
