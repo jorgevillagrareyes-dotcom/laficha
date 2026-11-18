@@ -12,7 +12,7 @@ tags:
 Oftalmología · Urgencia · Atención primaria · Reumatología
 
 **Guías principales**
-AAO 2023: *Preferred Practice Pattern* de queratitis bacteriana (*Ophthalmology* 2024) · AAO 2020: *Preferred Practice Pattern* de enfermedad por cierre angular primario (*Ophthalmology* 2021) · European Glaucoma Society, 5.ª edición (2021) · Consenso de la Sociedad de Glaucoma de Asia-Pacífico sobre el ataque agudo de cierre angular (2025) · Nomenclatura estandarizada de uveítis, SUN (2005)
+AAO 2023: *Preferred Practice Pattern* de queratitis bacteriana (*Ophthalmology* 2024) · AAO 2020: *Preferred Practice Pattern* de enfermedad por cierre angular primario (*Ophthalmology* 2021) · European Glaucoma Society, 6.ª edición (2025) · Consenso de la Sociedad de Glaucoma de Asia-Pacífico sobre el ataque agudo de cierre angular (2025) · Nomenclatura estandarizada de uveítis, SUN (2005)
 
 **Otras fuentes**
 Estudio HEDS de profilaxis con aciclovir (*N Engl J Med* 1998) · Revisión de la queratitis herpética (*Clin Ophthalmol* 2017) · Ver [conjuntivitis](conjuntivitis-ojo-seco-y-pterigion.md), [herpes zóster](../../infectologia/varicela-y-herpes-zoster.md), [espondiloartritis](../../reumatologia/poliartritis-artritis-reumatoide-y-espondiloartritis.md), [enfermedad inflamatoria intestinal](../../gastroenterologia/enfermedad-inflamatoria-intestinal.md) y [cefalea](../../neurologia/cefalea.md)
@@ -24,7 +24,7 @@ No.
 6.02.1.021 Queratitis (sospecha, inicial, derivar) · 6.02.2.010 Úlcera corneal (específico, inicial, derivar) · 6.02.1.015 Leucoma corneal (específico, inicial, derivar) · 6.02.1.030 Uveítis anterior o posterior (sospecha, inicial, derivar) · 6.02.2.005 Glaucoma agudo (sospecha, inicial, derivar) · 2.01.1.097 Ojo rojo (pediatría)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -271,7 +271,7 @@ flowchart TD
 
 1. Rhee MK, Ahmad S, Amescua G, et al. Bacterial Keratitis Preferred Practice Pattern®. *Ophthalmology.* 2024;131(4):P87–P133. doi:[10.1016/j.ophtha.2023.12.035](https://doi.org/10.1016/j.ophtha.2023.12.035)
 2. Gedde SJ, Chen PP, Muir KW, et al. Primary Angle-Closure Disease Preferred Practice Pattern®. *Ophthalmology.* 2021;128(1):P30–P70. doi:[10.1016/j.ophtha.2020.10.021](https://doi.org/10.1016/j.ophtha.2020.10.021)
-3. European Glaucoma Society. Terminology and Guidelines for Glaucoma, 5th edition. *Br J Ophthalmol.* 2021;105(Suppl 1):1–169. doi:[10.1136/bjophthalmol-2021-egsguidelines](https://doi.org/10.1136/bjophthalmol-2021-egsguidelines)
+3. European Glaucoma Society; Pazos M, Traverso CE, Viswanathan A, et al. European Glaucoma Society – Terminology and Guidelines for Glaucoma, 6th edition. *Br J Ophthalmol.* 2025;109(Suppl 1):1–212. doi:[10.1136/bjophthalmol-2025-egsguidelines](https://doi.org/10.1136/bjophthalmol-2025-egsguidelines)
 4. Chan PP, Zhang X, Aung T, et al. Controversies, consensuses, and guidelines for acute primary angle closure attack (APACA) by the Asia-Pacific Glaucoma Society (APGS) and the Academy of Asia-Pacific Professors of Ophthalmology (AAPPO). *Asia Pac J Ophthalmol (Phila).* 2025;14(6):100223. doi:[10.1016/j.apjo.2025.100223](https://doi.org/10.1016/j.apjo.2025.100223)
 5. Jabs DA, Nussenblatt RB, Rosenbaum JT; Standardization of Uveitis Nomenclature (SUN) Working Group. Standardization of uveitis nomenclature for reporting clinical data: results of the First International Workshop. *Am J Ophthalmol.* 2005;140(3):509–516. doi:[10.1016/j.ajo.2005.03.057](https://doi.org/10.1016/j.ajo.2005.03.057)
 6. Herpetic Eye Disease Study Group. Acyclovir for the prevention of recurrent herpes simplex virus eye disease. *N Engl J Med.* 1998;339(5):300–306. doi:[10.1056/NEJM199807303390503](https://doi.org/10.1056/NEJM199807303390503)

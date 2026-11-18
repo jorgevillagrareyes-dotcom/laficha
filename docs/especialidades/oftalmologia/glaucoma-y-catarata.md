@@ -12,7 +12,7 @@ tags:
 Oftalmología · Atención primaria · Geriatría · Pediatría
 
 **Guías principales**
-AAO 2020: *Preferred Practice Pattern* de glaucoma primario de ángulo abierto (*Ophthalmology* 2021) · European Glaucoma Society, 5.ª edición (2021) · AAO 2021: *Preferred Practice Pattern* de catarata del adulto (*Ophthalmology* 2022) · MINSAL: Guía GES N.° 11, tratamiento quirúrgico de cataratas congénitas y adquiridas (2018)
+AAO 2020: *Preferred Practice Pattern* de glaucoma primario de ángulo abierto (*Ophthalmology* 2021) · European Glaucoma Society, 6.ª edición (2025) · AAO 2021: *Preferred Practice Pattern* de catarata del adulto (*Ophthalmology* 2022) · MINSAL: Guía GES N.° 11, tratamiento quirúrgico de cataratas congénitas y adquiridas (2018)
 
 **Otras fuentes**
 Ensayo LiGHT de trabeculoplastia láser selectiva (*Lancet* 2019) · Prevalencia global de glaucoma (*Ophthalmology* 2014) · Revisiones del *Lancet* sobre glaucoma (2023) y catarata (2017) · Superintendencia de Salud: garantías GES de cataratas · Ver [ojo rojo y glaucoma agudo](ojo-rojo-queratitis-uveitis-y-glaucoma-agudo.md), [párpados y vía lagrimal](parpados-y-via-lagrimal.md) (lagrimeo del lactante), [complicaciones crónicas de la diabetes](../../endocrinologia/complicaciones-cronicas-de-la-diabetes.md) y [caídas](../../geriatria/caidas-hipotension-ortostatica-y-fractura-de-cadera.md)
@@ -24,7 +24,7 @@ Sí: **N.° 11, tratamiento quirúrgico de cataratas** (congénitas y adquiridas
 6.02.1.013 Glaucoma crónico (sospecha, inicial, derivar) · 6.02.1.012 Glaucoma congénito (sospecha, inicial, derivar) · 6.02.1.003 Catarata (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -90,7 +90,7 @@ flowchart TD
     K --> L["Opacidad: CATARATA"]
 ```
 
-*Figura 1. Fisiopatología del glaucoma y de la catarata, y sitio de acción del tratamiento antiglaucomatoso. Esquema propio basado en las guías de la AAO (2020, 2021) y de la European Glaucoma Society (2021).*
+*Figura 1. Fisiopatología del glaucoma y de la catarata, y sitio de acción del tratamiento antiglaucomatoso. Esquema propio basado en las guías de la AAO (2020, 2021) y de la European Glaucoma Society (2021 y 2025).*
 
 - El daño del glaucoma es **irreversible**: el tratamiento solo **detiene o enlentece** la progresión. La pérdida visual de la catarata es **reversible** con la cirugía.
 
@@ -143,7 +143,7 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (AAO 2020 y 2021; EGS 2021; GES N.° 11)"
+!!! guia "Puntos clave (AAO 2020 y 2021; EGS 2025; GES N.° 11)"
     - **Glaucoma**: evaluación completa con **agudeza visual**, **tonometría** (PIO normal: **10–21 mmHg**; la tonometría de aplanación de Goldmann es el estándar), **gonioscopía** (ángulo abierto o cerrado), **paquimetría** (grosor corneal: una córnea delgada subestima la PIO), **fondo de ojo** con dilatación (papila y capa de fibras nerviosas), **campo visual** automatizado (perimetría) y **OCT** de la capa de fibras nerviosas y de las células ganglionares.
     - **Pesquisa**: examen oftalmológico periódico desde los **40 años** (más frecuente si hay factores de riesgo: familiares, afrodescendientes, miopía alta, diabetes, uso de corticoides). Ninguna prueba aislada (ni la PIO sola) es suficiente para el tamizaje.
     - **Glaucoma congénito**: examen bajo **anestesia**: PIO, **diámetro corneal**, gonioscopía, fondo de ojo y biometría (longitud axial).
@@ -176,7 +176,7 @@ flowchart TD
 
 ## Tratamiento
 
-!!! dosis "Glaucoma de ángulo abierto (AAO 2020; EGS 2021)"
+!!! dosis "Glaucoma de ángulo abierto (AAO 2020; EGS 2025)"
     - **Objetivo**: alcanzar una **PIO meta**, en general una **reducción de 20–30 %** de la basal (mayor si el daño es avanzado), y vigilar la progresión.
     | Tratamiento | Esquema y comentarios |
     |---|---|
@@ -251,7 +251,7 @@ flowchart TD
 ## Referencias
 
 1. Gedde SJ, Vinod K, Wright MM, et al. Primary Open-Angle Glaucoma Preferred Practice Pattern®. *Ophthalmology.* 2021;128(1):P71–P150. doi:[10.1016/j.ophtha.2020.10.022](https://doi.org/10.1016/j.ophtha.2020.10.022)
-2. European Glaucoma Society. Terminology and Guidelines for Glaucoma, 5th edition. *Br J Ophthalmol.* 2021;105(Suppl 1):1–169. doi:[10.1136/bjophthalmol-2021-egsguidelines](https://doi.org/10.1136/bjophthalmol-2021-egsguidelines)
+2. European Glaucoma Society; Pazos M, Traverso CE, Viswanathan A, et al. European Glaucoma Society – Terminology and Guidelines for Glaucoma, 6th edition. *Br J Ophthalmol.* 2025;109(Suppl 1):1–212. doi:[10.1136/bjophthalmol-2025-egsguidelines](https://doi.org/10.1136/bjophthalmol-2025-egsguidelines)
 3. Miller KM, Oetting TA, Tweeten JP, et al. Cataract in the Adult Eye Preferred Practice Pattern®. *Ophthalmology.* 2022;129(1):P1–P126. doi:[10.1016/j.ophtha.2021.10.006](https://doi.org/10.1016/j.ophtha.2021.10.006)
 4. Ministerio de Salud de Chile. Guía de Práctica Clínica GES N.° 11: Tratamiento quirúrgico de cataratas congénitas y adquiridas. Recomendaciones (2018). [https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tratamiento-quirurgico-de-cataratas-congenitas-y-adquiridas/recomendaciones/](https://diprece.minsal.cl/le-informamos/auge/acceso-guias-clinicas/guias-clinicas-desarrolladas-utilizando-manual-metodologico/tratamiento-quirurgico-de-cataratas-congenitas-y-adquiridas/recomendaciones/)
 5. Superintendencia de Salud. Problema de salud N.° 11: Tratamiento quirúrgico de cataratas. [https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/](https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-quirurgico-de-cataratas/)
