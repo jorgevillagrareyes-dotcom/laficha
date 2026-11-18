@@ -315,7 +315,7 @@ Busca por nombre o problema, o filtra por área. Toca una calculadora para abrir
     <output class="calc-res"></output>
     </div>
 
-    Centor et al., *Med Decis Making* 1981; McIsaac et al., *CMAJ* 1998 (sensibilidad del puntaje 83,1 %). **0–1: no testear ni dar antibiótico. ≥ 2: test rápido** (o cultivo) y antibiótico **solo si es positivo**. No testear si hay rasgos virales evidentes (tos, rinorrea, disfonía, úlceras orales) (IDSA 2012). Ver [infecciones de vías aéreas superiores](respiratorio/infecciones-de-vias-aereas-superiores.md).
+    Centor et al., *Med Decis Making* 1981; McIsaac et al., *CMAJ* 1998 (sensibilidad del puntaje 83,1 %). **0–1: no testear ni dar antibiótico. ≥ 2: test rápido** (o cultivo) y antibiótico **solo si es positivo**. No testear si hay rasgos virales evidentes (tos, rinorrea, disfonía, úlceras orales) (IDSA 2012). La IDSA 2025 recomienda usar un puntaje clínico, sobre todo para identificar a los de baja probabilidad y evitar tests innecesarios. Ver [infecciones de vías aéreas superiores](respiratorio/infecciones-de-vias-aereas-superiores.md).
     { .calc-fuente }
 
 ## Neurología
@@ -608,7 +608,7 @@ Busca por nombre o problema, o filtra por área. Toca una calculadora para abrir
 | Sospecha de TIH | **4T** | ASH 2018 | 0–3: valor predictivo negativo alto; evita pedir anticuerpos |
 | Deterioro y sepsis en sala | **NEWS2** | SSC 2021 y 2026 (no usar qSOFA solo) | El qSOFA es poco sensible para tamizar |
     | Disfunción orgánica (sepsis) | **SOFA-2** | Ranzani 2025 (actualiza el SOFA de 1996) | Aumento agudo ≥ 2 puntos = disfunción orgánica (Sepsis-3) |
-| Faringoamigdalitis | **Centor/McIsaac** | IDSA 2012 (no testear con rasgos virales) | McIsaac: sensibilidad **83,1 %** para *S. pyogenes* |
+| Faringoamigdalitis | **Centor/McIsaac** | IDSA 2025 (usar un puntaje para decidir el test) e IDSA 2012 (no testear con rasgos virales) | McIsaac: sensibilidad **83,1 %** para *S. pyogenes* |
 | Dónde tratar la neumonía | **PSI** (o CURB-65) | ATS/IDSA 2019 prefiere el PSI; la BTS y NICE usan CURB-65 o CRB-65 | PSI: la mayor sensibilidad para mortalidad; CRB-65: la mayor especificidad |
     | Neumonía grave (UCI) | **Criterios ATS/IDSA** | ATS/IDSA 2019 | 1 mayor o ≥ 3 menores |
     | Gravedad del ACV | **NIHSS** | Escala estándar del resumen de ACV (Brott 1989) | ≥ 6 sugiere oclusión de gran vaso |
@@ -676,3 +676,4 @@ Busca por nombre o problema, o filtra por área. Toca una calculadora para abrir
 52. Wu BU, Johannes RS, Sun X, et al. The early prediction of mortality in acute pancreatitis: a large population-based study. *Gut.* 2008;57(12):1698–1703. doi:[10.1136/gut.2008.152702](https://doi.org/10.1136/gut.2008.152702)
 53. Sterling RK, Lissen E, Clumeck N, et al. Development of a simple noninvasive index to predict significant fibrosis in patients with HIV/HCV coinfection. *Hepatology.* 2006;43(6):1317–1325. doi:[10.1002/hep.21178](https://doi.org/10.1002/hep.21178)
 54. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO clinical practice guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD). *J Hepatol.* 2024;81(3):492–542. doi:[10.1016/j.jhep.2024.04.031](https://doi.org/10.1016/j.jhep.2024.04.031)
+55. Linder JA, Watson ME, Wessels MR, et al. 2025 clinical practice guideline update by the Infectious Diseases Society of America on group A streptococcal pharyngitis: risk assessment using clinical scoring systems in children and adults. *Clin Infect Dis.* 2026;82(Suppl 3):i97–i104. doi:[10.1093/cid/ciaf668](https://doi.org/10.1093/cid/ciaf668)

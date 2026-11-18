@@ -26,7 +26,7 @@ Sí: **N.° 19** IRA de manejo ambulatorio en menores de 5 años.
 2.01.1.027 Resfrío común · 2.01.1.023 Faringoamigdalitis · 2.01.1.008 Escarlatina · 2.01.1.026 Otitis media · 2.01.1.029 Sinusitis · 2.01.1.025 Laringitis (específico, completo, completo) · 2.01.1.022 Estridor (específico, completo, derivar) · 2.01.2.018 Obstrucción de vía aérea superior (específico, completo, derivar) · 2.01.2.002 Absceso amigdalino (específico, inicial, derivar) · 2.01.1.117 Estridor congénito (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -291,7 +291,7 @@ flowchart TD
 1. Lieberthal AS, Carroll AE, Chonmaitree T, et al. The diagnosis and management of acute otitis media. *Pediatrics.* 2013;131(3):e964–e999. doi:[10.1542/peds.2012-3488](https://doi.org/10.1542/peds.2012-3488)
 2. Wald ER, Applegate KE, Bordley C, et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. *Pediatrics.* 2013;132(1):e262–e280. doi:[10.1542/peds.2013-1071](https://doi.org/10.1542/peds.2013-1071)
 3. Shulman ST, Bisno AL, Clegg HW, et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2012;55(10):e86–e102. doi:[10.1093/cid/cis629](https://doi.org/10.1093/cid/cis629)
-4. Infectious Diseases Society of America. Diagnosis and management of group A streptococcal pharyngitis: clinical scoring to guide testing (actualización parcial, octubre de 2025). [guidelinecentral.com](https://www.guidelinecentral.com/insights/oct-2025-idsa-gas-guideline-spotlight/)
+4. Linder JA, Watson ME, Wessels MR, et al. 2025 clinical practice guideline update by the Infectious Diseases Society of America on group A streptococcal pharyngitis: risk assessment using clinical scoring systems in children and adults. *Clin Infect Dis.* 2026;82(Suppl 3):i97–i104. doi:[10.1093/cid/ciaf668](https://doi.org/10.1093/cid/ciaf668)
 5. Aregbesola A, Tam CM, Kothari A, et al. Glucocorticoids for croup in children. *Cochrane Database Syst Rev.* 2023;1(1):CD001955. doi:[10.1002/14651858.CD001955.pub5](https://doi.org/10.1002/14651858.CD001955.pub5)
 6. Ministerio de Salud de Chile. Guía de práctica clínica GES: infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años. [minsal.cl](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/)
 7. Ministerio de Salud de Chile. Vacunas del Programa Nacional de Inmunizaciones (calendario 2026). [chileatiende.gob.cl](https://www.chileatiende.gob.cl/fichas/105622-vacunas-del-programa-nacional-de-inmunizaciones)

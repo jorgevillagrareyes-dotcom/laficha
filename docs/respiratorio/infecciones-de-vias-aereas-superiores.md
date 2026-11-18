@@ -12,7 +12,7 @@ tags:
 Infectología · Otorrinolaringología · Atención primaria
 
 **Guías principales**
-ACP/CDC 2016: uso apropiado de antibióticos en la infección respiratoria aguda del adulto · IDSA 2012: faringitis por estreptococo grupo A · AAO-HNS 2025: sinusitis del adulto (actualización) · IDSA 2012: rinosinusitis bacteriana aguda · AAO-HNS 2014: otitis externa aguda · AAO-HNS 2018: disfonía
+ACP/CDC 2016: uso apropiado de antibióticos en la infección respiratoria aguda del adulto · IDSA 2025: puntajes clínicos en la faringitis estreptocócica (actualización parcial) · IDSA 2012: faringitis por estreptococo grupo A · AAO-HNS 2025: sinusitis del adulto (actualización) · IDSA 2012: rinosinusitis bacteriana aguda · AAO-HNS 2014: otitis externa aguda · AAO-HNS 2018: disfonía
 
 **Otras fuentes**
 Puntajes de Centor (1981) y McIsaac (1998) · Vigilancia de *S. pyogenes* del ISP (2024) · Programas de optimización de antimicrobianos en Chile (Acuña 2026) · Epiglotitis aguda en el adulto (Correa 2025)
@@ -24,7 +24,7 @@ No es GES en el adulto.
 1.05.1.022 Infecciones de las vías aéreas superiores (específico, completo, completo)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -181,7 +181,8 @@ flowchart TD
     - **Ausencia de tos**.
     - Edad: +1 si tiene 3–14 años; 0 si tiene 15–44; **−1 si tiene ≥ 45**.
     - **Uso**: con 0–1 punto, no testear. Con **≥ 2**, **test rápido** (o cultivo) (figura 2).
-- **IDSA 2012 (faringitis)**:
+    - **IDSA 2025** recomienda usar un **puntaje clínico** (en niños y adultos) como parte de la evaluación: rinde igual o algo mejor que el juicio clínico solo y su mayor utilidad es identificar a los de **baja probabilidad** para no testearlos.
+- **IDSA 2012 (faringitis; sigue vigente en lo que la actualización de 2025 no revisó)**:
     - **No testear** si hay rasgos virales evidentes (rinorrea, tos, úlceras orales, disfonía).
     - En el adulto, un **test rápido negativo no requiere cultivo** de confirmación (el riesgo de fiebre reumática es muy bajo).
     - **No** hacer cultivos de control ni estudiar a los contactos asintomáticos; **no tratar a los portadores**.
@@ -364,13 +365,14 @@ flowchart TD
 ## Referencias
 
 1. Harris AM, Hicks LA, Qaseem A. Appropriate antibiotic use for acute respiratory tract infection in adults: advice for high-value care from the American College of Physicians and the Centers for Disease Control and Prevention. *Ann Intern Med.* 2016;164(6):425–434. doi:[10.7326/M15-1840](https://doi.org/10.7326/M15-1840)
-2. Shulman ST, Bisno AL, Clegg HW, et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2012;55(10):e86–e102. doi:[10.1093/cid/cis629](https://doi.org/10.1093/cid/cis629)
-3. Payne SC, McKenna M, Buckley J, et al. Clinical practice guideline: adult sinusitis update. *Otolaryngol Head Neck Surg.* 2025;173(Suppl 1):S1–S56. doi:[10.1002/ohn.1344](https://doi.org/10.1002/ohn.1344)
-4. Chow AW, Benninger MS, Brook I, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. *Clin Infect Dis.* 2012;54(8):e72–e112. doi:[10.1093/cid/cir1043](https://doi.org/10.1093/cid/cir1043)
-5. Rosenfeld RM, Schwartz SR, Cannon CR, et al. Clinical practice guideline: acute otitis externa. *Otolaryngol Head Neck Surg.* 2014;150(1 Suppl):S1–S24. doi:[10.1177/0194599813517083](https://doi.org/10.1177/0194599813517083)
-6. Stachler RJ, Francis DO, Schwartz SR, et al. Clinical practice guideline: hoarseness (dysphonia) (update). *Otolaryngol Head Neck Surg.* 2018;158(1 Suppl):S1–S42. doi:[10.1177/0194599817751030](https://doi.org/10.1177/0194599817751030)
-7. Centor RM, Witherspoon JM, Dalton HP, et al. The diagnosis of strep throat in adults in the emergency room. *Med Decis Making.* 1981;1(3):239–246. doi:[10.1177/0272989X8100100304](https://doi.org/10.1177/0272989X8100100304)
-8. McIsaac WJ, White D, Tannenbaum D, et al. A clinical score to reduce unnecessary antibiotic use in patients with sore throat. *CMAJ.* 1998;158(1):75–83. [PMC1228750](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1228750/)
-9. Correa EJ, Caballero AS, Ordóñez CA, et al. Acute epiglottitis in an older patient: a case report and review of the literature. *J Med Case Rep.* 2025;19(1):539. doi:[10.1186/s13256-025-05363-3](https://doi.org/10.1186/s13256-025-05363-3)
-10. Instituto de Salud Pública de Chile. Informe de vigilancia de laboratorio de enfermedad invasora por *Streptococcus pyogenes*, Chile. *Rev Chilena Infectol.* 2024;41(4). [scielo.cl](https://www.scielo.cl/scielo.php?pid=S0716-10182024000400480&script=sci_arttext)
-11. Acuña M, Herrera T, Benadof D, et al. Antimicrobial stewardship programs in Chile: a historical overview. *Antibiotics (Basel).* 2026;15(3):247. doi:[10.3390/antibiotics15030247](https://doi.org/10.3390/antibiotics15030247)
+2. Linder JA, Watson ME, Wessels MR, et al. 2025 clinical practice guideline update by the Infectious Diseases Society of America on group A streptococcal pharyngitis: risk assessment using clinical scoring systems in children and adults. *Clin Infect Dis.* 2026;82(Suppl 3):i97–i104. doi:[10.1093/cid/ciaf668](https://doi.org/10.1093/cid/ciaf668)
+3. Shulman ST, Bisno AL, Clegg HW, et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2012;55(10):e86–e102. doi:[10.1093/cid/cis629](https://doi.org/10.1093/cid/cis629)
+4. Payne SC, McKenna M, Buckley J, et al. Clinical practice guideline: adult sinusitis update. *Otolaryngol Head Neck Surg.* 2025;173(Suppl 1):S1–S56. doi:[10.1002/ohn.1344](https://doi.org/10.1002/ohn.1344)
+5. Chow AW, Benninger MS, Brook I, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. *Clin Infect Dis.* 2012;54(8):e72–e112. doi:[10.1093/cid/cir1043](https://doi.org/10.1093/cid/cir1043)
+6. Rosenfeld RM, Schwartz SR, Cannon CR, et al. Clinical practice guideline: acute otitis externa. *Otolaryngol Head Neck Surg.* 2014;150(1 Suppl):S1–S24. doi:[10.1177/0194599813517083](https://doi.org/10.1177/0194599813517083)
+7. Stachler RJ, Francis DO, Schwartz SR, et al. Clinical practice guideline: hoarseness (dysphonia) (update). *Otolaryngol Head Neck Surg.* 2018;158(1 Suppl):S1–S42. doi:[10.1177/0194599817751030](https://doi.org/10.1177/0194599817751030)
+8. Centor RM, Witherspoon JM, Dalton HP, et al. The diagnosis of strep throat in adults in the emergency room. *Med Decis Making.* 1981;1(3):239–246. doi:[10.1177/0272989X8100100304](https://doi.org/10.1177/0272989X8100100304)
+9. McIsaac WJ, White D, Tannenbaum D, et al. A clinical score to reduce unnecessary antibiotic use in patients with sore throat. *CMAJ.* 1998;158(1):75–83. [PMC1228750](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1228750/)
+10. Correa EJ, Caballero AS, Ordóñez CA, et al. Acute epiglottitis in an older patient: a case report and review of the literature. *J Med Case Rep.* 2025;19(1):539. doi:[10.1186/s13256-025-05363-3](https://doi.org/10.1186/s13256-025-05363-3)
+11. Instituto de Salud Pública de Chile. Informe de vigilancia de laboratorio de enfermedad invasora por *Streptococcus pyogenes*, Chile. *Rev Chilena Infectol.* 2024;41(4). [scielo.cl](https://www.scielo.cl/scielo.php?pid=S0716-10182024000400480&script=sci_arttext)
+12. Acuña M, Herrera T, Benadof D, et al. Antimicrobial stewardship programs in Chile: a historical overview. *Antibiotics (Basel).* 2026;15(3):247. doi:[10.3390/antibiotics15030247](https://doi.org/10.3390/antibiotics15030247)

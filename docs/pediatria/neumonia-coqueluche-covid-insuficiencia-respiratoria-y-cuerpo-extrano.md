@@ -14,7 +14,7 @@ tags:
 Pediatría general · Broncopulmonar infantil · Infectología pediátrica · Urgencia y cuidados intensivos pediátricos
 
 **Guías principales**
-PIDS/IDSA 2011: neumonía adquirida en la comunidad en niños mayores de 3 meses (Bradley, *Clin Infect Dis*) · BTS 2011: neumonía en niños (Harris, *Thorax*) · MINSAL: guía GES de IRA ambulatoria en menores de 5 años · AHA/AAP 2025: soporte vital básico pediátrico (obstrucción de la vía aérea por cuerpo extraño)
+PIDS/IDSA 2011: neumonía adquirida en la comunidad en niños mayores de 3 meses (Bradley, *Clin Infect Dis*) · IDSA/PIDS 2026: derrame paraneumónico y empiema (St Peter, *Clin Infect Dis*) · BTS 2011: neumonía en niños (Harris, *Thorax*) · MINSAL: guía GES de IRA ambulatoria en menores de 5 años · AHA/AAP 2025: soporte vital básico pediátrico (obstrucción de la vía aérea por cuerpo extraño)
 
 **Otras fuentes**
 Ensayo CAP-IT: dosis y duración de amoxicilina (Bielicki, *JAMA* 2021) · Ensayo SCOUT-CAP: 5 frente a 10 días (Williams, *JAMA Pediatr* 2022) · Ver [síndrome bronquial obstructivo y bronquiolitis](sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md), [neumonía del adulto](../respiratorio/neumonia-adquirida-en-la-comunidad.md), [derrame pleural](../respiratorio/derrame-pleural.md), [influenza y COVID-19](../infectologia/influenza-y-covid-19.md) y [cuerpo extraño en el adulto](../respiratorio/intoxicacion-por-co-ahogamiento-y-cuerpo-extrano.md)
@@ -26,7 +26,7 @@ Sí: **N.° 19** IRA de manejo ambulatorio en menores de 5 años (incluye la neu
 2.01.1.024 Infecciones respiratorias agudas bajas y sus complicaciones · 2.01.1.006 Coqueluche · 2.01.2.144 SARS-CoV-2 COVID-19 (específico, completo, completo) · 2.01.2.013 Insuficiencia respiratoria aguda (específico, inicial, derivar) · 2.01.2.003 Aspiración de cuerpo extraño (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -199,7 +199,12 @@ flowchart TD
     - **Paso a vía oral** cuando está afebril 24–48 horas y tolera la vía oral (amoxicilina o amoxicilina-ácido clavulánico).
 
 - **Medidas generales**: **oxígeno** para saturación **≥ 92–94 %**, **hidratación** (vigilar la **hiponatremia** por SIADH: fluidos isotónicos), antipiréticos, aseo nasal, posición semisentada. **No** kinesioterapia de rutina, mucolíticos ni antitusivos.
-- **Derrame pleural paraneumónico**: **ecografía**; si es moderado a grande, tabicado o con compromiso respiratorio, **tubo pleural** (con **fibrinolíticos**, urocinasa o alteplasa, si es tabicado) o **toracoscopía (VATS)**. Antibiótico por **2–4 semanas** en el empiema.
+- **Derrame pleural paraneumónico** (IDSA/PIDS 2026):
+    - Derrame **moderado a grande** en la radiografía: **ecografía** para ver el tamaño y los tabiques (de preferencia a la TC o la RM).
+    - **Pequeño y no complicado**: **observar** con antibiótico, sin drenar.
+    - **Drenar** si es moderado con dificultad respiratoria, grande o **purulento**.
+    - Primera línea en el empiema: **tubo pleural fino (≤ 12 Fr)** con **fibrinolíticos intrapleurales**, de preferencia **alteplasa (tPA) sola** en vez de tPA con dornasa; la **toracoscopía (VATS)** queda para la falla o casos seleccionados.
+    - Antibiótico por **2–4 semanas** en el empiema.
 
 ### Coqueluche
 
@@ -285,7 +290,7 @@ flowchart TD
     **Neumonía adquirida en la comunidad** (fiebre + **taquipnea**: ≥ 40 por minuto en 1–5 años + crepitaciones focales), de manejo **ambulatorio** (buen estado general, saturación ≥ 92 %, tolera la vía oral). Probable **neumococo** o viral. **Amoxicilina 80–90 mg/kg/día** VO en 2–3 dosis (por ejemplo, por 5–7 días), antipiréticos, hidratación y **control a las 48–72 horas**, con educación de los signos de alarma. **No** requiere radiografía si la evolución es buena (es GES N.° 19).
 
 ??? repaso "2. Escolar de 7 años con neumonía tratada con amoxicilina que sigue con fiebre alta al cuarto día, dolor torácico y matidez en la base izquierda. ¿Qué sospecha y qué hace?"
-    **Derrame pleural paraneumónico** (o empiema), una causa frecuente de **falla** del tratamiento. **Hospitalizar**, **radiografía** y **ecografía pleural**, **hemocultivos**; cambiar a antibiótico **EV** (ceftriaxona, considerando cobertura de *S. aureus* si es necrotizante). Si el derrame es moderado a grande, **tabicado** o compromete la respiración: **tubo pleural** con **fibrinolíticos** o **VATS**; analizar el líquido (pH, glucosa, LDH, Gram y cultivo).
+    **Derrame pleural paraneumónico** (o empiema), una causa frecuente de **falla** del tratamiento. **Hospitalizar**, **radiografía** y **ecografía pleural**, **hemocultivos**; cambiar a antibiótico **EV** (ceftriaxona, considerando cobertura de *S. aureus* si es necrotizante). Si es moderado con dificultad respiratoria, grande o purulento: **tubo pleural fino** con **fibrinolíticos** (alteplasa), y VATS si falla (IDSA/PIDS 2026); analizar el líquido (pH, glucosa, LDH, Gram y cultivo).
 
 ??? repaso "3. Lactante de 6 semanas con tos en accesos que terminan en cianosis y vómitos, sin fiebre, y dos episodios de apnea. La madre tiene tos de 3 semanas. Hemograma: 32 000 leucocitos con 75 % de linfocitos. ¿Diagnóstico y manejo?"
     **Coqueluche** del lactante pequeño (accesos, **apneas**, cianosis, linfocitosis; la madre es la probable fuente). **Hospitalizar** con monitorización de apneas y saturación; **PCR para *B. pertussis***; **azitromicina 10 mg/kg/día por 5 días** (no eritromicina por el riesgo de estenosis pilórica). La **hiperleucocitosis** > 30 000 es un factor de mal pronóstico (hipertensión pulmonar): vigilar en la **UCI** y considerar la exsanguinotransfusión si progresa. **Azitromicina profiláctica** a **todos los contactos** del hogar, **notificar** y verificar la **dTpa** en futuros embarazos.
@@ -301,11 +306,12 @@ flowchart TD
 
 ## Referencias
 
-1. Bradley JS, Byington CL, Shah SS, et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America. *Clin Infect Dis.* 2011;53(7):e25–e76. doi:[10.1093/cid/cir531](https://doi.org/10.1093/cid/cir531)
-2. Harris M, Clark J, Coote N, et al. British Thoracic Society guidelines for the management of community acquired pneumonia in children: update 2011. *Thorax.* 2011;66(Suppl 2):ii1–ii23. doi:[10.1136/thoraxjnl-2011-200598](https://doi.org/10.1136/thoraxjnl-2011-200598)
-3. Bielicki JA, Stöhr W, Barratt S, et al. Effect of amoxicillin dose and treatment duration on the need for antibiotic re-treatment in children with community-acquired pneumonia: the CAP-IT randomized clinical trial. *JAMA.* 2021;326(17):1713–1724. doi:[10.1001/jama.2021.17843](https://doi.org/10.1001/jama.2021.17843)
-4. Williams DJ, Creech CB, Walter EB, et al. Short- vs standard-course outpatient antibiotic therapy for community-acquired pneumonia in children: the SCOUT-CAP randomized clinical trial. *JAMA Pediatr.* 2022;176(3):253–261. doi:[10.1001/jamapediatrics.2021.5547](https://doi.org/10.1001/jamapediatrics.2021.5547)
-5. Ministerio de Salud de Chile. Guía de práctica clínica GES: infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años. [minsal.cl](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/)
-6. Ministerio de Salud de Chile. Vacunas del Programa Nacional de Inmunizaciones (calendario 2026). [chileatiende.gob.cl](https://www.chileatiende.gob.cl/fichas/105622-vacunas-del-programa-nacional-de-inmunizaciones)
-7. Ministerio de Salud de Chile. Decreto N.° 7 de 2019: Reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia. [bcn.cl](http://bcn.cl/2eubp)
-8. Joyner BL, Dewan M, Bavare A, et al. Part 6: Pediatric basic life support: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. *Circulation.* 2025;152(16 Suppl 2). doi:[10.1161/CIR.0000000000001370](https://doi.org/10.1161/CIR.0000000000001370)
+1. St Peter SD, Ampofo K, Brogan T, et al. Clinical practice guideline by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society: 2026 guideline update on the management of community-acquired pneumonia in infants and children older than 3 months of age. *Clin Infect Dis.* 2026. doi:[10.1093/cid/ciag186](https://doi.org/10.1093/cid/ciag186) · [Resumen de las recomendaciones (IDSA)](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-in-infants-and-children/)
+2. Bradley JS, Byington CL, Shah SS, et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases Society of America. *Clin Infect Dis.* 2011;53(7):e25–e76. doi:[10.1093/cid/cir531](https://doi.org/10.1093/cid/cir531)
+3. Harris M, Clark J, Coote N, et al. British Thoracic Society guidelines for the management of community acquired pneumonia in children: update 2011. *Thorax.* 2011;66(Suppl 2):ii1–ii23. doi:[10.1136/thoraxjnl-2011-200598](https://doi.org/10.1136/thoraxjnl-2011-200598)
+4. Bielicki JA, Stöhr W, Barratt S, et al. Effect of amoxicillin dose and treatment duration on the need for antibiotic re-treatment in children with community-acquired pneumonia: the CAP-IT randomized clinical trial. *JAMA.* 2021;326(17):1713–1724. doi:[10.1001/jama.2021.17843](https://doi.org/10.1001/jama.2021.17843)
+5. Williams DJ, Creech CB, Walter EB, et al. Short- vs standard-course outpatient antibiotic therapy for community-acquired pneumonia in children: the SCOUT-CAP randomized clinical trial. *JAMA Pediatr.* 2022;176(3):253–261. doi:[10.1001/jamapediatrics.2021.5547](https://doi.org/10.1001/jamapediatrics.2021.5547)
+6. Ministerio de Salud de Chile. Guía de práctica clínica GES: infección respiratoria aguda de manejo ambulatorio en personas menores de 5 años. [minsal.cl](https://diprece.minsal.cl/garantias-explicitas-en-salud-auge-o-ges/infeccion-respiratoria-aguda-ira-de-manejo-ambulatorio-en-personas-menores-de-5-anos/)
+7. Ministerio de Salud de Chile. Vacunas del Programa Nacional de Inmunizaciones (calendario 2026). [chileatiende.gob.cl](https://www.chileatiende.gob.cl/fichas/105622-vacunas-del-programa-nacional-de-inmunizaciones)
+8. Ministerio de Salud de Chile. Decreto N.° 7 de 2019: Reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia. [bcn.cl](http://bcn.cl/2eubp)
+9. Joyner BL, Dewan M, Bavare A, et al. Part 6: Pediatric basic life support: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. *Circulation.* 2025;152(16 Suppl 2). doi:[10.1161/CIR.0000000000001370](https://doi.org/10.1161/CIR.0000000000001370)

@@ -11,7 +11,7 @@ tags:
 Cardiología · Cardiopatías congénitas del adulto · Cardiología intervencional · Cirugía cardíaca
 
 **Guías principales**
-ESC 2020: manejo de las cardiopatías congénitas del adulto · AHA/ACC 2018: adultos con cardiopatías congénitas · Posición europea sobre el foramen oval permeable (2019)
+ESC 2020: manejo de las cardiopatías congénitas del adulto · ACC/AHA/HRS/ISACHD/SCAI 2025: adultos con cardiopatías congénitas (reemplaza la AHA/ACC 2018) · Posición europea sobre el foramen oval permeable (2019)
 
 **Otras fuentes**
 Comparación de las guías AHA/ACC y ESC (*J Am Coll Cardiol* 2021) · SCAI 2022: manejo del foramen oval permeable · Posición de la Sociedad Interamericana de Cardiología sobre unidades de cardiopatías congénitas del adulto en Latinoamérica (2023) · Metaanálisis de prevalencia al nacer (van der Linde 2011)
@@ -23,7 +23,7 @@ Sí en la infancia: **cardiopatías congénitas operables en menores de 15 años
 1.01.1.003 Cardiopatía congénita en adulto (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -266,6 +266,8 @@ flowchart TD
 - **Coartación reparada**: buena supervivencia, pero con más HTA, enfermedad coronaria y aneurismas a largo plazo.
 - **Eisenmenger**: sobrevida hasta la 3.ª–5.ª década; peor con insuficiencia cardíaca, síncope o embarazo.
 - **Cardiopatías complejas** (Fontan, VD sistémico): seguimiento estrecho en centros especializados.
+- **Quién controla** (ACC/AHA 2025): todo adulto con cardiopatía congénita, sobre todo **moderada o compleja**, debe controlarse **con un especialista en cardiopatías congénitas del adulto** o en consulta con él, de por vida.
+- **Salud mental y cognición** (ACC/AHA 2025): buscar en forma dirigida **ansiedad**, **depresión** y problemas **neurocognitivos**, que son frecuentes.
 - **Frecuencia del seguimiento** (ESC 2020): desde controles espaciados (cada algunos años) en las lesiones leves corregidas sin secuelas hasta controles cada **6–12 meses** en las complejas.
 
 ## Perlas para el internado
@@ -323,11 +325,12 @@ flowchart TD
 ## Referencias
 
 1. Baumgartner H, De Backer J, Babu-Narayan SV, et al. 2020 ESC Guidelines for the management of adult congenital heart disease. *Eur Heart J.* 2021;42(6):563–645. doi:[10.1093/eurheartj/ehaa554](https://doi.org/10.1093/eurheartj/ehaa554)
-2. Stout KK, Daniels CJ, Aboulhosn JA, et al. 2018 AHA/ACC guideline for the management of adults with congenital heart disease. *Circulation.* 2019;139(14):e698–e800. doi:[10.1161/CIR.0000000000000603](https://doi.org/10.1161/CIR.0000000000000603)
-3. Egidy Assenza G, Krieger EV, Baumgartner H, et al. AHA/ACC vs ESC guidelines for management of adults with congenital heart disease: JACC guideline comparison. *J Am Coll Cardiol.* 2021;78(19):1904–1918. doi:[10.1016/j.jacc.2021.09.010](https://doi.org/10.1016/j.jacc.2021.09.010)
-4. Pristipino C, Sievert H, D'Ascenzo F, et al. European position paper on the management of patients with patent foramen ovale. General approach and left circulation thromboembolism. *Eur Heart J.* 2019;40(38):3182–3195. doi:[10.1093/eurheartj/ehy649](https://doi.org/10.1093/eurheartj/ehy649)
-5. Kavinsky CJ, Szerlip M, Goldsweig AM, et al. SCAI guidelines for the management of patent foramen ovale. *J Soc Cardiovasc Angiogr Interv.* 2022;1(4):100039. doi:[10.1016/j.jscai.2022.100039](https://doi.org/10.1016/j.jscai.2022.100039)
-6. van der Linde D, Konings EE, Slager MA, et al. Birth prevalence of congenital heart disease worldwide: a systematic review and meta-analysis. *J Am Coll Cardiol.* 2011;58(21):2241–2247. doi:[10.1016/j.jacc.2011.08.025](https://doi.org/10.1016/j.jacc.2011.08.025)
-7. Araujo JJ, Rodríguez-Monserrate CP, Elizari A, et al. Position statement for the development of adult congenital heart disease units in Latin America and the Caribbean. *Int J Cardiol Congenit Heart Dis.* 2023;13:100461. doi:[10.1016/j.ijcchd.2023.100461](https://doi.org/10.1016/j.ijcchd.2023.100461)
-8. Leo I, Sabatino J, Avesani M, et al. Non-invasive imaging assessment in patients with aortic coarctation: a contemporary review. *J Clin Med.* 2023;13(1):28. doi:[10.3390/jcm13010028](https://doi.org/10.3390/jcm13010028)
-9. Superintendencia de Salud. Problema de salud 2: cardiopatías congénitas operables en menores de 15 años. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/)
+2. Gurvitz M, Krieger EV, Fuller S, et al. 2025 ACC/AHA/HRS/ISACHD/SCAI guideline for the management of adults with congenital heart disease: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *J Am Coll Cardiol.* 2026;87(7):822–976. doi:[10.1016/j.jacc.2025.09.006](https://doi.org/10.1016/j.jacc.2025.09.006)
+3. Stout KK, Daniels CJ, Aboulhosn JA, et al. 2018 AHA/ACC guideline for the management of adults with congenital heart disease. *Circulation.* 2019;139(14):e698–e800. doi:[10.1161/CIR.0000000000000603](https://doi.org/10.1161/CIR.0000000000000603)
+4. Egidy Assenza G, Krieger EV, Baumgartner H, et al. AHA/ACC vs ESC guidelines for management of adults with congenital heart disease: JACC guideline comparison. *J Am Coll Cardiol.* 2021;78(19):1904–1918. doi:[10.1016/j.jacc.2021.09.010](https://doi.org/10.1016/j.jacc.2021.09.010)
+5. Pristipino C, Sievert H, D'Ascenzo F, et al. European position paper on the management of patients with patent foramen ovale. General approach and left circulation thromboembolism. *Eur Heart J.* 2019;40(38):3182–3195. doi:[10.1093/eurheartj/ehy649](https://doi.org/10.1093/eurheartj/ehy649)
+6. Kavinsky CJ, Szerlip M, Goldsweig AM, et al. SCAI guidelines for the management of patent foramen ovale. *J Soc Cardiovasc Angiogr Interv.* 2022;1(4):100039. doi:[10.1016/j.jscai.2022.100039](https://doi.org/10.1016/j.jscai.2022.100039)
+7. van der Linde D, Konings EE, Slager MA, et al. Birth prevalence of congenital heart disease worldwide: a systematic review and meta-analysis. *J Am Coll Cardiol.* 2011;58(21):2241–2247. doi:[10.1016/j.jacc.2011.08.025](https://doi.org/10.1016/j.jacc.2011.08.025)
+8. Araujo JJ, Rodríguez-Monserrate CP, Elizari A, et al. Position statement for the development of adult congenital heart disease units in Latin America and the Caribbean. *Int J Cardiol Congenit Heart Dis.* 2023;13:100461. doi:[10.1016/j.ijcchd.2023.100461](https://doi.org/10.1016/j.ijcchd.2023.100461)
+9. Leo I, Sabatino J, Avesani M, et al. Non-invasive imaging assessment in patients with aortic coarctation: a contemporary review. *J Clin Med.* 2023;13(1):28. doi:[10.3390/jcm13010028](https://doi.org/10.3390/jcm13010028)
+10. Superintendencia de Salud. Problema de salud 2: cardiopatías congénitas operables en menores de 15 años. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/cardiopatias-congenitas-operables/)
