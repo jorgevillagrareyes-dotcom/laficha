@@ -12,7 +12,7 @@ tags:
 Obstetricia · Urgencia obstétrica
 
 **Guías principales**
-MINSAL 2015: Guía Perinatal (capítulo de metrorragias de la segunda mitad de la gestación) · RCOG 2018: placenta previa y acretismo placentario (*BJOG* 2019)
+MINSAL 2015: Guía Perinatal (capítulo de metrorragias de la segunda mitad de la gestación) · RCOG 2026: placenta previa y espectro de acretismo placentario (Green-top 27a, *BJOG* 2026; reemplaza la de 2018)
 
 **Otras fuentes**
 Ver [coagulopatías y CID](../hematologia/coagulopatias-cid-y-reversion-de-anticoagulantes.md), [síndrome hipertensivo del embarazo](../nefrologia/preeclampsia-y-sindrome-hipertensivo-del-embarazo.md) y [control prenatal e isoinmunización Rh](control-prenatal-edad-gestacional-e-isoinmunizacion-rh.md)
@@ -24,7 +24,7 @@ No como problema propio.
 3.01.2.010 Metrorragia: desprendimiento prematuro de placenta normoinserta (sospecha, inicial, no requiere) · 3.01.2.011 Metrorragia: placenta previa (sospecha, inicial, derivar) · 3.01.2.015 Rotura uterina (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -60,7 +60,7 @@ Octubre 2026
 
 - La **placenta previa** complica ~ **0,5 %** de los partos. En la ecografía del segundo trimestre, la placenta se relaciona con el OCI hasta en **6 %** de las mujeres, pero **~ 90 %** de las diagnosticadas antes de las 20–24 semanas están **normoinsertas al término** (migración placentaria) (Guía Perinatal 2015).
 - El **DPPNI** ocurre en ~ **1–2 %** de los embarazos.
-- El **acretismo** aumenta con el número de **cesáreas previas**, sobre todo si hay una placenta previa (RCOG 2018).
+- El **acretismo** aumenta con el número de **cesáreas previas**, sobre todo si hay una placenta previa, pero **no depende solo de ellas**: también se asocia a legrados, cirugía histeroscópica, ablación endometrial, embolización de las arterias uterinas y miomectomía (RCOG 2026).
 
 ### Chile
 
@@ -150,11 +150,13 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Puntos clave (Guía Perinatal 2015; RCOG 2018)"
+!!! guia "Puntos clave (Guía Perinatal 2015; RCOG 2026)"
     - **No hacer tacto vaginal** sin haber verificado que la placenta está normoinserta.
     - La **ecografía** (transabdominal y/o **transvaginal**) diagnostica la placenta previa. La transvaginal es **segura** (el transductor no toca el cuello) y es preferible en las obesas y en las placentas posteriores.
     - El **DPPNI es un diagnóstico clínico**: la ecografía puede mostrar un hematoma retroplacentario, pero una ecografía normal **no lo descarta**.
-    - En una placenta previa con cesárea previa, buscar un **acretismo** (ecografía con Doppler, RM) y planificar el parto en un centro con experiencia (RCOG 2018).
+    - En una placenta previa con cesárea previa, buscar un **acretismo** (ecografía con Doppler, RM). Con alta probabilidad de acretismo: plan prenatal con un **equipo multidisciplinario** experto y parto en un **centro especializado** (RCOG 2026).
+    - Identificar el riesgo desde el **primer control** y en la **ecografía de 18–20 semanas**. El **embarazo ectópico en la cicatriz de cesárea** puede preceder a la placenta previa y al acretismo.
+    - La **recuperación intraoperatoria de sangre** (*cell salvage*) es segura y útil en la placenta previa y el acretismo (RCOG 2026).
 
 ## Laboratorio
 
@@ -288,4 +290,5 @@ flowchart TD
 ## Referencias
 
 1. Ministerio de Salud de Chile. Guía Perinatal 2015 (capítulo XI: metrorragias de la segunda mitad de la gestación). Santiago: MINSAL; 2015. [minsal.cl](https://www.minsal.cl/salud-de-la-mujer/)
-2. Jauniaux ERM, Alfirevic Z, Bhide AG, et al. Placenta praevia and placenta accreta: diagnosis and management. Green-top Guideline No. 27a. *BJOG.* 2019;126(1):e1–e48. doi:[10.1111/1471-0528.15306](https://doi.org/10.1111/1471-0528.15306)
+2. Jauniaux E, Bhide A, Hussein AM, et al. Placenta praevia and placenta accreta spectrum: diagnosis and management. Green-top Guideline No. 27a. *BJOG.* 2026;133(10):e93–e128. doi:[10.1111/1471-0528.70239](https://doi.org/10.1111/1471-0528.70239)
+3. Jauniaux ERM, Alfirevic Z, Bhide AG, et al. Placenta praevia and placenta accreta: diagnosis and management. Green-top Guideline No. 27a. *BJOG.* 2019;126(1):e1–e48. doi:[10.1111/1471-0528.15306](https://doi.org/10.1111/1471-0528.15306)

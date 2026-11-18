@@ -24,7 +24,7 @@ Sí: problema N.° 3, cáncer cervicouterino en personas de 15 años y más (inc
 3.01.1.013 Cáncer cervicouterino (sospecha, inicial, derivar) · 3.01.1.016 Enfermedad preinvasora del cuello uterino, lesiones intraepiteliales (NIE-VPH) (sospecha, inicial, derivar) · 3.01.3.013 Screening ginecológico: Papanicolau, mamografía
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -159,7 +159,7 @@ flowchart TD
 !!! guia "Puntos clave (guía GES vigente; OMS 2021; ASCCP 2019 y 2025; FIGO 2018)"
     - **Tamizaje** solo en **asintomáticas**. Ante **síntomas** o una **lesión visible**, ir directo a la **colposcopía y biopsia**.
     - **Test de VPH primario** (≥ 30 años): más **sensible** que el PAP para las lesiones de alto grado y con un valor predictivo negativo tan alto que permite **intervalos de 5 años**. La guía GES sugiere la **genotipificación extendida** y el **VPH solo** por sobre el **co-test** (VPH + PAP).
-    - **Autotoma vaginal** para el test de VPH (ASCCP 2025): **aceptable** en el tamizaje primario de mujeres **asintomáticas de riesgo promedio** (la toma por el clínico sigue siendo la preferida); amplía el acceso. Si es negativa, repetir en **3 años**. Si es positiva para **VPH 16 o 18**: **colposcopía**; para otros tipos de alto riesgo: **citología** (o tinción dual) tomada por el clínico. No sirve para el seguimiento tras un resultado alterado o un tratamiento.
+    - **Autotoma vaginal** para el test de VPH (ASCCP 2025; ACS 2026): **aceptable** en el tamizaje primario de mujeres **asintomáticas de riesgo promedio de 25 a 65 años** (la toma por el clínico sigue siendo la preferida); amplía el acceso. Si es negativa, repetir en **3 años**. Si es positiva para **VPH 16 o 18**: **colposcopía**; para otros tipos de alto riesgo: **citología** (o tinción dual) tomada por el clínico. No sirve para el seguimiento tras un resultado alterado o un tratamiento.
     - **PAP**: muestra de la **zona de transformación** con espátula de Ayre (exocérvix) y **cepillo** (endocérvix). No tomarlo durante la menstruación ni tras duchas vaginales o relaciones en las 48 h previas.
     - **Colposcopía**: magnifica el cuello tras aplicar **ácido acético** (lesiones **acetoblancas**, mosaico, punteado, vasos atípicos) y **lugol** (zonas **yodo negativas**). Guía la **biopsia** de las zonas más alteradas. **Insatisfactoria** si no se ve la unión escamocolumnar completa.
     - **Confirmación**: siempre **histológica** (biopsia o cono).
@@ -176,7 +176,7 @@ flowchart TD
 - **Situaciones especiales**:
     - **VIH**: tamizaje más frecuente (citología anual o VPH cada 3 años según la guía) e inicio al diagnóstico de la infección.
     - **Histerectomía total por causa benigna**: **suspender** el tamizaje cervical.
-    - **Mayores de 64–65 años** con tamizaje previo adecuado y negativo: se puede **suspender**.
+    - **Mayores de 64–65 años** con tamizaje previo adecuado y negativo: se puede **suspender**. La **ACS 2026** exige para salir un **test de VPH negativo a los 60 y a los 65 años** (o co-test; o 3 citologías negativas, la última a los 65), porque muchas mujeres mayores dejan el tamizaje sin cumplir los criterios.
     - **Vacunadas**: **mantener** el tamizaje (la vacuna no cubre todos los tipos oncogénicos).
     - **Embarazo**: el PAP se puede tomar; la colposcopía es segura, pero se evita la biopsia endocervical y el cono (salvo sospecha de cáncer invasor).
 
@@ -314,3 +314,4 @@ flowchart TD
 5. Bhatla N, Berek JS, Cuello Fredes M, et al. Revised FIGO staging for carcinoma of the cervix uteri. *Int J Gynaecol Obstet.* 2019;145(1):129–135. doi:[10.1002/ijgo.12749](https://doi.org/10.1002/ijgo.12749)
 6. US Preventive Services Task Force. Screening for breast cancer: US Preventive Services Task Force recommendation statement. *JAMA.* 2024;331(22):1918–1930. doi:[10.1001/jama.2024.5534](https://doi.org/10.1001/jama.2024.5534)
 7. International Agency for Research on Cancer. Global Cancer Observatory: Chile fact sheet. [gco.iarc.who.int](https://gco.iarc.who.int/today)
+8. Perkins RB, Wolf AMD, Church TR, et al. Self-collected vaginal specimens for human papillomavirus testing and guidance on screening exit: an update to the American Cancer Society cervical cancer screening guideline. *CA Cancer J Clin.* 2026;76(1):e70041. doi:[10.3322/caac.70041](https://doi.org/10.3322/caac.70041)
