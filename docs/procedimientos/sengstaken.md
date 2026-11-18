@@ -6,13 +6,13 @@
 Taponamiento con balón de las várices esofágicas o gástricas que siguen sangrando pese al tratamiento farmacológico y endoscópico
 
 **Fuentes principales**
-Baveno VII (2022): consenso de hipertensión portal
+Baveno VII (2022) y Baveno VIII (2026): consensos de hipertensión portal
 
 **Otras fuentes**
 Ver [hemorragia digestiva alta](../gastroenterologia/hemorragia-digestiva-alta.md), [cirrosis y complicaciones](../gastroenterologia/cirrosis-y-complicaciones.md) e [intubación orotraqueal](intubacion-orotraqueal.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -28,7 +28,7 @@ Octubre 2026
     - **Tijera junto a la cama**: si el balón migra a la vía aérea, cortar y retirar.
 
 !!! guia "¿Qué respalda esta página?"
-    **Baveno VII (2022)** sitúa el taponamiento con balón como **puente** de no más de 24 horas en la hemorragia variceal refractaria. La técnica de instalación es **práctica habitual** y sigue las instrucciones del fabricante; los volúmenes exactos dependen del modelo (Sengstaken-Blakemore o Minnesota). **Manda el protocolo de tu servicio.**
+    **Baveno VII (2022)** sitúa el taponamiento con balón como **puente** de no más de 24 horas en la hemorragia variceal refractaria. **Baveno VIII (2026)** mantiene vigentes las recomendaciones de Baveno VII que no revisó; en lo publicado hasta ahora, sus cambios en la hemorragia variceal tratan del TIPS (preventivo y tardío) y de las várices gástricas, sin cambios descritos en el taponamiento. La técnica de instalación es **práctica habitual** y sigue las instrucciones del fabricante; los volúmenes exactos dependen del modelo (Sengstaken-Blakemore o Minnesota). **Manda el protocolo de tu servicio.**
 
 ## Cuándo usarlo
 
@@ -117,3 +117,4 @@ Escribe los datos **como tú los registras**: los campos son de texto libre, con
 ## Referencias
 
 1. de Franchis R, Bosch J, Garcia-Tsao G, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol.* 2022;76(4):959–974. doi:[10.1016/j.jhep.2021.12.022](https://doi.org/10.1016/j.jhep.2021.12.022)
+2. Baveno VIII Faculty. Baveno VIII – Advancing consensus in portal hypertension. *J Hepatol.* 2026;85(5):993–1018. doi:[10.1016/j.jhep.2026.07.030](https://doi.org/10.1016/j.jhep.2026.07.030)

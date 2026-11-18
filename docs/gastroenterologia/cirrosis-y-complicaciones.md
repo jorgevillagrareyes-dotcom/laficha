@@ -14,10 +14,10 @@ tags:
 Gastroenterología · Hepatología · Paciente hospitalizado
 
 **Guías principales**
-Baveno VII (2022) · AASLD 2024: hipertensión portal y várices · AASLD 2021: ascitis, peritonitis bacteriana espontánea y síndrome hepatorrenal · EASL 2018: cirrosis descompensada · EASL 2022: encefalopatía hepática · ADQI/ICA 2024: lesión renal aguda en la cirrosis
+Baveno VIII (2026) · AASLD 2024: hipertensión portal y várices · AASLD 2021: ascitis, peritonitis bacteriana espontánea y síndrome hepatorrenal · EASL 2018: cirrosis descompensada · EASL 2022: encefalopatía hepática · ADQI/ICA 2024: lesión renal aguda en la cirrosis
 
 **Otras fuentes**
-BSG 2021 (ascitis) · Ensayo CONFIRM (terlipresina, 2021) · MINSAL 2025 (GES)
+Baveno VII (2022; sigue vigente en lo que Baveno VIII no revisó) · BSG 2021 (ascitis) · Ensayo CONFIRM (terlipresina, 2021) · MINSAL 2025 (GES)
 
 **EUNACOM**
 1.06.1.005 Cirrosis hepática (específico, inicial, derivar) · 1.06.1.001 Ascitis (específico, inicial, derivar) · 1.06.2.011 Peritonitis bacteriana espontánea (específico, completo, derivar) · 1.06.2.006 Encefalopatía hepática (específico, inicial, derivar) · 1.06.2.012 Síndrome hepatorrenal (sospecha, inicial, derivar)
@@ -26,13 +26,13 @@ BSG 2021 (ascitis) · Ensayo CONFIRM (terlipresina, 2021) · MINSAL 2025 (GES)
 Sí: tratamiento farmacológico tras el alta hospitalaria por cirrosis hepática (problema 88, desde diciembre de 2025)
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
 !!! abstract "Resumen en 60 segundos"
     - La cirrosis tiene dos etapas: **compensada** (sobrevida mediana > 12 años) y **descompensada** (**ascitis, hemorragia variceal o encefalopatía manifiesta**; sobrevida mediana ~ 2 años). Causas principales en Chile: **alcohol** y **enfermedad hepática grasa asociada a disfunción metabólica (MASLD)**.
-    - **Hipertensión portal clínicamente significativa** (gradiente ≥ 10 mmHg o elastografía ≥ 25 kPa): **carvedilol** para prevenir la descompensación (Baveno VII).
+    - **Hipertensión portal clínicamente significativa** (gradiente ≥ 10 mmHg o, sin invasión, elastografía ≥ 25 kPa o un modelo validado con probabilidad ≥ 75 %): **carvedilol** para prevenir la descompensación (Baveno VIII). Sin HPCS no se indica β-bloqueador.
     - **Ascitis**: **paracentesis diagnóstica** siempre (**GASA ≥ 1,1 g/dL** = hipertensión portal); **sal ≤ 5 g/día**, **espironolactona 100 mg + furosemida 40 mg**; paracentesis evacuadora con **albúmina 8 g/L** si se extraen > 5 L.
     - **PBE**: **PMN ≥ 250/mm³** en el líquido ascítico → **ceftriaxona** + **albúmina 1,5 g/kg día 1 y 1 g/kg día 3**. Luego **profilaxis** secundaria.
     - **Lesión renal aguda**: suspender diuréticos y nefrotóxicos, **albúmina 1 g/kg/día × 2 días**; si no responde y cumple criterios → **síndrome hepatorrenal**: **terlipresina + albúmina**.
@@ -44,10 +44,10 @@ Septiembre 2026
 | Término | Definición |
 |---|---|
 | **Cirrosis** | Estadio final de las enfermedades hepáticas crónicas: **fibrosis difusa** con **nódulos de regeneración** que alteran la arquitectura y la circulación del hígado |
-| **Enfermedad hepática crónica avanzada compensada (cACLD)** (Baveno VII) | Término para el paciente asintomático con fibrosis avanzada: **elastografía < 10 kPa** la descarta; **10–15 kPa** la sugiere; **> 15 kPa** la hace muy probable |
-| **Hipertensión portal clínicamente significativa (HPCS)** | **Gradiente de presión venosa hepática (GPVH) ≥ 10 mmHg**. Sin invasión: **elastografía ≥ 25 kPa** la confirma; ≤ 15 kPa con **plaquetas ≥ 150.000** la descarta |
+| **Enfermedad hepática crónica avanzada compensada (cACLD)** (Baveno VII y VIII) | Término para el paciente asintomático con fibrosis avanzada: **elastografía < 10 kPa** la descarta; **10–15 kPa** la sugiere; **> 15 kPa** la hace muy probable |
+| **Hipertensión portal clínicamente significativa (HPCS)** | **Gradiente de presión venosa hepática (GPVH) ≥ 10 mmHg**. Sin invasión (Baveno VIII): ≤ 15 kPa con **plaquetas ≥ 150.000** la descarta; la confirman una **probabilidad ≥ 75 %** en un modelo validado (ANTICIPATE, ANTICIPATE-NASH o NICER), la **elastografía ≥ 25 kPa** (etiología viral, alcohol o MASLD sin obesidad) o la **elastografía del bazo > 55 kPa** (a 100 Hz). Los casos intermedios se reevalúan a los 12 meses |
 | **Cirrosis descompensada** | Aparición de **ascitis**, **hemorragia variceal** o **encefalopatía hepática manifiesta** |
-| **Recompensación** (Baveno VII) | Tras eliminar la causa (abstinencia, antivirales): resolución de la ascitis y la encefalopatía sin tratamiento, sin sangrado por 12 meses y mejoría estable de la función hepática |
+| **Recompensación** (Baveno VIII) | Causa eliminada o controlada (abstinencia, antivirales) y, por **más de 6 meses seguidos**: sin ascitis en la imagen y sin diuréticos, sin encefalopatía manifiesta sin tratamiento, sin nueva hemorragia variceal y **Child-Pugh A**. No es curación: sigue el control cada 6 meses y el tamizaje de hepatocarcinoma |
 | **Falla hepática aguda sobre crónica (ACLF)** | Descompensación aguda con **falla de órganos** (hígado, riñón, cerebro, coagulación, circulación, pulmón) y alta mortalidad a 28 días |
 
 ## Epidemiología
@@ -102,7 +102,7 @@ Septiembre 2026
 
 ## Clasificación
 
-### Historia natural (Baveno VII)
+### Historia natural (Baveno VII y VIII)
 
 ``` mermaid
 flowchart TD
@@ -151,11 +151,11 @@ flowchart TD
 1. **Sospecha** clínica o de laboratorio (plaquetas bajas, GOT > GPT, albúmina baja, INR alto).
 2. **Fibrosis sin biopsia**:
     - **FIB-4** = (edad × GOT) / (plaquetas [×10⁹/L] × √GPT): **< 1,3** bajo riesgo de fibrosis avanzada; **> 2,67** alto riesgo.
-    - **Elastografía** (FibroScan): **< 10 kPa** descarta la cACLD; **> 15 kPa** la hace muy probable; **≥ 25 kPa** = HPCS.
+    - **Elastografía** (FibroScan): **< 10 kPa** descarta la cACLD; **> 15 kPa** la hace muy probable; **≥ 25 kPa** = HPCS (o un modelo validado con probabilidad ≥ 75 %, Baveno VIII); entre 15 y 25 kPa sin criterios, repetir a los 12 meses.
 3. **Imágenes**: hígado nodular, lóbulo caudado hipertrofiado, **esplenomegalia**, ascitis, colaterales, trombosis portal.
 4. **Estudio etiológico** (tabla).
 5. **Biopsia** sólo si la etiología o el estadio no son claros.
-6. **Endoscopía** para buscar **várices**, salvo que la elastografía sea **< 20 kPa** con **plaquetas > 150.000** (Baveno VII), o si ya recibirá carvedilol por HPCS.
+6. **Endoscopía** para buscar **várices**, salvo que la elastografía sea **< 20 kPa** con **plaquetas ≥ 150.000** (criterio de Baveno VI que Baveno VIII mantiene), o si ya recibe carvedilol por HPCS (la endoscopía no cambiaría la conducta).
 
 ### Paracentesis diagnóstica
 
@@ -208,17 +208,20 @@ flowchart TD
 !!! guia "Pilares del manejo de la cirrosis"
     - **Tratar la causa**: **abstinencia de alcohol** (la medida más eficaz en la cirrosis alcohólica), antivirales para VHC y VHB, **baja de peso** y control metabólico en la MASLD, inmunosupresión en la hepatitis autoinmune, ácido ursodeoxicólico en la colangitis biliar primaria.
     - **Tamizaje de hepatocarcinoma**: **ecografía ± AFP cada 6 meses**.
-    - **Várices**: carvedilol si hay HPCS, o endoscopía según Baveno VII.
+    - **Várices**: carvedilol si hay HPCS, o endoscopía según Baveno VIII.
     - **Nutrición**: **35 kcal/kg/día** y **proteínas 1,2–1,5 g/kg/día** (**no restringir proteínas**, ni siquiera en la encefalopatía), **colación nocturna**, evitar ayunos prolongados; tratar la **sarcopenia**.
     - **Vacunas**: hepatitis A y B, influenza, neumococo, COVID-19.
     - **Evitar**: **AINE**, aminoglicósidos, **benzodiacepinas** y opioides, IECA/ARA-II en la ascitis; **paracetamol** es seguro hasta **2 g/día**.
     - **Derivar** a hepatología y evaluar **trasplante** si hay **MELD ≥ 15**, descompensación o hepatocarcinoma.
 
-### Prevención de la descompensación y várices (Baveno VII, AASLD 2024)
+### Prevención de la descompensación y várices (Baveno VIII, AASLD 2024)
 
 - **HPCS** (con o sin várices): **β-bloqueador no selectivo**, de preferencia **carvedilol 6,25 mg/día** y luego **12,5 mg/día** (reduce la **descompensación** y la mortalidad). Alternativa: propranolol 20–40 mg c/12 h titulado.
+- **Sin HPCS**: el β-bloqueador **no** está indicado para prevenir la descompensación. Si la HPCS se resuelve (por ejemplo, tras curar la causa), suspenderlo solo cuando se haya **demostrado** la resolución.
+- **Estatinas**: Baveno VIII considera que la evidencia **no basta** para indicarlas con el fin de prevenir la descompensación (se usan si hay otra indicación).
+- **MASLD**: bajar **≥ 10 %** del peso reduce la elastografía en ≥ 30 %; los arGLP-1 y los iSGLT2 pueden usarse en sus indicaciones aprobadas.
 - Si no tolera β-bloqueadores y tiene várices de alto riesgo: **ligadura endoscópica**.
-- **Hemorragia variceal aguda**: terlipresina u octreotide, **ceftriaxona**, ligadura endoscópica en < 12 h, **TIPS preventivo** en pacientes de alto riesgo (ver [Hemorragia digestiva alta](hemorragia-digestiva-alta.md)).
+- **Hemorragia variceal aguda**: terlipresina u octreotide, **ceftriaxona**, ligadura endoscópica en < 12 h, **TIPS preventivo** en < 72 h en pacientes de alto riesgo (ver [Hemorragia digestiva alta](hemorragia-digestiva-alta.md)).
 - **Profilaxis secundaria**: β-bloqueador **+ ligadura** endoscópica.
 
 ### Ascitis
@@ -348,18 +351,19 @@ flowchart TD
 ??? repaso "4. Cirrótico que llega somnoliento, con asterixis y desorientado en el tiempo. ¿Qué grado de encefalopatía tiene y qué haces?"
     **Encefalopatía hepática grado 2** (West Haven). Buscar el **desencadenante**: hemograma, electrolitos (Na, K), creatinina, glicemia, **paracentesis** (PBE), orina, radiografía de tórax, **tacto rectal** (melena), revisar **sedantes** y diuréticos, constipación. Tratar la causa y dar **lactulosa 25 mL c/1–2 h** hasta la primera deposición y luego 2–3 deposiciones al día. No restringir proteínas. Tras la recuperación, lactulosa como prevención secundaria; rifaximina si recurre.
 
-??? repaso "5. Paciente con cirrosis compensada por MASLD, sin várices en la endoscopía, elastografía de 28 kPa. ¿Qué le indicas según Baveno VII?"
-    Tiene **hipertensión portal clínicamente significativa** (elastografía ≥ 25 kPa). Baveno VII recomienda un **β-bloqueador no selectivo**, de preferencia **carvedilol** (6,25 → 12,5 mg/día), para **prevenir la descompensación** aunque no tenga várices. Además: baja de peso y control metabólico, abstinencia de alcohol, **ecografía ± AFP cada 6 meses**, vacunas, evitar AINE.
+??? repaso "5. Paciente con cirrosis compensada por MASLD, sin várices en la endoscopía, elastografía de 28 kPa. ¿Qué le indicas según Baveno VIII?"
+    Tiene **hipertensión portal clínicamente significativa** (elastografía ≥ 25 kPa). Baveno VIII recomienda un **β-bloqueador no selectivo**, de preferencia **carvedilol** (6,25 → 12,5 mg/día), para **prevenir la descompensación** aunque no tenga várices. Además: baja de peso y control metabólico, abstinencia de alcohol, **ecografía ± AFP cada 6 meses**, vacunas, evitar AINE.
 
 ## Referencias
 
-1. de Franchis R, Bosch J, Garcia-Tsao G, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol.* 2022;76:959–974.
-2. Kaplan DE, Ripoll C, Thiele M, et al. AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis. *Hepatology.* 2024;79:1180–1211.
-3. Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases. *Hepatology.* 2021;74:1014–1048.
-4. European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. *J Hepatol.* 2018;69:406–460.
-5. European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatic encephalopathy. *J Hepatol.* 2022;77:807–824.
-6. Nadim MK, Kellum JA, Forni L, et al. Acute kidney injury in patients with cirrhosis: Acute Disease Quality Initiative (ADQI) and International Club of Ascites (ICA) joint multidisciplinary consensus meeting. *J Hepatol.* 2024;81:163–183.
-7. Aithal GP, Palaniyappan N, China L, et al. Guidelines on the management of ascites in cirrhosis. *Gut.* 2021;70:9–29. doi:[10.1136/gutjnl-2020-321790](https://doi.org/10.1136/gutjnl-2020-321790)
-8. Wong F, Pappas SC, Curry MP, et al. Terlipressin plus Albumin for the Treatment of Type 1 Hepatorenal Syndrome. *N Engl J Med.* 2021;384:818–828.
-9. Sort P, Navasa M, Arroyo V, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. *N Engl J Med.* 1999;341:403–409.
-10. Ministerio de Salud de Chile. Chile garantiza 90 problemas de salud con inversión récord (Decreto GES 2025–2028). Diciembre 2025. [minsal.cl](https://www.minsal.cl/chile-garantiza-90-problemas-de-salud-con-inversion-record-de-100-mil-millones-anuales/)
+1. Baveno VIII Faculty. Baveno VIII – Advancing consensus in portal hypertension. *J Hepatol.* 2026;85(5):993–1018. doi:[10.1016/j.jhep.2026.07.030](https://doi.org/10.1016/j.jhep.2026.07.030)
+2. de Franchis R, Bosch J, Garcia-Tsao G, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol.* 2022;76(4):959–974. doi:[10.1016/j.jhep.2021.12.022](https://doi.org/10.1016/j.jhep.2021.12.022)
+3. Kaplan DE, Ripoll C, Thiele M, et al. AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis. *Hepatology.* 2024;79:1180–1211.
+4. Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases. *Hepatology.* 2021;74:1014–1048.
+5. European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. *J Hepatol.* 2018;69:406–460.
+6. European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatic encephalopathy. *J Hepatol.* 2022;77:807–824.
+7. Nadim MK, Kellum JA, Forni L, et al. Acute kidney injury in patients with cirrhosis: Acute Disease Quality Initiative (ADQI) and International Club of Ascites (ICA) joint multidisciplinary consensus meeting. *J Hepatol.* 2024;81:163–183.
+8. Aithal GP, Palaniyappan N, China L, et al. Guidelines on the management of ascites in cirrhosis. *Gut.* 2021;70:9–29. doi:[10.1136/gutjnl-2020-321790](https://doi.org/10.1136/gutjnl-2020-321790)
+9. Wong F, Pappas SC, Curry MP, et al. Terlipressin plus Albumin for the Treatment of Type 1 Hepatorenal Syndrome. *N Engl J Med.* 2021;384:818–828.
+10. Sort P, Navasa M, Arroyo V, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. *N Engl J Med.* 1999;341:403–409.
+11. Ministerio de Salud de Chile. Chile garantiza 90 problemas de salud con inversión récord (Decreto GES 2025–2028). Diciembre 2025. [minsal.cl](https://www.minsal.cl/chile-garantiza-90-problemas-de-salud-con-inversion-record-de-100-mil-millones-anuales/)

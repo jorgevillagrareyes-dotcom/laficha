@@ -13,16 +13,16 @@ tags:
 Gastroenterología y hepatología
 
 **Guías principales**
-ACG 2021 (HDA y úlcera) · ESGE 2021 (HDA no variceal) · Consenso internacional 2019 · Baveno VII 2022 · AASLD 2024 (hipertensión portal)
+ACG 2021 (HDA y úlcera) · ESGE 2021 (HDA no variceal) · Consenso internacional 2019 · Baveno VIII 2026 · AASLD 2024 (hipertensión portal)
 
 **Otras fuentes**
-ESGE 2022 (HDA variceal) · Estudios HALT-IT y Lau 2020
+Baveno VII 2022 · ESGE 2022 (HDA variceal) · Estudios HALT-IT y Lau 2020
 
 **GES relacionados**
 Erradicación de *Helicobacter pylori* · Cáncer gástrico · Cirrosis hepática (incorporada en 2025)
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
@@ -226,7 +226,7 @@ flowchart TD
     K --> L
 ```
 
-*Figura 3. Enfoque inicial de la HDA. Esquema propio basado en ACG 2021, ESGE 2021 y Baveno VII.*
+*Figura 3. Enfoque inicial de la HDA. Esquema propio basado en ACG 2021, ESGE 2021, Baveno VII y Baveno VIII.*
 
 - La **endoscopía digestiva alta** es el examen **diagnóstico y terapéutico** central.
 - La **sonda nasogástrica** **no** se recomienda de rutina para diagnóstico ni pronóstico (ACG 2021).
@@ -354,28 +354,28 @@ flowchart TD
     L -->|Sí| M["Balón de Sengstaken o<br/>prótesis esofágica como puente<br/>→ TIPS de rescate"]
 ```
 
-*Figura 5. Manejo de la HDA variceal. Esquema propio basado en Baveno VII y AASLD 2024.*
+*Figura 5. Manejo de la HDA variceal. Esquema propio basado en Baveno VII, Baveno VIII y AASLD 2024.*
 
 !!! dosis "Fármacos en la HDA variceal"
     - **Vasoactivos** (iniciar **apenas se sospecha**, antes de la endoscopía, y mantener **2–5 días**):
         - **Terlipresina**: 2 mg EV c/4 h por las primeras 48 horas, luego 1 mg EV c/4 h. Contraindicada o usar con precaución en cardiopatía isquémica, arritmias, enfermedad vascular periférica e hiponatremia grave.
         - **Octreótido**: 50 µg EV en bolo y luego **50 µg/h en infusión**.
         - **Somatostatina**: 250 µg EV en bolo y luego 250–500 µg/h.
-    - **Profilaxis antibiótica** (reduce infecciones, resangrado y mortalidad): **ceftriaxona 1 g EV c/24 h** hasta por **7 días** (o hasta que se controle el sangrado sin infección activa).
+    - **Profilaxis antibiótica** (reduce infecciones, resangrado y mortalidad): **ceftriaxona 1 g EV c/24 h** hasta por **7 días** (o hasta que se controle el sangrado sin infección activa). Baveno VIII permite **individualizar** la duración según el riesgo de infección y la gravedad de la cirrosis.
     - **Lactulosa** o evacuación rápida de la sangre del tubo digestivo: para prevenir la **encefalopatía hepática**.
 
 **Endoscopía**
 
 - Dentro de las **12 horas** siguientes a la presentación, una vez estabilizado el paciente.
 - **Várices esofágicas**: **ligadura con bandas** (de elección).
-- **Várices gástricas**: inyección de **cianoacrilato**, TIPS u obliteración retrógrada transvenosa (BRTO) según el tipo.
+- **Várices gástricas**: inyección de **cianoacrilato**, TIPS u obliteración retrógrada transvenosa (BRTO) según el tipo. En las **cardiofúndicas** (GOV2 e IGV1), Baveno VIII indica **cianoacrilato** o tratamiento **guiado por ecoendoscopía** para la hemostasia y planificar pronto un **TIPS** definitivo (± embolización de las várices).
 
-**TIPS preventivo** (*pre-emptive*, derivación portosistémica intrahepática transyugular) dentro de **72 horas** (idealmente < 24 horas) en pacientes de **alto riesgo** de falla del tratamiento (Baveno VII):
+**TIPS preventivo** (*pre-emptive*, derivación portosistémica intrahepática transyugular) dentro de **72 horas** (idealmente < 24 horas) en pacientes de **alto riesgo** de falla del tratamiento (Baveno VII, ratificado por Baveno VIII para las várices esofágicas y GOV1):
 
 - **Child-Pugh C 10–13 puntos**, o
 - **Child-Pugh B 8–9 puntos con sangrado activo** en la endoscopía inicial.
 
-Reduce la falla del tratamiento y la mortalidad en estos pacientes.
+Reduce la falla del tratamiento y la mortalidad en estos pacientes. Si se pasó la ventana de 72 h, Baveno VIII acepta un **TIPS tardío** (en 1–2 semanas) en pacientes seleccionados (recomendación débil).
 
 **Sangrado refractario**
 
@@ -443,15 +443,16 @@ Reduce la falla del tratamiento y la mortalidad en estos pacientes.
 1. Laine L, Barkun AN, Saltzman JR, Martel M, Leontiadis GI. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. *Am J Gastroenterol.* 2021;116:899–917. [Texto en la revista](https://journals.lww.com/ajg/fulltext/10.14309/ajg.0000000000001245)
 2. Gralnek IM, et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline – Update 2021. *Endoscopy.* 2021;53:300–332.
 3. Barkun AN, et al. Management of Nonvariceal Upper Gastrointestinal Bleeding: Guideline Recommendations From the International Consensus Group. *Ann Intern Med.* 2019;171:805–822.
-4. de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol.* 2022;76:959–974.
-5. Kaplan DE, et al. AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis. *Hepatology.* 2024;79:1180–1211.
-6. Gralnek IM, et al. Endoscopic diagnosis and management of esophagogastric variceal hemorrhage: ESGE Guideline. *Endoscopy.* 2022;54:1094–1120.
-7. HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT). *Lancet.* 2020;395:1927–1936.
-8. Lau JYW, et al. Timing of Endoscopy for Acute Upper Gastrointestinal Bleeding. *N Engl J Med.* 2020;382:1299–1308.
-9. Villanueva C, et al. Transfusion Strategies for Acute Upper Gastrointestinal Bleeding. *N Engl J Med.* 2013;368:11–21.
-10. Laine L, Peterson WL. Bleeding peptic ulcer. *N Engl J Med.* 1994;331:717–727.
-11. Blatchford O, Murray WR, Blatchford M. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. *Lancet.* 2000;356:1318–1321.
-12. García-Pagán JC, et al. Early use of TIPS in patients with cirrhosis and variceal bleeding. *N Engl J Med.* 2010;362:2370–2379.
-13. Hemorragia digestiva alta variceal y no variceal: mortalidad intrahospitalaria y características clínicas en un hospital universitario (2015–2017). *Rev Méd Chile.* 2020;148(3):288. [SciELO](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0034-98872020000300288)
-14. Ministerio de Salud de Chile. *Guía Clínica GES: Tratamiento de erradicación de Helicobacter pylori en el paciente con úlcera péptica.*
-15. Orpen-Palmer J, Stanley AJ. Update on the management of upper gastrointestinal bleeding. *BMJ Med.* 2022;1:e000202. doi:[10.1136/bmjmed-2022-000202](https://doi.org/10.1136/bmjmed-2022-000202)
+4. Baveno VIII Faculty. Baveno VIII – Advancing consensus in portal hypertension. *J Hepatol.* 2026;85(5):993–1018. doi:[10.1016/j.jhep.2026.07.030](https://doi.org/10.1016/j.jhep.2026.07.030)
+5. de Franchis R, et al. Baveno VII – Renewing consensus in portal hypertension. *J Hepatol.* 2022;76(4):959–974. doi:[10.1016/j.jhep.2021.12.022](https://doi.org/10.1016/j.jhep.2021.12.022)
+6. Kaplan DE, et al. AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis. *Hepatology.* 2024;79:1180–1211.
+7. Gralnek IM, et al. Endoscopic diagnosis and management of esophagogastric variceal hemorrhage: ESGE Guideline. *Endoscopy.* 2022;54:1094–1120.
+8. HALT-IT Trial Collaborators. Effects of a high-dose 24-h infusion of tranexamic acid on death and thromboembolic events in patients with acute gastrointestinal bleeding (HALT-IT). *Lancet.* 2020;395:1927–1936.
+9. Lau JYW, et al. Timing of Endoscopy for Acute Upper Gastrointestinal Bleeding. *N Engl J Med.* 2020;382:1299–1308.
+10. Villanueva C, et al. Transfusion Strategies for Acute Upper Gastrointestinal Bleeding. *N Engl J Med.* 2013;368:11–21.
+11. Laine L, Peterson WL. Bleeding peptic ulcer. *N Engl J Med.* 1994;331:717–727.
+12. Blatchford O, Murray WR, Blatchford M. A risk score to predict need for treatment for upper-gastrointestinal haemorrhage. *Lancet.* 2000;356:1318–1321.
+13. García-Pagán JC, et al. Early use of TIPS in patients with cirrhosis and variceal bleeding. *N Engl J Med.* 2010;362:2370–2379.
+14. Hemorragia digestiva alta variceal y no variceal: mortalidad intrahospitalaria y características clínicas en un hospital universitario (2015–2017). *Rev Méd Chile.* 2020;148(3):288. [SciELO](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0034-98872020000300288)
+15. Ministerio de Salud de Chile. *Guía Clínica GES: Tratamiento de erradicación de Helicobacter pylori en el paciente con úlcera péptica.*
+16. Orpen-Palmer J, Stanley AJ. Update on the management of upper gastrointestinal bleeding. *BMJ Med.* 2022;1:e000202. doi:[10.1136/bmjmed-2022-000202](https://doi.org/10.1136/bmjmed-2022-000202)

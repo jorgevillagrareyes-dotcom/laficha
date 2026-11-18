@@ -15,7 +15,7 @@ Gastroenterología · Hepatología · Infectología · Atención primaria
 EASL 2025 y AASLD/IDSA 2025: hepatitis B · MINSAL 2021: orientación técnica de hepatitis B · AASLD-IDSA 2023: hepatitis C · MINSAL 2019: protocolo simplificado de hepatitis C · EASL-EASD-EASO 2024: MASLD · EASL-EASD-EASO 2026: resmetirom y semaglutida en la MASH · ACG 2024: enfermedad hepática por alcohol · EASL 2025: hepatitis autoinmune · EASL 2022: hemocromatosis · EASL-ERN 2025: enfermedad de Wilson
 
 **Otras fuentes**
-Nomenclatura de la enfermedad hepática esteatósica (Rinella 2023) · Epidemiología mundial de la MASLD (Younossi 2023) · MAESTRO-NASH (2024) y ESSENCE (2025) · ENS 2009–2010 · Prevalencia de hígado graso en Chile (Riquelme 2009)
+Baveno VIII 2026 (hipertensión portal) · Nomenclatura de la enfermedad hepática esteatósica (Rinella 2023) · Epidemiología mundial de la MASLD (Younossi 2023) · MAESTRO-NASH (2024) y ESSENCE (2025) · ENS 2009–2010 · Prevalencia de hígado graso en Chile (Riquelme 2009)
 
 **GES**
 Sí: **hepatitis crónica por virus B** y **hepatitis crónica por virus C**, ambas desde 2010. Evaluación inicial dentro de **30 días** desde la confirmación y tratamiento dentro de **30 días** desde la indicación. El tratamiento farmacológico tras el alta por **cirrosis** es el problema 88 ([ver cirrosis](cirrosis-y-complicaciones.md)).
@@ -24,7 +24,7 @@ Sí: **hepatitis crónica por virus B** y **hepatitis crónica por virus C**, am
 1.06.1.021 Hepatitis crónica (específico, inicial, derivar) · 1.06.1.022 Insuficiencia hepática crónica (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -267,7 +267,7 @@ flowchart TD
     - **todos los cirróticos**;
     - los portadores de **hepatitis B** con riesgo, aunque no tengan cirrosis (antecedente familiar, mayores, origen asiático o africano, puntaje PAGE-B alto).
 - **TC o RM** con contraste trifásico: caracterizar los **nódulos** ≥ 1 cm.
-- **Endoscopía alta**: buscar **várices** en la cirrosis, salvo que la elastografía sea < 20 kPa con plaquetas > 150 000 (Baveno VII).
+- **Endoscopía alta**: buscar **várices** en la cirrosis, salvo que la elastografía sea < 20 kPa con plaquetas ≥ 150 000 o que ya reciba carvedilol por hipertensión portal clínicamente significativa (Baveno VIII; ver [cirrosis](cirrosis-y-complicaciones.md)).
 
 ## Diagnóstico diferencial
 
@@ -301,7 +301,7 @@ flowchart TD
         - Dieta **mediterránea**, sin ultraprocesados ni bebidas azucaradas.
         - **Ejercicio** (≥ 150 minutos semanales de actividad moderada).
         - Evitar el alcohol.
-    - **Tratar las comorbilidades** con fármacos que también benefician al hígado: **arGLP-1** (semaglutida) o **tirzepatida** en la DM2 o la obesidad, **iSGLT2**, **pioglitazona**. **Cirugía bariátrica** en la obesidad.
+    - **Tratar las comorbilidades** con fármacos que también benefician al hígado: **arGLP-1** (semaglutida) o **tirzepatida** en la DM2 o la obesidad, **iSGLT2**, **pioglitazona**. **Cirugía bariátrica** en la obesidad (en la cirrosis, solo en compensados sin hipertensión portal clínicamente significativa y en centros con experiencia; Baveno VIII).
     - **Tratamiento dirigido a la MASH** (guía EASL-EASD-EASO 2026), en los adultos **sin cirrosis** con **fibrosis F2–F3** (por biopsia o pruebas no invasivas, por ejemplo elastografía 10–20 kPa), junto con el estilo de vida:
         - **Semaglutida 2,4 mg SC semanal**: preferirla si hay obesidad, DM2 o riesgo cardiovascular alto.
         - **Resmetirom 80 o 100 mg al día** (agonista del receptor tiroideo β): preferirlo si no hay obesidad o no se toleran los arGLP-1.
@@ -439,7 +439,7 @@ flowchart TD
     - **Hepatitis autoinmune** tratada: sobrevida casi normal.
 - **Seguimiento**:
     - **Sin fibrosis avanzada** (FIB-4 < 1,3 o elastografía < 8 kPa): control en la APS, con FIB-4 cada **1–3 años** en la MASLD.
-    - **Fibrosis avanzada o cirrosis**: hepatología, **ecografía cada 6 meses** (hepatocarcinoma), **endoscopía** según los criterios de Baveno VII, vacunas y nutrición.
+    - **Fibrosis avanzada o cirrosis**: hepatología, **ecografía cada 6 meses** (hepatocarcinoma), **endoscopía** según los criterios de Baveno VIII, vacunas y nutrición.
     - **Hepatitis B sin tratamiento**: ALT y ADN-VHB cada 6–12 meses (cada 3 meses el primer año si el ADN es > 2000 UI/mL).
     - **Hepatitis C**: carga viral 12 semanas después de terminar el tratamiento (curación).
 - **Derivar a gastroenterología o hepatología**:
@@ -534,3 +534,4 @@ flowchart TD
 14. European Association for the Study of the Liver. EASL clinical practice guidelines on haemochromatosis. *J Hepatol.* 2022;77(2):479–502. doi:[10.1016/j.jhep.2022.03.033](https://doi.org/10.1016/j.jhep.2022.03.033)
 15. European Association for the Study of the Liver; European Reference Network on Hepatological Diseases. EASL-ERN clinical practice guidelines on Wilson's disease. *J Hepatol.* 2025;82(4):690–728. doi:[10.1016/j.jhep.2024.11.007](https://doi.org/10.1016/j.jhep.2024.11.007)
 16. Riquelme A, Arrese M, Soza A, et al. Non-alcoholic fatty liver disease and its association with obesity, insulin resistance and increased serum levels of C-reactive protein in Hispanics. *Liver Int.* 2009;29(1):82–88. doi:[10.1111/j.1478-3231.2008.01823.x](https://doi.org/10.1111/j.1478-3231.2008.01823.x)
+17. Baveno VIII Faculty. Baveno VIII – Advancing consensus in portal hypertension. *J Hepatol.* 2026;85(5):993–1018. doi:[10.1016/j.jhep.2026.07.030](https://doi.org/10.1016/j.jhep.2026.07.030)
