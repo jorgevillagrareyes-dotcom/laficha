@@ -11,10 +11,10 @@ tags:
 Gastroenterología · Hepatología · Cirugía digestiva · Atención primaria
 
 **Guías principales**
-ACG 2017: evaluación de las pruebas hepáticas alteradas · EASL 2009: enfermedades hepáticas colestásicas · EASL 2017 y AASLD 2018: colangitis biliar primaria · EASL 2022: colangitis esclerosantes · EASL 2019: daño hepático por fármacos
+ACG 2017: evaluación de las pruebas hepáticas alteradas · EASL 2009: enfermedades hepáticas colestásicas · AGA/AASLD 2026: colangitis biliar primaria · EASL 2022: colangitis esclerosantes · EASL 2019: daño hepático por fármacos
 
 **Otras fuentes**
-Ensayos de segunda línea en la colangitis biliar primaria: BEZURSO (bezafibrato, 2018), ELATIVE (elafibranor, 2024) y RESPONSE (seladelpar, 2024) · Colestasia del embarazo (Ovadia 2019) · Colangiografía de la colangitis esclerosante (Tanaka 2019)
+EASL 2017 y AASLD 2018 (colangitis biliar primaria) · Ensayos en la colangitis biliar primaria: BEZURSO (bezafibrato, 2018), ELATIVE (elafibranor, 2024), RESPONSE (seladelpar, 2024) y GLISTEN (linerixibat, 2026) · Colestasia del embarazo (Ovadia 2019) · Colangiografía de la colangitis esclerosante (Tanaka 2019)
 
 **GES**
 No es GES. La **colecistectomía preventiva** del cáncer de vesícula (35–49 años sintomáticos) sí lo es ([ver litiasis biliar](litiasis-biliar-colecistitis-colangitis.md)).
@@ -23,7 +23,7 @@ No es GES. La **colecistectomía preventiva** del cáncer de vesícula (35–49 
 1.06.1.007 Colestasia (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -245,14 +245,16 @@ flowchart TD
 
 ### Colangitis biliar primaria
 
-!!! guia "Tratamiento de la colangitis biliar primaria (EASL 2017; AASLD 2018)"
+!!! guia "Tratamiento de la colangitis biliar primaria (AGA/AASLD 2026; EASL 2017)"
     - **Primera línea**: **ácido ursodesoxicólico (AUDC) 13–15 mg/kg/día**, **de por vida**. Mejora las pruebas hepáticas, retrasa la progresión y **aumenta la sobrevida sin trasplante**.
+    - **Elastografía** para estimar el riesgo de progresión (AGA/AASLD 2026).
     - **Evaluar la respuesta a los 12 meses** (criterios de París II o Toronto): la persistencia de una **fosfatasa alcalina > 1,5–1,67 veces** el límite o de una **bilirrubina alta** indica una **respuesta inadecuada** (~30–40 % de los pacientes), con mayor riesgo de progresión.
     - **Segunda línea** (en los que no responden o no toleran el AUDC), **agregada** al AUDC:
-        - **Agonistas de PPAR**: **elafibranor** (ELATIVE, 2024) y **seladelpar** (RESPONSE, 2024), aprobados en varios países.
+        - **Agonistas de PPAR**: **elafibranor** (ELATIVE, 2024) y **seladelpar** (RESPONSE, 2024). AGA/AASLD 2026 sugiere considerarlos agregados al AUDC si la respuesta es inadecuada, o solos si no se tolera el AUDC.
         - **Bezafibrato** (BEZURSO, 2018; fuera de indicación). Mejora la bioquímica y el **prurito**.
-        - **Ácido obeticólico**: su uso se ha restringido (contraindicado en la cirrosis descompensada por riesgo de descompensación).
-    - **Prurito**: **colestiramina** de primera línea; luego **rifampicina**, **naltrexona** o **sertralina**. El **bezafibrato** también lo mejora.
+        - **Ácido obeticólico**: retirado del mercado de EE. UU. a fines de 2025; contraindicado en la cirrosis descompensada por riesgo de descompensación.
+    - **Prurito**: **colestiramina** de primera línea; luego **rifampicina**, **naltrexona** o **sertralina**. El **bezafibrato** también lo mejora. En el prurito **moderado a grave**, AGA/AASLD 2026 sugiere considerar el **linerixibat** (inhibidor del transportador ileal de ácidos biliares, GLISTEN 2026) donde esté disponible, con decisión compartida (diarrea y dolor abdominal).
+    - **Tras el trasplante**: **AUDC profiláctico** para reducir la recurrencia.
     - **Fatiga**: buscar otras causas (hipotiroidismo, anemia, depresión, trastornos del sueño).
     - **Densitometría** al diagnóstico y cada 2–3 años; calcio y vitamina D.
     - **Cirrosis**: vigilancia del hepatocarcinoma y de las várices; **trasplante** si se descompensa o el prurito es intratable.
@@ -401,14 +403,16 @@ flowchart TD
 
 ## Referencias
 
-1. Kwo PY, Cohen SM, Lim JK. ACG clinical guideline: evaluation of abnormal liver chemistries. *Am J Gastroenterol.* 2017;112(1):18–35. doi:[10.1038/ajg.2016.517](https://doi.org/10.1038/ajg.2016.517)
-2. European Association for the Study of the Liver. EASL clinical practice guidelines: management of cholestatic liver diseases. *J Hepatol.* 2009;51(2):237–267. doi:[10.1016/j.jhep.2009.04.009](https://doi.org/10.1016/j.jhep.2009.04.009)
-3. European Association for the Study of the Liver. EASL clinical practice guidelines: the diagnosis and management of patients with primary biliary cholangitis. *J Hepatol.* 2017;67(1):145–172. doi:[10.1016/j.jhep.2017.03.022](https://doi.org/10.1016/j.jhep.2017.03.022)
-4. Lindor KD, Bowlus CL, Boyer J, Levy C, Mayo M. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. *Hepatology.* 2019;69(1):394–419. doi:[10.1002/hep.30145](https://doi.org/10.1002/hep.30145)
-5. European Association for the Study of the Liver. EASL clinical practice guidelines on sclerosing cholangitis. *J Hepatol.* 2022;77(3):761–806. doi:[10.1016/j.jhep.2022.05.011](https://doi.org/10.1016/j.jhep.2022.05.011)
-6. European Association for the Study of the Liver. EASL clinical practice guidelines: drug-induced liver injury. *J Hepatol.* 2019;70(6):1222–1261. doi:[10.1016/j.jhep.2019.02.014](https://doi.org/10.1016/j.jhep.2019.02.014)
-7. Corpechot C, Chazouillères O, Rousseau A, et al. A placebo-controlled trial of bezafibrate in primary biliary cholangitis. *N Engl J Med.* 2018;378(23):2171–2181. doi:[10.1056/NEJMoa1714519](https://doi.org/10.1056/NEJMoa1714519)
-8. Kowdley KV, Bowlus CL, Levy C, et al. Efficacy and safety of elafibranor in primary biliary cholangitis. *N Engl J Med.* 2024;390(9):795–805. doi:[10.1056/NEJMoa2306185](https://doi.org/10.1056/NEJMoa2306185)
-9. Hirschfield GM, Bowlus CL, Mayo MJ, et al. A phase 3 trial of seladelpar in primary biliary cholangitis. *N Engl J Med.* 2024;390(9):783–794. doi:[10.1056/NEJMoa2312100](https://doi.org/10.1056/NEJMoa2312100)
-10. Ovadia C, Seed PT, Sklavounos A, et al. Association of adverse perinatal outcomes of intrahepatic cholestasis of pregnancy with biochemical markers: results of aggregate and individual patient data meta-analyses. *Lancet.* 2019;393(10174):899–909. doi:[10.1016/S0140-6736(18)31877-4](https://doi.org/10.1016/S0140-6736(18)31877-4)
-11. Tanaka A. IgG4-related sclerosing cholangitis and primary sclerosing cholangitis. *Gut Liver.* 2019;13(3):300–307. doi:[10.5009/gnl18085](https://doi.org/10.5009/gnl18085)
+1. Levy C, Mayo MJ, Carey EJ, et al. AGA/AASLD clinical practice guideline on management of primary biliary cholangitis. *Gastroenterology.* 2026;171(5):817–839. doi:[10.1053/j.gastro.2026.08.025](https://doi.org/10.1053/j.gastro.2026.08.025)
+2. Kwo PY, Cohen SM, Lim JK. ACG clinical guideline: evaluation of abnormal liver chemistries. *Am J Gastroenterol.* 2017;112(1):18–35. doi:[10.1038/ajg.2016.517](https://doi.org/10.1038/ajg.2016.517)
+3. European Association for the Study of the Liver. EASL clinical practice guidelines: management of cholestatic liver diseases. *J Hepatol.* 2009;51(2):237–267. doi:[10.1016/j.jhep.2009.04.009](https://doi.org/10.1016/j.jhep.2009.04.009)
+4. European Association for the Study of the Liver. EASL clinical practice guidelines: the diagnosis and management of patients with primary biliary cholangitis. *J Hepatol.* 2017;67(1):145–172. doi:[10.1016/j.jhep.2017.03.022](https://doi.org/10.1016/j.jhep.2017.03.022)
+5. Lindor KD, Bowlus CL, Boyer J, Levy C, Mayo M. Primary biliary cholangitis: 2018 practice guidance from the American Association for the Study of Liver Diseases. *Hepatology.* 2019;69(1):394–419. doi:[10.1002/hep.30145](https://doi.org/10.1002/hep.30145)
+6. European Association for the Study of the Liver. EASL clinical practice guidelines on sclerosing cholangitis. *J Hepatol.* 2022;77(3):761–806. doi:[10.1016/j.jhep.2022.05.011](https://doi.org/10.1016/j.jhep.2022.05.011)
+7. European Association for the Study of the Liver. EASL clinical practice guidelines: drug-induced liver injury. *J Hepatol.* 2019;70(6):1222–1261. doi:[10.1016/j.jhep.2019.02.014](https://doi.org/10.1016/j.jhep.2019.02.014)
+8. Corpechot C, Chazouillères O, Rousseau A, et al. A placebo-controlled trial of bezafibrate in primary biliary cholangitis. *N Engl J Med.* 2018;378(23):2171–2181. doi:[10.1056/NEJMoa1714519](https://doi.org/10.1056/NEJMoa1714519)
+9. Kowdley KV, Bowlus CL, Levy C, et al. Efficacy and safety of elafibranor in primary biliary cholangitis. *N Engl J Med.* 2024;390(9):795–805. doi:[10.1056/NEJMoa2306185](https://doi.org/10.1056/NEJMoa2306185)
+10. Hirschfield GM, Bowlus CL, Mayo MJ, et al. A phase 3 trial of seladelpar in primary biliary cholangitis. *N Engl J Med.* 2024;390(9):783–794. doi:[10.1056/NEJMoa2312100](https://doi.org/10.1056/NEJMoa2312100)
+11. Ovadia C, Seed PT, Sklavounos A, et al. Association of adverse perinatal outcomes of intrahepatic cholestasis of pregnancy with biochemical markers: results of aggregate and individual patient data meta-analyses. *Lancet.* 2019;393(10174):899–909. doi:[10.1016/S0140-6736(18)31877-4](https://doi.org/10.1016/S0140-6736(18)31877-4)
+12. Tanaka A. IgG4-related sclerosing cholangitis and primary sclerosing cholangitis. *Gut Liver.* 2019;13(3):300–307. doi:[10.5009/gnl18085](https://doi.org/10.5009/gnl18085)
+13. Hirschfield GM, Bowlus CL, Jones DEJ, et al. Linerixibat in patients with primary biliary cholangitis and cholestatic pruritus (GLISTEN): a randomised, multicentre, double-blind, placebo-controlled, phase 3 trial. *Lancet Gastroenterol Hepatol.* 2026;11(1):22–33. doi:[10.1016/S2468-1253(25)00192-X](https://doi.org/10.1016/S2468-1253(25)00192-X)

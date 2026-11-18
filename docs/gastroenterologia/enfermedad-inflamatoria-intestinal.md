@@ -11,7 +11,7 @@ tags:
 Gastroenterología · Coloproctología · Atención primaria
 
 **Guías principales**
-ACG 2025: colitis ulcerosa del adulto · ACG 2025: enfermedad de Crohn del adulto · ECCO 2022: tratamiento médico de la colitis ulcerosa · ECCO 2024: tratamiento médico de la enfermedad de Crohn · AGA 2024: colitis ulcerosa moderada a grave · ECCO-ESGAR 2019: diagnóstico · ECCO 2023: neoplasias · ECCO 2024: manifestaciones extraintestinales · STRIDE-II 2021: objetivos terapéuticos
+ACG 2025: colitis ulcerosa del adulto · ACG 2025: enfermedad de Crohn del adulto · ECCO 2026: tratamiento médico y quirúrgico de la colitis ulcerosa · ECCO 2024: tratamiento médico de la enfermedad de Crohn · AGA 2024: colitis ulcerosa moderada a grave · ECCO-ESGAR 2019: diagnóstico · ECCO 2023: neoplasias · ECCO 2024: manifestaciones extraintestinales · STRIDE-II 2021: objetivos terapéuticos
 
 **Otras fuentes**
 Carga mundial de la EII (GBD 2017) · Criterios de Truelove y Witts (1955) y de Oxford (Travis 1996) · Imágenes en la EII (Rimola 2022) · Registro chileno de 716 pacientes (Simian 2016) · Ley Ricarte Soto
@@ -23,7 +23,7 @@ No es GES. La **Ley Ricarte Soto** cubre biológicos en la **enfermedad de Crohn
 1.06.1.018 Enfermedad inflamatoria intestinal (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -271,7 +271,7 @@ flowchart TD
 
 ## Tratamiento
 
-!!! guia "Principios del tratamiento (ACG 2025; ECCO 2022 y 2024; AGA 2024; STRIDE-II)"
+!!! guia "Principios del tratamiento (ACG 2025; ECCO 2026 y 2024; AGA 2024; STRIDE-II)"
     - **Objetivo "treat to target"**:
         - **A corto plazo**: respuesta y **remisión clínica**.
         - **A mediano plazo**: normalizar la **PCR** y la **calprotectina**.
@@ -285,6 +285,7 @@ flowchart TD
         - **Inhibidores de JAK**: tofacitinib, upadacitinib, filgotinib.
         - **Moduladores de S1P**: ozanimod, etrasimod.
         - Los anti-TNF se combinan con una **tiopurina** (más eficacia, menos anticuerpos).
+        - **ECCO 2026** recomienda estas mismas clases para inducir y mantener (la mantención, con el mismo fármaco que logró la respuesta), y recuerda que la gravedad es una foto del momento: la **extensión proximal** de la colitis empeora el pronóstico.
     - **Crohn**: **budesonida** en la enfermedad ileocecal leve. En la moderada a grave, **corticoides** para inducir y **terapia avanzada** (anti-TNF, ustekinumab, risankizumab, vedolizumab, upadacitinib) para mantener. Las **tiopurinas** y el **metotrexato** sirven de mantención o de combinación. **La mesalazina no es eficaz en el Crohn**.
     - **Dejar de fumar** en el Crohn.
     - **Antes de inmunosupresores o biológicos**: tamizaje de **TBC**, **VHB**, VHC, VIH y varicela; **vacunar**:
@@ -315,7 +316,7 @@ flowchart TD
 
 <figure markdown>
 ![Algoritmo del brote grave de colitis ulcerosa en el hospital. Arriba, los criterios de Truelove y Witts: 6 o más deposiciones con sangre al día más al menos uno de frecuencia cardíaca mayor de 90, temperatura mayor de 37,8 grados, hemoglobina menor de 10,5 g/dL o VHS mayor de 30 mm/h o PCR mayor de 30 mg/L; hospitalizar. Al ingreso, estudio: hemograma, PCR, albúmina, electrolitos con potasio y magnesio, función renal, coprocultivo y toxina de Clostridioides difficile, radiografía de abdomen para buscar megacolon tóxico con colon mayor de 6 cm, rectosigmoidoscopía flexible con biopsias para CMV y, antes de un biológico, IGRA o PPD, radiografía de tórax, VHB, VHC y VIH. Al ingreso, tratamiento: metilprednisolona 60 mg al día IV o hidrocortisona 100 mg cada 6 horas, profilaxis de trombosis con heparina de bajo peso molecular, hidratación, corregir potasio y magnesio, transfundir si la hemoglobina es menor de 8, suspender AINE, opioides, anticolinérgicos y loperamida, nutrición oral o enteral sin ayuno de rutina y avisar al cirujano desde el primer día. Al día 3, criterios de Oxford: más de 8 deposiciones al día, o 3 a 8 con PCR mayor de 45 mg/L, predicen colectomía en cerca del 85 % si se sigue igual. Si responde: pasar a prednisona oral con descenso gradual e iniciar la mantención con tiopurina o terapia avanzada según el especialista. Si no responde: terapia de rescate con infliximab 5 mg/kg IV o ciclosporina 2 mg/kg al día IV, y colectomía sin retraso si no hay respuesta en 4 a 7 días. Cirugía urgente en cualquier momento si hay megacolon tóxico que no mejora, perforación o hemorragia masiva](../assets/figuras/eii/colitis-ulcerosa-grave.svg){ loading=lazy }
-<figcaption>Figura 4. Manejo hospitalario del brote grave de colitis ulcerosa. Esquema propio basado en Truelove y Witts (1955), Travis (1996), ECCO 2022 y ACG 2025.</figcaption>
+<figcaption>Figura 4. Manejo hospitalario del brote grave de colitis ulcerosa. Esquema propio basado en Truelove y Witts (1955), Travis (1996), ECCO 2026 y ACG 2025.</figcaption>
 </figure>
 
 ### Enfermedad de Crohn
@@ -484,17 +485,19 @@ flowchart TD
 
 1. Rubin DT, Ananthakrishnan AN, Siegel CA, et al. ACG clinical guideline update: ulcerative colitis in adults. *Am J Gastroenterol.* 2025;120(6):1187–1224. doi:[10.14309/ajg.0000000000003463](https://doi.org/10.14309/ajg.0000000000003463)
 2. Lichtenstein GR, Loftus EV, Afzali A, et al. ACG clinical guideline: management of Crohn's disease in adults. *Am J Gastroenterol.* 2025;120(6):1225–1264. doi:[10.14309/ajg.0000000000003465](https://doi.org/10.14309/ajg.0000000000003465)
-3. Raine T, Bonovas S, Burisch J, et al. ECCO guidelines on therapeutics in ulcerative colitis: medical treatment. *J Crohns Colitis.* 2022;16(1):2–17. doi:[10.1093/ecco-jcc/jjab178](https://doi.org/10.1093/ecco-jcc/jjab178)
-4. Gordon H, Minozzi S, Kopylov U, et al. ECCO guidelines on therapeutics in Crohn's disease: medical treatment. *J Crohns Colitis.* 2024;18(10):1531–1555. doi:[10.1093/ecco-jcc/jjae091](https://doi.org/10.1093/ecco-jcc/jjae091)
-5. Singh S, Loftus EV Jr, Limketkai BN, et al. AGA living clinical practice guideline on pharmacological management of moderate-to-severe ulcerative colitis. *Gastroenterology.* 2024;167(7):1307–1343. doi:[10.1053/j.gastro.2024.10.001](https://doi.org/10.1053/j.gastro.2024.10.001)
-6. Maaser C, Sturm A, Vavricka SR, et al. ECCO-ESGAR guideline for diagnostic assessment in IBD part 1: initial diagnosis, monitoring of known IBD, detection of complications. *J Crohns Colitis.* 2019;13(2):144–164. doi:[10.1093/ecco-jcc/jjy113](https://doi.org/10.1093/ecco-jcc/jjy113)
-7. Gordon H, Biancone L, Fiorino G, et al. ECCO guidelines on inflammatory bowel disease and malignancies. *J Crohns Colitis.* 2023;17(6):827–854. doi:[10.1093/ecco-jcc/jjac187](https://doi.org/10.1093/ecco-jcc/jjac187)
-8. Gordon H, Burisch J, Ellul P, et al. ECCO guidelines on extraintestinal manifestations in inflammatory bowel disease. *J Crohns Colitis.* 2024;18(1):1–37. doi:[10.1093/ecco-jcc/jjad108](https://doi.org/10.1093/ecco-jcc/jjad108)
-9. Turner D, Ricciuto A, Lewis A, et al. STRIDE-II: an update on the Selecting Therapeutic Targets in Inflammatory Bowel Disease (STRIDE) initiative of the International Organization for the Study of IBD (IOIBD). *Gastroenterology.* 2021;160(5):1570–1583. doi:[10.1053/j.gastro.2020.12.031](https://doi.org/10.1053/j.gastro.2020.12.031)
-10. Truelove SC, Witts LJ. Cortisone in ulcerative colitis; final report on a therapeutic trial. *Br Med J.* 1955;2(4947):1041–1048. doi:[10.1136/bmj.2.4947.1041](https://doi.org/10.1136/bmj.2.4947.1041)
-11. Travis SP, Farrant JM, Ricketts C, et al. Predicting outcome in severe ulcerative colitis. *Gut.* 1996;38(6):905–910. doi:[10.1136/gut.38.6.905](https://doi.org/10.1136/gut.38.6.905)
-12. GBD 2017 Inflammatory Bowel Disease Collaborators. The global, regional, and national burden of inflammatory bowel disease in 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017. *Lancet Gastroenterol Hepatol.* 2020;5(1):17–30. doi:[10.1016/S2468-1253(19)30333-4](https://doi.org/10.1016/S2468-1253(19)30333-4)
-13. Rimola J, Torres J, Kumar S, Taylor SA, Kucharzik T. Recent advances in clinical practice: advances in cross-sectional imaging in inflammatory bowel disease. *Gut.* 2022;71(12):2587–2597. doi:[10.1136/gutjnl-2021-326562](https://doi.org/10.1136/gutjnl-2021-326562)
-14. Simian D, Fluxá D, Flores L, et al. Inflammatory bowel disease: a descriptive study of 716 local Chilean patients. *World J Gastroenterol.* 2016;22(22):5267–5275. doi:[10.3748/wjg.v22.i22.5267](https://doi.org/10.3748/wjg.v22.i22.5267)
-15. Ponsioen CY, de Groof EJ, Eshuis EJ, et al. Laparoscopic ileocaecal resection versus infliximab for terminal ileitis in Crohn's disease: a randomised controlled, open-label, multicentre trial. *Lancet Gastroenterol Hepatol.* 2017;2(11):785–792. doi:[10.1016/S2468-1253(17)30248-0](https://doi.org/10.1016/S2468-1253(17)30248-0)
-16. Ministerio de Salud de Chile. Ley 20.850 (Ley Ricarte Soto): sistema de protección financiera para diagnósticos y tratamientos de alto costo. [Superintendencia de Salud](https://www.superdesalud.gob.cl/tax-temas-de-orientacion/ley-ricarte-soto-6088/)
+3. Gisbert JP, Chaparro M, Verstockt B, et al. ECCO guidelines on therapeutics in ulcerative colitis: medical treatment. *J Crohns Colitis.* 2026;20(7):jjag066. doi:[10.1093/ecco-jcc/jjag066](https://doi.org/10.1093/ecco-jcc/jjag066)
+4. Adamina M, Kienle P, Chaparro M, et al. ECCO guidelines on therapeutics in ulcerative colitis: surgical treatment. *J Crohns Colitis.* 2026;20(6):jjag072. doi:[10.1093/ecco-jcc/jjag072](https://doi.org/10.1093/ecco-jcc/jjag072)
+5. Raine T, Bonovas S, Burisch J, et al. ECCO guidelines on therapeutics in ulcerative colitis: medical treatment. *J Crohns Colitis.* 2022;16(1):2–17. doi:[10.1093/ecco-jcc/jjab178](https://doi.org/10.1093/ecco-jcc/jjab178)
+6. Gordon H, Minozzi S, Kopylov U, et al. ECCO guidelines on therapeutics in Crohn's disease: medical treatment. *J Crohns Colitis.* 2024;18(10):1531–1555. doi:[10.1093/ecco-jcc/jjae091](https://doi.org/10.1093/ecco-jcc/jjae091)
+7. Singh S, Loftus EV Jr, Limketkai BN, et al. AGA living clinical practice guideline on pharmacological management of moderate-to-severe ulcerative colitis. *Gastroenterology.* 2024;167(7):1307–1343. doi:[10.1053/j.gastro.2024.10.001](https://doi.org/10.1053/j.gastro.2024.10.001)
+8. Maaser C, Sturm A, Vavricka SR, et al. ECCO-ESGAR guideline for diagnostic assessment in IBD part 1: initial diagnosis, monitoring of known IBD, detection of complications. *J Crohns Colitis.* 2019;13(2):144–164. doi:[10.1093/ecco-jcc/jjy113](https://doi.org/10.1093/ecco-jcc/jjy113)
+9. Gordon H, Biancone L, Fiorino G, et al. ECCO guidelines on inflammatory bowel disease and malignancies. *J Crohns Colitis.* 2023;17(6):827–854. doi:[10.1093/ecco-jcc/jjac187](https://doi.org/10.1093/ecco-jcc/jjac187)
+10. Gordon H, Burisch J, Ellul P, et al. ECCO guidelines on extraintestinal manifestations in inflammatory bowel disease. *J Crohns Colitis.* 2024;18(1):1–37. doi:[10.1093/ecco-jcc/jjad108](https://doi.org/10.1093/ecco-jcc/jjad108)
+11. Turner D, Ricciuto A, Lewis A, et al. STRIDE-II: an update on the Selecting Therapeutic Targets in Inflammatory Bowel Disease (STRIDE) initiative of the International Organization for the Study of IBD (IOIBD). *Gastroenterology.* 2021;160(5):1570–1583. doi:[10.1053/j.gastro.2020.12.031](https://doi.org/10.1053/j.gastro.2020.12.031)
+12. Truelove SC, Witts LJ. Cortisone in ulcerative colitis; final report on a therapeutic trial. *Br Med J.* 1955;2(4947):1041–1048. doi:[10.1136/bmj.2.4947.1041](https://doi.org/10.1136/bmj.2.4947.1041)
+13. Travis SP, Farrant JM, Ricketts C, et al. Predicting outcome in severe ulcerative colitis. *Gut.* 1996;38(6):905–910. doi:[10.1136/gut.38.6.905](https://doi.org/10.1136/gut.38.6.905)
+14. GBD 2017 Inflammatory Bowel Disease Collaborators. The global, regional, and national burden of inflammatory bowel disease in 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017. *Lancet Gastroenterol Hepatol.* 2020;5(1):17–30. doi:[10.1016/S2468-1253(19)30333-4](https://doi.org/10.1016/S2468-1253(19)30333-4)
+15. Rimola J, Torres J, Kumar S, Taylor SA, Kucharzik T. Recent advances in clinical practice: advances in cross-sectional imaging in inflammatory bowel disease. *Gut.* 2022;71(12):2587–2597. doi:[10.1136/gutjnl-2021-326562](https://doi.org/10.1136/gutjnl-2021-326562)
+16. Simian D, Fluxá D, Flores L, et al. Inflammatory bowel disease: a descriptive study of 716 local Chilean patients. *World J Gastroenterol.* 2016;22(22):5267–5275. doi:[10.3748/wjg.v22.i22.5267](https://doi.org/10.3748/wjg.v22.i22.5267)
+17. Ponsioen CY, de Groof EJ, Eshuis EJ, et al. Laparoscopic ileocaecal resection versus infliximab for terminal ileitis in Crohn's disease: a randomised controlled, open-label, multicentre trial. *Lancet Gastroenterol Hepatol.* 2017;2(11):785–792. doi:[10.1016/S2468-1253(17)30248-0](https://doi.org/10.1016/S2468-1253(17)30248-0)
+18. Ministerio de Salud de Chile. Ley 20.850 (Ley Ricarte Soto): sistema de protección financiera para diagnósticos y tratamientos de alto costo. [Superintendencia de Salud](https://www.superdesalud.gob.cl/tax-temas-de-orientacion/ley-ricarte-soto-6088/)

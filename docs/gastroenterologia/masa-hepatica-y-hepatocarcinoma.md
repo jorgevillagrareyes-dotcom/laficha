@@ -11,10 +11,10 @@ tags:
 Gastroenterología · Hepatología · Radiología · Cirugía hepatobiliar · Oncología
 
 **Guías principales**
-EASL 2025: hepatocarcinoma · AASLD 2023: prevención, diagnóstico y tratamiento del hepatocarcinoma · BCLC 2022: etapificación y tratamiento · ACG 2024: lesiones hepáticas focales · EASL 2016: tumores hepáticos benignos
+EASL 2025: hepatocarcinoma · AASLD 2023: prevención, diagnóstico y tratamiento del hepatocarcinoma · BCLC 2026: etapificación y tratamiento · ACG 2024: lesiones hepáticas focales · EASL 2016: tumores hepáticos benignos
 
 **Otras fuentes**
-LI-RADS (ACR) · Revisión de la RM en las lesiones benignas (Gatti 2022) · Criterios de Milán (Mazzaferro 1996) · Ensayos IMbrave150 (2020) y HIMALAYA (2022)
+LI-RADS (ACR) · Revisión de la RM en las lesiones benignas (Gatti 2022) · Criterios de Milán (Mazzaferro 1996) · Ensayos IMbrave150 (2020), HIMALAYA (2022) y CheckMate 9DW (2025)
 
 **GES**
 No es GES. En **julio de 2026** el Ministerio de Salud anunció la incorporación progresiva de **todos los cánceres** en el próximo decreto GES (2028–2031). El tratamiento tras el alta por **cirrosis** sí es GES ([ver cirrosis](cirrosis-y-complicaciones.md)).
@@ -23,7 +23,7 @@ No es GES. En **julio de 2026** el Ministerio de Salud anunció la incorporació
 1.06.1.024 Masa hepática (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -36,7 +36,7 @@ Octubre 2026
     - **Tratamiento del hepatocarcinoma** según el **BCLC**:
         - **Precoz**: **resección**, **ablación** o **trasplante** (criterios de Milán).
         - **Intermedio**: **quimioembolización**.
-        - **Avanzado**: **inmunoterapia** (atezolizumab + bevacizumab, durvalumab + tremelimumab).
+        - **Avanzado**: **inmunoterapia combinada** (atezolizumab + bevacizumab, durvalumab + tremelimumab, nivolumab + ipilimumab).
         - **Terminal**: paliación.
     - **En el hígado sano, la mayoría de las lesiones incidentales son benignas**:
         - **Quiste simple** y **hemangioma típico**: sin control.
@@ -129,13 +129,13 @@ flowchart TD
 
 ## Clasificación
 
-**Etapificación del hepatocarcinoma (BCLC 2022)**:
+**Etapificación del hepatocarcinoma (BCLC 2026)**:
 
 | Etapa | Tumor | Función hepática y estado general | Tratamiento de primera opción |
 |---|---|---|---|
 | **0 (muy precoz)** | Único **≤ 2 cm** | Preservada (Child-Pugh A), ECOG 0 | **Ablación** o **resección** |
 | **A (precoz)** | Único, o **hasta 3 nódulos ≤ 3 cm** | Preservada, ECOG 0 | **Resección**, **ablación** o **trasplante** |
-| **B (intermedia)** | **Multinodular** | Preservada, ECOG 0 | **Quimioembolización** (TACE); trasplante en casos seleccionados; sistémico si es extenso |
+| **B (intermedia)** | **Multifocal**: > 3 nódulos, o 2–3 con alguno > 3 cm | Preservada, ECOG 0 | **Quimioembolización** (TACE); trasplante en casos seleccionados; sistémico si es extenso |
 | **C (avanzada)** | **Invasión portal** o **metástasis** extrahepáticas | Preservada, ECOG **1–2** | **Tratamiento sistémico**: inmunoterapia |
 | **D (terminal)** | Cualquiera | **Child-Pugh C** (no trasplantable) o ECOG **3–4** | **Cuidados paliativos** |
 
@@ -197,7 +197,7 @@ flowchart TD
 
 <figure markdown>
 ![Algoritmo del enfoque de la masa hepática según el contexto. Arriba, lesión hepática focal en la ecografía o la TC, preguntando si hay cirrosis o hepatitis B crónica, cáncer conocido o fiebre. Si hay cirrosis o VHB, sospecha de hepatocarcinoma: nódulo menor de 1 cm, ecografía cada 3 meses; nódulo de 1 cm o más, TC o RM multifásica con contraste; realce arterial con lavado venoso, LI-RADS 5, es hepatocarcinoma sin biopsia; si es atípico, otra técnica o biopsia. Luego, etapificación BCLC con equipo multidisciplinario: etapas 0 y A, único o hasta 3 nódulos de 3 cm o menos con buen estado, resección, ablación o trasplante según los criterios de Milán; B, multinodular con buen estado, quimioembolización; C, invasión vascular o metástasis, inmunoterapia con atezolizumab más bevacizumab o durvalumab más tremelimumab; D, Child C y mal estado, cuidados paliativos. Si el hígado es sano, se define si la lesión es quística o sólida con ecografía y luego TC o RM con contraste, con contraste hepatobiliar si hay dudas, preguntando por anticonceptivos, viajes, contacto con perros, fiebre y cáncer previo. Tres grupos: quísticas, con el quiste simple sin control, septos o nódulos que se derivan, el hidatídico en Chile con serología, albendazol y cirugía o PAIR, y el absceso con fiebre que requiere drenaje y antibióticos; sólidas benignas, con el hemangioma típico sin control ni biopsia, la hiperplasia nodular focal con cicatriz central sin control y el adenoma asociado a anticonceptivos, que se suspenden, y se reseca si mide 5 cm o más; sólidas malignas, con las metástasis, la lesión maligna más frecuente del hígado sano, en que se busca el primario de colon, páncreas, mama o pulmón y se biopsia, y el colangiocarcinoma intrahepático. Abajo, la regla práctica: en el cirrótico, todo nódulo nuevo es un hepatocarcinoma hasta demostrar lo contrario; en el hígado sano, la mayoría de las lesiones incidentales son benignas](../assets/figuras/masa-hepatica/enfoque-masa-hepatica.svg){ loading=lazy }
-<figcaption>Figura 2. Enfoque de la masa hepática según el contexto. Esquema propio basado en EASL 2025, AASLD 2023, BCLC 2022, ACG 2024 y EASL 2016.</figcaption>
+<figcaption>Figura 2. Enfoque de la masa hepática según el contexto. Esquema propio basado en EASL 2025, AASLD 2023, BCLC 2022 y 2026, ACG 2024 y EASL 2016.</figcaption>
 </figure>
 
 ## Laboratorio
@@ -254,17 +254,20 @@ flowchart TD
 
 ### Hepatocarcinoma
 
-!!! guia "Tratamiento según la etapa (BCLC 2022; EASL 2025; AASLD 2023)"
+!!! guia "Tratamiento según la etapa (BCLC 2026; EASL 2025; AASLD 2023)"
     - **Decidir en un comité multidisciplinario** (hepatología, cirugía, radiología intervencional, oncología), según el tumor, la función hepática, la hipertensión portal y el estado general.
     - **Etapas 0 y A (curativas)**:
         - **Resección**: tumor único en un hígado con **buena función** y sin hipertensión portal relevante.
         - **Ablación** (radiofrecuencia o microondas): tumores **≤ 3 cm**; de elección en los **≤ 2 cm**.
-        - **Trasplante hepático**: dentro de los **criterios de Milán** (o expandidos), sobre todo si hay **hipertensión portal** o mala función hepática. Trata el tumor **y** la cirrosis.
-    - **Etapa B**: **quimioembolización transarterial** (TACE). Trasplante en casos seleccionados tras reducir el tumor. Sistémico si es muy extenso.
-    - **Etapa C**: **tratamiento sistémico** de primera línea:
+        - **Trasplante hepático**: dentro de los **criterios de Milán** (o expandidos), sobre todo si hay **hipertensión portal** o mala función hepática. Trata el tumor **y** la cirrosis. Una **AFP ≥ 1000 ng/mL** en general lo contraindica, sea cual sea el tamaño del tumor.
+        - **Radioembolización (TARE)** o **radioterapia estereotáctica (SBRT)**: BCLC 2026 las reconoce como opciones con intención ablativa en pacientes seleccionados.
+    - **Etapa B**: **quimioembolización transarterial** (TACE), que sigue siendo el estándar en pacientes bien seleccionados. Trasplante en casos seleccionados tras reducir el tumor. Sistémico si es muy extenso. La TACE combinada con inmunoterapia mejora la sobrevida libre de progresión en ensayos, pero aún sin datos maduros de sobrevida global.
+    - **Etapa C**: **tratamiento sistémico** de primera línea, preferir una **combinación con inmunoterapia** (BCLC 2026 no las ordena entre sí):
         - **Atezolizumab + bevacizumab** (IMbrave150): requiere **endoscopía** previa para tratar las várices por el riesgo de sangrado.
         - **Durvalumab + tremelimumab** (HIMALAYA).
-        - **Alternativas**: **lenvatinib** o **sorafenib**.
+        - **Nivolumab + ipilimumab** (CheckMate 9DW).
+        - **Camrelizumab + rivoceranib**, donde esté disponible.
+        - **Alternativas**: **lenvatinib** o **sorafenib**. La segunda línea validada existe solo tras sorafenib; después de la inmunoterapia se decide caso a caso.
     - **Etapa D**: **cuidados paliativos** (control del dolor, nutrición, apoyo).
     - **Tratar la hepatopatía de base**: antivirales (VHB, VHC), abstinencia del alcohol; vigilar las descompensaciones.
 
@@ -311,6 +314,7 @@ flowchart TD
     |---|---|---|
     | **Atezolizumab + bevacizumab** | Atezolizumab **1200 mg IV** + bevacizumab **15 mg/kg IV** cada **3 semanas** | Hepatocarcinoma avanzado, Child-Pugh A. Endoscopía previa (várices) |
     | **Durvalumab + tremelimumab** | Tremelimumab **300 mg IV** dosis única + durvalumab **1500 mg IV** cada **4 semanas** | Hepatocarcinoma avanzado; alternativa sin antiangiogénico |
+    | **Nivolumab + ipilimumab** | Nivolumab **1 mg/kg IV** + ipilimumab **3 mg/kg IV** cada **3 semanas** (4 dosis), luego nivolumab **480 mg IV** cada **4 semanas** | Hepatocarcinoma avanzado, Child-Pugh A. Más efectos inmunitarios (hepatitis, colitis) |
     | **Lenvatinib** | **12 mg/día** (≥ 60 kg) u **8 mg/día** (< 60 kg) | Alternativa de primera línea. HTA, proteinuria, diarrea |
     | **Sorafenib** | **400 mg cada 12 h** | Alternativa. Síndrome mano-pie, diarrea, HTA |
     | **Ceftriaxona + metronidazol** | **2 g/día IV** + **500 mg cada 8 h IV** | Absceso piógeno; 4–6 semanas en total, con drenaje si es > 3–5 cm |
@@ -410,7 +414,7 @@ flowchart TD
     - **BCLC C** (avanzado): **invasión vascular** (trombosis portal tumoral) con función hepática preservada y ECOG 1.
     - **Tratamiento sistémico** de primera línea:
         - **Atezolizumab + bevacizumab** (con **endoscopía previa** para tratar las várices);
-        - o **durvalumab + tremelimumab**.
+        - o **durvalumab + tremelimumab**, o **nivolumab + ipilimumab**.
     - Alternativas: lenvatinib o sorafenib.
     - **No** es candidato a resección, ablación ni trasplante.
     - **Seguimiento** de la función hepática; cuidados de soporte.
@@ -419,11 +423,13 @@ flowchart TD
 
 1. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of hepatocellular carcinoma. *J Hepatol.* 2025;82(2):315–374. doi:[10.1016/j.jhep.2024.08.028](https://doi.org/10.1016/j.jhep.2024.08.028)
 2. Singal AG, Llovet JM, Yarchoan M, et al. AASLD practice guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma. *Hepatology.* 2023;78(6):1922–1965. doi:[10.1097/HEP.0000000000000466](https://doi.org/10.1097/HEP.0000000000000466)
-3. Reig M, Forner A, Rimola J, et al. BCLC strategy for prognosis prediction and treatment recommendation: the 2022 update. *J Hepatol.* 2022;76(3):681–693. doi:[10.1016/j.jhep.2021.11.018](https://doi.org/10.1016/j.jhep.2021.11.018)
-4. Frenette C, Mendiratta-Lala M, Salgia R, Wong RJ, Sauer BG, Pillai A. ACG clinical guideline: focal liver lesions. *Am J Gastroenterol.* 2024;119(7):1235–1271. doi:[10.14309/ajg.0000000000002857](https://doi.org/10.14309/ajg.0000000000002857)
-5. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of benign liver tumours. *J Hepatol.* 2016;65(2):386–398. doi:[10.1016/j.jhep.2016.04.001](https://doi.org/10.1016/j.jhep.2016.04.001)
-6. American College of Radiology. Liver Imaging Reporting and Data System (LI-RADS) v2018. [acr.org](https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/LI-RADS)
-7. Gatti M, Maino C, Tore D, et al. Benign focal liver lesions: the role of magnetic resonance imaging. *World J Hepatol.* 2022;14(5):923–943. doi:[10.4254/wjh.v14.i5.923](https://doi.org/10.4254/wjh.v14.i5.923)
-8. Mazzaferro V, Regalia E, Doci R, et al. Liver transplantation for the treatment of small hepatocellular carcinomas in patients with cirrhosis. *N Engl J Med.* 1996;334(11):693–700. doi:[10.1056/NEJM199603143341104](https://doi.org/10.1056/NEJM199603143341104)
-9. Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894–1905. doi:[10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745)
-10. Abou-Alfa GK, Lau G, Kudo M, et al. Tremelimumab plus durvalumab in unresectable hepatocellular carcinoma. *NEJM Evid.* 2022;1(8):EVIDoa2100070. doi:[10.1056/EVIDoa2100070](https://doi.org/10.1056/EVIDoa2100070)
+3. Reig M, Sanduzzi-Zamparelli M, Forner A, et al. BCLC strategy for prognosis prediction and treatment recommendations: the 2026 update. *J Hepatol.* 2026;84(3):631–654. doi:[10.1016/j.jhep.2025.10.020](https://doi.org/10.1016/j.jhep.2025.10.020)
+4. Reig M, Forner A, Rimola J, et al. BCLC strategy for prognosis prediction and treatment recommendation: the 2022 update. *J Hepatol.* 2022;76(3):681–693. doi:[10.1016/j.jhep.2021.11.018](https://doi.org/10.1016/j.jhep.2021.11.018)
+5. Frenette C, Mendiratta-Lala M, Salgia R, Wong RJ, Sauer BG, Pillai A. ACG clinical guideline: focal liver lesions. *Am J Gastroenterol.* 2024;119(7):1235–1271. doi:[10.14309/ajg.0000000000002857](https://doi.org/10.14309/ajg.0000000000002857)
+6. European Association for the Study of the Liver. EASL clinical practice guidelines on the management of benign liver tumours. *J Hepatol.* 2016;65(2):386–398. doi:[10.1016/j.jhep.2016.04.001](https://doi.org/10.1016/j.jhep.2016.04.001)
+7. American College of Radiology. Liver Imaging Reporting and Data System (LI-RADS) v2018. [acr.org](https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/LI-RADS)
+8. Gatti M, Maino C, Tore D, et al. Benign focal liver lesions: the role of magnetic resonance imaging. *World J Hepatol.* 2022;14(5):923–943. doi:[10.4254/wjh.v14.i5.923](https://doi.org/10.4254/wjh.v14.i5.923)
+9. Mazzaferro V, Regalia E, Doci R, et al. Liver transplantation for the treatment of small hepatocellular carcinomas in patients with cirrhosis. *N Engl J Med.* 1996;334(11):693–700. doi:[10.1056/NEJM199603143341104](https://doi.org/10.1056/NEJM199603143341104)
+10. Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894–1905. doi:[10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745)
+11. Abou-Alfa GK, Lau G, Kudo M, et al. Tremelimumab plus durvalumab in unresectable hepatocellular carcinoma. *NEJM Evid.* 2022;1(8):EVIDoa2100070. doi:[10.1056/EVIDoa2100070](https://doi.org/10.1056/EVIDoa2100070)
+12. Yau T, Galle PR, Decaens T, et al. Nivolumab plus ipilimumab versus lenvatinib or sorafenib as first-line treatment for unresectable hepatocellular carcinoma (CheckMate 9DW): an open-label, randomised, phase 3 trial. *Lancet.* 2025;405(10492):1851–1864. doi:[10.1016/S0140-6736(25)00403-9](https://doi.org/10.1016/S0140-6736(25)00403-9)
