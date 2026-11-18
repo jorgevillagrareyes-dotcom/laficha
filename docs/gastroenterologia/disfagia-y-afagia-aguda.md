@@ -13,7 +13,7 @@ tags:
 Gastroenterología · Geriatría · Otorrinolaringología · Cirugía digestiva
 
 **Guías principales**
-ESGE 2016: extracción de cuerpos extraños del tubo digestivo alto en adultos · ASGE 2011: cuerpos extraños e impactación alimentaria · ACG 2025: esofagitis eosinofílica · ACG 2020: acalasia · Documento ESSD-EUGMS 2016: disfagia orofaríngea como síndrome geriátrico
+ESGE 2016: extracción de cuerpos extraños del tubo digestivo alto en adultos · ASGE 2011: cuerpos extraños e impactación alimentaria · ACG 2025 y guía europea 2026 (parte 1, diagnóstico): esofagitis eosinofílica · ACG 2020: acalasia · Documento ESSD-EUGMS 2016: disfagia orofaríngea como síndrome geriátrico
 
 **Otras fuentes**
 Validación del EAT-10 y del test de volumen-viscosidad (Rofes 2014) · Revisión de la ingestión de cáusticos (Chirica 2017) · Datos chilenos: GLOBOCAN 2020 (cáncer de esófago) y motilidad digestiva en la enfermedad de Chagas (Madrid 2004)
@@ -25,7 +25,7 @@ No (el cáncer de esófago no tiene garantía GES específica a septiembre de 20
 1.06.1.013 Disfagia (sospecha, inicial, derivar) · 1.06.2.002 Afagia aguda (específico, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
@@ -183,7 +183,7 @@ flowchart TD
     - Buscar la **causa**: examen neurológico (ACV, Parkinson, miastenia) y revisión de los fármacos. **Nasofibroscopia** si se sospecha un tumor.
 - **Disfagia esofágica**:
     - **Endoscopía digestiva alta**: es el **primer examen**. Permite ver la lesión, **biopsiar** y tratar (dilatar).
-    - Tomar **biopsias esofágicas** aunque la mucosa se vea normal, para diagnosticar la **esofagitis eosinofílica** (**≥ 15 eosinófilos por campo** de gran aumento).
+    - Tomar **biopsias esofágicas** aunque la mucosa se vea normal, para diagnosticar la **esofagitis eosinofílica**: síntomas de disfunción esofágica + **≥ 15 eosinófilos por campo** de gran aumento, tras descartar otras causas. La guía europea 2026 pide **al menos 6 biopsias de 2 niveles** del esófago (el aspecto endoscópico no basta); las biopsias gástricas o duodenales ya **no son obligatorias** salvo síntomas o lesiones que las justifiquen.
     - **Esofagograma con bario**: útil en la sospecha de **acalasia** ("pico de pájaro"), Zenker o estenosis complejas. En la acalasia, el **esofagograma cronometrado** mide el vaciamiento.
     - **Manometría esofágica de alta resolución**: es el **estándar** para la **acalasia** y los trastornos motores (clasificación de **Chicago 4.0**).
     - En la **sospecha de acalasia** en un adulto mayor con baja de peso rápida, descartar una **pseudoacalasia** (cáncer de la unión esofagogástrica) con endoscopía y TC.
@@ -384,3 +384,4 @@ flowchart TD
 9. Fundación Arturo López Pérez. Cáncer de esófago (con datos de GLOBOCAN 2020). [falp.org](https://www.falp.org/diagnostico-y-tratamiento/cancer-de-esofago/)
 10. Chapagain N, Adhikari N, Acharya BP, Limbu Y, Ghimire R. Achalasia cardia: a case series. *JNMA J Nepal Med Assoc.* 2024;62:474–477. doi:[10.31729/jnma.8649](https://doi.org/10.31729/jnma.8649)
 11. El Dínamo. Gobierno incluirá todos los cánceres al GES y prepara ampliación de tratamientos (29 de julio de 2026). [eldinamo.cl](https://www.eldinamo.cl/pais/2026/07/29/gobierno-incluira-todos-los-canceres-al-ges-y-prepara-ampliacion-de-tratamientos-conoce-que-patologias-tienen-garantia-actualmente/)
+12. Lucendo AJ, Molina-Infante J, Arias Á, et al. European guidelines on eosinophilic esophagitis: evidence-based statements and recommendations for diagnosis and management in children and adults. Part 1: diagnosis, epidemiology and natural history. *Allergy.* 2026. doi:[10.1111/all.70545](https://doi.org/10.1111/all.70545)

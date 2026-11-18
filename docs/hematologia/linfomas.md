@@ -12,7 +12,7 @@ tags:
 Hematología · Hemato-oncología · Medicina interna · Atención primaria (estudio de la adenopatía)
 
 **Guías principales**
-EHA 2026: linfoma de Hodgkin · EHA 2025: linfoma B de células grandes · ESMO 2021: linfoma folicular · EHA-EU 2025: linfoma del manto · Lugano 2014: etapificación y respuesta · OMS 2022 (5.ª edición) e ICC 2022: clasificación
+EHA 2026: linfoma de Hodgkin · EHA 2025: linfoma B de células grandes · EHA 2026: linfoma folicular (reemplaza ESMO 2021) · EHA-EU 2025: linfoma del manto · Lugano 2014: etapificación y respuesta · OMS 2022 (5.ª edición) e ICC 2022: clasificación
 
 **Otras fuentes**
 POLARIX (Pola-R-CHP, 2022) · HD21 (BrECADD, 2024) · SWOG S1826 (nivolumab + AVD, 2024) · ECHELON-1 (2018) · IPI (1993) · FLIPI (2004) · Linfoma B difuso en el sistema público chileno (Cabrera 2022) · Linfomas en Centro y Sudamérica (Laurini 2012) · GLOBOCAN 2024 · SEER 2026 · Figuras: Satou 2022 y Voltin 2020 (CC BY 4.0)
@@ -24,7 +24,7 @@ Sí: linfomas en personas de 15 años y más (problema de salud n.º 17). Cubre 
 1.08.1.011 Linfomas (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -316,7 +316,7 @@ flowchart TD
 
 <figure markdown>
 ![Esquema de enfoque de los linfomas. Sospecha: adenopatía de más de 1 a 1,5 centímetros, firme, indolora, que persiste más de 4 semanas sin causa, o supraclavicular; síntomas B como fiebre, sudoración nocturna y baja de peso de más de 10 por ciento; esplenomegalia, masa mediastínica, prurito, citopenias, LDH alta, hipercalcemia, VIH, inmunosupresión o enfermedad autoinmune. Diagnóstico: biopsia escisional del ganglio o biopsia con aguja gruesa si no es posible; la punción con aguja fina no basta; inmunohistoquímica, citometría y genética en un laboratorio de referencia. Etapificación con PET-CT o TC con contraste, hemograma, LDH, VHS, beta 2 microglobulina, VIH, VHB, VHC y ecocardiograma antes de las antraciclinas. Cuatro grupos. Linfoma de Hodgkin: células de Reed-Sternberg CD30 y CD15 positivas, jóvenes y mayores de 55 años, mediastino; temprano: 2 ABVD más radioterapia o 2 + 2 guiado por PET; avanzado: BrECADD o nivolumab más AVD; se cura en más de 80 a 90 por ciento. Linfoma B difuso de células grandes, agresivo, el más frecuente, 30 a 40 por ciento, masa de crecimiento rápido; pronóstico con IPI y SNC-IPI; R-CHOP por 6 ciclos, o Pola-R-CHP si el IPI es 2 o más; en la recaída, CAR-T o trasplante; se cura en 60 a 70 por ciento. Linfomas indolentes: folicular, zona marginal y linfocítico pequeño; lentos y avanzados al inicio; sin carga tumoral alta, observar; con carga alta según los criterios GELF, rituximab con o sin quimioterapia; MALT gástrico: erradicar H. pylori. Otros agresivos y T: Burkitt, linfoblástico, del manto, linfomas T; Burkitt y linfoblástico crecen en días y son una urgencia, con riesgo de lisis tumoral y de compromiso del SNC; quimioterapia intensiva; derivar el mismo día. En todos los pacientes: GES 17 con confirmación diagnóstica en 35 días, etapificación en 30 días y quimioterapia en 10 días; preservar la fertilidad; vacunas inactivadas; profilaxis del VHB con rituximab; prevenir la lisis tumoral; G-CSF y cotrimoxazol según el esquema; vigilar los efectos tardíos en el corazón, la mama y la tiroides](../assets/figuras/linfomas/enfoque-linfomas.svg){ loading=lazy }
-<figcaption>Figura 4. Linfomas: sospecha, diagnóstico y tratamiento según el grupo. Esquema propio basado en las guías EHA 2025 y 2026, ESMO 2021 y Lugano 2014.</figcaption>
+<figcaption>Figura 4. Linfomas: sospecha, diagnóstico y tratamiento según el grupo. Esquema propio basado en las guías EHA 2025 y 2026, ESMO 2021 y Lugano 2014 (folicular actualizado con EHA 2026).</figcaption>
 </figure>
 
 ### Linfoma de Hodgkin clásico (EHA 2026)
@@ -354,11 +354,13 @@ flowchart TD
 
 ### Linfomas indolentes
 
-- **Folicular** (ESMO 2021):
-    - **Etapa I–II limitada**: **radioterapia** del sitio comprometido (**24 Gy**), con intención curativa.
+- **Folicular** (EHA 2026; mediana de sobrevida al diagnóstico probablemente **> 20 años**):
+    - **Etapificación con PET-CT**; biopsia adecuada revisada por un hematopatólogo.
+    - **Etapa I–II limitada**: **radioterapia** del sitio comprometido (**24 Gy**) **± rituximab**, con intención curativa.
     - **Avanzado sin carga tumoral alta** (sin criterios GELF): **observar** ("vigilar y esperar") o rituximab solo. El tratamiento precoz no mejora la sobrevida.
-    - **Avanzado con carga tumoral alta** (algún criterio GELF): **rituximab u obinutuzumab + quimioterapia** (bendamustina, CHOP o CVP), seguido de **rituximab de mantención** cada 2 meses por 2 años.
+    - **Avanzado con carga tumoral alta** (algún criterio GELF): **rituximab u obinutuzumab + quimioterapia** (bendamustina, CHOP o CVP), seguido de **mantención con anticuerpo** (rituximab cada 2 meses por 2 años) en casos seleccionados. En algunos, opciones **sin quimioterapia**.
     - **Criterios GELF**: cualquier masa **≥ 7 cm**; **≥ 3 grupos** ganglionares de **≥ 3 cm** cada uno; **síntomas B**; **esplenomegalia**; **derrame** pleural o ascitis; síntomas por **compresión**; **citopenias** (leucocitos < 1000/µL o plaquetas < 100 000/µL); fase leucémica (> 5000/µL células tumorales).
+    - **Recaída o refractario** (EHA 2026): desde la primera recaída, **rituximab + lenalidomida** (± tafasitamab o epcoritamab); tras la segunda recaída, **anticuerpos biespecíficos**, **CAR-T** o zanubrutinib + obinutuzumab.
     - **Transformación** a un linfoma B difuso (~ 2–3 % por año): sospechar si crece rápido un ganglio, sube la LDH o aparecen síntomas B.
 - **MALT gástrico** con ***H. pylori*** en etapa localizada: **erradicar *H. pylori*** (ver [dispepsia y *H. pylori*](../gastroenterologia/dispepsia-ulcera-peptica-y-cancer-gastrico.md)) y controlar con **endoscopías** seriadas; la remisión puede tardar meses. Si no responde (por ejemplo, con **t(11;18)**) o no hay *H. pylori*: **radioterapia** o rituximab.
 - **Zona marginal esplénica con VHC**: el **tratamiento antiviral** puede inducir la remisión.
@@ -489,22 +491,23 @@ flowchart TD
 
 1. Eichenauer DA, André M, Borchmann P, et al. Hodgkin lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. *HemaSphere.* 2026;10(6):e70422. doi:[10.1002/hem3.70422](https://doi.org/10.1002/hem3.70422)
 2. Thieblemont C, Gomes Da Silva M, Leppä S, et al. Large B-cell lymphoma (LBCL): EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. *HemaSphere.* 2025;9(9):e70207. doi:[10.1002/hem3.70207](https://doi.org/10.1002/hem3.70207)
-3. Dreyling M, Ghielmini M, Rule S, et al. Newly diagnosed and relapsed follicular lymphoma: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. *Ann Oncol.* 2021;32(3):298–308. doi:[10.1016/j.annonc.2020.11.008](https://doi.org/10.1016/j.annonc.2020.11.008)
-4. Jerkeman M, Aurer I, Campo E, et al. EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma. *HemaSphere.* 2025;9(10):e70233. doi:[10.1002/hem3.70233](https://doi.org/10.1002/hem3.70233)
-5. Cheson BD, Fisher RI, Barrington SF, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. *J Clin Oncol.* 2014;32(27):3059–3068. doi:[10.1200/JCO.2013.54.8800](https://doi.org/10.1200/JCO.2013.54.8800)
-6. Alaggio R, Amador C, Anagnostopoulos I, et al. The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms. *Leukemia.* 2022;36(7):1720–1748. doi:[10.1038/s41375-022-01620-2](https://doi.org/10.1038/s41375-022-01620-2)
-7. Campo E, Jaffe ES, Cook JR, et al. The International Consensus Classification of Mature Lymphoid Neoplasms: a report from the Clinical Advisory Committee. *Blood.* 2022;140(11):1229–1253. doi:[10.1182/blood.2022015851](https://doi.org/10.1182/blood.2022015851)
-8. Tilly H, Morschhauser F, Sehn LH, et al. Polatuzumab vedotin in previously untreated diffuse large B-cell lymphoma. *N Engl J Med.* 2022;386(4):351–363. doi:[10.1056/NEJMoa2115304](https://doi.org/10.1056/NEJMoa2115304)
-9. Borchmann P, Ferdinandus J, Schneider G, et al. Assessing the efficacy and tolerability of PET-guided BrECADD versus eBEACOPP in advanced-stage, classical Hodgkin lymphoma (HD21): a randomised, multicentre, parallel, open-label, phase 3 trial. *Lancet.* 2024;404(10450):341–352. doi:[10.1016/S0140-6736(24)01315-1](https://doi.org/10.1016/S0140-6736(24)01315-1)
-10. Herrera AF, LeBlanc M, Castellino SM, et al. Nivolumab+AVD in advanced-stage classic Hodgkin's lymphoma. *N Engl J Med.* 2024;391(15):1379–1389. doi:[10.1056/NEJMoa2405888](https://doi.org/10.1056/NEJMoa2405888)
-11. Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331–344. doi:[10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984)
-12. The International Non-Hodgkin's Lymphoma Prognostic Factors Project. A predictive model for aggressive non-Hodgkin's lymphoma. *N Engl J Med.* 1993;329(14):987–994. doi:[10.1056/NEJM199309303291402](https://doi.org/10.1056/NEJM199309303291402)
-13. Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. *N Engl J Med.* 1998;339(21):1506–1514. doi:[10.1056/NEJM199811193392104](https://doi.org/10.1056/NEJM199811193392104)
-14. Solal-Céligny P, Roy P, Colombat P, et al. Follicular lymphoma international prognostic index. *Blood.* 2004;104(5):1258–1265. doi:[10.1182/blood-2003-12-4434](https://doi.org/10.1182/blood-2003-12-4434)
-15. Cabrera ME, Peña C, Leon P, et al. Diffuse large B-cell lymphoma in Chile: the impact of combined CHOP plus rituximab in the public health system. *JCO Glob Oncol.* 2022;8:e2200165. doi:[10.1200/GO.22.00165](https://doi.org/10.1200/GO.22.00165)
-16. Laurini JA, Perry AM, Boilesen E, et al. Classification of non-Hodgkin lymphoma in Central and South America: a review of 1028 cases. *Blood.* 2012;120(24):4795–4801. doi:[10.1182/blood-2012-07-440073](https://doi.org/10.1182/blood-2012-07-440073)
-17. Superintendencia de Salud. Problema de salud 17: linfomas en personas de 15 años y más. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/)
-18. Ervik M, Laversanne M, Lam F, et al. Global Cancer Observatory: Cancer Today (2024 estimates). Lyon: International Agency for Research on Cancer; 2026. Ficha de Chile: [gco.iarc.who.int](https://gco.iarc.who.int/media/globocan/factsheets/populations/152-chile-fact-sheet.pdf)
-19. National Cancer Institute. SEER Cancer Stat Facts: non-Hodgkin lymphoma y Hodgkin lymphoma. [seer.cancer.gov](https://seer.cancer.gov/statfacts/html/nhl.html)
-20. Satou A, Takahara T, Nakamura S. An update on the pathology and molecular features of Hodgkin lymphoma. *Cancers (Basel).* 2022;14(11):2647. doi:[10.3390/cancers14112647](https://doi.org/10.3390/cancers14112647)
-21. Voltin CA, Mettler J, Grosse J, et al. FDG-PET imaging for Hodgkin and diffuse large B-cell lymphoma—an updated overview. *Cancers (Basel).* 2020;12(3):601. doi:[10.3390/cancers12030601](https://doi.org/10.3390/cancers12030601)
+3. Ladetto M, Bolaños N, Bouguet G, et al. Newly diagnosed and relapsed follicular lymphoma: EHA Clinical Practice Guidelines for diagnosis, treatment, and follow-up. *HemaSphere.* 2026;10(10):e70507. doi:[10.1002/hem3.70507](https://doi.org/10.1002/hem3.70507)
+4. Dreyling M, Ghielmini M, Rule S, et al. Newly diagnosed and relapsed follicular lymphoma: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. *Ann Oncol.* 2021;32(3):298–308. doi:[10.1016/j.annonc.2020.11.008](https://doi.org/10.1016/j.annonc.2020.11.008)
+5. Jerkeman M, Aurer I, Campo E, et al. EHA-EU MCL network guidelines for diagnosis and treatment of mantle cell lymphoma. *HemaSphere.* 2025;9(10):e70233. doi:[10.1002/hem3.70233](https://doi.org/10.1002/hem3.70233)
+6. Cheson BD, Fisher RI, Barrington SF, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. *J Clin Oncol.* 2014;32(27):3059–3068. doi:[10.1200/JCO.2013.54.8800](https://doi.org/10.1200/JCO.2013.54.8800)
+7. Alaggio R, Amador C, Anagnostopoulos I, et al. The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms. *Leukemia.* 2022;36(7):1720–1748. doi:[10.1038/s41375-022-01620-2](https://doi.org/10.1038/s41375-022-01620-2)
+8. Campo E, Jaffe ES, Cook JR, et al. The International Consensus Classification of Mature Lymphoid Neoplasms: a report from the Clinical Advisory Committee. *Blood.* 2022;140(11):1229–1253. doi:[10.1182/blood.2022015851](https://doi.org/10.1182/blood.2022015851)
+9. Tilly H, Morschhauser F, Sehn LH, et al. Polatuzumab vedotin in previously untreated diffuse large B-cell lymphoma. *N Engl J Med.* 2022;386(4):351–363. doi:[10.1056/NEJMoa2115304](https://doi.org/10.1056/NEJMoa2115304)
+10. Borchmann P, Ferdinandus J, Schneider G, et al. Assessing the efficacy and tolerability of PET-guided BrECADD versus eBEACOPP in advanced-stage, classical Hodgkin lymphoma (HD21): a randomised, multicentre, parallel, open-label, phase 3 trial. *Lancet.* 2024;404(10450):341–352. doi:[10.1016/S0140-6736(24)01315-1](https://doi.org/10.1016/S0140-6736(24)01315-1)
+11. Herrera AF, LeBlanc M, Castellino SM, et al. Nivolumab+AVD in advanced-stage classic Hodgkin's lymphoma. *N Engl J Med.* 2024;391(15):1379–1389. doi:[10.1056/NEJMoa2405888](https://doi.org/10.1056/NEJMoa2405888)
+12. Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331–344. doi:[10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984)
+13. The International Non-Hodgkin's Lymphoma Prognostic Factors Project. A predictive model for aggressive non-Hodgkin's lymphoma. *N Engl J Med.* 1993;329(14):987–994. doi:[10.1056/NEJM199309303291402](https://doi.org/10.1056/NEJM199309303291402)
+14. Hasenclever D, Diehl V. A prognostic score for advanced Hodgkin's disease. *N Engl J Med.* 1998;339(21):1506–1514. doi:[10.1056/NEJM199811193392104](https://doi.org/10.1056/NEJM199811193392104)
+15. Solal-Céligny P, Roy P, Colombat P, et al. Follicular lymphoma international prognostic index. *Blood.* 2004;104(5):1258–1265. doi:[10.1182/blood-2003-12-4434](https://doi.org/10.1182/blood-2003-12-4434)
+16. Cabrera ME, Peña C, Leon P, et al. Diffuse large B-cell lymphoma in Chile: the impact of combined CHOP plus rituximab in the public health system. *JCO Glob Oncol.* 2022;8:e2200165. doi:[10.1200/GO.22.00165](https://doi.org/10.1200/GO.22.00165)
+17. Laurini JA, Perry AM, Boilesen E, et al. Classification of non-Hodgkin lymphoma in Central and South America: a review of 1028 cases. *Blood.* 2012;120(24):4795–4801. doi:[10.1182/blood-2012-07-440073](https://doi.org/10.1182/blood-2012-07-440073)
+18. Superintendencia de Salud. Problema de salud 17: linfomas en personas de 15 años y más. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/linfomas-en-personas-de-15-anos-y-mas/)
+19. Ervik M, Laversanne M, Lam F, et al. Global Cancer Observatory: Cancer Today (2024 estimates). Lyon: International Agency for Research on Cancer; 2026. Ficha de Chile: [gco.iarc.who.int](https://gco.iarc.who.int/media/globocan/factsheets/populations/152-chile-fact-sheet.pdf)
+20. National Cancer Institute. SEER Cancer Stat Facts: non-Hodgkin lymphoma y Hodgkin lymphoma. [seer.cancer.gov](https://seer.cancer.gov/statfacts/html/nhl.html)
+21. Satou A, Takahara T, Nakamura S. An update on the pathology and molecular features of Hodgkin lymphoma. *Cancers (Basel).* 2022;14(11):2647. doi:[10.3390/cancers14112647](https://doi.org/10.3390/cancers14112647)
+22. Voltin CA, Mettler J, Grosse J, et al. FDG-PET imaging for Hodgkin and diffuse large B-cell lymphoma—an updated overview. *Cancers (Basel).* 2020;12(3):601. doi:[10.3390/cancers12030601](https://doi.org/10.3390/cancers12030601)

@@ -12,7 +12,7 @@ tags:
 Psiquiatría · Pediatría · Geriatría · Medicina de urgencia · Medicina legal
 
 **Guías principales**
-AAP 2015: evaluación de la sospecha de maltrato físico infantil · USPSTF 2018: tamizaje de violencia de pareja, maltrato al adulto mayor y a adultos vulnerables · Marco legal chileno: Ley 20.066 (violencia intrafamiliar), Ley 21.013 (maltrato a personas vulnerables), Ley 21.430 (garantías de la niñez), Ley 21.057 (entrevistas videograbadas), Ley 21.331 (salud mental), Ley 21.822 (personas mayores) y Código Procesal Penal (art. 175)
+AAP 2015: evaluación de la sospecha de maltrato físico infantil · USPSTF 2025: tamizaje de violencia de pareja, maltrato al adulto mayor y a adultos vulnerables (reemplaza la de 2018) · Marco legal chileno: Ley 20.066 (violencia intrafamiliar), Ley 21.013 (maltrato a personas vulnerables), Ley 21.430 (garantías de la niñez), Ley 21.057 (entrevistas videograbadas), Ley 21.331 (salud mental), Ley 21.822 (personas mayores) y Código Procesal Penal (art. 175)
 
 **Otras fuentes**
 Regla de los hematomas TEN-4-FACESp (Pierce, *JAMA Netw Open* 2021) · Revisión del maltrato al adulto mayor (Lachs y Pillemer, *N Engl J Med* 2015) · Prevalencia del maltrato al adulto mayor (Yon, *Lancet Glob Health* 2017) · Prevalencia mundial de la violencia de pareja (Sardinha, *Lancet* 2022) · Ver [conducta suicida](conducta-suicida.md), [trastornos relacionados con traumas](trastornos-relacionados-con-traumas-y-estres.md), [enuresis y encopresis](enuresis-y-encopresis.md), [caídas y fractura de cadera](../geriatria/caidas-hipotension-ortostatica-y-fractura-de-cadera.md) y [demencia](../neurologia/demencia-y-deterioro-cognitivo.md)
@@ -24,7 +24,7 @@ Regla de los hematomas TEN-4-FACESp (Pierce, *JAMA Netw Open* 2021) · Revisión
 5.01.3.008 Maltrato infantil · 5.01.3.007 Maltrato en el adulto mayor · 5.01.3.013 Violencia intrafamiliar · 5.01.3.009 Nociones de psiquiatría forense
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -151,8 +151,8 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Enfoque de la sospecha (AAP 2015; USPSTF 2018)"
-    - **Preguntar** directamente y **en privado** (sin el acompañante), con un lenguaje no culpabilizador. USPSTF 2018: tamizar la **violencia de pareja** en las **mujeres en edad reproductiva**.
+!!! guia "Enfoque de la sospecha (AAP 2015; USPSTF 2025)"
+    - **Preguntar** directamente y **en privado** (sin el acompañante), con un lenguaje no culpabilizador. USPSTF 2025: tamizar la **violencia de pareja** en las **mujeres en edad reproductiva, incluidas las embarazadas y puérperas**, y derivar las positivas a intervenciones de apoyo (recomendación B). En los **adultos mayores o vulnerables** sin signos de maltrato, la evidencia **no alcanza** para recomendar o no el tamizaje (I): igual hay que buscar activamente el maltrato si hay señales.
     - **Creer** y **validar** el relato; **no** interrogar en detalle a los niños sobre el abuso sexual (lo hace la entrevista videograbada, Ley 21.057): registrar textualmente lo que relaten espontáneamente.
     - **Examen físico completo** (desvestido), con **registro detallado** de las lesiones (ubicación, tamaño, forma, color, etapa) y, si es posible, fotografías con consentimiento.
     - **Niños**: estudio dirigido según la edad (ver laboratorio e imágenes); evaluar a los **hermanos**.
@@ -260,9 +260,10 @@ flowchart TD
 
 1. Christian CW; Committee on Child Abuse and Neglect. The evaluation of suspected child physical abuse. *Pediatrics.* 2015;135(5):e1337–e1354. doi:[10.1542/peds.2015-0356](https://doi.org/10.1542/peds.2015-0356)
 2. Pierce MC, Kaczor K, Lorenz DJ, et al. Validation of a clinical decision rule to predict abuse in young children based on bruising characteristics. *JAMA Netw Open.* 2021;4(4):e215832. doi:[10.1001/jamanetworkopen.2021.5832](https://doi.org/10.1001/jamanetworkopen.2021.5832)
-3. US Preventive Services Task Force; Curry SJ, Krist AH, Owens DK, et al. Screening for intimate partner violence, elder abuse, and abuse of vulnerable adults: US Preventive Services Task Force final recommendation statement. *JAMA.* 2018;320(16):1678–1687. doi:[10.1001/jama.2018.14741](https://doi.org/10.1001/jama.2018.14741)
-4. Lachs MS, Pillemer KA. Elder abuse. *N Engl J Med.* 2015;373(20):1947–1956. doi:[10.1056/NEJMra1404688](https://doi.org/10.1056/NEJMra1404688)
-5. Yon Y, Mikton CR, Gassoumis ZD, et al. Elder abuse prevalence in community settings: a systematic review and meta-analysis. *Lancet Glob Health.* 2017;5(2):e147–e156. doi:[10.1016/S2214-109X(17)30006-2](https://doi.org/10.1016/S2214-109X(17)30006-2)
-6. Sardinha L, Maheu-Giroux M, Stöckl H, et al. Global, regional, and national prevalence estimates of physical or sexual, or both, intimate partner violence against women in 2018. *Lancet.* 2022;399(10327):803–813. doi:[10.1016/S0140-6736(21)02664-7](https://doi.org/10.1016/S0140-6736(21)02664-7)
-7. Chile. Ley 20.066 de violencia intrafamiliar (2005); Ley 21.013 que tipifica un nuevo delito de maltrato y aumenta la protección de personas en situación especial (2017); Ley 21.057 que regula entrevistas grabadas en video (2018); Ley 21.430 sobre garantías y protección integral de los derechos de la niñez y adolescencia (2022); Ley 21.331 de salud mental (2021); Ley 20.584 de derechos y deberes de los pacientes (2012); Ley 21.822 integral de personas mayores (2026). [bcn.cl](https://www.bcn.cl/leychile/)
-8. Chile. Código Procesal Penal, artículos 175 y 176 (obligación de denunciar); Código Penal, artículo 10 N.° 1. [bcn.cl](https://www.bcn.cl/leychile/)
+3. Silverstein M, Wong JB, Davis EM, et al. Screening for intimate partner violence and caregiver abuse of older or vulnerable adults: US Preventive Services Task Force recommendation statement. *JAMA.* 2025;334(4):329–338. doi:[10.1001/jama.2025.9009](https://doi.org/10.1001/jama.2025.9009)
+4. US Preventive Services Task Force; Curry SJ, Krist AH, Owens DK, et al. Screening for intimate partner violence, elder abuse, and abuse of vulnerable adults: US Preventive Services Task Force final recommendation statement. *JAMA.* 2018;320(16):1678–1687. doi:[10.1001/jama.2018.14741](https://doi.org/10.1001/jama.2018.14741)
+5. Lachs MS, Pillemer KA. Elder abuse. *N Engl J Med.* 2015;373(20):1947–1956. doi:[10.1056/NEJMra1404688](https://doi.org/10.1056/NEJMra1404688)
+6. Yon Y, Mikton CR, Gassoumis ZD, et al. Elder abuse prevalence in community settings: a systematic review and meta-analysis. *Lancet Glob Health.* 2017;5(2):e147–e156. doi:[10.1016/S2214-109X(17)30006-2](https://doi.org/10.1016/S2214-109X(17)30006-2)
+7. Sardinha L, Maheu-Giroux M, Stöckl H, et al. Global, regional, and national prevalence estimates of physical or sexual, or both, intimate partner violence against women in 2018. *Lancet.* 2022;399(10327):803–813. doi:[10.1016/S0140-6736(21)02664-7](https://doi.org/10.1016/S0140-6736(21)02664-7)
+8. Chile. Ley 20.066 de violencia intrafamiliar (2005); Ley 21.013 que tipifica un nuevo delito de maltrato y aumenta la protección de personas en situación especial (2017); Ley 21.057 que regula entrevistas grabadas en video (2018); Ley 21.430 sobre garantías y protección integral de los derechos de la niñez y adolescencia (2022); Ley 21.331 de salud mental (2021); Ley 20.584 de derechos y deberes de los pacientes (2012); Ley 21.822 integral de personas mayores (2026). [bcn.cl](https://www.bcn.cl/leychile/)
+9. Chile. Código Procesal Penal, artículos 175 y 176 (obligación de denunciar); Código Penal, artículo 10 N.° 1. [bcn.cl](https://www.bcn.cl/leychile/)

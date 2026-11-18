@@ -12,7 +12,7 @@ tags:
 Reumatología · Nefrología · Dermatología
 
 **Guías principales**
-EULAR/ACR 2019: criterios de LES · ACR 2025 y EULAR 2023: tratamiento del LES · ACR/EULAR 2023: criterios del síndrome antifosfolípidos · EULAR 2019: tratamiento del síndrome antifosfolípidos · ACR/EULAR 2016: criterios de Sjögren · ACR/EULAR 2013: criterios de esclerosis sistémica · EULAR/ACR 2017: criterios de miopatías inflamatorias · Chapel Hill 2012: nomenclatura de las vasculitis · EULAR 2022: vasculitis asociadas a ANCA · EULAR 2025: polimialgia reumática y vasculitis de grandes vasos
+EULAR/ACR 2019: criterios de LES · ACR 2025, EULAR 2023 y BSR 2026: tratamiento del LES · EULAR 2025: LES con compromiso renal · ACR/EULAR 2023: criterios del síndrome antifosfolípidos · EULAR 2019: tratamiento del síndrome antifosfolípidos · ACR/EULAR 2016: criterios de Sjögren · ACR/EULAR 2013: criterios de esclerosis sistémica · EULAR/ACR 2017: criterios de miopatías inflamatorias · Chapel Hill 2012: nomenclatura de las vasculitis · EULAR 2022: vasculitis asociadas a ANCA · EULAR 2025: polimialgia reumática y vasculitis de grandes vasos
 
 **Otras fuentes**
 Epidemiología global del LES (Tian 2023) · Registro nacional de lupus en Chile 2013–2024 (Vergara 2025) · Ensayo TRAPS (rivaroxabán en el síndrome antifosfolípidos, 2018)
@@ -24,7 +24,7 @@ Epidemiología global del LES (Tian 2023) · Registro nacional de lupus en Chile
 1.11.1.014 Lupus eritematoso sistémico · 1.11.1.021 Síndrome antifosfolípidos · 1.11.1.022 Síndrome de Sjögren · 1.11.1.009 Esclerosis sistémica progresiva · 1.11.1.020 Polimiositis y dermatomiositis · 1.11.1.025 Vasculitis sistémicas. Todas: sospecha, inicial, derivar
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -298,7 +298,7 @@ flowchart TD
     - **Corticoides** como **puente** en los brotes. En la mantención, **≤ 5 mg/día** de prednisona, y retirarlos si es posible. La **ACR 2025** (primera guía de LES no renal del ACR desde 1999) es más exigente: bajar la prednisona a **< 5 mg/día dentro de 6 meses** y apuntar a suspenderla.
     - **Inmunosupresores precoces** (**metotrexato**, **azatioprina**, **micofenolato**) y/o **biológicos** (**belimumab**, **anifrolumab**) para controlar la enfermedad y ahorrar corticoides. Objetivo: **remisión** o **baja actividad**; si no se logra, **escalar pronto** (ACR 2025).
     - **Ciclofosfamida** en la enfermedad grave con riesgo de un órgano. **Rituximab** en la refractaria.
-    - **Nefritis lúpica activa**: corticoides + **micofenolato** o **ciclofosfamida EV en dosis bajas**. Considerar agregar **belimumab** o un **inhibidor de la calcineurina** (voclosporina, tacrolimus). Ver [síndromes glomerulares](../nefrologia/sindromes-glomerulares.md).
+    - **Nefritis lúpica activa**: corticoides + **micofenolato** o **ciclofosfamida EV en dosis bajas**. Considerar agregar **belimumab**, **obinutuzumab** (anti-CD20, ensayo REGENCY) o un **inhibidor de la calcineurina** (voclosporina, tacrolimus); la **EULAR 2025** admite la **terapia combinada desde el inicio** y orienta la reducción de corticoides y la duración del tratamiento. Ver [síndromes glomerulares](../nefrologia/sindromes-glomerulares.md).
     - **Prevención**:
         - Fotoprotección.
         - Vacunas (influenza, neumococo, zóster recombinante, COVID-19).
@@ -453,3 +453,6 @@ flowchart TD
 13. Tian J, Zhang D, Yao X, et al. Global epidemiology of systemic lupus erythematosus: a comprehensive systematic analysis and modelling study. *Ann Rheum Dis.* 2023;82(3):351–356. doi:[10.1136/ard-2022-223035](https://doi.org/10.1136/ard-2022-223035)
 14. Vergara K, Ramirez P, Handrujovicz I, et al. National epidemiological analysis of lupus in Chile: a registry-based study from 2013 to 2024. *Lupus.* 2025;34(14):1509–1517. doi:[10.1177/09612033251390607](https://doi.org/10.1177/09612033251390607)
 15. Superintendencia de Salud. Problema de salud 78: lupus eritematoso sistémico (ficha GES). [superdesalud.gob.cl](https://www.superdesalud.gob.cl/app/uploads/2024/03/articles-18922_archivo_fuente.pdf)
+16. Fanouriakis A, Kostopoulou M, Anders HJ, et al. EULAR recommendations for the management of systemic lupus erythematosus with kidney involvement: 2025 update. *Ann Rheum Dis.* 2026;85(1):75–90. doi:[10.1016/j.ard.2025.09.007](https://doi.org/10.1016/j.ard.2025.09.007)
+17. Furie RA, Rovin BH, Garg JP, et al. Efficacy and safety of obinutuzumab in active lupus nephritis. *N Engl J Med.* 2025;392(15):1471–1483. doi:[10.1056/NEJMoa2410965](https://doi.org/10.1056/NEJMoa2410965)
+18. Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. *Rheumatology (Oxford).* 2026;65(6). doi:[10.1093/rheumatology/keag223](https://doi.org/10.1093/rheumatology/keag223)

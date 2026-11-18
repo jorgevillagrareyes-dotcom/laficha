@@ -13,7 +13,7 @@ tags:
 Nefrología · Reumatología
 
 **Guías principales**
-KDIGO 2021: enfermedades glomerulares (*Kidney Int*, octubre) · KDIGO 2024: nefritis lúpica (*Kidney Int*, enero) · KDIGO 2024: vasculitis asociada a ANCA (*Kidney Int*, marzo) · KDIGO 2025: nefropatía IgA y vasculitis IgA · EULAR 2022: vasculitis asociada a ANCA
+KDIGO 2021: enfermedades glomerulares (*Kidney Int*, octubre) · KDIGO 2024: nefritis lúpica (*Kidney Int*, enero) · EULAR 2025: LES con compromiso renal · KDIGO 2024: vasculitis asociada a ANCA (*Kidney Int*, marzo) · KDIGO 2025: nefropatía IgA y vasculitis IgA · EULAR 2022: vasculitis asociada a ANCA
 
 **Otras fuentes**
 Registro chileno de 550 biopsias renales (Valjalo, *Rev Med Chil* 2023) · Serie de nefritis lúpica de Valdivia (Fulgeri, *Nefrología* 2018) · Retractación del ensayo ADVOCATE (avacopán, 2026)
@@ -25,7 +25,7 @@ Sí: **lupus eritematoso sistémico** (N.° 78). La enfermedad renal crónica et
 1.09.1.022 Síndrome nefrótico (específico, inicial, derivar) · 1.09.1.021 Síndrome nefrítico (específico, inicial, derivar) · 1.09.1.018 Proteinuria (sospecha, inicial, completo) · 1.09.1.020 Edema generalizado (sospecha, inicial, derivar) · 1.09.2.003 Edema generalizado grave, anasarca (sospecha, inicial, derivar) · 1.09.2.013 Vasculitis o glomerulonefritis rápidamente progresiva (sospecha, inicial, derivar) · 1.09.1.006 Glomerulopatía lúpica (sospecha, inicial, derivar)
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
@@ -258,7 +258,7 @@ flowchart TD
 | **Postinfecciosa** | Tratar la **infección**; manejo de soporte (diuréticos, antihipertensivos). Buen pronóstico en los niños; peor en el adulto mayor |
 | **Anti-MBG** | **Plasmaféresis + ciclofosfamida + corticoides**, **sin esperar la confirmación**. Plasmaféresis hasta negativizar los anticuerpos; ciclofosfamida 2–3 meses y corticoides ~ 6 meses. No requiere mantención |
 | **Vasculitis ANCA** (KDIGO 2024) | Inducción: **corticoides + rituximab o ciclofosfamida** (con creatinina > 4 mg/dL, preferir ciclofosfamida o ambos). **Esquema reducido de prednisona** (PEXIVAS). **Plasmaféresis** si es grave. Mantención con **rituximab** (o azatioprina) por **18 meses a 4 años** |
-| **Nefritis lúpica clase III o IV** (KDIGO 2024) | **Hidroxicloroquina** a todos + corticoides (pulsos de metilprednisolona y luego dosis reducidas) + **micofenolato**, o **ciclofosfamida EV en dosis bajas** (Euro-Lupus), o **belimumab** con micofenolato o ciclofosfamida, o **micofenolato + un inhibidor de calcineurina** (voclosporina o tacrolimus) si la TFGe es > 45. Duración total **≥ 36 meses** |
+| **Nefritis lúpica clase III o IV** (KDIGO 2024; EULAR 2025) | **Hidroxicloroquina** a todos + corticoides (pulsos de metilprednisolona y luego dosis reducidas) + **micofenolato**, o **ciclofosfamida EV en dosis bajas** (Euro-Lupus), o **belimumab** con micofenolato o ciclofosfamida, o **micofenolato + un inhibidor de calcineurina** (voclosporina o tacrolimus) si la TFGe es > 45, u **obinutuzumab** con micofenolato (REGENCY; incorporado por EULAR 2025). Duración total **≥ 36 meses** |
 
 !!! alarma "Avacopán: ensayo ADVOCATE retractado (2026)"
     La guía KDIGO 2024 proponía el **avacopán** como alternativa a los corticoides en la vasculitis ANCA, basada en el ensayo **ADVOCATE** (*NEJM* 2021).
@@ -377,3 +377,5 @@ flowchart TD
 10. Fulgeri C, Carpio JD, Ardiles L. Kidney injury in systemic lupus erythematosus: lack of correlation between clinical and histological data. *Nefrologia.* 2018;38:386–393. doi:[10.1016/j.nefro.2017.11.016](https://doi.org/10.1016/j.nefro.2017.11.016)
 11. Mohsenin V. Practical approach to detection and management of acute kidney injury in critically ill patient. *J Intensive Care.* 2017;5:57. doi:[10.1186/s40560-017-0251-y](https://doi.org/10.1186/s40560-017-0251-y)
 12. Superintendencia de Salud. Problema de salud GES N.° 78: lupus eritematoso sistémico. [superdesalud.gob.cl](https://www.superdesalud.gob.cl/difusion/665/w3-article-18922.html)
+13. Fanouriakis A, Kostopoulou M, Anders HJ, et al. EULAR recommendations for the management of systemic lupus erythematosus with kidney involvement: 2025 update. *Ann Rheum Dis.* 2026;85(1):75–90. doi:[10.1016/j.ard.2025.09.007](https://doi.org/10.1016/j.ard.2025.09.007)
+14. Furie RA, Rovin BH, Garg JP, et al. Efficacy and safety of obinutuzumab in active lupus nephritis. *N Engl J Med.* 2025;392(15):1471–1483. doi:[10.1056/NEJMoa2410965](https://doi.org/10.1056/NEJMoa2410965)
