@@ -14,7 +14,7 @@ tags:
 Enfermedades respiratorias
 
 **Guía principal**
-GOLD 2026 (Global Initiative for Chronic Obstructive Lung Disease, noviembre 2025)
+GOLD 2027 (Global Initiative for Chronic Obstructive Lung Disease, noviembre 2026)
 
 **Otras fuentes**
 Propuesta de Roma para exacerbaciones (2021) · ERS/ATS 2017 (manejo de exacerbaciones) · Guía GES MINSAL EPOC · Estudio PLATINO
@@ -23,15 +23,15 @@ Propuesta de Roma para exacerbaciones (2021) · ERS/ATS 2017 (manejo de exacerba
 Sí: EPOC de tratamiento ambulatorio
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
 !!! abstract "Resumen en 60 segundos"
     - Enfermedad pulmonar **heterogénea** con síntomas respiratorios crónicos (disnea, tos, expectoración) por alteración de la vía aérea y/o los alvéolos, con **obstrucción persistente**: **VEF1/CVF < 0,70 post-broncodilatador**.
     - Causa principal: **tabaco**; en Chile también el **humo de leña** (biomasa), sobre todo en el sur, y las secuelas de tuberculosis.
-    - **GOLD 2026**: clasificación **ABE**. Basta **1 exacerbación moderada o grave** en el último año para ser **grupo E**.
-    - Tratamiento inicial: **A**: un broncodilatador; **B y E**: **LABA + LAMA**. Agregar **corticoide inhalado (terapia triple)** si hay exacerbaciones y **eosinófilos ≥ 300** (considerar desde ≥ 100). **No usar LABA + corticoide inhalado** sin asma.
+    - **GOLD 2027**: clasificación **ABE**. Basta **1 exacerbación moderada o grave** en el último año para ser **grupo E**.
+    - Tratamiento inicial: **A**: **LAMA** (cambio de GOLD 2027); **B y E**: **LABA + LAMA**. Agregar **corticoide inhalado (terapia triple)** si hay exacerbaciones y **eosinófilos ≥ 300** (considerar desde ≥ 100). **No usar LABA + corticoide inhalado** sin asma.
     - Lo que reduce mortalidad: **dejar de fumar**, **oxígeno domiciliario** en hipoxemia grave, **rehabilitación pulmonar** tras una exacerbación, **ventilación no invasiva** en hipercápnicos y terapia triple en pacientes seleccionados.
     - **Exacerbación**: broncodilatadores de acción corta, **prednisona 40 mg por 5 días**, **antibiótico** si hay esputo purulento, **O₂ con meta 88–92 %** y **VMNI** si hay acidosis respiratoria.
 
@@ -46,7 +46,9 @@ Septiembre 2026
 
 - **Bronquitis crónica** (definición clínica): tos con expectoración al menos **3 meses al año por 2 años consecutivos**. Puede existir con o sin obstrucción.
 - **Enfisema** (definición anatómica): destrucción de las paredes alveolares con agrandamiento de los espacios aéreos distales al bronquiolo terminal.
-- **Pre-EPOC**: síntomas o alteraciones estructurales o funcionales **sin obstrucción** (VEF1/CVF ≥ 0,70).
+- **Pre-EPOC**: VEF1/CVF ≥ 0,70 en una persona con factores de riesgo (tabaco, biomasa, exposición laboral, eventos respiratorios en la infancia) y **síntomas**, alteraciones **estructurales** en la TC o alteraciones **funcionales**. Puede evolucionar o no a EPOC: controlar con espirometría.
+- **EPOC en jóvenes** (GOLD 2027): EPOC en **menores de 50 años**; a menudo no se diagnostica ni se trata.
+- **"Leve"** se usa solo para la obstrucción espirométrica (GOLD 1), que no implica poca carga de enfermedad; **"EPOC temprana"** es un concepto de investigación, no un diagnóstico clínico (GOLD 2027).
 - **PRISm** (*preserved ratio impaired spirometry*): VEF1/CVF ≥ 0,70 con VEF1 < 80 %. Muchos evolucionan a EPOC.
 
 ## Epidemiología
@@ -103,7 +105,7 @@ flowchart TD
     B --> M["Inflamación sistémica<br/>(sarcopenia, enfermedad CV,<br/>osteoporosis, depresión)"]
 ```
 
-*Figura 1. Fisiopatología de la EPOC. Esquema propio basado en GOLD 2026.*
+*Figura 1. Fisiopatología de la EPOC. Esquema propio basado en GOLD 2027.*
 
 ## Clasificación
 
@@ -121,7 +123,7 @@ flowchart TD
 - **mMRC** (escala de disnea): **0** disnea solo con ejercicio intenso; **1** al caminar rápido o subir una pendiente; **2** camina más lento que personas de su edad o debe detenerse al caminar a su ritmo; **3** se detiene tras ~ 100 m o pocos minutos; **4** no sale de casa por disnea o disnea al vestirse.
 - **CAAT** (antes CAT, 8 preguntas, 0–40 puntos): **≥ 10** indica síntomas importantes.
 
-### Grupos ABE (GOLD 2026)
+### Grupos ABE (GOLD 2027)
 
 | Grupo | Exacerbaciones en el último año | Síntomas |
 |---|---|---|
@@ -167,7 +169,7 @@ flowchart TD
 ## Imágenes
 
 - **Radiografía de tórax**: no diagnostica la EPOC, pero descarta otras causas. Hallazgos: **hiperinsuflación** (diafragmas aplanados, > 10 arcos costales posteriores, aumento del espacio retroesternal), hiperlucidez, bulas, corazón en gota, arterias pulmonares prominentes (hipertensión pulmonar).
-- **TC de tórax**: enfisema (distribución y tipo), **bronquiectasias**, **tamizaje de cáncer pulmonar** en fumadores de alto riesgo (TC de baja dosis), candidatos a reducción de volumen.
+- **TC de tórax** (GOLD 2027): donde esté disponible, **TC sin contraste en inspiración y espiración en la evaluación inicial de todo paciente con EPOC**; además, si hay exacerbaciones persistentes, síntomas desproporcionados para la espirometría o mala respuesta al tratamiento. Muestra enfisema (distribución y tipo), **tapones de moco** (se asocian a mayor mortalidad), **bronquiectasias**, alteraciones intersticiales, **tamizaje de cáncer pulmonar** en fumadores de alto riesgo (TC de baja dosis), candidatos a reducción de volumen.
 - **Ecocardiograma**: hipertensión pulmonar, disfunción del VD (cor pulmonale), IC concomitante.
 
 ## Diagnóstico diferencial
@@ -188,7 +190,7 @@ flowchart TD
 
 - **Dejar de fumar**: la intervención más importante (única, junto con el oxígeno, que cambia la historia natural). Consejería + **vareniclina**, **terapia de reemplazo de nicotina** o **bupropión**.
 - **Evitar el humo de leña** y otros contaminantes.
-- **Vacunas**: **influenza** anual, **neumococo**, **COVID-19**, **virus respiratorio sincicial (VRS)** en ≥ 60 años, dTpa y herpes zóster.
+- **Vacunas**: **influenza** anual, **neumococo**, **COVID-19**, **virus respiratorio sincicial (VRS)** en todos los **≥ 75 años** y entre los **50 y 74 años** con riesgo (la enfermedad pulmonar crónica lo es), **dTpa** si no se vacunó en la adolescencia y **herpes zóster**.
 - **Rehabilitación pulmonar**: mejora disnea, capacidad de ejercicio y calidad de vida; **iniciada dentro de 4 semanas tras una hospitalización reduce la mortalidad y los reingresos**.
 - **Actividad física** regular, **nutrición** (evitar desnutrición y sarcopenia), **educación** y plan de acción escrito.
 - **Técnica inhalatoria**: revisarla en cada control (la causa más frecuente de "falla" del tratamiento).
@@ -197,17 +199,18 @@ flowchart TD
 
 ``` mermaid
 flowchart TD
-    A["EPOC sin tratamiento de mantención"] --> B{"Grupo GOLD 2026"}
-    B -->|"A"| C["Un broncodilatador<br/>(corta acción según necesidad;<br/>larga acción si síntomas frecuentes)"]
+    A["EPOC sin tratamiento de mantención"] --> B{"Grupo GOLD 2027"}
+    B -->|"A"| C["LAMA<br/>(si no hay acceso:<br/>broncodilatador de corta acción)"]
     B -->|"B"| D["LABA + LAMA<br/>(de preferencia en un inhalador)"]
     B -->|"E"| E["LABA + LAMA"]
     E --> F{"Eosinófilos ≥ 300/µL"}
     F -->|"Sí"| G["Considerar LABA + LAMA + CI<br/>(terapia triple) de inicio"]
 ```
 
-*Figura 3. Tratamiento farmacológico inicial de la EPOC. Esquema propio basado en GOLD 2026. LABA: agonista β2 de larga acción; LAMA: antimuscarínico de larga acción; CI: corticoide inhalado.*
+*Figura 3. Tratamiento farmacológico inicial de la EPOC. Esquema propio basado en GOLD 2027. LABA: agonista β2 de larga acción; LAMA: antimuscarínico de larga acción; CI: corticoide inhalado.*
 
-!!! guia "Puntos clave GOLD 2026"
+!!! guia "Puntos clave GOLD 2027"
+    - **Grupo A**: **LAMA** para todos (por su efecto sobre la disnea en GOLD 1–2), y mantenerlo si hay beneficio; si no está disponible o no es costeable, un broncodilatador de corta acción. Es el único cambio de fármacos de GOLD 2027.
     - **LABA + LAMA** es el tratamiento inicial por defecto en los grupos **B y E**; la monoterapia queda como opción secundaria (costo, acceso, tolerancia).
     - **No se recomienda iniciar LABA + corticoide inhalado** en EPOC sin asma: previene menos las exacerbaciones y aumenta el riesgo de **neumonía**.
     - Cuando está indicado el corticoide inhalado, pasar directamente a **terapia triple** (LABA + LAMA + CI).
@@ -280,7 +283,7 @@ flowchart TD
     J -->|"Falla, compromiso de conciencia,<br/>paro o inestabilidad"| K["Intubación y VMI"]
 ```
 
-*Figura 4. Manejo de la exacerbación de la EPOC. Esquema propio basado en GOLD 2026.*
+*Figura 4. Manejo de la exacerbación de la EPOC. Esquema propio basado en GOLD 2027.*
 
 !!! dosis "Exacerbación: fármacos y soporte"
     - **Broncodilatadores**: **salbutamol** 4–8 puffs (100 µg) con espaciador o 2,5–5 mg nebulizado c/20 min × 3 y luego c/4–6 h, **+ ipratropio** 4–8 puffs o 0,5 mg nebulizado c/6–8 h. Nebulizar con aire comprimido (no con O₂ a alto flujo) en hipercápnicos.
@@ -344,8 +347,8 @@ flowchart TD
 
 ## Referencias
 
-1. Global Initiative for Chronic Obstructive Lung Disease. *Global Strategy for the Prevention, Diagnosis and Management of COPD: 2026 Report.* [goldcopd.org](https://goldcopd.org/2026-gold-report-and-pocket-guide/)
-2. Global Initiative for Chronic Obstructive Lung Disease. *GOLD Report 2026: Key Changes Summary.* Noviembre 2025. [PDF](https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf)
+1. Global Initiative for Chronic Obstructive Lung Disease. *Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease: 2027 Report.* Noviembre 2026. [PDF](https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf)
+2. Global Initiative for Chronic Obstructive Lung Disease. *Global Strategy for the Prevention, Diagnosis and Management of COPD: 2026 Report.* [goldcopd.org](https://goldcopd.org/2026-gold-report-and-pocket-guide/)
 3. Celli BR, et al. An Updated Definition and Severity Classification of Chronic Obstructive Pulmonary Disease Exacerbations: The Rome Proposal. *Am J Respir Crit Care Med.* 2021;204:1251–1258.
 4. Wedzicha JA, et al. Management of COPD exacerbations: a European Respiratory Society/American Thoracic Society guideline. *Eur Respir J.* 2017;49:1600791.
 5. Leuppi JD, et al. Short-term vs conventional glucocorticoid therapy in acute exacerbations of chronic obstructive pulmonary disease (REDUCE). *JAMA.* 2013;309:2223–2231.

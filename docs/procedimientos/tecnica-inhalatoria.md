@@ -6,13 +6,13 @@
 Enseñar y comprobar el uso correcto de los inhaladores (presurizados con aerocámara, de polvo seco y de niebla fina)
 
 **Fuentes principales**
-GINA 2026: estrategia de manejo del asma · GOLD 2026: estrategia de manejo de la EPOC · Laube 2011 (ERS/ISAM, *Eur Respir J*): terapias inhalatorias
+GINA 2026: estrategia de manejo del asma · GOLD 2027: estrategia de manejo de la EPOC · Laube 2011 (ERS/ISAM, *Eur Respir J*): terapias inhalatorias
 
 **Otras fuentes**
 Usmani 2018 (*Respir Res*): errores críticos y resultados clínicos · Ver [asma](../respiratorio/asma.md), [EPOC](../respiratorio/epoc.md) y [síndrome bronquial obstructivo en el niño](../pediatria/sindrome-bronquial-obstructivo-bronquiolitis-y-asma.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -25,7 +25,7 @@ Octubre 2026
     - **Enseñar mostrando** y pedir al paciente que **lo demuestre**. Enjuagar la boca tras el **corticoide inhalado**.
 
 !!! guia "¿Qué respalda esta página?"
-    **GINA 2026** y **GOLD 2026** recomiendan revisar la técnica y la adherencia en cada control y antes de escalar. La técnica de cada dispositivo sigue la revisión de la **ERS/ISAM (Laube 2011)** y las instrucciones de los fabricantes. **Manda el protocolo de tu servicio.**
+    **GINA 2026** y **GOLD 2027** recomiendan revisar la técnica y la adherencia en cada control y antes de escalar. La técnica de cada dispositivo sigue la revisión de la **ERS/ISAM (Laube 2011)** y las instrucciones de los fabricantes. **Manda el protocolo de tu servicio.**
 
 ## Qué dispositivo para quién
 
@@ -121,6 +121,6 @@ Escribe los datos **como tú los registras**: los campos son de texto libre, con
 ## Referencias
 
 1. Global Initiative for Asthma. *Global Strategy for Asthma Management and Prevention, 2026 update.* [ginasthma.org](https://ginasthma.org/2026-gina-strategy-report/)
-2. Global Initiative for Chronic Obstructive Lung Disease. *Global Strategy for the Prevention, Diagnosis and Management of COPD: 2026 Report.* [goldcopd.org](https://goldcopd.org/2026-gold-report-and-pocket-guide/)
+2. Global Initiative for Chronic Obstructive Lung Disease. *Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease: 2027 Report.* Noviembre 2026. [PDF](https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf)
 3. Laube BL, Janssens HM, de Jongh FH, et al. What the pulmonary specialist should know about the new inhalation therapies. *Eur Respir J.* 2011;37(6):1308–1331. doi:[10.1183/09031936.00166410](https://doi.org/10.1183/09031936.00166410)
 4. Usmani OS, Lavorini F, Marshall J, et al. Critical inhaler errors in asthma and COPD: a systematic review of impact on health outcomes. *Respir Res.* 2018;19(1):10. doi:[10.1186/s12931-017-0710-y](https://doi.org/10.1186/s12931-017-0710-y)
