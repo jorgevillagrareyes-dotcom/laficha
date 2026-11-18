@@ -17,7 +17,7 @@ Nefrología · Infectología · Urología · Atención primaria
 IDSA 2025: ITU complicada (selección de antibióticos, paso a vía oral y duración) · IDSA/ESCMID 2010: cistitis y pielonefritis no complicadas en mujeres · IDSA 2019: bacteriuria asintomática
 
 **Otras fuentes**
-Guías EAU de infecciones urológicas · Ensayos de duración en hombres (JAMA 2021) y de prevención de recurrencias · Vigilancia de resistencia en urocultivos ambulatorios de Osorno (Rev Chilena Infectol 2025)
+Guías EAU de infecciones urológicas (resumen 2026) · Ensayos de duración en hombres (JAMA 2021) y de prevención de recurrencias · Vigilancia de resistencia en urocultivos ambulatorios de Osorno (Rev Chilena Infectol 2025)
 
 **EUNACOM**
 1.09.1.011 Cistitis (específico, completo, completo) · 1.09.1.016 Pielonefritis aguda no complicada (específico, completo, completo) · 1.09.2.011 Pielonefritis aguda complicada (sospecha, inicial, completo) · 1.09.1.005 Bacteriuria asintomática (sospecha, inicial, completo)
@@ -47,8 +47,8 @@ Noviembre 2026
 | **ITU recurrente** | **≥ 2 episodios en 6 meses** o **≥ 3 en 12 meses** |
 | **Urosepsis** | Sepsis con foco urinario (ver [Sepsis y shock séptico](../infectologia/sepsis-y-shock-septico.md)) |
 
-!!! perla "Dos formas de decir \"complicada\""
-    La guía **IDSA 2025** define la ITU complicada por la **clínica** (¿pasó más allá de la vejiga?), para decidir el tratamiento. La definición **clásica** (EAU, perfil EUNACOM) la define por el **huésped** o la **anatomía** (obstrucción, catéter, embarazo, hombre, inmunosupresión). En la práctica: una **cistitis afebril en un hombre** o en una diabética se trata como cistitis (con más días en el hombre), y una **pielonefritis** siempre merece urocultivo, control estrecho y evaluar obstrucción si no mejora.
+!!! perla "Tres formas de clasificarla"
+    La guía **IDSA 2025** define la ITU complicada por la **clínica** (¿pasó más allá de la vejiga?), para decidir el tratamiento. La definición **clásica** (perfil EUNACOM) la define por el **huésped** o la **anatomía** (obstrucción, catéter, embarazo, hombre, inmunosupresión). La **EAU** (desde 2025 y en su guía 2026) dejó de lado "complicada/no complicada" y la divide en **localizada** (cistitis sin signos sistémicos) y **sistémica** (fiebre, calofríos, delirium o hipotensión: pielonefritis, prostatitis), y aparte considera los factores de riesgo. En la práctica: una **cistitis afebril en un hombre** o en una diabética se trata como cistitis (con más días en el hombre), y una **pielonefritis** siempre merece urocultivo, control estrecho y evaluar obstrucción si no mejora.
 
 ## Epidemiología
 
@@ -304,7 +304,7 @@ flowchart TD
 1. Trautner BW, Cortés-Penfield NW, Gupta K, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections (Introduction and Methods; Selection of Antibiotic Therapy; Timing of IV to Oral Transition; Duration of Antibiotics). *Clin Infect Dis.* 2026;82(Suppl 3):i24–i88. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41419213/)
 2. Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. *Clin Infect Dis.* 2011;52:e103–e120.
 3. Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. *Clin Infect Dis.* 2019;68:e83–e110.
-4. European Association of Urology. EAU Guidelines on Urological Infections. Arnhem: EAU Guidelines Office; 2025. [uroweb.org](https://uroweb.org/guidelines/urological-infections)
+4. Kranz J, Cai T, Geerlings S, et al. European Association of Urology guidelines on urological infections: summary of the 2026 guidelines. *Eur Urol.* 2026;90(4):413–429. doi:[10.1016/j.eururo.2026.04.011](https://doi.org/10.1016/j.eururo.2026.04.011) · [uroweb.org](https://uroweb.org/guidelines/urological-infections)
 5. Drekonja DM, Trautner B, Amundson C, et al. Effect of 7 vs 14 Days of Antibiotic Therapy on Resolution of Symptoms Among Afebrile Men With Urinary Tract Infection: A Randomized Clinical Trial. *JAMA.* 2021;326:324–331.
 6. Hooton TM, Vecchio M, Iroz A, et al. Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial. *JAMA Intern Med.* 2018;178:1509–1515.
 7. Williams G, Stothart CI, Hahn D, et al. Cranberries for preventing urinary tract infections. *Cochrane Database Syst Rev.* 2023;11:CD001321.
