@@ -12,7 +12,7 @@ NICE CG174: fluidos EV en adultos hospitalizados (2013, actualizada en 2017) · 
 Van Regenmortel 2018 (*fluid creep*) · WATERFALL 2022 (pancreatitis) · Consenso de crisis hiperglicémicas 2024 · EMA 2022 (almidones) · Farmacia del Hospital Dr. Ernesto Torres Galdames (equivalencias de electrolitos) · Ver [sodio](../nefrologia/trastornos-del-sodio.md), [potasio](../nefrologia/trastornos-del-potasio.md), [sepsis](../infectologia/sepsis-y-shock-septico.md) y [lesión renal aguda](../nefrologia/lesion-renal-aguda.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -139,7 +139,7 @@ Cada litro queda con **Na⁺ 34**, **K⁺ 27**, Cl⁻ 61 mEq/L y 50 g de glucosa
 
 | Situación | Fluidos | Por qué |
 |---|---|---|
-| **Sepsis con hipoperfusión** | **≥ 30 mL/kg** de **cristaloide balanceado** en las primeras **3 h**, en bolos con reevaluación (llene capilar, lactato, PA, diuresis); **noradrenalina** si persiste la hipotensión | SSC 2021; la guía 2026 agrega la **remoción activa** del volumen cuando termina la reanimación. Ver [sepsis](../infectologia/sepsis-y-shock-septico.md) |
+| **Sepsis con hipoperfusión** | **≥ 30 mL/kg** de **cristaloide balanceado** en las primeras **3 h**, en bolos con reevaluación (llene capilar, lactato, PA, diuresis); **noradrenalina** si persiste la hipotensión | SSC 2026 (mantiene lo de 2021): cristaloide **balanceado**, **sin albúmina** en la reanimación inicial, medidas **dinámicas** de respuesta a volumen y **remoción activa** del volumen cuando termina la reanimación. Ver [sepsis](../infectologia/sepsis-y-shock-septico.md) |
 | **Pancreatitis aguda** | **Volumen moderado**: Ringer lactato, bolo de **10 mL/kg solo si hay hipovolemia**, luego **1,5 mL/kg/h**, reevaluar a las 12–24 h | WATERFALL 2022: la hidratación agresiva **no mejoró** el pronóstico y causó **sobrecarga** |
 | **Cetoacidosis y estado hiperosmolar** | **Cristaloide isotónico** (balanceado o fisiológico) **500–1.000 mL/h** las primeras 2–4 h; **K⁺ antes de la insulina** si < 3,5; agregar **SG 5–10 %** cuando la glicemia baja de 250 mg/dL | Consenso de crisis hiperglicémicas 2024; ver [CAD y EHH](../endocrinologia/cetoacidosis-y-estado-hiperosmolar.md) |
 | **HDA** | Cristaloide en bolos para mantener la perfusión mientras llega la sangre; **transfusión restrictiva** (Hb < 7 g/dL, < 8 si hay cardiopatía) | El exceso de volumen aumenta la presión portal y el resangrado; ver [HDA](../gastroenterologia/hemorragia-digestiva-alta.md) |

@@ -242,7 +242,7 @@ Busca por nombre o problema, o filtra por área. Toca una calculadora para abrir
     <output class="calc-res"></output>
     </div>
 
-    Seymour et al., *JAMA* 2016 (Sepsis-3). **≥ 2** identifica a pacientes con más riesgo de muerte, pero es **poco sensible**: la SSC 2021 recomienda **no usarlo solo** para tamizar la sepsis (usar NEWS2, MEWS o SIRS). Ver [sepsis](infectologia/sepsis-y-shock-septico.md).
+    Seymour et al., *JAMA* 2016 (Sepsis-3). **≥ 2** identifica a pacientes con más riesgo de muerte, pero es **poco sensible**: la SSC 2026 (como la de 2021) recomienda **no usarlo solo** para tamizar la sepsis y preferir **NEWS/NEWS2, MEWS o SIRS**. Ver [sepsis](infectologia/sepsis-y-shock-septico.md).
     { .calc-fuente }
 
 ??? calculadora "PSI (índice de gravedad de la neumonía, Fine)"
@@ -677,3 +677,4 @@ Busca por nombre o problema, o filtra por área. Toca una calculadora para abrir
 53. Sterling RK, Lissen E, Clumeck N, et al. Development of a simple noninvasive index to predict significant fibrosis in patients with HIV/HCV coinfection. *Hepatology.* 2006;43(6):1317–1325. doi:[10.1002/hep.21178](https://doi.org/10.1002/hep.21178)
 54. European Association for the Study of the Liver, European Association for the Study of Diabetes, European Association for the Study of Obesity. EASL-EASD-EASO clinical practice guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD). *J Hepatol.* 2024;81(3):492–542. doi:[10.1016/j.jhep.2024.04.031](https://doi.org/10.1016/j.jhep.2024.04.031)
 55. Linder JA, Watson ME, Wessels MR, et al. 2025 clinical practice guideline update by the Infectious Diseases Society of America on group A streptococcal pharyngitis: risk assessment using clinical scoring systems in children and adults. *Clin Infect Dis.* 2026;82(Suppl 3):i97–i104. doi:[10.1093/cid/ciaf668](https://doi.org/10.1093/cid/ciaf668)
+56. Prescott HC, Antonelli M, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. *Crit Care Med.* 2026;54:725–812. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41869847/)

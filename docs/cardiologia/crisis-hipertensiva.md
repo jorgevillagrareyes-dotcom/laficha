@@ -16,13 +16,13 @@ Cardiología · Nefrología · Urgencias
 ESC 2024 (presión arterial elevada e hipertensión) · Documento de posición ESC sobre emergencias hipertensivas 2019
 
 **Otras fuentes**
-AHA/ACC 2025 · Documento de la British and Irish Hypertension Society 2023 · AHA/ASA ACV 2019 y hemorragia intracerebral 2022
+AHA/ACC 2025 · Documento de la British and Irish Hypertension Society 2023 · AHA/ASA ACV isquémico 2026 y hemorragia intracerebral 2022
 
 **EUNACOM**
 1.09.2.002 Crisis hipertensivas, emergencias hipertensivas: diagnóstico específico, tratamiento inicial, seguimiento completo
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
@@ -198,6 +198,7 @@ El objetivo es **buscar daño agudo de órgano** con la clínica y exámenes dir
 | **Síndrome coronario agudo** | **PAS < 140 mmHg** de inmediato | **Nitroglicerina** EV, **betabloqueador** (si no hay IC ni contraindicaciones) |
 | **Encefalopatía hipertensiva** | Bajar la PA media **20–25 %** de inmediato | **Labetalol**, **nicardipino** |
 | **ACV isquémico**, candidato a trombólisis | **< 185/110** antes y **< 180/105** por 24 horas después | Labetalol, nicardipino |
+| **ACV isquémico**, tras la trombectomía | **< 180/105**; **no** bajar la PAS a < 140 (peor evolución funcional) | Labetalol, nicardipino |
 | **ACV isquémico**, sin trombólisis | Tratar solo si **> 220/120**; bajar la PA media ~ **15 %** en 24 horas | Labetalol, nicardipino |
 | **Hemorragia intracerebral** | Con PAS 150–220: bajar a **~ 140 mmHg** (rango 130–150) en la primera hora; **evitar < 130** | Labetalol, nicardipino |
 | **HTA maligna** con o sin microangiopatía o LRA | Bajar la PA media **20–25 %** en varias horas | **Labetalol**, **nicardipino**, urapidilo |
@@ -267,6 +268,6 @@ El objetivo es **buscar daño agudo de órgano** con la clínica y exámenes dir
 2. van den Born BJH, et al. ESC Council on hypertension position document on the management of hypertensive emergencies. *Eur Heart J Cardiovasc Pharmacother.* 2019;5:37–46.
 3. Kulkarni S, et al. Management of hypertensive crisis: British and Irish Hypertension Society Position document. *J Hum Hypertens.* 2023;37:863. doi:[10.1038/s41371-022-00776-9](https://doi.org/10.1038/s41371-022-00776-9)
 4. 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. 2025. [Resumen en JACC](https://www.jacc.org/doi/10.1016/j.jacc.2025.07.010)
-5. Powers WJ, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update. *Stroke.* 2019;50:e344–e418.
+5. Prabhakaran S, Gonzalez NR, Zachrison KS, et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association. *Stroke.* 2026;57(8):e316–e436.
 6. Greenberg SM, et al. 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage. *Stroke.* 2022;53:e282–e361.
 7. Amraoui F, van den Born BJH. Funduscopy in hypertensive emergencies: Detecting flames in the cotton fields. *J Clin Hypertens.* 2021;23:172. doi:[10.1111/jch.14063](https://doi.org/10.1111/jch.14063)

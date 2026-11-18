@@ -9,10 +9,10 @@
 ESPEN 2021: nutrición hospitalaria (Thibault) · ESPEN 2021: nutrición en cirugía (Weimann) · IDDSI: texturas para la disfagia
 
 **Otras fuentes**
-ACG 2024 (pancreatitis aguda) · AHA/ASA (pesquisa de disfagia en el ACV) · Ver [pancreatitis aguda](../gastroenterologia/pancreatitis-aguda.md), [disfagia](../gastroenterologia/disfagia-y-afagia-aguda.md) y [desnutrición](../endocrinologia/desnutricion-y-sindromes-carenciales.md)
+ACG 2024 (pancreatitis aguda) · AHA/ASA 2026 (pesquisa de disfagia en el ACV) · Ver [pancreatitis aguda](../gastroenterologia/pancreatitis-aguda.md), [disfagia](../gastroenterologia/disfagia-y-afagia-aguda.md) y [desnutrición](../endocrinologia/desnutricion-y-sindromes-carenciales.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -92,7 +92,7 @@ La nomenclatura es la habitual en los hospitales chilenos; cada hospital define 
 | **HDA** | Cero hasta la endoscopía; después, **líquidos y avance a régimen estándar dentro de 24 h** si el riesgo de resangrado es bajo | ESPEN 2021 (recomendación 52) |
 | **HDB** | Régimen estándar en cuanto se autorice la vía oral | ESPEN 2021 (recomendación 51) |
 | **Después de una endoscopía** | Régimen habitual al pasar el efecto de la sedación | ESPEN 2021 (recomendación 53) |
-| **ACV, demencia avanzada, Parkinson, ELA** | **Pesquisa de disfagia** antes de dar nada por boca; luego papilla o líquidos espesados según la evaluación | ESPEN 2021 (recomendaciones 48 y 49); AHA/ASA |
+| **ACV, demencia avanzada, Parkinson, ELA** | **Pesquisa de disfagia** antes de dar nada por boca; luego papilla o líquidos espesados según la evaluación | ESPEN 2021 (recomendaciones 48 y 49); AHA/ASA 2026 |
 | **Cirrosis** | Común **hiposódico** (si hay ascitis), **sin restricción de proteínas**, con **colación nocturna** | ESPEN 2021; ver [cirrosis](../gastroenterologia/cirrosis-y-complicaciones.md) |
 | **Diabetes** | Liviano o común **fraccionado**, carbohidratos regulares, coordinado con la insulina | ESPEN 2021 (recomendaciones 43–45); ver [insulina en el hospitalizado](insulina.md) |
 | **Desnutrido o en riesgo** | **Hospitalario enriquecido** + colaciones + suplementos orales; vigilar el **síndrome de realimentación** | ESPEN 2021 (recomendaciones 14, 18 y 32) |
@@ -128,4 +128,4 @@ La nomenclatura es la habitual en los hospitales chilenos; cada hospital define 
 3. Joshi GP, Abdelmalak BB, Weigel WA, et al. 2023 American Society of Anesthesiologists Practice Guidelines for Preoperative Fasting: Carbohydrate-containing Clear Liquids with or without Protein, Chewing Gum, and Pediatric Fasting Duration. *Anesthesiology.* 2023;138(2):132–151. doi:[10.1097/ALN.0000000000004381](https://doi.org/10.1097/ALN.0000000000004381)
 4. Tenner S, Vege SS, Sheth SG, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. *Am J Gastroenterol.* 2024;119(3):419–437.
 5. International Dysphagia Diet Standardisation Initiative (IDDSI). Marco y descriptores de textura de alimentos y bebidas. [iddsi.org](https://iddsi.org)
-6. Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update. *Stroke.* 2019;50(12):e344–e418.
+6. Prabhakaran S, Gonzalez NR, Zachrison KS, et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association. *Stroke.* 2026;57(8):e316–e436.
