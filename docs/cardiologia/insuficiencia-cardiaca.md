@@ -16,10 +16,10 @@ Cardiología
 ESC 2026 (Eur Heart J, agosto 2026)
 
 **Otras fuentes**
-Segunda Definición Universal de IC 2026 · AHA/ACC/HFSA 2022 · ACC ECDP 2024 · Guía MINSAL-SOCHICAR 2015
+Segunda Definición Universal de IC 2026 · AHA/ACC/HFSA 2022 · ACC ECDP 2024 (IC-FEr) y 2026 (IC-FEp) · Guía MINSAL-SOCHICAR 2015
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 
@@ -443,10 +443,11 @@ flowchart LR
 | Intervención | Comentario |
 |---|---|
 | **iSGLT2** (dapagliflozina o empagliflozina 10 mg/día) | Reducen hospitalización por IC y muerte cardiovascular (recomendación clase I) |
-| **ARM** | La ESC 2026 recomienda ARM en IC crónica **independiente de la FEVI**. La evidencia más sólida en FE preservada es con **finerenona** (FINEARTS-HF: −16 % muerte cardiovascular y empeoramiento de IC) |
+| **ARM** | La ESC 2026 recomienda ARM en IC crónica **independiente de la FEVI**. La evidencia más sólida en FE preservada es con **finerenona** (FINEARTS-HF: −16 % muerte cardiovascular y empeoramiento de IC). El **consenso ACC 2026** propone **iSGLT2 + finerenona** como base para la mayoría y prefiere la finerenona a la espironolactona (que sigue siendo una alternativa si hay problemas de costo o acceso) |
 | **Diuréticos** | Para la congestión |
 | **Semaglutida o tirzepatida** | IC-FEp con **obesidad**: mejoran síntomas, capacidad funcional y peso; tirzepatida redujo eventos de IC (SUMMIT). Clase IIa en ESC 2026 |
 | **ARNI o ARA-II** | Beneficio modesto, concentrado en FEVI en rango bajo-normal y en mujeres |
+| **Betabloqueadores** | **No** de rutina en la IC-FEp (ACC 2026): solo si hay otra indicación (FA, arritmias, infarto previo) |
 | **Tratar comorbilidades** | HTA, FA (control de ritmo o frecuencia), isquemia, diabetes, ERC, apnea del sueño |
 | **Ejercicio y rehabilitación** | Mejoran capacidad funcional y calidad de vida |
 | **Tratamiento etiológico** | Amiloidosis por transtiretina: **tafamidis** o acoramidis; miocardiopatía hipertrófica obstructiva: mavacamten |
@@ -613,21 +614,22 @@ flowchart TD
 2. AHA/ACC/ESC/WHF Expert Consensus Document: Second Universal Definition of Heart Failure (2026). *Circulation.* 2026. doi:[10.1161/CIR.0000000000001455](https://doi.org/10.1161/CIR.0000000000001455)
 3. Heidenreich PA, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. *Circulation.* 2022;145:e895–e1032. doi:[10.1161/CIR.0000000000001063](https://doi.org/10.1161/CIR.0000000000001063)
 4. McDonagh TA, et al. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. *Eur Heart J.* 2023;44:3627–3639.
-5. Maddox TM, et al. 2024 ACC Expert Consensus Decision Pathway for Treatment of Heart Failure With Reduced Ejection Fraction. *J Am Coll Cardiol.* 2024;83:1444–1488.
-6. Bayes-Genis A, et al. Practical algorithms for early diagnosis of heart failure and heart stress using NT-proBNP: a clinical consensus statement from the Heart Failure Association of the ESC. *Eur J Heart Fail.* 2023. doi:[10.1002/ejhf.3036](https://doi.org/10.1002/ejhf.3036)
-7. Global, regional, and national burden of heart failure and its underlying causes, 1990–2021: results from the Global Burden of Disease Study 2021. *Biomark Res.* 2025. doi:[10.1186/s40364-025-00728-8](https://doi.org/10.1186/s40364-025-00728-8)
-8. Crespo-Leiro MG, et al. European Society of Cardiology Heart Failure Long-Term Registry (ESC-HF-LT): 1-year follow-up outcomes. *Eur J Heart Fail.* 2016;18:613–625.
-9. Castro P, et al. Insuficiencia cardíaca en hospitales chilenos: resultados del Registro Nacional de Insuficiencia Cardíaca, Grupo ICARO. *Rev Méd Chile.* 2004;132:655–662.
-10. Palma G, et al. Prevalencia, caracterización y pronóstico de pacientes con sospecha de insuficiencia cardíaca en atención primaria de salud en Chile. *Rev Chil Cardiol.* 2024;43(1):9–21.
-11. Ministerio de Salud de Chile, Sociedad Chilena de Cardiología. *Guía Clínica Insuficiencia Cardíaca.* 2015.
-12. Ministerio de Salud de Chile. *Encuesta Nacional de Salud 2016–2017: primeros resultados.* 2017.
-13. Mebazaa A, et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies for acute heart failure (STRONG-HF). *Lancet.* 2022;400:1938–1952.
-14. Mullens W, et al. Acetazolamide in Acute Decompensated Heart Failure with Volume Overload (ADVOR). *N Engl J Med.* 2022;387:1185–1195.
-15. Voors AA, et al. The SGLT2 inhibitor empagliflozin in patients hospitalized for acute heart failure (EMPULSE). *Nat Med.* 2022;28:568–574.
-16. Solomon SD, et al. Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction (FINEARTS-HF). *N Engl J Med.* 2024;391:1475–1485.
-17. Kosiborod MN, et al. Semaglutide in Patients with Heart Failure with Preserved Ejection Fraction and Obesity (STEP-HFpEF). *N Engl J Med.* 2023;389:1069–1084.
-18. Packer M, et al. Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity (SUMMIT). *N Engl J Med.* 2025;392:427–437.
-19. Halliday BP, et al. Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF). *Lancet.* 2019;393:61–73.
-20. Pugliese NR, et al. Inflammatory pathways in heart failure with preserved left ventricular ejection fraction: implications for future interventions. *Cardiovasc Res.* 2022;118:3536. doi:[10.1093/cvr/cvac133](https://doi.org/10.1093/cvr/cvac133)
-21. Castiglione V, et al. Biomarkers for the diagnosis and management of heart failure. *Heart Fail Rev.* 2022;27:625. doi:[10.1007/s10741-021-10105-w](https://doi.org/10.1007/s10741-021-10105-w)
-22. Boccatonda A, et al. Infectious Pneumonia and Lung Ultrasound: A Review. *J Clin Med.* 2023;12:1402. doi:[10.3390/jcm12041402](https://doi.org/10.3390/jcm12041402)
+5. Kittleson MM, Panjrath GS, Bates K, et al. Management of heart failure with preserved ejection fraction: 2026 ACC Expert Consensus Decision Pathway. *J Am Coll Cardiol.* 2026;88(15):1817–1846. doi:[10.1016/j.jacc.2026.06.018](https://doi.org/10.1016/j.jacc.2026.06.018)
+6. Maddox TM, et al. 2024 ACC Expert Consensus Decision Pathway for Treatment of Heart Failure With Reduced Ejection Fraction. *J Am Coll Cardiol.* 2024;83:1444–1488.
+7. Bayes-Genis A, et al. Practical algorithms for early diagnosis of heart failure and heart stress using NT-proBNP: a clinical consensus statement from the Heart Failure Association of the ESC. *Eur J Heart Fail.* 2023. doi:[10.1002/ejhf.3036](https://doi.org/10.1002/ejhf.3036)
+8. Global, regional, and national burden of heart failure and its underlying causes, 1990–2021: results from the Global Burden of Disease Study 2021. *Biomark Res.* 2025. doi:[10.1186/s40364-025-00728-8](https://doi.org/10.1186/s40364-025-00728-8)
+9. Crespo-Leiro MG, et al. European Society of Cardiology Heart Failure Long-Term Registry (ESC-HF-LT): 1-year follow-up outcomes. *Eur J Heart Fail.* 2016;18:613–625.
+10. Castro P, et al. Insuficiencia cardíaca en hospitales chilenos: resultados del Registro Nacional de Insuficiencia Cardíaca, Grupo ICARO. *Rev Méd Chile.* 2004;132:655–662.
+11. Palma G, et al. Prevalencia, caracterización y pronóstico de pacientes con sospecha de insuficiencia cardíaca en atención primaria de salud en Chile. *Rev Chil Cardiol.* 2024;43(1):9–21.
+12. Ministerio de Salud de Chile, Sociedad Chilena de Cardiología. *Guía Clínica Insuficiencia Cardíaca.* 2015.
+13. Ministerio de Salud de Chile. *Encuesta Nacional de Salud 2016–2017: primeros resultados.* 2017.
+14. Mebazaa A, et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies for acute heart failure (STRONG-HF). *Lancet.* 2022;400:1938–1952.
+15. Mullens W, et al. Acetazolamide in Acute Decompensated Heart Failure with Volume Overload (ADVOR). *N Engl J Med.* 2022;387:1185–1195.
+16. Voors AA, et al. The SGLT2 inhibitor empagliflozin in patients hospitalized for acute heart failure (EMPULSE). *Nat Med.* 2022;28:568–574.
+17. Solomon SD, et al. Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction (FINEARTS-HF). *N Engl J Med.* 2024;391:1475–1485.
+18. Kosiborod MN, et al. Semaglutide in Patients with Heart Failure with Preserved Ejection Fraction and Obesity (STEP-HFpEF). *N Engl J Med.* 2023;389:1069–1084.
+19. Packer M, et al. Tirzepatide for Heart Failure with Preserved Ejection Fraction and Obesity (SUMMIT). *N Engl J Med.* 2025;392:427–437.
+20. Halliday BP, et al. Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF). *Lancet.* 2019;393:61–73.
+21. Pugliese NR, et al. Inflammatory pathways in heart failure with preserved left ventricular ejection fraction: implications for future interventions. *Cardiovasc Res.* 2022;118:3536. doi:[10.1093/cvr/cvac133](https://doi.org/10.1093/cvr/cvac133)
+22. Castiglione V, et al. Biomarkers for the diagnosis and management of heart failure. *Heart Fail Rev.* 2022;27:625. doi:[10.1007/s10741-021-10105-w](https://doi.org/10.1007/s10741-021-10105-w)
+23. Boccatonda A, et al. Infectious Pneumonia and Lung Ultrasound: A Review. *J Clin Med.* 2023;12:1402. doi:[10.3390/jcm12041402](https://doi.org/10.3390/jcm12041402)

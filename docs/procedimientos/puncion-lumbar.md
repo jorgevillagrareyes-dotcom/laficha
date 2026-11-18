@@ -6,27 +6,27 @@
 Punción lumbar diagnóstica en el adulto (estudio del LCR y medición de la presión de apertura)
 
 **Fuentes principales**
-IDSA 2004: meningitis bacteriana (TC antes de la punción) · Association of British Neurologists 2018: manejo de los antitrombóticos · AABB/ICTMG 2025: transfusión de plaquetas
+IDSA 2004: meningitis bacteriana (TC antes de la punción) · Association of British Neurologists 2026: manejo de los antitrombóticos (reemplaza la de 2018) · AABB/ICTMG 2025: transfusión de plaquetas
 
 **Otras fuentes**
 Nath 2018 (*Lancet*): agujas atraumáticas · Arevalo-Rodriguez 2016 (Cochrane): reposo y líquidos tras la punción · Hasbun 2001 · Ver [meningitis y encefalitis](../infectologia/meningitis-y-encefalitis.md), [cefalea](../neurologia/cefalea.md), [TEC e hipertensión endocraneana](../neurologia/tec-e-hipertension-endocraneana.md) y [Guillain-Barré](../neurologia/debilidad-aguda-guillain-barre-y-mielopatias.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
 !!! abstract "Resumen en 60 segundos"
     - **Meningitis**: el **antibiótico no espera** a la punción ni a la TC. Si hay que hacer TC primero, tomar hemocultivos y **dar el antibiótico antes**.
     - **TC antes de la punción** solo si hay: inmunosupresión, enfermedad del SNC previa, **convulsión nueva**, **papiledema**, **compromiso de conciencia** o **déficit focal** (IDSA 2004).
-    - **Plaquetas**: transfundir antes de la punción solo si están **bajo 20.000/µL** (AABB/ICTMG 2025). **No** pedir pruebas de coagulación de rutina si no hay sospecha (ABN 2018).
-    - **Antitrombóticos** (ABN 2018): la **aspirina en dosis baja se mantiene**; clopidogrel, ticagrelor y prasugrel se suspenden **7 días** antes; **rivaroxabán y apixabán 24 h**, dabigatrán **48 h** (función renal normal); heparina de bajo peso **12 h** (profiláctica) o **24 h** (terapéutica).
+    - **Plaquetas**: la AABB/ICTMG 2025 transfunde antes de la punción solo si están **bajo 20.000/µL**; la ABN 2026 prefiere **> 40.000/µL** y discutir con hematología si están más bajas o caen rápido. **No** pedir pruebas de coagulación de rutina si no hay factores de riesgo; **INR < 1,5** si usa warfarina.
+    - **Antitrombóticos** (ABN 2026): la **aspirina** (cualquier dosis) **se mantiene**; en una punción **urgente** (meningitis, encefalitis) tampoco se suspenden los demás antiagregantes. Si es programada: clopidogrel **5–7 días**, prasugrel **7 días** y ticagrelor **3–5 días**, cubriendo con aspirina; **anticoagulantes directos 2 días** (función renal normal); warfarina **5 días**; heparina de bajo peso **12 h** (profiláctica) o **24 h** (terapéutica).
     - **Aguja atraumática** (punta de lápiz): reduce la **cefalea pospunción** de **11 % a 4,2 %** (Nath 2018).
     - **El reposo en cama después no previene la cefalea** (Cochrane 2016).
     - Medir la **presión de apertura** en **decúbito lateral** con las piernas extendidas al medirla.
 
 !!! guia "¿Qué respalda esta página?"
-    La indicación de **TC previa** viene de la guía de la **IDSA (2004)**, la única de cuatro guías internacionales que, en un estudio de 2022, no pasó por alto ningún hallazgo intracraneal mayor. Otras guías (ESCMID 2016, OMS 2025) usan criterios más restrictivos, como un Glasgow bajo 10; ver [meningitis y encefalitis](../infectologia/meningitis-y-encefalitis.md). El manejo de los **antitrombóticos** viene de la **Association of British Neurologists (2018)**, que se basa en guías de anestesia y hematología porque hay pocos estudios propios de la punción lumbar (existe una actualización de 2026 que no pudimos revisar). Las **plaquetas**, de la guía **AABB/ICTMG (2025)**, con recomendación fuerte. **Manda el protocolo de tu servicio.**
+    La indicación de **TC previa** viene de la guía de la **IDSA (2004)**, la única de cuatro guías internacionales que, en un estudio de 2022, no pasó por alto ningún hallazgo intracraneal mayor. Otras guías (ESCMID 2016, OMS 2025) usan criterios más restrictivos, como un Glasgow bajo 10; ver [meningitis y encefalitis](../infectologia/meningitis-y-encefalitis.md). El manejo de los **antitrombóticos** viene de la **Association of British Neurologists (actualización 2026)**, respaldada por la British Society for Haematology, que se basa en guías de anestesia, radiología intervencional y hematología porque hay pocos estudios propios de la punción lumbar (evidencia B y C). Las **plaquetas**, de la guía **AABB/ICTMG (2025)**, con recomendación fuerte. **Manda el protocolo de tu servicio.**
 
 ## Cuándo hacerla y cuándo no
 
@@ -37,8 +37,8 @@ Octubre 2026
 | **Guillain-Barré**, esclerosis múltiple, hipertensión endocraneana idiopática | **Sí** | Disociación albúmino-citológica, bandas oligoclonales, presión de apertura |
 | **Criterios de TC previa** (IDSA 2004) | **TC antes**; si es meningitis, **antibiótico antes de la TC** | Lesión con efecto de masa: riesgo de herniación |
 | **Infección de la piel** en el sitio de punción | **No** por ese sitio | Riesgo de meningitis por arrastre |
-| **Plaquetas < 20.000/µL** | **Transfundir antes** (AABB/ICTMG 2025) | El hematoma espinal es muy raro, pero grave |
-| **Anticoagulación** o antiagregación con P2Y12 | **Suspender con anticipación** (ABN 2018); en la urgencia, discutir con hematología | Hematoma espinal |
+| **Plaquetas < 20.000/µL** | **Transfundir antes** (AABB/ICTMG 2025); la ABN 2026 prefiere > 40.000/µL y discutirlo con hematología | El hematoma espinal es muy raro (~0,2 %), pero grave |
+| **Anticoagulación** o antiagregación con P2Y12 | **Suspender con anticipación** si es programada (ABN 2026); en la urgencia **no retrasar** por los antiagregantes y discutir la reversión de los anticoagulantes con hematología | Hematoma espinal; retrasar la punción también daña |
 
 !!! alarma "Criterios de TC antes de la punción (IDSA 2004)"
     - **Inmunosupresión** (VIH, inmunosupresores, trasplante).
@@ -55,7 +55,7 @@ Octubre 2026
 ### Qué buscar en el paciente
 
 - **Criterios de TC previa** (recuadro de arriba): examen neurológico y **fondo de ojo**.
-- **Antitrombóticos** y la hora de la última dosis; **plaquetas** si hay una enfermedad hematológica, hepática o quimioterapia; **INR** si usa warfarina (debe ser **≤ 1,4**).
+- **Antitrombóticos** y la hora de la última dosis; **plaquetas** si hay una enfermedad hematológica, hepática o quimioterapia; **INR** si usa warfarina (debe ser **< 1,5**; < 2,0 si la punción es urgente o el riesgo trombótico es muy alto, ABN 2026).
 - **Infección de la piel** lumbar, cirugía de columna previa.
 - **Consentimiento** informado: cefalea pospunción, dolor lumbar, rara vez infección o hematoma.
 
@@ -112,7 +112,7 @@ Escribe los datos **como tú los registras**: los campos son de texto libre, con
 | **Reposo** | **No es necesario** el reposo en cama | El reposo **no previene** la cefalea pospunción y puede aumentarla (riesgo relativo 1,24 frente a la movilización inmediata; Cochrane 2016) |
 | **Líquidos** | Sin indicación especial | Hidratar de más no mostró beneficio (Cochrane 2016) |
 | **Analgesia** | Paracetamol si hay cefalea | La cefalea pospunción suele ceder en días |
-| **Antitrombóticos** | Reiniciar según el fármaco | ABN 2018: heparina de bajo peso desde **4 h** si la punción fue atraumática; anticoagulantes directos desde **6 h**; warfarina desde **12 h** |
+| **Antitrombóticos** | Reiniciar según el fármaco | ABN 2026: antiagregantes y anticoagulantes directos desde **6 h**; heparina de bajo peso desde **4 h** (24 h si la punción fue traumática); warfarina desde **12 h**; heparina no fraccionada desde **1 h** |
 | **Signos de alarma** | Cefalea postural, **dolor lumbar intenso**, debilidad o alteración sensitiva de las piernas, fiebre | Cefalea pospunción, **hematoma espinal**, infección |
 
 ## Interpretar el LCR
@@ -157,7 +157,7 @@ Ver el detalle en [meningitis y encefalitis](../infectologia/meningitis-y-encefa
     Tiene **criterios de TC previa** (compromiso de conciencia, convulsión nueva). **Hemocultivos, dexametasona y antibiótico empírico de inmediato**; después **TC** y, si no hay lesión con efecto de masa, punción lumbar.
 
 ??? repaso "3. Paciente con fibrilación auricular en tratamiento con apixabán, función renal normal, necesita una punción lumbar programada. ¿Qué indicas?"
-    **Suspender el apixabán al menos 24 horas** antes (ABN 2018) y **reiniciarlo 6 horas después** de la punción. Si el riesgo trombótico es muy alto o la punción no puede esperar, discutir con hematología.
+    **Suspender el apixabán 2 días** antes (ABN 2026; antes eran 24 horas) y **reiniciarlo 6 horas después** de la punción. Si el riesgo trombótico es muy alto o la punción no puede esperar, discutir con hematología.
 
 ??? repaso "4. Paciente con leucemia y plaquetas de 32.000/µL, sin sangrado, necesita una punción lumbar. ¿Transfundes plaquetas?"
     **No** de rutina: la guía AABB/ICTMG 2025 recomienda transfundir antes de la punción lumbar solo si las plaquetas están **bajo 20.000/µL**. Revisar también si recibe otros antitrombóticos o tiene coagulopatía.
@@ -170,7 +170,8 @@ Ver el detalle en [meningitis y encefalitis](../infectologia/meningitis-y-encefa
 1. Tunkel AR, Hartman BJ, Kaplan SL, et al. Practice guidelines for the management of bacterial meningitis. *Clin Infect Dis.* 2004;39(9):1267–1284. doi:[10.1086/425368](https://doi.org/10.1086/425368)
 2. Hasbun R, Abrahams J, Jekel J, Quagliarello VJ. Computed tomography of the head before lumbar puncture in adults with suspected meningitis. *N Engl J Med.* 2001;345(24):1727–1733. doi:[10.1056/NEJMoa010399](https://doi.org/10.1056/NEJMoa010399)
 3. Park N, Nigo M, Hasbun R. Comparison of Four International Guidelines on the Utility of Cranial Imaging Before Lumbar Puncture in Adults with Bacterial Meningitis. *Clin Neuroradiol.* 2022;32(3):857–862. doi:[10.1007/s00062-022-01143-4](https://doi.org/10.1007/s00062-022-01143-4)
-4. Dodd KC, Emsley HCA, Desborough MJR, Chhetri SK. Periprocedural antithrombotic management for lumbar puncture: Association of British Neurologists clinical guideline. *Pract Neurol.* 2018;18(6):436–446. doi:[10.1136/practneurol-2017-001820](https://doi.org/10.1136/practneurol-2017-001820)
-5. Metcalf RA, Nahirniak S, Guyatt G, et al. Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines. *JAMA.* 2025;334(7):606–617. doi:[10.1001/jama.2025.7529](https://doi.org/10.1001/jama.2025.7529)
-6. Nath S, Koziarz A, Badhiwala JH, et al. Atraumatic versus conventional lumbar puncture needles: a systematic review and meta-analysis. *Lancet.* 2018;391(10126):1197–1204. doi:[10.1016/S0140-6736(17)32451-0](https://doi.org/10.1016/S0140-6736(17)32451-0)
-7. Arevalo-Rodriguez I, Ciapponi A, Roqué i Figuls M, Muñoz L, Bonfill Cosp X. Posture and fluids for preventing post-dural puncture headache. *Cochrane Database Syst Rev.* 2016;3(3):CD009199. doi:[10.1002/14651858.CD009199.pub3](https://doi.org/10.1002/14651858.CD009199.pub3)
+4. Dodd KC, Ahmed F, Desborough M, et al. Periprocedural antithrombotic management for lumbar puncture: Association of British Neurologists 2026 guideline summary update. *Pract Neurol.* 2026. doi:[10.1136/pn-2026-005351](https://doi.org/10.1136/pn-2026-005351) · [Texto completo (ABN)](https://cdn.ymaws.com/www.theabn.org/resource/collection/555C7771-1AAB-41AE-AE28-211E01D3F838/26-10-ABN-LP-guidance-CORRECTION-OCT26.pdf)
+5. Dodd KC, Emsley HCA, Desborough MJR, Chhetri SK. Periprocedural antithrombotic management for lumbar puncture: Association of British Neurologists clinical guideline. *Pract Neurol.* 2018;18(6):436–446. doi:[10.1136/practneurol-2017-001820](https://doi.org/10.1136/practneurol-2017-001820)
+6. Metcalf RA, Nahirniak S, Guyatt G, et al. Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines. *JAMA.* 2025;334(7):606–617. doi:[10.1001/jama.2025.7529](https://doi.org/10.1001/jama.2025.7529)
+7. Nath S, Koziarz A, Badhiwala JH, et al. Atraumatic versus conventional lumbar puncture needles: a systematic review and meta-analysis. *Lancet.* 2018;391(10126):1197–1204. doi:[10.1016/S0140-6736(17)32451-0](https://doi.org/10.1016/S0140-6736(17)32451-0)
+8. Arevalo-Rodriguez I, Ciapponi A, Roqué i Figuls M, Muñoz L, Bonfill Cosp X. Posture and fluids for preventing post-dural puncture headache. *Cochrane Database Syst Rev.* 2016;3(3):CD009199. doi:[10.1002/14651858.CD009199.pub3](https://doi.org/10.1002/14651858.CD009199.pub3)

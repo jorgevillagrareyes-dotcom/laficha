@@ -13,7 +13,7 @@ tags:
 Broncopulmonar · Neurología · Medicina del sueño · Otorrinolaringología · Atención primaria
 
 **Guías principales**
-AASM 2017: estudio diagnóstico de la apnea obstructiva del sueño · AASM 2019: tratamiento con presión positiva · AASM 2015: dispositivos orales · ATS 2019: síndrome de obesidad-hipoventilación · AASM 2017 y 2021: tratamiento farmacológico y conductual del insomnio · ACP 2016: insomnio crónico · AASM 2025: piernas inquietas · AASM 2021: hipersomnias centrales · AASM 2023: trastorno conductual del sueño REM
+AASM 2017: estudio diagnóstico de la apnea obstructiva del sueño · AASM 2019 y ERS/ESRS 2026: tratamiento con presión positiva · AASM 2015: dispositivos orales · ATS 2019: síndrome de obesidad-hipoventilación · AASM 2017 y 2021: tratamiento farmacológico y conductual del insomnio · ACP 2016: insomnio crónico · AASM 2025: piernas inquietas · AASM 2021: hipersomnias centrales · AASM 2023: trastorno conductual del sueño REM
 
 **Otras fuentes**
 Prevalencia mundial de la apnea (Benjafield 2019) · Subestudios de la ENS 2016–2017 (Saldías 2019 y 2020) · Metaanálisis chileno (Vasconcello-Castillo 2026) · SAVE (2016) · SERVE-HF (2015) · SURMOUNT-OSA (2024) · Criterios de Beers 2023 · ICSD-3
@@ -25,7 +25,7 @@ No es GES. El estudio del sueño y el CPAP dependen de la red de cada servicio d
 1.05.1.033 Síndrome de apnea del sueño (sospecha, inicial, derivar) · 1.10.1.027 Trastornos del sueño (sospecha, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -296,13 +296,14 @@ flowchart TD
     - **No conducir** si tiene somnolencia hasta que esté tratado.
     - Controlar la **HTA**, la glicemia y los lípidos.
 
-!!! guia "Tratamiento con presión positiva (AASM 2019)"
+!!! guia "Tratamiento con presión positiva (AASM 2019; ERS/ESRS 2026)"
     - **CPAP** (u otra presión positiva) en la AOS con **somnolencia excesiva** (recomendación **fuerte**).
     - En la AOS con **deterioro de la calidad de vida** relacionado con el sueño o con **HTA** (recomendación **condicional**).
     - Iniciar con **CPAP autoajustable (APAP) en el domicilio** o con **titulación en el laboratorio**, en los pacientes sin comorbilidad importante (recomendación fuerte).
     - Preferir **CPAP o APAP** sobre la **BPAP** (bipresión) en la AOS sin hipoventilación (recomendación fuerte).
     - **Educación** al iniciar el tratamiento (recomendación fuerte), **apoyo conductual** y **telemonitoreo** del uso (condicionales).
     - **Mascarillas**: nasal u oronasal según la tolerancia; humidificador si hay sequedad.
+    - **ERS/ESRS 2026**: CPAP **recomendado** si hay **somnolencia diurna excesiva** (fuerte); **sugerido** en general por su efecto sobre la somnolencia, otros síntomas y la **presión arterial**, y en particular en la AOS moderada a grave, los **adultos mayores** y la **HTA**, incluida la resistente (condicionales). **Sin somnolencia**, en la **FA** (para reducir recurrencias) o en las alteraciones del **metabolismo de la glucosa**, el CPAP o no tratar son opciones igualmente válidas: decidir según los demás síntomas.
 
 - **CPAP**: mantiene abierta la faringe con una **presión positiva continua**.
     - **Mejora**: la **somnolencia**, la **calidad de vida**, el riesgo de **accidentes de tránsito** y, en forma **modesta**, la **presión arterial** (unos 2–3 mmHg; más en la HTA resistente).
@@ -528,27 +529,28 @@ flowchart TD
 
 1. Kapur VK, Auckley DH, Chowdhuri S, et al. Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2017;13(3):479–504. doi:[10.5664/jcsm.6506](https://doi.org/10.5664/jcsm.6506)
 2. Patil SP, Ayappa IA, Caples SM, et al. Treatment of adult obstructive sleep apnea with positive airway pressure: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2019;15(2):335–343. doi:[10.5664/jcsm.7640](https://doi.org/10.5664/jcsm.7640)
-3. Ramar K, Dort LC, Katz SG, et al. Clinical practice guideline for the treatment of obstructive sleep apnea and snoring with oral appliance therapy: an update for 2015. *J Clin Sleep Med.* 2015;11(7):773–827. doi:[10.5664/jcsm.4858](https://doi.org/10.5664/jcsm.4858)
-4. Mokhlesi B, Masa JF, Brozek JL, et al. Evaluation and management of obesity hypoventilation syndrome. An official American Thoracic Society clinical practice guideline. *Am J Respir Crit Care Med.* 2019;200(3):e6–e24. doi:[10.1164/rccm.201905-1071ST](https://doi.org/10.1164/rccm.201905-1071ST)
-5. Edinger JD, Arnedt JT, Bertisch SM, et al. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2021;17(2):255–262. doi:[10.5664/jcsm.8986](https://doi.org/10.5664/jcsm.8986)
-6. Sateia MJ, Buysse DJ, Krystal AD, Neubauer DN, Heald JL. Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2017;13(2):307–349. doi:[10.5664/jcsm.6470](https://doi.org/10.5664/jcsm.6470)
-7. Qaseem A, Kansagara D, Forciea MA, et al. Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians. *Ann Intern Med.* 2016;165(2):125–133. doi:[10.7326/M15-2175](https://doi.org/10.7326/M15-2175)
-8. Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2025;21(1):137–152. doi:[10.5664/jcsm.11390](https://doi.org/10.5664/jcsm.11390)
-9. Maski K, Trotti LM, Kotagal S, et al. Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2021;17(9):1881–1893. doi:[10.5664/jcsm.9328](https://doi.org/10.5664/jcsm.9328)
-10. Howell M, Avidan AY, Foldvary-Schaefer N, et al. Management of REM sleep behavior disorder: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2023;19(4):759–768. doi:[10.5664/jcsm.10424](https://doi.org/10.5664/jcsm.10424)
-11. Sateia MJ. International classification of sleep disorders-third edition: highlights and modifications. *Chest.* 2014;146(5):1387–1394. doi:[10.1378/chest.14-0970](https://doi.org/10.1378/chest.14-0970)
-12. Benjafield AV, Ayas NT, Eastwood PR, et al. Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis. *Lancet Respir Med.* 2019;7(8):687–698. doi:[10.1016/S2213-2600(19)30198-5](https://doi.org/10.1016/S2213-2600(19)30198-5)
-13. Chung F, Abdullah HR, Liao P. STOP-Bang questionnaire: a practical approach to screen for obstructive sleep apnea. *Chest.* 2016;149(3):631–638. doi:[10.1378/chest.15-0903](https://doi.org/10.1378/chest.15-0903)
-14. Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. *Sleep.* 1991;14(6):540–545. doi:[10.1093/sleep/14.6.540](https://doi.org/10.1093/sleep/14.6.540)
-15. McEvoy RD, Antic NA, Heeley E, et al. CPAP for prevention of cardiovascular events in obstructive sleep apnea. *N Engl J Med.* 2016;375(10):919–931. doi:[10.1056/NEJMoa1606599](https://doi.org/10.1056/NEJMoa1606599)
-16. Cowie MR, Woehrle H, Wegscheider K, et al. Adaptive servo-ventilation for central sleep apnea in systolic heart failure. *N Engl J Med.* 2015;373(12):1095–1105. doi:[10.1056/NEJMoa1506459](https://doi.org/10.1056/NEJMoa1506459)
-17. Malhotra A, Grunstein RR, Fietze I, et al. Tirzepatide for the treatment of obstructive sleep apnea and obesity. *N Engl J Med.* 2024;391(13):1193–1205. doi:[10.1056/NEJMoa2404881](https://doi.org/10.1056/NEJMoa2404881)
-18. Strollo PJ Jr, Soose RJ, Maurer JT, et al. Upper-airway stimulation for obstructive sleep apnea. *N Engl J Med.* 2014;370(2):139–149. doi:[10.1056/NEJMoa1308659](https://doi.org/10.1056/NEJMoa1308659)
-19. Morin CM, Buysse DJ. Management of insomnia. *N Engl J Med.* 2024;391(3):247–258. doi:[10.1056/NEJMcp2305655](https://doi.org/10.1056/NEJMcp2305655)
-20. Postuma RB, Iranzo A, Hu M, et al. Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder: a multicentre study. *Brain.* 2019;142(3):744–759. doi:[10.1093/brain/awz030](https://doi.org/10.1093/brain/awz030)
-21. By the 2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. *J Am Geriatr Soc.* 2023;71(7):2052–2081. doi:[10.1111/jgs.18372](https://doi.org/10.1111/jgs.18372)
-22. DiCaro MV, Lei K, Yee B, Tak T. The effects of obstructive sleep apnea on the cardiovascular system: a comprehensive review. *J Clin Med.* 2024;13(11):3223. doi:[10.3390/jcm13113223](https://doi.org/10.3390/jcm13113223)
-23. Saldías Peñafiel F, Brockmann Veloso P, Santín Martínez J, Fuentes-López E, Leiva Rodríguez I, Valdivia Cabrera G. Estudio de prevalencia de síndrome de apneas obstructivas del sueño en la población adulta chilena. Subestudio de la Encuesta Nacional de Salud, 2016/17. *Rev Med Chil.* 2020;148(7):895–905. doi:[10.4067/S0034-98872020000700895](https://doi.org/10.4067/S0034-98872020000700895)
-24. Saldías Peñafiel F, Brockmann Veloso P, Santín Martínez J, Fuentes-López E, Valdivia Cabrera G. Rendimiento de los cuestionarios de sueño en el diagnóstico de síndrome de apneas obstructivas del sueño en población chilena. Subestudio de la Encuesta Nacional de Salud, 2016/17. *Rev Med Chil.* 2019;147(12):1543–1552. doi:[10.4067/S0034-98872019001201543](https://doi.org/10.4067/S0034-98872019001201543)
-25. Vasconcello-Castillo L, Torres-Castro R, Otto-Yáñez M, et al. Epidemiología de la apnea obstructiva del sueño en Chile: una revisión sistemática y metaanálisis. *Rev Med Chil.* 2026;154(6):922–938. doi:[10.4067/s0034-98872026000600922](https://doi.org/10.4067/s0034-98872026000600922)
-26. Ministerio de Salud de Chile. Encuesta Nacional de Salud 2016–2017. [epi.minsal.cl](http://epi.minsal.cl/encuesta-ens/)
+3. Testelmans D, Schwarz EI, Anttalainen U, et al. ERS/ESRS clinical practice guideline for continuous positive airway pressure for the treatment of adult obstructive sleep apnoea. *Eur Respir J.* 2026. doi:[10.1183/13993003.01186-2026](https://doi.org/10.1183/13993003.01186-2026)
+4. Ramar K, Dort LC, Katz SG, et al. Clinical practice guideline for the treatment of obstructive sleep apnea and snoring with oral appliance therapy: an update for 2015. *J Clin Sleep Med.* 2015;11(7):773–827. doi:[10.5664/jcsm.4858](https://doi.org/10.5664/jcsm.4858)
+5. Mokhlesi B, Masa JF, Brozek JL, et al. Evaluation and management of obesity hypoventilation syndrome. An official American Thoracic Society clinical practice guideline. *Am J Respir Crit Care Med.* 2019;200(3):e6–e24. doi:[10.1164/rccm.201905-1071ST](https://doi.org/10.1164/rccm.201905-1071ST)
+6. Edinger JD, Arnedt JT, Bertisch SM, et al. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2021;17(2):255–262. doi:[10.5664/jcsm.8986](https://doi.org/10.5664/jcsm.8986)
+7. Sateia MJ, Buysse DJ, Krystal AD, Neubauer DN, Heald JL. Clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2017;13(2):307–349. doi:[10.5664/jcsm.6470](https://doi.org/10.5664/jcsm.6470)
+8. Qaseem A, Kansagara D, Forciea MA, et al. Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians. *Ann Intern Med.* 2016;165(2):125–133. doi:[10.7326/M15-2175](https://doi.org/10.7326/M15-2175)
+9. Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2025;21(1):137–152. doi:[10.5664/jcsm.11390](https://doi.org/10.5664/jcsm.11390)
+10. Maski K, Trotti LM, Kotagal S, et al. Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2021;17(9):1881–1893. doi:[10.5664/jcsm.9328](https://doi.org/10.5664/jcsm.9328)
+11. Howell M, Avidan AY, Foldvary-Schaefer N, et al. Management of REM sleep behavior disorder: an American Academy of Sleep Medicine clinical practice guideline. *J Clin Sleep Med.* 2023;19(4):759–768. doi:[10.5664/jcsm.10424](https://doi.org/10.5664/jcsm.10424)
+12. Sateia MJ. International classification of sleep disorders-third edition: highlights and modifications. *Chest.* 2014;146(5):1387–1394. doi:[10.1378/chest.14-0970](https://doi.org/10.1378/chest.14-0970)
+13. Benjafield AV, Ayas NT, Eastwood PR, et al. Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis. *Lancet Respir Med.* 2019;7(8):687–698. doi:[10.1016/S2213-2600(19)30198-5](https://doi.org/10.1016/S2213-2600(19)30198-5)
+14. Chung F, Abdullah HR, Liao P. STOP-Bang questionnaire: a practical approach to screen for obstructive sleep apnea. *Chest.* 2016;149(3):631–638. doi:[10.1378/chest.15-0903](https://doi.org/10.1378/chest.15-0903)
+15. Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. *Sleep.* 1991;14(6):540–545. doi:[10.1093/sleep/14.6.540](https://doi.org/10.1093/sleep/14.6.540)
+16. McEvoy RD, Antic NA, Heeley E, et al. CPAP for prevention of cardiovascular events in obstructive sleep apnea. *N Engl J Med.* 2016;375(10):919–931. doi:[10.1056/NEJMoa1606599](https://doi.org/10.1056/NEJMoa1606599)
+17. Cowie MR, Woehrle H, Wegscheider K, et al. Adaptive servo-ventilation for central sleep apnea in systolic heart failure. *N Engl J Med.* 2015;373(12):1095–1105. doi:[10.1056/NEJMoa1506459](https://doi.org/10.1056/NEJMoa1506459)
+18. Malhotra A, Grunstein RR, Fietze I, et al. Tirzepatide for the treatment of obstructive sleep apnea and obesity. *N Engl J Med.* 2024;391(13):1193–1205. doi:[10.1056/NEJMoa2404881](https://doi.org/10.1056/NEJMoa2404881)
+19. Strollo PJ Jr, Soose RJ, Maurer JT, et al. Upper-airway stimulation for obstructive sleep apnea. *N Engl J Med.* 2014;370(2):139–149. doi:[10.1056/NEJMoa1308659](https://doi.org/10.1056/NEJMoa1308659)
+20. Morin CM, Buysse DJ. Management of insomnia. *N Engl J Med.* 2024;391(3):247–258. doi:[10.1056/NEJMcp2305655](https://doi.org/10.1056/NEJMcp2305655)
+21. Postuma RB, Iranzo A, Hu M, et al. Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder: a multicentre study. *Brain.* 2019;142(3):744–759. doi:[10.1093/brain/awz030](https://doi.org/10.1093/brain/awz030)
+22. By the 2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. *J Am Geriatr Soc.* 2023;71(7):2052–2081. doi:[10.1111/jgs.18372](https://doi.org/10.1111/jgs.18372)
+23. DiCaro MV, Lei K, Yee B, Tak T. The effects of obstructive sleep apnea on the cardiovascular system: a comprehensive review. *J Clin Med.* 2024;13(11):3223. doi:[10.3390/jcm13113223](https://doi.org/10.3390/jcm13113223)
+24. Saldías Peñafiel F, Brockmann Veloso P, Santín Martínez J, Fuentes-López E, Leiva Rodríguez I, Valdivia Cabrera G. Estudio de prevalencia de síndrome de apneas obstructivas del sueño en la población adulta chilena. Subestudio de la Encuesta Nacional de Salud, 2016/17. *Rev Med Chil.* 2020;148(7):895–905. doi:[10.4067/S0034-98872020000700895](https://doi.org/10.4067/S0034-98872020000700895)
+25. Saldías Peñafiel F, Brockmann Veloso P, Santín Martínez J, Fuentes-López E, Valdivia Cabrera G. Rendimiento de los cuestionarios de sueño en el diagnóstico de síndrome de apneas obstructivas del sueño en población chilena. Subestudio de la Encuesta Nacional de Salud, 2016/17. *Rev Med Chil.* 2019;147(12):1543–1552. doi:[10.4067/S0034-98872019001201543](https://doi.org/10.4067/S0034-98872019001201543)
+26. Vasconcello-Castillo L, Torres-Castro R, Otto-Yáñez M, et al. Epidemiología de la apnea obstructiva del sueño en Chile: una revisión sistemática y metaanálisis. *Rev Med Chil.* 2026;154(6):922–938. doi:[10.4067/s0034-98872026000600922](https://doi.org/10.4067/s0034-98872026000600922)
+27. Ministerio de Salud de Chile. Encuesta Nacional de Salud 2016–2017. [epi.minsal.cl](http://epi.minsal.cl/encuesta-ens/)
