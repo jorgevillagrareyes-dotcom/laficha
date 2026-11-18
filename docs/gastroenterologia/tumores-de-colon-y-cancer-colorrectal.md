@@ -12,7 +12,7 @@ tags:
 Gastroenterología · Coloproctología · Oncología · Atención primaria
 
 **Guías principales**
-USPSTF 2021 y ACG 2021: tamizaje del cáncer colorrectal · US Multi-Society Task Force 2020 y ESGE 2020: vigilancia tras la polipectomía · ESMO 2020: cáncer de colon localizado · ESMO 2023: cáncer colorrectal metastásico · EHTG-ESCP 2021: síndrome de Lynch
+USPSTF 2021 y ACG 2021: tamizaje del cáncer colorrectal · US Multi-Society Task Force 2020 y ESGE 2020: vigilancia tras la polipectomía · ESMO 2020: cáncer de colon localizado · ESMO 2026: cáncer colorrectal metastásico · EHTG-ESCP 2021: síndrome de Lynch
 
 **Otras fuentes**
 Programa chileno PRENEC (Okada 2016) · FIT en sintomáticos en un hospital público chileno (Quezada-Diaz 2025) · Costo-efectividad del tamizaje con FIT en Chile (Muñoz-Montecinos 2026) · IDEA (2020) · KEYNOTE-177 (2020)
@@ -24,7 +24,7 @@ Sí: **cáncer colorrectal en personas de 15 años y más** (problema 70). Confi
 1.06.1.029 Tumores de colon (específico, inicial, derivar)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -148,7 +148,7 @@ flowchart TD
 | **IV** | Cualquier T y N, **M1** | **Metástasis** a distancia (hígado, pulmón, peritoneo) | Quimioterapia ± biológicos; resección de las metástasis si es posible |
 
 - **Etapa II de alto riesgo**: T4, < 12 ganglios examinados, invasión linfovascular o perineural, obstrucción o perforación al debut, tumor poco diferenciado (sin inestabilidad microsatelital).
-- **Biomarcadores** en la enfermedad avanzada (ESMO 2023): **RAS** (*KRAS*, *NRAS*), ***BRAF* V600E**, **inestabilidad microsatelital (MSI) o déficit de MMR**, *HER2*.
+- **Biomarcadores** en la enfermedad avanzada (ESMO 2026): **RAS** (*KRAS*, *NRAS*), ***BRAF* V600E**, **inestabilidad microsatelital (MSI) o déficit de MMR**, *HER2*.
 
 ## Clínica
 
@@ -180,7 +180,7 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Estudio del paciente con sospecha de CCR (ESMO 2020 y 2023)"
+!!! guia "Estudio del paciente con sospecha de CCR (ESMO 2020 y 2026)"
     1. **Historia** (síntomas, antecedentes familiares de cáncer de colon, endometrio u otros) y **examen físico** con **tacto rectal**.
     2. **Colonoscopía completa** con **biopsias** de la lesión y búsqueda de **lesiones sincrónicas** (~3–5 %). Si no se puede completar: **colonografía por TC**.
     3. **Etapificación**:
@@ -246,7 +246,7 @@ flowchart TD
 
 ## Tratamiento
 
-!!! guia "Principios del tratamiento (ESMO 2020 y 2023)"
+!!! guia "Principios del tratamiento (ESMO 2020 y 2026)"
     - **Pólipos**: **resección endoscópica** completa (polipectomía, mucosectomía). Un **pólipo maligno** (cáncer T1) con criterios favorables puede quedar tratado solo con la endoscopía; si tiene criterios de riesgo (invasión profunda, linfovascular, margen positivo, mala diferenciación), **cirugía**.
     - **Cáncer de colon localizado (I–III)**: **colectomía** con resección de los ganglios (**≥ 12 ganglios**), idealmente laparoscópica.
         - **Etapa III**: **quimioterapia adyuvante** con **fluoropirimidina + oxaliplatino** (**CAPOX** o **FOLFOX**). **3 meses de CAPOX** bastan en el riesgo bajo (T1–3 N1); **6 meses** en el alto riesgo (T4 o N2) (IDEA).
@@ -260,8 +260,8 @@ flowchart TD
         - **No resecables**: quimioterapia (**FOLFOX**, **FOLFIRI**, **CAPOX**) + **biológico** según los biomarcadores:
             - **Anti-EGFR** (cetuximab, panitumumab) en los **RAS no mutados** del **colon izquierdo**.
             - **Bevacizumab** (anti-VEGF) en los demás.
-        - **MSI o déficit de MMR**: **inmunoterapia** (**pembrolizumab**) de primera línea (KEYNOTE-177).
-        - ***BRAF* V600E**: encorafenib + cetuximab en segunda línea.
+        - **MSI o déficit de MMR**: **inmunoterapia** de primera línea: **pembrolizumab** (KEYNOTE-177) o **nivolumab + ipilimumab** (CheckMate 8HW, con una sobrevida libre de progresión muy superior a la quimioterapia).
+        - ***BRAF* V600E**: **encorafenib + cetuximab + mFOLFOX6** ya en **primera línea** (BREAKWATER, incorporado por ESMO); encorafenib + cetuximab en segunda línea.
     - **Obstrucción**: cirugía de urgencia (resección con o sin estoma) o **prótesis endoscópica** como puente.
 
 - **Cuidados perioperatorios**: corrección de la **anemia** (hierro IV), nutrición, **profilaxis de TVP** (el cáncer y la cirugía abdominal aumentan el riesgo; extendida por 4 semanas en la cirugía oncológica abdominal), recuperación acelerada.
@@ -366,12 +366,15 @@ flowchart TD
 3. Gupta S, Lieberman D, Anderson JC, et al. Recommendations for follow-up after colonoscopy and polypectomy: a consensus update by the US Multi-Society Task Force on Colorectal Cancer. *Gastroenterology.* 2020;158(4):1131–1153.e5. doi:[10.1053/j.gastro.2019.10.026](https://doi.org/10.1053/j.gastro.2019.10.026)
 4. Hassan C, Antonelli G, Dumonceau JM, et al. Post-polypectomy colonoscopy surveillance: European Society of Gastrointestinal Endoscopy (ESGE) guideline – update 2020. *Endoscopy.* 2020;52(8):687–700. doi:[10.1055/a-1185-3109](https://doi.org/10.1055/a-1185-3109)
 5. Argilés G, Tabernero J, Labianca R, et al. Localised colon cancer: ESMO clinical practice guidelines for diagnosis, treatment and follow-up. *Ann Oncol.* 2020;31(10):1291–1305. doi:[10.1016/j.annonc.2020.06.022](https://doi.org/10.1016/j.annonc.2020.06.022)
-6. Cervantes A, Adam R, Roselló S, et al. Metastatic colorectal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2023;34(1):10–32. doi:[10.1016/j.annonc.2022.10.003](https://doi.org/10.1016/j.annonc.2022.10.003)
-7. Seppälä TT, Latchford A, Negoi I, et al. European guidelines from the EHTG and ESCP for Lynch syndrome: an updated third edition of the Mallorca guidelines based on gene and gender. *Br J Surg.* 2021;108(5):484–498. doi:[10.1002/bjs.11902](https://doi.org/10.1002/bjs.11902)
-8. André T, Meyerhardt J, Iveson T, et al. Effect of duration of adjuvant chemotherapy for patients with stage III colon cancer (IDEA collaboration): final results from a prospective, pooled analysis of six randomised, phase 3 trials. *Lancet Oncol.* 2020;21(12):1620–1629. doi:[10.1016/S1470-2045(20)30527-1](https://doi.org/10.1016/S1470-2045(20)30527-1)
-9. André T, Shiu KK, Kim TW, et al. Pembrolizumab in microsatellite-instability-high advanced colorectal cancer. *N Engl J Med.* 2020;383(23):2207–2218. doi:[10.1056/NEJMoa2017699](https://doi.org/10.1056/NEJMoa2017699)
-10. Sung H, Ferlay J, Siegel RL, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. *CA Cancer J Clin.* 2021;71(3):209–249. doi:[10.3322/caac.21660](https://doi.org/10.3322/caac.21660)
-11. Okada T, Tanaka K, Kawachi H, et al. International collaboration between Japan and Chile to improve detection rates in colorectal cancer screening. *Cancer.* 2016;122(1):71–77. doi:[10.1002/cncr.29715](https://doi.org/10.1002/cncr.29715)
-12. Quezada-Diaz FF, Acevedo J, González M, et al. Assessing the impact of a single qualitative fecal immunochemical test on colonoscopy prioritization and mortality in risk-stratified patients with suspected colorectal cancer: a retrospective cohort study. *Lancet Reg Health Am.* 2025;50:101201. doi:[10.1016/j.lana.2025.101201](https://doi.org/10.1016/j.lana.2025.101201)
-13. Muñoz-Montecinos C, Quirland C, Maza F, et al. Cost-effectiveness and budget impact of a fecal immunochemical test-based colorectal cancer screening program in a cancer center. *BMC Health Serv Res.* 2026;26(1):752. doi:[10.1186/s12913-026-14524-z](https://doi.org/10.1186/s12913-026-14524-z)
-14. Superintendencia de Salud. Cáncer colorrectal en personas de 15 años y más (GES 70). [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorectal-en-personas-de-15-anos-y-mas/)
+6. Cremolini C, Chalabi M, Elez E, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2026;37(6):759–776. doi:[10.1016/j.annonc.2026.03.005](https://doi.org/10.1016/j.annonc.2026.03.005)
+7. Elez E, Yoshino T, Shen L, et al. Encorafenib, cetuximab, and mFOLFOX6 in BRAF-mutated colorectal cancer. *N Engl J Med.* 2025;392(24):2425–2437. doi:[10.1056/NEJMoa2501912](https://doi.org/10.1056/NEJMoa2501912)
+8. André T, Elez E, Van Cutsem E, et al. Nivolumab plus ipilimumab in microsatellite-instability-high metastatic colorectal cancer. *N Engl J Med.* 2024;391(21):2014–2026. doi:[10.1056/NEJMoa2402141](https://doi.org/10.1056/NEJMoa2402141)
+9. Cervantes A, Adam R, Roselló S, et al. Metastatic colorectal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2023;34(1):10–32. doi:[10.1016/j.annonc.2022.10.003](https://doi.org/10.1016/j.annonc.2022.10.003)
+10. Seppälä TT, Latchford A, Negoi I, et al. European guidelines from the EHTG and ESCP for Lynch syndrome: an updated third edition of the Mallorca guidelines based on gene and gender. *Br J Surg.* 2021;108(5):484–498. doi:[10.1002/bjs.11902](https://doi.org/10.1002/bjs.11902)
+11. André T, Meyerhardt J, Iveson T, et al. Effect of duration of adjuvant chemotherapy for patients with stage III colon cancer (IDEA collaboration): final results from a prospective, pooled analysis of six randomised, phase 3 trials. *Lancet Oncol.* 2020;21(12):1620–1629. doi:[10.1016/S1470-2045(20)30527-1](https://doi.org/10.1016/S1470-2045(20)30527-1)
+12. André T, Shiu KK, Kim TW, et al. Pembrolizumab in microsatellite-instability-high advanced colorectal cancer. *N Engl J Med.* 2020;383(23):2207–2218. doi:[10.1056/NEJMoa2017699](https://doi.org/10.1056/NEJMoa2017699)
+13. Sung H, Ferlay J, Siegel RL, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. *CA Cancer J Clin.* 2021;71(3):209–249. doi:[10.3322/caac.21660](https://doi.org/10.3322/caac.21660)
+14. Okada T, Tanaka K, Kawachi H, et al. International collaboration between Japan and Chile to improve detection rates in colorectal cancer screening. *Cancer.* 2016;122(1):71–77. doi:[10.1002/cncr.29715](https://doi.org/10.1002/cncr.29715)
+15. Quezada-Diaz FF, Acevedo J, González M, et al. Assessing the impact of a single qualitative fecal immunochemical test on colonoscopy prioritization and mortality in risk-stratified patients with suspected colorectal cancer: a retrospective cohort study. *Lancet Reg Health Am.* 2025;50:101201. doi:[10.1016/j.lana.2025.101201](https://doi.org/10.1016/j.lana.2025.101201)
+16. Muñoz-Montecinos C, Quirland C, Maza F, et al. Cost-effectiveness and budget impact of a fecal immunochemical test-based colorectal cancer screening program in a cancer center. *BMC Health Serv Res.* 2026;26(1):752. doi:[10.1186/s12913-026-14524-z](https://doi.org/10.1186/s12913-026-14524-z)
+17. Superintendencia de Salud. Cáncer colorrectal en personas de 15 años y más (GES 70). [superdesalud.gob.cl](https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-colorectal-en-personas-de-15-anos-y-mas/)

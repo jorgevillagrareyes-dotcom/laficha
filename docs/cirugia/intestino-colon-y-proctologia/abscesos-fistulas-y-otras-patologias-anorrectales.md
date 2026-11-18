@@ -12,7 +12,7 @@ tags:
 Cirugía general · Coloproctología
 
 **Guías principales**
-Guía ASCRS de absceso anorrectal, fístula perianal y fístula rectovaginal (*Dis Colon Rectum* 2022) · Guía de la European Society of Coloproctology de enfermedad pilonidal (*Br J Surg* 2024) · Guía ASCRS de prolapso rectal (*Dis Colon Rectum* 2017) · Guía ESMO de cáncer anal (*Ann Oncol* 2021) · Guía IUSTI-Europa de verrugas anogenitales (2019)
+Guía ASCRS de absceso anorrectal, fístula perianal y fístula rectovaginal (*Dis Colon Rectum* 2022) · Guía de la European Society of Coloproctology de enfermedad pilonidal (*Br J Surg* 2024) · Guía ASCRS de manejo quirúrgico del prolapso rectal completo (*Dis Colon Rectum* 2026; reemplaza la de 2017) · Guía ESMO de cáncer anal (*Ann Oncol* 2021) · Guía IUSTI-Europa de verrugas anogenitales (2019)
 
 **Otras fuentes**
 Ensayo ANCHOR de tratamiento de lesiones precursoras del cáncer anal en personas con VIH (*N Engl J Med* 2022)
@@ -24,7 +24,7 @@ No.
 4.01.1.017 Abscesos y fístulas anorrectales · 4.01.1.018 Enfermedades del seno pilonidal · 4.01.2.009 Prolapso rectal (diagnóstico específico) · 4.01.1.019 Cáncer anal · 4.01.1.058 Condilomas (sospecha)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -300,8 +300,9 @@ flowchart TD
 
 1. Gaertner WB, Burgess PL, Davids JS, et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula. *Dis Colon Rectum.* 2022;65(8):964–985. doi:[10.1097/DCR.0000000000002473](https://doi.org/10.1097/DCR.0000000000002473)
 2. Ojo D, Gallo G, Kleijnen J, et al. European Society of Coloproctology guidelines for the management of pilonidal disease. *Br J Surg.* 2024;111(10):znae237. doi:[10.1093/bjs/znae237](https://doi.org/10.1093/bjs/znae237)
-3. Bordeianou L, Paquette I, Johnson E, et al. Clinical Practice Guidelines for the Treatment of Rectal Prolapse. *Dis Colon Rectum.* 2017;60(11):1121–1131. doi:[10.1097/DCR.0000000000000889](https://doi.org/10.1097/DCR.0000000000000889)
-4. Rao S, Guren MG, Khan K, et al. Anal cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. *Ann Oncol.* 2021;32(9):1087–1100. doi:[10.1016/j.annonc.2021.06.015](https://doi.org/10.1016/j.annonc.2021.06.015)
-5. Palefsky JM, Lee JY, Jay N, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer. *N Engl J Med.* 2022;386(24):2273–2282. doi:[10.1056/NEJMoa2201048](https://doi.org/10.1056/NEJMoa2201048)
-6. Gilson R, Nugent D, Werner RN, et al. 2019 IUSTI-Europe guideline for the management of anogenital warts. *J Eur Acad Dermatol Venereol.* 2020;34(8):1644–1653. doi:[10.1111/jdv.16522](https://doi.org/10.1111/jdv.16522)
-7. Urrejola G, Villalón R, Rodríguez N. Ulceración perianal: Dos casos de una rara manifestación de tuberculosis extrapulmonar. *Rev Med Chil.* 2010;138(2):220–222. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20461312/)
+3. Burgess PL, Hedrick TL, Simianu VV, et al. The American Society of Colon and Rectal Surgeons clinical practice guidelines for the surgical management of full-thickness rectal prolapse. *Dis Colon Rectum.* 2026. doi:[10.1097/DCR.0000000000004484](https://doi.org/10.1097/DCR.0000000000004484)
+4. Bordeianou L, Paquette I, Johnson E, et al. Clinical Practice Guidelines for the Treatment of Rectal Prolapse. *Dis Colon Rectum.* 2017;60(11):1121–1131. doi:[10.1097/DCR.0000000000000889](https://doi.org/10.1097/DCR.0000000000000889)
+5. Rao S, Guren MG, Khan K, et al. Anal cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. *Ann Oncol.* 2021;32(9):1087–1100. doi:[10.1016/j.annonc.2021.06.015](https://doi.org/10.1016/j.annonc.2021.06.015)
+6. Palefsky JM, Lee JY, Jay N, et al. Treatment of Anal High-Grade Squamous Intraepithelial Lesions to Prevent Anal Cancer. *N Engl J Med.* 2022;386(24):2273–2282. doi:[10.1056/NEJMoa2201048](https://doi.org/10.1056/NEJMoa2201048)
+7. Gilson R, Nugent D, Werner RN, et al. 2019 IUSTI-Europe guideline for the management of anogenital warts. *J Eur Acad Dermatol Venereol.* 2020;34(8):1644–1653. doi:[10.1111/jdv.16522](https://doi.org/10.1111/jdv.16522)
+8. Urrejola G, Villalón R, Rodríguez N. Ulceración perianal: Dos casos de una rara manifestación de tuberculosis extrapulmonar. *Rev Med Chil.* 2010;138(2):220–222. [PubMed](https://pubmed.ncbi.nlm.nih.gov/20461312/)

@@ -24,7 +24,7 @@ No (el GES de cáncer en menores de 15 años y el de linfomas en personas de 15 
 6.01.1.017 Melanoma maligno (sospecha, inicial, derivar) · 6.01.1.003 Cáncer de piel no melanoma: carcinoma basocelular y espinocelular (sospecha, inicial, derivar) · 6.01.1.029 Tumores premalignos: queratosis actínicas y enfermedad de Bowen (sospecha, inicial, completo) · 6.01.1.014 Linfomas cutáneos (sospecha, inicial, derivar) · 6.01.1.028 Tumores benignos de piel: quistes, lipomas, queratosis seborreica (específico, completo, completo) · 6.01.1.012 Granuloma piogénico (sospecha, completo, completo)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -201,7 +201,8 @@ flowchart TD
     - **Avanzado** o metastásico: **inhibidores de Hedgehog** (vismodegib, sonidegib); segunda línea: **cemiplimab**. Radioterapia si no es candidato a cirugía.
 - **CEC** (consenso europeo 2026):
     - **Extirpación** con margen de **5 mm** en el bajo riesgo y de **6–10 mm** en el alto riesgo (> 2 cm, profundidad > 6 mm, invasión perineural, labio u oreja, inmunosupresión), o **cirugía de Mohs**.
-    - Radioterapia adyuvante si hay invasión perineural extensa o márgenes comprometidos.
+    - Lo clave es lograr **márgenes histológicos libres** (evaluación posoperatoria del margen o Mohs). **Radioterapia** si no es candidato a cirugía, y adyuvante si hay invasión perineural extensa o márgenes comprometidos.
+    - **Ganglios regionales comprometidos**: decidir en un **comité oncológico**.
     - **Avanzado** o metastásico: **cemiplimab** o pembrolizumab (anti-PD-1).
     - **Trasplantados**: control dermatológico frecuente; considerar el cambio de la inmunosupresión (inhibidores de mTOR) y **nicotinamida** oral como quimioprevención.
 
@@ -282,6 +283,7 @@ flowchart TD
 3. Amaral T, Ottaviano M, Arance A, et al. Cutaneous melanoma: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up. *Ann Oncol.* 2025;36(1):10–30. doi:[10.1016/j.annonc.2024.11.006](https://doi.org/10.1016/j.annonc.2024.11.006)
 4. Peris K, Fargnoli MC, Kaufmann R, et al. European consensus-based interdisciplinary guideline for diagnosis and treatment of basal cell carcinoma: update 2023. *Eur J Cancer.* 2023;192:113254. doi:[10.1016/j.ejca.2023.113254](https://doi.org/10.1016/j.ejca.2023.113254)
 5. Stratigos AJ, Dessinioti C, Garbe C, et al. European consensus-based interdisciplinary guideline for invasive cutaneous squamous cell carcinoma. Part 1: diagnostics and prevention. Update 2026. *Eur J Cancer.* 2026;243:116763. doi:[10.1016/j.ejca.2026.116763](https://doi.org/10.1016/j.ejca.2026.116763)
-6. Kandolf L, Peris K, Malvehy J, et al. European consensus-based interdisciplinary guideline for diagnosis, treatment and prevention of actinic keratoses, epithelial UV-induced dysplasia and field cancerization. *J Eur Acad Dermatol Venereol.* 2024;38(6):1024–1047. doi:[10.1111/jdv.19897](https://doi.org/10.1111/jdv.19897)
-7. Latzka J, Assaf C, Bagot M, et al. EORTC consensus recommendations for the treatment of mycosis fungoides/Sézary syndrome: update 2023. *Eur J Cancer.* 2023;195:113343. doi:[10.1016/j.ejca.2023.113343](https://doi.org/10.1016/j.ejca.2023.113343)
-8. Madero Mendoza C, Fuentes Castro F, Perazzo Tornería F, Jarufe Gayoso A. Melanoma maligno de piel: ¿es algo de qué preocuparse? Un estudio sobre la tasa de egreso hospitalario entre los años 2018-2021 en Chile. *Rev Confluencia.* 2023;6(1):66–69. [https://revistas.udd.cl/index.php/confluencia/article/download/912/732/5801](https://revistas.udd.cl/index.php/confluencia/article/download/912/732/5801)
+6. Stratigos AJ, Dessinioti C, Garbe C, et al. European consensus-based interdisciplinary guideline for invasive cutaneous squamous cell carcinoma: Part 2. Treatment - update 2026. *Eur J Cancer.* 2026;243:116764. doi:[10.1016/j.ejca.2026.116764](https://doi.org/10.1016/j.ejca.2026.116764)
+7. Kandolf L, Peris K, Malvehy J, et al. European consensus-based interdisciplinary guideline for diagnosis, treatment and prevention of actinic keratoses, epithelial UV-induced dysplasia and field cancerization. *J Eur Acad Dermatol Venereol.* 2024;38(6):1024–1047. doi:[10.1111/jdv.19897](https://doi.org/10.1111/jdv.19897)
+8. Latzka J, Assaf C, Bagot M, et al. EORTC consensus recommendations for the treatment of mycosis fungoides/Sézary syndrome: update 2023. *Eur J Cancer.* 2023;195:113343. doi:[10.1016/j.ejca.2023.113343](https://doi.org/10.1016/j.ejca.2023.113343)
+9. Madero Mendoza C, Fuentes Castro F, Perazzo Tornería F, Jarufe Gayoso A. Melanoma maligno de piel: ¿es algo de qué preocuparse? Un estudio sobre la tasa de egreso hospitalario entre los años 2018-2021 en Chile. *Rev Confluencia.* 2023;6(1):66–69. [https://revistas.udd.cl/index.php/confluencia/article/download/912/732/5801](https://revistas.udd.cl/index.php/confluencia/article/download/912/732/5801)
