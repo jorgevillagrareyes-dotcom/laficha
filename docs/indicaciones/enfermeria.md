@@ -12,7 +12,7 @@ RCP 2017: NEWS2 · CDC/HICPAC 2009: prevención de la ITU asociada a catéter ur
 REVISE 2024 · AABB 2023 (transfusión) · EPUAP/NPIAP/PPPIA 2025 (lesiones por presión) · Guías mundiales de caídas 2022 · NICE CG103 (delirium) · Ver [insulina](insulina.md), [fluidoterapia](fluidoterapia.md), [reposo](reposo.md), [inmovilidad y úlceras por presión](../geriatria/inmovilidad-y-ulceras-por-presion.md) y [delirium](../geriatria/delirium.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -59,7 +59,7 @@ Tabla adaptada de RCP 2017 (NEWS2). En la **EPOC con hipercapnia**, el NEWS2 usa
 
 | Cuidado | Cuándo | Por qué | Fuente |
 |---|---|---|---|
-| **HGT** | DM con insulina o hiperglicemia; nutrición enteral o parenteral; corticoides en dosis altas | Ajustar la insulina; detectar hipoglicemia | ADA 2025 |
+| **HGT** | DM con insulina o hiperglicemia; nutrición enteral o parenteral; corticoides en dosis altas | Ajustar la insulina; detectar hipoglicemia | ADA 2025–2026 |
 | **Balance hídrico** | IC, LRA, cirrosis con ascitis, fluidos EV, sepsis | Guiar el volumen y los diuréticos | Ver [fluidoterapia](fluidoterapia.md) |
 | **Peso diario** | IC descompensada, ascitis, ERC | Mejor que el balance para estimar el volumen acumulado | — |
 | **Diuresis horaria** | Paciente crítico o en shock | Meta ≥ 0,5 mL/kg/h | — |
@@ -164,4 +164,5 @@ En la **sala de medicina**, sin esos factores, la profilaxis **no está indicada
 8. European Pressure Ulcer Advisory Panel, National Pressure Injury Advisory Panel, Pan Pacific Pressure Injury Alliance. Prevention and treatment of pressure ulcers/injuries: clinical practice guideline. The International Guideline. 4th ed. 2025 (guía en línea). [internationalguideline.com](https://internationalguideline.com/)
 9. Montero-Odasso M, van der Velde N, Martin FC, et al. World guidelines for falls prevention and management for older adults: a global initiative. *Age Ageing.* 2022;51:afac205. doi:[10.1093/ageing/afac205](https://doi.org/10.1093/ageing/afac205)
 10. National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management in hospital and long-term care (CG103). London: NICE; 2010, actualizada en enero de 2023. [nice.org.uk](https://www.nice.org.uk/guidance/cg103)
-11. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. doi:[10.2337/dc25-S016](https://doi.org/10.2337/dc25-S016)
+11. American Diabetes Association Professional Practice Committee; Bajaj M, McCoy RG, Balapattabi K, et al. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care.* 2026;49(Suppl 1):S339–S355. doi:[10.2337/dc26-S016](https://doi.org/10.2337/dc26-S016)
+12. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. doi:[10.2337/dc25-S016](https://doi.org/10.2337/dc25-S016)

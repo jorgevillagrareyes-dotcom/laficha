@@ -6,13 +6,13 @@
 7 · Fármacos crónicos (qué mantener, qué suspender y qué ajustar al hospitalizar)
 
 **Fuentes principales**
-AHA/ACC 2024 y ACC/AHA 2014: manejo cardiovascular perioperatorio de la cirugía no cardíaca · ADA 2025: diabetes en el hospital · ESE/ES 2024: insuficiencia suprarrenal inducida por glucocorticoides · KDIGO 2024: ERC
+AHA/ACC 2024 y ACC/AHA 2014: manejo cardiovascular perioperatorio de la cirugía no cardíaca · ADA 2025 y 2026: diabetes en el hospital · ESE/ES 2024: insuficiencia suprarrenal inducida por glucocorticoides · KDIGO 2024: ERC
 
 **Otras fuentes**
 Tam 2005 (errores en la historia de medicamentos al ingreso) · POISE 2008 · AGS Beers 2023 · Ver [insulina](insulina.md), [tromboprofilaxis y anticoagulación](tromboprofilaxis.md), [ERC](../nefrologia/enfermedad-renal-cronica.md), [LRA](../nefrologia/lesion-renal-aguda.md), [insuficiencia suprarrenal](../endocrinologia/insuficiencia-suprarrenal.md) y [Parkinson](../neurologia/parkinson-temblor-y-trastornos-de-la-marcha.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -119,7 +119,8 @@ Octubre 2026
 2. Thompson A, Fleischmann KE, Smilowitz NR, et al. 2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM Guideline for Perioperative Cardiovascular Management for Noncardiac Surgery. *Circulation.* 2024;150(19):e351–e442. doi:[10.1161/CIR.0000000000001285](https://doi.org/10.1161/CIR.0000000000001285)
 3. Fleisher LA, Fleischmann KE, Auerbach AD, et al. 2014 ACC/AHA guideline on perioperative cardiovascular evaluation and management of patients undergoing noncardiac surgery: executive summary. *Circulation.* 2014;130(24):2215–2245. doi:[10.1161/CIR.0000000000000105](https://doi.org/10.1161/CIR.0000000000000105)
 4. POISE Study Group. Effects of extended-release metoprolol succinate in patients undergoing non-cardiac surgery (POISE trial): a randomised controlled trial. *Lancet.* 2008;371(9627):1839–1847. doi:[10.1016/S0140-6736(08)60601-7](https://doi.org/10.1016/S0140-6736(08)60601-7)
-5. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. doi:[10.2337/dc25-S016](https://doi.org/10.2337/dc25-S016)
-6. Beuschlein F, Else T, Bancos I, et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. *J Clin Endocrinol Metab.* 2024;109:1657–1683. doi:[10.1210/clinem/dgae250](https://doi.org/10.1210/clinem/dgae250)
-7. Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. *Kidney Int.* 2024;105(4S):S117–S314. [kdigo.org](https://kdigo.org/guidelines/ckd-evaluation-and-management/)
-8. 2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. *J Am Geriatr Soc.* 2023;71(7):2052–2081. doi:[10.1111/jgs.18372](https://doi.org/10.1111/jgs.18372)
+5. American Diabetes Association Professional Practice Committee; Bajaj M, McCoy RG, Balapattabi K, et al. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care.* 2026;49(Suppl 1):S339–S355. doi:[10.2337/dc26-S016](https://doi.org/10.2337/dc26-S016)
+6. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. doi:[10.2337/dc25-S016](https://doi.org/10.2337/dc25-S016)
+7. Beuschlein F, Else T, Bancos I, et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. *J Clin Endocrinol Metab.* 2024;109:1657–1683. doi:[10.1210/clinem/dgae250](https://doi.org/10.1210/clinem/dgae250)
+8. Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. *Kidney Int.* 2024;105(4S):S117–S314. [kdigo.org](https://kdigo.org/guidelines/ckd-evaluation-and-management/)
+9. 2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. *J Am Geriatr Soc.* 2023;71(7):2052–2081. doi:[10.1111/jgs.18372](https://doi.org/10.1111/jgs.18372)

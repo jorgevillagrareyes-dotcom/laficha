@@ -6,13 +6,13 @@
 Fármacos y cuidados de enfermería: glicemia capilar (HGT), insulina basal, prandial y de corrección, hipoglicemia
 
 **Fuentes principales**
-ADA 2025: atención de la diabetes en el hospital (sección 16) · Endocrine Society 2022: hiperglicemia en el hospitalizado no crítico (Korytkowski) · Ensayos RABBIT 2 (2007), RABBIT 2 Surgery (2011), DEAN (2009) y Vellanki (2022)
+ADA 2025 y 2026: atención de la diabetes en el hospital (sección 16) · Endocrine Society 2022: hiperglicemia en el hospitalizado no crítico (Korytkowski) · Ensayos RABBIT 2 (2007), RABBIT 2 Surgery (2011), DEAN (2009) y Vellanki (2022)
 
 **Otras fuentes**
 Protocolo del ensayo NCT02408120 (Emory, Umpierrez) para las dosis y la escala de corrección · Ver [diabetes tipo 2](../endocrinologia/diabetes-mellitus-tipo-2.md), [diabetes tipo 1 y por corticoides](../endocrinologia/diabetes-tipo-1-y-otros-tipos.md), [hipoglicemia](../endocrinologia/hipoglicemia.md) y [CAD y EHH](../endocrinologia/cetoacidosis-y-estado-hiperosmolar.md)
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -130,7 +130,7 @@ Todo hospital debe tener un **protocolo de hipoglicemia** (ADA 16.12), y toda in
 |---|---|---|
 | **Régimen cero o ingesta escasa** | **Basal** (en el protocolo de Emory se mantiene completa incluso el día de un procedimiento) + corrección **cada 6 h** con la columna **sensible**; **sin prandial** | ADA 16.8; protocolo Emory |
 | **Corticoides en la mañana** (prednisona, metilprednisolona) | **NPH en la mañana junto con el corticoide** (peak a las 4–8 h, cuando sube la glicemia); esquema práctico frecuente: **~ 0,1 U/kg por cada 10 mg de prednisona**, máximo 0,4 U/kg; medir la glicemia antes del almuerzo y la cena; **bajar la insulina** al reducir el corticoide | ADA; Endocrine Society 2022; ver [diabetes por corticoides](../endocrinologia/diabetes-tipo-1-y-otros-tipos.md) |
-| **Nutrición enteral en bolos** | ~ **1 U** de insulina regular o rápida por cada **10–15 g de carbohidratos**, antes de cada bolo | ADA 2025 |
+| **Nutrición enteral en bolos** | ~ **1 U** de insulina regular o rápida por cada **10–15 g de carbohidratos**, antes de cada bolo | ADA 2025–2026 |
 | **Paciente crítico o glicemia > 400 con cetosis** | **Insulina EV en infusión** (meta 140–180 mg/dL en la UCI) y descartar CAD o EHH | ADA 16.5a; ver [CAD y EHH](../endocrinologia/cetoacidosis-y-estado-hiperosmolar.md) |
 | **Paso de insulina EV a SC** | Poner la **basal SC 1–2 h antes** de suspender la infusión | Consenso de crisis hiperglicémicas 2024 |
 | **Hiperglicemia sin diabetes conocida** | HbA1c; corrección y, si persiste ≥ 180, insulina programada | Endocrine Society 2022 |
@@ -162,10 +162,11 @@ Todo hospital debe tener un **protocolo de hipoglicemia** (ADA 16.12), y toda in
 
 ## Referencias
 
-1. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11635037/) (la edición 2026 mantiene estas recomendaciones y agrega metas perioperatorias)
-2. Korytkowski MT, Muniyappa R, Antinori-Lent K, et al. Management of Hyperglycemia in Hospitalized Adult Patients in Non-Critical Care Settings: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab.* 2022;107(8):2101–2128. doi:[10.1210/clinem/dgac278](https://doi.org/10.1210/clinem/dgac278)
-3. Umpierrez GE, Smiley D, Zisman A, et al. Randomized study of basal-bolus insulin therapy in the inpatient management of patients with type 2 diabetes (RABBIT 2 trial). *Diabetes Care.* 2007;30(9):2181–2186. doi:[10.2337/dc07-0295](https://doi.org/10.2337/dc07-0295)
-4. Umpierrez GE, Smiley D, Jacobs S, et al. Randomized study of basal-bolus insulin therapy in the inpatient management of patients with type 2 diabetes undergoing general surgery (RABBIT 2 surgery). *Diabetes Care.* 2011;34(2):256–261. doi:[10.2337/dc10-1407](https://doi.org/10.2337/dc10-1407)
-5. Umpierrez GE, Hor T, Smiley D, et al. Comparison of inpatient insulin regimens with detemir plus aspart versus neutral protamine Hagedorn plus regular in medical patients with type 2 diabetes (DEAN). *J Clin Endocrinol Metab.* 2009;94(2):564–569. doi:[10.1210/jc.2008-1441](https://doi.org/10.1210/jc.2008-1441)
-6. Vellanki P, Cardona S, Galindo RJ, et al. Efficacy and Safety of Intensive Versus Nonintensive Supplemental Insulin With a Basal-Bolus Insulin Regimen in Hospitalized Patients With Type 2 Diabetes: A Randomized Clinical Study. *Diabetes Care.* 2022;45(10):2217–2223. doi:[10.2337/dc21-1606](https://doi.org/10.2337/dc21-1606)
-7. Vellanki P, Umpierrez GE, et al. Benefits of Insulin Supplementation for Correction of Hyperglycemia in Patients With Type 2 Diabetes Treated with Basal Bolus Insulin Regimen. Protocolo del ensayo NCT02408120, Emory University, versión del 14 de diciembre de 2017. [clinicaltrials.gov](https://cdn.clinicaltrials.gov/large-docs/20/NCT02408120/Prot_SAP_000.pdf)
+1. American Diabetes Association Professional Practice Committee; Bajaj M, McCoy RG, Balapattabi K, et al. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. *Diabetes Care.* 2026;49(Suppl 1):S339–S355. doi:[10.2337/dc26-S016](https://doi.org/10.2337/dc26-S016)
+2. American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2025. *Diabetes Care.* 2025;48(Suppl 1):S321–S334. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11635037/) (la edición 2026 mantiene estas recomendaciones y agrega metas perioperatorias)
+3. Korytkowski MT, Muniyappa R, Antinori-Lent K, et al. Management of Hyperglycemia in Hospitalized Adult Patients in Non-Critical Care Settings: An Endocrine Society Clinical Practice Guideline. *J Clin Endocrinol Metab.* 2022;107(8):2101–2128. doi:[10.1210/clinem/dgac278](https://doi.org/10.1210/clinem/dgac278)
+4. Umpierrez GE, Smiley D, Zisman A, et al. Randomized study of basal-bolus insulin therapy in the inpatient management of patients with type 2 diabetes (RABBIT 2 trial). *Diabetes Care.* 2007;30(9):2181–2186. doi:[10.2337/dc07-0295](https://doi.org/10.2337/dc07-0295)
+5. Umpierrez GE, Smiley D, Jacobs S, et al. Randomized study of basal-bolus insulin therapy in the inpatient management of patients with type 2 diabetes undergoing general surgery (RABBIT 2 surgery). *Diabetes Care.* 2011;34(2):256–261. doi:[10.2337/dc10-1407](https://doi.org/10.2337/dc10-1407)
+6. Umpierrez GE, Hor T, Smiley D, et al. Comparison of inpatient insulin regimens with detemir plus aspart versus neutral protamine Hagedorn plus regular in medical patients with type 2 diabetes (DEAN). *J Clin Endocrinol Metab.* 2009;94(2):564–569. doi:[10.1210/jc.2008-1441](https://doi.org/10.1210/jc.2008-1441)
+7. Vellanki P, Cardona S, Galindo RJ, et al. Efficacy and Safety of Intensive Versus Nonintensive Supplemental Insulin With a Basal-Bolus Insulin Regimen in Hospitalized Patients With Type 2 Diabetes: A Randomized Clinical Study. *Diabetes Care.* 2022;45(10):2217–2223. doi:[10.2337/dc21-1606](https://doi.org/10.2337/dc21-1606)
+8. Vellanki P, Umpierrez GE, et al. Benefits of Insulin Supplementation for Correction of Hyperglycemia in Patients With Type 2 Diabetes Treated with Basal Bolus Insulin Regimen. Protocolo del ensayo NCT02408120, Emory University, versión del 14 de diciembre de 2017. [clinicaltrials.gov](https://cdn.clinicaltrials.gov/large-docs/20/NCT02408120/Prot_SAP_000.pdf)
