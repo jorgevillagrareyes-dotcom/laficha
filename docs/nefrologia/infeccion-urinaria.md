@@ -23,7 +23,7 @@ Guías EAU de infecciones urológicas · Ensayos de duración en hombres (JAMA 2
 1.09.1.011 Cistitis (específico, completo, completo) · 1.09.1.016 Pielonefritis aguda no complicada (específico, completo, completo) · 1.09.2.011 Pielonefritis aguda complicada (sospecha, inicial, completo) · 1.09.1.005 Bacteriuria asintomática (sospecha, inicial, completo)
 
 **Revisado**
-Septiembre 2026
+Noviembre 2026
 
 </div>
 

@@ -14,7 +14,7 @@ tags:
 Urología · Geriatría · Urgencia
 
 **Guías principales**
-Guía EAU de síntomas del tracto urinario inferior masculino no neurogénicos, resumen 2026 (*Eur Urol*) · Guía AUA de hiperplasia prostática benigna, enmienda 2023 (*J Urol* 2024)
+Guía EAU de síntomas del tracto urinario inferior masculino no neurogénicos, resumen 2026 (*Eur Urol*) · Guía AUA 2026 de síntomas urinarios por hiperplasia prostática benigna, partes I a III (*J Urol* 2026)
 
 **Otras fuentes**
 Ensayo MTOPS de doxazosina, finasterida y terapia combinada (*N Engl J Med* 2003) · Ensayo ALFAUR de alfuzosina en la retención urinaria aguda (*Urology* 2005) · Ficha GES 35 de la Superintendencia de Salud
@@ -26,7 +26,7 @@ Sí: **tratamiento de la hiperplasia benigna de la próstata en personas sintom�
 4.03.1.013 Hiperplasia prostática benigna · 4.03.1.027 Uropatía obstructiva baja · 4.03.1.008 Estenosis uretral (sospecha) · 4.03.2.006 Retención urinaria aguda · 4.03.2.005 Prostatitis aguda (diagnóstico específico) · 4.03.3.002 Epidemiología del adenoma de próstata
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -105,7 +105,7 @@ flowchart TD
     I --> J["Retención urinaria aguda"]
 ```
 
-*Figura 1. Fisiopatología de la obstrucción prostática benigna y sus complicaciones. Esquema propio basado en las guías EAU 2026 y AUA 2023.*
+*Figura 1. Fisiopatología de la obstrucción prostática benigna y sus complicaciones. Esquema propio basado en las guías EAU 2026 y AUA 2023 y 2026.*
 
 ## Clasificación
 
@@ -139,7 +139,7 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Evaluación de los STUI masculinos (EAU 2026 y AUA 2023)"
+!!! guia "Evaluación de los STUI masculinos (EAU 2026 y AUA 2026)"
     - **Anamnesis** (incluidos los **fármacos**), **puntaje de síntomas** (IPSS) y **diario miccional** si predomina la nicturia o la polaquiuria.
     - **Examen físico** con **tacto rectal**.
     - **Orina completa** (ITU, hematuria) en todos.
@@ -188,7 +188,7 @@ flowchart TD
 
 ## Tratamiento
 
-### HPB (EAU 2026, AUA 2023)
+### HPB (EAU 2026, AUA 2026)
 
 - **Síntomas leves** o que no molestan: **observación vigilada** con **cambios de hábitos**:
     - Reducir los líquidos en la noche, evitar la **cafeína** y el **alcohol**, orinar antes de dormir.
@@ -196,7 +196,7 @@ flowchart TD
     - Tratar la constipación.
 - **Síntomas moderados a graves que molestan**:
     - **Alfabloqueador** (tamsulosina, alfuzosina, doxazosina): alivio en **días**. Efectos: hipotensión ortostática, mareos, **eyaculación retrógrada**. Avisar antes de una **cirugía de cataratas** (síndrome del iris flácido).
-    - **Inhibidor de la 5-alfa reductasa** (finasterida, dutasterida) si la **próstata es grande** (> 30–40 mL o APE > 1,5 ng/mL): reduce el **volumen prostático**, el riesgo de **retención** y de **cirugía**; efecto en **3–6 meses**. **Reduce el APE a la mitad** (multiplicarlo por 2 al interpretarlo).
+    - **Inhibidor de la 5-alfa reductasa** (finasterida, dutasterida) si la **próstata es grande** (> 30–40 mL o APE > 1,5 ng/mL): reduce el **volumen prostático**, el riesgo de **retención** y de **cirugía**; efecto en **3–6 meses**. **Reduce el APE a la mitad** (multiplicarlo por 2 al interpretarlo); la AUA 2026 pide advertirlo, sobre todo en los hombres en **vigilancia activa** de un cáncer de próstata.
     - **Terapia combinada** (alfabloqueador + 5-ARI) en próstatas grandes y riesgo de progresión. En el ensayo **MTOPS**, la combinación redujo la progresión clínica más que cada fármaco por separado.
     - **Síntomas de llenado** persistentes: agregar un **antimuscarínico** o **mirabegrón**, con residuo bajo.
     - **Tadalafilo 5 mg/día**: si además hay disfunción eréctil.
@@ -314,8 +314,11 @@ flowchart TD
 ## Referencias
 
 1. Baboudjian M, Creta M, Pyrgidis N, et al. Summary Paper on the 2026 European Association of Urology Guidelines on the Management of Non-neurogenic Male Lower Urinary Tract Symptoms. *Eur Urol.* 2026;90(1):44–59. doi:[10.1016/j.eururo.2026.03.020](https://doi.org/10.1016/j.eururo.2026.03.020)
-2. Sandhu JS, Bixler BR, Dahm P, et al. Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia (BPH): AUA Guideline Amendment 2023. *J Urol.* 2024;211(1):11–19. doi:[10.1097/JU.0000000000003698](https://doi.org/10.1097/JU.0000000000003698)
-3. McConnell JD, Roehrborn CG, Bautista OM, et al. The long-term effect of doxazosin, finasteride, and combination therapy on the clinical progression of benign prostatic hyperplasia. *N Engl J Med.* 2003;349(25):2387–2398. doi:[10.1056/NEJMoa030656](https://doi.org/10.1056/NEJMoa030656)
-4. McNeill SA, Hargreave TB, Roehrborn CG; Alfaur Study Group. Alfuzosin 10 mg once daily in the management of acute urinary retention: results of a double-blind placebo-controlled study. *Urology.* 2005;65(1):83–89. doi:[10.1016/j.urology.2004.07.042](https://doi.org/10.1016/j.urology.2004.07.042)
-5. Inzunza G, Rada G, Majerson A. ¿Resección transuretral bipolar o monopolar para hiperplasia prostática benigna? *Medwave.* 2018;18(1):e7134. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29351269/)
-6. Superintendencia de Salud. Problema de salud 35: Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas. [Superintendencia de Salud](https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas)
+2. Goueli R, Badlani GH, Welliver C, et al. Management of lower urinary tract symptoms attributed to benign prostatic hyperplasia: AUA guideline (2026). Part I: presentation and evaluation. *J Urol.* 2026;216(2):143–151. doi:[10.1097/JU.0000000000005097](https://doi.org/10.1097/JU.0000000000005097)
+3. Goueli R, Badlani GH, Welliver C, et al. Management of lower urinary tract symptoms attributed to benign prostatic hyperplasia: AUA guideline (2026). Part II: medical management. *J Urol.* 2026;216(2):152–160. doi:[10.1097/JU.0000000000005098](https://doi.org/10.1097/JU.0000000000005098)
+4. Goueli R, Badlani GH, Welliver C, et al. Management of lower urinary tract symptoms attributed to benign prostatic hyperplasia: AUA guideline (2026). Part III: procedural/surgical management. *J Urol.* 2026;216(2):161–170. doi:[10.1097/JU.0000000000005099](https://doi.org/10.1097/JU.0000000000005099)
+5. Sandhu JS, Bixler BR, Dahm P, et al. Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia (BPH): AUA Guideline Amendment 2023. *J Urol.* 2024;211(1):11–19. doi:[10.1097/JU.0000000000003698](https://doi.org/10.1097/JU.0000000000003698)
+6. McConnell JD, Roehrborn CG, Bautista OM, et al. The long-term effect of doxazosin, finasteride, and combination therapy on the clinical progression of benign prostatic hyperplasia. *N Engl J Med.* 2003;349(25):2387–2398. doi:[10.1056/NEJMoa030656](https://doi.org/10.1056/NEJMoa030656)
+7. McNeill SA, Hargreave TB, Roehrborn CG; Alfaur Study Group. Alfuzosin 10 mg once daily in the management of acute urinary retention: results of a double-blind placebo-controlled study. *Urology.* 2005;65(1):83–89. doi:[10.1016/j.urology.2004.07.042](https://doi.org/10.1016/j.urology.2004.07.042)
+8. Inzunza G, Rada G, Majerson A. ¿Resección transuretral bipolar o monopolar para hiperplasia prostática benigna? *Medwave.* 2018;18(1):e7134. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29351269/)
+9. Superintendencia de Salud. Problema de salud 35: Tratamiento de la hiperplasia benigna de la próstata en personas sintomáticas. [Superintendencia de Salud](https://www.superdesalud.gob.cl/orientacion-en-salud/tratamiento-de-la-hiperplasia-benigna-de-la-prostata-en-personas-sintomaticas)

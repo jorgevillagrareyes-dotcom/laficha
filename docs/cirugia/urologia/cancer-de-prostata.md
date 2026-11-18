@@ -12,7 +12,7 @@ tags:
 Urología · Oncología
 
 **Guías principales**
-Guía EAU-EANM-ESTRO-ESUR-ISUP-SIOG de cáncer de próstata, actualización 2024, parte I: tamizaje, diagnóstico y tratamiento local (*Eur Urol* 2024)
+Guía EAU-EANM-ESTRO-ESUR-ISUP-SIOG de cáncer de próstata, actualización 2026, parte I: tamizaje, diagnóstico y tratamiento local (*Eur Urol* 2026)
 
 **Otras fuentes**
 Ensayo europeo de tamizaje ERSPC, seguimiento a 23 años (*N Engl J Med* 2025) · Revisión Cochrane de tamizaje con APE (2026) · Ensayo PRECISION de biopsia dirigida por RM (*N Engl J Med* 2018) · Tendencias de mortalidad en Chile 1955–2019 (*Rev Med Chil* 2022) · Etapa al diagnóstico en una cohorte chilena (*Ecancermedicalscience* 2026) · Ficha GES 28
@@ -24,7 +24,7 @@ Sí: **cáncer de próstata en personas de 15 años y más (GES 28)**. Etapifica
 4.03.1.002 Cáncer de próstata (sospecha, inicial, derivar) · 4.03.3.001 Epidemiología del cáncer de próstata · 4.03.3.005 Tamizaje (screening) de cáncer de próstata
 
 **Revisado**
-Octubre 2026
+Noviembre 2026
 
 </div>
 
@@ -94,7 +94,7 @@ flowchart TD
     G --> I["Deprivación androgénica →<br/>con el tiempo, resistencia a la castración"]
 ```
 
-*Figura 1. Historia natural del cáncer de próstata. Esquema propio basado en la guía EAU 2024.*
+*Figura 1. Historia natural del cáncer de próstata. Esquema propio basado en las guías EAU 2024 y 2026.*
 
 ## Clasificación
 
@@ -106,12 +106,14 @@ flowchart TD
 | **4** | 8 | Alto grado |
 | **5** | 9–10 | Alto grado |
 
-| Riesgo (EAU, enfermedad localizada) | Criterios |
+| Riesgo (EAU clásica, enfermedad localizada) | Criterios |
 |---|---|
 | **Bajo** | APE < 10 ng/mL **y** ISUP 1 **y** cT1–cT2a |
 | **Intermedio** | APE 10–20 **o** ISUP 2–3 **o** cT2b |
 | **Alto** | APE > 20 **o** ISUP 4–5 **o** cT2c |
 | **Localmente avanzado** | cT3–cT4 o ganglios positivos (cN+) |
+
+La guía **EAU 2026** introdujo una **nueva clasificación de riesgo de cinco niveles**; la tabla muestra la clásica de tres grupos, que sigue siendo la base para entender el riesgo.
 
 ## Clínica
 
@@ -125,14 +127,14 @@ flowchart TD
 
 ## Diagnóstico
 
-!!! guia "Tamizaje y diagnóstico (EAU 2024)"
+!!! guia "Tamizaje y diagnóstico (EAU 2026)"
     - **No** hacer tamizaje masivo con APE **sin informar** al paciente de los beneficios y riesgos (sobrediagnóstico y sobretratamiento).
     - **Ofrecer un tamizaje basado en el riesgo**, con decisión compartida, a hombres **bien informados** desde los **50 años**; desde los **45 años** con **antecedente familiar** o **ascendencia africana**; desde los **40 años** con mutación **BRCA2**.
     - No ofrecerlo a hombres con **expectativa de vida menor de 15 años**.
     - Ante un **APE elevado**: **repetirlo** en unas semanas (en el mismo laboratorio, sin infección ni instrumentación reciente) antes de seguir el estudio.
-    - Hacer una **RM multiparamétrica** de próstata **antes de la biopsia**: si es sospechosa (PI-RADS ≥ 3), **biopsia dirigida** + sistemática; si es negativa y el riesgo clínico es bajo, se puede **omitir la biopsia** tras conversarlo con el paciente.
+    - Hacer una **RM multiparamétrica** de próstata **antes de la biopsia**: si es sospechosa (PI-RADS ≥ 3), **biopsia dirigida** + biopsias **regionales** (alrededor de la lesión; EAU 2026); si es negativa y el riesgo clínico es bajo, se puede **omitir la biopsia** tras conversarlo con el paciente.
     - Biopsia por vía **transperineal** de preferencia (menos infecciones que la transrectal).
-    - **Etapificación**: en el riesgo intermedio desfavorable y alto, **imagen** de extensión (TC y cintigrafía ósea, o **PET-PSMA**).
+    - **Etapificación**: en el riesgo intermedio desfavorable y alto, **imagen** de extensión (TC y cintigrafía ósea, o **PET-PSMA**, la técnica más sensible para detectar metástasis).
 
 - **Ensayo PRECISION** (2018): la **biopsia dirigida por RM** detectó **más cánceres clínicamente significativos** y **menos insignificantes** que la biopsia sistemática estándar.
 
@@ -170,11 +172,11 @@ flowchart TD
 
 ## Tratamiento
 
-!!! guia "Tratamiento según el riesgo (EAU 2024)"
-    - **Riesgo bajo**: **vigilancia activa** (APE, tacto rectal, RM y biopsias periódicas) como opción preferida; tratamiento radical si progresa.
+!!! guia "Tratamiento según el riesgo (EAU 2026)"
+    - **Riesgo bajo**: **vigilancia activa** (APE, tacto rectal, RM y biopsias periódicas) como opción preferida; tratamiento radical si progresa. La EAU 2026 la extiende a pacientes seleccionados de **riesgo intermedio favorable con ISUP 2**.
     - **Expectativa de vida corta**: **observación (espera vigilada)** y tratamiento de los síntomas si aparecen.
-    - **Riesgo intermedio y alto localizado**: **prostatectomía radical** (con linfadenectomía según el riesgo) o **radioterapia** + **deprivación androgénica** (corta en el intermedio, larga de 2–3 años en el alto).
-    - **Localmente avanzado**: radioterapia + deprivación androgénica prolongada, o prostatectomía como parte de un tratamiento multimodal.
+    - **Riesgo intermedio y alto localizado**: **prostatectomía radical** (con linfadenectomía según el riesgo) o **radioterapia** + **deprivación androgénica** (corta en el intermedio, larga de 2–3 años en el alto). En el riesgo intermedio, considerar la radioterapia **hipofraccionada**.
+    - **Localmente avanzado**: radioterapia + deprivación androgénica prolongada (con **ganglios positivos, cN1**: radioterapia al tumor primario + tratamiento hormonal **intensificado** y prolongado), o prostatectomía como parte de un tratamiento multimodal.
     - **Metastásico**: **deprivación androgénica** (agonista o antagonista de la LHRH, u orquiectomía) **siempre combinada** con un **inhibidor de la vía androgénica** (abiraterona, enzalutamida, apalutamida, darolutamida) ± docetaxel. Radioterapia a la próstata en la enfermedad de bajo volumen.
     - **Resistente a la castración**: nuevos agentes hormonales, docetaxel o cabazitaxel, **lutecio-PSMA**, inhibidores de PARP (mutaciones BRCA), ácido zoledrónico o denosumab (prevención de eventos óseos).
 
@@ -235,7 +237,7 @@ flowchart TD
 
 ??? repaso "2. Hombre de 65 años con un APE de 7,8 ng/mL (repetido: 7,5) y tacto rectal con un nódulo duro en el lóbulo derecho. ¿Cuál es el estudio?"
     - **Sospecha de cáncer de próstata**: derivar a urología.
-    - **RM multiparamétrica** de próstata y **biopsia dirigida + sistemática** (idealmente transperineal).
+    - **RM multiparamétrica** de próstata y **biopsia dirigida + regional** (idealmente transperineal).
     - Con la confirmación, **GES 28**: etapificación según el riesgo (TC y cintigrafía ósea o PET-PSMA) y tratamiento.
 
 ??? repaso "3. La biopsia muestra un adenocarcinoma ISUP 1 (Gleason 3+3) en 2 de 12 cilindros, APE 6, cT1c. Tiene 62 años y está sano. ¿Qué tratamiento corresponde?"
@@ -255,10 +257,11 @@ flowchart TD
 
 ## Referencias
 
-1. Cornford P, van den Bergh RCN, Briers E, et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer-2024 Update. Part I: Screening, Diagnosis, and Local Treatment with Curative Intent. *Eur Urol.* 2024;86(2):148–163. doi:[10.1016/j.eururo.2024.03.027](https://doi.org/10.1016/j.eururo.2024.03.027)
-2. Roobol MJ, de Vos II, Månsson M, et al. European Study of Prostate Cancer Screening - 23-Year Follow-up. *N Engl J Med.* 2025;393(17):1669–1680. doi:[10.1056/NEJMoa2503223](https://doi.org/10.1056/NEJMoa2503223)
-3. Franco JV, Hwang EC, Jung JH, et al. Prostate-specific antigen (PSA) test for prostate cancer screening. *Cochrane Database Syst Rev.* 2026;(5):CD004720. doi:[10.1002/14651858.CD004720.pub4](https://doi.org/10.1002/14651858.CD004720.pub4)
-4. Kasivisvanathan V, Rannikko AS, Borghi M, et al. MRI-Targeted or Standard Biopsy for Prostate-Cancer Diagnosis. *N Engl J Med.* 2018;378(19):1767–1777. doi:[10.1056/NEJMoa1801993](https://doi.org/10.1056/NEJMoa1801993)
-5. López JF, Fernández MI, Coz F. Mortalidad por cáncer de próstata en Chile: tendencias del período 1955-2019. *Rev Med Chil.* 2022;150(10):1370–1379. doi:[10.4067/S0034-98872022001001370](https://doi.org/10.4067/S0034-98872022001001370)
-6. Muñoz-Navarro S, Caglevic C, Sapunar J. Extent of cancer at the time of diagnosis in older adults: a cohort of a Chilean cancer insurance program (2018–2022). *Ecancermedicalscience.* 2026;20:2114. doi:[10.3332/ecancer.2026.2114](https://doi.org/10.3332/ecancer.2026.2114)
-7. Superintendencia de Salud. Problema de salud 28: Cáncer de próstata en personas de 15 años y más. [Superintendencia de Salud](https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/)
+1. Cornford P, van den Bergh RCN, Briers E, et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer-2026 Update. Part I: Screening, Diagnosis, and Local Treatment with Curative Intent. *Eur Urol.* 2026;90(3):254–269. doi:[10.1016/j.eururo.2026.04.013](https://doi.org/10.1016/j.eururo.2026.04.013)
+2. Cornford P, van den Bergh RCN, Briers E, et al. EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer-2024 Update. Part I: Screening, Diagnosis, and Local Treatment with Curative Intent. *Eur Urol.* 2024;86(2):148–163. doi:[10.1016/j.eururo.2024.03.027](https://doi.org/10.1016/j.eururo.2024.03.027)
+3. Roobol MJ, de Vos II, Månsson M, et al. European Study of Prostate Cancer Screening - 23-Year Follow-up. *N Engl J Med.* 2025;393(17):1669–1680. doi:[10.1056/NEJMoa2503223](https://doi.org/10.1056/NEJMoa2503223)
+4. Franco JV, Hwang EC, Jung JH, et al. Prostate-specific antigen (PSA) test for prostate cancer screening. *Cochrane Database Syst Rev.* 2026;(5):CD004720. doi:[10.1002/14651858.CD004720.pub4](https://doi.org/10.1002/14651858.CD004720.pub4)
+5. Kasivisvanathan V, Rannikko AS, Borghi M, et al. MRI-Targeted or Standard Biopsy for Prostate-Cancer Diagnosis. *N Engl J Med.* 2018;378(19):1767–1777. doi:[10.1056/NEJMoa1801993](https://doi.org/10.1056/NEJMoa1801993)
+6. López JF, Fernández MI, Coz F. Mortalidad por cáncer de próstata en Chile: tendencias del período 1955-2019. *Rev Med Chil.* 2022;150(10):1370–1379. doi:[10.4067/S0034-98872022001001370](https://doi.org/10.4067/S0034-98872022001001370)
+7. Muñoz-Navarro S, Caglevic C, Sapunar J. Extent of cancer at the time of diagnosis in older adults: a cohort of a Chilean cancer insurance program (2018–2022). *Ecancermedicalscience.* 2026;20:2114. doi:[10.3332/ecancer.2026.2114](https://doi.org/10.3332/ecancer.2026.2114)
+8. Superintendencia de Salud. Problema de salud 28: Cáncer de próstata en personas de 15 años y más. [Superintendencia de Salud](https://www.superdesalud.gob.cl/orientacion-en-salud/cancer-de-prostata-en-personas-de-15-anos-y-mas/)
