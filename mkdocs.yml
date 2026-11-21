@@ -4,7 +4,7 @@ site_url: https://jorgevillagrareyes-dotcom.github.io/laficha/
 repo_url: https://github.com/jorgevillagrareyes-dotcom/laficha
 repo_name: Código fuente
 site_author: Jorge Villagra Reyes
-copyright: "Resúmenes elaborados por Jorge Villagra Reyes, estudiante de medicina de la Universidad de Valparaíso, con apoyo de IA a partir de guías clínicas. Material de estudio de uso libre y sin fines comerciales; verificar siempre con la fuente original."
+copyright: "Resúmenes elaborados por Jorge Villagra Reyes, estudiante de medicina de la Universidad de Valparaíso, con apoyo de IA a partir de guías clínicas; verificar siempre con la fuente original. Contenido bajo licencia <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es'>CC BY-NC-SA 4.0</a> · código bajo licencia MIT (<a href='https://jorgevillagrareyes-dotcom.github.io/laficha/acerca/metodologia.html#licencia'>detalles</a>)."
 use_directory_urls: false
 
 theme:

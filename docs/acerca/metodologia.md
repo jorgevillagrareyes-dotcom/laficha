@@ -2,7 +2,7 @@
 
 ## Autor
 
-Los resúmenes fueron elaborados por **Jorge Villagra Reyes**, estudiante de medicina de la Universidad de Valparaíso, como material de estudio para el internado y el EUNACOM, y se comparten libremente con sus compañeros. Se pueden usar y compartir para estudiar, sin fines comerciales y citando la fuente.
+Los resúmenes fueron elaborados por **Jorge Villagra Reyes**, estudiante de medicina de la Universidad de Valparaíso, como material de estudio para el internado y el EUNACOM, y se comparten libremente con sus compañeros. Se pueden usar, compartir y adaptar sin fines comerciales, citando la fuente (ver [Licencia](#licencia)).
 
 ## Fuentes
 
@@ -32,6 +32,22 @@ Cada página indica cuándo se revisó por última vez. Las guías cambian: si v
 - **Sin conexión**: el sitio usa un *service worker*. Las páginas que visitas quedan guardadas y, desde [Mis temas](../mis-temas.md), puedes descargar el sitio completo. Con conexión, siempre se muestra la versión más reciente.
 - **Instalable**: en Android (Chrome) o iPhone (Safari), "Agregar a la pantalla de inicio" la abre a pantalla completa, como una app.
 - **Fuentes y accesibilidad**: las fuentes Source Sans 3 y Source Serif 4 (licencia SIL Open Font License) vienen incluidas en el sitio; el contraste de los textos cumple el nivel AA de las pautas WCAG en modo claro y oscuro.
+
+## Licencia
+
+- **Contenido** (resúmenes, tablas, esquemas propios, preguntas de repaso y fichas de fármacos): [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
+    - **Puedes** compartirlo (copiarlo, imprimirlo, enviarlo) y adaptarlo (resumirlo, traducirlo, usarlo en tus apuntes o presentaciones).
+    - **Siempre** citando: *La Ficha, Jorge Villagra Reyes, Universidad de Valparaíso*, con el enlace al sitio.
+    - **Sin fines comerciales**: no se puede vender ni usar en cursos o apuntes pagados.
+    - **Compartir igual**: si publicas una versión modificada, debe llevar esta misma licencia.
+- **Código del sitio** (calculadoras, atlas de ECG, generadores de procedimientos, scripts y estilos): [licencia MIT](https://github.com/jorgevillagrareyes-dotcom/laficha/blob/claude/amazing-hamilton-wkzqpo/LICENSE).
+- **Material de terceros**, que mantiene su propia licencia:
+    - Las **figuras de artículos científicos**: cada una indica autores y licencia en el pie.
+    - Los **electrocardiogramas reales** del atlas: base PTB-XL de PhysioNet, CC BY 4.0.
+    - Las **fuentes** Source Sans 3 y Source Serif 4: SIL Open Font License.
+    - **Bibliotecas**: Material for MkDocs, Mermaid y Three.js, con licencia MIT.
+
+El texto legal completo está en los archivos `LICENSE` (código) y `LICENSE-CONTENIDO.txt` (contenido) del [repositorio](https://github.com/jorgevillagrareyes-dotcom/laficha).
 
 ## Limitaciones
 

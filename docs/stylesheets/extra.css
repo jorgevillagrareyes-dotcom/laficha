@@ -403,8 +403,8 @@
 .md-footer__link, .md-footer__title, .md-footer__direction { color: var(--md-default-fg-color); }
 .md-footer__direction { color: var(--mi-tenue); opacity: 1; }
 .md-copyright, .md-copyright__highlight { color: var(--mi-tenue); }
-.md-footer-meta.md-typeset a { color: var(--mi-tenue); }
-.md-footer-meta.md-typeset a:hover { color: var(--md-default-fg-color); }
+html .md-footer-meta.md-typeset a { color: var(--mi-tenue); text-decoration: underline; text-underline-offset: 2px; }
+html .md-footer-meta.md-typeset a:hover { color: var(--md-default-fg-color); }
 
 /* Preguntas del día */
 .md-typeset .lf-fecha { font-family: var(--mi-display); font-style: italic; color: var(--mi-tenue); text-transform: none; }

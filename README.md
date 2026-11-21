@@ -1,12 +1,18 @@
 # La Ficha
 
-Resúmenes de medicina interna para el internado y el EUNACOM, elaborados por **Jorge Villagra Reyes**, estudiante de medicina de la Universidad de Valparaíso. Medicina interna está completa (las 385 situaciones clínicas del perfil EUNACOM v3 de 2026). Cirugía, traumatología, ginecología y obstetricia y pediatría están en preparación, con su temario ya publicado como lista de temas pendientes.
+Resúmenes de medicina interna para el internado y el EUNACOM, elaborados por **Jorge Villagra Reyes**, estudiante de medicina de la Universidad de Valparaíso. Cubre todas las especialidades del perfil EUNACOM v3 de 2026 (medicina interna, cirugía, traumatología, ginecología y obstetricia, pediatría, psiquiatría, especialidades y salud pública), además de herramientas para el internado: indicaciones al hospitalizado, procedimientos, valores de referencia, fármacos, calculadoras y atlas de ECG.
 
 **Leer en línea:** https://jorgevillagrareyes-dotcom.github.io/laficha/
 
 **Sin internet:** descarga el artefacto `la-ficha-offline` de la última ejecución de [Publicar sitio](https://github.com/jorgevillagrareyes-dotcom/laficha/actions/workflows/pages.yml) (requiere iniciar sesión en GitHub), descomprímelo y abre `index.html` (el buscador solo funciona en la versión en línea).
 
-Material de estudio de uso libre y sin fines comerciales. Los resúmenes se redactaron con apoyo de IA: verificar siempre las dosis y los criterios en la guía original.
+Los resúmenes se redactaron con apoyo de IA: verificar siempre las dosis y los criterios en la guía original.
+
+## Licencia
+
+- **Contenido** (`docs/` y `datos/`): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). Se puede compartir y adaptar citando al autor, sin fines comerciales y con la misma licencia. Texto completo en [`LICENSE-CONTENIDO.txt`](LICENSE-CONTENIDO.txt).
+- **Código**: [MIT](LICENSE).
+- Las figuras de artículos, los ECG de PTB-XL (CC BY 4.0), las fuentes (SIL OFL) y las bibliotecas de terceros mantienen su propia licencia.
 
 ## Ver el sitio en tu computador
 
