@@ -397,8 +397,7 @@
   }
 
   // "¿Encontraste un error?": al final de cada página con ficha, antes de las referencias.
-  // Correo de reportes: dejarlo vacío oculta esa vía (solo queda GitHub).
-  var CORREO_REPORTES = "";
+  // Abre el formulario de reporte de GitHub (.github/ISSUE_TEMPLATE/reportar-error.yml) con la página ya completada.
   var REPO = "https://github.com/jorgevillagrareyes-dotcom/laficha";
   function reportarError() {
     var ficha = document.querySelector(".md-typeset .ficha");
@@ -410,16 +409,11 @@
     var url = (can && can.href) || location.href.split("#")[0];
     var caja = document.createElement("div");
     caja.className = "lf-reporte";
-    var html = "<p><strong>¿Encontraste un error?</strong> Una dosis, un dato que no calza con la guía, un enlace roto o algo que no se entiende: avísame y lo corrijo.</p><p class='lf-reporte-vias'>";
-    if (CORREO_REPORTES) {
-      var cuerpo = "Página: " + titulo + "\n" + url + "\n\nQué está mal:\n\n\nCorrección o fuente sugerida (si la tienes):\n";
-      html += "<a class='lf-btn' href='mailto:" + CORREO_REPORTES + "?subject=" + encodeURIComponent("Error en La Ficha: " + titulo) +
-        "&body=" + encodeURIComponent(cuerpo) + "'>Reportar por correo</a> ";
-    }
-    html += "<a class='lf-btn' target='_blank' rel='noopener' href='" + REPO + "/issues/new?template=reportar-error.yml&title=" +
-      encodeURIComponent("[Error] " + titulo) + "&pagina=" + encodeURIComponent(url) + "'>Reportar en GitHub</a>" +
-      "<span class='lf-reporte-nota'>" + (CORREO_REPORTES ? "GitHub necesita una cuenta." : "Necesita una cuenta de GitHub.") + "</span></p>";
-    caja.innerHTML = html;
+    caja.innerHTML = "<p><strong>¿Encontraste un error?</strong> Una dosis, un dato que no calza con la guía, un enlace roto o algo que no se entiende: avísame y lo corrijo.</p>" +
+      "<p class='lf-reporte-vias'><a class='lf-btn' target='_blank' rel='noopener' href='" + REPO +
+      "/issues/new?template=reportar-error.yml&title=" + encodeURIComponent("[Error] " + titulo) +
+      "&pagina=" + encodeURIComponent(url) + "'>Reportar en GitHub</a>" +
+      "<span class='lf-reporte-nota'>Necesita una cuenta de GitHub (gratuita).</span></p>";
     var refs = art.querySelector("h2#referencias");
     art.insertBefore(caja, refs || null);
   }
