@@ -879,3 +879,12 @@ html .md-footer-meta.md-typeset a:hover { color: var(--md-default-fg-color); }
 @media screen and (max-width: 44.9375em) {
   .md-typeset details.ecg-seccion > summary .ecg-sec-txt small { display: none; }
 }
+
+/* "¿Encontraste un error?" al final de las páginas con ficha */
+.md-typeset .lf-reporte { margin: 2rem 0 1.2rem; padding: 0.8rem 1rem; border: 1px solid var(--mi-linea); border-left: 3px solid var(--mi-tenue); border-radius: 0.2rem; }
+.md-typeset .lf-reporte p { margin: 0 0 0.5rem; }
+.md-typeset .lf-reporte p:last-child { margin-bottom: 0; }
+.md-typeset .lf-reporte-vias { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.md-typeset .lf-reporte .lf-btn { text-decoration: none; }
+.md-typeset .lf-reporte-nota { color: var(--mi-tenue); font-size: 0.85em; }
+@media print { .md-typeset .lf-reporte { display: none; } }

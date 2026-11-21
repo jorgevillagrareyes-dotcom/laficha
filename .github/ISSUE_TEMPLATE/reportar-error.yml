@@ -1,0 +1,43 @@
+name: Reportar un error
+description: Un dato clínico, una dosis, una referencia, un enlace roto o algo que no funciona en La Ficha.
+title: "[Error] "
+labels: ["error de contenido"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Mientras más concreto, más rápido se corrige. Si tienes la guía o el artículo que respalda la corrección, agrégalo.
+  - type: input
+    id: pagina
+    attributes:
+      label: Página
+      description: Enlace a la página con el error (se completa solo si llegaste desde el botón).
+      placeholder: https://jorgevillagrareyes-dotcom.github.io/laficha/...
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de error
+      options:
+        - Dosis o dato clínico
+        - Criterio o punto de corte distinto a la guía
+        - Referencia o guía desactualizada
+        - Enlace roto o figura que no carga
+        - Redacción confusa o falta de ortografía
+        - Algo no funciona (calculadora, buscador, app)
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Qué está mal
+      description: Copia el texto o la sección y explica el problema.
+    validations:
+      required: true
+  - type: textarea
+    id: fuente
+    attributes:
+      label: Corrección o fuente sugerida
+      description: Opcional. La guía, el artículo o el dato correcto, con enlace si lo tienes.
