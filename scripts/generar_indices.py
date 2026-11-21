@@ -627,6 +627,7 @@ def main():
         "      - Índice A–Z: indice-alfabetico.md",
         "      - Mis temas: mis-temas.md",
         "  - Acerca de:",
+        "      - Novedades: acerca/novedades.md",
         "      - Cómo se hacen los resúmenes: acerca/metodologia.md",
         "      - Temas GES y etiquetas: acerca/etiquetas.md",
     ]
